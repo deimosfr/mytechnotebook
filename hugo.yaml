@@ -1,0 +1,60 @@
+baseURL: 'https://wiki.deimos.fr/'
+languageCode: 'en-us'
+title: 'Tech Notebook'
+enableEmoji: true
+enableGitInfo: true
+refLinksErrorLevel: warning
+refLinksNotFoundURL: /docs
+enableRobotsTXT: true
+
+# Github Pages configuration
+caches:
+  images:
+    dir: :cacheDir/images
+
+services:
+  googleAnalytics:
+      id: G-4EGFC89L7K
+
+module:
+  replacements: "github.com/colinwilson/lotusdocs -> lotusdocs"
+  imports:
+    - path: "github.com/colinwilson/lotusdocs"
+      disable: false
+    - path: "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
+      disable: false
+
+# Allow raw HTML in Markdown content
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    lineNos: true
+    style: doom-one
+
+params:
+  description: "My tech notebook for all things related to technology, programming, and more."
+  social:
+    twitter: "deimosfr"
+    github: "deimosfr"
+    rss: true
+  docs:
+    breadcrumbs: true
+    breadcrumbsHomeLink: "/home/"
+    # disabled because of https://github.com/colinwilson/lotusdocs/issues/236
+    prism: false
+    prismTheme: "twilight"
+    sidebarIcons: true
+    simpleIcons: true
+    darkMode: true
+    repoURL: "https://github.com/deimosfr/blocnotesinfo"
+    repoBranch: "main"
+    editPage: true
+    lastMod: true
+    useLastmodTime: true
+    lastModRelative: false
+    intLinkTooltip: true
+  # Adding flexsearch configuration to fix the IsSet error message
+  flexsearch:
+    enabled: true

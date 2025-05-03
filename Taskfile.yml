@@ -1,0 +1,56 @@
+version: '3'
+
+tasks:
+  init:
+    desc: Initialize the project with git submodules
+    cmds:
+      - git submodule update --init
+
+  index_generator:
+    desc: Generate index tree
+    cmds:
+      - "go run scripts/index_generator.go"
+      - "go run scripts/update_navigation.go"
+
+  images_optimization:
+    desc: Optimize images
+    cmds:
+      - "go run scripts/convert_to_avif.go"
+
+  check_internal_dead_links:
+    desc: Check for dead links in markdown files
+    cmds:
+      - go run scripts/check_dead_links.go
+  
+  clean_internal_dead_links:
+    desc: Clean dead links in markdown files
+    cmds:
+      - go run scripts/check_dead_links.go --fix
+
+  check_all_dead_links:
+    desc: Check for internal and external dead links in markdown files
+    cmds:
+      - go run scripts/check_dead_links.go -with-external-links
+  
+  clean_all_dead_links:
+    desc: Clean for internal and external dead links in markdown files
+    cmds:
+      - go run scripts/check_dead_links.go -with-external-links --fix
+
+  run:
+    desc: Start the Hugo server, generate indexes, and perform checks
+    deps:
+      - index_generator
+    cmds:
+      - hugo server -D
+      - task: index_generator
+      - task: images_optimization
+      - task: check_internal_dead_links
+  
+  update_theme:
+    desc: Update the theme
+    cmds:
+      - git clone https://github.com/colinwilson/lotusdocs themes/lotusdocs-new
+      - cd themes/lotusdocs-new && git checkout release && cd -
+      - cp -Rf themes/lotusdocs-new/* themes/lotusdocs/
+      - defer: rm -rf themes/lotusdocs-new
