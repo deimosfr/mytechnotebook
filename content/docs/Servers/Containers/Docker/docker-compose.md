@@ -1,5 +1,6 @@
 ---
 title: "Docker Compose: create and manage multi-container applications"
+description: "Defining and running multi-container Docker applications with Docker Compose"
 date: 2025-05-03T12:00:00+01:00
 draft: false
 ---

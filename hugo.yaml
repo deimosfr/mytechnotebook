@@ -55,6 +55,7 @@ params:
     useLastmodTime: true
     lastModRelative: false
     intLinkTooltip: true
+    extLinkNewTab: true
   # Adding flexsearch configuration to fix the IsSet error message
   flexsearch:
     enabled: true
