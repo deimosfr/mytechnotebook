@@ -26,6 +26,12 @@ It's now accessible at [http://localhost:1313](http://localhost:1313).
 
 # Write documentation
 
+To create a new page, you can use the following command:
+
+```bash
+hugo new docs/your_page_name.md
+```
+
 ## Code blocks highlights
 
 Should be written this way:
