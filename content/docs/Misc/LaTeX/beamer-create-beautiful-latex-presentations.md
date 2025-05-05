@@ -17,7 +17,6 @@ toc: true
 | **Software version** | 3.24-1 |
 | **Operating System** | Debian 7 |
 | **Website** | [Website](https://bitbucket.org/rivanvx/beamer/wiki/HomeBeamer) |
-| **Last Update** | 04/09/2013 |
 {{< /table >}}
 
 ## Introduction

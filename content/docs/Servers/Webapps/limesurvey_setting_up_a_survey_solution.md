@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 2.00+ (Build 121115) |
 | **Operating System** | Debian 6 + backports |
 | **Website** | [Limesurvey Website](https://www.limesurvey.org/) |
-| **Last Update** | 14/11/2012 |
 {{< /table >}}
 
 ## Introduction

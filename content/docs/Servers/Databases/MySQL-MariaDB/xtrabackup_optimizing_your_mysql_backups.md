@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 2.1.2-611.wheezy |
 | **Operating System** | Debian 7 |
 | **Website** | [XtraBackup Website](https://www.percona.com/doc/percona-xtrabackup/) |
-| **Last Update** | 27/12/2013 |
 {{< /table >}}
 
 ## Introduction

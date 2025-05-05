@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 0.50 |
 | **Operating System** | Debian 7 |
 | **Website** | [NAXSI Website](https://github.com/nbs-system/naxsi) |
-| **Last Update** | 10/04/2014 |
 | **Others** | Dotdeb |
 {{< /table >}}
 

@@ -17,7 +17,6 @@ toc: true
 |-|-|
 | **Operating System** | Debian 7 |
 | **Website** | [Vagrant Website](https://www.vagrantup.com/) |
-| **Last Update** | 13/03/2014 |
 | **Others** | VirtualBox |
 {{< /table >}}
 

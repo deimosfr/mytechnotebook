@@ -19,7 +19,6 @@ toc: true
 | **Software version** | Varnish 2 |
 | **Operating System** | Debian 6 |
 | **Website** | [Varnish Website](https://www.varnish-cache.org/) |
-| **Last Update** | 25/06/2013 |
 {{< /table >}}
 
 ## Introduction

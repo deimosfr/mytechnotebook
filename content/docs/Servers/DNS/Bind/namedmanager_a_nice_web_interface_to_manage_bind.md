@@ -28,7 +28,6 @@ toc: true
 | **Software version** | 1.5.1 |
 | **Operating System** | Debian 7 |
 | **Website** | [Namedmanager Website](https://github.com/jethrocarr/namedmanager) |
-| **Last Update** | 14/04/2013 |
 {{< /table >}}
 
 ## Introduction

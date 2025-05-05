@@ -23,7 +23,6 @@ toc: true
 | **Software version** | 0.3.8 |
 | **Operating System** | Debian 7 |
 | **Website** | [Weechat Website](https://www.weechat.org/) |
-| **Last Update** | 17/07/2013 |
 {{< /table >}}
 
 ## Introduction

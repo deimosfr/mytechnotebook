@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 1.9.0 |
 | **Operating System** | Debian 7 |
 | **Website** | [Selenium Website](https://seleniumhq.org/) |
-| **Last Update** | 19/12/2012 |
 {{< /table >}}
 
 ## Introduction

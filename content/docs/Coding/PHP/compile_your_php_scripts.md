@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 5.3 |
 | **Operating System** | Debian 6 |
 | **Website** | [PHP Website](https://www.php.net) |
-| **Last Update** | 08/05/2013 |
 {{< /table >}}
 
 ## Introduction

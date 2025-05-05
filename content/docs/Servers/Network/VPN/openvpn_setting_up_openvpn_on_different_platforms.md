@@ -20,7 +20,6 @@ toc: true
 | **Software version** | OpenVPN 2.x |
 | **Operating System** | Debian 6<br />OpenBSD 5.9<br />FreeBSD 9 |
 | **Website** | [OpenVPN Website](https://openvpn.net/) |
-| **Last Update** | 30/05/2013 |
 {{< /table >}}
 
 ## Introduction

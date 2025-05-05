@@ -17,7 +17,6 @@ toc: true
 |-|-|
 | **Operating System** | 6.0.1 |
 | **Website** | [NetBSD Website](https://www.netbsd.org/) |
-| **Last Update** | 15/03/2013 |
 {{< /table >}}
 
 ## Introduction

@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 2.1.6 |
 | **Operating System** | Debian 6 |
 | **Website** | [PowerAdmin Website](https://www.poweradmin.org) |
-| **Last Update** | 15/05/2012 |
 {{< /table >}}
 
 ## Introduction

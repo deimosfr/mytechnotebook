@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 4.2.5 |
 | **Operating System** | Debian 6 |
 | **Website** | [Bugzilla Website](https://www.bugzilla.org/) |
-| **Last Update** | 03/07/2013 |
 {{< /table >}}
 
 ## Introduction

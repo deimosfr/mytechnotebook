@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 1.1.12p7 |
 | **Operating System** | Debian 6 |
 | **Website** | [Check MK Website](https://mathias-kettner.de) |
-| **Last Update** | 25/05/2012 |
 {{< /table >}}
 
 ## Introduction

@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 4.8.02 |
 | **Operating System** | RHEL 6.2 |
 | **Website** | [Cisco Website](https://www.cisco.com/) |
-| **Last Update** | 06/04/2012 |
 {{< /table >}}
 
 ## Introduction

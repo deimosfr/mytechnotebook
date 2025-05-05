@@ -15,7 +15,6 @@ toc: true
 |-|-|
 | **Operating System** | Debian 8 |
 | **Website** | [Infinality Website](https://www.infinality.net/blog/) |
-| **Last Update** | 17/02/2014 |
 {{< /table >}}
 
 ## Introduction

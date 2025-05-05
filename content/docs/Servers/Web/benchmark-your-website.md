@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 2.3 |
 | **Operating System** | Ubuntu 12.10 |
 | **Website** | [Apache Website](https://www.apache.org) |
-| **Last Update** | 16/01/2013 |
 | **Others** | Server: Debian 7 |
 {{< /table >}}
 

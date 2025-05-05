@@ -16,7 +16,6 @@ toc: true
 | **Software version** | Core 3.2.1 |
 | **Operating System** | Debian 6 |
 | **Website** | [Nagios Website](https://www.nagios.org) |
-| **Last Update** | 08/02/2013 |
 {{< /table >}}
 
 ## Introduction

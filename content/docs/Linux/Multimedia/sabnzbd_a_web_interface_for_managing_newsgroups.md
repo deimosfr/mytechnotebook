@@ -17,7 +17,6 @@ toc: true
 |-|-|
 | **Operating System** | Debian 6/7 |
 | **Website** | [Sabnzbd Website](https://sabnzbd.org/) |
-| **Last Update** | 19/06/2013 |
 {{< /table >}}
 
 ## Introduction

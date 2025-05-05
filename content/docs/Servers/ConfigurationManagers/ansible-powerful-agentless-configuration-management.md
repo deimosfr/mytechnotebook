@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 1.6.2 |
 | **Operating System** | Debian 8 |
 | **Website** | [Ansible Website](https://www.ansible.com) |
-| **Last Update** | 26/02/2015 |
 {{< /table >}}
 
 ## Introduction

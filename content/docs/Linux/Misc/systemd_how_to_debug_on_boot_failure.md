@@ -17,7 +17,6 @@ toc: true
 |-|-|
 | **Software version** | 208-6 |
 | **Operating System** | Debian 8 |
-| **Last Update** | 27/07/2014 |
 {{< /table >}}
 
 ## Introduction

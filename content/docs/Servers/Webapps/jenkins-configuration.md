@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 1.447 |
 | **Operating System** | Debian 7 |
 | **Website** | [Jenkins](https://jenkins-ci.org/) |
-| **Last Update** | 12/04/2013 |
 {{< /table >}}
 
 ## Introduction

@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 1.30 |
 | **Operating System** | Debian 6 |
 | **Website** | [Thruk Website](https://www.thruk.org) |
-| **Last Update** | 30/05/2012 |
 {{< /table >}}
 
 ## Introduction

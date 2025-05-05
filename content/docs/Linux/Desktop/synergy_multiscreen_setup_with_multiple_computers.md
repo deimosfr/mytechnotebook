@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 1.3 |
 | **Operating System** | Debian 6<br />Mac OS 10.5+ |
 | **Website** | [Synergy Website](https://synergy-foss.org) |
-| **Last Update** | 07/11/2012 |
 {{< /table >}}
 
 ## Introduction

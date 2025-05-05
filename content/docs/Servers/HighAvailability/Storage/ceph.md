@@ -24,7 +24,6 @@ toc: true
 | **Software version** | 0.72.2 |
 | **Operating System** | Debian 7 |
 | **Website** | [Ceph Website](https://ceph.com/) |
-| **Last Update** | 02/06/2014 |
 {{< /table >}}
 
 ![Ceph](/images/ceph_logo.avif)

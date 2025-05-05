@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 1.7.30.3 |
 | **Operating System** | Debian 7 |
 | **Website** | [PageSpeed Website](https://developers.google.com/speed/pagespeed/module) |
-| **Last Update** | 19/02/2014 |
 | **Others** | Nginx 1.4.4-1 |
 {{< /table >}}
 

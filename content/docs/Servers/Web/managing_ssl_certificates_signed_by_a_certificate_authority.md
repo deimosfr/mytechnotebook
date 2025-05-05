@@ -17,7 +17,6 @@ toc: true
 |-|-|
 | **Operating System** | Debian 7 |
 | **Website** | [StartSSL Website](https://www.startssl.com) |
-| **Last Update** | 17/02/2015 |
 | **Others** | Nginx 1.2.1<br />Lighttpd 1.4.31 |
 {{< /table >}}
 

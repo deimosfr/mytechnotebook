@@ -16,7 +16,6 @@ toc: true
 |||
 |-|-|
 | **Operating System** | Windows 2008 R2 |
-| **Last Update** | 16/02/2014 |
 {{< /table >}}
 
 ## Introduction

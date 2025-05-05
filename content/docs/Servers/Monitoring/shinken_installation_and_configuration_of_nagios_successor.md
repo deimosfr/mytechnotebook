@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 1.2.2 |
 | **Operating System** | Debian 7 |
 | **Website** | [Shinken Website](https://www.shinken-monitoring.org) |
-| **Last Update** | 03/01/2013 |
 {{< /table >}}
 
 ## Introduction

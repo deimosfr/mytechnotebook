@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 0.19 |
 | **Operating System** | Debian 7 |
 | **Website** | [BTRFS Website](https://btrfs.wiki.kernel.org) |
-| **Last Update** | 05/07/2012 |
 | **Others** | Kernel used:<br>3.2.0-2-amd64 |
 {{< /table >}}
 

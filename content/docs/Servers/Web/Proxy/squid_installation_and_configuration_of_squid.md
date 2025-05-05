@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 2.7 |
 | **Operating System** | FreeBSD 9<br>Debian 6 |
 | **Website** | [Squid Website](https://www.squid-cache.org/) |
-| **Last Update** | 06/06/2012 |
 {{< /table >}}
 
 ## Introduction

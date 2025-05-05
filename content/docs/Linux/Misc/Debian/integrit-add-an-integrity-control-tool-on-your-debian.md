@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 4.1 |
 | **Operating System** | Debian 7 |
 | **Website** | [Integrit Website](https://sourceforge.net/projects/integrit/) |
-| **Last Update** | 07/05/2013 |
 {{< /table >}}
 
 ## Introduction

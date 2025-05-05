@@ -17,7 +17,6 @@ toc: true
 |-|-|
 | **Operating System** | Debian X |
 | **Website** | [Debian Website](https://www.debian.org) |
-| **Last Update** | 05/07/2013 |
 {{< /table >}}
 
 ## Introduction

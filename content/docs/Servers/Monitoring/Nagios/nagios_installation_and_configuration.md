@@ -17,7 +17,6 @@ toc: true
 |-|-|
 | **Software version** | Nagios 3 |
 | **Operating System** | Debian 6 |
-| **Last Update** | 08/09/2014 |
 {{< /table >}}
 
 ## Introduction

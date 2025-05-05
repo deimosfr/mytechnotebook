@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 3.4.2 |
 | **Operating System** | Debian 7 |
 | **Website** | [Gnome Website](https://www.gnome.org/) |
-| **Last Update** | 07/10/2012 |
 {{< /table >}}
 
 ## Introduction

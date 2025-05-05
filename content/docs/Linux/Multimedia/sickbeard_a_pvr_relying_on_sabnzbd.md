@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 830b3b1 |
 | **Operating System** | Debian 7 |
 | **Website** | [Sick-Beard Website](https://sickbeard.com) |
-| **Last Update** | 26/09/2012 |
 {{< /table >}}
 
 ## Introduction

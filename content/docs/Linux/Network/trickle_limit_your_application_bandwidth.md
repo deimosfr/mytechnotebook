@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 1.07 |
 | **Operating System** | Debian 7 |
 | **Website** | [Trickle Website](https://monkey.org/~marius/pages/?page=trickle) |
-| **Last Update** | 06/05/2013 |
 {{< /table >}}
 
 ## Introduction

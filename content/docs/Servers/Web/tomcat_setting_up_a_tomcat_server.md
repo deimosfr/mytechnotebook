@@ -30,7 +30,6 @@ toc: true
 | **Software version** | 5.5/6/7 |
 | **Operating System** | Debian 6 |
 | **Website** | [Tomcat Website](https://tomcat.apache.org/) |
-| **Last Update** | 17/06/2013 |
 {{< /table >}}
 
 ## Introduction

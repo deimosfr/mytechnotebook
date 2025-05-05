@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 1.4 |
 | **Operating System** | Debian 7 |
 | **Website** | [AutoSSH Website](https://www.harding.motd.ca/autossh/) |
-| **Last Update** | 20/03/2013 |
 | **Others** | |
 {{< /table >}}
 

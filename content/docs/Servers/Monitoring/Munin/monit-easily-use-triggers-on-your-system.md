@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 5.4-2 |
 | **Operating System** | Debian 7 |
 | **Website** | [Monit Website](https://mmonit.com) |
-| **Last Update** | 28/05/2014 |
 {{< /table >}}
 
 ## Introduction

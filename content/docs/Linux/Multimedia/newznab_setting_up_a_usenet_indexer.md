@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 0.2.3 |
 | **Operating System** | Debian 6 |
 | **Website** | [Newznab Website](https://www.newznab.com/) |
-| **Last Update** | 28/12/2012 |
 {{< /table >}}
 
 ## Introduction

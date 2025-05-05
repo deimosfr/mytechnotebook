@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 2.5.0 |
 | **Operating System** | Debian 6 |
 | **Website** | [Pootle Website](https://pootle.translatehouse.org/) |
-| **Last Update** | 06/09/2013 |
 {{< /table >}}
 
 ## Introduction

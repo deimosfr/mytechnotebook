@@ -32,7 +32,6 @@ toc: true
 |-|-|
 | **Software version** | 5.10 |
 | **Website** | [Perl Website](https://www.perl.org) |
-| **Last Update** | 13/10/2012 |
 {{< /table >}}
 
 ## Introduction

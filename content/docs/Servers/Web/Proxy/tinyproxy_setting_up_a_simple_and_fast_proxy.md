@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 1.8.3 |
 | **Operating System** | Debian 7 |
 | **Website** | [TinyProxy Website](https://banu.com/tinyproxy/) |
-| **Last Update** | 27/07/2012 |
 {{< /table >}}
 
 ## Introduction

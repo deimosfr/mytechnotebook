@@ -17,7 +17,6 @@ toc: true
 |-|-|
 | **Software version** | Nagios 3<br>Check Mk 1.1.12p7<br>Thruk 1.30 |
 | **Operating System** | Debian 6 |
-| **Last Update** | 28/06/2012 |
 {{< /table >}}
 
 ## Introduction

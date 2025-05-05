@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 1.1.19-1 |
 | **Operating System** | Debian 7 |
 | **Website** | [Fluentd Website](https://fluentd.org/) |
-| **Last Update** | 10/05/2014 |
 | **Others** | [Elasticsearch](https://www.elasticsearch.org) 1.1<br />[Kibana](https://www.elasticsearch.org/overview/kibana/) 3.0.1 |
 {{< /table >}}
 

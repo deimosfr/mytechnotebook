@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 5/6 |
 | **Operating System** | RHEL 5/6 |
 | **Website** | [Red Hat Website](https://www.redhat.com) |
-| **Last Update** | 14/05/2012 |
 {{< /table >}}
 
 ## Introduction

@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 2.9.22 |
 | **Operating System** | Debian 6 |
 | **Website** | [PowerDNS Website](https://www.powerdns.com) |
-| **Last Update** | 15/05/2012 |
 {{< /table >}}
 
 ## Introduction

@@ -27,7 +27,6 @@ toc: true
 | **Software version** | 1.5.2 |
 | **Operating System** | Debian 7 |
 | **Website** | [Puppet Website](https://puppetlabs.com/) |
-| **Last Update** | 28/10/2013 |
 {{< /table >}}
 
 ## Introduction

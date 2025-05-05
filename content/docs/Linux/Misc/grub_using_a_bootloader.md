@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 1 & 2 |
 | **Operating System** | Linux |
 | **Website** | [Grub Website](https://www.gnu.org/software/grub/) |
-| **Last Update** | 25/04/2012 |
 {{< /table >}}
 
 ## Introduction

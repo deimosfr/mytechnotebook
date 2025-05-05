@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 1.2 |
 | **Operating System** | Debian 7 |
 | **Website** | [Belier Website](https://www.ohmytux.com/belier/) |
-| **Last Update** | 06/05/2013 |
 {{< /table >}}
 
 ## Introduction

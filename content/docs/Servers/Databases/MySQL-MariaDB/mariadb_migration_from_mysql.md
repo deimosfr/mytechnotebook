@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 10 |
 | **Operating System** | Debian 7 |
 | **Website** | [MariaDB Website](https://mariadb.org/) |
-| **Last Update** | 01/04/2014 |
 {{< /table >}}
 
 ## Introduction

@@ -17,7 +17,6 @@ toc: true
 | **Software version** | 5.4.1 |
 | **Operating System** | RHEL 6.2 |
 | **Website** | [Red Hat Website](https://www.redhat.com/products/enterprise-linux/rhn-satellite/) |
-| **Last Update** | 22/06/2012 |
 {{< /table >}}
 
 ## Introduction

@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 0.206-2 |
 | **Operating System** | Debian 7 |
 | **Website** | [ZNC Website](https://wiki.znc.in/ZNC) |
-| **Last Update** | 14/04/2014 |
 {{< /table >}}
 
 ## Introduction

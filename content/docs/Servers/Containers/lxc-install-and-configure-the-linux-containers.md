@@ -16,7 +16,6 @@ toc: true
 | **Software version** | 0.8 |
 | **Operating System** | Debian 7 |
 | **Website** | [LXC Website](https://lxc.sourceforge.net/) |
-| **Last Update** | 22/02/2015 |
 {{< /table >}}
 
 ## Introduction

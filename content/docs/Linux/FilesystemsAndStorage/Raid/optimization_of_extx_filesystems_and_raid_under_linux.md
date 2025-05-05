@@ -27,7 +27,6 @@ toc: true
 | **Software version** | Kernel 2.6.32+ |
 | **Operating System** | Red Hat 6.3<br>Debian 7 |
 | **Website** | [Kernel Website](https://www.kernel.org) |
-| **Last Update** | 13/02/2013 |
 {{< /table >}}
 
 ## Introduction

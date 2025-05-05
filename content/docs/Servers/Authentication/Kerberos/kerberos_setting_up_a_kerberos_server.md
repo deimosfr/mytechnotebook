@@ -17,7 +17,6 @@ toc: true
 |-|-|
 | **Software version** | 5 |
 | **Operating System** | Red Hat 6<br />Debian 6 |
-| **Last Update** | 06/10/2012 |
 {{< /table >}}
 
 ## Introduction

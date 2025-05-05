@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 1.2.3 |
 | **Operating System** | Debian 7 |
 | **Website** | [LemonLDAP::NG Website](https://lemonldap-ng.org) |
-| **Last Update** | 16/03/2013 |
 | **Others** | Apache 2.2 |
 {{< /table >}}
 

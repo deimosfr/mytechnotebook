@@ -18,7 +18,6 @@ toc: true
 | **Software version** | Seafile 3.0 |
 | **Operating System** | Debian 7 |
 | **Website** | [Seafile Website](https://seafile.com) |
-| **Last Update** | 22/06/2014 |
 {{< /table >}}
 
 ## Introduction

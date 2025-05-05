@@ -27,7 +27,6 @@ toc: true
 | **Software version** | 2.4.23+ |
 | **Operating System** | Debian 6 |
 | **Website** | [OpenLDAP Website](https://www.openldap.org/) |
-| **Last Update** | 28/03/2013 |
 {{< /table >}}
 
 ## Introduction

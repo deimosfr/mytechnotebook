@@ -16,7 +16,6 @@ toc: true
 | **Software version** | 2.0.24 |
 | **Operating System** | Debian 7 |
 | **Website** | [Ubiquiti Website](https://www.ubnt.com) |
-| **Last Update** | 27/07/2014 |
 {{< /table >}}
 
 ## Introduction

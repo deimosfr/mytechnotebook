@@ -27,7 +27,6 @@ toc: true
 | **Software version** | 5.5 |
 | **Operating System** | Debian 7 |
 | **Website** | [MariaDB Website](https://mariadb.org/) |
-| **Last Update** | 19/04/2014 |
 | **Others** | Galera 23.2.4(r147) |
 {{< /table >}}
 

@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 4.5.6 |
 | **Operating System** | Debian 7 |
 | **Website** | [ownCloud Website](https://owncloud.org/) |
-| **Last Update** | 26/02/2013 |
 | **Others** | MariaDB 5.5 |
 {{< /table >}}
 

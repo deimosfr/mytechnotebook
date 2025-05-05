@@ -27,7 +27,6 @@ toc: true
 | **Software version** | 2.7.1 |
 | **Operating System** | Debian 6 |
 | **Website** | [Postfix Website](https://www.postfix.org/) |
-| **Last Update** | 06/06/2012 |
 {{< /table >}}
 
 ## Introduction

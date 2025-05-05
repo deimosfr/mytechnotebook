@@ -18,7 +18,6 @@ toc: true
 |-|-|
 | **Operating System** | Debian 7/8 |
 | **Website** | [Yubikey Website](https://www.yubico.com/) |
-| **Last Update** | 22/04/2015 |
 {{< /table >}}
 
 ## Introduction

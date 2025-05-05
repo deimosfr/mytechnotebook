@@ -29,7 +29,6 @@ toc: true
 |---|---|
 | **Software version** | 2.7 / 3.2 |
 | **Website** | [Python Website](https://www.python.org/) |
-| **Last Update** | 06/06/2012 |
 {{< /table >}}
 
 ## Introduction

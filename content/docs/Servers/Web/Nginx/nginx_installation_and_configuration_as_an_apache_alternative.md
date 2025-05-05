@@ -19,7 +19,6 @@ toc: true
 | **Software version** | 1.2.1 |
 | **Operating System** | Debian 7 |
 | **Website** | [Nginx Website](https://nginx.org/) |
-| **Last Update** | 29/08/2014 |
 {{< /table >}}
 
 ## Introduction

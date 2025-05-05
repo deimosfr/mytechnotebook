@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 2.4.14 |
 | **Operating System** | Debian 6 |
 | **Website** | [OTRS Website](https://www.otrs.com) |
-| **Last Update** | 31/10/2012 |
 {{< /table >}}
 
 ## Introduction

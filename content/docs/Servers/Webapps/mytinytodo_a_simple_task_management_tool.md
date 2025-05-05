@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 1.4.2 |
 | **Operating System** | Debian 6 |
 | **Website** | [MyTinyTodo Website](https://www.mytinytodo.net/) |
-| **Last Update** | 20/04/2012 |
 {{< /table >}}
 
 ## Introduction

@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 1.6.1/Latest |
 | **Operating System** | Debian 7 |
 | **Website** | [Glances Website](https://github.com/nicolargo/glances) |
-| **Last Update** | 11/08/2013 |
 {{< /table >}}
 
 ## Introduction

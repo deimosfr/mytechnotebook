@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 2.7 |
 | **Operating System** | Debian 7 |
 | **Website** | [Selfoss Website](https://selfoss.aditu.de/) |
-| **Last Update** | 14/06/2013 |
 | **Others** | Nginx |
 {{< /table >}}
 

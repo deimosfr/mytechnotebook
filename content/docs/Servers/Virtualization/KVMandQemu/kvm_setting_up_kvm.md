@@ -19,7 +19,6 @@ toc: true
 | **Software version** | 0.12.5 |
 | **Operating System** | Debian 6 |
 | **Website** | [KVM Website](https://www.linux-kvm.org/) |
-| **Last Update** | 03/03/2015 |
 {{< /table >}}
 
 ## Introduction

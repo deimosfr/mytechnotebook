@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 3.4.11 |
 | **Operating System** | Debian 7 |
 | **Website** | [Website](https://awesome.naquadah.org) |
-| **Last Update** | 28/03/2013 |
 {{< /table >}}
 
 ## Introduction

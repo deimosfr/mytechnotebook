@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 1.2.17 |
 | **Operating System** | Debian 7 |
 | **Website** | [Puppet Dashboard Website](https://puppetlabs.com/puppet/related-projects/dashboard/) |
-| **Last Update** | 05/01/2013 |
 | **Others** | Clients OS:<br />Debian 6/7<br />RHEL 6 |
 {{< /table >}}
 

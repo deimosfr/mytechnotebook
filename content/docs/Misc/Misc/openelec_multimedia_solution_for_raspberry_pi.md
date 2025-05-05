@@ -16,7 +16,6 @@ toc: true
 | **Software version** | 3.0 (2.99.2) |
 | **Operating System** | Linux |
 | **Website** | [OpenElec Website](https://openelec.tv/) |
-| **Last Update** | 12/02/2013 |
 | **Others** | Raspberry Pi B |
 {{< /table >}}
 

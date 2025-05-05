@@ -17,7 +17,6 @@ toc: true
 |-|-|
 | **Operating System** | FreeBSD 9 |
 | **Website** | [FreeBSD Website](https://www.freebsd.org) |
-| **Last Update** | 14/06/2012 |
 {{< /table >}}
 
 ## Introduction

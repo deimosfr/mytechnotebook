@@ -27,7 +27,6 @@ toc: true
 | **Software version** | 2.2 |
 | **Operating System** | Red Hat 6.4 |
 | **Website** | [Sosreport Website](https://github.com/sosreport/sosreport) |
-| **Last Update** | 15/03/2013 |
 | **Others** | CentOS 6.4 |
 {{< /table >}}
 

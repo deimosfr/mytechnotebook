@@ -17,7 +17,6 @@ toc: true
 |||
 |-|-|
 | **Operating System** | Debian 7 |
-| **Last Update** | 08/08/2013 |
 {{< /table >}}
 
 ## Introduction

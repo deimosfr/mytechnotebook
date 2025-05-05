@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 17+ |
 | **Operating System** | Windows 2003 RC2<br />Windows 7 |
 | **Website** | [Firefox Website](https://www.mozilla.org) |
-| **Last Update** | 22/01/2013 |
 | **Others** |  |
 {{< /table >}}
 

@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 1.0 |
 | **Operating System** | Debian 6 |
 | **Website** | [Website](https://blog.is-a-geek.org/apache-file-listing-mit-eigenem-theme-verschonern) |
-| **Last Update** | 09/04/2012 |
 {{< /table >}}
 
 ## Introduction

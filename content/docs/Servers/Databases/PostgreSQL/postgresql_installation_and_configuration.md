@@ -21,7 +21,6 @@ toc: true
 | **Software version** | 8.3+ |
 | **Operating System** | Debian 6 |
 | **Website** | [PostgreSQL Website](https://www.postgresql.org/) |
-| **Last Update** | 16/11/2012 |
 {{< /table >}}
 
 ## Introduction

@@ -15,7 +15,6 @@ toc: true
 |-|-|
 | **Operating System** | RHEL 6.2 |
 | **Website** | [Debian Website](https://www.debian.org) |
-| **Last Update** | 07/05/2013 |
 {{< /table >}}
 
 ## Introduction

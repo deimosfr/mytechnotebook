@@ -18,7 +18,6 @@ toc: true
 | **Software version** | 2.0.4 |
 | **Operating System** | Debian 7 |
 | **Website** | [Sphinx Search Website](https://sphinxsearch.com/) |
-| **Last Update** | 02/08/2013 |
 {{< /table >}}
 
 ## Introduction

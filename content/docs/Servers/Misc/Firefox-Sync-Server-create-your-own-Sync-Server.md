@@ -17,7 +17,6 @@ toc: true
 |-|-|
 | **Operating System** | Debian 7 |
 | **Website** | [Firefox Sync Server Website](https://docs.services.mozilla.com/howtos/run-sync.html) |
-| **Last Update** | 05/09/2013 |
 | **Others** | MariaDB 5.5 |
 {{< /table >}}
 
