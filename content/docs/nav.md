@@ -141,7 +141,7 @@ icon: "home"
         <p class="fs-5 fw-semibold card-title mb-1">Misc</p>
         <p class="para card-text mb-0">
         <ul>
-          <a href="/docs/misc/fonera/">Fonera</a> • <a href="/docs/misc/google/">Google</a> • <a href="/docs/misc/latex/">LaTeX</a> • <a href="/docs/misc/misc/">Misc</a> • <a href="/docs/misc/soekris/">Soekris</a>
+          <a href="/docs/misc/3dprint/">3D Print</a> • <a href="/docs/misc/cad/">CAD</a> • <a href="/docs/misc/fonera/">Fonera</a> • <a href="/docs/misc/google/">Google</a> • <a href="/docs/misc/homeassistant/">Home Assistant</a> • <a href="/docs/misc/latex/">LaTeX</a> • <a href="/docs/misc/misc/">Misc</a> • <a href="/docs/misc/soekris/">Soekris</a>
         </ul>
         </p>
       </div>
