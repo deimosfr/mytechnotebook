@@ -1,5 +1,4 @@
 ---
-
 weight: 999
 url: "/Installation_et_configuration_d'un_serveur_Bind9_primaire_(Master)/"
 title: "Installing and Configuring a Primary Bind9 Server (Master)"
@@ -9,7 +8,6 @@ date: "2013-05-07T09:06:00+02:00"
 lastmod: "2013-05-07T09:06:00+02:00"
 tags: ["DNS", "Bind9", "Server Configuration", "Security", "Linux"]
 toc: true
-
 ---
 
 ## Introduction
@@ -64,18 +62,18 @@ cd /etc/bind
 dnssec-keygen -a hmac-md5 -b 512 -n HOST simba
 ```
 
-* Replace the number of bits with whatever you want and use your hostname.
-* Replace **simba** with the name of your server where Bind is installed.
+- Replace the number of bits with whatever you want and use your hostname.
+- Replace **simba** with the name of your server where Bind is installed.
 
 Once generated (this may take a few minutes), you will have 2 files:
 
-* The key that needs to be moved to the bind folder.
-* The rndc.conf file to be created.
+- The key that needs to be moved to the bind folder.
+- The rndc.conf file to be created.
 
 Here are my 2 generated files:
 
-* Ksimba.+157+18808.key
-* Ksimba.+157+18808.private
+- Ksimba.+157+18808.key
+- Ksimba.+157+18808.private
 
 Let's first move the key and assign it the correct permissions:
 
@@ -126,8 +124,8 @@ options {
 ```bash
 // This is the primary configuration file for the BIND DNS server named.
 //
-// Please read /usr/share/doc/bind9/README.Debian.gz for information on the 
-// structure of BIND configuration files in Debian, *BEFORE* you customize 
+// Please read /usr/share/doc/bind9/README.Debian.gz for information on the
+// structure of BIND configuration files in Debian, *BEFORE* you customize
 // this configuration file.
 //
 // If you are just adding zones, please do that in /etc/bind/named.conf.local
@@ -179,7 +177,7 @@ logging {
                 print-severity yes;
                 print-time yes;
                 severity info;
-        };  
+        };
         category xfer-in { xfer-log; };
         category xfer-out { xfer-log; };
         category notify { xfer-log; };
@@ -208,8 +206,8 @@ Ideally, build a zone/view file (to include in named.conf for each of your zones
 
 The view sections define server behaviors based on the IP address of the client sending the request, allowing DNS responses to be differentiated. We define two views:
 
-* One corresponding to clients in the internal and DMZ zone: recursion needs to be re-enabled for these requests, and resolving all possible names (zone ".") needs to be allowed.
-* Another corresponding to requests from outside (e.g. Internet). Only authorize requests for the zone where the DNS server has authority:
+- One corresponding to clients in the internal and DMZ zone: recursion needs to be re-enabled for these requests, and resolving all possible names (zone ".") needs to be allowed.
+- Another corresponding to requests from outside (e.g. Internet). Only authorize requests for the zone where the DNS server has authority:
 
 ```bash
 view "interne" {
@@ -223,7 +221,7 @@ view "interne" {
     recursion yes;
     allow-recursion {
         zoneinterne;
-    };  
+    };
 
     // prime the server with knowledge of the root servers
     zone "." {
@@ -361,9 +359,9 @@ options {
     // to talk to, you may need to fix the firewall to allow multiple
     // ports to talk.  See http://www.kb.cert.org/vuls/id/800113
 
-    // If your ISP provided one or more IP addresses for stable 
-    // nameservers, you probably want to use them as forwarders.  
-    // Uncomment the following block, and insert the addresses replacing 
+    // If your ISP provided one or more IP addresses for stable
+    // nameservers, you probably want to use them as forwarders.
+    // Uncomment the following block, and insert the addresses replacing
     // the all-0's placeholder.
 
     // Force other DNS to answer
@@ -382,7 +380,7 @@ options {
 
     allow-query {
              any;
-    };  
+    };
 
     // Security version
     // Check with: dig -t txt -c chaos VERSION.BIND @<dns.server.com>
@@ -398,7 +396,7 @@ You can add these types of options to improve security:
 ```bash
    allow-recursion { none; };      // disabling recursive queries (and thus DNS cache Poisoning)
    allow-transfer { none; };       // disabling zone transfer
-   
+
    notify no;                      // disabling zone change notifications
    zone-statistics no;             // disabling statistics
    interface-interval 0;           // disabling search for new interfaces
@@ -411,7 +409,7 @@ In case you want to redirect domains (e.g., google.com --> a machine on your loc
 zone "google.com" {
    type forward;
    forwarders {
-      192.168.0.17;      // My primary DNS 
+      192.168.0.17;      // My primary DNS
       192.168.0.30;      // My secondary DNS
    };
    forward only;
@@ -480,7 +478,7 @@ server          CNAME   mufasa
 serveur         CNAME   mufasa
 sftp            CNAME   mufasa
 www             CNAME   mufasa
-blocnotesinfo   CNAME   mufasa
+mytechnotebook   CNAME   mufasa
 infos           CNAME   mufasa
 webmail         CNAME   mufasa
 nagios          CNAME   mufasa
@@ -500,7 +498,7 @@ $TTL    604800
         3600       ; Retry
         1209600    ; Expire
         604800     ; Negative Cache TTL
-        )   
+        )
 
                 NS      simba.deimos.fr.
                 A       192.168.110.3
@@ -520,13 +518,13 @@ www             CNAME   rafiki
 www1            CNAME   rafiki
 www2            CNAME   shenzi
 
-blocnotesinfo   CNAME   www 
-blog            CNAME   www 
-webmail         CNAME   www 
-nagios          CNAME   www 
-git             CNAME   www 
-gitweb          CNAME   www 
-phpmyadmin      CNAME   www 
+mytechnotebook   CNAME   www
+blog            CNAME   www
+webmail         CNAME   www
+nagios          CNAME   www
+git             CNAME   www
+gitweb          CNAME   www
+phpmyadmin      CNAME   www
 
 backuppc        CNAME   sarabi
 ```
@@ -602,7 +600,7 @@ All that's left is to restart the service and check the logs:
 ```
 
 ```bash
-$ tail -100 /var/log/syslog 
+$ tail -100 /var/log/syslog
 Jun 10 22:44:20 deimos named[9641]: starting BIND 9.4.1 -u bind
 Jun 10 22:44:20 deimos named[9641]: found 2 CPUs, using 2 worker threads
 Jun 10 22:44:20 deimos named[9641]: loading configuration from '/etc/bind/named.conf'
@@ -668,7 +666,7 @@ How is it that all my conf files contain the same RNDC key, and yet I get this t
 The reason is simple: Bind must already be running. So a quick check with:
 
 ```bash
-netstat -auntp 
+netstat -auntp
 ```
 
 And there we should realize that it's already running. So kill the corresponding PIDs and restart the Bind service:
@@ -677,7 +675,7 @@ And there we should realize that it's already running. So kill the corresponding
 pkill named
 ```
 
-### Why can't I make records with "_"?
+### Why can't I make records with "\_"?
 
 Bind versions from 9.3 now incorporate more precise control over domain name validity. They can no longer contain _ (0x5f in the [ASCII table](https://www.lookuptables.com/)), as stipulated by [RFC 1035](https://tools.ietf.org/html/rfc1035). This is however quite unfortunate for me because I have several domains containing _.
 
@@ -711,7 +709,7 @@ name_with_underscore.patch:
 You may have log errors like this:
 
 ```
-Oct  2 17:29:03 star1 named[5120]: zone 'deimos.fr' allows updates by IP address, which is insecure 
+Oct  2 17:29:03 star1 named[5120]: zone 'deimos.fr' allows updates by IP address, which is insecure
 ```
 
 This simply means that your RNDC key is not being used. To use it with ACLs, just add your secondary servers to the "controls" section and only allow updates (at zone level) with the RNDC key:
@@ -719,7 +717,7 @@ This simply means that your RNDC key is not being used. To use it with ACLs, jus
 ```bash
 ...
 controls {
-      inet 127.0.0.1 port 953 
+      inet 127.0.0.1 port 953
               allow { 127.0.0.1; secondaryinternaldns; } keys { "rndc-key"; };
 };
 ...
@@ -756,9 +754,9 @@ dig +dnssec +norec +ignore dnskey MX @my_dns_server
 
 The server might have been shut down abruptly, or the zone file was manually edited without the zone being frozen. To solve this problem:
 
-* Stop the bind server
-* Delete the journal files (*.jnl in "/etc/bind")
-* Restart the bind server
+- Stop the bind server
+- Delete the journal files (\*.jnl in "/etc/bind")
+- Restart the bind server
 
 ### How do I clear my cache?
 
@@ -769,6 +767,7 @@ rndc flush
 ```
 
 ## Resources
+
 - [DNS Server on OpenBSD](/pdf/openbsd_dns_server.pdf)
 - [Installing An Ubuntu DNS Server With BIND](/pdf/installing_an_ubuntu_dns_server_with_bind.pdf)
 - http://fr.wikipedia.org/wiki/BIND

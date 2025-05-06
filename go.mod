@@ -1,4 +1,4 @@
-module blocnotesinfo
+module mytechnotebook
 
 go 1.24.2
 

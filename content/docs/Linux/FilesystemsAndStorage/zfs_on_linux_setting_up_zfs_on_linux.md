@@ -55,8 +55,8 @@ apt-get install python-software-properties
 For Debian, you'll need to add the following sources to your sources.list file (`/etc/apt/sources.list`):
 
 ```bash
-deb http://ppa.launchpad.net/dajhorn/zfs/ubuntu natty main 
-deb-src http://ppa.launchpad.net/dajhorn/zfs/ubuntu natty main 
+deb http://ppa.launchpad.net/dajhorn/zfs/ubuntu natty main
+deb-src http://ppa.launchpad.net/dajhorn/zfs/ubuntu natty main
 ```
 
 ### ZFS
@@ -82,4 +82,4 @@ options zfs zfs_arc_max=536870912
 
 ## References
 
-http://www.deimos.fr/blocnotesinfo/index.php?title=ZFS_:_Le_FileSystem_par_excellence
+- [ZFS: The Filesystem Par Excellence]({{< ref "docs/Solaris/Filesystems/zfs_the_filesystem_par_excellence.md" >}})

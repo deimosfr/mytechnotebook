@@ -92,7 +92,7 @@ $HTTP["host"] =~ "deimos\.fr" {
     # Default logs
     accesslog.filename = "/var/log/lighttpd/access-blog_and_co.log"
     # Wiki logs
-    $HTTP["url"] =~ "^/blocnotesinfo/" {
+    $HTTP["url"] =~ "^/mytechnotebook/" {
         accesslog.filename = "/var/log/lighttpd/access-deimos-wiki.log"
     }
 }

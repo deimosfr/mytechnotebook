@@ -6,7 +6,8 @@ description: "How to create a custom theme for Apache's Directory Index Listing 
 categories: ["Linux", "Servers", "Debian"]
 date: "2012-04-09T13:15:00+02:00"
 lastmod: "2012-04-09T13:15:00+02:00"
-tags: ["Apache", "Web Server", "Customization", "CSS", "HTML", "Directory Listing"]
+tags:
+  ["Apache", "Web Server", "Customization", "CSS", "HTML", "Directory Listing"]
 toc: true
 ---
 
@@ -31,7 +32,7 @@ The default Apache directory index listing is... (we can say it)... very ugly. H
 It's easy to install. Let's say we want to place it in `/var/www/include` to make things easier:
 
 ```bash
-wget /var/www/ http://www.deimos.fr/blocnotesinfo/images/f/f8/Directory_index_theme.tgz
+wget /var/www/ http://www.deimos.fr/mytechnotebook/images/f/f8/Directory_index_theme.tgz
 tar -xzf Directory_index_theme.tgz
 rm -f Directory_index_theme.tgz
 chown -Rf www-data. include
@@ -152,4 +153,5 @@ Adapt this configuration to your needs and then reload Apache:
 ```
 
 ## Resources
+
 - http://blog.is-a-geek.org/apache-file-listing-mit-eigenem-theme-verschonern

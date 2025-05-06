@@ -48,7 +48,7 @@ params:
     sidebarIcons: true
     simpleIcons: true
     darkMode: true
-    repoURL: "https://github.com/deimosfr/blocnotesinfo"
+    repoURL: "https://github.com/deimosfr/mytechnotebook"
     repoBranch: "main"
     editPage: true
     lastMod: true

@@ -748,8 +748,8 @@ server {
     rewrite ^/$ $scheme://blog.deimos.fr permanent;
     rewrite ^/blog(/.*)?$ $scheme://blog.deimos.fr$1 permanent;
 
-    # Blocnotesinfo redirect
-    rewrite ^/blocnotesinfo(/.*)?$ $scheme://wiki.deimos.fr$1 permanent;
+    # mytechnotebook redirect
+    rewrite ^/mytechnotebook(/.*)?$ $scheme://wiki.deimos.fr$1 permanent;
 
     # Piwik
     rewrite ^/piwik(/.*)?$ $scheme://piwik.deimos.fr$1 permanent;
@@ -821,8 +821,8 @@ server {
     rewrite ^/$ $scheme://blog.deimos.fr permanent;
     rewrite ^/blog(/.*)?$ $scheme://blog.deimos.fr$1 permanent;
 
-    # Blocnotesinfo redirect
-    rewrite ^/blocnotesinfo(/.*)?$ $scheme://wiki.deimos.fr$1 permanent;
+    # mytechnotebook redirect
+    rewrite ^/mytechnotebook(/.*)?$ $scheme://wiki.deimos.fr$1 permanent;
 
     # Piwik
     rewrite ^/piwik(/.*)?$ $scheme://piwik.deimos.fr$1 permanent;
@@ -929,7 +929,7 @@ server {
     ssl_session_timeout 5m;
 
     server_name wiki.deimos.fr wiki.m.deimos.fr;
-    root /usr/share/nginx/www/deimos.fr/blocnotesinfo;
+    root /usr/share/nginx/www/deimos.fr/mytechnotebook;
 
     client_max_body_size 5m;
     client_body_timeout 60;
@@ -987,7 +987,7 @@ server {
     }
 
     location /dumps {
-        root /usr/share/nginx/www/deimos.fr/blocnotesinfo/local;
+        root /usr/share/nginx/www/deimos.fr/mytechnotebook/local;
         autoindex on;
     }
 

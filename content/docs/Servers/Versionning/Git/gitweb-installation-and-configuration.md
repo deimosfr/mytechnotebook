@@ -226,8 +226,8 @@ Other links:<br />
 - My blog: <a href="http://www.deimos.fr/blog">http://www.deimos.fr/blog</a
 ><br />
 - My wiki:
-<a href="http://www.deimos.fr/blocnotesinfo"
-  >http://www.deimos.fr/blocnotesinfo</a
+<a href="http://www.deimos.fr/mytechnotebook"
+  >http://www.deimos.fr/mytechnotebook</a
 ><br />
 ```
 

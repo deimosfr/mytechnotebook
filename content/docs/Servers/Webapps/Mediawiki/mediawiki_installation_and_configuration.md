@@ -250,7 +250,7 @@ server {
     ssl_session_timeout 5m;
 
     server_name wiki.deimos.fr wiki.m.deimos.fr;
-    root /usr/share/nginx/www/deimos.fr/blocnotesinfo;
+    root /usr/share/nginx/www/deimos.fr/mytechnotebook;
 
     client_max_body_size 5m;
     client_body_timeout 60;
@@ -308,7 +308,7 @@ server {
     }
 
     location /dumps {
-        root /usr/share/nginx/www/deimos.fr/blocnotesinfo/local;
+        root /usr/share/nginx/www/deimos.fr/mytechnotebook/local;
         autoindex on;
     }
 
@@ -464,7 +464,7 @@ http://www.deimos.fr/mediawiki
 I've already created articles. I would now like to rename this to:
 
 ```
-http://www.deimos.fr/blocnotesinfo
+http://www.deimos.fr/mytechnotebook
 ```
 
 The problem is that the old articles have kept the first url in memory. To update all this, do:
@@ -619,7 +619,7 @@ $wgAdvancedSearchHighlighting = true;
 I would like, for example, to add text to offer an SSL connection. Edit the Loginend Page:
 
 ```
-https://wiki.deimos.fr/blocnotesinfo/index.php?title=MediaWiki:Loginend
+https://wiki.deimos.fr/mytechnotebook/index.php?title=MediaWiki:Loginend
 ```
 
 And we can put text like this, for example:
@@ -628,13 +628,13 @@ And we can put text like this, for example:
 <div style="clear:both; font-size:.85em; line-height:1.4em; margin-left:2em">
   <u>Note</u>: Information sent during this connection will not be encrypted.<br />
   For more security, it is possible to connect via the
-  [https://{{SERVERNAME}}/blocnotesinfo/index.php?title=Sp%C3%A9cial:Connexion&returnto=Accueil
+  [https://{{SERVERNAME}}/mytechnotebook/index.php?title=Sp%C3%A9cial:Connexion&returnto=Accueil
   secure server]. ---
 
   <u>Note</u>: The information sent during this connection will not be
   encrypted.<br />
   For more security, it is possible to connect through the
-  [https://{{SERVERNAME}}/blocnotesinfo/index.php?title=Sp%C3%A9cial:Connexion&returnto=Accueil
+  [https://{{SERVERNAME}}/mytechnotebook/index.php?title=Sp%C3%A9cial:Connexion&returnto=Accueil
   secure server].
 </div>
 ```
@@ -875,7 +875,7 @@ Then add your new link in a page like this:
 
 You've certainly seen on Wikipedia or other mediawiki windows at the top left of articles presenting certain information. This is called an infobox. While browsing the web, I could see infoboxes more complicated than others requiring plugins when in fact it is possible to create very beautiful ones without plugins.
 
-For those interested, here's mine: http://www.deimos.fr/blocnotesinfo/index.php?title=Template:Infobox
+For those interested, here's mine: http://www.deimos.fr/mytechnotebook/index.php?title=Template:Infobox
 
 And here's how to use it. Insert this into a page:
 
@@ -894,7 +894,7 @@ And here's how to use it. Insert this into a page:
 To change the Monobook CSS for all users, add this to your url:
 
 ```
-https://wiki.deimos.fr/blocnotesinfo/index.php/MediaWiki:Monobook.css
+https://wiki.deimos.fr/mytechnotebook/index.php/MediaWiki:Monobook.css
 ```
 
 Then, for CSS, here's what I put:

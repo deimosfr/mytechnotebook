@@ -6,7 +6,18 @@ description: "A comprehensive guide to useful MediaWiki extensions including Goo
 categories: ["Debian", "Linux"]
 date: "2013-08-02T15:04:00+02:00"
 lastmod: "2013-08-02T15:04:00+02:00"
-tags: ["Google Search", "CharInsert", "Cite", "SphinxSearch", "View source", "search", "Google Adsense", "What links here", "Servers"]
+tags:
+  [
+    "Google Search",
+    "CharInsert",
+    "Cite",
+    "SphinxSearch",
+    "View source",
+    "search",
+    "Google Adsense",
+    "What links here",
+    "Servers",
+  ]
 toc: true
 ---
 
@@ -62,7 +73,7 @@ $wgPCRguii_Inserts['SkinAfterBottomScripts']['on'] = true;
 $wgPCRguii_Inserts['SkinAfterBottomScripts']['content'] = '
 <!-- Graphically aligned -->
 <div style="margin-left: 160px;">
- 
+
 <!-- Google Ads 1 -->
 <script type="text/javascript"><!--
 google_ad_client = "*****PLACE YOUR CLIENT ID HERE******";
@@ -76,7 +87,7 @@ google_ad_height = 90;
 src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 <!-- End Google Ads 1 -->
- 
+
 </div>
 ';
 ```
@@ -126,7 +137,7 @@ google_ad_slot = "***CODE HERE***";
 google_ad_width = 120;
 google_ad_height = 600;
 //-->
-</script> 
+</script>
 <script type="text/javascript"
 src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
@@ -183,8 +194,8 @@ To add in this section:
                 </ul>
             <?php endif; ?>
             <div style="clear:both"></div>
- 
-/* THE CODE HERE!!! */ 
+
+/* THE CODE HERE!!! */
         </div>
         <!-- /footer -->
         <!-- fixalpha -->
@@ -216,8 +227,8 @@ To add in this section:
                     <div id="p-logo"><a style="background-image: url(<?php $this->text( 'logopath' ) ?>);" href="<?php echo htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] ) ?>" <?php echo Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) ) ?>></a></div>
                 <!-- /logo -->
                 <?php $this->renderPortals( $this->data['sidebar'] ); ?>
- 
-/* THE CODE HERE!!! */ 
+
+/* THE CODE HERE!!! */
             </div>
         <!-- /panel -->
         <!-- footer -->
@@ -243,7 +254,7 @@ Implementing Google search is very practical, as the basic search isn't always t
 <form method="get" action="http://www.google.fr/custom" target="_top">
 <table border="0" bgcolor="#ffffff">
 <tr><td nowrap="nowrap" valign="top" align="left" height="32">
- 
+
 <input type="hidden" name="domains" value="www.deimos.fr"></input>
 <label for="sbi" style="display: none">Enter the terms you wish to search for.</label>
 <input type="text" name="q" size="12" maxlength="255" value="" id="sbi"></input>
@@ -271,7 +282,7 @@ Implementing Google search is very practical, as the basic search isn't always t
 </td></tr></table>
 </form>
 <!-- SiteSearch Google -->
- 
+
       </div></div>
 ```
 
@@ -315,8 +326,8 @@ In this example (to be placed on one of the pages):
 <accesscontrol>Administrators,,IT-Department,,Sales(ro)</accesscontrol>
 ```
 
-* Administrators and IT-Department have all rights
-* Sales only has read rights
+- Administrators and IT-Department have all rights
+- Sales only has read rights
 
 All of this is fine, but be careful with the search function. When I tried it, it wasn't great.
 
@@ -325,13 +336,13 @@ All of this is fine, but be careful with the search function. When I tried it, i
 To colorize your code and number it, use this extension:  
 [https://www.mediawiki.org/wiki/Extension:SyntaxHighlight_GeSHi](https://www.mediawiki.org/wiki/Extension:SyntaxHighlight_GeSHi)
 
-If you want to keep the dotted lines around your sources, as well as the gray color (just like a `<syntaxhighlight lang=text></syntaxhighlight>`), here's what you need to add to your MediaWiki:Common.css address (e.g., [https://www.deimos.fr/blocnotesinfo/index.php?title=MediaWiki:Common.css](https://www.deimos.fr/blocnotesinfo/index.php?title=MediaWiki:Common.css)):
+If you want to keep the dotted lines around your sources, as well as the gray color (just like a `<syntaxhighlight lang=text></syntaxhighlight>`), here's what you need to add to your MediaWiki:Common.css address (e.g., [https://www.deimos.fr/mytechnotebook/index.php?title=MediaWiki:Common.css](https://www.deimos.fr/mytechnotebook/index.php?title=MediaWiki:Common.css)):
 
 ```css
 div.mw-geshi {
   background-color: #f9f9f9;
-  padding: 1em; 
-  margin:1em 0; 
+  padding: 1em;
+  margin: 1em 0;
   border: 1px dashed #2f6fab;
 }
 ```
@@ -348,20 +359,20 @@ I have the annoying habit of always putting line=1 and start=0. But after a whil
      * @var int
      */
     var $line_numbers_start = 0;
- 
-    /**  
+
+    /**
      * Flag for how line numbers are displayed
      * @var boolean
      */
     var $line_numbers = GESHI_FANCY_LINE_NUMBERS;
- 
+
     /**
      * The size of tab stops
      * @var int
      */
     var $tab_width = 4;
- 
-    /**  
+
+    /**
      * The "nth" value for fancy line highlighting
      * @var int
      */
@@ -390,7 +401,7 @@ Insert into MediaWiki's configuration file:
 ```php
 # PCR Piwik
 $wgPCRguii_Inserts['SkinAfterBottomScripts']['on'] = true;
-$wgPCRguii_Inserts['SkinAfterBottomScripts']['content'] = ' 
+$wgPCRguii_Inserts['SkinAfterBottomScripts']['content'] = '
 <!-- Piwik -->
 <script type="text/javascript">
 var pkBaseURL = (("https:" == document.location.protocol) ? "https://www.deimos.fr/piwik/" : "http://www.deimos.fr/piwik/");
@@ -417,17 +428,17 @@ Download the extension and place it in the extensions folder. Then, here are the
 ```php
 # UsabilityInitiative
 require_once('extensions/UsabilityInitiative/UsabilityInitiative.php');
- 
+
 # WikiEditor
 require_once("$IP/extensions/UsabilityInitiative/WikiEditor/WikiEditor.php");
 $wgWikiEditorModules['toolbar']['global'] = true; // Enable the WikiEditor toolbar for everyone
 $wgWikiEditorModules['toolbar']['user'] = false;// Don't allow users to turn the WikiEditor toolbar on/off individually
- 
+
 # Collapse Menu
 require_once("$IP/extensions/UsabilityInitiative/Vector/Vector.php");
 $wgVectorModules['collapsiblenav']['user'] = true;
-$wgVectorModules['collapsiblenav']['global'] = true; 
- 
+$wgVectorModules['collapsiblenav']['global'] = true;
+
 # Expandable search
 $wgVectorModules['expandablesearch']['user'] = true;
 $wgVectorModules['expandablesearch']['global'] = true;
@@ -445,7 +456,7 @@ In version 1.17, everything has been split up. So I use [WikiEditor](https://www
 require_once( "$IP/extensions/Vector/Vector.php" );
 $wgDefaultUserOptions['vector-collapsiblenav'] = 1;
 $wgVectorUseSimpleSearch = true;
- 
+
 # WikiEditor
 require_once( "$IP/extensions/WikiEditor/WikiEditor.php" );
 $wgDefaultUserOptions['usebetatoolbar'] = 1;
@@ -486,10 +497,10 @@ This extension is very practical because it allows you to dump your wiki in HTML
 # Dump MediaWiki to html
 # This permit to get an offline site
 # Made by Pierre Mavro / Deimos
- 
-mediawiki_path="/var/www/deimos.fr/blocnotesinfo"
+
+mediawiki_path="/var/www/deimos.fr/mytechnotebook"
 archive_name="bni_offline"
- 
+
 ####################################################
 # Check if extension is here
 if [ -f "$mediawiki_path/extensions/DumpHTML/dumpHTML.php" ] ; then
@@ -502,7 +513,7 @@ else
 fi
 skin=`grep '^\$wgDefaultSkin' $mediawiki_path/LocalSettings.php | awk -F\' '{ print \$2 }'`
 archive_folder="$mediawiki_path/$archive_name"
- 
+
 echo "-- Start to dump the wiki --"
 php $dumpHTML_php -d $archive_folder -k $skin --image-snapshot --force-copy
 echo "-- Compress the wiki dump archive --"
@@ -517,7 +528,7 @@ echo "Done"
 
 [CharInsert](https://www.mediawiki.org/wiki/Extension:CharInsert) is an extension that allows you to add a small bar in edit mode with the wiki code that we use most often or the one that is most difficult to find. The goal is to simplify page editing as much as possible.
 
-Download and install the extension. Once done, you need to create the following page [https://wiki.deimos.fr/blocnotesinfo/index.php?title=MediaWiki:Edittools#](https://wiki.deimos.fr/blocnotesinfo/index.php?title=MediaWiki:Edittools#)  
+Download and install the extension. Once done, you need to create the following page [https://wiki.deimos.fr/mytechnotebook/index.php?title=MediaWiki:Edittools#](https://wiki.deimos.fr/mytechnotebook/index.php?title=MediaWiki:Edittools#)  
 Insert the text you want with the `<charinsert>+</charinsert>` tags, and put in the middle the code you want (use + so that your cursor automatically goes to this point after insertion):
 
 ```
@@ -542,30 +553,30 @@ Insert the text you want with the `<charinsert>+</charinsert>` tags, and put in 
 </div>
 ```
 
-Then, to make it visually clean, add this to the Commoncss ([https://wiki.deimos.fr/blocnotesinfo/index.php?title=MediaWiki:Common.css](https://wiki.deimos.fr/blocnotesinfo/index.php?title=MediaWiki:Common.css))
+Then, to make it visually clean, add this to the Commoncss ([https://wiki.deimos.fr/mytechnotebook/index.php?title=MediaWiki:Common.css](https://wiki.deimos.fr/mytechnotebook/index.php?title=MediaWiki:Common.css))
 
 ```css
 /* Extra buttons for 'edittools' */
 .my-buttons {
-        /* padding: 1em; */
-        /* margin:5px; */
+  /* padding: 1em; */
+  /* margin:5px; */
 }
 .my-buttons a {
-        color: black;
-        background-color: #d0e0f0 ;
-        font-family:monospace;
-        font-size: 115%;
-        text-decoration: none;
-        border: thin #069 outset;
-        line-spacing:5pt;
+  color: black;
+  background-color: #d0e0f0;
+  font-family: monospace;
+  font-size: 115%;
+  text-decoration: none;
+  border: thin #069 outset;
+  line-spacing: 5pt;
 }
 .my-buttons a:hover {
-        background-color: #99CCFF;
-        border-style:outset;
+  background-color: #99ccff;
+  border-style: outset;
 }
 .my-buttons a:active {
-        background-color: #0645AD;
-        border-style: inset;
+  background-color: #0645ad;
+  border-style: inset;
 }
 ```
 
@@ -577,9 +588,15 @@ The [Cite](https://www.mediawiki.org/wiki/Extension:Cite/Cite.php) extension all
 
 ```css
 /* make the Cite extension list of references look smaller and highlight clicked reference in blue */
-ol.references { font-size: 90%; }
-ol.references > li:target { background-color: #ddeeff; }
-sup.reference:target { background-color: #ddeeff; }
+ol.references {
+  font-size: 90%;
+}
+ol.references > li:target {
+  background-color: #ddeeff;
+}
+sup.reference:target {
+  background-color: #ddeeff;
+}
 ```
 
 Next, we'll update a few fields:
@@ -610,7 +627,7 @@ To be replaced by:
 
 ### Boilerplate
 
-This is really the essential extension, it allows you to create a "template" page when creating a blank page. Needless to say, it's very useful. Installation is very easy and explained on the [https://www.mediawiki.org/wiki/Extension:Boilerplate](https://www.mediawiki.org/wiki/Extension:Boilerplate) site. Then, you just need to fill in your page that will serve as a template [https://www.deimos.fr/blocnotesinfo/index.php?title=Boilerplate](https://www.deimos.fr/blocnotesinfo/index.php?title=Boilerplate).
+This is really the essential extension, it allows you to create a "template" page when creating a blank page. Needless to say, it's very useful. Installation is very easy and explained on the [https://www.mediawiki.org/wiki/Extension:Boilerplate](https://www.mediawiki.org/wiki/Extension:Boilerplate) site. Then, you just need to fill in your page that will serve as a template [https://www.deimos.fr/mytechnotebook/index.php?title=Boilerplate](https://www.deimos.fr/mytechnotebook/index.php?title=Boilerplate).
 
 ### MsUpload
 

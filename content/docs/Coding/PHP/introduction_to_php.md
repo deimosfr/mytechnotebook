@@ -62,7 +62,7 @@ _HTML_;
 The `$_SERVER[PHP_SELF]` variable is special to PHP. It is used to get the URL of the called link but without the protocol or the hostname. For example:
 
 ```
-https://www.deimos.fr/blocnotesinfo/index.php?title=Introduction_au_PHP
+https://www.deimos.fr/mytechnotebook/index.php?title=Introduction_au_PHP
 ```
 
 Only what is in bold is kept.
@@ -2803,5 +2803,6 @@ A single cookie is perfect for memorizing the same piece of information but, oft
 A session uses a cookie to differentiate users and facilitates the memorization of a temporary set of data for each of them on the server. These data persist between requests: during a request, you can add a variable to a user's session (like when adding an item to the virtual cart) and, at the next request, you can retrieve what's in this session (like on an order validation page, when you need to list everything in the cart). In the Information Storage and Retrieval section, we'll see how to use them.
 
 ## Resources
+
 - [Introduction to PHP 5 Book](https://books.google.fr/books?id=fAlN55KwKjcC)
 - [Pear and PHP libraries](/pdf/pear_et_les_librairies_php.pdf)
