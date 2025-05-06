@@ -15,7 +15,7 @@
                 {{ $child_pages := union .Sections .Pages }}
                 {{ range $child_pages.ByWeight }}
                     {{ if or (.Sections) (.Pages) }}
-                    {{ $active := in $currentPage.RelPermalink .RelPermalink }}
+                    {{ $active := or (eq $currentPage .) ($currentPage.IsDescendant .) }}
                         <li class="sidebar-dropdown {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
                             <button class="btn">
                                 {{ if eq .Site.Params.docs.sidebarIcons true -}}
@@ -30,7 +30,7 @@
                             <div class="sidebar-submenu {{ if $active }}d-block{{ end }}">
                                 <ul>
                                     {{ range .Pages }}
-                                        {{ $active := in $currentPage.RelPermalink .RelPermalink }}
+                                        {{ $active := or (eq $currentPage .) ($currentPage.IsDescendant .) }}
                                         {{ if .IsSection }}
                                             <li class="sidebar-dropdown nested {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
                                                 <button class="btn">
@@ -42,7 +42,7 @@
                                                 <div class="sidebar-submenu {{ if $active }}d-block{{ end }}">
                                                     <ul>
                                                         {{ range .Pages }}
-                                                            {{ $active := in $currentPage.RelPermalink .RelPermalink }}
+                                                            {{ $active := or (eq $currentPage .) ($currentPage.IsDescendant .) }}
                                                             {{ if .IsSection }}
                                                                 <li class="sidebar-dropdown nested {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
                                                                     <button class="btn">
@@ -54,7 +54,7 @@
                                                                     <div class="sidebar-submenu {{ if $active }}d-block{{ end }}">
                                                                         <ul>
                                                                             {{ range .Pages }}
-                                                                                {{ $active := in $currentPage.RelPermalink .RelPermalink }}
+                                                                                {{ $active := or (eq $currentPage .) ($currentPage.IsDescendant .) }}
                                                                                 {{ if .IsSection }}
                                                                                     <li class="sidebar-dropdown nested {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
                                                                                         <button class="btn">
@@ -66,7 +66,7 @@
                                                                                         <div class="sidebar-submenu {{ if $active }}d-block{{ end }}">
                                                                                             <ul>
                                                                                                 {{ range .Pages }}
-                                                                                                    {{ $active := in $currentPage.RelPermalink .RelPermalink }}
+                                                                                                    {{ $active := or (eq $currentPage .) ($currentPage.IsDescendant .) }}
                                                                                                     <li class="{{ if $active }}current{{ end }} {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }}"><a class="sidebar-nested-link" href="{{ .Permalink }}">{{ .Title }}</a></li>
                                                                                                 {{ end }}
                                                                                             </ul>
@@ -94,7 +94,7 @@
                             </div>
                         </li>
                     {{ else }}
-                        {{ $active := in $currentPage.RelPermalink .RelPermalink }}
+                        {{ $active := or (eq $currentPage .) ($currentPage.IsDescendant .) }}
                         <li class="{{ if $active }}current{{ end }}">
                             <a class="sidebar-root-link" href="{{ .Permalink }}">
                                 {{ if eq .Site.Params.docs.sidebarIcons true -}}

@@ -101,17 +101,25 @@ function activateMenu() {
 
 // Sidebar Menu
 function activateSidebarMenu() {
-    var current = location.pathname.substring(location.pathname.lastIndexOf('/') + 1);
+    var current = location.pathname;
     if (current !== "" && document.getElementById("sidebar")) {
-        var menuItems = document.querySelectorAll('#sidebar button');
+        var menuItems = document.querySelectorAll('#sidebar a');
         for (var i = 0, len = menuItems.length; i < len; i++) {
-            if (menuItems[i].getAttribute("href").indexOf(current) !== -1) {
+            // Compare the full path instead of just the last segment
+            // This will work for both standard and custom URLs
+            var itemPath = menuItems[i].pathname;
+            if (current === itemPath || current.startsWith(itemPath + '/')) {
                 menuItems[i].parentElement.className += " active";
-                if (menuItems[i].closest(".sidebar-submenu")) {
-                    menuItems[i].closest(".sidebar-submenu").classList.add("d-block");
-                }
-                if (menuItems[i].closest(".sidebar-dropdown")) {
-                    menuItems[i].closest(".sidebar-dropdown").classList.add("active");
+                
+                // Expand all parent dropdown menus
+                var submenu = menuItems[i].closest(".sidebar-submenu");
+                while (submenu) {
+                    submenu.classList.add("d-block");
+                    var dropdown = submenu.closest(".sidebar-dropdown");
+                    if (dropdown) {
+                        dropdown.classList.add("active");
+                    }
+                    submenu = submenu.parentElement.closest(".sidebar-submenu");
                 }
             }
         }
