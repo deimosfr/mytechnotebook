@@ -16,14 +16,32 @@
             {{ if $sortByTitle }}
                 {{ range (where .Site.Sections.ByTitle "Section" "in" $section) }}
                     {{ $child_pages := union .Sections .Pages }}
-                    {{ range $child_pages.ByTitle }}
+                    {{ $regularPages := where $child_pages "Kind" "page" }}
+                    {{ $sectionPages := where $child_pages "Kind" "section" }}
+                    
+                    <!-- First show regular pages (articles) -->
+                    {{ range $regularPages.ByTitle }}
+                        {{ template "sidebar-item" (dict "page" . "currentPage" $currentPage "sortByTitle" $sortByTitle) }}
+                    {{ end }}
+                    
+                    <!-- Then show sections (folders) -->
+                    {{ range $sectionPages.ByTitle }}
                         {{ template "sidebar-item" (dict "page" . "currentPage" $currentPage "sortByTitle" $sortByTitle) }}
                     {{ end }}
                 {{ end }}
             {{ else }}
                 {{ range (where .Site.Sections.ByWeight "Section" "in" $section) }}
                     {{ $child_pages := union .Sections .Pages }}
-                    {{ range $child_pages.ByWeight }}
+                    {{ $regularPages := where $child_pages "Kind" "page" }}
+                    {{ $sectionPages := where $child_pages "Kind" "section" }}
+                    
+                    <!-- First show regular pages (articles) -->
+                    {{ range $regularPages.ByWeight }}
+                        {{ template "sidebar-item" (dict "page" . "currentPage" $currentPage "sortByTitle" $sortByTitle) }}
+                    {{ end }}
+                    
+                    <!-- Then show sections (folders) -->
+                    {{ range $sectionPages.ByWeight }}
                         {{ template "sidebar-item" (dict "page" . "currentPage" $currentPage "sortByTitle" $sortByTitle) }}
                     {{ end }}
                 {{ end }}
@@ -62,11 +80,29 @@
             <div class="sidebar-submenu {{ if $active }}d-block{{ end }}">
                 <ul>
                     {{ if $sortByTitle }}
-                        {{ range ($page.Pages.ByTitle) }}
+                        {{ $regularPages := where $page.Pages "Kind" "page" }}
+                        {{ $sectionPages := where $page.Pages "Kind" "section" }}
+                        
+                        <!-- First show regular pages (articles) -->
+                        {{ range ($regularPages.ByTitle) }}
+                            {{ template "sidebar-child-item" (dict "page" . "currentPage" $currentPage "sortByTitle" $sortByTitle) }}
+                        {{ end }}
+                        
+                        <!-- Then show sections (folders) -->
+                        {{ range ($sectionPages.ByTitle) }}
                             {{ template "sidebar-child-item" (dict "page" . "currentPage" $currentPage "sortByTitle" $sortByTitle) }}
                         {{ end }}
                     {{ else }}
-                        {{ range ($page.Pages.ByWeight) }}
+                        {{ $regularPages := where $page.Pages "Kind" "page" }}
+                        {{ $sectionPages := where $page.Pages "Kind" "section" }}
+                        
+                        <!-- First show regular pages (articles) -->
+                        {{ range ($regularPages.ByWeight) }}
+                            {{ template "sidebar-child-item" (dict "page" . "currentPage" $currentPage "sortByTitle" $sortByTitle) }}
+                        {{ end }}
+                        
+                        <!-- Then show sections (folders) -->
+                        {{ range ($sectionPages.ByWeight) }}
                             {{ template "sidebar-child-item" (dict "page" . "currentPage" $currentPage "sortByTitle" $sortByTitle) }}
                         {{ end }}
                     {{ end }}
@@ -107,11 +143,29 @@
             <div class="sidebar-submenu {{ if $active }}d-block{{ end }}">
                 <ul>
                     {{ if $sortByTitle }}
-                        {{ range ($page.Pages.ByTitle) }}
+                        {{ $regularPages := where $page.Pages "Kind" "page" }}
+                        {{ $sectionPages := where $page.Pages "Kind" "section" }}
+                        
+                        <!-- First show regular pages (articles) -->
+                        {{ range ($regularPages.ByTitle) }}
+                            {{ template "sidebar-child-item" (dict "page" . "currentPage" $currentPage "sortByTitle" $sortByTitle) }}
+                        {{ end }}
+                        
+                        <!-- Then show sections (folders) -->
+                        {{ range ($sectionPages.ByTitle) }}
                             {{ template "sidebar-child-item" (dict "page" . "currentPage" $currentPage "sortByTitle" $sortByTitle) }}
                         {{ end }}
                     {{ else }}
-                        {{ range ($page.Pages.ByWeight) }}
+                        {{ $regularPages := where $page.Pages "Kind" "page" }}
+                        {{ $sectionPages := where $page.Pages "Kind" "section" }}
+                        
+                        <!-- First show regular pages (articles) -->
+                        {{ range ($regularPages.ByWeight) }}
+                            {{ template "sidebar-child-item" (dict "page" . "currentPage" $currentPage "sortByTitle" $sortByTitle) }}
+                        {{ end }}
+                        
+                        <!-- Then show sections (folders) -->
+                        {{ range ($sectionPages.ByWeight) }}
                             {{ template "sidebar-child-item" (dict "page" . "currentPage" $currentPage "sortByTitle" $sortByTitle) }}
                         {{ end }}
                     {{ end }}
