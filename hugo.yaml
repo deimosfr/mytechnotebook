@@ -52,6 +52,7 @@ params:
     sidebarIcons: true
     simpleIcons: true
     darkMode: true
+    sortSidebarByTitle: true
     repoURL: "https://github.com/deimosfr/mytechnotebook"
     repoBranch: "main"
     editPage: true

@@ -11,102 +11,20 @@
         <ul class="sidebar-menu">
             {{ $currentPage := . -}}
             {{ $section := $currentPage.Section -}}
-            {{ range (where .Site.Sections.ByWeight "Section" "in" $section) }}
-                {{ $child_pages := union .Sections .Pages }}
-                {{ range $child_pages.ByWeight }}
-                    {{ if or (.Sections) (.Pages) }}
-                    {{ $active := or (eq $currentPage .) ($currentPage.IsDescendant .) }}
-                        <li class="sidebar-dropdown {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
-                            <button class="btn">
-                                {{ if eq .Site.Params.docs.sidebarIcons true -}}
-                                    {{ if eq .Params.icontype "simple" -}}
-                                        <i class="si si-{{ .Params.icon }} me-2"></i>
-                                    {{ else -}}
-                                        <i class="material-icons me-2">{{- .Params.icon | default "notes" }}</i>
-                                    {{ end -}}
-                                {{ end }}
-                                {{- .Title }}
-                            </button>
-                            <div class="sidebar-submenu {{ if $active }}d-block{{ end }}">
-                                <ul>
-                                    {{ range .Pages }}
-                                        {{ $active := or (eq $currentPage .) ($currentPage.IsDescendant .) }}
-                                        {{ if .IsSection }}
-                                            <li class="sidebar-dropdown nested {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
-                                                <button class="btn">
-                                                    {{ if eq .Site.Params.docs.sidebarIcons true -}}
-                                                        <!-- <span class="material-icons me-2">{{- .Params.icon }}</span> -->
-                                                    {{ end }}
-                                                    {{- .Title }}
-                                                </button>
-                                                <div class="sidebar-submenu {{ if $active }}d-block{{ end }}">
-                                                    <ul>
-                                                        {{ range .Pages }}
-                                                            {{ $active := or (eq $currentPage .) ($currentPage.IsDescendant .) }}
-                                                            {{ if .IsSection }}
-                                                                <li class="sidebar-dropdown nested {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
-                                                                    <button class="btn">
-                                                                        {{ if eq .Site.Params.docs.sidebarIcons true -}}
-                                                                            <!-- <span class="material-icons me-2">{{- .Params.icon }}</span> -->
-                                                                        {{ end }}
-                                                                        {{- .Title }}
-                                                                    </button>
-                                                                    <div class="sidebar-submenu {{ if $active }}d-block{{ end }}">
-                                                                        <ul>
-                                                                            {{ range .Pages }}
-                                                                                {{ $active := or (eq $currentPage .) ($currentPage.IsDescendant .) }}
-                                                                                {{ if .IsSection }}
-                                                                                    <li class="sidebar-dropdown nested {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
-                                                                                        <button class="btn">
-                                                                                            {{ if eq .Site.Params.docs.sidebarIcons true -}}
-                                                                                                <!-- <span class="material-icons me-2">{{- .Params.icon }}</span> -->
-                                                                                            {{ end }}
-                                                                                            {{- .Title }}
-                                                                                        </button>
-                                                                                        <div class="sidebar-submenu {{ if $active }}d-block{{ end }}">
-                                                                                            <ul>
-                                                                                                {{ range .Pages }}
-                                                                                                    {{ $active := or (eq $currentPage .) ($currentPage.IsDescendant .) }}
-                                                                                                    <li class="{{ if $active }}current{{ end }} {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }}"><a class="sidebar-nested-link" href="{{ .Permalink }}">{{ .Title }}</a></li>
-                                                                                                {{ end }}
-                                                                                            </ul>
-                                                                                        </div>
-                                                                                    </li>
-                                                                                {{ else }}
-                                                                                    <li class="{{ if $active }}current{{ end }} {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }}"><a class="sidebar-nested-link" href="{{ .Permalink }}">{{ .Title }}</a></li>
-                                                                                {{ end }}
-                                                                            {{ end }}
-                                                                        </ul>
-                                                                    </div>
-                                                                </li>
-                                                            {{ else }}
-                                                                <li class="{{ if $active }}current{{ end }} {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }}"><a class="sidebar-nested-link" href="{{ .Permalink }}">{{ .Title }}</a></li>
-                                                            {{ end }}
-                                                        {{ end }}
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                        {{ else }}
-                                            <li class="{{ if $active }}current{{ end }} {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }}"><a class="sidebar-nested-link" href="{{ .Permalink }}">{{ .Title }}</a></li>
-                                        {{ end }}
-                                    {{ end }}
-                                </ul>
-                            </div>
-                        </li>
-                    {{ else }}
-                        {{ $active := or (eq $currentPage .) ($currentPage.IsDescendant .) }}
-                        <li class="{{ if $active }}current{{ end }}">
-                            <a class="sidebar-root-link" href="{{ .Permalink }}">
-                                {{ if eq .Site.Params.docs.sidebarIcons true -}}
-                                    {{ if eq .Params.icontype "simple" -}}
-                                        <i class="si si-{{ .Params.icon }} me-2"></i>
-                                    {{ else -}}
-                                        <i class="material-icons me-2">{{ .Params.icon }}</i>
-                                    {{ end -}}
-                                {{ end }}
-                                {{ .Title }}
-                            </a>
-                        </li>
+            {{ $sortByTitle := .Site.Params.docs.sortSidebarByTitle | default false -}}
+            
+            {{ if $sortByTitle }}
+                {{ range (where .Site.Sections.ByTitle "Section" "in" $section) }}
+                    {{ $child_pages := union .Sections .Pages }}
+                    {{ range $child_pages.ByTitle }}
+                        {{ template "sidebar-item" (dict "page" . "currentPage" $currentPage "sortByTitle" $sortByTitle) }}
+                    {{ end }}
+                {{ end }}
+            {{ else }}
+                {{ range (where .Site.Sections.ByWeight "Section" "in" $section) }}
+                    {{ $child_pages := union .Sections .Pages }}
+                    {{ range $child_pages.ByWeight }}
+                        {{ template "sidebar-item" (dict "page" . "currentPage" $currentPage "sortByTitle" $sortByTitle) }}
                     {{ end }}
                 {{ end }}
             {{ end }}
@@ -122,3 +40,87 @@
     <!-- Sidebar Footer -->
 </nav>
 <!-- sidebar-wrapper  -->
+
+{{ define "sidebar-item" }}
+    {{ $currentPage := .currentPage }}
+    {{ $sortByTitle := .sortByTitle }}
+    {{ $page := .page }}
+    
+    {{ if or ($page.Sections) ($page.Pages) }}
+        {{ $active := or (eq $currentPage $page) ($currentPage.IsDescendant $page) }}
+        <li class="sidebar-dropdown {{ if eq $page.Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
+            <button class="btn">
+                {{ if eq $page.Site.Params.docs.sidebarIcons true -}}
+                    {{ if eq $page.Params.icontype "simple" -}}
+                        <i class="si si-{{ $page.Params.icon }} me-2"></i>
+                    {{ else -}}
+                        <i class="material-icons me-2">{{- $page.Params.icon | default "notes" }}</i>
+                    {{ end -}}
+                {{ end }}
+                {{- $page.Title }}
+            </button>
+            <div class="sidebar-submenu {{ if $active }}d-block{{ end }}">
+                <ul>
+                    {{ if $sortByTitle }}
+                        {{ range ($page.Pages.ByTitle) }}
+                            {{ template "sidebar-child-item" (dict "page" . "currentPage" $currentPage "sortByTitle" $sortByTitle) }}
+                        {{ end }}
+                    {{ else }}
+                        {{ range ($page.Pages.ByWeight) }}
+                            {{ template "sidebar-child-item" (dict "page" . "currentPage" $currentPage "sortByTitle" $sortByTitle) }}
+                        {{ end }}
+                    {{ end }}
+                </ul>
+            </div>
+        </li>
+    {{ else }}
+        {{ $active := or (eq $currentPage $page) ($currentPage.IsDescendant $page) }}
+        <li class="{{ if $active }}current{{ end }}">
+            <a class="sidebar-root-link" href="{{ $page.Permalink }}">
+                {{ if eq $page.Site.Params.docs.sidebarIcons true -}}
+                    {{ if eq $page.Params.icontype "simple" -}}
+                        <i class="si si-{{ $page.Params.icon }} me-2"></i>
+                    {{ else -}}
+                        <i class="material-icons me-2">{{ $page.Params.icon }}</i>
+                    {{ end -}}
+                {{ end }}
+                {{ $page.Title }}
+            </a>
+        </li>
+    {{ end }}
+{{ end }}
+
+{{ define "sidebar-child-item" }}
+    {{ $currentPage := .currentPage }}
+    {{ $sortByTitle := .sortByTitle }}
+    {{ $page := .page }}
+    {{ $active := or (eq $currentPage $page) ($currentPage.IsDescendant $page) }}
+    
+    {{ if $page.IsSection }}
+        <li class="sidebar-dropdown nested {{ if eq $page.Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
+            <button class="btn">
+                {{ if eq $page.Site.Params.docs.sidebarIcons true -}}
+                    <!-- <span class="material-icons me-2">{{- $page.Params.icon }}</span> -->
+                {{ end }}
+                {{- $page.Title }}
+            </button>
+            <div class="sidebar-submenu {{ if $active }}d-block{{ end }}">
+                <ul>
+                    {{ if $sortByTitle }}
+                        {{ range ($page.Pages.ByTitle) }}
+                            {{ template "sidebar-child-item" (dict "page" . "currentPage" $currentPage "sortByTitle" $sortByTitle) }}
+                        {{ end }}
+                    {{ else }}
+                        {{ range ($page.Pages.ByWeight) }}
+                            {{ template "sidebar-child-item" (dict "page" . "currentPage" $currentPage "sortByTitle" $sortByTitle) }}
+                        {{ end }}
+                    {{ end }}
+                </ul>
+            </div>
+        </li>
+    {{ else }}
+        <li class="{{ if $active }}current{{ end }} {{ if eq $page.Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }}">
+            <a class="sidebar-nested-link" href="{{ $page.Permalink }}">{{ $page.Title }}</a>
+        </li>
+    {{ end }}
+{{ end }}
