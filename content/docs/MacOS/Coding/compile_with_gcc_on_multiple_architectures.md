@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Compiler_avec_gcc_sur_plusieurs_architectures_(ex\\:_PPC_et_Intel)/"
 title: "Compiling with GCC on Multiple Architectures (e.g., PPC and Intel)"
 description: "How to compile cross-architecture binaries using GCC, specifically for PPC and Intel architectures"
 categories: ["Development", "Mac OS"]

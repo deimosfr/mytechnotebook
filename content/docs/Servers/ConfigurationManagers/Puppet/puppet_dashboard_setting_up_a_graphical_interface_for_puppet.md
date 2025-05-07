@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Puppet_Dashboard_\\:_Mise_en_place_d'une_interface_graphique_pour_Puppet/"
 title: "Puppet Dashboard: Setting up a Graphical Interface for Puppet"
 description: "How to install, configure and use Puppet Dashboard to create a graphical interface to monitor Puppet nodes and reports."
 categories: ["RHEL", "Nginx", "Debian"]

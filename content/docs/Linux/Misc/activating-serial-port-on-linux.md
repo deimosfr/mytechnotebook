@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Activer_le_port_série_sur_Linux/"
 title: "Activating the Serial Port on Linux"
 description: "Learn how to configure and activate the serial port on Linux systems for remote access and management."
 categories: ["Linux", "System Administration"]

@@ -7,6 +7,10 @@ refLinksErrorLevel: warning
 refLinksNotFoundURL: /docs
 enableRobotsTXT: true
 
+# URL flattening configuration
+permalinks:
+  docs: "/:slug/"
+
 # Github Pages configuration
 caches:
   images:

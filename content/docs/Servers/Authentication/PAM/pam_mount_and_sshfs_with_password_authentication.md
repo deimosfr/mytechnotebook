@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/PAM_Mount_et_SshFS_avec_authentification_par_mot_de_passe/"
 title: "PAM Mount and SshFS with Password Authentication"
 description: "Guide for configuring PAM Mount with SSHFS using password authentication"
 categories: ["Linux"]

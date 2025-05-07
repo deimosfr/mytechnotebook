@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/fifo-and-cat-share-session-with-multiple-users/"
 title: "Fifo and Cat: Share a Session with Multiple Users"
 description: "How to use named pipes (FIFOs) and cat to visually share a terminal session with other users"
 categories: ["Linux", "System Administration", "Command Line"]

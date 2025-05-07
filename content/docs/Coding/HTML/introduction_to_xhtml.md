@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Introduction_au_XHTML/"
 title: "Introduction to XHTML"
 description: "This guide provides an introduction to XHTML, including the basics of tags, comments, minimal structure, and advanced features such as video tags."
 categories:

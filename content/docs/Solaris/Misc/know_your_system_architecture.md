@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Connaitre_son_architecture/"
 title: "How to Determine Your System Architecture"
 description: "A simple command to check your system's architecture and CPU capabilities"
 categories: ["Solaris", "System Administration"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Debugger_un_crash_de_JVM/"
 title: "Debugging a JVM Crash"
 description: "How to debug and identify Java Virtual Machine crashes and resolve memory issues with garbage collection"
 categories: ["Linux", "Development"]

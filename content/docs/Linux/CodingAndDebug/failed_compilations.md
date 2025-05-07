@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Compilations_foireuses/"
 title: "Failed Compilations"
 description: "Solutions for common Linux compilation failures and required libraries"
 categories: ["Linux", "Development"]

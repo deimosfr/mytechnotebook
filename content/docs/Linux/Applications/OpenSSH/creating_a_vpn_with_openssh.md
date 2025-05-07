@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Créer_un_VPN_avec_OpenSSH/"
 title: "Creating a VPN with OpenSSH"
 description: "Learn how to create a VPN connection using OpenSSH to encrypt all traffic between two machines."
 categories: ["Linux"]

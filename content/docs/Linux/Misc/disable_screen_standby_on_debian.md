@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Désactiver_la_mise_en_veille_de_l'écran_sur_Debian/"
 title: "Disable Screen Standby on Debian"
 description: "How to disable screen standby and screen locking on Debian systems."
 categories: ["Debian", "Linux"]

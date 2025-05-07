@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Changer_les_locales_de_Solaris/"
 title: "Changing Solaris Locales"
 description: "How to change locale settings on Solaris systems to fix locale-related error messages and properly configure internationalization."
 categories: ["Solaris"]

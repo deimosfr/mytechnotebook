@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Vim_\\:_Les_indispendables_&_Quick_Reference_Card/"
 title: "Vim: Essential Commands and Quick Reference Card"
 description: "A guide to essential Vim commands, functions, and configuration options with a quick reference card for Vim users."
 categories: ["Development", "Tools"]

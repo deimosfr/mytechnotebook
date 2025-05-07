@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Download_and_Execute_ShellCode_\\:_Code_optimisé_et_détaillé_d\\'un_ShellCode_Download/Execute_pour_Windows/"
 title: "Download and Execute ShellCode: Optimized and Detailed Code of a Download/Execute ShellCode for Windows"
 description: "Detailed documentation about optimized download and execute shellcode for Windows systems"
 categories: ["Linux", "Ethical Hacking"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Configurer_le_réseau_sous_OpenBSD/"
 title: "Configure Network on OpenBSD"
 description: "A guide to basic network configuration on OpenBSD systems including interface setup, static IPs, gateways, DNS, and performance tuning"
 categories: ["BSD", "Network", "System Administration"]

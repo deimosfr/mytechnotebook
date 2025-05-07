@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Lutter_un_peu_plus_contre_le_SPAM_-_Règles_supplémentaires/"
 title: "Fight Spam More Effectively - Additional Rules"
 description: "A guide on how to enhance spam filtering with additional rules and tools like Razor and Pyzor."
 categories: ["Linux", "Servers", "Network"]

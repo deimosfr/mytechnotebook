@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Outrepasser_les_proxy_HTTPS_pour_SSH/"
 title: "Bypassing HTTPS Proxies for SSH"
 description: "Guide to bypass corporate proxies and allow SSH connections through port 443 when standard ports are blocked"
 categories: ["Linux", "Network", "Debian", "Ubuntu"]

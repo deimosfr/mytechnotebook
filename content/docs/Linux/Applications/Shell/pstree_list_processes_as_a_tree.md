@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Pstree_\\:_lister_ses_process_sous_forme_d'arbre/"
 title: "Pstree: List Processes as a Tree"
 description: "Learn how to use the pstree command to visualize running processes in a tree format, showing parent-child relationships between processes."
 categories: ["Linux"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/DTrace_\\:_détection_de_problèmes_en_temps_réel/"
 title: "DTrace: Real-time Problem Detection"
 description: "This article covers DTrace, a powerful tracing system designed for real-time problem detection at kernel or application level, with practical examples and scripts."
 categories: ["Linux", "Solaris"]

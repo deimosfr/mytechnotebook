@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Statistiques_sur_la_bande_passante_occupée/"
 title: "Bandwidth Usage Statistics"
 description: "A simple shell script to calculate and monitor bandwidth usage on external network interfaces for BSD and Linux systems."
 categories:

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Geolocalisation_avec_Apache_2/"
 title: "Geolocation with Apache 2"
 description: "A guide to set up and use mod_geoip with Apache 2 for geographical targeting and IP-based filtering."
 categories: ["Servers", "Apache", "Web"]

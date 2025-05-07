@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Bugzilla_\\:_mise_en_place_d'un_outil_de_ticketing/"
 title: "Bugzilla: Setting Up a Ticketing Tool"
 description: "How to install and configure Bugzilla as a ticketing and bug tracking system"
 categories: ["Ticketing", "Web Applications", "Bug Tracking"]

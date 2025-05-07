@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Tester_le_load_sur_ses_serveurs_et_applications_web/"
 title: "Testing Load on Servers and Web Applications"
 description: "A guide to different tools for load testing web servers and applications, comparing curl-loader, httperf, Siege, and Tsung."
 categories: ["Linux", "Apache", "Development"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Installation_et_configuration_d'un_serveur_Bind9_primaire_(Master)/"
 title: "Installing and Configuring a Primary Bind9 Server (Master)"
 description: "A comprehensive guide to installing and configuring a primary Bind9 DNS server, including security settings, zone configurations, and troubleshooting tips."
 categories: ["Security", "Linux"]

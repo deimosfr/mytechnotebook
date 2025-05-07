@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/OpenFire_\\:_Installation_d'OpenFire/"
 title: "OpenFire: Installation of OpenFire"
 description: "A guide to install and configure OpenFire, the most functional Jabber server, with integration capabilities for LDAP, Oracle, and MySQL."
 categories: ["MySQL", "Database", "Linux", "Servers", "Network"]

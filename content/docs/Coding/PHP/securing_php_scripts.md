@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Sécuriser_ses_scripts_PHP/"
 title: "Securing PHP Scripts"
 description: "Guide for securing PHP scripts with documentation resources for better security practices."
 categories: ["Development", "Linux"]

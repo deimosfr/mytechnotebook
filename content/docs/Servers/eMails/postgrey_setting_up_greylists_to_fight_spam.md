@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Postgrey_\\:_Mise_en_place_de_greylists_pour_lutter_contre_le_spam/"
 title: "Postgrey: Setting Up Greylists to Fight Spam"
 description: "This guide explains how to set up and configure Postgrey, a greylisting implementation for Postfix to effectively combat spam emails."
 categories: ["Linux", "Security", "Debian"]

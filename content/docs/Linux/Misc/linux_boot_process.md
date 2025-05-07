@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Le_boot_de_Linux/"
 title: "Linux Boot Process"
 description: "Documentation about the Linux boot process"
 categories: ["Linux"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Ifrename_\\:_renomer_ses_cartes_réseaux_sans_utiliser_udev/"
 title: "Ifrename: Renaming Network Cards Without Using Udev"
 description: "How to use Ifrename to rename network interfaces based on MAC addresses without using udev"
 categories:

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/glances-all-in-one-monitoring-shell-tool/"
 title: "Glances: All in One Monitoring Shell Tool"
 description: "Glances is a cross-platform curses-based monitoring tool written in Python that provides an all-in-one overview of your system health, replacing the need to run multiple monitoring tools simultaneously."
 categories: ["Linux", "Monitoring", "System Administration"]

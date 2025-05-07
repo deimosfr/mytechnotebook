@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Nagios_\\:_Installation_et_configuration/"
 title: "Nagios: Installation and Configuration"
 description: "A guide to install and configure Nagios monitoring system on Debian, including server setup, configuration options, and troubleshooting."
 categories: ["Debian", "Linux", "Servers"]

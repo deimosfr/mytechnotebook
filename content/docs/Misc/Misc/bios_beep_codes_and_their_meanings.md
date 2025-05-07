@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Signification_des_bips_émis_par_le_Bios/"
 title: "BIOS Beep Codes and Their Meanings"
 description: "A comprehensive guide to understanding the meaning of various BIOS beep codes during computer startup problems."
 categories: ["Linux"]

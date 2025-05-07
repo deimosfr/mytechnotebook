@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Newznab_\\:_Mise_en_place_d'un_indexeur_de_usenet/"
 title: "Newznab: Setting up a Usenet Indexer"
 description: "A comprehensive guide on how to install and configure Newznab as a Usenet indexer to work with applications like SABnzbd and Sick-Beard."
 categories: ["Debian", "Database", "Linux"]

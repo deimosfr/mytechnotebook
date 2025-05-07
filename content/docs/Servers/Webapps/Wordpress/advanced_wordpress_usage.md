@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Utilisation_avancée_de_Wordpress/"
 title: "Advanced WordPress Usage"
 description: "Tips and techniques for advanced WordPress configuration, including Nginx setup, JavaScript integration, and file handling."
 categories: ["Nginx", "Linux"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Gnome-shell_\\:_changement_automatique_de_fond_d'écran/"
 title: "Gnome-shell: Automatic Wallpaper Change"
 description: "How to set up automatic wallpaper change in Gnome-shell using a simple script and optional tools like Nitrogen"
 categories: ["Linux", "Debian"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/NTOP\\:_Installation_et_configuration_d'NTOP_(Network_TOP)/"
 title: "NTOP: Installation and Configuration of NTOP (Network TOP)"
 description: "A guide for installing and configuring NTOP, a tool for collecting network information with simple configurations and web interface for viewing network statistics."
 categories: ["Linux", "CentOS", "Network"]

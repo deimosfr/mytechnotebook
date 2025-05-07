@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Connaitre_le_page_size_de_sa_machine/"
 title: "How to Check the Page Size of Your Machine"
 description: "Methods to determine memory page size in different operating systems for more efficient memory allocation"
 categories: ["System Administration", "Development"]

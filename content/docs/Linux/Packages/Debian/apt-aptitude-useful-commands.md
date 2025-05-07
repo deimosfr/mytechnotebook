@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/apt-aptitude-les-commandes-utiles/"
 title: "Apt & Aptitude: Useful Commands"
 description: "A comparison of Apt and Aptitude package management tools in Debian-based Linux distributions, highlighting the advantages of Aptitude"
 categories: ["Linux", "Debian", "System Administration"]

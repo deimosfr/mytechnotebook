@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/aspirer-un-site-web/"
 title: "Mirroring a Website"
 description: "How to mirror an entire website locally using wget command line utility"
 categories: ["Web", "Command Line"]

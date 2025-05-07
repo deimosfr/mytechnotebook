@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/DevStack_\\:_développer_ou_tester_rapidement_OpenStack/"
 title: "DevStack: Quickly Develop or Test OpenStack"
 description: "Learn how to use DevStack to quickly set up and test OpenStack for development and testing purposes"
 categories: ["Ubuntu", "Linux"]

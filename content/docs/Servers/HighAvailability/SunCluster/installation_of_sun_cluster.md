@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Installation_of_Sun_Cluster_(old)/"
 title: "Installation of Sun Cluster"
 description: "Guide for installing and configuring Sun Cluster software on Solaris systems."
 categories: ["Solaris", "Cluster"]

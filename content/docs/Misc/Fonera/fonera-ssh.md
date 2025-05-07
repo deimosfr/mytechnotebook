@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/activer-le-ssh-sur-sa-fonera-plus/"
 title: "Enabling SSH on the Fonera+"
 description: "A guide to enable SSH access on a Fonera+ router by flashing it with a custom firmware."
 categories: ["Networking", "Linux", "Hardware"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Les_différentes_boucles_du_shell_script/"
 title: "Different Shell Script Loops"
 description: "A guide to different loop structures in shell scripting including if, for, while, until, case statements and testing conditions."
 categories: ["Linux", "Development"]

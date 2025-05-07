@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Gnome-shell_\\:_utilisation_de_settings_pour_configurer_votre_desktop/"
 title: "GNOME Shell: Using Settings to Configure Your Desktop"
 description: "A guide on how to use GNOME Shell settings to configure your desktop environment, including showing date/time, workspace settings, changing backgrounds and more."
 categories: ["Linux", "Debian"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Symfony_\\:_Installation_et_configuration_du_framework_PHP/"
 title: "Symfony: Installation and Configuration of the PHP Framework"
 description: "A guide to install and configure the Symfony PHP framework, including prerequisites, installation steps, and basic project configuration."
 categories: ["Development", "PHP", "MySQL", "Linux", "Apache"]

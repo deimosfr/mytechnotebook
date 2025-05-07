@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Sysstat_\\:_Des_outils_indispensable_pour_analyser_des_problèmes_de_performances/"
 title: "Sysstat: Essential Tools for Analyzing Performance Issues"
 description: "Learn how to use Sysstat tools including iostat and sar to monitor and analyze system performance issues across Linux and Solaris systems."
 categories:

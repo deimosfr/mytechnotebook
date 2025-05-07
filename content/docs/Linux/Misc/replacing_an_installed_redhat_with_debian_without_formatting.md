@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Remplacer_une_RedHat_installée_par_une_Debian_sans_formater/"
 title: "Replacing an installed RedHat with Debian without formatting"
 description: "How to replace a RedHat installation with Debian without formatting the disk or losing data"
 categories: ["Debian", "Linux"]

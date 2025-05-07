@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Mise_en_place_d'un_Antivirus_(ClamAV_et_Amavis)/"
 title: "Setting up an Antivirus (ClamAV and Amavis)"
 description: "This guide explains how to set up ClamAV antivirus with Amavis to integrate with Postfix for email scanning."
 categories: ["Linux", "Database"]

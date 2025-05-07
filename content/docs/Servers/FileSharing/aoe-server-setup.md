@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/aoe-mise-en-place-d-un-serveur-ata-over-ethernet/"
 title: "AOE: Setting Up an ATA Over Ethernet Server"
 description: "Guide for implementing an ATA Over Ethernet (AOE) server to transport ATA commands over an Ethernet network."
 categories: ["Storage", "Networking", "Server"]

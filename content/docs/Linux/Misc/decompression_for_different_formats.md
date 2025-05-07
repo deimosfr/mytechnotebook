@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Décompressions_sous_différents_formats/"
 title: "Uncompress for Different Formats"
 description: "A guide to uncompress different types of archive formats in Linux including RPM, DEB, ZIP, CAB, and more."
 categories: ["Linux"]

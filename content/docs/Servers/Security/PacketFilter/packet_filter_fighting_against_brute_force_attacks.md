@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Packet_Filter\\:_Lutter_contre_le_bruteforce/"
 title: "Packet Filter: Fighting Against Brute Force Attacks"
 description: "How to configure Packet Filter (PF) to protect against brute force attacks on services like SSH by automatically blacklisting suspicious IP addresses."
 categories: ["FreeBSD", "Linux", "Network", "Security"]

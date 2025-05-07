@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Tomcat_\\:_Mise_en_place_d'un_serveur_Tomcat/"
 title: "Tomcat: Setting up a Tomcat server"
 description: "Learn how to install, configure, and manage Tomcat server including advanced features like load balancing, clustering, and monitoring options."
 categories: ["Servers", "Debian"]

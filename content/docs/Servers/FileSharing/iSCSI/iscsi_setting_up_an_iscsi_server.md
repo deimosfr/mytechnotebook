@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/ISCSI_\\:_Mise_en_place_d'un_serveur_iSCSI/"
 title: "iSCSI: Setting up an iSCSI Server"
 description: "This guide explains how to install and configure an iSCSI server and client on Red Hat systems."
 categories: ["Linux", "Storage", "Networking"]

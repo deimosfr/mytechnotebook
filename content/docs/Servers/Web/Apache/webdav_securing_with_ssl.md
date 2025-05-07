@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/WebDav_\\:_Sécuriser_avec_SSL/"
 title: "WebDAV: Securing with SSL"
 description: "How to secure WebDAV connections using SSL encryption for improved security."
 categories: ["Apache", "Linux", "Security"]

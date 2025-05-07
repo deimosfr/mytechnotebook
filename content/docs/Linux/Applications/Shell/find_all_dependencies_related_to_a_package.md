@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Trouver_toutes_les_dépendances_liées_à_un_package/"
 title: "Find all dependencies related to a package"
 description: "How to find all dependencies related to a package in Debian-based systems using apt-rdepends"
 categories: ["Linux", "Debian"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Sphinx_\\:_setup_a_full_text_indexer/"
 title: "Sphinx: Setup a Full Text Indexer"
 description: "Guide on setting up Sphinx, an open source full text search server, with specific instructions for MediaWiki integration and configuration."
 categories: ["Debian", "Storage", "Database"]

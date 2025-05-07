@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/LXC_\\:_Install_and_configure_the_Linux_Containers/"
 title: "LXC: Install and configure the Linux Containers"
 description: "A comprehensive guide on installing, configuring and using Linux Containers (LXC) on Debian systems."
 categories: ["Virtualization", "Linux", "Containers"]

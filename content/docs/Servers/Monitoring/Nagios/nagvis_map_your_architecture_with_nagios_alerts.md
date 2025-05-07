@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/NagVis\\:_Cartographier_son_architecture_avec_ses_alertes_nagios/"
 title: "NagVis: Map Your Architecture with Nagios Alerts"
 description: "Learn how to install and configure NagVis to display your Nagios alerts on custom infrastructure maps."
 categories: ["Monitoring", "Linux", "MySQL"]

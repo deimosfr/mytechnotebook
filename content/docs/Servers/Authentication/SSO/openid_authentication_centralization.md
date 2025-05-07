@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/OpenID_\\:_Centralisation_d'authentification/"
 title: "OpenID: Authentication Centralization"
 description: "Learn how to centralize authentication with OpenID, a decentralized single sign-on solution that allows users to access multiple websites with a single identity."
 categories:

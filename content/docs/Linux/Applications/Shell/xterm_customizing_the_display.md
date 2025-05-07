@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Xterm_\\:_personnaliser_l'affichage/"
 title: "Xterm: Customizing the Display"
 description: "How to customize Xterm configuration and display settings for better readability"
 categories:

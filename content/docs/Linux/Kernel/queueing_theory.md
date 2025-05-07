@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Théorie_des_files_d\\'attentes/"
 title: "Queueing Theory"
 description: "An overview of queueing theory, Little's Law, wait times, completion rates, and predicting system limits"
 categories: ["Linux", "Network", "Development"]

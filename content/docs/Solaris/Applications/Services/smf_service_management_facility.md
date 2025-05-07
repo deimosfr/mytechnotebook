@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/SMF_\\:_Service_Management_Facility/"
 title: "SMF: Service Management Facility"
 description: "A comprehensive guide to Solaris Service Management Facility (SMF), covering service management, runlevels, milestones, and configuration of services."
 categories: ["Linux", "Servers", "System Administration"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Conversions_videos/"
 title: "Video Conversions"
 description: "Guide on how to convert videos between different formats using mencoder and ffmpeg on Linux"
 categories: ["Ubuntu", "Linux"]

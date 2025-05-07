@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/WebVZ\\_\\:_Administrer_ces_VM_OpenVZ_en_interface_web/"
 title: "WebVZ: Manage OpenVZ VMs with a Web Interface"
 description: "A guide to WebVZ, a web interface for managing OpenVZ virtual machines."
 categories: ["Linux", "Virtualization"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Protection_de_l'espace_d'adressage_\\:_état_de_l'art_sous_Linux_et_OpenBSD/"
 title: "Address Space Protection: State of the Art in Linux and OpenBSD"
 description: "An analysis of address space protection techniques in Linux and OpenBSD operating systems"
 categories: ["Linux"]

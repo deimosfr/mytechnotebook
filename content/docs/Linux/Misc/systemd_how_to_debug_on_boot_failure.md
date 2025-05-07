@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Systemd\\:_how_to_debug_on_boot_fail/"
 title: "Systemd: How to Debug on Boot Failure"
 description: "Guide on how to debug systemd boot failures including checking failed services, getting service status information and troubleshooting techniques."
 categories: ["Linux", "Debian"]

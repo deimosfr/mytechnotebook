@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/RPM_\\:_Build_a_binary_RPM_package_from_sources_on_Red_Hat/"
 title: "RPM: Build a Binary RPM Package from Sources on Red Hat"
 description: "Guide on how to build a binary RPM package from source files on Red Hat systems, including compilation and packaging steps."
 categories: ["Linux", "Red Hat"]

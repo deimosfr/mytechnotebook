@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/gestion_de_la_memoire_en_java/"
 title: "Java Memory Management"
 description: "Documentation about how memory management works in Java and in the JVM"
 categories: ["Development", "Java"]

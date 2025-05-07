@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Introduction_au_Python/"
 title: "Introduction to Python"
 description: "A comprehensive introduction to Python programming language, covering syntax, data types, structures, functions, modules, and useful libraries."
 categories: ["Linux"]

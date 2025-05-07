@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Create_a_PKI/"
 title: "Create a PKI"
 description: "Guide on setting up a Public Key Infrastructure (PKI) for creating, managing, and distributing digital certificates using OpenSSL."
 categories: ["Linux", "Database", "Debian"]

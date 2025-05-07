@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Installation_et_configuration_de_CVS/"
 title: "CVS Installation and Configuration"
 description: "How to install and configure CVS on Debian and Red Hat Linux distributions."
 categories: ["Linux", "Backup", "Debian"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/UFS_\\:_utilisation_des_disques_en_UFS/"
 title: "UFS: Disk usage in UFS"
 description: "A guide on how to create and manage UFS slices in FreeBSD, including partition creation, formatting, and mounting."
 categories: ["FreeBSD", "Linux", "Backup"]

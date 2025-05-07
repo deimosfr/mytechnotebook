@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Mise_en_place_d'un_Proxy_MySQL/"
 title: "Setting up a MySQL Proxy"
 description: "How to set up a MySQL proxy that can also serve as a load balancer."
 categories: ["MySQL", "Linux", "Database"]

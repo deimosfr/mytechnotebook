@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Installation_et_configuration_d'un_cluster_Heartbeat_V1/"
 title: "Installation and Configuration of a Heartbeat V1 Cluster"
 description: "This guide explains how to set up and configure a Heartbeat V1 cluster for high availability services on Linux."
 categories: ["Linux", "CentOS", "Ubuntu"]

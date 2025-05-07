@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Rsyslog_\\:\_Installation_et_configuration_d'Rsyslog/"
 title: "Rsyslog: Installation and Configuration"
 description: "Guide to installing and configuring Rsyslog for log management, including server setup, templates, and client configuration"
 categories: ["Debian", "Security", "Database"]

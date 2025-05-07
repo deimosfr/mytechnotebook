@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Créer_un_repository_Debian/"
 title: "Creating a Debian Repository"
 description: "This guide explains how to create your own Debian package repository for hosting custom packages."
 categories: ["Ubuntu", "Debian", "Linux"]

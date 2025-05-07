@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Proxy\\:\_Créer_un_proxy_avec_Apache/"
 title: "Proxy: Creating a proxy with Apache"
 description: "Guide on how to set up and configure an Apache proxy server for different use cases including tunneling SSH over HTTP and setting up a reverse proxy for applications."
 categories: ["Linux", "Network", "Servers"]

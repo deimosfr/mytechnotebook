@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Générer_un_fichier_configure_pour_pré-make/"
 title: "Generate a Configure File for Pre-make"
 description: "How to generate a configure file before running make when retrieving sources from SVN or CVS repositories."
 categories: ["Linux"]

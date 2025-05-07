@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Initiation_à_Vi/"
 title: "Introduction to Vi"
 description: "A comprehensive guide to learning and using the Vi text editor on Linux systems, from basic commands to advanced features."
 categories: ["Linux"]

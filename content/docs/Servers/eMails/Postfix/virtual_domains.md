@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Domaines_Virtuels/"
 title: "Virtual Domains"
 description: "How to set up virtual domains in Postfix for handling multiple domains with aliases and advanced mail routing."
 categories: ["Linux", "Servers"]

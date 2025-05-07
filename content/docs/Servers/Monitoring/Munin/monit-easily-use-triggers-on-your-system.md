@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/monit-easily-use-triggers-on-your-system/"
 title: "Monit: Easily Use Triggers on Your System"
 description: "Learn how to install, configure, and use Monit for managing and monitoring processes, programs, files, directories, and filesystems on Unix systems with automatic maintenance and error handling."
 categories: ["Linux", "Monitoring", "System Administration"]

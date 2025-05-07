@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/fanout-run-same-command-on-multiple-machines/"
 title: "Fanout: Run the Same Command on Multiple Machines Simultaneously"
 description: "How to use Fanout to execute commands on multiple servers at the same time"
 categories: ["Linux", "System Administration", "Tools"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Heymon_\\:_Une_interface_web_pour_Collectd/"
 title: "Heymon: A Web Interface for Collectd"
 description: "Guide on how to install and configure Heymon, a web interface for Collectd that allows comparing metrics between different machines."
 categories: ["Linux", "Debian", "Monitoring"]

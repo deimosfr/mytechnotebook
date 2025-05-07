@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Qemu_\\:_Installation_de_Windows/"
 title: "QEMU: Windows Installation"
 description: "Guide to installing and running Windows operating systems in QEMU virtual machines."
 categories: ["Linux", "FreeBSD", "Virtualization"]

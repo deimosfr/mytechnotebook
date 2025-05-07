@@ -1,5 +1,4 @@
 ---
-url: "/AutoFS_\\:_montage_et_démontage_de_partages/"
 title: "AutoFS: Mounting and Unmounting Shares"
 description: "Learn how to set up AutoFS to automatically mount and unmount various network filesystems including NFS, CIFS, SSH, and FTP."
 categories: ["Linux", "Storage", "Network"]

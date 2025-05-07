@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/GFS2_\\:_Le_Filesystem_Cluster_de_Red_Hat/"
 title: "GFS2: Red Hat Cluster Filesystem"
 description: "Learn how to install and configure GFS2, the Global File System cluster filesystem developed by Red Hat for Linux."
 categories: ["Linux", "File Systems", "Clusters"]

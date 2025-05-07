@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Migration_Xen_vers_KVM/"
 title: "Migrating from Xen to KVM"
 description: "A guide on how to migrate virtual machines from Xen to KVM virtualization platform."
 categories: ["Debian", "Linux"]

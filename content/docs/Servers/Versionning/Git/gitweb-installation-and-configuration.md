@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Gitweb_\\:_Installation_et_configuration_d'une_interface_web_pour_git/"
 title: "Gitweb: Installation and configuration of a web interface for git"
 description: "Learn how to install and configure Gitweb, the web interface that allows you to view all commits and comments for git repositories."
 categories: ["Server", "Git", "Web"]

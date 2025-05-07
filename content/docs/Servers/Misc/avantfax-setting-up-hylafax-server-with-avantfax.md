@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/AvantFax_\\:_Mise_en_place_d'un_serveur_de_Fax_HylaFax_avec_AvantFax/"
 title: "AvantFax: Setting Up a HylaFax Server with AvantFax"
 description: "Learn how to set up a fax server using HylaFax with the AvantFax web frontend."
 categories: ["Server", "Fax", "Communication"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/PowerDNS_\\:_Créer_serveur_DNS_maitre/"
 title: "PowerDNS: Creating a Master DNS Server"
 description: "How to install and configure a PowerDNS master server using a MySQL backend on Debian"
 categories: ["MySQL", "Debian", "Linux"]

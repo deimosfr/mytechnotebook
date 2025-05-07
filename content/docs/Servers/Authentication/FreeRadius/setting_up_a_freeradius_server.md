@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Mise_en_place_d'un_serveur_FreeRadius/"
 title: "Setting up a FreeRadius server"
 description: "This guide explains how to install and configure a FreeRadius server on OpenBSD, including basic user setup and verification."
 categories: ["Linux", "Network", "Servers"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/PNP4Nagios\\:_Grapher_ses_alertes_Nagios/"
 title: "PNP4Nagios: Graph Your Nagios Alerts"
 description: "Guide to install and configure PNP4Nagios to generate graphs from Nagios performance data"
 categories: ["Linux", "Monitoring", "Apache"]

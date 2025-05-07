@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Mes_scripts_Perl_qui_peuvent_servir_d'exercices/"
 title: "My Perl Scripts That Can Serve as Exercises"
 description: "A collection of Perl scripts for practical training, including scripts for monitoring Java applications, managing SFTP accounts, watching log files, and more."
 categories: ["Linux", "Development", "Database"]

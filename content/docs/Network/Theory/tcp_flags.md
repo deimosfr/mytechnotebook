@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Les_Flags_TCP/"
 title: "TCP Flags"
 description: "A reference guide explaining the meaning of different TCP flags used in network communications."
 categories: ["Linux", "Network"]

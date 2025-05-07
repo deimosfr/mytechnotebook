@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Connaitre_le_temps_d'exécution_d'une_ou_plusieurs_commandes/"
 title: "Measuring Execution Time of One or Multiple Commands"
 description: "How to measure the execution time of commands in Unix-like systems"
 categories: ["Linux", "Shell", "System Administration"]

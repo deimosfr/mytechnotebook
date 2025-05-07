@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Réglage_de_problèmes/"
 title: "Troubleshooting mails with Postfix"
 description: "This documentation provides various methods and solutions for troubleshooting mail server problems, especially in Postfix environments."
 categories: ["Servers", "Database", "Linux"]

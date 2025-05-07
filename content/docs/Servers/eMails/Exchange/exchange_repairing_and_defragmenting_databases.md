@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Exchange_\\:_Réparer_et_défragmenter_les_bases_de_données/"
 title: "Exchange: Repairing and Defragmenting Databases"
 description: "Guide on how to repair and defragment Exchange databases to improve performance and reduce storage space."
 categories: ["Windows"]

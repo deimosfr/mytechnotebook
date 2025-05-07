@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Installation_et_configuration_d\\'Apache_2/"
 title: "Apache 2 Installation and Configuration"
 description: "This guide covers the installation and configuration of Apache 2 web server, including authentication, URL rewrites, virtual hosts, and performance optimizations."
 categories: ["Monitoring", "Security", "Ubuntu"]

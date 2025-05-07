@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Slony-I_\\:_Réplication_de_bases_pour_PostgresSQL/"
 title: "Slony-I: Database Replication for PostgreSQL"
 description: "Guide on how to configure and manage database replication in PostgreSQL using Slony-I, including installation, configuration and high availability setup."
 categories: ["PostgreSQL", "Database", "Linux"]

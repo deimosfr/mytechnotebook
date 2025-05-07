@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/TFTP_\\:_PXE_Serveur,_déploiement_d'OS_sous_Linux/"
 title: "TFTP: PXE Server, OS Deployment under Linux"
 description: "Guide to set up a PXE server for OS deployment using TFTP under Linux"
 categories: ["Debian", "Linux", "Ubuntu"]

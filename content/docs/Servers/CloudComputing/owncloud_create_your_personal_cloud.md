@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/OwnCloud_\\:_créer_son_cloud_personnel/"
 title: "OwnCloud: Create Your Personal Cloud"
 description: "How to set up your own personal cloud server using OwnCloud with Nginx and MariaDB"
 categories: ["Nginx", "Debian", "Database"]

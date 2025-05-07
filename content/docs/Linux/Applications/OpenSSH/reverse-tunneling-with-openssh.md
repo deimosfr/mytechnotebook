@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Faire_du_reverse_Tunelling_avec_OpenSSH/"
 title: "Reverse Tunneling with OpenSSH"
 description: "How to set up reverse tunneling with OpenSSH to access machines behind NAT and firewalls."
 categories: ["Network", "Security", "SSH"]

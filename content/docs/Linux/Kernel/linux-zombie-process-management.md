@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Gestion_des_process_zombies_sous_Linux/"
 title: "Managing Zombie Processes in Linux"
 description: "Information about killing zombie processes in Linux with the TASK_KILLABLE state introduced in kernel 2.6.26."
 categories: ["Linux", "System Administration", "Process Management"]

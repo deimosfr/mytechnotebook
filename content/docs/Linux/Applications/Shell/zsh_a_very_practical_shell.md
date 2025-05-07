@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/ZSH_\\:_un_shell_très_pratique/"
 title: "ZSH: A Very Practical Shell"
 description: "Configuration and usage guide for ZSH shell, a powerful alternative to bash with advanced features like auto-completion, customizable prompts, and better history management."
 categories: ["Linux", "Debian"]

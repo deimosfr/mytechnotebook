@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Satellite_\\:_Déploiement_d'OS_Red_Hat_via_Red_Hat_Satellite/"
 title: "Satellite: Deploying Red Hat OS via Red Hat Satellite"
 description: "Guide for deploying and managing Red Hat operating systems through Red Hat Satellite, including installation, configuration, and repository management."
 categories: ["RHEL", "Red Hat", "Security"]

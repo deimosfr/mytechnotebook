@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/redemarrer_x/"
 title: "Restart X"
 description: "How to restart the X Window System using keyboard shortcuts and command line methods."
 categories: ["Linux", "Ubuntu"]

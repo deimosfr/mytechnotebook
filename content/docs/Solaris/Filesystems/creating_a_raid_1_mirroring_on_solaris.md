@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Creation_d'un_Raid_1_(mirroring)_sous_Solaris/"
 title: "Creating a RAID 1 (mirroring) on Solaris"
 description: "Guide to setting up RAID 1 mirroring for filesystems in Solaris using DiskSuite and ZFS."
 categories: ["Backup", "Linux"]

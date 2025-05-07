@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Le_système_de_Packages_OpenBSD/"
 title: "OpenBSD Package System"
 description: "A guide to understanding and using the OpenBSD package and ports systems for software management."
 categories: ["Security", "Linux"]

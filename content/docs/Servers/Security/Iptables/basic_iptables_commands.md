@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Les_commandes_de_bases_d\\'Iptables/"
 title: "Basic IPTables Commands"
 description: "Learn the basic IPTables commands for Linux firewalls - including chain manipulation, rule management, and practical examples."
 categories: ["Linux", "Network", "Security"]

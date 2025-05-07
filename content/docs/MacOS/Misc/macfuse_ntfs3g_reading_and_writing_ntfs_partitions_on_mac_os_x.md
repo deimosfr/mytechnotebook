@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/MacFuse_+_NTFS-3G_\\:_Lecture_et_écriture_de_partitions_NTFS_sur_Mac_OS_X/"
 title: "MacFuse + NTFS-3G: Reading and Writing NTFS Partitions on Mac OS X"
 description: "Tutorial for installing and configuring MacFuse and NTFS-3G to enable read and write access to NTFS partitions on Mac OS X"
 categories: ["MacOS"]

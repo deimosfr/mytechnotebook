@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Convertir_une_image_disque_Vmware_pour_Qemu_ou_Xen/"
 title: "Converting a VMware Disk Image for Qemu or Xen"
 description: "This guide explains how to convert VMware disk images to be compatible with Qemu or Xen virtualization platforms."
 categories: ["Ubuntu", "Linux", "Virtualization"]

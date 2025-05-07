@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Vider_son_cache_DNS_sur_Mac_OS_X/"
 title: "Clearing DNS Cache on Mac OS X"
 description: "Instructions on how to clear the DNS cache on Mac OS X systems"
 categories: ["Mac OS X", "Network"]

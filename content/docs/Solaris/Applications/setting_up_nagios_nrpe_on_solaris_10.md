@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Mise_en_place_de_Nagios_NRPE_sur_Solaris_10/"
 title: "Setting up Nagios NRPE on Solaris 10"
 description: "A guide on how to set up Nagios NRPE on Solaris 10 with detailed steps for installation and configuration."
 categories: ["Linux", "Servers", "Network"]

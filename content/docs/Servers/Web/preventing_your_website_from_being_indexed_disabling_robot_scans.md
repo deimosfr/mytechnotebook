@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/preventing_indexed_website/"
 title: "Preventing your website from being indexed (disabling robot scans)"
 description: "How to prevent search engines from crawling and indexing your website using robots.txt file and meta tags"
 categories: ["Development", "Linux", "Servers"]

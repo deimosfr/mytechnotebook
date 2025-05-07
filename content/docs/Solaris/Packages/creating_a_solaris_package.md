@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Créer_un_package_Solaris/"
 title: "Creating a Solaris Package"
 description: "Learn how to create your own Solaris packages for efficient software distribution and management."
 categories: ["Linux"]

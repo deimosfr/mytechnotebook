@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Introduction_et_Architechture_de_mise_en_place_d'un_Cluster_SUN/"
 title: "Introduction and Architecture of Setting Up a SUN Cluster"
 description: "An introduction to SUN Clustering technology, including types of clusters, definitions, infrastructure components, and configuration details."
 categories: ["Virtualization", "Network", "Servers"]

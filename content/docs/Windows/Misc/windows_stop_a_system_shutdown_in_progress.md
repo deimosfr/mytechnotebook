@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Windows_\\:_Arréter_un_arret_du_système_en_cours/"
 title: "Windows: Stop a system shutdown in progress"
 description: "How to stop a Windows system shutdown that is already in progress using a simple command"
 categories:

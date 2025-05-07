@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Postsuper_\\:_Suppression_massive_de_mails_dans_la_queue/"
 title: "Postsuper: Mass Deletion of Emails in the Queue"
 description: "Guide to removing emails from Postfix queue, both complete and selective deletions using postsuper utility."
 categories: ["Linux"]

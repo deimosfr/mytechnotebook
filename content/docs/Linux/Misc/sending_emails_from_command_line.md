@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Envoie_de_mails_en_lignes_de_commandes/"
 title: "Sending Emails from Command Line"
 description: "Guide to sending emails via command line using mail and mutt on Unix/Linux systems, with examples of attaching files and multiple recipients."
 categories: ["Linux"]

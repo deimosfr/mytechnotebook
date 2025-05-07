@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Réparer_des_bases_MyISAM_et_InnoDB/"
 title: "Repairing MyISAM and InnoDB Databases"
 description: "A comprehensive guide on how to repair and fix corrupted MyISAM and InnoDB databases in MySQL, with solutions for common database issues."
 categories: ["Programming", "Storage", "Database"]

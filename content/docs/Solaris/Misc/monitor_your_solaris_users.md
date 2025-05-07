@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Monitorer_ses_Solaris_Users/"
 title: "Monitor Your Solaris Users"
 description: "How to monitor Solaris user activities, track logins, and manage access control on Solaris systems."
 categories: ["Monitoring", "Security", "Linux"]

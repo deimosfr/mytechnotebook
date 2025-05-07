@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Ivconv_\\:_Transcodage_de_texte_vers_n'importe_quel_jeu_de_caractères/"
 title: "Ivconv: Text Transcoding to Any Character Set"
 description: "How to use the iconv command on Debian to transcode text from one character set to another, useful for file conversion between UTF-8 and ISO standards."
 categories: ["Debian", "Linux"]

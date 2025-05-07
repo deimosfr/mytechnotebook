@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/OpenSSH\\:_using_stepstones/"
 title: "OpenSSH: Using Stepstones"
 description: "Learn how to automate SSH connections using stepstones to save time when connecting through intermediary hosts."
 categories: ["Linux", "Network"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/_Echange_de_clefs_SSH/"
 title: "OpenSSH: SSH Key Exchange"
 description: "How to set up and use SSH key exchange for passwordless authentication, including basic and advanced configurations, ssh-add usage, and troubleshooting common issues."
 categories: ["Networking", "Linux", "Security"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Scalpel_\\:_récupérer_des_données_supprimées/"
 title: "Scalpel: Recovering Deleted Data"
 description: "How to use Scalpel tool to recover deleted files and folders from your hard drive."
 categories: 

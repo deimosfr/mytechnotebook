@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Le_système_de_Packages_FreeBSD/"
 title: "FreeBSD Package System"
 description: "A guide to understanding and using FreeBSD's package management system including both the new and old methods, portage system, and system updates."
 categories: ["FreeBSD", "Linux"]

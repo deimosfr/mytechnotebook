@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Securing_a_Bind_architecture/"
 title: "Securing a Bind Architecture"
 description: "How to secure a Bind DNS architecture with proper configurations for primary and secondary servers, including access control and zone transfers."
 categories: ["Linux", "Network", "Servers"]

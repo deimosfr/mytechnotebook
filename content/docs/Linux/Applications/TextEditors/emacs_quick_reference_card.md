@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Emacs_\\:_Quick_Reference_Card/"
 title: "Emacs: Quick Reference Card"
 description: "A quick reference guide for Emacs users with downloadable PDF resource."
 categories: ["Linux"]

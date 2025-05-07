@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Récupérer_ses_données_depuis_un_RAID1_LVM/"
 title: "Recovering Data from a RAID1 LVM"
 description: "How to recover data from a LVM in RAID1 configuration"
 categories: ["Linux"]

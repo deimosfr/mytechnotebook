@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Mise_en_place_de_VLAN/"
 title: "Setting up VLAN"
 description: "Guide on how to set up and configure VLAN networks on Linux systems, including OpenVZ and KVM virtualization environments."
 categories: ["Linux", "Network"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/LemonLDAP\\:\\:NG_\\:_Plus_qu'un_simple_SSO/"
 title: "LemonLDAP::NG: More than just SSO"
 description: "A guide to LemonLDAP::NG, a comprehensive single sign-on solution with security features, authentication methods, and configuration options."
 categories: ["Apache", "Nginx", "Debian"]

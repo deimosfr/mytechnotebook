@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Upgrader_le_BIOS_de_la_Soekris/"
 title: "Upgrading the Soekris BIOS"
 description: "How to upgrade the BIOS firmware on a Soekris device"
 categories: ["Linux", "Network"]

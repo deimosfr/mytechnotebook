@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/FTP_\\:_Automatiser_des_transferts/"
 title: "FTP: Automate Transfers"
 description: "How to automate FTP transfers using shell scripts and command line tools like ftp and ncftp."
 categories: ["Network", "FTP", "Automation"]

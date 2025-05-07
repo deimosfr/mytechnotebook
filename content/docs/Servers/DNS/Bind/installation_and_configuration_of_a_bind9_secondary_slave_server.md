@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Installation_et_configuration_d'un_serveur_Bind9_secondaire_(Slave)/"
 title: "Installation and Configuration of a Bind9 Secondary (Slave) Server"
 description: "Guide for setting up a secondary Bind9 DNS server including installation, configuration, and troubleshooting tips."
 categories: ["Linux", "Security"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Xmodmap_\\:_mapper_tous_les_boutons_de_sa_souris/"
 title: "Xmodmap: Map All Your Mouse Buttons"
 description: "How to map all the buttons on your mouse using Xmodmap in Linux"
 categories: ["Linux", "Ubuntu"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Bacula_\\:_Mise_en_place_d'un_serveur_de_Backup_Performant/"
 title: "Bacula: Setting Up a High-Performance Backup Server"
 description: "Learn how to set up Bacula, a powerful backup solution with web interface, MySQL plugin, and file verification capabilities."
 categories: ["Server", "Backup", "Linux"]

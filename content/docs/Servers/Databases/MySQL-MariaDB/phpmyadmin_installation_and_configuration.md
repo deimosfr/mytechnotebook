@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/PhpMyAdmin_\\:_Installation_et_configuration/"
 title: "PhpMyAdmin: Installation and Configuration"
 description: "Guide for installing and configuring PhpMyAdmin, a web interface for MySQL database management"
 categories: ["MySQL", "Database", "Linux"]

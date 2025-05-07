@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Solutions_pour_un_système_LVM_crypté/"
 title: "Solutions for Encrypted LVM System"
 description: "Documentation and resources for managing encrypted LVM systems, including root partition encryption, migration, and resizing of encrypted LVM volumes."
 categories: ["Linux"]

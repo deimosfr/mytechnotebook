@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Informations_sur_la_mémoire_vive/"
 title: "RAM Information"
 description: "Understanding memory management in Linux systems, including disk cache usage and how to correctly evaluate free memory."
 categories: ["Linux"]

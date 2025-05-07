@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Nagios_\\:_Améliorer_le_look_des_emails_de_notification/"
 title: "Nagios: Improving the Look of Notification Emails"
 description: "How to improve the appearance of Nagios notification emails using HTML formatting instead of plain text"
 categories: ["Monitoring", "Linux"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Manipuler_des_images_en_ligne_de_commande/"
 title: "Manipulating Images via Command Line"
 description: "How to manipulate images using command line tools with ImageMagick"
 categories: 

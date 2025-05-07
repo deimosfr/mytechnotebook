@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/La_Technique_de_l\\'Attaque_Shatter/"
 title: "Shatter Attack Technique"
 description: "Information about the Shatter Attack technique, a security vulnerability in Windows systems."
 categories: ["Windows", "Linux", "Network"]

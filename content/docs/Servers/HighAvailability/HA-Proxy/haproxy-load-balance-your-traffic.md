@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/haproxy-load-balance-your-traffic/"
 title: "HAProxy: Load Balance Your Traffic"
 description: "How to install and configure HAProxy to load balance HTTP traffic, MySQL/MariaDB databases, and perform SSL offloading."
 categories: ["Network", "Load Balancing", "Web Servers"]

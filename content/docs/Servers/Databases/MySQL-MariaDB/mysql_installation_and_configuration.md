@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/MySQL_\\:_Installation_et_configuration/"
 title: "MySQL: Installation and Configuration"
 description: "A comprehensive guide for MySQL installation, configuration, and common management tasks including user management, database operations, and troubleshooting."
 categories: ["Database", "MySQL", "Server"]

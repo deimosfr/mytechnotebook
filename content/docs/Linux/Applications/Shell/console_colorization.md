@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Colorisations_dans_les_consoles/"
 title: "Console Colorization"
 description: "How to add color to your Linux console for better readability of man pages and log files"
 categories: ["Linux", "Terminal"]

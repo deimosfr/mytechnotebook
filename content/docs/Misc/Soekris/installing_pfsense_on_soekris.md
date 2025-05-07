@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Installer_pfSense_sur_Soekris/"
 title: "Installing pfSense on Soekris"
 description: "A guide on how to install pfSense on a Soekris net5501 hardware platform including solutions for common issues."
 categories: ["Linux", "Networking"]

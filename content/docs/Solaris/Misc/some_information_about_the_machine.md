@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Quelques_infos_sur_la_bécane/"
 title: "Some information about the machine"
 description: "Simple guide to get information about a Solaris machine, including CPU details and system configuration."
 categories: ["Linux", "Solaris"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Cryptologie_et_nombres_premiers\\:_l'algorithme_RSA/"
 title: "Cryptology and Prime Numbers: The RSA Algorithm"
 description: "Documentation explaining how the RSA algorithm works with prime numbers in cryptology."
 categories: ["Linux", "Security"]

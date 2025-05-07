@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Shell_\\:_renommer_en_masse_avec_compteur/"
 title: "Shell: Batch Renaming with Counter"
 description: "How to rename multiple files in batch with a counter using shell scripting."
 categories: ["Linux"]

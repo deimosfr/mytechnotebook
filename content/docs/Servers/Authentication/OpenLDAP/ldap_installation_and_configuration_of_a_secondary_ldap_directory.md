@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/LDAP_\\:_Installation_et_configuration_d'un_Annuaire_LDAP_(secondaire)/"
 title: "LDAP: Installation and Configuration of a Secondary LDAP Directory"
 description: "Guide on how to configure OpenLDAP for LDAP tree replication between 2 servers using slapd and slurpd."
 categories: ["FreeBSD", "Linux", "Debian"]

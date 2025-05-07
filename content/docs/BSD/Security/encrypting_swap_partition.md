@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Encrypter_sa_swap/"
 title: "Encrypting Swap Partition"
 description: "A guide on how to encrypt your swap partition in OpenBSD systems both with and without rebooting."
 categories: ["Linux", "BSD"]

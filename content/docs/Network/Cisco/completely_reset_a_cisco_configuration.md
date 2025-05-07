@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Resetter_completement_la_configuration_d'un_Cisco/"
 title: "Completely Reset a Cisco Configuration"
 description: "How to completely reset a Cisco device configuration with simple commands"
 categories:

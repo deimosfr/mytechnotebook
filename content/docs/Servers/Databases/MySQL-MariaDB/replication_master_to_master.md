@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Replication_Master_to_Master/"
 title: "Replication Master to Master"
 description: "How to set up MySQL master-master replication for high-availability with step-by-step configuration guide and troubleshooting tips"
 categories:

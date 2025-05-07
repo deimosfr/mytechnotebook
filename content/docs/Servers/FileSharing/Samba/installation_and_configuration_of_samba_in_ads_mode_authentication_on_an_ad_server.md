@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: '/Installation_et_configuration_de_Samba_en_mode_"ADS"_(Authentification_sur_un_serveur_AD)/'
 title: "Installation and Configuration of Samba in ADS Mode (Authentication on an AD Server)"
 description: "Guide on how to integrate a Linux server with Samba into an Active Directory domain for unified authentication"
 categories: ["Linux", "Samba", "Active Directory", "Authentication"]

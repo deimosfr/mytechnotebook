@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/WinDbg\\:_analyze_crash_dump/"
 title: "WinDbg: Analyze Crash Dump"
 description: "A guide on how to use WinDbg to analyze crash dumps on Windows systems"
 categories: ["Windows"]

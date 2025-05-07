@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/LVM_\\:_Utilisation_des_LVM/"
 title: "LVM: Working with Logical Volume Management"
 icon: "description"
 description: "How to create, manage, and optimize logical volumes on Linux systems using LVM for flexible storage management"

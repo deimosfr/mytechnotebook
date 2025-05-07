@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Zenity_\\:_Du_GUI_pour_vos_scripts_simplement/"
 title: "Zenity: GUI for Your Scripts Easily"
 description: "Learn how to use Zenity, a tool developed by the Gnome team that allows you to easily display GTK dialog boxes from shell scripts."
 categories: 

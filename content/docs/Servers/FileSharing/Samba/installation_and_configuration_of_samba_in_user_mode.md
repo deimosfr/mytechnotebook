@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: '/Installation_et_configuration_de_Samba_en_mode_"User"/'
 title: "Installation and Configuration of Samba in 'User' Mode"
 description: "A guide for setting up Samba in user mode to share folders with Windows and Unix systems securely"
 categories: ["FreeBSD", "Security", "Ubuntu"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Belier_\\:_script_your_SSH_connection/"
 title: "Belier: Script Your SSH Connection"
 description: "How to use Belier to simplify complex SSH connections through multiple intermediate servers"
 categories: ["Linux", "SSH", "Networking"]

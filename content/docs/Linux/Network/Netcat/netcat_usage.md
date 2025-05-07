@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Netcat\\:\_utilisation/"
 title: "Netcat: Usage"
 description: "Learn how to use Netcat, the Swiss Army knife utility for network operations including port scanning, file transfers, chat, proxying and more."
 categories: ["Linux", "Debian", "Ubuntu", "Network"]

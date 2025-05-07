@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Utilisation_de_MySQL/"
 title: "Using MySQL"
 description: "Tips and tricks for MySQL database management including charset conversion and table prefix manipulation"
 categories: ["MySQL", "Database", "Linux"]

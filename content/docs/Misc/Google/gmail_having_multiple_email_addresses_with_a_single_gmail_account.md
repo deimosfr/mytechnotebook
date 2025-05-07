@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Gmail_\\:_Avoir_plusieurs_adresses_mails_avec_un_seul_compte_gmail/"
 title: "Gmail: Having Multiple Email Addresses with a Single Gmail Account"
 description: "How to use a single Gmail account to manage multiple email aliases using the plus sign technique"
 categories: ["Linux"]

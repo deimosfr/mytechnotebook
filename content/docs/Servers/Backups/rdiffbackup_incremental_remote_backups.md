@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Rdiff-backup_\\:_Sauvegardes_distantes_incrémentielles/"
 title: "Rdiff-backup: Incremental Remote Backups"
 description: "Guide for setting up and using rdiff-backup for incremental remote backups over SSH."
 categories:

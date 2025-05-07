@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Mise_en_place_d'un_serveur_antispam_complet/"
 title: "Setting up a complete antispam server"
 description: "Documentation about setting up a complete antispam server solution"
 categories: ["Linux", "Servers", "Network"]

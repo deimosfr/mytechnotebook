@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/How_to_use_old_Debian_repository_for_unmaintained_Debian_versions/"
 title: "How to use old Debian repository for unmaintained Debian versions"
 description: "A guide on how to configure Debian to use archive repositories for unmaintained Debian versions."
 categories: ["Linux", "Debian", "System Administration"]

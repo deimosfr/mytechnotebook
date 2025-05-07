@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Connaitre_le_nombre_de_connections_par_IP/"
 title: "Check Connections Per IP"
 description: "How to check the number of connections per IP address on Linux and BSD systems"
 categories: ["Linux", "BSD", "Network", "Security"]

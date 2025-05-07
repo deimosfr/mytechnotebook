@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Mieux_connaître_et_utiliser_le_préprocesseur_du_langage_C/"
 title: "Better Understanding and Using the C Language Preprocessor"
 description: "A comprehensive guide to C language preprocessing, including common pitfalls and best practices for using preprocessor directives, macros, and conditional compilation."
 categories: ["Development", "Linux"]

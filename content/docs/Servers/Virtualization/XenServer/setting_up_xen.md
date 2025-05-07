@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Mise_en_place_de_Xen/"
 title: "Setting up Xen"
 description: "A comprehensive guide for setting up and configuring Xen virtualization on Linux systems, covering installation, network configuration, virtual machine creation and troubleshooting."
 categories:

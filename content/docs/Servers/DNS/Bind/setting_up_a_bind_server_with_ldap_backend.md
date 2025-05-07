@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Mise_en_place_d'un_serveur_Bind_en_backend_LDAP/"
 title: "Setting up a Bind server with LDAP backend"
 description: "This guide explains how to configure a Bind9 DNS server with LDAP backend storage instead of text files, providing dynamic updates and centralized configuration."
 categories: ["Linux", "Database", "Debian"]

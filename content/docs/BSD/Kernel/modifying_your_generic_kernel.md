@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Modifier_son_kernel_générique/"
 title: "Modifying Your Generic Kernel"
 description: "How to modify and switch between kernel types in BSD, including changing from single core to multi-core and booting with alternate kernels."
 categories: ["Linux", "BSD"]

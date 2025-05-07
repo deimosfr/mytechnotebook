@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/MediaWiki\\:Installation_et_configuration/"
 title: "MediaWiki: Installation and Configuration"
 description: "A comprehensive guide for installing, configuring and managing MediaWiki including manual and Debian installation methods, extensions, web server configuration and many customization options."
 categories: ["Servers", "Debian", "Security", "Nginx"]

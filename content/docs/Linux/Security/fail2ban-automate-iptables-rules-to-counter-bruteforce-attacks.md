@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Fail2ban_\\:_mise_en_place_de_règles_automatisées_iptables_pour_contrer_les_attaques_par_bruteforce/"
 title: "Fail2ban: Implementing automated iptables rules to counter bruteforce attacks"
 description: "How to implement Fail2ban to automatically create iptables rules that block IP addresses attempting bruteforce attacks on your services."
 categories: ["Security", "Network", "Linux"]

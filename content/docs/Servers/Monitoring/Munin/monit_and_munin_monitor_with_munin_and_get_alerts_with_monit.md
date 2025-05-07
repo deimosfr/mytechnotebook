@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Monit_et_Munin_\\:_Surveiller_avec_Munin_et_être_alerté_avec_Monit/"
 title: "Monit and Munin: Monitor with Munin and Get Alerts with Monit"
 description: "Documentation on how to set up monitoring and alerts using Munin and Monit."
 categories: ["Monitoring", "Linux"]

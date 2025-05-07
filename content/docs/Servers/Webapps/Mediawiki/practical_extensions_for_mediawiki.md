@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Les_extentions_pratiques_de_Mediawiki/"
 title: "Practical Extensions for MediaWiki"
 description: "A comprehensive guide to useful MediaWiki extensions including Google Analytics, Search, Ads, Syntax highlighting, and other useful tools to enhance functionality."
 categories: ["Debian", "Linux"]

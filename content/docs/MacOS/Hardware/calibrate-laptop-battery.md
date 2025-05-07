@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Calibrer_la_batterie_de_son_portable/"
 title: "Calibrating Your Laptop Battery"
 description: "Learn how to properly calibrate a MacBook or MacBook Pro battery to maintain optimal performance and accurate battery life indicators."
 categories: ["Mac OS X", "Hardware", "Maintenance"]

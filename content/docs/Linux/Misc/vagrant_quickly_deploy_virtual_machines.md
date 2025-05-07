@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Vagrant_\\:_quickly_deploy_virtual_machines/"
 title: "Vagrant: Quickly Deploy Virtual Machines"
 description: "Learn how to use Vagrant to easily deploy and manage virtual machines for development and testing environments."
 categories: ["Debian", "AWS", "Storage"]

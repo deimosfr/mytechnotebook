@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Getmail_-_L'alternative_à_Fetchmail/"
 title: "Getmail - An Alternative to Fetchmail"
 description: "Documentation about Getmail as an alternative to Fetchmail with a link to a PDF guide."
 categories:

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/switch_mac_os_case_sensitive/"
 title: "Switching to Case-Sensitive File System on Mac OS X"
 description: "Instructions on how to clear the DNS cache on Mac OS X systems"
 categories: ["Mac OS X", "Network"]

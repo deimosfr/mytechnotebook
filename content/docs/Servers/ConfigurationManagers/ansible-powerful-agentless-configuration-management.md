@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/ansible-a-powerful-agentless-configuration-management-and-orchestrator-solution/"
 title: "Ansible: A Powerful Agentless Configuration Management and Orchestrator Solution"
 description: "Learn how to use Ansible, an agentless IT automation tool for configuration management, application deployment, and task orchestration"
 categories: ["Linux", "Server", "Automation", "DevOps"]

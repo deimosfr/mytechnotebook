@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Vsftpd_\\:_Mise_en_place_d'hôtes_virtuels_avec_MySQL/"
 title: "Vsftpd: Setting up virtual hosts with MySQL"
 description: "This guide explains how to configure vsftpd with virtual hosts using MySQL, including SSL configuration and security settings"
 categories: ["Security", "Linux", "MySQL"]

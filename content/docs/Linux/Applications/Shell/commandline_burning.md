@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Graver_en_ligne_de_commandes/"
 title: "Command-line Burning"
 description: "Documentation explaining how to burn CDs and DVDs using command line tools, useful for automating backups."
 categories: ["Linux", "Backup"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/CVS_\\:_Utilisation_de_CVS/"
 title: "CVS: Using CVS"
 description: "A guide to the basics of using CVS (Concurrent Versions System) for version control, including project management, adding and removing files, and identifying changes."
 categories: ["Development", "Version Control"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Les_caches_mémoire/"
 title: "Memory Caches"
 description: "A comprehensive guide to memory caches in Linux systems, including page allocation, overcommit management, Slab cache, ARP cache, and other memory management concepts."
 categories: ["Storage", "Red Hat", "Debian"]

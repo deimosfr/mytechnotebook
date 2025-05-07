@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Kernel_\\:_Compilation_des_modules/"
 title: "Kernel: Module Compilation"
 description: "Guide on compiling Linux kernel modules with focus on Iptables firewall requirements."
 categories: ["Linux"]

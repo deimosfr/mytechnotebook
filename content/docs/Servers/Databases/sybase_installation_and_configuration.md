@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Sybase_\\:_installation_et_configuration/"
 title: "Sybase: Installation and Configuration"
 description: "A guide to installing and configuring Sybase Adaptive Server Enterprise database on Linux systems."
 categories: ["Database", "Linux", "Servers"]

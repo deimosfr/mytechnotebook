@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Vérifier_la_sécurité_de_son_site_web_avec_Nikto/"
 title: "Checking Your Website Security with Nikto"
 description: "Guide on how to use Nikto to test web server security and detect potential vulnerabilities."
 categories: ["Security", "Linux", "Apache"]

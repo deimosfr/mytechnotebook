@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Google_Astuces_de_recherche/"
 title: "Google Search Tips"
 description: "Useful tips and tricks to improve your Google search results and find information more efficiently."
 categories: ["Linux"]

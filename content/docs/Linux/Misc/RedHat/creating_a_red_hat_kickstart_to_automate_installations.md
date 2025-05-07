@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Créer_un_Kickstart_Red_Hat_pour_automatiser_les_installation/"
 title: "Creating a Red Hat Kickstart to Automate Installations"
 description: "Learn how to automate Red Hat installations using the Kickstart method to deploy multiple machines efficiently."
 categories: ["RHEL", "Linux", "Red Hat"]

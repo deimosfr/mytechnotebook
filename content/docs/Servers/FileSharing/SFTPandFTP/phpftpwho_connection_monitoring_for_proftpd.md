@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Phpftpwho_\\:_Monitoring_de_connections_pour_Proftpd/"
 title: "PhpFtpWho: Connection Monitoring for Proftpd"
 description: "Documentation for monitoring connections to the Proftpd FTP server."
 categories: ["Monitoring", "Linux"]

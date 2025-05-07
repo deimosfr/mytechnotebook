@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Theme_pour_le_Directory_Index_Listing_d\\'Apache/"
 title: "Theme for Apache Directory Index Listing"
 description: "How to create a custom theme for Apache's Directory Index Listing to improve its appearance."
 categories: ["Linux", "Servers", "Debian"]

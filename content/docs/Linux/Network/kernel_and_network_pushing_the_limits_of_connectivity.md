@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Noyau_et_réseau_\\:_repousser_les_limites_de_la_connectivité/"
 title: "Kernel and Network: Pushing the Limits of Connectivity"
 description: "This document explores advanced networking features in Linux kernel including bonding, TUN/TAP devices, traffic shaping, tunneling, VLANs, and QoS mechanisms."
 categories: ["Linux", "Network"]

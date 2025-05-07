@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Créer_des_images_vierges_pour_tester_des_filesystems/"
 title: "Creating Blank Images for Testing Filesystems"
 description: "How to create blank disk images to safely test filesystems without risking your existing partitions"
 categories: ["Linux"]

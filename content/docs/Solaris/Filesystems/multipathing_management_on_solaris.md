@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Multipathing_management_on_Solaris/"
 title: "Multipathing Management on Solaris"
 description: "A guide to manage multipathing on Solaris systems, including configuration, verification of fibers, and volume management."
 categories: ["Linux", "Solaris"]

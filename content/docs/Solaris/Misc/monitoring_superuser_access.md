@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Monitorer_les_accès_au_superuser/"
 title: "Monitoring Superuser Access"
 description: "How to monitor and track superuser access on Unix systems through logging mechanisms."
 categories: ["Linux", "Security", "Solaris"]

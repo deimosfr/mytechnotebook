@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Trouver_les_mots_de_passe_de_la_base_SAM_de_Windows/"
 title: "Finding passwords from the Windows SAM database"
 description: "How to recover lost Windows passwords from the SAM database using Ophcrack."
 categories: ["Windows", "Security"]

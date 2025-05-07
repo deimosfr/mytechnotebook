@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/NAXSI\\:_integrate_a_WAF_for_Nginx/"
 title: "NAXSI: Integrate a WAF for Nginx"
 description: "Learn how to set up NAXSI, a Web Application Firewall for Nginx, including installation, configuration, testing, and integration with Fail2ban."
 categories: ["Nginx", "Debian", "Linux"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Fluentd\\:_quickly_search_in_your_logs_with_Elasticsearch,_Kibana_and_Fluentd/"
 title: "Fluentd: Quickly Search in Your Logs with Elasticsearch, Kibana and Fluentd"
 description: "How to set up a log management and search solution using Fluentd, Elasticsearch, and Kibana for efficient log collection, processing, and visualization"
 categories: ["Servers", "Monitoring", "Linux"]

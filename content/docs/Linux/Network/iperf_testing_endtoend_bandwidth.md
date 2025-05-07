@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Iperf_\\:_Tester_sa_bande_passante_de_bout_en_bout/"
 title: "Iperf: Testing End-to-End Bandwidth"
 description: "How to use Iperf to measure bandwidth and network performance between endpoints"
 categories: ["Linux", "Debian", "Ubuntu", "Network"]

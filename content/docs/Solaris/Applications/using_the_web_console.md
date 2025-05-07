@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Utiliser_la_webconsole/"
 title: "Using the Web Console"
 description: "Guide to using Sun's web console for managing applications through a web interface"
 categories:

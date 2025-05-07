@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Mise_en_place_dun_Watchdog/"
 title: "Setting up a Watchdog"
 description: "Instructions for setting up and configuring a Watchdog on a system to ensure automatic restart when the system becomes unresponsive."
 categories: ["Linux"]

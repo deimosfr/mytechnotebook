@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/XenServer_5.0_\\:_Configuration_d'un_XenServer_avec_du_matériel_SUN/"
 title: "XenServer 5.0: Configuring XenServer with SUN Hardware"
 description: "Guide for configuring XenServer 5.0 with SUN hardware, including multipathing setup for StorageTek storage arrays and fiber channel connectivity."
 categories: 

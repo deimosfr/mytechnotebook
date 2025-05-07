@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/ajaxterm-utiliser-un-terminal-en-web/"
 title: "Ajaxterm: Using a Terminal via Web"
 description: "How to set up Ajaxterm to access a Linux terminal through a web browser with proper security settings."
 categories: ["Linux", "Server", "Web", "Security"]

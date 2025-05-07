@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/MRTG_\\:_Monitoring_axé_réseau/"
 title: "MRTG: Network-Focused Monitoring"
 description: "A guide to installing and configuring MRTG (Multi Router Traffic Grapher) for network traffic monitoring using SNMP."
 categories: ["Monitoring", "Linux", "Debian", "Network"]

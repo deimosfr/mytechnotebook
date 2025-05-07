@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Activer_Desactiver_ecran_veille_ligne_commande/"
 title: "Enabling and Disabling Screen Savers from Command Line"
 description: "How to control screen power management using the command line in Linux for automatic display shutoff and power saving"
 categories: ["Linux", "Desktop"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/SASL_\\:_Envoie_de_mails_à_distance_sécurisé_avec_son_serveur_Postfix_(SASL+TLS)/"
 title: "SASL: Secure Remote Email Sending with Postfix Server (SASL+TLS)"
 description: "How to configure SASL and TLS with Postfix for secure remote email sending"
 categories: ["Linux", "Servers", "Network"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Installation_et_Configuration_de_Red_Hat_Cluster_Suite/"
 title: "Installation and Configuration of Red Hat Cluster Suite"
 description: "How to install and configure Red Hat Cluster Suite to create a high availability infrastructure with failover capabilities."
 categories: ["RHEL", "Monitoring", "Linux"]

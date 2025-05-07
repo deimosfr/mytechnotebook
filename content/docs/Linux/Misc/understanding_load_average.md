@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Comprendre_le_fonctionnement_du_Load_Average/"
 title: "Understanding Load Average"
 description: "A comprehensive guide to understanding how Load Average works in Unix systems and how to properly interpret its values"
 categories: ["Linux", "System Administration", "Performance"]

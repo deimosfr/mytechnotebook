@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Fluxbox_\\:_Arrondir_les_bords_de_toutes_les_fenêtres/"
 title: "Fluxbox: Rounded Corners for All Windows"
 description: "How to add rounded corners to all windows in Fluxbox window manager"
 categories: ["Linux", "Desktop"]

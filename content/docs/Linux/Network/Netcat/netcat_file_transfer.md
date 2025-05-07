@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Netcat_\\:_Transfert_de_fichiers/"
 title: "Netcat: File Transfer"
 description: "A guide on how to use Netcat for file transfers between systems, including HTTP sharing options."
 categories:

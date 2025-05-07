@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/anatomie-d-un-filesystem-linux/"
 title: "Anatomy of a Linux Filesystem"
 description: "Documentation explaining how Linux filesystems work and their structure"
 categories: ["Linux", "Filesystem", "System"]

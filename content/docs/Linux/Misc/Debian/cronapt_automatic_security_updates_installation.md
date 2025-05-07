@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Cron-apt_\\:_Installation_des_mises_à_jour_de_sécurité_automatique/"
 title: "Cron-apt: Automatic Security Updates Installation"
 description: "How to setup automatic security updates on Debian using cron-apt"
 categories: ["Security", "Debian", "Linux"]

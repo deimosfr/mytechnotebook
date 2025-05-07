@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Template_pour_créer_des_Cheat_Sheet_en_LaTeX/"
 title: "LaTeX Template for Creating Cheat Sheets"
 description: "A guide for creating cheat sheets in LaTeX with a reusable template and formatting tips."
 categories: ["Linux"]

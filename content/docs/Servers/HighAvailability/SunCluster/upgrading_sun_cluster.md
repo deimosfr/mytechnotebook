@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Upgrader_SUN_Cluster/"
 title: "Upgrading SUN Cluster"
 description: "Guide on how to upgrade a SUN Cluster with detailed step-by-step instructions"
 categories: ["Solaris", "Servers"]

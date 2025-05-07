@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Crypter_et_décrypter_un_fichier_avec_OpenSSL/"
 title: "Encrypt and Decrypt a File with OpenSSL"
 description: "Learn how to encrypt and decrypt files using OpenSSL with simple commands and password protection."
 categories: ["Security", "Linux"]

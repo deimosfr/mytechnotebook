@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Utilisation_avancée_de_Mediawiki/"
 title: "Advanced Usage of MediaWiki"
 description: "Advanced usage of MediaWiki features including dynamic tables, table simplification, and sorting capabilities."
 categories:

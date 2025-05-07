@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Voir_les_fichiers_et_dossiers_cachés_sous_Mac_OS_X/"
 title: "Viewing Hidden Files and Folders in Mac OS X"
 description: "How to view hidden files and folders in Mac OS X system."
 categories:

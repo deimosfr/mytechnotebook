@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Lancement_d'une_commande_à_la_réception_d'un_mail/"
 title: "Running a Command When Receiving an Email"
 description: "How to execute commands or scripts automatically when receiving emails on a Linux system."
 categories:

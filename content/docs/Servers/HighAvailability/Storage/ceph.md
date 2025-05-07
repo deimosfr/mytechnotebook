@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Ceph_\\:_performance,_reliability_and_scalability_storage_solution/"
 title: "Ceph: Performance, Reliability and Scalability Storage Solution"
 description: "Learn how to implement Ceph, an open-source distributed storage system that provides object, block, and file storage in a single platform for improved reliability and scalability."
 categories: ["Storage", "Linux"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Incron_\\:_exécuter_des_actions_automatiques_lors_de_changements_d'états_d'éléments/"
 title: "Incron: Execute Automatic Actions When File States Change"
 description: "Guide on using Incron (file trigger system) to execute automatic actions when file states change in Linux systems."
 categories: ["Linux"]

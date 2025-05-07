@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/ajouter-le-dvd-red-hat-comme-repository/"
 title: "Adding Red Hat DVD as a Repository"
 description: "How to add a Red Hat DVD as a local or remote YUM repository for installing packages without internet access or subscription."
 categories: ["Linux", "Red Hat", "System Administration"]

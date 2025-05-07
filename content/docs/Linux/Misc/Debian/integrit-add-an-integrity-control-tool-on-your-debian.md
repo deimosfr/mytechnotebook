@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Integrit_\\:_Add_an_integrity_control_tool_on_your_Debian/"
 title: "Integrit: Add an integrity control tool on your Debian"
 description: "How to install and configure Integrit, a simple yet secure alternative to tripwire for file integrity monitoring on Debian systems."
 categories: ["Linux", "Security", "System Administration"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Yubikey_\\:_Configure_your_yubikey_with_pam/"
 title: "Yubikey: Configure Your Yubikey with PAM"
 description: "Guide on setting up Yubikey with PAM for two-factor authentication on Linux systems, including configuration for challenge-response mode and automatic screen locking when the key is removed."
 categories: ["Security", "Linux", "Debian"]

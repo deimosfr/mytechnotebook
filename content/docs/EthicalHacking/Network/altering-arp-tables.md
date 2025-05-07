@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/alteration-de-tables-arp/"
 title: "Altering ARP Tables"
 description: "Documentation about ARP tables alteration techniques in network environments"
 categories: ["Network", "Security", "Hacking"]

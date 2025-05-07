@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Kerberos_\\:_Mise_en_place_d'un_serveur_Kerberos/"
 title: "Kerberos: Setting up a Kerberos Server"
 description: "A comprehensive guide on setting up Kerberos authentication server on Linux, configuring clients and system authentication using PAM."
 categories: ["Red Hat", "Debian", "Linux"]

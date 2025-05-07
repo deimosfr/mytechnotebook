@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Restaurer_les_permissions_d\\'une_Red_Hat/"
 title: "Restore permissions on Red Hat"
 description: "How to restore file permissions on a Red Hat system after a permissions mistake"
 categories: ["Linux", "Red Hat"]

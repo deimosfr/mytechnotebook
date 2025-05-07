@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/ACL\\:_Implémentation_des_droits_de_type_NT_sur_Linux/"
 title: "ACL: Implementing NT-type Permissions on Linux"
 description: "Learn how to implement NT-type permissions (ACLs) on Linux systems to extend file access control beyond traditional Unix permissions."
 categories: ["Linux", "Security", "System Administration"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Encfs_\\:_Mise_en_place_d'Encfs_avec_FUSE/"
 title: "EncFS: Setting up EncFS with FUSE"
 description: "A guide on how to implement EncFS with FUSE for encrypted filesystems."
 categories: ["Linux", "Security", "Debian"]

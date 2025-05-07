@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Thruk_\\:_Une_interface_évoluée_pour_Nagios_et_MKlivestatus/"
 title: "Thruk: An Advanced Interface for Nagios and MKlivestatus"
 description: "Thruk is an advanced interface for Nagios and Shinken that allows connecting to multiple Nagios instances simultaneously and display more relevant information compared to the standard Nagios interface."
 categories: ["Debian", "Linux", "Apache", "Monitoring", "Nagios"]

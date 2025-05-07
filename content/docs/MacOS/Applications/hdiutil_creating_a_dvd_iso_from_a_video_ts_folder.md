@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Hdiutil_\\:_Créer_un_ISO_DVD_depuis_un_dossier_VIDEO_TS/"
 title: "Hdiutil: Creating a DVD ISO from a VIDEO TS folder"
 description: "How to create a DVD ISO from a VIDEO_TS folder using hdiutil on Mac OS X"
 categories: ["Mac OS X"]

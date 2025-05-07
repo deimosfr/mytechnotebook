@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/NDOUtils_\\:_Envoyer_les_états_en_base_de_donnée/"
 title: "NDOUtils: Sending States to a Database"
 description: "Guide on configuring NDOUtils to send Nagios monitoring states to a MySQL or PostgreSQL database"
 categories: ["Database", "MySQL", "PostgreSQL", "Monitoring"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Les_injections_SQL/"
 title: "SQL Injections"
 description: "Understanding SQL injections, how they work, and how to protect against them in web applications."
 categories: ["Security", "Database", "Development"]

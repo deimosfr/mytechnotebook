@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Z-Push_\\:_Avoir_un_serveur_ActiveSync_avec_Postfix_(ou_comment_faire_du_push_mail)/"
 title: "Z-Push: Setting Up an ActiveSync Server with Postfix (or How to Set Up Push Mail)"
 description: "Learn how to set up a push mail server using Z-Push with Postfix as an alternative to Microsoft Exchange, compatible with iPhone and Windows Mobile devices."
 categories: ["Apache", "Linux"]

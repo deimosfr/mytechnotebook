@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Wine_\\:_Lancer_des_applications_windows_sur_linux/"
 title: "Wine: Running Windows Applications on Linux"
 description: "A guide on how to use Wine to run Windows applications on Linux systems"
 categories: 

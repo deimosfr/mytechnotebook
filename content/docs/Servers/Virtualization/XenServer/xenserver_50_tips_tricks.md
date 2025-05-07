@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/XenServer_5.0_\\:_Astuces/"
 title: "XenServer 5.0: Tips & Tricks"
 description: "A collection of tips and tricks for XenServer 5.0, including solutions for common issues with XenCenter and boot options."
 categories: 

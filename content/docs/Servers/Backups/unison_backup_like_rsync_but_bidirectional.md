@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Unison_\\:_Sauvegarde_comme_rsync_mais_bidirectionnelle/"
 title: "Unison: Backup like rsync but bidirectional"
 description: "How to use Unison for bidirectional file synchronization between systems"
 categories: ["Linux", "Backup"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/ZRM_\\:_Sauvegardes_automatisées_et_restaurations_faciles/"
 title: "ZRM: Automated Backups and Easy Restorations"
 description: "A guide to using ZRM for MySQL for automated database backups and point-in-time recovery for all MySQL storage engines"
 categories: ["Backup", "Linux", "Database"]

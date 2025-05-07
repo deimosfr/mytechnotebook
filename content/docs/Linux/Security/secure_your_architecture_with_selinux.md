@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Securiser_son_architecture_avec_SELinux/"
 title: "Secure Your Architecture with SELinux"
 description: "A comprehensive guide to understanding and implementing SELinux security policies in Linux systems"
 categories: ["Linux", "Security", "System Administration"]

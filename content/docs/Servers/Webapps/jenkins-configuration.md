@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Jenkins_\\:_Mise_en_place_d'un_outil_d'intégration_continue/"
 title: "Jenkins: Setting up a continuous integration tool"
 description: "Learn how to install and configure Jenkins, an open source continuous integration tool, with Nginx as a reverse proxy."
 categories: ["Server", "Development", "Continuous Integration"]

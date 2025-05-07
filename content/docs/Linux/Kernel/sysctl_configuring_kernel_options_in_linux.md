@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Sysctl_\\:_configurer_les_options_kernel_sous_Linux/"
 title: "Sysctl: Configuring Kernel Options in Linux"
 description: "A guide to using sysctl to configure and manage Linux kernel parameters through /proc and /sys interfaces."
 categories: 

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Modifier_les_paramètres_de_boot/"
 title: "Modifying Boot Parameters"
 description: "How to modify boot parameters in BSD systems by configuring boot.conf."
 categories: ["Linux"]

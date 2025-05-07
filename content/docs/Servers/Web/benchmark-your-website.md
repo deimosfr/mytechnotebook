@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Benchmarker_son_site_web/"
 title: "Benchmark Your Website"
 description: "How to benchmark your website to test its performance and understand how it behaves under load"
 categories: ["Web", "Server", "Performance"]

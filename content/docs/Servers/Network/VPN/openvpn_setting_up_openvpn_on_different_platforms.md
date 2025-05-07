@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/OpenVPN_\\:_Mise_en_place_d'OpenVPN_sur_différentes_plateformes/"
 title: "OpenVPN: Setting up OpenVPN on different platforms"
 icon: "openvpn"
 icontype: "simple"

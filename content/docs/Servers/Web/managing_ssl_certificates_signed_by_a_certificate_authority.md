@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Gérer_des_certificats_SSL_signés_par_une_autorité_de_certification/"
 title: "Managing SSL Certificates Signed by a Certificate Authority"
 description: "Guide for generating and configuring SSL certificates signed by a certificate authority like StartSSL for Nginx and Lighttpd web servers."
 categories: ["Linux", "Debian", "Nginx"]

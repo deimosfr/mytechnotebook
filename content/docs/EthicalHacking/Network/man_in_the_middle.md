@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Man_In_The_Middle/"
 title: "Man in the Middle"
 description: "Documentation about Man in the Middle attack techniques"
 categories: ["Linux", "Network", "Security"]

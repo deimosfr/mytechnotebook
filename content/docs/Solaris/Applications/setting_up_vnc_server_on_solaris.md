@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Mise_en_place_de_vncserver_sur_Solaris/"
 title: "Setting up VNC server on Solaris"
 description: "This guide explains how to install and configure VNC Server on Solaris systems to enable remote desktop access."
 categories: ["Unix", "Solaris", "Network"]

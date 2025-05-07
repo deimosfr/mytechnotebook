@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Installation_et_configuration_de_DRBD/"
 title: "Installation and Configuration of DRBD"
 description: "How to set up and configure DRBD for disk replication across nodes in a network for high availability"
 categories: ["Linux", "Debian"]

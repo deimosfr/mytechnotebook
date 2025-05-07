@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Sick-Beard_\\:_Un_PVR_s'appuyant_sur_SABnzbd/"
 title: "Sick-Beard: A PVR Relying on SABnzbd"
 description: "This guide explains how to install and configure Sick-Beard, a PVR tool that works with SABnzbd to easily manage TV series episodes on Debian systems."
 categories: ["Debian", "Linux", "Ubuntu"]

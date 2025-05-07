@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Installation_et_configuration_d'un_serveur_Centreon/"
 title: "Installation and Configuration of a Centreon Server"
 description: "Learn how to install and configure a Centreon server on Debian Linux with step-by-step instructions including LAMP, Nagios, NDOutils setup and troubleshooting."
 categories: ["Database", "MySQL", "Linux", "Monitoring"]

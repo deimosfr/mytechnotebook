@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Audits_de_sécurité_du_protocole_DNS/"
 title: "DNS Protocol Security Audits"
 description: "Learn about DNS protocol security audits, methods to identify vulnerabilities, and how to use the DNSA tool for testing DNS servers."
 categories: ["Security", "Network", "DNS"]

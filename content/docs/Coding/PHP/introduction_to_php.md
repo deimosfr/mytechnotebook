@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Introduction_au_PHP/"
 title: "Introduction to PHP"
 description: "A comprehensive introduction to PHP programming language covering basic syntax, variables, functions, forms, databases, and more."
 categories: ["Development", "Database"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Installation_et_configuration_de_Postfix_et_Courrier/"
 title: "Installation and Configuration of Postfix and Courier"
 description: "A comprehensive guide on installing and configuring Postfix mail server with Courier on various operating systems including Debian, OpenBSD, and FreeBSD."
 categories: ["Linux", "Mail", "Security"]

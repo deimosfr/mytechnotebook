@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Multipath_\\:_configurer_plusieurs_chemins_pour_ses_accès_disques_externe/"
 title: "Multipath: Configuring Multiple Paths for External Disk Access"
 description: "Learn how to set up multipath I/O for external storage access, using device mappers to create redundant paths to your disk storage for improved reliability and performance."
 categories: ["Linux", "Storage"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Env_\\:_variables_d'environnements/"
 title: "Environment Variables"
 description: "A guide on how to manage environment variables in Linux systems."
 categories: ["Linux"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Connaitre_sa_version_du_Bios_sans_rebooter/"
 title: "How to Check BIOS Version Without Rebooting"
 description: "A simple method to check your system's BIOS version from Linux without having to reboot"
 categories: ["Linux", "Hardware", "System Administration"] 

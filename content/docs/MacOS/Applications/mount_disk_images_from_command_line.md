@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Monter_des_images_disque_en_ligne_de_commande/"
 title: "Mount Disk Images from Command Line"
 description: "How to mount disk images using command line tools"
 categories: ["Linux", "MacOS"]

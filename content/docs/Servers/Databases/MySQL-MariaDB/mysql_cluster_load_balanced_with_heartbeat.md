@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/MySQL_Cluster_Load_Balancé_avec_Heartbeat/"
 title: "MySQL Cluster Load Balanced with Heartbeat"
 description: "Documentation about setting up a load balanced MySQL cluster with Heartbeat, including links to detailed PDF resources."
 categories: ["MySQL", "Linux"]

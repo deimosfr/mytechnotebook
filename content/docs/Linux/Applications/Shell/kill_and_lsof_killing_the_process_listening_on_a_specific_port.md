@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Kill_et_lsof_\\:_Tuer_le_processus_écoutant_sur_le_port_voulu/"
 title: "Kill and lsof: Killing the process listening on a specific port"
 description: "How to kill a process listening on a specific port using lsof and kill commands in Linux"
 categories: ["Linux"]

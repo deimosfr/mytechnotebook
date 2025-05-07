@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Les_caractères_spéciaux/"
 title: "Special Characters"
 description: "Comprehensive guide on special characters for HTML encoding, including ISO and HTML codes for accented letters and symbols."
 categories: ["Linux"]

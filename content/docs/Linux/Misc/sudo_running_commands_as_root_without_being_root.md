@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Sudo_\\:_Exécuter_des_commandes_en_root_sans_l'être/"
 title: "Sudo: Running commands as root without being root"
 description: "Learn how to use sudo to execute commands with root privileges without logging in as root, including installation, configuration and usage examples."
 categories: ["Linux"]

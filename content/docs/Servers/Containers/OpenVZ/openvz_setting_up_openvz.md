@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/OpenVZ_\\:_Mise_en_place_d'OpenVZ/"
 title: "OpenVZ: Setting Up OpenVZ"
 description: "A comprehensive guide to installing, configuring and managing OpenVZ virtualization technology on Linux."
 categories: ["Linux", "Debian", "Backup", "Virtualization"]

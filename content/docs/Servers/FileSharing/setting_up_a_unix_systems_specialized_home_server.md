@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Mise_en_place_d'un_serveur_de_Home_spécialisé_systèmes_Unix/"
 title: "Setting up a Unix systems specialized Home server"
 description: "Learn how to set up a dedicated Home server specialized for Unix systems with centralized accounts, shared profiles, and quota management."
 categories: ["Linux", "FreeBSD", "Security"]

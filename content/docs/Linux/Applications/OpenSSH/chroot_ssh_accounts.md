@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Chrooter_des_comptes_SSH/"
 title: "Chroot SSH Accounts"
 description: "How to configure SSH accounts with chroot environment for enhanced security" 
 categories: ["Linux", "Security", "SSH"]

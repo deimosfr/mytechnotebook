@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Vino_\\:_le_serveur_VNC_par_excellence_pour_gnome/"
 title: "Vino: The VNC Server of Excellence for GNOME"
 description: "Guide on using Vino, the user-friendly VNC server designed specifically for GNOME environments."
 categories: ["Linux"]

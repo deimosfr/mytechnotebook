@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Tmux_\\:_le_multiplexeur_de_terminal_remplaçant_de_screen/"
 title: "Tmux: The Terminal Multiplexer Replacing Screen"
 description: "Guide to installing, configuring and using Tmux, a powerful terminal multiplexer which serves as a modern replacement for screen."
 categories: ["Linux"]

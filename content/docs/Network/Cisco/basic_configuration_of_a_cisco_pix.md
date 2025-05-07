@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Configuration_de_base_d'un_Cisco_Pix/"
 title: "Basic Configuration of a Cisco PIX"
 description: "Learn the basics of Cisco PIX firewall configuration including VPN setup, user administration, and network access rules"
 categories: ["Network", "Security", "Cisco"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Dnsmasq_and_dhclient\\:_use_a_specific_DNS_for_a_specific_domain/"
 title: "Dnsmasq and dhclient: use a specific DNS for a specific domain"
 description: "Configure dnsmasq and dhclient to use a specific DNS server for a specific domain, allowing you to resolve local domain names from different networks."
 categories: ["Debian", "Linux"]

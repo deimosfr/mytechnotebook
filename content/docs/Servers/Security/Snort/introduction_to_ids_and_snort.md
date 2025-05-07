@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Introduction_aux_IDS_et_à_SNORT/"
 title: "Introduction to IDS and SNORT"
 description: "A comprehensive guide to Intrusion Detection Systems (IDS) and SNORT, covering installation, configuration, and best practices for network security monitoring."
 categories: ["Security", "Monitoring", "Networking"]

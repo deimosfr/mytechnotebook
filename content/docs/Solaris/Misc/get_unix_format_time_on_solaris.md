@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Obtenir_l'heure_au_format_Unix_sous_Solaris/"
 title: "Get Unix Format Time on Solaris"
 description: "A script to get the epoch time format on Solaris systems."
 categories:

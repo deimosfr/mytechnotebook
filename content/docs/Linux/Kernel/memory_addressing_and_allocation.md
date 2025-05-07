@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/L'adressage_mémoire_et_son_allocation/"
 title: "Memory Addressing and Allocation"
 description: "A comprehensive guide to memory addressing and allocation in Linux systems, covering virtual addressing spaces, memory allocation techniques, NUMA, TLB optimization, and more."
 categories:

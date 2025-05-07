@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Wordpress_\\:_les_extentions_pratiques/"
 title: "WordPress: Useful Extensions"
 description: "A collection of useful WordPress plugins and extensions that can enhance your website's functionality."
 categories: ["CMS", "Web Development"]

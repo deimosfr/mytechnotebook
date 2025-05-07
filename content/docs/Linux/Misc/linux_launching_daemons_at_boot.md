@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Linux_\\:_Lancement_des_démons_au_boot/"
 title: "Linux: Launching Daemons at Boot"
 description: "Guide explaining how to configure daemons to automatically start at boot time on different Linux distributions such as Debian, Red Hat, and Gentoo."
 categories: 

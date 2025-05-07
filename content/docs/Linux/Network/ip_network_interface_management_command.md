@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/IP_\\:_La_commande_de_gestion_de_sa_carte_réseau/"
 title: "IP: Network Interface Management Command"
 description: "How to use the ip command to manage network interfaces, which is gradually replacing ifconfig due to its enhanced functionality."
 categories: ["Linux", "RHEL"]

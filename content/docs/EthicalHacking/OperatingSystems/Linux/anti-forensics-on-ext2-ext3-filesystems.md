@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/anti-forensics-sur-systemes-de-fichiers-ext2-ext3/"
 title: "Anti-forensics on ext2/ext3 Filesystems"
 description: "Learn about techniques to hide data within the ext2/ext3 filesystem structure, exploring methods used by hackers to conceal information"
 categories: ["Security", "Linux", "Hacking"]

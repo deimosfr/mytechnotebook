@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Installer_OSX_depuis_un_disque_externe/"
 title: "Installing OSX from an External Drive"
 description: "How to install OSX when your Mac doesn't have a working DVD drive by using an external drive."
 categories: ["Mac OS X"]

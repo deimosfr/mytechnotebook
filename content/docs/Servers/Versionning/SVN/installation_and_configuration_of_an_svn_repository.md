@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Installation_et_configuration_d\\'un_repository_SVN/"
 title: "Installation and Configuration of an SVN Repository"
 description: "Comprehensive guide to install, configure and use a Subversion (SVN) repository with Apache on Linux systems."
 categories: ["Linux", "Apache"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/OpenSSH_\\:_Export_de_fenêtre_graphiques/"
 title: "OpenSSH: Graphical Window Forwarding"
 description: "How to export X windows using OpenSSH tunneling for accessing graphical applications on remote machines securely"
 categories: ["Linux", "Network"]

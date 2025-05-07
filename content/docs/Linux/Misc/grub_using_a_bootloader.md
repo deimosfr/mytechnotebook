@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Grub_\\:_Utilisation_d'un_bootloader/"
 title: "GRUB: Using a Bootloader"
 description: "A comprehensive guide on using GRUB bootloader for Linux and other operating systems, including recovery methods, configuring rescue kernels, and customizing the boot splash screen."
 categories: ["Linux", "FreeBSD"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Trouver_le_process_qui_tourne_sur_un_certain_port_sur_Solaris/"
 title: "Finding a Process Running on a Specific Port on Solaris"
 description: "Methods to find which process is using a specific port on Solaris operating system."
 categories: 

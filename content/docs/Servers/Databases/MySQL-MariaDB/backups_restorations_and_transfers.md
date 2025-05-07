@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Sauvegardes,_restaurations_et_transferts/"
 title: "MySQL: Backups, Restorations and Transfers"
 description: "Guide to backup, restore, and transfer MySQL databases with different methods including mysqldump, mysqlhotcopy, and LVM snapshots."
 categories: ["MySQL", "Database", "Linux"]

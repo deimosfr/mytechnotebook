@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Bindgraph_\\:_Avoir_des_stats_et_des_graphs_des_requêtes_DNS/"
 title: "Bindgraph: Get Statistics and Graphs of DNS Queries"
 description: "How to install and configure Bindgraph to visualize DNS query statistics in graphical form"
 categories: ["DNS", "Monitoring", "Statistics"]

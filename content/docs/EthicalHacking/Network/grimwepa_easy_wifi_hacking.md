@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Grimwepa\\_\\:_le_hack_wifi_facile/"
 title: "Grimwepa: Easy WiFi Hacking"
 description: "A guide to using Grimwepa for wireless network security testing in Ubuntu"
 categories: ["Linux", "Ubuntu", "Security"]

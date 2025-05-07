@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Migrer_de_Multipath_à_Powerpath_sur_RedHat/"
 title: "Migrating from Multipath to Powerpath on RedHat"
 description: "A guide on how to migrate from Multipath to Powerpath on RedHat Linux systems, including uninstallation of multipath, installation of Powerpath, verification, and LVM configuration."
 categories: 

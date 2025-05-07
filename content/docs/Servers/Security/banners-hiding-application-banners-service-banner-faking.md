@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Banières_\\:_Cacher_les_banières_de_ses_applications_(Service_banner_faking)/"
 title: "Banners: Hiding Application Banners (Service Banner Faking)"
 description: "A guide to hiding service banners and modifying version information to improve security by making it harder for attackers to fingerprint your services."
 categories: ["Security", "Server", "Linux", "Windows"]

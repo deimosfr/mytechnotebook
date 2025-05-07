@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Mise_en_place_d'un_serveur_Courier_POP3_avec_SSL/"
 title: "Setting up a Courier POP3 server with SSL"
 description: "Guide to install and configure a Courier POP3 server with SSL encryption on OpenBSD"
 categories: ["Linux", "Servers", "Network"]

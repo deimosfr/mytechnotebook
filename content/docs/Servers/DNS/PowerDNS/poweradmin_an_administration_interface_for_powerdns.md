@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/PowerAdmin_\\:_Une_interface_d'administration_pour_PowerDNS/"
 title: "PowerAdmin: An Administration Interface for PowerDNS"
 description: "How to install and configure PowerAdmin, a PHP interface for managing PowerDNS"
 categories: ["MySQL", "Debian", "Linux"]

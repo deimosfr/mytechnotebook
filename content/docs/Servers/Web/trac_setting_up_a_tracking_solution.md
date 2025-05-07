@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Trac_\\:_Mise_en_place_d'une_solution_de_Tracking/"
 title: "Trac: Setting up a Tracking Solution"
 description: "A guide for setting up Trac, a web-based wiki and issue tracking system that integrates with Subversion for project management."
 categories: ["Linux", "Apache", "Development"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Patchs_\\:_Création_et_applications_de_patchs/"
 title: "Patches: Creating and Applying Patches"
 description: "A guide on how to create and apply patches in Linux, including the use of diff and patch commands for file modification tracking and distribution."
 categories: ["Linux"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Squirrelmail_\\:_Mise_en_place_d'un_webmail_simple_mais_évolué/"
 title: "SquirrelMail: Setting up a Simple yet Advanced Webmail"
 description: "Guide for installing and configuring SquirrelMail webmail solution"
 categories: ["Linux"]

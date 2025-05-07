@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Créer_un_Apple_Time_Machine_réseaux_sous_FreeBSD/"
 title: "Creating an Apple Time Machine Network on FreeBSD"
 icon: "apple"
 icontype: "simple"

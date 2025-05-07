@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Xen_et_vserver_\\:_monitoring_des_VM_sur_une_page_PHP/"
 title: "Xen and vserver: monitoring VMs on a PHP page"
 description: "A guide to monitoring virtual machines using a PHP page to easily view VM activity without running multiple commands."
 categories: ["Monitoring", "Apache", "Linux"]

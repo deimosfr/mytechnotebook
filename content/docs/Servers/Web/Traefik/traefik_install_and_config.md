@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/traefik_install_and_config/"
 title: "Traefik: a modern reverse proxy, installation and configuration"
 description: "Traefik is a modern reverse proxy that can be used to manage and route traffic to your applications"
 categories: ["Reverse-Proxy", "Web", "Proxy"]

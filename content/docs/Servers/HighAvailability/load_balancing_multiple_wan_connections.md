@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Load_balancer_plusieurs_connections_WAN/"
 title: "Load Balancing Multiple WAN Connections"
 description: "How to configure load balancing between multiple WAN connections on Linux using IP route tables and automatic failover mechanism"
 categories: ["Network", "Linux", "Debian"]

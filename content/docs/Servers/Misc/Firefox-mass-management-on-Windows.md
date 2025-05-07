@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Firefox_mass_management_on_Windows/"
 title: "Firefox: Mass Management on Windows Environment"
 description: "Learn how to manage Firefox deployments in a Windows Active Directory environment using GPO for Firefox."
 categories: ["Windows", "Browser"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Monitorer_en_temps_réel_votre_Apache/"
 title: "Real-time monitoring of your Apache server"
 description: "How to monitor your Apache server in real-time using various tools like mod_status and apachetop."
 categories: ["Debian", "Linux", "Ubuntu"]

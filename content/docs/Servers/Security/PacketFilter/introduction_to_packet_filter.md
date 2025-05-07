@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Introduction_à_Packet_Filter/" 
 title: "Introduction to Packet Filter"
 description: "A comprehensive guide to Packet Filter (PF), the firewall software for OpenBSD and other BSD systems. Learn about installation, configuration, NAT, filtering rules and advanced features."
 categories: ["FreeBSD", "Linux", "Network"]

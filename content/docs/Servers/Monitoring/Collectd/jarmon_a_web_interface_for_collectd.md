@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Jarmon_\\:_Une_interface_web_pour_Collectd/"
 title: "Jarmon: A Web Interface for Collectd"
 description: "This article explains how to install and configure Jarmon, a web interface for Collectd that allows for clear visualization and zooming of monitoring data."
 categories:

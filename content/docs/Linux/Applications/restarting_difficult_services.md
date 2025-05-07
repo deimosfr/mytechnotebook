@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Redémarrer_certains_services_difficiles/"
 title: "Restarting difficult services"
 description: "How to restart difficult services like SSH when there's no simple solution to stop them."
 categories: ["Linux"]

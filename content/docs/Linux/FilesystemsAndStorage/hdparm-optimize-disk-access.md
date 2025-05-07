@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Hdparm_\\:_Optimiser_les_accès_disques/"
 title: "Hdparm: Optimizing Disk Access"
 description: "How to optimize disk and optical drive performance on Linux systems using hdparm utility."
 categories: ["Linux", "System Administration", "Performance"]

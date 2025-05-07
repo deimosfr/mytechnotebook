@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/ElasticSearch\\:_powerful_search_and_analytics_engine/"
 title: "ElasticSearch: Powerful Search and Analytics Engine"
 description: "A guide to set up and use ElasticSearch, a flexible and powerful open source distributed real-time search and analytics engine."
 categories: ["Programming", "Security", "Servers"]

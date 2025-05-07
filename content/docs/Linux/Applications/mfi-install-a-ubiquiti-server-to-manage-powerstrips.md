@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/MFi\\:_install_a_Ubiquiti_server_to_manage_powerstrips/"
 title: "MFi: Install a Ubiquiti server to manage powerstrips"
 description: "A guide on installing and configuring a Ubiquiti mFi server on Debian Linux to manage powerstrips"
 categories: ["Networking", "Linux", "Hardware"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/OProfile_\\:_profilez_votre_système/"
 title: "OProfile: Profile Your System"
 description: "Learn how to use OProfile to profile your system, analyze application performance and monitor resource usage with this comprehensive guide."
 categories: ["Linux", "Red Hat"]

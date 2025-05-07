@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Oreon_\\:_Mise_en_place_d'une_solution_simplifiée_et_plus_élégante_pour_Nagios/"
 title: "Oreon: Setting up a simplified and more elegant solution for Nagios"
 description: "Overview of Oreon (now Centreon), a monitoring and network supervision software based on Nagios with an improved interface and additional features."
 categories: ["Linux", "Servers", "Network"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Récupérer_son_OpenBSD_après_une_mauvaise_manip/"
 title: "Recovering your OpenBSD after a bad manipulation"
 description: "Guide on how to recover an OpenBSD system after accidentally deleting the /dev directory"
 categories: ["Linux", "BSD", "System Recovery"]

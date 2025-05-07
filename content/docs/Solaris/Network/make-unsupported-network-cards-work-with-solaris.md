@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/make-unsupported-network-cards-work-with-solaris/"
 title: "Make Unsupported Network Cards Work with Solaris"
 description: "How to make unsupported network cards work with Solaris by installing additional drivers"
 categories: ["Solaris", "Hardware", "Networking"]

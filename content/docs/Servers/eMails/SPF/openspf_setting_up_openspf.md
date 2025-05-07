@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/OpenSPF\\:_Mise_en_place_d'OpenSPF/"
 title: "OpenSPF: Setting up OpenSPF"
 description: "How to set up OpenSPF, the open source version of SPF, with documentation for implementing it with Postfix."
 categories: ["Linux", "Network", "Servers"]

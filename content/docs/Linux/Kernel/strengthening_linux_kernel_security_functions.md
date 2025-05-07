@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Renforcement_des_fonctions_de_sécurité_du_noyau_Linux/"
 title: "Strengthening Linux Kernel Security Functions"
 description: "An overview of various security mechanisms for Linux kernels to ensure system integrity protection, including Address Space Layout Randomization, GrSecurity, PaX, SELinux, and network security."
 categories:

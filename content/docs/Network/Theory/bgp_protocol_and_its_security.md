@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Protocole_BGP_et_sa_sécurité/"
 title: "BGP Protocol and its Security"
 description: "A detailed explanation of the Border Gateway Protocol (BGP), including its usage between autonomous systems and its security aspects."
 categories: ["Linux", "Network"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/PSAD_\\:_protection_contre_les_scans_de_type_nmap/"
 title: "PSAD: Protection Against nmap-Type Scans"
 description: "Documentation on how to use PSAD for protecting systems against nmap-type scans, similar to Fail2Ban."
 categories: ["Linux", "Security"]

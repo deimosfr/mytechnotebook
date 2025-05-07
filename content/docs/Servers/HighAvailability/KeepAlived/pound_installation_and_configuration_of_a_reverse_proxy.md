@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Pound_\\:_Installation_et_Configuration_d'un_Reverse_Proxy/"
 title: "Pound: Installation and Configuration of a Reverse Proxy"
 description: "A guide to installing and configuring Pound as a reverse proxy and load balancer for web servers"
 categories: ["Linux", "Servers", "Network"]

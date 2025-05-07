@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Page_Speed\\:_optimize_on_the_fly_your_rendered_code/"
 title: "PageSpeed: Optimize Your Rendered Code On The Fly"
 description: "Learn how to install and configure PageSpeed with Nginx to optimize web content and improve page load times."
 categories: ["Nginx", "Debian", "Linux"]

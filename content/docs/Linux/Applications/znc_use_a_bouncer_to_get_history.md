@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/ZNC\\:_use_a_bouncer_to_get_history/"
 title: "ZNC: Use a Bouncer to Get History"
 description: "How to install and configure ZNC as an IRC bouncer to maintain connection and keep history when you're offline."
 categories: ["Linux", "Debian"]

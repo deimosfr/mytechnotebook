@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/OpenSSH_\\:_Tunneling_VPN/"
 title: "OpenSSH : Tunneling VPN"
 description: "Guide to setting up OpenSSH tunneling VPN, including server and client configuration for creating secure VPN connections."
 categories: ["Linux", "Network", "FreeBSD"]

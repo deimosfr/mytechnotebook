@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Watchdog_\\:_détection_de_problèmes_hardware/"
 title: "Watchdog: Hardware Problem Detection"
 description: "This article explains how to use the Linux watchdog system to monitor hardware issues and automatically reboot the system when problems are detected."
 categories: ["Linux"]

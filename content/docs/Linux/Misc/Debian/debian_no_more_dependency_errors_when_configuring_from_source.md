@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Debian_\\:_Fini_les_erreurs_de_dépendances_quand_vous_voulez_configurer_des_sources/"
 title: "Debian: No More Dependency Errors When Configuring From Source"
 description: "Learn how to use auto-apt in Debian to automatically resolve missing dependencies when compiling from source."
 categories: ["Linux", "Debian"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Introduction_au_C/"
 title: "Introduction to C"
 description: "A comprehensive introduction to the C programming language, covering basics, syntax, functions, data types, memory management, and more."
 categories: ["Programming", "Linux"]

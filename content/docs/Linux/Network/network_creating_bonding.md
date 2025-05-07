@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Réseau_\\:_créer_un_bonding/"
 title: "Network: Creating Bonding"
 description: "Learn how to configure network bonding in Linux for load balancing and fault tolerance with different operation modes and configuration methods."
 categories: ["RHEL", "Red Hat", "Debian", "Linux", "Network"]

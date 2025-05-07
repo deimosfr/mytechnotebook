@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Convertion_dimages_Vmware_vers_Xen/"
 title: "Converting VMware Images to Xen"
 description: "Guide on how to convert VMware disk images (vmdk) to Xen format and run them in HVM mode with full virtualization."
 categories: ["Linux"]

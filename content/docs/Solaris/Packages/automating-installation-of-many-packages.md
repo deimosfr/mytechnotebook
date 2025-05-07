@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Automatiser_l'installation_de_beaucoup_de_packages/"
 title: "Automating Installation of Many Packages"
 description: "Learn how to automate the installation of numerous packages on Solaris systems using response and admin files."
 categories: ["Solaris", "System Administration", "Automation"]

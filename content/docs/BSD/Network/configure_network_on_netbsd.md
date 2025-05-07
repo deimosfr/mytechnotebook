@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Configurer_le_réseau_sous_NetBSD/"
 title: "Configure Network on NetBSD"
 description: "How to configure network interfaces, static IPs, and gateways on NetBSD"
 categories: ["BSD", "Network", "System Administration"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Visage_\\:_Une_interface_web_pour_Collectd/"
 title: "Visage: A Web Interface for Collectd"
 description: "A guide for installing and configuring Visage, a web interface for Collectd that allows visualization and comparison of collected metrics."
 categories: ["Linux", "Debian"]

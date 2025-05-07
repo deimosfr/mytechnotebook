@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Autossh_\\:_reconnecter_automatiquement_un_tunnel_SSH/"
 title: "AutoSSH: Automatically Reconnect SSH Tunnels"
 description: "Learn how to use AutoSSH to maintain persistent SSH tunnels that automatically reconnect if the connection drops."
 categories: ["Linux", "SSH", "Network"]

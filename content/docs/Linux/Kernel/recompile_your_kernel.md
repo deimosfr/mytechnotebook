@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Recompiler_son_du_noyau_(Kernel)/"
 title: "Recompile your kernel"
 description: "A guide on how to recompile the Linux kernel on various distributions including CentOS, Debian, Fedora, Mandriva, Suse, and Ubuntu"
 categories: ["Debian", "CentOS", "Linux"]

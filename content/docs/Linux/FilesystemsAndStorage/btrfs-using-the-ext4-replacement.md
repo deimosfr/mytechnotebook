@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/BTRFS_\\:_Utilisation_du_remplaçant_de_l'Ext4/"
 title: "BTRFS: Using the Ext4 Replacement"
 description: "Learn how to use BTRFS filesystem, the replacement for ExtX, including creating partitions, subvolumes, snapshots, compression, and RAID configurations."
 categories: ["Linux", "Filesystem", "Storage"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Gnuplot_\\:_grapher_des_données_facilement/"
 title: "Gnuplot: Graph Data Easily"
 description: "A guide to using Gnuplot to create graphs and visualize data in 2D and 3D formats with examples and configuration."
 categories: ["Linux", "Debian", "Red Hat"]

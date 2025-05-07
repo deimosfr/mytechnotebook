@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Rsync_\\:_Sauvegarde_incrémentale/"
 title: "Rsync: Incremental Backup"
 description: "Guide on how to use Rsync for incremental backups, including manual examples and script resources"
 categories: ["Linux", "Backup"]

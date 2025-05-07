@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Strace_et_Ltrace_\\:_tracez_les_appels_systèmes_et_librairies/"
 title: "Strace and Ltrace: Trace System and Library Calls"
 description: "How to use strace and ltrace tools to monitor system calls and library calls for debugging and troubleshooting on Linux systems"
 categories: ["Debian", "Linux"]

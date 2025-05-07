@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/apt-file-recherche-de-fichiers-qui-empechent-une-compilation/"
 title: "Apt-file: Searching for Files That Prevent Compilation"
 description: "Learn how to use the apt-file utility to find missing files needed for compilation in Debian-based systems"
 categories: ["Linux", "Debian", "Development"]

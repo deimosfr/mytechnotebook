@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/XenServer_4.1_\\:_Changer_l'interface_de_Management/"
 title: "XenServer 4.1: Changing the Management Interface"
 description: "How to change the management interface on XenServer 4.1 when you've selected the wrong one during installation."
 categories: ["Linux", "Virtualization"]

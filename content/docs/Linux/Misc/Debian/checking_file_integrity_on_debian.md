@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Vérifier_l'intégrité_des_fichiers_sur_sa_Debian/"
 title: "Checking File Integrity on Debian"
 description: "How to check the integrity of files on a Debian system using a script that verifies package files against their original versions."
 categories: ["Debian", "Linux"]

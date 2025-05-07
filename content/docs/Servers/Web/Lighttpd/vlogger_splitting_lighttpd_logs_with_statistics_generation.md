@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Vlogger_\\:_Splitter_les_logs_de_Lighttpd_avec_creation_de_statistiques/"
 title: "Vlogger: Splitting Lighttpd logs with statistics generation"
 description: "Documentation on how to segment Lighttpd logs and create statistics using Webalizer"
 categories: ["Linux"]

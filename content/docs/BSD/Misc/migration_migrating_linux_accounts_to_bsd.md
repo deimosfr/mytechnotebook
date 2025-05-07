@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Migration_\\:_Migrer_des_comptes_linux_vers_BSD/"
 title: "Migration: Migrating Linux accounts to BSD"
 description: "Guide for migrating user accounts from Linux systems to BSD systems while maintaining account details and passwords."
 categories: ["Linux", "BSD", "System Administration"]

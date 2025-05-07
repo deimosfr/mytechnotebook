@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Load_Balancing_avec_Apache_2/"
 title: "Load Balancing with Apache 2"
 description: "How to set up load balancing with Apache 2 web servers, including proxy balancer module and clustering configuration."
 categories: ["Linux", "Apache"]

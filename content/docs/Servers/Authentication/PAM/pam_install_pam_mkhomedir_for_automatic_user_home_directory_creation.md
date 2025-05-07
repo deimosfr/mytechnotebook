@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/PAM_\\:_Installer_pam_mkhomedir_pour_la_création_automatique_des_home_utilisateurs/"
 title: "PAM: Install pam_mkhomedir for Automatic User Home Directory Creation"
 description: "How to install and configure pam_mkhomedir on Solaris to automatically create home directories for users at login time"
 categories: ["Linux", "Security"]

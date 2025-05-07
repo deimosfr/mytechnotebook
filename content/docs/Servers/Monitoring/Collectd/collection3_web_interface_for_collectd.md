@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Collection3_\\:_Une_interface_web_pour_Collectd/"
 title: "Collection3: A Web Interface for Collectd"
 description: "How to install and configure Collection3, a web interface for Collectd that enables viewing gathered statistics through a browser"
 categories: ["Servers", "Monitoring", "Web"]

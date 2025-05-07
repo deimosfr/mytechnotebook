@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/BusyBox_\\:_Création_et_utilisation_d'une_BusyBox/"
 title: "BusyBox: Creation and Usage of a BusyBox"
 description: "Learn how to create and use BusyBox, a software that implements numerous standard Unix commands in a single executable file, making it ideal for embedded Linux systems."
 categories: ["Linux", "Embedded"]

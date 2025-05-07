@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Cpulimit\\:_limit_CPU_usage/"
 title: "Cpulimit: Limit CPU Usage"
 description: "Learn how to limit CPU usage for processes in Linux using Cpulimit tool. This guide covers installation, usage examples and best practices."
 categories: ["Linux", "Debian"]

@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Emails_récapitulatif_des_alertes_Nagios_en_cours/"
 title: "Email Summary of Current Nagios Alerts"
 description: "A script that sends an email summary of current Nagios alerts, allowing you to check server status before arriving at work."
 categories: ["Monitoring", "Debian", "Linux"]

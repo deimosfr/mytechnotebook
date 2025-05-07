@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Comment_tuer_une_application_qui_a_planté,_ou_comment_faire_face_à_un_écran_«_figé_»_\\?/"
 title: "How to Kill a Crashed Application or Handle a Frozen Screen"
 description: "Methods to recover from frozen applications or system hangs in Linux without resorting to hard resets"
 categories: ["Linux", "Troubleshooting"]

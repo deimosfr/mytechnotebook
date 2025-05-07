@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Webdav_avec_Lighttpd/"
 title: "WebDAV with Lighttpd"
 description: "A guide on how to set up WebDAV with Lighttpd server for uploading files to a web server."
 categories: ["Linux"]

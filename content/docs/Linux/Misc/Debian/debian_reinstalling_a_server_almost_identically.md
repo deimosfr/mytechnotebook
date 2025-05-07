@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Debian_\\:_réinstallation_d'un_serveur_presque_à_l'identique/"
 title: "Debian: Reinstalling a Server Almost Identically"
 description: "How to reinstall a Debian server with the exact same packages as a reference server."
 categories: ["Debian", "Linux"]

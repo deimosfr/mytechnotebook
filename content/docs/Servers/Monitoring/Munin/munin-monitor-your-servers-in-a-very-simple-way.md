@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Munin_\\:_Surveiller_ses_serveurs_de_façons_très_simple/"
 title: "Munin: Monitor your servers in a very simple way"
 description: "A tutorial on installing and configuring Munin, a simple yet powerful system monitoring tool that provides a web interface and supports client/server architecture."
 categories: ["Monitoring", "System Administration", "Linux"]

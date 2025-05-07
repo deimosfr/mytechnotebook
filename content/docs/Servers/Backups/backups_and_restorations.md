@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Sauvegardes_et_Restaurations/"
 title: "Backups and Restorations with tapes"
 description: "A comprehensive guide to backup and restoration techniques, covering tape backups, incremental backups, and UFS snapshots"
 categories: ["Linux", "Backup", "Database"]

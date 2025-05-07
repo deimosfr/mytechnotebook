@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: '/OpenBoot_PROM,_gestion_du_"BIOS"/'
 title: "OpenBoot PROM, BIOS Management"
 description: "Learn how to manage and configure the OpenBoot PROM on Sun systems, including diagnostic mode, boot commands, and NVRAM configurations."
 categories: ["Linux", "Servers"]

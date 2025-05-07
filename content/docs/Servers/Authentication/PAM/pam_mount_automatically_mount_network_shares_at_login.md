@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/PAM_mount\\:_Monter_des_partages_réseaux_au_login/"
 title: "PAM mount: Automatically Mount Network Shares at Login"
 description: "Guide on how to use PAM mount to automatically mount network shares when users log in to a system."
 categories: ["Linux", "Security"]

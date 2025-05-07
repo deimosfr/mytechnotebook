@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/amazone-s3-sauvegarde-propres-et-automatisees-avec-amazon-s3/"
 title: "Amazon S3: Clean and Automated Backups with Amazon S3"
 description: "How to set up clean and automated backups using Amazon S3 cloud storage service with various mounting options like FUSE and AutoFS"
 categories: ["Backup", "Cloud", "Server"]

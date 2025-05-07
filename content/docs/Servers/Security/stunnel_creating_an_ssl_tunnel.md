@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Stunnel_\\:_Fabrication_d'un_tunnel_SSL/"
 title: "Stunnel: Creating an SSL Tunnel"
 description: "A guide on how to set up and configure Stunnel to create secure SSL tunnels for services that don't natively support encryption."
 categories: ["Linux", "Debian", "Network", "Servers", "Security"]

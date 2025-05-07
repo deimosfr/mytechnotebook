@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Introduction_au_PowerShell/"
 title: "Introduction to PowerShell"
 description: "An introduction to Microsoft PowerShell, explaining its object-oriented nature and advantages compared to traditional command-line interfaces."
 categories: ["Windows"]

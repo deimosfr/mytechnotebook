@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/PowerDNS\\:_Créer_un_serveur_de_cache_DNS/"
 title: "PowerDNS: Creating a DNS Cache Server"
 description: "How to install and configure PowerDNS as a caching DNS server on Debian 6"
 categories: ["Debian", "Linux", "Network", "Servers"]

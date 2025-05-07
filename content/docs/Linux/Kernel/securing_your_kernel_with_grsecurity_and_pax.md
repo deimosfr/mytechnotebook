@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Sécurisation_de_son_noyau_avec_Grsecurity_et_PaX/"
 title: "Securing Your Kernel with Grsecurity and PaX"
 description: "How to secure a Linux kernel with Grsecurity and PaX patches to enhance security against buffer overflows and other vulnerabilities."
 categories: ["Linux", "Security"]

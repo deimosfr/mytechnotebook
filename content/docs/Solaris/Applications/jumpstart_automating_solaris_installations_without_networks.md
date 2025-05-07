@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Jumpstart\\:_automatiser_les_installations_Solaris_sans_réseaux/"
 title: "Jumpstart: Automating Solaris Installations Without Networks"
 description: "A guide on how to automate Solaris installations using Jumpstart without requiring network infrastructure."
 categories:

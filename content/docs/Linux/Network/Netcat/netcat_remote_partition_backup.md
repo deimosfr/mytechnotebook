@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Netcat_\\:_Sauvegarde_de_partions_à_distance/"
 title: "Netcat: Remote Partition Backup"
 description: "Guide on how to use Netcat for remote partition backups, including commands for sending compressed images over the network."
 categories: ["Linux", "Network"]

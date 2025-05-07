@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Port_forwarding_depuis_dom0_vers_bridged_domU_avec_IPVS/"
 title: "Port forwarding from dom0 to bridged domU with IPVS"
 description: "How to forward ports from a dom0 to a bridged domU in Xen using IPVS, overcoming Netfilter issues"
 categories: ["Debian", "Linux"]

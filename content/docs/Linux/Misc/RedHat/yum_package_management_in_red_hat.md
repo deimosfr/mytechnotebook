@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Yum_\\:_utilisation_des_packages_sous_RedHat/"
 title: "Yum: Package Management in Red Hat"
 description: "A guide on using Yum package manager in Red Hat-based distributions, including installation, removal, updates, and other package management operations."
 categories: ["Red Hat", "Linux"]

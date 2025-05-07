@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/OpenSSH_HPN_(High_Performance_Enabled)_\\:_Implémentation_et_installation/"
 title: "OpenSSH HPN (High Performance): Implementation and Installation"
 description: "A guide on how to implement and install OpenSSH HPN (High Performance Enabled) which removes performance bottlenecks in standard OpenSSH."
 categories: ["Linux", "Networking"]

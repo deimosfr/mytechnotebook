@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Enlever_les_limitation_utilisateurs/"
 title: "Removing User Limitations"
 description: "Guide on how to remove JVM memory limitations for users on Solaris systems"
 categories: ["Linux", "Solaris"]

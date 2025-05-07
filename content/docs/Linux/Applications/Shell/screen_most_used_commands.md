@@ -1,6 +1,5 @@
 ---
 weight: 999
-url: "/Screen_\\:_Les_commandes_les_plus_utilisées/"
 title: "Screen: Most Used Commands"
 description: "Guide to using Screen for maintaining persistent terminal sessions, with most commonly used commands and multi-user configuration."
 categories: ["Linux", "Security"]
