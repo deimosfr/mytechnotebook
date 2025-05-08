@@ -1042,9 +1042,9 @@ sed -i -e "s/00:AB:BA/FE:FF:BA/g" /etc/vz/conf/*.conf
 
 ## Resources
 
-- [Some Tips On OpenVZ Deployment](/static/pdf/some_tips_on_openvz_deployment.pdf)
-- [Splitting Resources Evenly Between OpenVZ VMs With vzsplit](/static/pdf/splitting_resources_evenly_between_openvz_vms_with_vzsplit.pdf)
-- [Installing And Using OpenVZ On Debian Lenny AMD64](/static/pdf/installing_and_using_openvz_on_debian_lenny_amd64.pdf)
+- [Some Tips On OpenVZ Deployment](../../static/pdf/some_tips_on_openvz_deployment.pdf)
+- [Splitting Resources Evenly Between OpenVZ VMs With vzsplit](../../static/pdf/splitting_resources_evenly_between_openvz_vms_with_vzsplit.pdf)
+- [Installing And Using OpenVZ On Debian Lenny AMD64](../../static/pdf/installing_and_using_openvz_on_debian_lenny_amd64.pdf)
 - http://www.libresys.fr/2008/10/14/les-differentes-formes-de-configuration-du-reseau-avec-openvz/
 - http://www.famille-fontes.net/comments.php?y=10&m=02&entry=entry100208-094400
 - http://wiki.openvz.org/Backup_of_a_running_container_with_vzdump

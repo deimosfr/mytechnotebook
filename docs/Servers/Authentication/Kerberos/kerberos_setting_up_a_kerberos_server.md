@@ -9,7 +9,7 @@ tags: ["Network", "Servers", "Security", "Authentication", "Windows"]
 toc: true
 ---
 
-![Kerberos](/static/images/logo_kerberos_consortium.avif)
+![Kerberos](../../static/images/logo_kerberos_consortium.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -31,7 +31,7 @@ In a simple network using Kerberos, several entities are distinguished:
 
 Client C wants to access a service offered by server S.
 
-![Kerberos-simple](/static/images/kerberos-simple.avif)[^1]
+![Kerberos-simple](../../static/images/kerberos-simple.avif)[^1]
 
 We will first see how to set up a Kerberos server under GNU/Linux. Then in the second part, we will look at client configuration and system authentication via PAM.
 

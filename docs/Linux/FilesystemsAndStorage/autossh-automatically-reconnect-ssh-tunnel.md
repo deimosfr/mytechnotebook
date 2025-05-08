@@ -9,7 +9,7 @@ tags: ["SSH", "AutoSSH", "Tunnel", "Security"]
 toc: true
 ---
 
-![AutoSSH](/static/images/openssh_logo.avif)
+![AutoSSH](../../static/images/openssh_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

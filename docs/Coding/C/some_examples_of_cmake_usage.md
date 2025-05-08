@@ -436,4 +436,4 @@ So, we've reached the end of this article. We've covered some methods to get fro
 
 ## Resources
 - http://www.unixgarden.com/index.php/programmation/quelques-exemples-d%E2%80%99utilisation-de-cmake
-- [CMake: the next generation in project construction](/static/pdf/cmake_la_releve_dans_la_construction_de_projets.pdf)
+- [CMake: the next generation in project construction](../../static/pdf/cmake_la_releve_dans_la_construction_de_projets.pdf)

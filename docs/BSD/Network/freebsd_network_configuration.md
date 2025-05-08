@@ -9,7 +9,7 @@ tags: ["FreeBSD", "Networking", "System Configuration", "DHCP", "Routing"]
 toc: true
 ---
 
-![FreeBSD](/static/images/poweredbyfreebsd.avif)
+![FreeBSD](../../static/images/poweredbyfreebsd.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

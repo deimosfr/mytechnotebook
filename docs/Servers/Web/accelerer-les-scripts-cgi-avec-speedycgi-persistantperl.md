@@ -14,4 +14,4 @@ toc: true
 
 Here is a solution to accelerate Perl scripts in CGI:
 
-[Documentation on Speeding Up Perl Scripts With SpeedyCGI-PersistantPerl](/static/pdf/speeding_up_perl_scripts_with_speedycgi-persistantperl.pdf)
+[Documentation on Speeding Up Perl Scripts With SpeedyCGI-PersistantPerl](../../static/pdf/speeding_up_perl_scripts_with_speedycgi-persistantperl.pdf)

@@ -10,7 +10,7 @@ lastmod: "2009-11-30T20:23:00+02:00"
 toc: true
 ---
 
-![OpenID Logo](/static/images/openidlogo.avif)
+![OpenID Logo](../../static/images/openidlogo.avif)
 
 ## Introduction
 
@@ -114,7 +114,7 @@ The identity server installation is done as follows:
 - Upload the PHP files to your personal server (for example, I uploaded them to the directory: http://www.drylm.org/jean-christophe/)
 - Load the configuration page to get the domain ("realm"). In my case: http://www.drylm.org/jean-christophe/MyID.config.php. I get the display that you can see in figure 1. The domain ("realm") here is therefore phpMyID.
 
-![Openid-fig1](/static/images/openid-fig1.avif)
+![Openid-fig1](../../static/images/openid-fig1.avif)
 
 - It's time to set up the username/password pair that will be used to authenticate you on your OpenID server: you need to get an md5 hash from the information identifier, domain ("realm") obtained in the previous section, and password:
 
@@ -206,7 +206,7 @@ These 4 commented files can be downloaded from the Linux Pratique website, at ht
 
 To test this example, whose complete sources you can find on our site [11], simply publish these four files on a web server (it works even locally on your own machine) and enter your OpenID identity URL (Fig. 2)!
 
-![Openid-fig2](/static/images/openid-fig2.avif)
+![Openid-fig2](../../static/images/openid-fig2.avif)
 
 ## Phishing
 

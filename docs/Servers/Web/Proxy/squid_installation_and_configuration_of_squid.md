@@ -9,7 +9,7 @@ tags: ["Squid", "Proxy", "Cache", "Network", "Security", "FreeBSD", "Debian"]
 toc: true
 ---
 
-![Squid](/static/images/squid_logo.avif)
+![Squid](../../static/images/squid_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

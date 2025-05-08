@@ -12,15 +12,15 @@ toc: true
 Ahhhh Cacti! It's wonderful when it works!
 Yes, yes, those beautiful graphs look great. However, it's true that when you want to create your own graph, that's a different story! So I found this comprehensive documentation that works perfectly as long as you follow it to the letter!
 
-[Documentation on creating a graph in Cacti](/static/pdf/tuto_cacti_dim_shell.pdf)
+[Documentation on creating a graph in Cacti](../../static/pdf/tuto_cacti_dim_shell.pdf)
 
 Now that you know how to create graphs, here are some scripts I made a while ago.
 
 ## CPU Graph
 
-[CPU Graph](/static/others/cacti_graph_template_cpu_informations_gt-xml.zip) - **/usr/share/cacti/site/scripts/cpu-stats.sh**
+[CPU Graph](../../static/others/cacti_graph_template_cpu_informations_gt-xml.zip) - **/usr/share/cacti/site/scripts/cpu-stats.sh**
 
-![CPU Graph](/static/images/cpu_cacti.avif)
+![CPU Graph](../../static/images/cpu_cacti.avif)
 
 ```bash
 MYTOP=`top -b -n 2 | grep Cpu | tail -1`
@@ -35,9 +35,9 @@ printf "cpu_usage:%d cpu_system:%d cpu_idle:%d\n" $USAGE $SYSTEM $IDLE
 
 ## Mldonkey Graph
 
-[Mldonkey Graph](/static/others/cacti_graph_template_mldonkey_informations_gt-xml.zip) - **/usr/share/cacti/site/scripts/mldonkey-stats.sh**
+[Mldonkey Graph](../../static/others/cacti_graph_template_mldonkey_informations_gt-xml.zip) - **/usr/share/cacti/site/scripts/mldonkey-stats.sh**
 
-![Mldonkey Graph](/static/images/ml_cacti.avif)
+![Mldonkey Graph](../../static/images/ml_cacti.avif)
 
 ```bash
 MY_ML=`mldonkey_command bw_stats -p "" | grep Down`
@@ -52,9 +52,9 @@ printf "ml_down:%d ml_up:%d ml_files:%d\n" $ML_DOWN $ML_UP $ML_FILES
 
 ## RAM Graph
 
-[RAM Graph](/static/others/cacti_graph_template_ram_informations_gt.xml.zip) - **/usr/share/cacti/site/scripts/ram-stats.sh**
+[RAM Graph](../../static/others/cacti_graph_template_ram_informations_gt.xml.zip) - **/usr/share/cacti/site/scripts/ram-stats.sh**
 
-![RAM Graph](/static/images/ram_cacti.avif)
+![RAM Graph](../../static/images/ram_cacti.avif)
 
 ```bash
 MY_RAM=`free -o | grep "Mem:"`

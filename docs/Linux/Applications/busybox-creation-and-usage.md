@@ -21,4 +21,4 @@ Indeed, this system remains one of the most widespread on network devices. It ca
 
 ## Implementation
 
-[Linux embedded: BusyBox "in a nutshell"](/static/pdf/busybox.pdf)
+[Linux embedded: BusyBox "in a nutshell"](../../static/pdf/busybox.pdf)

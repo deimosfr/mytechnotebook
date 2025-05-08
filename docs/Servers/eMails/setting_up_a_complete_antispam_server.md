@@ -11,4 +11,4 @@ toc: true
 
 Here is a very complete and easy to implement documentation:
 
-[Documentation on a complete antispam solution](/static/pdf/the_perfect_spamsnake.pdf)
+[Documentation on a complete antispam solution](../../static/pdf/the_perfect_spamsnake.pdf)

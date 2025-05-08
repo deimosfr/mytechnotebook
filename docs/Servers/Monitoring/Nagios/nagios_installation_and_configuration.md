@@ -9,7 +9,7 @@ tags: ["Nagios", "Monitoring", "NRPE", "System Administration", "Network"]
 toc: true
 ---
 
-![Nagios](/static/images/nagios_logo.avif)
+![Nagios](../../static/images/nagios_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -554,7 +554,7 @@ define host{
 
 Here I use variables (_PROCWARN and _PROCCRIT) that override the default values ([See the documentation for more information](https://nagios.sourceforge.net/docs/3_0/customobjectvars.html)). You must add as in the documentation HOST ($_HOSTPROCWARN$ and $_HOSTPROCCRIT$) only for the command declaration part.
 
-If you want a more complete configuration, I've attached an archive with a more complete Nagios3 configuration: [Nagios configuration](/static/others/nagios3.tgz)
+If you want a more complete configuration, I've attached an archive with a more complete Nagios3 configuration: [Nagios configuration](../../static/others/nagios3.tgz)
 
 ## Addons
 
@@ -876,6 +876,6 @@ retain_state_information=0
 ```
 
 ## Resources
-- [Nagios Documentation on OpenBSD](/static/pdf/openbsd_nagios.pdf)
+- [Nagios Documentation on OpenBSD](../../static/pdf/openbsd_nagios.pdf)
 - [https://www.mail-archive.com/nagios-users@lists.sourceforge.net/msg04394.html](https://www.mail-archive.com/nagios-users@lists.sourceforge.net/msg04394.html)
-- [Nagios Documentation](/static/pdf/nagios.pdf)
+- [Nagios Documentation](../../static/pdf/nagios.pdf)

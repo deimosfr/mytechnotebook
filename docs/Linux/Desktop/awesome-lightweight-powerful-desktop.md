@@ -9,7 +9,7 @@ tags: ["Awesome", "Linux", "Window Manager", "Tiling", "Desktop Environment"]
 toc: true
 ---
 
-![Awesome](/static/images/awesome_logo.avif)
+![Awesome](../../static/images/awesome_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

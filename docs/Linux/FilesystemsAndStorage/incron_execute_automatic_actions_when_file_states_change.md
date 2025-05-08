@@ -11,4 +11,4 @@ toc: true
 
 Also known as files trigger, Incron allows you to perform actions when certain files change their state:
 
-[Triggering Commands On File Directory Changes With Incron](/static/pdf/triggering_commands_on_file_directory_changes_with_incron.pdf)
+[Triggering Commands On File Directory Changes With Incron](../../static/pdf/triggering_commands_on_file_directory_changes_with_incron.pdf)

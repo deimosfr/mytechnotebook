@@ -9,7 +9,7 @@ tags: ["IRC", "Networking", "Servers"]
 toc: true
 ---
 
-![ZNC](/static/images/znc.avif)
+![ZNC](../../static/images/znc.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

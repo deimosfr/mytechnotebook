@@ -9,7 +9,7 @@ tags: ["Python", "Red Hat", "Satellite", "Development", "Scripts", "Automation"]
 toc: true
 ---
 
-![Python](/static/images/python-logo.avif)
+![Python](../../static/images/python-logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

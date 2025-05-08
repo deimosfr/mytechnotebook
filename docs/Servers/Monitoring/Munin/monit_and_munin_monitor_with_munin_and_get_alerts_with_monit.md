@@ -11,4 +11,4 @@ toc: true
 
 Here is documentation to be alerted in case of problems:
 
-[Monitoring Munin Monit PDF](/static/pdf/monitoring_munin_monit.pdf)
+[Monitoring Munin Monit PDF](../../static/pdf/monitoring_munin_monit.pdf)

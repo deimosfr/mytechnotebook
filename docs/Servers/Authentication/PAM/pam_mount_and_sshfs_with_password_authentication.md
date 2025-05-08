@@ -11,4 +11,4 @@ toc: true
 
 Here is documentation about SSHFS and PAM:
 
-[Documentation on PAM mount and SSHFS with password authentication](/static/pdf/pam_mount_and_sshfs_with_password_authentication.pdf)
+[Documentation on PAM mount and SSHFS with password authentication](../../static/pdf/pam_mount_and_sshfs_with_password_authentication.pdf)

@@ -13,7 +13,7 @@ toc: true
 
 Push server technology is very trendy nowadays, especially with the iPhone which now allows connections (just like Windows Mobile) to an Exchange-like push server. The problem is that for the open-source world, Exchange is not an option. I found a well-developed project on SourceForge called [Z-Push](https://z-push.sourceforge.net) that works perfectly with Postfix.
 
-![](/static/images/1204022285.avif)
+![](../../static/images/1204022285.avif)
 
 ## Installation
 

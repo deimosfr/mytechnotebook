@@ -9,7 +9,7 @@ tags: ["glances", "monitoring", "system", "python", "dashboard", "shell", "debia
 toc: true
 ---
 
-![Glances](/static/images/glances-logo.avif)
+![Glances](../../static/images/glances-logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -25,7 +25,7 @@ toc: true
 
 It avoids having to run several tools to get an all-in-one overview of your system. For example, when you want to quickly see what's wrong on a system for diagnosis, you'll need to launch top/htop, iostat, vmstat...Glances gives you a large overview of your system health. You can then investigate with the appropriate tool if you want. But you didn't waste your time opening several tools to get the first desired information: where does the problem come from? So Glances answers that question.
 
-![Glances screenshot](/static/images/glances_screenshot.avif)
+![Glances screenshot](../../static/images/glances_screenshot.avif)
 
 ## Installation
 

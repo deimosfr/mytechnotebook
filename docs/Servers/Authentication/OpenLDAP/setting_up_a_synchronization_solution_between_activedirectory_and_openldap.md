@@ -86,17 +86,17 @@ Then start the installation.
 
 - Launch the Unix Services Configuration utility and configure it like this:
 
-![Sfu 1.png](/static/images/sfu_1.avif)
+![Sfu 1.png](../../static/images/sfu_1.avif)
 Click apply.
 
 - Add your OpenLDAP server here:
 
-![Sfu 2.png](/static/images/sfu_2.avif)
+![Sfu 2.png](../../static/images/sfu_2.avif)
 Click apply.
 
 - Then, if you already have a MASTER (like DELL1800 here), connect to the utility on the master and add it. Otherwise, if this server must serve as the master, add it in this MMC:
 
-![Sfu 3.png](/static/images/sfu_3.avif)
+![Sfu 3.png](../../static/images/sfu_3.avif)
 Click apply.
 
 Then you'll need to reboot and you're done.
@@ -282,7 +282,7 @@ index       cn,sn,uid,mail  pres,eq,sub
 #### Schemas
 
 We'll copy the schemas to the right place. Download the archive:  
-[Microsoft Schemas](/static/others/microsoft_shema.tgz)
+[Microsoft Schemas](../../static/others/microsoft_shema.tgz)
 
 Now we decompress:
 
@@ -325,7 +325,7 @@ To compile SSOD, the packages g++ and libpam0g-dev must be installed:
 apt-get install g++ libpam0g-dev
 ```
 
-Download these sources [available here](/static/others/ssod-src.zip):
+Download these sources [available here](../../static/others/ssod-src.zip):
 
 ```bash
 unzip ssod-src.zip
@@ -342,7 +342,7 @@ We get a binary in bin/ssod.l52.
 ##### Installation
 
 Copy the binary obtained after compiling to `/usr/bin/ssod` on the server where OpenLDAP is installed.  
-Download the file [ssod-conf.tgz](/static/others/ssod-conf.tgz) to `/tmp` and decompress it while in the root directory:
+Download the file [ssod-conf.tgz](../../static/others/ssod-conf.tgz) to `/tmp` and decompress it while in the root directory:
 
 ```bash
 cd /
@@ -424,7 +424,7 @@ password   required   pam_deny.so
 #### Synchronization script
 
 Now at the crontab level, we'll add a small script that will allow us to do the sync. Edit the script and modify it according to your needs:  
-[AD import script](/static/others/ad_import.tgz)
+[AD import script](../../static/others/ad_import.tgz)
 
 Put the script archive somewhere and decompress it:
 
@@ -1011,5 +1011,5 @@ A good idea would also be to automatically mount the home from an NFS server.
 User accounts in the LDAP directory must have in their objectClass list the class "shadowAccount" to be taken into account by Solaris.
 
 ## Resources
-- [Authentication with Linux Documentation](/static/pdf/ldap_authentication_in_linux.pdf)
-- [Using Kerberos to Authenticate a Solaris 10 OS LDAP Client With Microsoft Active Directory](/static/pdf/kerberos_s10.pdf)
+- [Authentication with Linux Documentation](../../static/pdf/ldap_authentication_in_linux.pdf)
+- [Using Kerberos to Authenticate a Solaris 10 OS LDAP Client With Microsoft Active Directory](../../static/pdf/kerberos_s10.pdf)

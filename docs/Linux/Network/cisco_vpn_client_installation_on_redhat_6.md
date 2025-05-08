@@ -9,7 +9,7 @@ tags: ["Cisco", "VPN", "Red Hat", "Enterprise Linux"]
 toc: true
 ---
 
-![Cisco](/static/images/poweredbycisco.avif)
+![Cisco](../../static/images/poweredbycisco.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

@@ -11,7 +11,7 @@ tags: ["Postfix", "Mail", "SMTP", "Throttling", "Mail Server", "Configuration"]
 toc: true
 ---
 
-![Postfix](/static/images/postfix_logo.avif)
+![Postfix](../../static/images/postfix_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

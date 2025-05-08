@@ -31,7 +31,7 @@ Remove trailing spaces and tabs at the end of lines:
 :%s/\s\+$//
 ```
 
-Here's also the [Quick Reference Card](/static/pdf/vimqrc.pdf) and [the same thing but in French](/static/pdf/vimqrcfr.pdf) :-).
+Here's also the [Quick Reference Card](../../static/pdf/vimqrc.pdf) and [the same thing but in French](../../static/pdf/vimqrcfr.pdf) :-).
 
 ## The Functions
 
@@ -160,6 +160,6 @@ If you want the latest version of my vimrc, go to my git: [https://www.deimos.fr
 - [https://vimcasts.org/](https://vimcasts.org/)
 - [https://vim-adventures.com/](https://vim-adventures.com/)
 - [VIM Configuration Generator](https://yoursachet.com/)
-- [Quick Reference Card](/static/pdf/vimqrc.pdf)
-- [Quick Reference Card (French)](/static/pdf/vimqrcfr.pdf)
-- [The new and improved Vim editor](/static/pdf/au-speakingunix_vim-pdf.pdf)
+- [Quick Reference Card](../../static/pdf/vimqrc.pdf)
+- [Quick Reference Card (French)](../../static/pdf/vimqrcfr.pdf)
+- [The new and improved Vim editor](../../static/pdf/au-speakingunix_vim-pdf.pdf)

@@ -17,7 +17,7 @@ tags:
 toc: true
 ---
 
-![Linux](/static/images/poweredbylinux.avif)
+![Linux](../../static/images/poweredbylinux.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -39,7 +39,7 @@ Each process has its own page table. Each PTE (Page Table Entry) contains inform
 
 A process's memory in Linux is divided into several sectors:
 
-![Virtual address space and physical address space relationship](/static/images/virtual_address_space_and_physical_address_space_relationship.avif)[^2]
+![Virtual address space and physical address space relationship](../../static/images/virtual_address_space_and_physical_address_space_relationship.avif)[^2]
 
 - text: the code of the executing process, also known as 'text area'
 - data: data used by the program. Initialized data will be at the beginning, followed by uninitialized data
@@ -183,7 +183,7 @@ The number of TLB entries is fixed but can be expanded by changing the page size
 
 When the kernel needs to access a particular memory space in a page frame, it refers to a virtual address. This is sent to the MMU (Memory Management Unit) on the processor, referencing a process's page table. This virtual address will point to a PTE in the page table. The MMU uses information transmitted by the PTE to locate the physical memory page that the virtual one points to. Each PTE contains a bit to indicate whether the page is currently in memory or has been swapped to disk.
 
-![TLB](/static/images/tlb.avif)[^4]
+![TLB](../../static/images/tlb.avif)[^4]
 
 A page table can be likened to a page directory. Paging is done by breaking down the 32 bits of linear addresses that are used as references to memory positions in several places also known as 'page branching structure'. The last 12 bits reference the memory offset in which the memory page is located. The remaining bits are used to specify the page tables. On a 32-bit system, the 20 bits will require a large page table. The linear address will then be divided into 4 segments:
 
@@ -198,7 +198,7 @@ Converting linear addresses to physical ones can take some time, which is why pr
 
 ## UMA
 
-![UMA](/static/images/uma.avif)[^5]
+![UMA](../../static/images/uma.avif)[^5]
 
 On a 32-bit system, the kernel maps all memory up to 896MiB on the 4GiB linear address space. This allows the kernel to have direct memory access below 896MiB by looking at the linear addressing present in the kernel page tables. The kernel directly maps all memory up to 869KiB except for certain reserved regions:
 
@@ -209,7 +209,7 @@ On a 32-bit system, the kernel maps all memory up to 896MiB on the 4GiB linear a
 5. end of kernel data structure -> 869MiB: region mapped in kernel page tables (ZONE_NORMAL)
 6. 896MiB -> 1GiB: for the kernel to map its linear addresses reserved in ZONE_HIGHMEM (PAE)[^1]
 
-![Uma zones](/static/images/uma_zones.avif)[^6]
+![Uma zones](../../static/images/uma_zones.avif)[^6]
 
 On a 64-bit system, however, it's much simpler as you can see!
 
@@ -254,7 +254,7 @@ The RAMs described above range from slowest to fastest.
 
 ## NUMA
 
-![NUMA](/static/images/numa.avif)[^5]
+![NUMA](../../static/images/numa.avif)[^5]
 
 NUMA technology increases MMU performance. A 64-bit processor is mandatory to use this technology. You can check if it's present at your kernel level:
 

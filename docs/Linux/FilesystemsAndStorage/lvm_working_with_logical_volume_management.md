@@ -501,6 +501,6 @@ uuidgen
 ```
 
 ## Resources
-- [Download the LVM documentation](/static/pdf/lvm.pdf)
-- [Documentation for beginners](/static/pdf/lvm_beginner.pdf)
-- [Documentation on LVM Snapshots](/static/pdf/lvm_snapshots.pdf)
+- [Download the LVM documentation](../../static/pdf/lvm.pdf)
+- [Documentation for beginners](../../static/pdf/lvm_beginner.pdf)
+- [Documentation on LVM Snapshots](../../static/pdf/lvm_snapshots.pdf)

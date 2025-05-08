@@ -59,5 +59,5 @@ Launch vncviewer and connect to **"localhost:1"**. You will then see the remote 
 SSH is capable of forwarding any window and any port. For security reasons, it's preferable to open as few ports as possible. Just open SSH to pass these types of services.
 
 ## Resources
-- [Documentation on Best Practices on SSH](/static/pdf/ssh-_best_practices.pdf)
-- [Principles and Usage of SSH](/static/pdf/principes_et_utilisation_de_ssh.pdf)
+- [Documentation on Best Practices on SSH](../../static/pdf/ssh-_best_practices.pdf)
+- [Principles and Usage of SSH](../../static/pdf/principes_et_utilisation_de_ssh.pdf)

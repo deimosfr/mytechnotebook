@@ -9,7 +9,7 @@ tags: ["Sick-Beard", "PVR", "SABnzbd", "Servers", "Network"]
 toc: true
 ---
 
-![Sick-Beard](/static/images/sick-beard-logo.avif)
+![Sick-Beard](../../static/images/sick-beard-logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

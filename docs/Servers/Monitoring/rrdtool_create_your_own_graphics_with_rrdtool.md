@@ -9,7 +9,7 @@ tags: ["RRDtool", "Monitoring", "Graphs", "Performance", "Database"]
 toc: true
 ---
 
-![RRDtool Logo](/static/images/rrdtool-logo.avif)
+![RRDtool Logo](../../static/images/rrdtool-logo.avif)
 
 ## Introduction
 
@@ -188,7 +188,7 @@ We will use rrdtool graph to generate a graph from our rrd database. There are t
 
 To eventually get this:
 
-![Temptraxrrd](/static/images/temptraxrrd.avif)
+![Temptraxrrd](../../static/images/temptraxrrd.avif)
 
 Let's break down what this does:
 
@@ -225,19 +225,19 @@ Let's break down what this does:
 
 - LINE type graph:
 
-![Graph-line](/static/images/graph-line.avif)
+![Graph-line](../../static/images/graph-line.avif)
 
 You can specify several types of lines (LINE1, LINE2, LINE3, LINE4). The higher this number, the more the corresponding line will be above lines of lower numbers.
 
 - AREA type graph:
 
-![Graph-area](/static/images/graph-area.avif)
+![Graph-area](../../static/images/graph-area.avif)
 
 AREA allows you to fill the lower part of the graphs.
 
 - STACK type graph:
 
-![Graph-stack](/static/images/graph-stack.avif)
+![Graph-stack](../../static/images/graph-stack.avif)
 
 Allows you to stack the graphs.
 
@@ -261,8 +261,8 @@ In short, the notation is relatively easy as you can see. Check the man page for
 
 Here's an example I propose of something I developed to have graphs on the size occupied by users on their home directory (this is very similar to [my documentation on OpenChart](./open_flash_chart_:_créer_des_graphiques_flash.html)). This will give me something like this:
 
-![Rrd day](/static/images/rrd_day.avif)
-![Rrd week](/static/images/rrd_week.avif)
+![Rrd day](../../static/images/rrd_day.avif)
+![Rrd week](../../static/images/rrd_week.avif)
 
 ### Creating the RRD Database
 

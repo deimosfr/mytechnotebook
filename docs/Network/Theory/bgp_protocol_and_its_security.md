@@ -19,4 +19,4 @@ Besides the Internet, very large private IP networks can use BGP, for example to
 
 Most end users of the Internet have only one connection to an Internet service provider. In this case, BGP is unnecessary because a default route is sufficient. However, a company that is redundantly connected to multiple ISPs could obtain its own autonomous system number and establish BGP sessions with each provider.
 
-[BGP Protocol Security](/static/pdf/sécurité_du_protocole_bgp.pdf)
+[BGP Protocol Security](../../static/pdf/sécurité_du_protocole_bgp.pdf)

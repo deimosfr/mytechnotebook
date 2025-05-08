@@ -1023,7 +1023,7 @@ From these results and using the graph() attribute, we can generate a graph of t
 
 We can observe on the graph below these different routing results:
 
-![Scapy.jpg](/static/images/scapy.avif)
+![Scapy.jpg](../../static/images/scapy.avif)
 
 We could also have saved the generated graph directly to an image file in our operating system's file system (here in the /tmp directory for an svg image format and an image file named graph.svg):
 
@@ -1098,7 +1098,7 @@ The representation of the results of this traceroute in a graph, this time in 3D
 
 The vpython visual plugin we're using here allows you to zoom on this graph using the 3rd mouse button; if this button is emulated, simply press the left and right mouse or touchpad buttons simultaneously. You can also move the graphical representation with the left mouse button and tilt it with the right button:
 
-![Scapy2.jpg](/static/images/scapy2.avif)
+![Scapy2.jpg](../../static/images/scapy2.avif)
 
 This time we'll perform a multiple traceroute to the FQDNs "www.free.fr", "www.google.fr" and "www.microsoft.com" with a ttl equivalent to 10; the responses are still stored in the sn variable while the records corresponding to no responses are contained in the unans variable:
 
@@ -1130,7 +1130,7 @@ We trace the 3D graph, using the trace3D() attribute, of the results contained i
 
 We get the following result as a 3D graph of the results:
 
-![Scapy3.jpg](/static/images/scapy3.avif)
+![Scapy3.jpg](../../static/images/scapy3.avif)
 
 ## Packet and Frame Manipulation
 

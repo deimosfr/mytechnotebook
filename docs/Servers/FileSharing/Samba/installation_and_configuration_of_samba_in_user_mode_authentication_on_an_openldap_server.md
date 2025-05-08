@@ -227,4 +227,4 @@ Check again and if the values are still different, directly modify the SID of th
 ## Resources
 
 - [Samba topics]({{< ref "docs/Servers/FileSharing/Samba/" >}})
-- [Documentation on Samba and OpenLDAP installation](/static/pdf/openldap_samba_domain_controller_ubuntu.pdf)
+- [Documentation on Samba and OpenLDAP installation](../../static/pdf/openldap_samba_domain_controller_ubuntu.pdf)

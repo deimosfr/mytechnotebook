@@ -38,11 +38,11 @@ During the installation of the packages, you'll be asked for the SQL server pass
 
 Here's a diagram explaining the positioning of the configuration files. This helps to better plan how to arrange the structure of these files:
 
-![Bacula-objects](/static/images/bacula-objects.avif)
+![Bacula-objects](../../static/images/bacula-objects.avif)
 
 And here's how the files behave between themselves:
 
-![Conf-Diagram](/static/images/conf-diagram.avif)
+![Conf-Diagram](../../static/images/conf-diagram.avif)
 
 ### Language
 

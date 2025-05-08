@@ -9,7 +9,7 @@ tags: ["ZFS", "Linux", "Ubuntu", "Debian", "Filesystem"]
 toc: true
 ---
 
-![ZFS on Linux Logo](/static/images/zfs-linux.avif)
+![ZFS on Linux Logo](../../static/images/zfs-linux.avif)
 
 ## Introduction
 

@@ -77,4 +77,4 @@ The only downside to using rinetd is that there is no support for UDP connection
 
 ## Resources
 - http://www.debian-administration.org/articles/601
-- [Port-Forwarding With rinetd](/static/pdf/port-forwarding_with_rinetd_on_debian_etch.pdf)
+- [Port-Forwarding With rinetd](../../static/pdf/port-forwarding_with_rinetd_on_debian_etch.pdf)

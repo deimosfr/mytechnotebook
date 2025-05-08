@@ -14,4 +14,4 @@ toc: true
 [ATA over Ethernet (AoE)](https://en.wikipedia.org/wiki/ATA_over_Ethernet) is a network layer protocol that allows ATA commands to be transported over an Ethernet network.
 
 ## Resources
-- [Using ATA Over Ethernet (AoE) On Debian Lenny (Initiator And Target)](/static/pdf/using_ata_over_ethernet_aoe.pdf)
+- [Using ATA Over Ethernet (AoE) On Debian Lenny (Initiator And Target)](../../static/pdf/using_ata_over_ethernet_aoe.pdf)

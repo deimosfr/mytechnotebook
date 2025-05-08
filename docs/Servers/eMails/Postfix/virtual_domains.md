@@ -140,5 +140,5 @@ It's probably Amavis causing issues. To fix this problem, comment out this line 
 {{< /table >}}
 
 ## Resources
-- [Secure Virtual Mailserver: Postfix + OpenLDAP + Dovecot + Jamm + SASL + SquirrelMail](/static/pdf/secure_virtual_mailserver.pdf)
+- [Secure Virtual Mailserver: Postfix + OpenLDAP + Dovecot + Jamm + SASL + SquirrelMail](../../static/pdf/secure_virtual_mailserver.pdf)
 - http://linux-attitude.fr/post/Vers-un-trou-de-ver

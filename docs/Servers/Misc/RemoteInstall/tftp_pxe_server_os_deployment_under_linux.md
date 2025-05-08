@@ -335,9 +335,9 @@ LABEL ghost
 
 ## Resources
 
-- [TFTP Documentation on Ubuntu](/static/pdf/pxe_ubuntu.pdf)
-- [TFTP Documentation on Debian](/static/pdf/booting_on_pxe.pdf)
-- [Start without a Disk with PXE, Grub and NFS](/static/pdf/démarrez_sans_disque_avec_pxe,_grub_et_nfs.pdf)
+- [TFTP Documentation on Ubuntu](../../static/pdf/pxe_ubuntu.pdf)
+- [TFTP Documentation on Debian](../../static/pdf/booting_on_pxe.pdf)
+- [Start without a Disk with PXE, Grub and NFS](../../static/pdf/démarrez_sans_disque_avec_pxe,_grub_et_nfs.pdf)
 - [Configuration and Installation via Serial Port of OpenBSD on Soekris](Configuration_et_installation_via_port_série_d'OpenBSD_sur_Soekris.html)
 - [Boot BSDs with PXElinux](https://www.thegibson.org/blog/archives/10)
 - [Setting up a PXE and Solving its Problems](https://en.opensuse.org/SuSE_install_with_PXE_boot)

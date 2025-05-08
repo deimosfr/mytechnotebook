@@ -10,4 +10,4 @@ toc: true
 ---
 
 Since Linux Kernel version 2.6.26, there is FINALLY the possibility to kill Zombie processes:  
-[TASK_KILLABLE: New process state in Linux](/static/pdf/l-task-killable-pdf.pdf)
+[TASK_KILLABLE: New process state in Linux](../../static/pdf/l-task-killable-pdf.pdf)

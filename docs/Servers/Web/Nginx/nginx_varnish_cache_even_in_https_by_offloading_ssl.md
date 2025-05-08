@@ -10,7 +10,7 @@ tags:
 toc: true
 ---
 
-![Nginx Logo](/static/images/nginx-logo.avif)
+![Nginx Logo](../../static/images/nginx-logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -24,7 +24,7 @@ toc: true
 
 You certainly know how that Varnish is a very good caching solution but the major problem is you can't use it for SSL connections. Fortunately there is a solution called "Offload SSL" which decrypt the SSL, send it to the cache system and return crypted flow. This schema will help you more on understanding the purpose of it:
 
-![Offload SSL](/static/images/offload-ssl.avif)
+![Offload SSL](../../static/images/offload-ssl.avif)
 
 How the thing goes?
 

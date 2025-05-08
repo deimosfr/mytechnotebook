@@ -20,7 +20,7 @@ If the administration server runs on Linux, and if nmap and smblookup are availa
 Last but not least, OCS Inventory NG integrates package deployment features on client machines. From the administration console, you can upload packages (software installations, commands, or just files to store on client computers) that will be downloaded via HTTP/HTTPS and executed by agents on clients.
 
 Here's a setup document:  
-[OCS Inventory Setup](/static/pdf/mise_en_place_d'ocs_inventory.pdf)
+[OCS Inventory Setup](../../static/pdf/mise_en_place_d'ocs_inventory.pdf)
 
 ## Client Installation
 
@@ -65,4 +65,4 @@ OCSInventory /SERVER:192.168.0.16 /TAG:"%username%"
 Here 192.168.0.16 corresponds to my OCS server.
 
 ## Resources
-- [OCS Inventory Setup with GLPI](/static/pdf/mise_en_place_d'ocs_inventory.pdf)
+- [OCS Inventory Setup with GLPI](../../static/pdf/mise_en_place_d'ocs_inventory.pdf)

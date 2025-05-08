@@ -59,4 +59,4 @@ swapon /swapfile
 Obviously, this size is small and serves as an example. You should adjust the dd command according to the available space on one of your partitions and adapt it to your swap needs.
 
 ## Resources
-- [Documentation on Creating dynamic swap space](/static/pdf/creating_dynamic_swap_space.pdf)
+- [Documentation on Creating dynamic swap space](../../static/pdf/creating_dynamic_swap_space.pdf)

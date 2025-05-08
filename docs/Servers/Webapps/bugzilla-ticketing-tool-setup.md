@@ -9,7 +9,7 @@ tags: ["Bugzilla", "Ticketing", "Bug Tracking", "Apache", "MySQL", "Perl"]
 toc: true
 ---
 
-![Bugzilla](/static/images/bugzilla_logo.avif)
+![Bugzilla](../../static/images/bugzilla_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

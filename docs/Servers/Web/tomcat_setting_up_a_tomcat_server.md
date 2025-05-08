@@ -21,7 +21,7 @@ tags:
 toc: true
 ---
 
-![Tomcat](/static/images/tomcat_logo.avif)
+![Tomcat](../../static/images/tomcat_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -313,7 +313,7 @@ You also have access to the read-only status and the manager. I've left some com
 
 It's essential to master [mod_jk](#mod_jk) before continuing. Load balancing allows distributing load in Round Robin fashion across multiple Tomcat servers.
 
-![Tomcat loadbalancing](/static/images/tomcat_loadbalancing.avif)
+![Tomcat loadbalancing](../../static/images/tomcat_loadbalancing.avif)
 
 For this, you need 2 Tomcat servers. On each of them, edit the server.xml file and add the jvmRoute directive:
 
@@ -380,11 +380,11 @@ Try stopping one Tomcat server and you'll see it switch to the other :-)
 
 Let's use the manager interface to see the status of your servers: http://server-apache/jk-manager/:
 
-![Tomcat jk-manager](/static/images/tomcat_jk-manager.avif)
+![Tomcat jk-manager](../../static/images/tomcat_jk-manager.avif)
 
 You can see here that the Tomcat servers are enabled and functional. If one of them goes down, it will show an 'ERR' error. You'll then need to click on the 'R' hyperlink to reset its status. The load balancer will accept sending requests to it again. There's also another menu that allows you to properly take a Tomcat node out of service by clicking on 'Edit this attribute for all members: Activation':
 
-![Tomcat member activation](/static/images/tomcat_member_activation.avif)
+![Tomcat member activation](../../static/images/tomcat_member_activation.avif)
 
 Then update the states by clicking on the 'Update balancer' button.
 
@@ -572,7 +572,7 @@ chown tomcat6:tomcat6 /etc/tomcat6/jmxremote.password
 
 Restart Tomcat for the changes to take effect. You can now connect via [VisualVM](https://visualvm.java.net/) for example to monitor or profile your Tomcat.
 
-![Visual vm](/static/images/visual_vm.avif)
+![Visual vm](../../static/images/visual_vm.avif)
 
 ## FAQ
 

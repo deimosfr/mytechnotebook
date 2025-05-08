@@ -101,4 +101,4 @@ chown www-data. /var/www/photos/galleries/.htpasswd
 ```
 
 ## Resources
-- [How To Set Up WebDAV With Lighttpd](/static/pdf/how_to_set_up_webdav_with_lighttpd.pdf)
+- [How To Set Up WebDAV With Lighttpd](../../static/pdf/how_to_set_up_webdav_with_lighttpd.pdf)

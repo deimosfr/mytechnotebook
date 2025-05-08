@@ -120,4 +120,4 @@ Then restart the machine and at the next boot, it will force the check. After th
 ### CloneZilla
 
 CloneZilla works a bit like Symantec (Norton) Ghost, it allows you to have a server and create copies over the network:  
-[Back Up Restore Hard Drives And Partitions With CloneZilla Live](/static/pdf/back_up_restore_hard_drives_and_partitions_with_clonezilla_live.pdf)
+[Back Up Restore Hard Drives And Partitions With CloneZilla Live](../../static/pdf/back_up_restore_hard_drives_and_partitions_with_clonezilla_live.pdf)

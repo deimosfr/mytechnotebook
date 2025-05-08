@@ -11,4 +11,4 @@ toc: true
 
 Smokeping allows you to monitor latency of services, applications, and more.
 
-[Documentation on Monitoring Network Latency With Smokeping](/static/pdf/monitoring_network_latency_with_smokeping.pdf)
+[Documentation on Monitoring Network Latency With Smokeping](../../static/pdf/monitoring_network_latency_with_smokeping.pdf)

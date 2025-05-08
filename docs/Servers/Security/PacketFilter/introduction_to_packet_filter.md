@@ -715,7 +715,7 @@ block out quick on { $wifi_if } from { !$lan_if, !$wifi_if, !($vpn_if) } to any
 And if parentheses already exist, try to remove them.
 
 ## Resources
-- [Documentation for Securing your BSD with PF](/static/pdf/secure_bsd_pf.pdf)
-- [Firewalling with OpenBSD's PF packet Filter](/static/pdf/pf-firewall.pdf)
-- [Packet filtering with IPFilter software](/static/pdf/filtrage_des_paquets_avec_le_logiciel_ipfilter.pdf)
+- [Documentation for Securing your BSD with PF](../../static/pdf/secure_bsd_pf.pdf)
+- [Firewalling with OpenBSD's PF packet Filter](../../static/pdf/pf-firewall.pdf)
+- [Packet filtering with IPFilter software](../../static/pdf/filtrage_des_paquets_avec_le_logiciel_ipfilter.pdf)
 - [https://www.openbsd.org/faq/pf/filter.html](https://www.openbsd.org/faq/pf/filter.html)

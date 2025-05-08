@@ -339,6 +339,6 @@ exportfs -u 10.0.0.238:/mnt/nfs/dev/xmlcache
 Then try to remount and it will work.
 
 ## Resources
-- [Setting Up An NFS Server And Client](/static/pdf/setting_up_an_nfs_server_and_client.pdf)
+- [Setting Up An NFS Server And Client](../../static/pdf/setting_up_an_nfs_server_and_client.pdf)
 - http://www.sun.com/bigadmin/content/submitted/fundamentals_nfs.jsp
-- [Setting Up An NFS Server And Client On Debian Lenny](/static/pdf/setting_up_an_nfs_server_and_client_on_debian_lenny.pdf)
+- [Setting Up An NFS Server And Client On Debian Lenny](../../static/pdf/setting_up_an_nfs_server_and_client_on_debian_lenny.pdf)

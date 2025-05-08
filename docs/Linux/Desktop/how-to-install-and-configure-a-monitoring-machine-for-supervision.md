@@ -10,7 +10,7 @@ tags:
 toc: true
 ---
 
-![Nagios](/static/images/nagios_logo.avif)
+![Nagios](../../static/images/nagios_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -22,7 +22,7 @@ toc: true
 
 The goal of this documentation is how to quickly setup a monitoring machine on Nagios/Shinken:
 
-![Monito screen](/static/images/monito_screen.avif)
+![Monito screen](../../static/images/monito_screen.avif)
 
 The idea is to have a machine that nobody never touch once installed. It's always boring to plug a keyboard and a mouse when somethings goes wrong on this kind of machine. That's why we'll see how to setup a minimal installation with all requirements to satisfy those needs.
 

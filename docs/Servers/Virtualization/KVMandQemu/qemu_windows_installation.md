@@ -17,5 +17,5 @@ QEMU is a "system emulator" or "virtual machine." Guest operating systems are no
 
 The Linux kernel module KQEMU (for Kernel QEMU) accelerates emulation on Linux operating systems.
 
-[QEMU Documentation](/static/pdf/qemu.pdf)  
-[QEMU Documentation for OpenBSD](/static/pdf/qemu_obsd.pdf)
+[QEMU Documentation](../../static/pdf/qemu.pdf)  
+[QEMU Documentation for OpenBSD](../../static/pdf/qemu_obsd.pdf)

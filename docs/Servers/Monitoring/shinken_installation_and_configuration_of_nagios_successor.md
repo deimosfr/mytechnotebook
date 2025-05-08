@@ -9,7 +9,7 @@ tags: ["Shinken", "Nagios", "Monitoring", "Debian", "MongoDB"]
 toc: true
 ---
 
-![Shinken](/static/images/shinken_logo.avif)
+![Shinken](../../static/images/shinken_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

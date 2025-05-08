@@ -309,5 +309,5 @@ Then try to start smartmontools:
 ```
 
 ## Resources
-- [Checking Hard Disk Sanity With Smartmontools](/static/pdf/checking_hard_disk_sanity_with_smartmontools.pdf)
+- [Checking Hard Disk Sanity With Smartmontools](../../static/pdf/checking_hard_disk_sanity_with_smartmontools.pdf)
 - http://www.davidandrzejewski.com/2009/03/15/freebsd-monitor-your-disks-health-with-smartmontools/

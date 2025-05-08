@@ -19,7 +19,7 @@ tags:
 toc: true
 ---
 
-![NamedManager](/static/images/namedmanager-logo.avif)
+![NamedManager](../../static/images/namedmanager-logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -337,13 +337,13 @@ Now, you can access your server via https (mine is: https://dns.deimos.fr) with 
 
 Go to "User Management", create a new account and give it admin privileges, test it and delete the setup account or change its password. You should then see only your user:
 
-![Namedmanager user create](/static/images/namedmanager_user_crate.avif)
+![Namedmanager user create](../../static/images/namedmanager_user_crate.avif)
 
 #### API Key
 
 Go to "Configuration" in the interface to set this key:
 
-![Namedmanager api key](/static/images/namedmanager_api_key.avif)
+![Namedmanager api key](../../static/images/namedmanager_api_key.avif)
 
 1. Set your contact email address
 2. Enter the previously generated key
@@ -353,11 +353,11 @@ Go to "Configuration" in the interface to set this key:
 
 It's now time to add a DNS server from the graphical interface! Do it once by adding the API key etc...
 
-![Namedmanager add dns](/static/images/namedmanager_add_dns.avif)
+![Namedmanager add dns](../../static/images/namedmanager_add_dns.avif)
 
 Now add a domain:
 
-![Namedmanager add zone](/static/images/namedmanager_add_zone.avif)
+![Namedmanager add zone](../../static/images/namedmanager_add_zone.avif)
 
 and synchronize everything:
 
@@ -369,7 +369,7 @@ php -q /usr/share/namedmanager/bind/namedmanager_bind_configwriter.php
 
 Everything should be working now :-), you can add records:
 
-![Namedmanager add record](/static/images/namedmanager_add_record.avif)
+![Namedmanager add record](../../static/images/namedmanager_add_record.avif)
 
 ## FAQ
 

@@ -10,7 +10,7 @@ tags:
 toc: true
 ---
 
-![Nginx Logo](/static/images/nginx-logo.avif)
+![Nginx Logo](../../static/images/nginx-logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -1542,7 +1542,7 @@ security.limit_extensions = false
 
 ## Resources
 
-- [Documentation on installing Nginx HTTP Server](/static/pdf/nginx_http_server_fast-cgi_and_xcache.pdf)
+- [Documentation on installing Nginx HTTP Server](../../static/pdf/nginx_http_server_fast-cgi_and_xcache.pdf)
 - http://www.if-not-true-then-false.com/2011/nginx-and-php-fpm-configuration-and-optimizing-tips-and-tricks/
 - [Nagios check php-fpm](https://github.com/regilero/check_phpfpm_status)
 - [^1]: http://nginx.org/en/docs/http/ngx_http_limit_req_module.html

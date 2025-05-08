@@ -13,7 +13,7 @@ toc: true
 
 MRTG Multi Router Traffic Grapher (MRTG) is software developed under the GNU/GPL license at the initiative of Tobias Oetiker. This software allows you to create graphs of network traffic. It uses the SNMP protocol to query network equipment such as routers, switches, or servers that have an MIB.
 
-![MRTG](/static/images/mrtg.avif)
+![MRTG](../../static/images/mrtg.avif)
 
 Today, the creators of MRTG have abandoned their project and moved on to [Cacti]({{< ref "docs/Servers/Monitoring/Cacti">}}), which is a much more powerful but also much more complex product.
 

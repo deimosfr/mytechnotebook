@@ -9,7 +9,7 @@ tags: ["fluentd", "elasticsearch", "kibana", "logs", "monitoring", "syslog"]
 toc: true
 ---
 
-![Fluentd](/static/images/fluentd_logo.avif)
+![Fluentd](../../static/images/fluentd_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -32,11 +32,11 @@ Fortunately today, tools that permit us to do it very well exist. Here are the l
 
 All those elements will be installed on the same machine to make it simpler at start. Fluentd is an alternative to Logstash. They both are data collectors, however Fluentd permits sending logs to other destinations:
 
-![Fluentd explanation](/static/images/fluentd_explain.avif)
+![Fluentd explanation](../../static/images/fluentd_explain.avif)
 
 Here is what kind of infrastructure you can setup (no redundancy here, just a single instance):
 
-![Architecture overview](/static/images/es_ki_fl.avif)
+![Architecture overview](../../static/images/es_ki_fl.avif)
 
 To avoid dependencies issues and make things simpler, we're going to use fluentd as forwarder here to transfer syslog and other kinds of logs to another fluentd instance. On the last one, Elasticsearch and Kibana will be installed.
 
@@ -129,7 +129,7 @@ To finish for Kibana, edit the configuration file and adapt the elasticsearch li
 
 Restart Nginx service to make the web interface available to http://<kibana_dns_name>:
 
-![Kibana Interface](/static/images/kibana.avif)
+![Kibana Interface](../../static/images/kibana.avif)
 
 ### Fluentd
 
@@ -257,7 +257,7 @@ Installing RDoc documentation for fluent-plugin-elasticsearch-0.3.0...
 
 Here you will see how to configure multiple options of Fluentd. Choose the ones you want to add to your Fluentd instances (can have several). Here is a good example of what is needed in this kind of configuration:
 
-![Fluentd architecture example](/static/images/fluentd_archi_example.avif)
+![Fluentd architecture example](../../static/images/fluentd_archi_example.avif)
 
 ### Forwarders
 
@@ -369,7 +369,7 @@ Then restart the td-agent service.
 
 If you look at the web interface, you should have something like this:
 
-![Kibana interface with data](/static/images/kibana2.avif)
+![Kibana interface with data](../../static/images/kibana2.avif)
 
 You can now try to add other widgets, look at [the official documentation](https://www.elasticsearch.org/guide/en/kibana/current/)[^4].
 

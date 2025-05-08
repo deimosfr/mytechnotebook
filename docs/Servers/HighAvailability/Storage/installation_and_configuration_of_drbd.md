@@ -315,6 +315,6 @@ drbdadm -- --discard-my-data connect all
 ```
 
 ## Resources
-- [Documentation on Heartbeat2 Xen cluster with drbd8 and OCFS2](/static/pdf/heartbeat2_xen_cluster_with_drbd8_and_ocfs2.pdf)
-- [DRBD 8 3 Third Node Replication](/static/pdf/drbd_8_3_third_node_replication_with_debian_etch.pdf)
+- [Documentation on Heartbeat2 Xen cluster with drbd8 and OCFS2](../../static/pdf/heartbeat2_xen_cluster_with_drbd8_and_ocfs2.pdf)
+- [DRBD 8 3 Third Node Replication](../../static/pdf/drbd_8_3_third_node_replication_with_debian_etch.pdf)
 - [DRBD advanced usages](https://fr.slideshare.net/deimosfr/drbd-25911753)

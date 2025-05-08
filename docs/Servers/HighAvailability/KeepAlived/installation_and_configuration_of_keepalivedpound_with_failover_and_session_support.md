@@ -11,4 +11,4 @@ toc: true
 
 Here's a great documentation I found for anyone who doesn't want to use Heartbeat 2.
 
-[Documentation about Pound and KeepAlived](/static/pdf/ha_pound-keepalived.pdf)
+[Documentation about Pound and KeepAlived](../../static/pdf/ha_pound-keepalived.pdf)

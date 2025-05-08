@@ -29,12 +29,12 @@ You can find on the website, www.oreon-project.org, all the necessary informatio
 ## Installation of Nagios
 
 To install Nagios, refer to the docs in this wiki, or read this documentation written specifically for Oreon integration.  
-[documentation](/static/pdf/nagiosoreonfr.pdf)
+[documentation](../../static/pdf/nagiosoreonfr.pdf)
 
 ## Installation of Oreon
 
 You can follow this documentation.  
-[documentation](/static/pdf/oreon13fr.pdf)
+[documentation](../../static/pdf/oreon13fr.pdf)
 
 However, during the installation, I encountered some dependency issues. That's why at the end of it, before proceeding to the web installation, enter these lines:
 

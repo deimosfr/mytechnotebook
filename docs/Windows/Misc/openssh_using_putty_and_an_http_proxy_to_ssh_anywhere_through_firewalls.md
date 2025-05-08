@@ -13,4 +13,4 @@ Do you ever have the situation (say at work using windows) where you would like 
 
 Be aware that applying this trick might be technically possible but not permitted. Probably best to discuss it with someone in your organization first.
 
-[Using Putty and an HTTP proxy to ssh anywhere through firewalls](/static/pdf/using_putty_and_an_http_proxy_to_ssh_anywhere_through_firewalls.pdf)
+[Using Putty and an HTTP proxy to ssh anywhere through firewalls](../../static/pdf/using_putty_and_an_http_proxy_to_ssh_anywhere_through_firewalls.pdf)

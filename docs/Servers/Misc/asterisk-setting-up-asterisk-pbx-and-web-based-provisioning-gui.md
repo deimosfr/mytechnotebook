@@ -19,6 +19,6 @@ Asterisk is extensible through scripts or modules in Perl, C, Python, PHP...
 
 ## References
 
-- [Setting up an Asterisk Server with Freephonie](/static/pdf/voix-sur-ip-serveur-de-telephonie-asterisk.pdf)
-- [Documentation on setting up Asterisk PBX and Web-Based Provisioning GUI](/static/pdf/installing_the_asterisk_pbx_and_the_asterisk_web-based_provisioning_gui.pdf)
+- [Setting up an Asterisk Server with Freephonie](../../static/pdf/voix-sur-ip-serveur-de-telephonie-asterisk.pdf)
+- [Documentation on setting up Asterisk PBX and Web-Based Provisioning GUI](../../static/pdf/installing_the_asterisk_pbx_and_the_asterisk_web-based_provisioning_gui.pdf)
 - [https://fr.wikipedia.org/wiki/Asterisk_%28logiciel%29](https://fr.wikipedia.org/wiki/Asterisk_%28logiciel%29)

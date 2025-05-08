@@ -11,5 +11,5 @@ toc: true
 
 Here is documentation that explains how to add a disclaimer text to the end of your outgoing emails:
 
-[Documentation on AlterMIME](/static/pdf/how_to_automatically_add_a_disclaimer_to_outgoing_emails_with_altermime.pdf)  
-[Documentation on AlterMIME (Fedora)](/static/pdf/automatically_add_disclaimers_to_outgoing_emails_with_altermime_on_fedora_8.pdf)
+[Documentation on AlterMIME](../../static/pdf/how_to_automatically_add_a_disclaimer_to_outgoing_emails_with_altermime.pdf)  
+[Documentation on AlterMIME (Fedora)](../../static/pdf/automatically_add_disclaimers_to_outgoing_emails_with_altermime_on_fedora_8.pdf)

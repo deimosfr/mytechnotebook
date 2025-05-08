@@ -11,4 +11,4 @@ toc: true
 
 Here's a document that helps understand how priorities work in relation to time allocation in Linux:
 
-[Real-time in Linux](/static/pdf/temps_réel_sous_linux.pdf)
+[Real-time in Linux](../../static/pdf/temps_réel_sous_linux.pdf)

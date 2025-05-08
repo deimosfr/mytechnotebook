@@ -113,8 +113,8 @@ This command also allows multiple participants to see exactly the same thing.
 
 I've created a cheat sheet for those interested:
 
-- [Tmux Cheat Sheet PDF French](/static/pdf/tmux_cheat_sheet_fr.pdf) - [LaTeX Fr](/static/others/tmux_cheat_sheet_fr.tex)
-- [Tmux Cheat Sheet PDF English](/static/pdf/tmux_cheat_sheet_en.pdf) - [LaTeX En](/static/others/tmux_cheat_sheet_en.tex)
+- [Tmux Cheat Sheet PDF French](../../static/pdf/tmux_cheat_sheet_fr.pdf) - [LaTeX Fr](../../static/others/tmux_cheat_sheet_fr.tex)
+- [Tmux Cheat Sheet PDF English](../../static/pdf/tmux_cheat_sheet_en.pdf) - [LaTeX En](../../static/others/tmux_cheat_sheet_en.tex)
 
 ## Customization
 

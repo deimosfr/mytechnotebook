@@ -83,4 +83,4 @@ poll x.x.x.x proto pop3 port 995 user 'pmavro' password 'xxx' dropdelivered smtp
 ```
 
 ## Resources
-- [Fetchmail Documentation](/static/pdf/fetchmail.pdf)
+- [Fetchmail Documentation](../../static/pdf/fetchmail.pdf)

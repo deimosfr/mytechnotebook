@@ -430,5 +430,5 @@ mount -t cifs -o username=user,password=password //192.168.0.1/saves ./saves
 ## References
 
 Samba: [https://www.samba.org](https://www.samba.org)  
-[ADS Documentation](/static/pdf/ads.pdf)  
-[Samba ADS on CentOS Documentation](/static/pdf/samba_ads_centos.pdf)
+[ADS Documentation](../../static/pdf/ads.pdf)  
+[Samba ADS on CentOS Documentation](../../static/pdf/samba_ads_centos.pdf)

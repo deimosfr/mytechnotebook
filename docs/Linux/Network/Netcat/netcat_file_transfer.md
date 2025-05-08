@@ -49,4 +49,4 @@ If you have some web server listening at 80 port then you would need stop them o
 ## Resources
 - [Netcat: Creating a listening port](./Netcat_\:_Créer_un_port_d'écoute.html)
 - [Netcat: Remote partition backup](./netcat_\:_sauvegarde_de_partions_à_distance.html)
-- [Netcat Documentation](/static/pdf/netcat.pdf)
+- [Netcat Documentation](../../static/pdf/netcat.pdf)

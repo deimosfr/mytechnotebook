@@ -18,7 +18,7 @@ tags:
 toc: true
 ---
 
-![OpenLDAP](/static/images/openldap-logo.avif)
+![OpenLDAP](../../static/images/openldap-logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -342,11 +342,11 @@ if ($sr) {
 
 ### Organization Class
 
-![Ldap att org](/static/images/ldap_att_org.avif)
+![Ldap att org](../../static/images/ldap_att_org.avif)
 
 ### inetOrgPerson Class
 
-![Ldap att inetOrgPerson](/static/images/ldap_att_inetorgperson.avif)
+![Ldap att inetOrgPerson](../../static/images/ldap_att_inetorgperson.avif)
 
 ## Clients
 
@@ -1249,10 +1249,10 @@ su - openldap -c slapindex openldap
 [^3]: http://trac.evolix.net/infogerance/wiki/HowtoOpenLDAP
 [^4]: http://wiki.freegeekvancouver.org/article/LDAP
 
-[Documentation on Operation](/static/pdf/ldap_doc.pdf)  
-[Documentation for Setup](/static/pdf/step-by-step_openldap_installation_and_configuration.pdf)  
-[OpenLDAP Installation on Debian](/static/pdf/openldap_installation_on_debian.pdf)  
-[Documentation on Fedora Core 7](/static/pdf/set_up_openldap_on_fedora_7.pdf)  
-[Linagora OpenLDAP Training](/static/pdf/for-linagora-openldap-5.pdf)  
-[Linagora Training on LDAP Protocol](/static/pdf/for-linagora-protocole-ldap-8.pdf)  
-[Linagora Training on OpenLDAP Optimization](/static/pdf/for-linagora-optimisation-openldap-3.pdf)
+[Documentation on Operation](../../static/pdf/ldap_doc.pdf)  
+[Documentation for Setup](../../static/pdf/step-by-step_openldap_installation_and_configuration.pdf)  
+[OpenLDAP Installation on Debian](../../static/pdf/openldap_installation_on_debian.pdf)  
+[Documentation on Fedora Core 7](../../static/pdf/set_up_openldap_on_fedora_7.pdf)  
+[Linagora OpenLDAP Training](../../static/pdf/for-linagora-openldap-5.pdf)  
+[Linagora Training on LDAP Protocol](../../static/pdf/for-linagora-protocole-ldap-8.pdf)  
+[Linagora Training on OpenLDAP Optimization](../../static/pdf/for-linagora-optimisation-openldap-3.pdf)

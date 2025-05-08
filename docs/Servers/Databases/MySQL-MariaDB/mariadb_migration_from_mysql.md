@@ -9,7 +9,7 @@ tags: ["MariaDB", "MySQL", "Database", "Migration", "Debian"]
 toc: true
 ---
 
-![MariaDB](/static/images/mariadb-logo.avif)
+![MariaDB](../../static/images/mariadb-logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

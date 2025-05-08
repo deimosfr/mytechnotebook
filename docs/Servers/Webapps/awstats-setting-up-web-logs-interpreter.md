@@ -156,7 +156,7 @@ htpasswd /etc/apache2/htaccesspassword username
 Don't forget to restart apache :-)
 
 For good documentation, follow this:
-[Documentation on Htaccess](/static/pdf/htaccess.pdf)
+[Documentation on Htaccess](../../static/pdf/htaccess.pdf)
 
 #### htdigest under Lighttpd
 

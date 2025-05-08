@@ -9,7 +9,7 @@ tags: ["SSO", "SAML", "CAS", "Cookies", "HTTP", "Network", "Authentication"]
 toc: true
 ---
 
-![LemonDAP::NG](/static/images/lemonldap_logo.avif)
+![LemonDAP::NG](../../static/images/lemonldap_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -32,15 +32,15 @@ It's an SSO system with a unique identifier/password pair. SSO does not handle a
 
 - SSO by agent: installed on the client machine. No notion of security
 
-![Simple Architecture](/static/images/archi_simple.avif)[^1]
+![Simple Architecture](../../static/images/archi_simple.avif)[^1]
 
 - SSO by delegation: The user only needs their web browser. The server application points to the authentication portal
 
-![Portal Architecture](/static/images/archi_portail.avif)[^2]
+![Portal Architecture](../../static/images/archi_portail.avif)[^2]
 
 - Reverse proxy: Authentication is handled through a reverse proxy
 
-![Reverse Proxy Architecture](/static/images/archi_reverse_proxy.avif)[^3]
+![Reverse Proxy Architecture](../../static/images/archi_reverse_proxy.avif)[^3]
 
 ## HTTP Requests
 
@@ -144,11 +144,11 @@ LemonLDAP::NG uses 3 components:
 
 The advantage compared to CAS is that the client does not need to go back through LemonLDAP::NG with each web service change.
 
-![LemonLDAP::NG Architecture](/static/images/lemonldap-ng-architecture.avif)
+![LemonLDAP::NG Architecture](../../static/images/lemonldap-ng-architecture.avif)
 
 ## Authentication Phases
 
-![LemonLDAP::NG SSO](/static/images/lemonldapng-sso.avif)[^4]
+![LemonLDAP::NG SSO](../../static/images/lemonldapng-sso.avif)[^4]
 
 1. When a user tries to access a protected application, their request is intercepted by the Handler
 2. If the SSO cookies are not detected, the Handler redirects the user to the portal

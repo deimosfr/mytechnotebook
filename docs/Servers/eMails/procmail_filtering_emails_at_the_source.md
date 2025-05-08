@@ -24,7 +24,7 @@ apt-get install procmail
 ```
 
 Then, for documentation, I recommend the following:
-[Procmail Documentation](/static/pdf/procmail1.pdf)
+[Procmail Documentation](../../static/pdf/procmail1.pdf)
 
 Follow that with my small example and you should be able to do what you want :-)
 

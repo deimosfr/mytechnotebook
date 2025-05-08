@@ -13,7 +13,7 @@ toc: true
 
 ---
 
-![PostgreSQL](/static/images/bases_de_donnees_icon.avif)
+![PostgreSQL](../../static/images/bases_de_donnees_icon.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -471,4 +471,4 @@ Now try creating a database again.
 ## Resources
 - [PostgreSQL Official Website](https://www.postgresql.org/)
 - [https://www.postgresql.org/docs/7.3/static/multibyte.html](https://www.postgresql.org/docs/7.3/static/multibyte.html)
-- [System Views in PostgreSQL 8.3](/static/pdf/vues_system_postgres_unixgarden.pdf)
+- [System Views in PostgreSQL 8.3](../../static/pdf/vues_system_postgres_unixgarden.pdf)

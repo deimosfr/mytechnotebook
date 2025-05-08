@@ -9,7 +9,7 @@ tags: ["Nagios", "CheckMK", "Thruk", "Monitoring", "Distributed Systems"]
 toc: true
 ---
 
-![Nagios](/static/images/nagios_logo.avif)
+![Nagios](../../static/images/nagios_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -28,7 +28,7 @@ Before starting with this documentation, it's recommended to be familiar with ce
 
 The purpose of this documentation is to install a Thruk server capable of displaying information from different remote Nagios servers:
 
-![Distributed Monitoring Architecture](/static/images/nct_1.avif)
+![Distributed Monitoring Architecture](../../static/images/nct_1.avif)
 
 This diagram will be our reference throughout the tutorial.
 
@@ -41,7 +41,7 @@ We will need 4 servers with the following services installed:
 
 In the end, we want to get decentralized screens without any dependency between them:
 
-![Decentralized Architecture](/static/images/nct_2.avif)
+![Decentralized Architecture](../../static/images/nct_2.avif)
 
 ## Thruk: Display Server
 

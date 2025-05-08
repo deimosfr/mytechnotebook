@@ -33,7 +33,7 @@ Some might ask, why not use XenExpress or a paid version to get additional funct
 
 In my opinion, unless you're managing a park of 100 physical machines, the paid version is not really necessary. Here are the differences from the Citrix DataSheet (01/26/2008):
 
-![Xendiff](/static/images/xendiff.avif)
+![Xendiff](../../static/images/xendiff.avif)
 
 The version we'll install below has no restrictions and is free :-). On the other hand, you'll spend more time on configuration than with a GUI, that's for sure! It's up to you to see what you really need.
 
@@ -480,18 +480,18 @@ Disable **re\***! It's then **rtk\*** that takes over, and there, no timeout, la
 ## Resources
 
 - http://www.cl.cam.ac.uk/research/srg/netos/xen/readmes/user/
-- [Xen Documentation](/static/pdf/xen.pdf)
-- [Paravirtualization with Xen](/static/pdf/paravirtualization_avec_xen.pdf)
-- [Xen Setting up a Perfect Server](/static/pdf/xen_serveur_parfait.pdf)
-- [Xentools Documentation (Xen-Shell and Argo)](/static/pdf/xen-tools_xen-shell_and_argo.pdf)
-- [XenExpress Documentation](/static/pdf/xenexpress.pdf)
-- [Xen for Debian Documentation](/static/pdf/xen4debian.pdf)
-- [How To Make Your Xen-PAE Kernel Work With More Than 4GB RAM](/static/pdf/how_to_make_your_xen-pae_kernel_work_with_more_than_4gb_ram.pdf)
-- [Documentation on Heartbeat2 Xen cluster with drbd8 and OCFS2](/static/pdf/heartbeat2_xen_cluster_with_drbd8_and_ocfs2.pdf)
-- [XEN On An Ubuntu - High Performance](/static/pdf/xen_on_an_ubuntu_high_performance.pdf)
-- [NetBSD Xen Guide](/static/pdf/netbsd_xen_guide.pdf)
-- [XEN and disk space optimization](/static/pdf/XEN_et_l'optimisation_d'espace_disque.pdf)
-- [Consolidation issues and achievement of service level objectives (SLO) with Xen](/static/pdf/problematique_de_consolidation_slo_sur_xen.pdf)
-- [How To Run Fully-Virtualized Guests (HVM) With Xen 3 2 On Debian Lenny](/static/pdf/how_to_run_fully-virtualized_guests_hvm.pdf)
-- [Xen Live Migration Of An LVM-Based Virtual Machine With iSCSI On Debian Lenny](/static/pdf/xen_live_migration_of_an_lvm-based_virtual_machine_with_iscsi_on_debian_lenny.pdf)
-- [Creating A Fully Encrypted Para-Virtualised Xen Guest System Using Debian Lenny](/static/pdf/creating_a_fully_encrypted_para-virtualised_xen_guest_system_using_debian_lenny.pdf)
+- [Xen Documentation](../../static/pdf/xen.pdf)
+- [Paravirtualization with Xen](../../static/pdf/paravirtualization_avec_xen.pdf)
+- [Xen Setting up a Perfect Server](../../static/pdf/xen_serveur_parfait.pdf)
+- [Xentools Documentation (Xen-Shell and Argo)](../../static/pdf/xen-tools_xen-shell_and_argo.pdf)
+- [XenExpress Documentation](../../static/pdf/xenexpress.pdf)
+- [Xen for Debian Documentation](../../static/pdf/xen4debian.pdf)
+- [How To Make Your Xen-PAE Kernel Work With More Than 4GB RAM](../../static/pdf/how_to_make_your_xen-pae_kernel_work_with_more_than_4gb_ram.pdf)
+- [Documentation on Heartbeat2 Xen cluster with drbd8 and OCFS2](../../static/pdf/heartbeat2_xen_cluster_with_drbd8_and_ocfs2.pdf)
+- [XEN On An Ubuntu - High Performance](../../static/pdf/xen_on_an_ubuntu_high_performance.pdf)
+- [NetBSD Xen Guide](../../static/pdf/netbsd_xen_guide.pdf)
+- [XEN and disk space optimization](../../static/pdf/XEN_et_l'optimisation_d'espace_disque.pdf)
+- [Consolidation issues and achievement of service level objectives (SLO) with Xen](../../static/pdf/problematique_de_consolidation_slo_sur_xen.pdf)
+- [How To Run Fully-Virtualized Guests (HVM) With Xen 3 2 On Debian Lenny](../../static/pdf/how_to_run_fully-virtualized_guests_hvm.pdf)
+- [Xen Live Migration Of An LVM-Based Virtual Machine With iSCSI On Debian Lenny](../../static/pdf/xen_live_migration_of_an_lvm-based_virtual_machine_with_iscsi_on_debian_lenny.pdf)
+- [Creating A Fully Encrypted Para-Virtualised Xen Guest System Using Debian Lenny](../../static/pdf/creating_a_fully_encrypted_para-virtualised_xen_guest_system_using_debian_lenny.pdf)

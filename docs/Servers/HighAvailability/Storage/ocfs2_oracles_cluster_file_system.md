@@ -133,4 +133,4 @@ mount.ocfs2 /dev/drbd0 /mnt
 ```
 
 ## Resources
-- [Documentation on Heartbeat2 Xen cluster with drbd8 and OCFS2](/static/pdf/heartbeat2_xen_cluster_with_drbd8_and_ocfs2.pdf)
+- [Documentation on Heartbeat2 Xen cluster with drbd8 and OCFS2](../../static/pdf/heartbeat2_xen_cluster_with_drbd8_and_ocfs2.pdf)

@@ -367,5 +367,5 @@ apt-get install libtime-modules-perl
 
 ## Resources
 
-- [BackupPC Documentation](/static/pdf/backuppc.pdf)
-- [Documentation on Backuppc on Debian](/static/pdf/backuppc.pdf)
+- [BackupPC Documentation](../../static/pdf/backuppc.pdf)
+- [Documentation on Backuppc on Debian](../../static/pdf/backuppc.pdf)

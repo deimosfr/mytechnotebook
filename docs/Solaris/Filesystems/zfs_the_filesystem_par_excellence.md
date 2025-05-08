@@ -14,7 +14,7 @@ tags:
 toc: true
 ---
 
-![ZFS](/static/images/zfs_logo.avif)
+![ZFS](../../static/images/zfs_logo.avif)
 
 ## Introduction
 
@@ -542,6 +542,6 @@ That's it!
 ## Resources
 
 - http://fr.wikipedia.org/wiki/ZFS
-- [ZFS Admin Documentation](/static/pdf/zfsadmin.pdf)
+- [ZFS Admin Documentation](../../static/pdf/zfsadmin.pdf)
 - http://jean-francois.im/2008/04/faulted-argh.html
 - http://www.sqlpac.com/referentiel/docs/unix-solaris-10-zfs-oracle.htm#L6480

@@ -18,7 +18,7 @@ tags:
 toc: true
 ---
 
-![MariaDB](/static/images/galeracluster_logo.avif)
+![MariaDB](../../static/images/galeracluster_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -65,7 +65,7 @@ Although this seems perfect on paper, there are [some limitations](https://www.c
 
 To help you understand a typical architecture:
 
-![Galera](/static/images/galera.avif)
+![Galera](../../static/images/galera.avif)
 
 There's also an online tool to help build this kind of infrastructure: [Galera Configurator](https://www.severalnines.com/galera-configurator/)
 
@@ -517,7 +517,7 @@ mysqld --wsrep_cluster_address='gcomm://<node1>' --wsrep_sst_donor='<node1>'
 
 Before using, you need to understand the principle. When we start our MariaDB instances, we'll end up in this configuration (I deliberately didn't draw all the communication arrows to avoid clutter, but all nodes talk to each other):
 
-![Galera1](/static/images/galera1.avif)
+![Galera1](../../static/images/galera1.avif)
 
 - Node 1 initializes the cluster with the empty gcomm value.
 - The other nodes connect to node 1 and exchange their data to have the same data level everywhere
@@ -780,11 +780,11 @@ mysqld --wsrep_cluster_address='gcomm://<ip_of_node_1>' --wsrep_start_position="
 
 You don't need to worry about replication if a node other than the master (node1) fails. Once repaired and powered on, it will automatically reconnect to node 1 and catch up. However, in case of a problem with node 1:
 
-![Galera2](/static/images/galera2.avif)
+![Galera2](../../static/images/galera2.avif)
 
 The other nodes will continue to communicate with each other and wait for the master to return. Once the master is turned back on, you'll need to tell it another node to which it should connect to continue synchronization:
 
-![Galera3](/static/images/galera3.avif)
+![Galera3](../../static/images/galera3.avif)
 
 Whether you want to force a reconnection or perform maintenance on the master node, it's advisable to redirect the other servers to another master to avoid outages:
 
@@ -946,5 +946,5 @@ chmod 777 /proc/self/fd/2
 6. http://www.sebastien-han.fr/blog/2012/04/01/mysql-multi-master-replication-with-galera/
 
 - [MariaDB: high performances](https://www.amazon.fr/MariaDB-High-Performance-Pierre-MAVRO/dp/1783981601)
-- [MariaDB MySQL Advanced](/static/pdf/mariadb_mysql_avance.pdf)
+- [MariaDB MySQL Advanced](../../static/pdf/mariadb_mysql_avance.pdf)
 - File:Galera1_src.vsdx - File:Galera2_src.vsdx - File:Galera3_src.vsdx

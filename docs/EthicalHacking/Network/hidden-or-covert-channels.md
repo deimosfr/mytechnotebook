@@ -12,4 +12,4 @@ toc: true
 
 Why worry about hidden channels? As a good paranoid, one answer could be: "they are everywhere!!!" In the case of a mild paranoia crisis, the solution would be systematic use of encryption (and cryptography by extension). Nevertheless, this cannot satisfy all needs:
 
-[Hidden (or Covert) Channels](/static/pdf/canaux_caches.pdf)
+[Hidden (or Covert) Channels](../../static/pdf/canaux_caches.pdf)

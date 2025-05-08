@@ -9,7 +9,7 @@ tags: ["Limesurvey", "Survey", "PostgreSQL", "Web application", "PHP"]
 toc: true
 ---
 
-![Limesurvey](/static/images/limesurvey_logo.avif)
+![Limesurvey](../../static/images/limesurvey_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

@@ -10,4 +10,4 @@ toc: true
 
 Here is documentation about TrueCrypt which allows you to encrypt portable data (e.g., USB drives, etc.):
 
-[TrueCrypt Truly Portable Data Encryption](/static/pdf/truecrypt_truly_portable_data_encryption.pdf)
+[TrueCrypt Truly Portable Data Encryption](../../static/pdf/truecrypt_truly_portable_data_encryption.pdf)

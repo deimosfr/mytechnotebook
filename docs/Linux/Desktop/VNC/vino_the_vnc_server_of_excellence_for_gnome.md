@@ -11,4 +11,4 @@ toc: true
 
 Vncserver isn't particularly user-friendly. That's why for GNOME users, here's Vino, which allows you to manage your VNC server simply and effectively:
 
-[Remote Desktop Management with Vino](/static/pdf/gestion_de_bureaux_à_distance_avec_vino.pdf)
+[Remote Desktop Management with Vino](../../static/pdf/gestion_de_bureaux_à_distance_avec_vino.pdf)

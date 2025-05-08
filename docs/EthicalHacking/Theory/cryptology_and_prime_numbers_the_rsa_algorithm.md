@@ -11,4 +11,4 @@ toc: true
 
 Here is documentation explaining how the RSA algorithm works:
 
-[Prime Numbers and Cryptology - RSA Algorithm](/static/pdf/nombres_premiers_et_cryptologie_-_algorithme_rsa.pdf)
+[Prime Numbers and Cryptology - RSA Algorithm](../../static/pdf/nombres_premiers_et_cryptologie_-_algorithme_rsa.pdf)

@@ -120,4 +120,4 @@ INFO: Restore done in 2 seconds. MySQL server has been shutdown. Please restart 
 Once you restart the MySQL services you'll notice that the database has been restored to what it looked at 2:45pm. Which means it has the last 5 tablespaces that were accidentally deleted at 3pm.
 
 ## Resources
-- [MySQL Backups Using ZRM For MySQL 2.0](/static/pdf/mysql_backups_using_zrm_for_mysql_2_0.pdf)
+- [MySQL Backups Using ZRM For MySQL 2.0](../../static/pdf/mysql_backups_using_zrm_for_mysql_2_0.pdf)

@@ -9,7 +9,7 @@ tags: ["Integrit", "Debian", "Security", "File Integrity", "Monitoring"]
 toc: true
 ---
 
-![Integrit](/static/images/poweredbylinux.avif)
+![Integrit](../../static/images/poweredbylinux.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

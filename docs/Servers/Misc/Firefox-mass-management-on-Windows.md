@@ -9,7 +9,7 @@ tags: ["Firefox", "GPO", "Windows", "Active Directory"]
 toc: true
 ---
 
-![Firefox](/static/images/firefox_icon.avif)
+![Firefox](../../static/images/firefox_icon.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -55,13 +55,13 @@ We'll install the GPOs on the server where Active Directory is located. First, d
 [https://sourceforge.net/projects/gpofirefox/files/firefox.adm/download](https://sourceforge.net/projects/gpofirefox/files/firefox.adm/download)[^6]
 
 Then launch the Users and Computers interface:
-![Firefox AD](/static/images/firefox_ad.avif)
+![Firefox AD](../../static/images/firefox_ad.avif)
 
 We'll install the GPO at the domain level, but you can also do it at the GPO level if you wish. Go to domain properties:
-![Firefox AD properties](/static/images/firefox_ad_properties.avif)
+![Firefox AD properties](../../static/images/firefox_ad_properties.avif)
 
 Here's the procedure to follow:
-![Firefox create GPO](/static/images/firefox_create_gpo.avif)
+![Firefox create GPO](../../static/images/firefox_create_gpo.avif)
 
 1. Click on the GPO tab (Group Policy)
 2. Add a new GPO
@@ -69,13 +69,13 @@ Here's the procedure to follow:
 4. Click Edit to edit it
 
 Now we'll add the firefox.adm file to access the new options. Position yourself on "Administrative Templates" and click on "Add/Remove Templates":
-![Firefox add template](/static/images/firefox_add_template.avif)
+![Firefox add template](../../static/images/firefox_add_template.avif)
 
 Add the firefox.adm file:
-![Firefox add firefox adm](/static/images/firefox_add_firefox_adm.avif)
+![Firefox add firefox adm](../../static/images/firefox_add_firefox_adm.avif)
 
 Then you should now see it appear:
-![Firefox adm added](/static/images/firefox_adm_added.avif)
+![Firefox adm added](../../static/images/firefox_adm_added.avif)
 
 ## Configuration
 
@@ -88,11 +88,11 @@ Configuring the GPO is quite simple once you understand the principle. It's poss
 
 One of the first parameters to apply is the following: activating the GPOFirefox module:
 
-![Firefox template added](/static/images/firefox_template_added.avif)
+![Firefox template added](../../static/images/firefox_template_added.avif)
 
 We activate it and hide it from the list of classic applications:
 
-![Firefox set GPO](/static/images/firefox_set_gpo.avif)
+![Firefox set GPO](../../static/images/firefox_set_gpo.avif)
 
 You have the ability to access most of the functions present in "about:config" in the "Mozilla Advanced Options" folder.
 

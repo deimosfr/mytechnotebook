@@ -151,7 +151,7 @@ Then start the SNMP service:
 
 MIBs are translated in this form:
 
-![Snmp mib](/static/images/snmp_mib.avif)
+![Snmp mib](../../static/images/snmp_mib.avif)
 
 The definition of a MIB is therefore in the following form:
 
@@ -161,7 +161,7 @@ The definition of a MIB is therefore in the following form:
 
 The last number is an index corresponding to the value of the OID (indexes working like arrays in Perl):
 
-![Snmp index oid](/static/images/snmp_index_oid.avif)
+![Snmp index oid](../../static/images/snmp_index_oid.avif)
 
 ### Reading a MIB
 

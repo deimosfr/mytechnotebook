@@ -106,5 +106,5 @@ It is the @page selector that allows you to define page layout parameters for pr
 
 ## Resources
 - http://www.unixgarden.com/index.php/web/les-pseudo-classes-en-css
-- [Offering multiple CSS based on browser](/static/pdf/proposer_plusieurs_css_en_fonction_du_navigateur.pdf)
-- [A colorful menu](/static/pdf/un_menu_haut_en_couleurs.pdf)
+- [Offering multiple CSS based on browser](../../static/pdf/proposer_plusieurs_css_en_fonction_du_navigateur.pdf)
+- [A colorful menu](../../static/pdf/un_menu_haut_en_couleurs.pdf)

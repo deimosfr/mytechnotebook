@@ -14,7 +14,7 @@ tags:
 toc: true
 ---
 
-![GoPro Hero](/static/images/gopro.avif)
+![GoPro Hero](../../static/images/gopro.avif)
 
 {< table "table-hover table-striped" >}
 |||
@@ -35,7 +35,7 @@ First, reinsert the card into the device and see if it can repair it by itself. 
 You will need:
 
 - [Perl](https://www.perl.org/) (>= 5.8)
-- [A repair script](/static/others/gopro_fix.tgz)[^1]
+- [A repair script](../../static/others/gopro_fix.tgz)[^1]
 
 ## Repair Script
 

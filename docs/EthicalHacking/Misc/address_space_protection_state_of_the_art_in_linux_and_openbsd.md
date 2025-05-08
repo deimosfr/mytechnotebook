@@ -9,4 +9,4 @@ tags: ["Linux", "OpenBSD", "Security", "Development", "Network"]
 toc: true
 ---
 
-[Address Space Protection - State of the Art in Linux and OpenBSD](/static/pdf/Protection_de_l'espace_d'adressage_-_état_de_l'art_sous_Linux_et_OpenBSD.pdf)
+[Address Space Protection - State of the Art in Linux and OpenBSD](../../static/pdf/Protection_de_l'espace_d'adressage_-_état_de_l'art_sous_Linux_et_OpenBSD.pdf)

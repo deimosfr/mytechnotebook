@@ -9,7 +9,7 @@ tags: ["Network", "Servers", "Firefox", "Apache", "Python"]
 toc: true
 ---
 
-![Sabnzbd](/static/images/sabnzbd_logo.avif)
+![Sabnzbd](../../static/images/sabnzbd_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

@@ -61,4 +61,4 @@ Stop logging to the file with CTRL-D
 
 ## Amazing: the demo
 
-![demo](/static/images/scriptfmkfifo.avif)
+![demo](../../static/images/scriptfmkfifo.avif)

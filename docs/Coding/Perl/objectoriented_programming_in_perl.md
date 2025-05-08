@@ -24,7 +24,7 @@ tags:
 toc: true
 ---
 
-![Perl](/static/images/perl_logo.avif)
+![Perl](../../static/images/perl_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

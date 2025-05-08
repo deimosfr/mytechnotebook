@@ -9,7 +9,7 @@ tags: ["FreeBSD", "UFS", "Disk Management", "Partitioning"]
 toc: true
 ---
 
-![FreeBSD](/static/images/poweredbyfreebsd.avif)
+![FreeBSD](../../static/images/poweredbyfreebsd.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

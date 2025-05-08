@@ -11,4 +11,4 @@ toc: true
 
 Here is documentation explaining how to recover your data from a LVM in RAID1!
 
-[Documentation on Recovering Data From RAID1 LVM Partitions](/static/pdf/recover_data_from_raid1_lvm_partitions.pdf)
+[Documentation on Recovering Data From RAID1 LVM Partitions](../../static/pdf/recover_data_from_raid1_lvm_partitions.pdf)

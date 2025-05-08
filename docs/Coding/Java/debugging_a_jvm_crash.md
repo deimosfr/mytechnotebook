@@ -80,11 +80,11 @@ When we examine our logs, we can see if there are too many GCs. For example, her
 
 I also recommend a graphical tool for analyzing GC logs made by HP called [HPJmeter available here](https://www.hp.com/products1/unix/java/hpjmeter/). Here's what it looks like - you can very clearly see the Full GC problem:
 
-![HPJmeter Full GC analysis 1](/static/images/hpfullgc1.avif)
+![HPJmeter Full GC analysis 1](../../static/images/hpfullgc1.avif)
 
 In the image above, we can clearly see that we're experiencing a Full GC. And in the one below, we can see when it occurs:
 
-![HPJmeter Full GC analysis 2](/static/images/hpfullgc2.avif)
+![HPJmeter Full GC analysis 2](../../static/images/hpfullgc2.avif)
 
 ## Solutions
 

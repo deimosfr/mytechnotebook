@@ -106,4 +106,4 @@ chmod go-rwx *
 ```
 
 ## Resources
-- [Documentation on setting up Subversion and Trac](/static/pdf/trac.pdf)
+- [Documentation on setting up Subversion and Trac](../../static/pdf/trac.pdf)

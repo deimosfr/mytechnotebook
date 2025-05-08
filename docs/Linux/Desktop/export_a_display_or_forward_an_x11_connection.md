@@ -77,4 +77,4 @@ Once again, ta-da! :-)
 
 ## References
 
-[Create an X terminal](/static/pdf/creez_un_terminal_x.pdf)
+[Create an X terminal](../../static/pdf/creez_un_terminal_x.pdf)

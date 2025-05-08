@@ -14,4 +14,4 @@ Here is documentation that requires good knowledge of [MySQL replications]({{< r
 
 It can save you a lot of time even if you have the necessary knowledge:
 
-[Documentation on a Load-Balanced MySQL Cluster With MySQL 5.1](/static/pdf/load-balanced_mysql_cluster_with_mysql_5_1.pdf)
+[Documentation on a Load-Balanced MySQL Cluster With MySQL 5.1](../../static/pdf/load-balanced_mysql_cluster_with_mysql_5_1.pdf)

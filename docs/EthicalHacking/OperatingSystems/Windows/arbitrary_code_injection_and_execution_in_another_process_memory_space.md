@@ -9,4 +9,4 @@ tags: ["Process", "Memory", "Code Injection", "Security"]
 toc: true
 ---
 
-[Arbitrary Code Injection and Execution in Another Process Memory Space](/static/pdf/injection_de_code.pdf)
+[Arbitrary Code Injection and Execution in Another Process Memory Space](../../static/pdf/injection_de_code.pdf)

@@ -91,5 +91,5 @@ mailq
 ```
 
 ## Resources
-- [ASSP: Documentation on implementing a simplification and enhancement tool for SPAM and Virus detection](/static/pdf/assp_with_embedded_clamav_integrated_into_postfix.pdf)
-- [ClamAV, the antivirus from the cold](/static/pdf/clamav,_l'antivirus_qui_vient_du_froid.pdf)
+- [ASSP: Documentation on implementing a simplification and enhancement tool for SPAM and Virus detection](../../static/pdf/assp_with_embedded_clamav_integrated_into_postfix.pdf)
+- [ClamAV, the antivirus from the cold](../../static/pdf/clamav,_l'antivirus_qui_vient_du_froid.pdf)

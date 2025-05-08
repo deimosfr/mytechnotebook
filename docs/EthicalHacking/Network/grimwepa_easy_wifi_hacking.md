@@ -76,15 +76,15 @@ sudo java -jar grimwepa_X.X.jar
 
 Select the mon0 interface, then click on "Refresh Targets", you should see it scanning:
 
-![WEPA0](/static/images/wepa0.avif)
+![WEPA0](../../static/images/wepa0.avif)
 
 Stop after about 3 scans, that's sufficient. Choose a network with WEP encryption (faster because it's older and therefore easier to crack). Then select "Fragmentation" as the attack method and choose an available client. Then click on "Start Attack":
 
-![WEPA-1](/static/images/wepa-1.avif)
+![WEPA-1](../../static/images/wepa-1.avif)
 
 A window should open that will listen to what's happening on this network:
 
-![Airodump](/static/images/airodump.avif)
+![Airodump](../../static/images/airodump.avif)
 
 Once there is enough data (which can take some time depending on traffic), an airmon-ng window will start to launch injections. From this point, it will go relatively quickly. The WEP key cracking will follow. The key will then be displayed in the status.
 

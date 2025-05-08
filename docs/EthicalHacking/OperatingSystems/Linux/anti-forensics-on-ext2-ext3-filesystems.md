@@ -13,4 +13,4 @@ The first thing a hacker wants to do when they've managed to get into a machine 
 
 This article explains the different solutions for hiding data in an ext2/ext3 filesystem while taking into account the constraints that remain. However, we will not address the topic of deleted data and how to recover it, which is a completely different subject (that of leaving no trace :)).
 
-[Anti-forensics on ext2/ext3 filesystems](/static/pdf/anti-forensics_sur_systemes_de_fichiers_ext2-ext3.pdf)
+[Anti-forensics on ext2/ext3 filesystems](../../static/pdf/anti-forensics_sur_systemes_de_fichiers_ext2-ext3.pdf)

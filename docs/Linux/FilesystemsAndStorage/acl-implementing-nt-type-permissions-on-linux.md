@@ -24,8 +24,8 @@ If, following this, you want to set up a Samba server and use it as under Window
 
 Here are some useful resources:
 
-[Documentation on NT-type ACLs](/static/pdf/acl_nt.pdf)  
-[ACL and EA under Linux](/static/pdf/acl_et_ea_sous_linux.pdf)
+[Documentation on NT-type ACLs](../../static/pdf/acl_nt.pdf)  
+[ACL and EA under Linux](../../static/pdf/acl_et_ea_sous_linux.pdf)
 
 ## Useful Commands
 

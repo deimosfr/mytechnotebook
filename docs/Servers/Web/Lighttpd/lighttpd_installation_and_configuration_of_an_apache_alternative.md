@@ -325,9 +325,9 @@ More info on this page: [https://redmine.lighttpd.net/wiki/1/Docs:PerformanceFas
 
 ## Resources
 
-- [Documentation on installing Lighttpd With PHP5 And MySQL Support](/static/pdf/installing_lighttpd_with_php5_and_mysql_support.pdf)
-- [Documentation on reducing Apache's load with lighttpd](/static/pdf/reduce_apache's_load_with_lighttpd.pdf)
-- [Optimizing Lighttpd server load](/static/pdf/lighttpd-web-server.pdf)
+- [Documentation on installing Lighttpd With PHP5 And MySQL Support](../../static/pdf/installing_lighttpd_with_php5_and_mysql_support.pdf)
+- [Documentation on reducing Apache's load with lighttpd](../../static/pdf/reduce_apache's_load_with_lighttpd.pdf)
+- [Optimizing Lighttpd server load](../../static/pdf/lighttpd-web-server.pdf)
 - [https://redmine.lighttpd.net/wiki/lighttpd/Docs](https://redmine.lighttpd.net/wiki/lighttpd/Docs)
 - [https://redmine.lighttpd.net/wiki/lighttpd/Docs:ConfigurationOptions](https://redmine.lighttpd.net/wiki/lighttpd/Docs:ConfigurationOptions)
-- [Installing Lighttpd With PHP5 And MySQL Support On Debian Lenny](/static/pdf/installing_lighttpd_with_php5_and_mysql_support_on_debian_lenny.pdf)
+- [Installing Lighttpd With PHP5 And MySQL Support On Debian Lenny](../../static/pdf/installing_lighttpd_with_php5_and_mysql_support_on_debian_lenny.pdf)

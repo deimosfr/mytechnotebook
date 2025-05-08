@@ -9,7 +9,7 @@ tags: ["RHEL", "Cluster", "High Availability", "HA", "Red Hat"]
 toc: true
 ---
 
-![Red Hat Cluster Suite](/static/images/red_hat_logo.avif)
+![Red Hat Cluster Suite](../../static/images/red_hat_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -25,7 +25,7 @@ Red Hat offers a cluster based on Open Source solutions. This document explains 
 
 Here is the type of infrastructure you should have in place to install and configure a cluster:
 
-![Cluster architecture RHEL](/static/images/cluster_archi_rhel.avif)
+![Cluster architecture RHEL](../../static/images/cluster_archi_rhel.avif)
 
 Red Hat cluster suite works with a maximum of 16 nodes in a cluster.
 
@@ -1243,4 +1243,4 @@ And here it is quorate, so no worries :-)
 - https://alteeve.com/w/RHCS_v2_cluster.conf
 - http://magazine.redhat.com/2007/12/19/enhancing-cluster-quorum-with-qdisk/
 - https://access.redhat.com/knowledge/node/2881
-- [RHEL Cluster Archi Visio](/static/others/cluster_archi_rhel.vsd)
+- [RHEL Cluster Archi Visio](../../static/others/cluster_archi_rhel.vsd)

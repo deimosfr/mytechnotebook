@@ -17,4 +17,4 @@ toc: true
 
 Here's documentation for those who are resistant to using Fetchmail:
 
-[Getmail documentation](/static/pdf/getmail_debian.pdf)
+[Getmail documentation](../../static/pdf/getmail_debian.pdf)

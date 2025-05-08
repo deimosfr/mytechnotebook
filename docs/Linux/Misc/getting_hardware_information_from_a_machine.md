@@ -262,5 +262,5 @@ i86pc
 ```
 
 ## Resources
-- [Hardware Configuration Mastery](/static/pdf/maitriser_sa_configuration_materielle.pdf)
-- [Dmidecode - Finding Out Hardware Details Without Opening The Computer Case](/static/pdf/dmidecode-_finding_out_hardware_details_without_opening_the_computer_case.pdf)
+- [Hardware Configuration Mastery](../../static/pdf/maitriser_sa_configuration_materielle.pdf)
+- [Dmidecode - Finding Out Hardware Details Without Opening The Computer Case](../../static/pdf/dmidecode-_finding_out_hardware_details_without_opening_the_computer_case.pdf)

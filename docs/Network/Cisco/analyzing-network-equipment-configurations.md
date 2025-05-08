@@ -9,4 +9,4 @@ tags: ["Network", "Configuration", "Analysis", "Equipment"]
 toc: true
 ---
 
-[Analyzing Network Equipment and Network Configurations](/static/pdf/analyser_les_configs_des_equipements_et_des_reseaux.pdf)
+[Analyzing Network Equipment and Network Configurations](../../static/pdf/analyser_les_configs_des_equipements_et_des_reseaux.pdf)

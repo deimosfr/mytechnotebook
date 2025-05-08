@@ -9,7 +9,7 @@ tags: ["Firefox", "Sync", "MariaDB", "Debian", "Nginx"]
 toc: true
 ---
 
-![Firefox Sync Server](/static/images/firefox_sync_logo.avif)
+![Firefox Sync Server](../../static/images/firefox_sync_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

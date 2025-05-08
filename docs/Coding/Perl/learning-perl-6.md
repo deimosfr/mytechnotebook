@@ -11,4 +11,4 @@ toc: true
 
 Here is documentation to learn Perl 6 in record time. This documentation is super clear and relatively short compared to everything you'll learn from it.
 
-[Learning Perl 6](/static/pdf/learningperl6.pdf)
+[Learning Perl 6](../../static/pdf/learningperl6.pdf)

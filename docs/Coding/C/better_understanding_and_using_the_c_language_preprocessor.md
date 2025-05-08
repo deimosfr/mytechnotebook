@@ -520,7 +520,7 @@ In this example, the compilation condition uses the __GNUC__ flag which is defin
 
 A header file is included in a source file using the "#include" directive. These files most often contain external declarations of variables or functions, type definitions, and macros. A header file can itself include other header files, because a basic rule in C programming is to make a header file independent. In other words, if a header file uses a type, macro, function, or variable, it is recommended that the header file where the corresponding definition is located be included in that file. In the example in figure 1, the main.c file includes the header files str.h and fct.h which respectively define the str_t type and the fonc() function. These last two include the entier.h file for the definition of the ENTIER type.
 
-![Gcc-fig-1.avif](/static/images/gcc-fig-1.avif)
+![Gcc-fig-1.avif](../../static/images/gcc-fig-1.avif)
 
 Compiling main.c gives the following errors:
 
@@ -543,7 +543,7 @@ typedef int ENTIER;
 
 This allows compiling main.c, because ENTIER_H is defined by the inclusion of entier.h in str.h and this will therefore prevent the second inclusion of entier.h via fct.h. Generally speaking, it is advisable to apply the principle of conditional inclusion to any header file.
 
-![Gcc-fig-2.jpg](/static/images/gcc-fig-2.avif)
+![Gcc-fig-2.jpg](../../static/images/gcc-fig-2.avif)
 
 ## Conclusion
 

@@ -40,7 +40,7 @@ Here are the 6 operating modes we can find:
 5. Newly created, not yet ready to be launched and not asleep
 6. Problem during closure (zombie)
 
-![Process flow diagram](/static/images/procflowc.avif)[^1]
+![Process flow diagram](../../static/images/procflowc.avif)[^1]
 
 Here is the official list of process states:
 
@@ -65,7 +65,7 @@ Write back is much more performant than write through. On x86 platforms under Li
 
 On multi-processor systems, there is a need to maintain a certain coherence between caches. When a cache updates a memory space, it must notify the occupation of this space to other caches. This is called **cache snooping** and it's the hardware that manages this part.
 
-![Cache Coherency](/static/images/cache_coherency_generic.avif)[^2]
+![Cache Coherency](../../static/images/cache_coherency_generic.avif)[^2]
 
 NUMA (for Non Uniform Memory Access or Non Uniform Memory Architecture) is a cache snooping method, meaning non-uniform memory access and non-uniform memory architecture) is a multiprocessor system in which memory areas are separated and placed in different locations (and on different buses). From the perspective of each processor, access times therefore differ depending on the memory area accessed.
 The NUMA system was designed to overcome the limitations of the SMP architecture in which the entire memory space is accessible by a single bus causing concurrent access problems by different processors. This is particularly necessary for systems with many processors.[^3]
@@ -135,7 +135,7 @@ The kernel scheduler does its best to maintain good performance and correct resp
 
 The kernel has 140 priority levels ranging from 0 to 139 (from highest to lowest). Priorities from 0 to 99 correspond to real time. For the last 40, these are ordinary dynamic processes. The standard priority being 120 which corresponds to what is generally seen: 0. The visible priorities therefore range from -20 to +20 which correspond to 99 to 139.
 
-![Linux kernel run queue](/static/images/linux_kernel_run_queue.avif)
+![Linux kernel run queue](../../static/images/linux_kernel_run_queue.avif)
 
 What you need to know about schedulers:
 

@@ -30,4 +30,4 @@ squirrelmail-config
 ```
 
 ## Resources
-- [Documentation on checking password strength for squirrelmail](/static/pdf/checking_password_strength_for_squirrelmail.pdf)
+- [Documentation on checking password strength for squirrelmail](../../static/pdf/checking_password_strength_for_squirrelmail.pdf)

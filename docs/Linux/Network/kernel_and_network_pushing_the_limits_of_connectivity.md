@@ -24,4 +24,4 @@ In this documentation, you will find information on:
 
 As you'll understand, this is a very comprehensive document, but it requires very good system and network knowledge:
 
-[Kernel and Network - How to Push the Limits of Connectivity](/static/pdf/le_noyau_et_le_réseau_-_comment_repousser_les_limites_de_la_connectivité_.pdf)
+[Kernel and Network - How to Push the Limits of Connectivity](../../static/pdf/le_noyau_et_le_réseau_-_comment_repousser_les_limites_de_la_connectivité_.pdf)

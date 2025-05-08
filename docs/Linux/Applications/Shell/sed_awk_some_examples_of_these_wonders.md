@@ -151,7 +151,7 @@ ip a | awk '/inet/{print $2}'
 
 This allows me to get all IPs present on my machine.
 
-For more examples: [AWK - the reference scripting language for file processing](/static/pdf/awk.pdf)
+For more examples: [AWK - the reference scripting language for file processing](../../static/pdf/awk.pdf)
 
 ## Grep
 
@@ -214,5 +214,5 @@ grep -a monfichier
 The -a bypasses the restriction
 
 ## Resources
-- [Tutorial for Sed](/static/pdf/sed_tuto.pdf)
-- [Awk cheat sheet](/static/pdf/awk.cheat.sheet.pdf)
+- [Tutorial for Sed](../../static/pdf/sed_tuto.pdf)
+- [Awk cheat sheet](../../static/pdf/awk.cheat.sheet.pdf)

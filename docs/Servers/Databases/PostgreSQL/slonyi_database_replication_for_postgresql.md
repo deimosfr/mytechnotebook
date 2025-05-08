@@ -22,7 +22,7 @@ Slony-I enables advanced database replication capabilities. The downside is that
 
 According to Slony's documentation, it's not recommended to replicate across a WAN, as the slon daemon (replication daemon) is very fragile and may leave a database in a zombie state, and won't die for up to 2 hours.
 
-![](/static/images/slony_work.avif)
+![](../../static/images/slony_work.avif)
 
 ## Installation
 
@@ -129,7 +129,7 @@ Slonik is a utility that allows scripting to facilitate Slony administration. Yo
 
 ### Configuration Script
 
-![](/static/images/slony_db_schema.avif)
+![](../../static/images/slony_db_schema.avif)
 
 Here's a script (script-initilization.sh) that will create the initial connection. Edit it according to your needs (add passwords if needed):
 
@@ -324,7 +324,7 @@ fi
 
 ## Adding a New Node
 
-![](/static/images/slony2nodes.avif) --> ![](/static/images/slony3nodes.avif)
+![](../../static/images/slony2nodes.avif) --> ![](../../static/images/slony3nodes.avif)
 
 Here's an example of the .profile for the 3rd node to add:
 
@@ -425,7 +425,7 @@ The data verification is ensured at this point!
 
 ### Promoting a Replica
 
-![](/static/images/slony_swapping.avif)
+![](../../static/images/slony_swapping.avif)
 
 Promoting the replica is useful when you have multiple nodes to perform maintenance on the Master, for example.
 
@@ -501,7 +501,7 @@ _EOF_
 
 Failover cannot be done with Slony alone. You need a [Cluster]({{< ref "docs/Servers/HighAvailability/_index.md" >}}) that will manage virtual IPs such as [heartbeat 1]({{< ref "docs/Servers/HighAvailability/Heartbeat/installation_and_configuration_of_a_heartbeat_v1_cluster.md" >}}) or [heartbeat 2]({{< ref "docs/Servers/HighAvailability/Heartbeat/installation_and_configuration_of_a_heartbeat_v2_cluster.md" >}}) for the more adventurous.
 
-![](/static/images/slony_failover.avif)
+![](../../static/images/slony_failover.avif)
 
 When configuring the cluster, assign a virtual IP and the init script. Here's what you need to promote a slave to master:
 
@@ -522,6 +522,6 @@ When configuring the cluster, assign a virtual IP and the init script. Here's wh
 
 ## Reference
 
-[Documentation Building and configuration of Slony](/static/pdf/build_conf_slony.pdf)  
-[Documentation Introducing Slony](/static/pdf/introduction_slony.pdf)  
-[Documentation on integration of Slony with PostgreSQL](/static/pdf/postgres_slony_rep.pdf)
+[Documentation Building and configuration of Slony](../../static/pdf/build_conf_slony.pdf)  
+[Documentation Introducing Slony](../../static/pdf/introduction_slony.pdf)  
+[Documentation on integration of Slony with PostgreSQL](../../static/pdf/postgres_slony_rep.pdf)

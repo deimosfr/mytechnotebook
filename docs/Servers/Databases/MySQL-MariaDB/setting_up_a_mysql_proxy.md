@@ -13,4 +13,4 @@ toc: true
 
 Here is documentation for setting up a MySQL proxy that can also serve as a Load Balancer:
 
-[Installing MySQL Proxy](/static/pdf/installing_mysql_proxy.pdf)
+[Installing MySQL Proxy](../../static/pdf/installing_mysql_proxy.pdf)

@@ -18,7 +18,7 @@ tags:
 toc: true
 ---
 
-![SOS Report](/static/images/red_hat_logo.avif)
+![SOS Report](../../static/images/red_hat_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

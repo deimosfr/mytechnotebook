@@ -142,4 +142,4 @@ swap                   3,0G     272K   3,0G     1%    /media/montmpfs
 ## Resources
 - http://docs.oracle.com/cd/E19963-01/html/821-1459/fscreate-99040.html
 - http://ilapstech.blogspot.com/2009/11/grow-tmp-filesystem-tmpfs-on-line-under.html
-- [Solaris Tmpfs documentation](/static/pdf/solaris_tmpfs.pdf)
+- [Solaris Tmpfs documentation](../../static/pdf/solaris_tmpfs.pdf)

@@ -259,7 +259,7 @@ fuse
 ```
 
 ## Resources
-- [High-Availability Storage Cluster With GlusterFS](/static/pdf/high-availability_storage_cluster_with_glusterfs_on_ubuntu.pdf)
+- [High-Availability Storage Cluster With GlusterFS](../../static/pdf/high-availability_storage_cluster_with_glusterfs_on_ubuntu.pdf)
 - [High-availability storage with GlusterFS on Debian Lenny](https://www.howtoforge.org/high-availability-storage-with-glusterfs-on-debian-lenny-automatic-file-replication-across-two-storage-servers)
 - [OpenVZ Forum Discussion on GlusterFS](https://forum.openvz.org/index.php?t=msg&goto=35230&)
 - [Additional GlusterFS Configuration Example](https://olemskoi.ru/node/3788)
