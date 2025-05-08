@@ -2,7 +2,7 @@
 
 Here is what I have learned and discovered in the world of technology. I first use it for me as a Notebook, but I hope you will find it useful.
 
-To run actions, you can use the [task](https://taskfile.dev/) command.
+To run actions, you can use the [Just](https://github.com/casey/just) command.
 
 # Local build
 
@@ -11,7 +11,7 @@ To run actions, you can use the [task](https://taskfile.dev/) command.
 To initiate the project, you can use the following command:
 
 ```bash
-task init
+just init
 ```
 
 ## Build and run the project
@@ -19,104 +19,79 @@ task init
 You just need to run:
 
 ```bash
-task run
+just run
 ```
 
-It's now accessible at [http://localhost:1313](http://localhost:1313).
-
-# Write documentation
-
-To create a new page, you can use the following command:
-
-```bash
-hugo new docs/your_page_name.md
-```
+It's now accessible at [http://localhost:8000](http://localhost:8000).
 
 ## Code blocks highlights
 
 Should be written this way:
 
 ```
-\`\`\`go {linenos=table,hl_lines=[3]}
-\`\`\`go {linenos=table,hl_lines=[3],anchorlinenos=true}
-\`\`\`go {linenos=table,hl_lines=[3,"5-7"],linenostart=199,anchorlinenos=true}
+```go hl_lines="2 3"
+```go hl_lines="2-4 6"
+```go hl_lines="2-4 6" linenums="1"
 ```
 
 ## Callouts
 
-You can use the following callouts:
-
-```
-
-{{< alert context="info" text="" />}}
-
-```
-
-Possible contexts:
-
-- success
-- danger
-- warning
-- primary
-- light
-- dark
-
-Or for a more complex case with html:
-
-```
-
-{{% alert icon="🛒" context="info" %}}
-xxx
-{{% /alert %}}
-
-```
-
-## Internal references
-
 Example:
 
 ```
-{{< ref "docs/Perl/_index.md" >}}
-[xxx]({{< ref "docs/coding/php/" >}}).
-[Perl]({{< ref "docs/Coding/Perl/introduction_to_perl.md#chomp" >}})
-[SSLH method]({{< ref "docs/Servers/File sharing/SFTP and FTP/sslh_multiplexing_ssl_and_ssh_connections_on_the_same_port.md" >}})
+!!! note
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+```
+
+Variants:
+
+```
+!!! note "Phasellus posuere in sem ut cursus" # to name the callout
+!!! note "" # without title
+??? note # collapsed
+???+ note # collapsable and expanded
 ```
 
 ## Tabs
 
 ```
-{{< tabs tabTotal="3">}}
-{{% tab tabName="Windows" %}}
+=== "C"
 
-**Windows Content**
+    ``` c
+    #include <stdio.h>
 
-Example content specific to **Windows** operating systems
+    int main(void) {
+      printf("Hello world!\n");
+      return 0;
+    }
+    ```
 
-{{% /tab %}}
-{{% tab tabName="MacOS" %}}
+=== "C++"
 
-**MacOS Content**
+    ``` c++
+    #include <iostream>
 
-Example content specific to **Mac** operating systems
-
-{{% /tab %}}
-{{% tab tabName="Linux" %}}
-
-**Linux Content**
-
-Example content specific to **Linux** operating systems
-
-{{% /tab %}}
-{{< /tabs >}}
+    int main(void) {
+      std::cout << "Hello world!" << std::endl;
+      return 0;
+    }
+    ```
 ```
 
 ## icons
 
-Icons can be found here:
+Icons used can be:
 
-- https://fonts.google.com/icons
-- https://simpleicons.org/
+* Material Design
+* FontAwesome
+* Octicons
+* Simple Icons
+
+Icon search can be done [here](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/)
 
 # More info
 
-https://lotusdocs.dev/
+* [Macros](https://mkdocs-macros-plugin.readthedocs.io/en/latest/)

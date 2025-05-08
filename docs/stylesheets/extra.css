@@ -1,0 +1,25 @@
+/* Width of the page */
+.md-grid {
+    max-width: 100%;
+}
+
+.md-typeset table:not([class]) {
+    border: 0px;
+}
+
+/* Remove the Git stars and forks from header */
+.md-header__source {
+    display: none;
+}
+
+/* Center tables with the center class */
+.center-table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: table;
+}
+
+/* admonition font size */
+.md-typeset .admonition {
+    font-size: 0.8rem;
+}
