@@ -48,9 +48,9 @@ search:
 
     ---
 
+    <!--# start description here -->
     [Filesystems](/BSD/Filesystems) •
-    Install [`mkdocs-material`](#) with [`pip`](#) and get up
-    and running in minutes
+    <!--# stop description here -->
 
 -   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
 
