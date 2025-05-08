@@ -11,13 +11,17 @@ theme:
     - navigation.footer
     - navigation.instant
     - navigation.instant.progress
+    - navigation.prune
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
     - search.suggest
     - search.highlight
     - search.share
     - content.action.edit
     - content.code.copy
     - content.code.select
-    - navigation.prune
+    - content.tabs.link
   name: material
   language: en
   palette:
@@ -63,3 +67,9 @@ markdown_extensions:
   - md_in_html
   # automatic link
   - pymdownx.magiclink
+  # emoji + icons
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  # tables
+  - tables
