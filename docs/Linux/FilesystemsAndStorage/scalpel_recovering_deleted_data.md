@@ -18,4 +18,4 @@ toc: true
 Scalpel is a tool that allows you to recover files and folders that have been deleted from your hard drive.
 
 ## Resources
-- [Recover Deleted Files With Scalpel](/pdf/recover_deleted_files_with_scalpel.pdf)
+- [Recover Deleted Files With Scalpel](/static/pdf/recover_deleted_files_with_scalpel.pdf)

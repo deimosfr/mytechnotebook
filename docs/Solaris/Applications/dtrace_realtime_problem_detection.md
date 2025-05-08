@@ -29,7 +29,7 @@ Since it can be time-consuming to create your own scripts each time, I've includ
 
 ## Print Utilization Statistics per Process
 
-Brendan Gregg developed [prustat](/others/prustat.zip) to display the top processes sorted by CPU, Memory, Disk or Network utilization:
+Brendan Gregg developed [prustat](/static/others/prustat.zip) to display the top processes sorted by CPU, Memory, Disk or Network utilization:
 
 ```bash
 $ prustat -c -t 10 5
@@ -51,7 +51,7 @@ This script is super useful for getting a high-level understanding of what is ha
 
 ## File System Flush Activity
 
-On Solaris systems, the pagedaemon is responsible for scanning the page cache and adjusting the MMU reference bit of each dirty page it finds. When the fsflush daemon runs, it scans the page cache looking for pages with the MMU reference bit set, and schedules these pages to be written to disk. The [fsflush.d D script](/others/fsflush.d.zip) provides a detailed breakdown of pages scanned, and the number of nanoseconds that were required to scan "SCANNED" pages:
+On Solaris systems, the pagedaemon is responsible for scanning the page cache and adjusting the MMU reference bit of each dirty page it finds. When the fsflush daemon runs, it scans the page cache looking for pages with the MMU reference bit set, and schedules these pages to be written to disk. The [fsflush.d D script](/static/others/fsflush.d.zip) provides a detailed breakdown of pages scanned, and the number of nanoseconds that were required to scan "SCANNED" pages:
 
 ```bash
 $ fsflush.d
@@ -72,7 +72,7 @@ Now you might be wondering why "SCANNED" is less than "EXAMINED?" This is due to
 
 ## Seek Sizes
 
-Prior to Solaris 10, determining if an application accessed data in a sequential or random pattern required reviewing mounds of truss(1m) and vxtrace(1m) data. With the introduction of DTrace and Brendan Gregg's [seeksize.d D script](/others/seeksize.d.zip), this question is trivial to answer:
+Prior to Solaris 10, determining if an application accessed data in a sequential or random pattern required reviewing mounds of truss(1m) and vxtrace(1m) data. With the introduction of DTrace and Brendan Gregg's [seeksize.d D script](/static/others/seeksize.d.zip), this question is trivial to answer:
 
 ```bash
 $ seeksize.d
@@ -160,7 +160,7 @@ This is a super useful script! Niiiiiiiiiiice!
 
 ## Getting System Wide errno Information
 
-When system calls have problems executing, they usually return a value to indicate success or failure, and set the global "ERRNO" variable to a value indicating what went wrong. To get a system-wide view of which system calls are erroring out, we can use Brendan Gregg's [errinfo D script](/others/errinfo.zip):
+When system calls have problems executing, they usually return a value to indicate success or failure, and set the global "ERRNO" variable to a value indicating what went wrong. To get a system-wide view of which system calls are erroring out, we can use Brendan Gregg's [errinfo D script](/static/others/errinfo.zip):
 
 ```bash
 $ errinfo -c
@@ -198,7 +198,7 @@ $ psio.pl
     root     9     1  0.0 10:24:21 ?       00:14 /lib/svc/bin/svc.configd
 ```
 
-Once you find I/O intensive processes, you can use [fspaging](/others/fspaging.d.zip), [iosnoop](/others/iosnoop.zip), and [rwsnoop](/others/rwsnoop.zip) to get additional information:
+Once you find I/O intensive processes, you can use [fspaging](/static/others/fspaging.d.zip), [iosnoop](/static/others/iosnoop.zip), and [rwsnoop](/static/others/rwsnoop.zip) to get additional information:
 
 ```bash
 $ iosnoop -n
@@ -275,7 +275,7 @@ If only Dorothy could see this!
 
 ## TCP Top
 
-Snoop(1m) and ethereal are amazing utilities, and provide a slew of options to filter data. When you don't have time to wade through snoop data or download and install ethereal, you can use [tcptop](/others/tcptop.zip) to get an overview of TCP activity on a system:
+Snoop(1m) and ethereal are amazing utilities, and provide a slew of options to filter data. When you don't have time to wade through snoop data or download and install ethereal, you can use [tcptop](/static/others/tcptop.zip) to get an overview of TCP activity on a system:
 
 ```bash
 $ tcptop 5
@@ -304,7 +304,7 @@ $ vmstat -p 5
  1683280 818800 0   0   0   0   0    0    0    0    0    0    0    0    0    0
 ```
 
-This was super useful information, but unfortunately doesn't provide the executable responsible for the paging activity. With the introduction of [whospaging.d](/others/whospaging.d.zip), you can get paging activity per process:
+This was super useful information, but unfortunately doesn't provide the executable responsible for the paging activity. With the introduction of [whospaging.d](/static/others/whospaging.d.zip), you can get paging activity per process:
 
 ```bash
 $ whospaging.d
@@ -322,7 +322,7 @@ Who's on cpu (milliseconds):
   sched                                                         3284
 ```
 
-Once we get the process name that is responsible for the paging activity, we can use [dvmstat](/others/dvmstat.zip) to break down the types of pages the application is paging (similar to vmstat -p, but per process!):
+Once we get the process name that is responsible for the paging activity, we can use [dvmstat](/static/others/dvmstat.zip) to break down the types of pages the application is paging (similar to vmstat -p, but per process!):
 
 ```bash
 $ dvmstat -p 0
@@ -342,7 +342,7 @@ And without further ado, number 1 goes to ... (_drum roll_)
 
 ## I/O Top
 
-After careful thought, I decided to make [iotop](/others/iotop.zip) and [rwtop](/others/rwtop.zip) #1 on my top ten list. I have long dreamed of a utility that could tell me which applications were actively generating I/O to a given file, device or file system. With the introduction of iotop and rwtop, my wish came true:
+After careful thought, I decided to make [iotop](/static/others/iotop.zip) and [rwtop](/static/others/rwtop.zip) #1 on my top ten list. I have long dreamed of a utility that could tell me which applications were actively generating I/O to a given file, device or file system. With the introduction of iotop and rwtop, my wish came true:
 
 ```bash
 $ iotop 5

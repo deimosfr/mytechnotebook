@@ -9,4 +9,4 @@ tags: ["ARP", "Network", "Security", "Spoofing"]
 toc: true
 ---
 
-[Altering ARP Tables](/pdf/altering_arp_tables_v_1.00.pdf)
+[Altering ARP Tables](/static/pdf/altering_arp_tables_v_1.00.pdf)

@@ -11,4 +11,4 @@ toc: true
 
 OpenSPF is the open source version of SPF. In terms of functionality, they are the same. Here is documentation explaining how to implement this type of solution:
 
-[OpenSPF on Postfix Documentation](/pdf/openspf_postfix.pdf)
+[OpenSPF on Postfix Documentation](/static/pdf/openspf_postfix.pdf)

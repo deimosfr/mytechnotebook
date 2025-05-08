@@ -23,17 +23,17 @@ To create a new volume with a case-sensitive file system, follow these steps:
 2. Select your main disk (usually named "Macintosh HD").
 3. Click on the + sign next to Volume.
 
-![Mac OS create volume](/images/macos_casesensitive_vol_create.avif)
+![Mac OS create volume](/static/images/macos_casesensitive_vol_create.avif)
 
 Choose a name for the new volume (e.g., "workspace") and set it to **APFS (Case-sensitive)** or **APFS (Case-sensitive, Encrypted)** (it's recommended to use the Encrypted for security reasons):
 
-![Mac OS volume naming](/images/macos_casesensitive_vol_naming.avif)
+![Mac OS volume naming](/static/images/macos_casesensitive_vol_naming.avif)
 
 ## Use the new volume
 
 Once the new volume is created, you should see it and find relecant information. You can use it for applications or development environments that require a case-sensitive file system.
 
-![Mac OS created volume](/images/macos_casesensitive_vol_created.avif)
+![Mac OS created volume](/static/images/macos_casesensitive_vol_created.avif)
 
 From the terminal, create a symbolic link to the new volume:
 

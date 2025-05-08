@@ -395,7 +395,7 @@ Network card redundancy is often perceived as useless and expensive despite a si
 
 ## Other Documentation
 
-[Bonding documentation on Ubuntu](/pdf/bonding_ubuntu.pdf)  
+[Bonding documentation on Ubuntu](/static/pdf/bonding_ubuntu.pdf)  
 http://www.linux-foundation.org/en/Net:Bonding  
-[NIC Bonding On Debian Lenny](/pdf/nic_bonding_on_debian_lenny.pdf)  
+[NIC Bonding On Debian Lenny](/static/pdf/nic_bonding_on_debian_lenny.pdf)  
 http://bisscuitt.blogspot.fr/2007/10/redhat-linux-rhel-4-nic-bonding.html

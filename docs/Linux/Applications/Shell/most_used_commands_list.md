@@ -39,4 +39,4 @@ test1 test2
 
 ### Most Used Commands
 
-[Linux commands line documentation](/pdf/linux_commands_line.pdf)
+[Linux commands line documentation](/static/pdf/linux_commands_line.pdf)

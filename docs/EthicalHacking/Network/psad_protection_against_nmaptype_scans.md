@@ -11,4 +11,4 @@ toc: true
 
 Here is documentation in line with the Fail2Ban software. Here's some brief documentation:
 
-[Documentation on PSAD](/pdf/dytex1or.pdf)
+[Documentation on PSAD](/static/pdf/dytex1or.pdf)

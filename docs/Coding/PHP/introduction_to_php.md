@@ -795,7 +795,7 @@ print '</select>';
 # Using arrays
 
 In the examples that follow, here's the typical array we'll be working with:
-![PHP tab](/images/php_tab.avif)
+![PHP tab](/static/images/php_tab.avif)
 
 ## Creating an array
 
@@ -1647,11 +1647,11 @@ _HTML_;
 
 - Form retrieval and display:
 
-![Form retrieval in PHP](/images/recup_form_php.avif)
+![Form retrieval in PHP](/static/images/recup_form_php.avif)
 
 - Form submission and result display:
 
-![Form submission in PHP](/images/soum_form_php.avif)
+![Form submission in PHP](/static/images/soum_form_php.avif)
 
 The form is sent back to the same URL as the one that initially requested it because the action attribute of the <form> tag is initialized with the special variable $\_SERVER[PHP_SELF]. The super-global $\_SERVER array contains a number of pieces of information about your server as well as the request being processed by the PHP interpreter. The PHP_SELF element of this array, in particular, contains the path component of the URL of the request: if for example, a PHP script is accessed through http://www.example.com/magazin/catalogue.php, $\_SERVER['PHP_SELF'] will be /magasin/catalogue.php in this page.
 
@@ -1717,7 +1717,7 @@ category: <?php print $_POST['category']; ?>
 ```
 
 Which gives:
-![Form display PHP](/images/form_affiche_php.avif)
+![Form display PHP](/static/images/form_affiche_php.avif)
 The name of a form element that can contain multiple values must end with [] to tell the PHP interpreter that it must treat the various values as elements of an array. Thus, the values submitted for the <select> menu in the example below will be placed in $\_POST['lunch'].
 
 - Multivalued form elements:
@@ -1758,7 +1758,7 @@ foreach ($_POST['lunch'] as $choice) {
 ```
 
 Which gives:
-![PHP multival](/images/php_multival.avif)
+![PHP multival](/static/images/php_multival.avif)
 
 ## Processing forms with functions
 
@@ -2804,4 +2804,4 @@ A session uses a cookie to differentiate users and facilitates the memorization 
 ## Resources
 
 - [Introduction to PHP 5 Book](https://books.google.fr/books?id=fAlN55KwKjcC)
-- [Pear and PHP libraries](/pdf/pear_et_les_librairies_php.pdf)
+- [Pear and PHP libraries](/static/pdf/pear_et_les_librairies_php.pdf)

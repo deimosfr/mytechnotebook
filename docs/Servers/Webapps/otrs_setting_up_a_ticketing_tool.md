@@ -9,7 +9,7 @@ tags: ["OTRS", "Ticketing", "PostgreSQL", "LDAP", "Apache", "API"]
 toc: true
 ---
 
-![OTRS](/images/otrs_logo.avif)
+![OTRS](/static/images/otrs_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

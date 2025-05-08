@@ -11,4 +11,4 @@ toc: true
 
 Here is documentation on how to manage MySQL Master to Slave replication.
 
-[MySQL Master to Slave Documentation](/pdf/mysql_master_slave.pdf)
+[MySQL Master to Slave Documentation](/static/pdf/mysql_master_slave.pdf)

@@ -141,4 +141,4 @@ mount -t cifs -o username=nobody,password=nobody //192.168.0.1/tmp ./test
 ```
 
 ## Resources
-- [Documentation on a Complete auto discovery and mounting solution with SMB shares](/pdf/complete_auto_discovery_mounting_smb_shares.pdf)
+- [Documentation on a Complete auto discovery and mounting solution with SMB shares](/static/pdf/complete_auto_discovery_mounting_smb_shares.pdf)

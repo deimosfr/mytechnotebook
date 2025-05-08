@@ -436,8 +436,8 @@ zlib.output_compression = on
 Then restart your web server for the configuration to be applied.
 
 ## Resources
-- [Apache documentation on OpenBSD](/pdf/apache_openbsd.pdf)
-- [Documentation on reducing Apache's load with lighttpd](/pdf/reduce_apache's_load_with_lighttpd.pdf)
+- [Apache documentation on OpenBSD](/static/pdf/apache_openbsd.pdf)
+- [Documentation on reducing Apache's load with lighttpd](/static/pdf/reduce_apache's_load_with_lighttpd.pdf)
 - http://wiki.gcu.info/doku.php?id=unix:apache_mod_rewrite&s=internet%20explorer
-- [The Useful Uses Of Mod Rewrite](/pdf/the_useful_uses_of_mod_rewrite.pdf)
-- [How To Specify A Custom php ini For A Web Site (Apache2 With mod_php)](/pdf/how_to_specify_a_custom_php_ini_for_a_web_site__apache2_with_mod_php.pdf)
+- [The Useful Uses Of Mod Rewrite](/static/pdf/the_useful_uses_of_mod_rewrite.pdf)
+- [How To Specify A Custom php ini For A Web Site (Apache2 With mod_php)](/static/pdf/how_to_specify_a_custom_php_ini_for_a_web_site__apache2_with_mod_php.pdf)

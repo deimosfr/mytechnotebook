@@ -9,4 +9,4 @@ tags: ["Windows", "Development", "Security", "DLL"]
 toc: true
 ---
 
-[Finding the base address of kernel32.dll: Three methods PEB, SEH and TopStack](/pdf/trouver_kernel32.pdf)
+[Finding the base address of kernel32.dll: Three methods PEB, SEH and TopStack](/static/pdf/trouver_kernel32.pdf)

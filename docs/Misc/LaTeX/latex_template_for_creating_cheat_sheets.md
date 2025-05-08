@@ -9,7 +9,7 @@ tags: ["LaTeX", "Development", "Resume"]
 toc: true
 ---
 
-![LaTeX](/images/latex_logo.avif)
+![LaTeX](/static/images/latex_logo.avif)
 
 ## Introduction
 
@@ -49,10 +49,10 @@ Having cheat sheets is often very useful when learning a new language or working
 \pdfinfo{
   /Title (cheat_sheet_template.pdf)
   /Creator (TeX)
-  /Producer (/pdfTeX 1.40.0)
+  /Producer (/static/pdfTeX 1.40.0)
   /Author (Pierre Mavro)
   /Subject (Example)
-  /Keywords (/pdflatex, latex,pdftex,tex)}
+  /Keywords (/static/pdflatex, latex,pdftex,tex)}
 
 % This sets page margins to .5 inch if using letter paper, and to 1cm
 % if using A4 paper. (This probably isn't strictly necessary.)

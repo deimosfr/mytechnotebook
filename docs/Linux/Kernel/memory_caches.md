@@ -181,7 +181,7 @@ Each dentry object points to the inode associated with its file. To avoid readin
 
 Many network performance problems can be due to the ARP cache being too small. By default, it's limited to 512 soft entries and 1024 hard entries at the [Ulimits]({{< ref "docs/Linux/Security/ulimit_using_system_limits.md" >}}) level. The soft limit becomes a hard limit after 5 seconds. When this limit is exceeded, the kernel performs garbage collection and scans the cache to purge entries to stay below this limit. This garbage collector can also lead to a complete cache deletion. Let's say your cache is limited to 1 entry but you're connecting from 2 remote machines. Each incoming and outgoing packet will cause garbage collection and reinsertion into the ARP cache. There will therefore be a permanent change in the cache. To give you an idea of what can happen on a system:
 
-![Routing-cache-stats](/images/routing-cache-stats.avif)[^2]
+![Routing-cache-stats](/static/images/routing-cache-stats.avif)[^2]
 
 To see the ARP entries that map hardware addresses to protocol addresses:
 

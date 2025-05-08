@@ -11,4 +11,4 @@ toc: true
 
 Here is documentation that allows you to set up FreeRadius with MySQL account management and a web interface with DaloRADIUS:
 
-[Authentication Authorization Accounting with FreeRadius MySQL backend web based Management with DaloRADIUS](/pdf/authentication_authorization_accounting_with_freeradius_mysql_backend_web_based_management_with_daloradius.pdf)
+[Authentication Authorization Accounting with FreeRadius MySQL backend web based Management with DaloRADIUS](/static/pdf/authentication_authorization_accounting_with_freeradius_mysql_backend_web_based_management_with_daloradius.pdf)

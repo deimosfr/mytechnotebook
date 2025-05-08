@@ -25,7 +25,7 @@ toc: true
 | **Website** | [Ceph Website](https://ceph.com/) |
 {{< /table >}}
 
-![Ceph](/images/ceph_logo.avif)
+![Ceph](/static/images/ceph_logo.avif)
 
 ## Introduction
 
@@ -101,7 +101,7 @@ end
 
 This will spawn VMs with correct hardware to run. It will also install Ceph as well. After booting those instances, you will have all the Ceph servers like that:
 
-![Ceph diagram](/images/ceph_diagram.avif)
+![Ceph diagram](/static/images/ceph_diagram.avif)
 
 ## Installation
 

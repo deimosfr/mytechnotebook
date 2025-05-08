@@ -10,7 +10,7 @@ date = '2025-05-05T14:57:29+02:00'
 
 At home, I've 2 [Sonoff remote](https://www.sonoff.be/a-57623819/telecommandes/sonoff-rm433-telecommande) controls for my Sonoff devices. It happens that I have to reset because they link together (kids plays with them). When it happens, the procedure was painful to remember, so I wrote it down here.
 
-![](/images/sonoff_rc.avif)
+![](/static/images/sonoff_rc.avif)
 
 To reset a Sonoff remote control and appair it, follow these steps:
 

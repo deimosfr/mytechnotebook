@@ -11,5 +11,5 @@ toc: true
 
 Here is a well-prepared documentation that allows you to create an IRC server:
 
-[Documentation on setting up an IRC server](/pdf/ircserver.pdf)  
-[Principles and structure of IRC networks](/pdf/principes_et_structure_des_réseaux_irc.pdf)
+[Documentation on setting up an IRC server](/static/pdf/ircserver.pdf)  
+[Principles and structure of IRC networks](/static/pdf/principes_et_structure_des_réseaux_irc.pdf)

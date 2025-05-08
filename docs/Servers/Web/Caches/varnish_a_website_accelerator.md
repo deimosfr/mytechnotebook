@@ -10,7 +10,7 @@ tags:
 toc: true
 ---
 
-![Varnish](/images/varnish_logo.avif)
+![Varnish](/static/images/varnish_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -28,17 +28,17 @@ Varnish is configured simply with two types of files. The Varnish configuration 
 
 [The principle of Varnish](https://www.varnish-cache.org/trac/wiki/VCLExampleDefault) is based on the following state machine:
 
-![Varnish vcl](/images/varnish_vcl.avif)
+![Varnish vcl](/static/images/varnish_vcl.avif)
 
 Varnish allows you to intervene at each state level to perform operations on HTTP or on itself. It's this fine-grained intervention that makes Varnish both fast and comprehensive.
 
 A client making a request for a resource that is not in cache will follow this path:
 
-![Varnish cache miss](/images/varnish_cache_miss.avif)
+![Varnish cache miss](/static/images/varnish_cache_miss.avif)
 
 If this resource is requested again, the path followed changes because the resource is now cached:
 
-![Varnish cache hit](/images/varnish_cache_hit.avif)
+![Varnish cache hit](/static/images/varnish_cache_hit.avif)
 
 All these steps are symbolized in VCL by "standard procedures" (vcl_recv, vcl_fetch, vcl_deliver, etc.). All these procedures can be overridden, and we can also declare our own procedures that will be called in the standard procedures. The VCL language does not tolerate any orphaned code; everything declared must be used.
 
@@ -217,7 +217,7 @@ Varnish also has a mechanism to completely compensate for the failure of a backe
 
 We've seen that Varnish is positioned in front of our entire infrastructure. It will allow us to completely mask the deployed architecture by using all the power of the Reverse Proxy it provides.
 
-![Varnish reverse proxy](/images/varnish_reverse_proxy.avif)
+![Varnish reverse proxy](/static/images/varnish_reverse_proxy.avif)
 
 In fact, it allows us to completely decouple the organization of the calling URIs from the organization of their processing on the infrastructure.
 

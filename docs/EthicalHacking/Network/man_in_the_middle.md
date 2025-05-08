@@ -9,4 +9,4 @@ tags: ["cd ~", "View source", "search", "Man In The Middle", "What links here", 
 toc: true
 ---
 
-[Man In The Middle](/pdf/man_in_the_middle.pdf)
+[Man In The Middle](/static/pdf/man_in_the_middle.pdf)

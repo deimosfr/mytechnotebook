@@ -64,4 +64,4 @@ You need to adapt all fields to fit your server interface.
 
 You can now access to the web interface like this https://ubiquiti-server-IP:6443 and you should have an interface to configure your powerstrips:
 
-![Mfi screenshot](/images/mfi_screenshot.avif)
+![Mfi screenshot](/static/images/mfi_screenshot.avif)

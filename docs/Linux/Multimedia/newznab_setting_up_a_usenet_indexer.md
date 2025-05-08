@@ -9,7 +9,7 @@ tags: ["Newznab", "Website", "Usenet", "SABnzbd", "Database", "Apache", "PHP", "
 toc: true
 ---
 
-![Newznab](/images/newznab_logo.avif)
+![Newznab](/static/images/newznab_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

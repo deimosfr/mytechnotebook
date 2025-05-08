@@ -11,4 +11,4 @@ toc: true
 
 Here is a small guide to set up HylaFax with the AvantFax web frontend:
 
-[Documentation on how to Build a HylaFax Server with AvantFax Frontend](/pdf/build_a_hylafax_server_with_avantfax_frontend.pdf)
+[Documentation on how to Build a HylaFax Server with AvantFax Frontend](/static/pdf/build_a_hylafax_server_with_avantfax_frontend.pdf)

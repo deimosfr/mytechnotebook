@@ -30,7 +30,7 @@ If you aren't sure which to choose, pick the small zone. Below are examples of i
 
 This demonstrates creating a simple zone that uses the default settings which share most of the operating system with the global zone. The final layout will be like the following,
 
-![Small Zone Layout](/images/zrc_small-zone1.avif)
+![Small Zone Layout](/static/images/zrc_small-zone1.avif)
 
 To create such a zone involves letting the system pick default settings, which includes the loopback filesystem (lofs) read only mounts that share most of the OS. The following commands were used,
 
@@ -175,7 +175,7 @@ From the directories that are not lofs shared from the global zone, the main one
 
 This demonstrates creating a zone that resides on it's own slice, which has it's own copy of the operating system. The final layout will be like the following:
 
-![Big Zone Layout](/images/zrc_big-zone1.avif)
+![Big Zone Layout](/static/images/zrc_big-zone1.avif)
 
 First we create the slice:
 
@@ -501,5 +501,5 @@ http://www.solarisinternals.com/wiki/index.php/Zones
 http://www.sun.com/bigadmin/content/zones/  
 [Manage Easily Pools with Kpool GUI](https://kpooladm.atomique.net/)  
 http://www.sun.com/bigadmin/content/submitted/zone_resource_control.jsp  
-[Assigning System Resources to Solaris 10 Zones Without Reboot](/pdf/bigadmin_submitted_article_assigning_system_resources_to_solaris_10_zones_without_reboot.pdf)  
+[Assigning System Resources to Solaris 10 Zones Without Reboot](/static/pdf/bigadmin_submitted_article_assigning_system_resources_to_solaris_10_zones_without_reboot.pdf)  
 http://prefetch.net/blog/index.php/2009/04/12/adding-a-file-system-to-a-running-zone/

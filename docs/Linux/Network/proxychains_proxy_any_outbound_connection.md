@@ -15,7 +15,7 @@ Ah, those proxy servers at work or school! They can be quite troublesome! Someti
 
 The benefit of [proxychains](https://proxychains.sourceforge.net/) is that configuration is done only once, in its own configuration file. Then you use the syntax `proxychains <command> <args>` and your command will use the proxy specified in the proxychains configuration file!
 
-![Proxychains](/images/proxychains.avif)
+![Proxychains](/static/images/proxychains.avif)
 
 ## Installation
 

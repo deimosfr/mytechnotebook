@@ -1362,4 +1362,4 @@ If you have more than 2 nodes, use the same command but without "-o":
 [https://www.vigilanttechnologycorp.com/genasys/weblogRender.jsp?LogName=Sun%20Cluster](https://www.vigilanttechnologycorp.com/genasys/weblogRender.jsp?LogName=Sun%20Cluster)  
 [https://docs.sun.com/app/docs/doc/820-2558/gdrna?l=fr&a=view](https://docs.sun.com/app/docs/doc/820-2558/gdrna?l=fr&a=view)  
 [https://wikis.sun.com/display/SunCluster/%28English%29+Sun+Cluster+3.2+1-09+Release+Notes#%28English%29SunCluster3.21-09ReleaseNotes-optgdfsinfo](https://wikis.sun.com/display/SunCluster/%28English%29+Sun+Cluster+3.2+1-09+Release+Notes#%28English%29SunCluster3.21-09ReleaseNotes-optgdfsinfo) (Gold Mine)  
-[Deploying highly available zones with Solaris Cluster 3.2](/pdf/deploying_highly_available_zones_with_solaris_cluster_3.2.pdf)
+[Deploying highly available zones with Solaris Cluster 3.2](/static/pdf/deploying_highly_available_zones_with_solaris_cluster_3.2.pdf)

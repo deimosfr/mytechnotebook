@@ -9,7 +9,7 @@ tags: ["XtraBackup", "MySQL", "Backup", "Database", "Percona"]
 toc: true
 ---
 
-![XtraBackup](/images/percona-xtrabackup-logo.avif)
+![XtraBackup](/static/images/percona-xtrabackup-logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

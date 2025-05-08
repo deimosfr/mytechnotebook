@@ -11,4 +11,4 @@ toc: true
 
 Here's a small documentation to help you better understand the mysterious `/proc` directory:
 
-[The proc directory](/pdf/le_répertoire_proc.pdf)
+[The proc directory](/static/pdf/le_répertoire_proc.pdf)

@@ -9,7 +9,7 @@ tags: ["Postfix", "Mail", "Queue Management", "Troubleshooting"]
 toc: true
 ---
 
-![Postfix](/images/postfix_logo.avif)
+![Postfix](/static/images/postfix_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

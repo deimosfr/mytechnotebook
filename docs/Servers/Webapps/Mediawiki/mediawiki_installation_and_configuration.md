@@ -985,4 +985,4 @@ php maintenance/update.php
 ```
 
 ## Resources
-- [Your Knowledge Base with Mediawiki](/pdf/votre_base_de_connaissance_avec_mediawiki.pdf)
+- [Your Knowledge Base with Mediawiki](/static/pdf/votre_base_de_connaissance_avec_mediawiki.pdf)

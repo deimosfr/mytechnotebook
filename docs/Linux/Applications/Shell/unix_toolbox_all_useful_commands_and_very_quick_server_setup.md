@@ -9,6 +9,6 @@ tags: ["Unix", "Commands", "Servers", "Reference", "Toolbox"]
 toc: true
 ---
 
-I wasn't sure where to put this little gold mine, so here it is: [Unix Toolbox PDF](/pdf/unixtoolbox.pdf). And here is the updated documentation:
+I wasn't sure where to put this little gold mine, so here it is: [Unix Toolbox PDF](/static/pdf/unixtoolbox.pdf). And here is the updated documentation:
 
 [https://cb.vu/unixtoolbox.xhtml](https://cb.vu/unixtoolbox.xhtml)

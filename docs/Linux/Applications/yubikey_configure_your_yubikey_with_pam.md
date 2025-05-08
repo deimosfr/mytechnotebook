@@ -10,7 +10,7 @@ tags:
 toc: true
 ---
 
-![Yubikey](/images/yubikey.avif)
+![Yubikey](/static/images/yubikey.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -52,11 +52,11 @@ yubikey-personalization-gui
 
 Select the challenge-response menu and SHA-1 challenge:
 
-![Yubi gui1.png](/images/yubi_gui1.avif)
+![Yubi gui1.png](/static/images/yubi_gui1.avif)
 
 Then select all options as shown in the screen below:
 
-![Yubi gui2.png](/images/yubi_gui2.avif)
+![Yubi gui2.png](/static/images/yubi_gui2.avif)
 
 The 3rd step, if checked, requires a 2.5 second key press to unlock.
 

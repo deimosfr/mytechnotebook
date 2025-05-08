@@ -9,7 +9,7 @@ tags: ["Mac", "Debian", "Boot", "Installation"]
 toc: true
 ---
 
-![Debian](/images/debian_logo.avif)
+![Debian](/static/images/debian_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

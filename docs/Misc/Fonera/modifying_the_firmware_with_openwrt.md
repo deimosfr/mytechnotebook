@@ -153,7 +153,7 @@ b57f8b2279bdb9a6483e094c58fc3381  openwrt-fonera-2.6.image
 
 Bingo! We are able to manually recreate an image. We have perfectly analyzed the build process. Now we need to reverse this process to get a kernel file and a rootfs image that we can modify.
 
-![Fon mem map](/images/fon_mem_map.avif)
+![Fon mem map](/static/images/fon_mem_map.avif)
 
 The simplest way to be sure is to dismantle our own attempt. So we start by looking at the header of daimage1:
 

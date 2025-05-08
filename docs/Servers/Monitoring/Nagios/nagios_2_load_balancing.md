@@ -11,4 +11,4 @@ toc: true
 
 Here is documentation on how to implement load balancing with Nagios:
 
-[Nagios2 load balancing PDF](/pdf/nagios2_loadbalancing.pdf)
+[Nagios2 load balancing PDF](/static/pdf/nagios2_loadbalancing.pdf)

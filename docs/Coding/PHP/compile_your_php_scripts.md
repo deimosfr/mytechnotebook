@@ -9,7 +9,7 @@ tags: ["php", "compilation", "bcompiler", "security", "optimization"]
 toc: true
 ---
 
-![PHP](/images/php_icon.avif)
+![PHP](/static/images/php_icon.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

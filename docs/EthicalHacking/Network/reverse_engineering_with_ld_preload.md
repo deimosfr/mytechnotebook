@@ -9,4 +9,4 @@ tags: ["Reverse Engineering", "Linux", "Development", "Security"]
 toc: true
 ---
 
-[Reverse Engineering with LD_PRELOAD](/pdf/reverse_engineering_avec_ld_preload_fr.pdf)
+[Reverse Engineering with LD_PRELOAD](/static/pdf/reverse_engineering_avec_ld_preload_fr.pdf)

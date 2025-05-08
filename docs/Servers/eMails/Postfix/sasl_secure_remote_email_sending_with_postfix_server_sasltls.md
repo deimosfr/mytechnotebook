@@ -18,7 +18,7 @@ tags:
 toc: true
 ---
 
-![Postfix](/images/postfix_logo.avif)
+![Postfix](/static/images/postfix_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -293,4 +293,4 @@ instead of:
 ```
 
 ## Resources
-- [Postfix SMTP Authentication - On The Secure Port Only](/pdf/postfix_smtp_authentication_-_on_the_secure_port_only.pdf)
+- [Postfix SMTP Authentication - On The Secure Port Only](/static/pdf/postfix_smtp_authentication_-_on_the_secure_port_only.pdf)

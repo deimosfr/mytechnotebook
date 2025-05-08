@@ -103,4 +103,4 @@ INSTALL4J_ADD_VM_PARAMS="-Xms16m -Xmx32m"
 ```
 
 ## Resources
-- [Documentation on OpenFire and Spark installation](/pdf/openfire_3_3_3_spark_2_5_7.pdf)
+- [Documentation on OpenFire and Spark installation](/static/pdf/openfire_3_3_3_spark_2_5_7.pdf)

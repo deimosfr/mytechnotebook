@@ -234,4 +234,4 @@ If there is little memory left, the kernel will start by killing processes in us
 [^3]: [https://fr.wikipedia.org/wiki/Mémoire_virtuelle#Swapping](https://fr.wikipedia.org/wiki/Mémoire_virtuelle#Swapping)
 [^4]: [https://www.linuxvox.com/2009/10/what-is-the-linux-kernel-parameter-vm-swappiness/](https://www.linuxvox.com/2009/10/what-is-the-linux-kernel-parameter-vm-swappiness/)
 
-[Memory management and tuning options in Red Hat Enterprise Linux](/pdf/memory_management_and_tuning_options_in_red_hat_enterprise_linux.pdf)
+[Memory management and tuning options in Red Hat Enterprise Linux](/static/pdf/memory_management_and_tuning_options_in_red_hat_enterprise_linux.pdf)

@@ -11,4 +11,4 @@ toc: true
 
 Here is good documentation for people who want to understand how the Linux filesystem works:
 
-[Documentation on Anatomy of a Linux FileSystem](/pdf/anatomy_of_linux_filesystem.pdf)
+[Documentation on Anatomy of a Linux FileSystem](/static/pdf/anatomy_of_linux_filesystem.pdf)

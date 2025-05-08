@@ -25,7 +25,7 @@ After some research on the web, you quickly realize that you will need to create
 
 The final goal is as follows:
 
-![Xenvlanbond.png](/images/xenvlanbond.avif)
+![Xenvlanbond.png](/static/images/xenvlanbond.avif)
 
 Don't worry about bond0, we're only interested in bond1, eth1, and eth2 here.
 

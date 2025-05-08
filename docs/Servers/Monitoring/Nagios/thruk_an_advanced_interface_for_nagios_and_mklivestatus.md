@@ -9,7 +9,7 @@ tags: ["Thruk", "Nagios", "Monitoring", "MKlivestatus", "LDAP", "Apache"]
 toc: true
 ---
 
-![Thruk logo](/images/thruk_logo.avif)
+![Thruk logo](/static/images/thruk_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

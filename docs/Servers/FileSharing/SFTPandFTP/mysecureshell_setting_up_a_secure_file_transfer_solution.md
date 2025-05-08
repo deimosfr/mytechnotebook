@@ -19,4 +19,4 @@ Additionally, there's a Java interface to manage everything for those who want i
 
 ## References
 
-[Documentation on setting up MySecureShell](/pdf/chrooted_sftp_with_mysecureshell.pdf)
+[Documentation on setting up MySecureShell](/static/pdf/chrooted_sftp_with_mysecureshell.pdf)

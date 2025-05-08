@@ -9,7 +9,7 @@ tags: ["Proxy", "Network", "Debian", "Servers"]
 toc: true
 ---
 
-![TinyProxy](/images/tinyproxy_logo.avif)
+![TinyProxy](/static/images/tinyproxy_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

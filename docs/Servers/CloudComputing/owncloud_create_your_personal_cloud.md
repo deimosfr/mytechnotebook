@@ -9,7 +9,7 @@ tags: ["Cloud Storage", "Nginx", "MariaDB", "Self-Hosted", "OwnCloud"]
 toc: true
 ---
 
-![ownCloud](/images/owncloud-logo.avif)
+![ownCloud](/static/images/owncloud-logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

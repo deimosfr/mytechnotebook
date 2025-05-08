@@ -24,14 +24,14 @@ As Puppet manages templates, you can quickly understand the usefulness of Facter
 In short, Puppet combined with Facter seems like a very interesting solution to simplify system administration.
 
 Here is a diagram showing how Puppet works:
-![Puppet Star.png](/images/puppet_star.avif)
+![Puppet Star.png](/static/images/puppet_star.avif)
 
 For Puppet configuration, if you want to use an IDE, there is [Geppetto](https://www.puppetlabs.com/blog/geppetto-a-puppet-ide/). I recommend it, as it will save you a lot of syntax troubles.
 
 Documentation for previous versions is available here:
 
-- [Puppet 2.7](/pdf/puppet_2.7.pdf)
-- [Puppet 0.25.4](/pdf/puppet_0.25.4.pdf)
+- [Puppet 2.7](/static/pdf/puppet_2.7.pdf)
+- [Puppet 0.25.4](/static/pdf/puppet_0.25.4.pdf)
 
 ## Puppet Hierarchy
 
@@ -5608,5 +5608,5 @@ You have a problem with your certificates. The best thing is to regenerate a cer
 - [Modules for Puppet](https://git.black.co.at/)
 - [Puppet recipes](https://reductivelabs.com/trac/puppet/wiki/Recipes)
 - [Types of objects for Puppet](https://reductivelabs.com/trac/puppet/wiki/TypeReference)
-- [Puppet SSL Explained](https://www.masterzen.fr/2010/11/14/puppet-ssl-explained/) [(/pdf)](/pdf/puppet_ssl_explained.pdf)
+- [Puppet SSL Explained](https://www.masterzen.fr/2010/11/14/puppet-ssl-explained/) [(/static/pdf)](/static/pdf/puppet_ssl_explained.pdf)
 - http://puppetcookbook.com/

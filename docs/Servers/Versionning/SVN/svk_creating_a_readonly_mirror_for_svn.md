@@ -13,4 +13,4 @@ toc: true
 
 Here is a short but useful guide for creating a read-only mirror of an SVN repository:
 
-[SVN SVK PDF](/pdf/svn_svk.pdf)
+[SVN SVK PDF](/static/pdf/svn_svk.pdf)

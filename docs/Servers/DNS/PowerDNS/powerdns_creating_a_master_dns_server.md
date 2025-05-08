@@ -9,7 +9,7 @@ tags: ["PowerDNS", "DNS", "MySQL", "Servers", "Network"]
 toc: true
 ---
 
-![PowerDNS](/images/powerdns_logo.avif)
+![PowerDNS](/static/images/powerdns_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

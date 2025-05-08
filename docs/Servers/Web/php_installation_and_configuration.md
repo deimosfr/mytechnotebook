@@ -43,7 +43,7 @@ Which will spare us the compilation phase...
 
 Other extensions are available through the [PECL](https://pecl.php.net) system, but we would be outside the scope of this article. Let's return now to the parameters that can be modified using the ./configure command. I will only present you with a few in the following table, the complete and detailed list being available in the [PHP manual](https://pear.php.net/manual/fr/standards.php).
 
-![Php1.jpg](/images/php1.avif)
+![Php1.jpg](/static/images/php1.avif)
 
 The activation of these options will be done using a command of the type:
 
@@ -242,11 +242,11 @@ To check the most classic security points, there is a tool, PHPSecInfo [6], whic
 * yellow: possible bad configuration value;
 * red: bad configuration value (change of value recommended).
 
-![Php2.jpg](/images/php2.avif)
+![Php2.jpg](/static/images/php2.avif)
 
 If you need more information about a warning message, a link pointing to the site http://phpsec.org/ is available for each directive (see Figure 2).
 
-![Php3.jpg](/images/php3.avif)
+![Php3.jpg](/static/images/php3.avif)
 
 ## Conclusion
 

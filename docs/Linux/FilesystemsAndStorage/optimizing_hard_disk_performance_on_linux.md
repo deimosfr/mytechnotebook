@@ -21,7 +21,7 @@ tags:
 toc: true
 ---
 
-![Linux](/images/poweredbylinux.avif)
+![Linux](/static/images/poweredbylinux.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -105,7 +105,7 @@ plot '/home/pmavro/sdc.zcav' u 1:2 t '160 GiB Hard Drive' with lines, \
 
 As a reminder, I wrote an [article on Gnuplot](./gnuplot_:_grapher_des_données_facilement.html). Here's the result:
 
-![Zcav steppings.png](/images/zcav_steppings.avif)
+![Zcav steppings.png](/static/images/zcav_steppings.avif)
 
 We can see very clearly that the hard disk performs very well at the beginning and suffers on the inside. The speed is almost twice as high on the outside as on the inside, and this is explained by the oscillating arm that reads more data over the same period of time on the outside.
 
@@ -171,7 +171,7 @@ speed = ((average sectors per track * 512 * rpm) /60) / 1000000
 
 ## I/O requests and caches
 
-![Blockio cache.gif](/images/blockio_cache.avif)
+![Blockio cache.gif](/static/images/blockio_cache.avif)
 
 High-level I/O requests such as read/write operations made by the Linux Virtual Filesystem layer must be transformed into block device requests. The kernel then proceeds to queue each block device. Each physical block makes its own queuing request. Queued requests are "Request Descriptors". They describe the data structures that the kernel needs to handle I/O requests. A "request descriptor" can point to an I/O transfer that will in turn point to several disk blocks.
 
@@ -212,7 +212,7 @@ The read-ahead algorithm is managed by 2 values:
 - The current window: it controls the amount of data that the kernel will have to process when it makes I/O accesses.
 - The ahead window
 
-![Disks read ahead.jpg](/images/disks_read_ahead.avif)
+![Disks read ahead.jpg](/static/images/disks_read_ahead.avif)
 
 When an application requests page access for reading in the buffer cache (which are part of the current window), the I/Os are done on the ahead window! However, when the application has finished reading on the current window, the ahead window becomes the new current window and a new ahead is created.
 **If access to a page is in the current window, the size of the new ahead window will then be increased by 2 pages. If the read-ahead throughput is low, the ahead window size will be gradually reduced.**

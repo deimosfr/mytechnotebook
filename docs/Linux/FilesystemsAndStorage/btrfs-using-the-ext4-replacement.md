@@ -9,7 +9,7 @@ tags: ["BTRFS", "Filesystem", "Linux", "Ext4", "Storage", "ZFS"]
 toc: true
 ---
 
-![BTRFS](/images/btrfs_logo.avif)
+![BTRFS](/static/images/btrfs_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

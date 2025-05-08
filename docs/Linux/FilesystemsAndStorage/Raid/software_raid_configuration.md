@@ -461,4 +461,4 @@ mdadm --detail --scan --verbose >> /etc/mdadm/mdadm.conf
 [^6]: https://access.redhat.com/knowledge/docs/fr-FR/Red_Hat_Enterprise_Linux/6/html/Migration_Planning_Guide/chap-Migration_Guide-File_Systems.html
 [^7]: http://www.linuxpedia.fr/doku.php/expert/mdadm
 [^8]: http://tldp.org/HOWTO/Software-RAID-HOWTO-6.html
-[^9]: [How to resize raid partition](/pdf/how_to_resize_raid_partitions.pdf)
+[^9]: [How to resize raid partition](/static/pdf/how_to_resize_raid_partitions.pdf)

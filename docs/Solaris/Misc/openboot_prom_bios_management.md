@@ -31,7 +31,7 @@ prtconf -V
 
 The NVRAM can be modified by a user to change some options on the machine:
 
-![NVRAM](/images/sun-prom-nvram.avif)
+![NVRAM](/static/images/sun-prom-nvram.avif)
 
 Once the NVRAM is stored on the chipset, during the PROM call at boot, it will check the user's preferences at the NVRAM level in order to apply them.
 

@@ -18,7 +18,7 @@ tags:
 toc: true
 ---
 
-![Mcollective](/images/mcollective-logo.avif)
+![Mcollective](/static/images/mcollective-logo.avif)
 
 {{% table "table-hover table-striped" %}}
 |||
@@ -50,7 +50,7 @@ Mcollective uses a queue server, so I'll suggest two options:
 
 Use the one that interests you. Here's how Mcollective is structured and should work:
 
-![Mcollective-schema](/images/mcollective-schema.avif)
+![Mcollective-schema](/static/images/mcollective-schema.avif)
 
 - **The client** actually corresponds to the machine that acts as the Mcollective server. It is the node that will control the Mcollective servers.
 - **The Mcollective servers** are represented here by nodes in the form of clusters. For a machine to be controlled by the Mcollective client, the server must be installed on it.

@@ -23,7 +23,7 @@ To verify your configuration file and test potential security vulnerabilities, h
 
 Here's the documentation I found:
 
-[Apache Security Testing](/pdf/security_testing_your_apache_configuration_with_nikto.pdf)
+[Apache Security Testing](/static/pdf/security_testing_your_apache_configuration_with_nikto.pdf)
 
 For those who don't want to recompile packages:
 

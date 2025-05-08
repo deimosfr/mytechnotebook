@@ -11,4 +11,4 @@ toc: true
 
 SQL injections are common hacking methods that deserve special attention. Here is some documentation:
 
-[Documentation on Preventing MySQL Injection Attacks With GreenSQL](/pdf/preventing_mysql_injection_attacks_with_greensql.pdf)
+[Documentation on Preventing MySQL Injection Attacks With GreenSQL](/static/pdf/preventing_mysql_injection_attacks_with_greensql.pdf)

@@ -9,7 +9,7 @@ tags: ["Windows", "Debugging", "Crash Analysis", "System Administration"]
 toc: true
 ---
 
-![WinDbg](/images/windbg_icon.avif)
+![WinDbg](/static/images/windbg_icon.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

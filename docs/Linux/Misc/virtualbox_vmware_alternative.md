@@ -123,6 +123,6 @@ This is due to the default kernel of the server version which is 686. Change it 
 At the end of the installation, you can chroot into your new system and install the kernel: linux-image-386.
 
 ## Resources
-- [VirtualBox Documentation](/pdf/virtualboxfc6centos.pdf)
+- [VirtualBox Documentation](/static/pdf/virtualboxfc6centos.pdf)
 - [Controlling VirtualBox from the Command Line](https://www.linux.com/feature/151029)
 - [Advanced Networking Linux configuration for VirtualBox](https://www.virtualbox.org/wiki/Advanced_Networking_Linux)

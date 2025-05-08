@@ -13,7 +13,7 @@ toc: true
 
 ### CentOS
 
-[CentOS Kernel 2.6](/pdf/centos-kernel.pdf)
+[CentOS Kernel 2.6](/static/pdf/centos-kernel.pdf)
 
 ### Debian
 
@@ -105,21 +105,21 @@ dpkg -i ../linux-image-4.8.4_1.0_amd64.deb
 Now restart your machine and boot on your new kernel :-)
 
 Here are other documentations:  
-[Debian Kernel 2.4](/pdf/debian-kernel-2.4.pdf)  
-[Debian Kernel 2.6](/pdf/debian-kernel-2.6.pdf)
+[Debian Kernel 2.4](/static/pdf/debian-kernel-2.4.pdf)  
+[Debian Kernel 2.6](/static/pdf/debian-kernel-2.6.pdf)
 
 ### Fedora Core
 
-[Fedora Kernel](/pdf/fedora-kernel.pdf)
+[Fedora Kernel](/static/pdf/fedora-kernel.pdf)
 
 ### Mandriva
 
-[Mandriva Kernel](/pdf/mandriva-kernel.pdf)
+[Mandriva Kernel](/static/pdf/mandriva-kernel.pdf)
 
 ### Suse
 
-[Suse Kernel](/pdf/suse-kernel.pdf)
+[Suse Kernel](/static/pdf/suse-kernel.pdf)
 
 ### Ubuntu
 
-[Ubuntu Kernel](/pdf/ubuntu-kernel.pdf)
+[Ubuntu Kernel](/static/pdf/ubuntu-kernel.pdf)

@@ -11,4 +11,4 @@ toc: true
 
 Here is a fun documentation that explains how to remove the nasty RedHat distro and replace it with the sublime Debian distribution, all without deleting any data:
 
-[How To Remotely Install Debian Over A RH Based Distro](/pdf/how_to_remotely_install_debian_over_a_rh_based_distro.pdf)
+[How To Remotely Install Debian Over A RH Based Distro](/static/pdf/how_to_remotely_install_debian_over_a_rh_based_distro.pdf)

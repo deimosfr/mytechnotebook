@@ -17,7 +17,7 @@ tags:
 toc: true
 ---
 
-![Kerberos](/images/logo_kerberos_consortium.avif)
+![Kerberos](/static/images/logo_kerberos_consortium.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -34,7 +34,7 @@ We can summarize the operation as follows: a user opens a session on the domain 
 
 Kerberos works with a system of tokens, which we will call 'tickets'. Authentication takes place in several steps:
 
-![Kerberos diagram](/images/kerb_schema.avif)
+![Kerberos diagram](/static/images/kerb_schema.avif)
 
 1. The client workstation requests a ticket from the Kerberos server (here the Win2003 DC)
 2. The KDC returns a ticket, since the client is already identified on the network

@@ -11,4 +11,4 @@ toc: true
 
 Here is documentation on log segmentation for Lighttpd with statistics creation using Webalizer:
 
-[Documentation on Splitting lighttpd Logs With vlogger And Creating Statistics With Webalizer](/pdf/splitting_lighttpd_logs_with_vlogger_and_creating_statistics_with_webalizer.pdf)
+[Documentation on Splitting lighttpd Logs With vlogger And Creating Statistics With Webalizer](/static/pdf/splitting_lighttpd_logs_with_vlogger_and_creating_statistics_with_webalizer.pdf)

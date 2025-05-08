@@ -11,4 +11,4 @@ toc: true
 
 Here is documentation explaining how to burn CDs and DVDs using the command line. This is useful for automating backups, for example:
 
-[Documentation on CD/DVD burning and command line tools](/pdf/gravure_de_cd_dvd_et_commandes_en_ligne.pdf)
+[Documentation on CD/DVD burning and command line tools](/static/pdf/gravure_de_cd_dvd_et_commandes_en_ligne.pdf)

@@ -767,8 +767,8 @@ rndc flush
 
 ## Resources
 
-- [DNS Server on OpenBSD](/pdf/openbsd_dns_server.pdf)
-- [Installing An Ubuntu DNS Server With BIND](/pdf/installing_an_ubuntu_dns_server_with_bind.pdf)
+- [DNS Server on OpenBSD](/static/pdf/openbsd_dns_server.pdf)
+- [Installing An Ubuntu DNS Server With BIND](/static/pdf/installing_an_ubuntu_dns_server_with_bind.pdf)
 - http://fr.wikipedia.org/wiki/BIND
 - http://fr.gentoo-wiki.com/HOWTO_Bind
 - http://www.zytrax.com/books/dns/

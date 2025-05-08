@@ -11,4 +11,4 @@ toc: true
 
 Here is documentation for monitoring connections to the Proftpd FTP server:
 
-[PhpFtpWho PDF](/pdf/phpftpwho.pdf)
+[PhpFtpWho PDF](/static/pdf/phpftpwho.pdf)

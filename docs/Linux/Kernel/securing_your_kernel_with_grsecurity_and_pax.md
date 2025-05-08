@@ -166,5 +166,5 @@ CONFIG_SECURITY_CAPABILITIES=y
 ```
 
 ## Resources
-- [Le fonctionnement de PaX](/pdf/le_fonctionnement_de_pax.pdf)
-- [Hardening The Linux Kernel With Grsecurity](/pdf/hardening_the_linux_kernel_with_grsecurity.pdf)
+- [Le fonctionnement de PaX](/static/pdf/le_fonctionnement_de_pax.pdf)
+- [Hardening The Linux Kernel With Grsecurity](/static/pdf/hardening_the_linux_kernel_with_grsecurity.pdf)

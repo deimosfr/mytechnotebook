@@ -22,4 +22,4 @@ Maybe your machine doesn't have a DVD drive or it's simply not working. How can 
 - Drag and drop the Tiger disk image into **Source** and the new partition into **Destination**. Then click on Restore
 - Once the restoration is complete, go to System Preferences / Startup Disk, choose the new partition as the startup disk, then restart
 
-![External OSX Installation](/images/dmg-01-tm.avif)
+![External OSX Installation](/static/images/dmg-01-tm.avif)

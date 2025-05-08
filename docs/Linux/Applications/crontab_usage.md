@@ -28,7 +28,7 @@ At this stage, we're only at the drafting stage of the email and nothing is auto
 
 A command line in this file consists of 6 fields, separated by spaces or tabs, in this order:
 
-![T1.jpg](/images/t1.avif)
+![T1.jpg](/static/images/t1.avif)
 
 The syntax of the fields may appear differently depending on your distribution; for example, you might find jj or dom (day of month) for the day of the month, mon for month, etc. Multiple elements in the same field are separated by a comma (e.g., 1,3,5 in the month field means "January, March, May"); similarly, a range is expressed by a hyphen (e.g., 1-3 for the day of the week means "Monday to Wednesday"); an asterisk (\*) designates the largest possible interval.
 

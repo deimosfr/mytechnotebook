@@ -144,4 +144,4 @@ For additions and modifications, they are done exactly as if the master server w
 
 ## Resources
 - http://www.free-4ever.net/index.php/Openldap:configuration_slapd_replication
-- [Setting up a multimaster OpenLDAP](/pdf/openldap_multimasters.pdf)
+- [Setting up a multimaster OpenLDAP](/static/pdf/openldap_multimasters.pdf)

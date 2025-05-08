@@ -176,6 +176,6 @@ print "write.value ".$bytes_write."\n";
 ```
 
 ## Resources
-- [Documentation on Monitoring Multiple Systems With Munin](/pdf/monitoring_multiple_systems_with_munin.pdf)
-- [Monitoring with Munin](/pdf/monitoring_with_munin.pdf)
+- [Documentation on Monitoring Multiple Systems With Munin](/static/pdf/monitoring_multiple_systems_with_munin.pdf)
+- [Monitoring with Munin](/static/pdf/monitoring_with_munin.pdf)
 - http://www.rottenbytes.info/?p=79

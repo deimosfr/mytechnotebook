@@ -12,7 +12,7 @@ toc: true
 {{< table "table-hover table-striped" >}}
 |||
 |-|-|
-| ![Beamer](/images/latex_logo.avif) ||
+| ![Beamer](/static/images/latex_logo.avif) ||
 | **Software version** | 3.24-1 |
 | **Operating System** | Debian 7 |
 | **Website** | [Website](https://bitbucket.org/rivanvx/beamer/wiki/HomeBeamer) |
@@ -32,7 +32,7 @@ There are some rules you need to understand if it's the first time you're using 
 
 {{< alert context="info" text="I've made a custom theme with custom functionalities. Some of them require to load custom functions to work. I've added everything in that document as well" />}}
 
-You can look at [a result example here](/pdf/beamer.pdf). If you want to grab the sources of that example, you can get it [from my Git](https://git.deimos.fr/?p=git_deimosfr.git;a=tree;f=others/beamer_template;hb=HEAD).
+You can look at [a result example here](/static/pdf/beamer.pdf). If you want to grab the sources of that example, you can get it [from my Git](https://git.deimos.fr/?p=git_deimosfr.git;a=tree;f=others/beamer_template;hb=HEAD).
 
 Now you're ready for the practice.
 

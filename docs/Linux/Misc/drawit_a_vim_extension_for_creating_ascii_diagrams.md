@@ -9,7 +9,7 @@ tags: ["Servers", "Mac OS X", "Windows", "DrawIt", "VIM", "ASCII"]
 toc: true
 ---
 
-![Drawit VIM](/images/ascii-drawing-in-vim-editor-300x257.avif)
+![Drawit VIM](/static/images/ascii-drawing-in-vim-editor-300x257.avif)
 
 ## Introduction
 

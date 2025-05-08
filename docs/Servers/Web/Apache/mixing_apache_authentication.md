@@ -151,15 +151,15 @@ htpasswd /etc/apache2/htaccesspassword username
 Don't forget to restart Apache.
 
 For a good documentation, follow this:
-[Documentation on Htaccess](/pdf/htaccess.pdf)
+[Documentation on Htaccess](/static/pdf/htaccess.pdf)
 
 ## Authentication by Countries
 
-[Deny Or Allow Countries With Apache htaccess](/pdf/deny_or_allow_countries_with_apache_htaccess.pdf)
+[Deny Or Allow Countries With Apache htaccess](/static/pdf/deny_or_allow_countries_with_apache_htaccess.pdf)
 
 ## Authentication through Radius
 
 Here is how to authenticate through a radius server:
 
-[Radius Authentication](/pdf/apache_radius_authentication.pdf)  
-[How To Configure Apache To Use Radius For Two-Factor Authentication On Ubuntu](/pdf/how_to_configure_apache_to_use_radius_for_two-factor_authentication_on_ubuntu.pdf)
+[Radius Authentication](/static/pdf/apache_radius_authentication.pdf)  
+[How To Configure Apache To Use Radius For Two-Factor Authentication On Ubuntu](/static/pdf/how_to_configure_apache_to_use_radius_for_two-factor_authentication_on_ubuntu.pdf)

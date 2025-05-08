@@ -25,7 +25,7 @@ On your hard drive, where you store your data, there is a hierarchical structure
 
 Inodes are what know exactly where each directory/file is located. When you create or call a file, it points to an inode. This inode is then able to identify which data block it belongs to (binary slice). Here's a small explanation with an image:
 
-![Hdd function](/images/hdd_fonction.avif)
+![Hdd function](/static/images/hdd_fonction.avif)
 
 ### Hardware Recognition
 
@@ -41,17 +41,17 @@ Here are some examples:
 
 #### SCSI
 
-![Sun hdd scsi](/images/sun_hdd_scsi.avif)
+![Sun hdd scsi](/static/images/sun_hdd_scsi.avif)
 
 #### IDE
 
-![Sun hdd ide](/images/sun_hdd_ide.avif)
+![Sun hdd ide](/static/images/sun_hdd_ide.avif)
 
 ### Slices
 
 Then, the slices (also called partitions) are defined as follows for better performance optimization:
 
-![Sun slice](/images/sun_slice.avif)
+![Sun slice](/static/images/sun_slice.avif)
 
 ## What About My Machine?
 
@@ -686,11 +686,11 @@ There are 4 types of FileSystems in Solaris:
 
 Here is a description of UFS:
 
-![Sun ufs](/images/sun_ufs.avif)
+![Sun ufs](/static/images/sun_ufs.avif)
 
 As well as how inodes work:
 
-![Sun ufs inodes](/images/sun_ufs_inodes.avif)
+![Sun ufs inodes](/static/images/sun_ufs_inodes.avif)
 
 ### Creating the FileSystem
 

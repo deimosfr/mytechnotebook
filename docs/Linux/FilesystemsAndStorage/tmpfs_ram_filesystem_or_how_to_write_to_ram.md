@@ -62,5 +62,5 @@ tmpfs /tmp tmpfs defaults,size=1g 0 0
 ```
 
 ## Resources
-- [Storing Files Directories In Memory With tmpfs](/pdf/storing_files_directories_in_memory_with_tmpfs.pdf)
+- [Storing Files Directories In Memory With tmpfs](/static/pdf/storing_files_directories_in_memory_with_tmpfs.pdf)
 - http://www.generation-linux.fr/index.php?post/2009/05/04/tmpfs-%3A-utiliser-sa-ram-comme-repertoire-de-stockage

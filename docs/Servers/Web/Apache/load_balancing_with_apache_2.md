@@ -10,7 +10,7 @@ toc: true
 ---
 
 Here is an effective way to create Load Balancing with several Apache servers:  
-[Load Balancer Proxy Documentation for Apache](/pdf/apache_mod_proxy_balancer.pdf)
+[Load Balancer Proxy Documentation for Apache](/static/pdf/apache_mod_proxy_balancer.pdf)
 
 And here is another documentation on setting up an Apache Server Cluster:  
-[Documentation on Setting up a Web Server with Apache, LVS and Heartbeat 2](/pdf/setup_web_server_cluster.pdf)
+[Documentation on Setting up a Web Server with Apache, LVS and Heartbeat 2](/static/pdf/setup_web_server_cluster.pdf)

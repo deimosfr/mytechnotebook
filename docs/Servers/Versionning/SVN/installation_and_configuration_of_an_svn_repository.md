@@ -151,7 +151,7 @@ You can then save this configuration to make it permanent by doing a commit.
 
 ## References
 
-[Setting up an SVN repo](/pdf/svn.pdf)  
-[Apache Subversion Documentation](/pdf/howto_apache_subversion.pdf)  
-[SVN and auto updatable working copy Documentation](/pdf/subversion_with_auto_updatable_working_copy.pdf)  
-[Subversion and Trac as Virtual-Hosts documentation](/pdf/subversion_and_trac_as_virtual_hosts.pdf)
+[Setting up an SVN repo](/static/pdf/svn.pdf)  
+[Apache Subversion Documentation](/static/pdf/howto_apache_subversion.pdf)  
+[SVN and auto updatable working copy Documentation](/static/pdf/subversion_with_auto_updatable_working_copy.pdf)  
+[Subversion and Trac as Virtual-Hosts documentation](/static/pdf/subversion_and_trac_as_virtual_hosts.pdf)

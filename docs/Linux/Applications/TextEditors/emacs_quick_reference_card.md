@@ -11,4 +11,4 @@ toc: true
 
 As I'm not an Emacs user, I can't personally vouch for the quality of this Quick Reference Card. But since the Vi one is good, this one should theoretically be as well :).
 
-Here is the [Emacs Quick Reference Card PDF](/pdf/emacsqrc.pdf).
+Here is the [Emacs Quick Reference Card PDF](/static/pdf/emacsqrc.pdf).

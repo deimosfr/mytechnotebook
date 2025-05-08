@@ -18,13 +18,13 @@ tags:
 toc: true
 ---
 
-![MySQL Logo](/images/mysql_logo.avif)
+![MySQL Logo](/static/images/mysql_logo.avif)
 
 ## Introduction
 
 After completing the installation (See: [Installation and Configuration]({{< ref "docs/Servers/Databases/MySQL-MariaDB/mysql_installation_and_configuration.md" >}})), we are going to set up MySQL master-master replication. We need to replicate MySQL servers to achieve high-availability (HA). In my case I need two masters that are synchronized with each other so that if one of them goes down, the other could take over and no data is lost. Similarly, when the first one goes up again, it will still be used as slave for the live one.
 
-![MySQL replication](/images/mysql_replication.avif)
+![MySQL replication](/static/images/mysql_replication.avif)
 
 Here is a basic step by step tutorial, that will cover the MySQL master and slave replication and also will describe the MySQL master and master replication.
 
@@ -516,10 +516,10 @@ All should now be ok :-)
 
 Here is another documentation if you encounter problems:
 
-- [MySQL Database Scale-out and Replication for High Growth Businesses (Very good documentation)](/pdf/mysql_database_scale-out_and_replication_for_high_growth_businesses.pdf)
-- [Other MySQL masters replication documentation](/pdf/mysql_mastertomaster.pdf)
-- [Master to Master replication MySQL 5 on Debian Etch](/pdf/mastertomaster_replication_with_mysql_5.pdf)
-- [Master to Master replication MySQL 5 on Fedora](/pdf/master-master_replication_with_mysql_5_on_fedora_8.pdf)
-- [How To Repair MySQL Replication](/pdf/how_to_repair_mysql_replication.pdf)
-- [Setting Up Master-Master Replication On Four Nodes](/pdf/setting_up_master-master_replication_on_four_nodes_with_mysql_5_on_debian_etch.pdf)
-- [MariaDB MySQL Advanced](/pdf/mariadb_mysql_avance.pdf)
+- [MySQL Database Scale-out and Replication for High Growth Businesses (Very good documentation)](/static/pdf/mysql_database_scale-out_and_replication_for_high_growth_businesses.pdf)
+- [Other MySQL masters replication documentation](/static/pdf/mysql_mastertomaster.pdf)
+- [Master to Master replication MySQL 5 on Debian Etch](/static/pdf/mastertomaster_replication_with_mysql_5.pdf)
+- [Master to Master replication MySQL 5 on Fedora](/static/pdf/master-master_replication_with_mysql_5_on_fedora_8.pdf)
+- [How To Repair MySQL Replication](/static/pdf/how_to_repair_mysql_replication.pdf)
+- [Setting Up Master-Master Replication On Four Nodes](/static/pdf/setting_up_master-master_replication_on_four_nodes_with_mysql_5_on_debian_etch.pdf)
+- [MariaDB MySQL Advanced](/static/pdf/mariadb_mysql_avance.pdf)

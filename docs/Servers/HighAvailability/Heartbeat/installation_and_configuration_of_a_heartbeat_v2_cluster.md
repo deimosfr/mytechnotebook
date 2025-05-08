@@ -487,8 +487,8 @@ rm /var/lib/heartbeat/hb_uuid
 
 ## Resources
 
-- [Documentation on setting up Heartbeat 2](/pdf/heartbeat_2.pdf)
-- [Documentation on Setting up a Web Server with Apache, LVS and Heartbeat 2](/pdf/setup_web_server_cluster.pdf)
-- [Documentation on Heartbeat2 Xen cluster with drbd8 and OCFS2](/pdf/heartbeat2_xen_cluster_with_drbd8_and_ocfs2.pdf)
-- [Enable high availability for composite applications](/pdf/l-haccmdb-pdf.pdf)
+- [Documentation on setting up Heartbeat 2](/static/pdf/heartbeat_2.pdf)
+- [Documentation on Setting up a Web Server with Apache, LVS and Heartbeat 2](/static/pdf/setup_web_server_cluster.pdf)
+- [Documentation on Heartbeat2 Xen cluster with drbd8 and OCFS2](/static/pdf/heartbeat2_xen_cluster_with_drbd8_and_ocfs2.pdf)
+- [Enable high availability for composite applications](/static/pdf/l-haccmdb-pdf.pdf)
 - [https://en.wikipedia.org/wiki/High_availability](https://en.wikipedia.org/wiki/High_availability)

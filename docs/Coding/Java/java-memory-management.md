@@ -11,4 +11,4 @@ toc: true
 
 Here is documentation on memory management usage. It's not up to date but it explains very well how a JVM works.
 
-[Documentation on Java memory management](/pdf/memoire-java.pdf)
+[Documentation on Java memory management](/static/pdf/memoire-java.pdf)

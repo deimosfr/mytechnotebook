@@ -11,7 +11,7 @@ toc: true
 
 To save space on your WSUS server, you can purge unused updates. There's no need to keep old updates that are no longer useful.
 
-For this, you need to use the "WSUSDebug" tool ([available here for direct download](/others/wsus_server_debug_tool.zip) or [here](https://www.laboratoire-microsoft.org/d/?id=16846)).
+For this, you need to use the "WSUSDebug" tool ([available here for direct download](/static/others/wsus_server_debug_tool.zip) or [here](https://www.laboratoire-microsoft.org/d/?id=16846)).
 
 Download and install it in "C:\Windows".
 Then open the command prompt and type:

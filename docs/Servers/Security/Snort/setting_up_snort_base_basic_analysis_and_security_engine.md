@@ -17,7 +17,7 @@ Currently it's not perfect, but it's still less expensive than some [IPS (Intrus
 
 ## Installation and configuration
 
-[Documentation on installing and configuring Base and Snort](/pdf/ids_snort_base.pdf)
+[Documentation on installing and configuring Base and Snort](/static/pdf/ids_snort_base.pdf)
 
 ### Using Debian packages
 
@@ -54,6 +54,6 @@ That's it! So it wasn't really a big deal, and BASE is running again :-)
 
 ## Resources
 
-- [Another Documentation on Base and Snort](/pdf/snort_base.pdf)
-- [Setting up Snort (IDS), OSSEC (HbIDS) and Prelude (HIDS)](/pdf/av04mihf.pdf)
+- [Another Documentation on Base and Snort](/static/pdf/snort_base.pdf)
+- [Setting up Snort (IDS), OSSEC (HbIDS) and Prelude (HIDS)](/static/pdf/av04mihf.pdf)
 - [https://oinkmaster.sourceforge.net/](https://oinkmaster.sourceforge.net/)

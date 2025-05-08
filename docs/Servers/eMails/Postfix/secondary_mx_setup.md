@@ -135,4 +135,4 @@ mailq -q
 
 ## References
 
-[Other documentation](/pdf/postfix_as_a_backup_mx.pdf)
+[Other documentation](/static/pdf/postfix_as_a_backup_mx.pdf)

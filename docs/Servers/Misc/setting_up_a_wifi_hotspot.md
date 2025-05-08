@@ -13,7 +13,7 @@ toc: true
 
 One of the things, if not THE thing I was dying to do in my new apartment, was to set up a real hotspot, as I explained in the two news posts below. Well, it's now up and running. I don't know yet if I'll make a full article about it or if I'll just give tips as I go along, but in the meantime, here's what it looks like:
 
-![Empire Network](/images/empirenet.avif)
+![Empire Network](/static/images/empirenet.avif)
 
 ## Installation and configuration
 

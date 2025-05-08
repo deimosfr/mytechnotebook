@@ -39,7 +39,7 @@ Then restart to load everything:
 
 ## Configuration
 
-All you need to do is read [Mod security.pdf](/pdf/mod_security.pdf).
+All you need to do is read [Mod security.pdf](/static/pdf/mod_security.pdf).
 
 And finally, here's my configuration:
 
@@ -105,5 +105,5 @@ TraceEnable "off"
 ```
 
 ## Resources
-- [Mod Security Debian Etch Documentation](/pdf/modsecurity2_debian_etch.pdf)
-- [Advanced Apache web server security: mod_security and mod_dosevasive](/pdf/mod_security_mod_dosevasive.pdf)
+- [Mod Security Debian Etch Documentation](/static/pdf/modsecurity2_debian_etch.pdf)
+- [Advanced Apache web server security: mod_security and mod_dosevasive](/static/pdf/mod_security_mod_dosevasive.pdf)

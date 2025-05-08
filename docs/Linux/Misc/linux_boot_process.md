@@ -11,4 +11,4 @@ toc: true
 
 Here is a very comprehensive documentation, perhaps a bit too complex for beginners, but we all need to learn:
 
-[Linux Boot Process](/pdf/le_boot_linux.pdf)
+[Linux Boot Process](/static/pdf/le_boot_linux.pdf)

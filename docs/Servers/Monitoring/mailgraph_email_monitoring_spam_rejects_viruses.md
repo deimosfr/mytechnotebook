@@ -91,4 +91,4 @@ $HTTP["url"] =~ "^/mailgraph*", {
 Here "/mailgraph" has been replaced with "/mailgraph.cgi". Reload your lighttpd configuration and it should work.
 
 ## Resources
-- [Mailgraph documentation](/pdf/mailgraph.pdf)
+- [Mailgraph documentation](/static/pdf/mailgraph.pdf)

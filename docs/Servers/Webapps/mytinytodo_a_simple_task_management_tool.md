@@ -9,7 +9,7 @@ tags: ["Task Management", "Web Applications", "Servers"]
 toc: true
 ---
 
-![MyTinyTodo](/images/logomytodolist.avif)
+![MyTinyTodo](/static/images/logomytodolist.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

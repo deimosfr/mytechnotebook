@@ -153,6 +153,6 @@ iptables -F && iptables -X && iptables -P INPUT ACCEPT && iptables -OUTPUT ACCEP
 
 ## Resources
 
-- [Firewalling under Linux](/pdf/firewalling_sous_linux.pdf)
-- [Implementation of an Internet Gateway](/pdf/mise_en_oeuvre_d'une_passerelle_insternet.pdf)
-- [IPtables from top to bottom](/pdf/firewall-iptables.pdf)
+- [Firewalling under Linux](/static/pdf/firewalling_sous_linux.pdf)
+- [Implementation of an Internet Gateway](/static/pdf/mise_en_oeuvre_d'une_passerelle_insternet.pdf)
+- [IPtables from top to bottom](/static/pdf/firewall-iptables.pdf)

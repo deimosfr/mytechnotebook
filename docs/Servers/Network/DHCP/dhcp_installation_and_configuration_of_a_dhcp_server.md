@@ -505,4 +505,4 @@ Then to start the service:
 ```
 
 ## Resources
-- [How To Set Up DHCP Failover](/pdf/how_to_set_up_dhcp_failover.pdf)
+- [How To Set Up DHCP Failover](/static/pdf/how_to_set_up_dhcp_failover.pdf)

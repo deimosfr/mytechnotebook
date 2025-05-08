@@ -9,7 +9,7 @@ tags: ["Network", "Linux", "Load Balancing", "Routing", "Failover"]
 toc: true
 ---
 
-![Load balancer linux](/images/load_balancer_linux.avif)
+![Load balancer linux](/static/images/load_balancer_linux.avif)
 
 ## Introduction
 
@@ -368,4 +368,4 @@ update-rc.d defaults check_isp_connectivity
 ```
 
 ## Resources
-- [Load_balancer_linux.txt](/images/load_balancer_linux.txt)
+- [Load_balancer_linux.txt](/static/images/load_balancer_linux.txt)

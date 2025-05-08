@@ -9,7 +9,7 @@ tags: ["systemd", "boot", "debugging", "Debian", "Linux"]
 toc: true
 ---
 
-![Systemd](/images/poweredbylinux.avif)
+![Systemd](/static/images/poweredbylinux.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

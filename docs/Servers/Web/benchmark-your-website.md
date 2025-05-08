@@ -9,7 +9,7 @@ tags: ["Apache", "Nginx", "Varnish", "Benchmark", "Performance"]
 toc: true
 ---
 
-![Apache](/images/apache_logo.avif)
+![Apache](/static/images/apache_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

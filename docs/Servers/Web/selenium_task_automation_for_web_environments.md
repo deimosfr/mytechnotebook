@@ -9,7 +9,7 @@ tags: ["Selenium", "Firefox", "Automation", "Testing", "Web"]
 toc: true
 ---
 
-![Selenium](/images/selenium-logo.avif)
+![Selenium](/static/images/selenium-logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -31,13 +31,13 @@ It's actually a Firefox plugin, available for free. It allows you to easily reco
 
 The installation of this plugin is done simply from [the Mozilla add-ons center](https://addons.mozilla.org/fr/firefox/addon/selenium-expert-selenium-ide/). For better ergonomics, it can be coupled with [a "button" plugin](https://addons.mozilla.org/fr/firefox/addon/selenium-ide-button/) that will interface it in the main Firefox window, giving easier and faster access to the IDE's features.
 
-![FirefoxSelenium](/images/firefoxselenium.avif)
+![FirefoxSelenium](/static/images/firefoxselenium.avif)
 
 ### Plugin interface
 
 The plugin has a simple interface, which is obtained by clicking on our magnificent button.
 
-![SeleniumInFirefox](/images/seleniuminfirefox.avif)
+![SeleniumInFirefox](/static/images/seleniuminfirefox.avif)
 
 It consists of a toolbar for creating/editing/saving tests, a log window to see them running in real time, a test case view, a "Table" view where you can see the actions that will take place, a search bar and a nice recording button.
 
@@ -47,7 +47,7 @@ It consists of a toolbar for creating/editing/saving tests, a log window to see 
 
 By default, when the IDE starts, recording begins. The test in which actions are recorded is then called "Untitled". We can see in the screenshot below that it records each action, such as when you click on the Images link in Google after starting it.
 
-![RecordStart](/images/recordstart.avif)
+![RecordStart](/static/images/recordstart.avif)
 
 The actions are located in the "Table" view. By right-clicking on Untitled, you can rename it. Once the recording is finished, simply click again on the recording signal to stop it: your test is done!
 In the File menu, you can choose "New Test" and start again. Finally, once all your tests are completed, you can save them as a "Test Suite" in the File menu.
@@ -56,9 +56,9 @@ In the File menu, you can choose "New Test" and start again. Finally, once all y
 
 To play a test suite, simply open it with the Selenium IDE via the File menu. The test suite then appears in the **Test Case** view.
 
-![TestCase](/images/testcase.avif)
+![TestCase](/static/images/testcase.avif)
 
 To launch it, simply click on the first test and launch via the grouped launch button (left) or click on the desired test and launch it individually (right button).
 You will be able to see the results in the dedicated area.
 
-![RunTest](/images/runtest.avif)
+![RunTest](/static/images/runtest.avif)

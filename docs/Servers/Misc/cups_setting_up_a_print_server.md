@@ -78,4 +78,4 @@ adduser username lpadmin
 
 ## References
 
-[CUPS Documentation](/pdf/cups.pdf)
+[CUPS Documentation](/static/pdf/cups.pdf)

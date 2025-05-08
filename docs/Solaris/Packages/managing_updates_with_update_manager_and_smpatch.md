@@ -23,7 +23,7 @@ As it is on servers, I don't have a graphical interface and I need to run update
 
 Just to give you a quick idea, when you have a graphical interface, it looks like this:
 
-![Sum-installing.jpg](/images/sum-installing.avif)
+![Sum-installing.jpg](/static/images/sum-installing.avif)
 
 I won't explain how it works as it is very simple.
 

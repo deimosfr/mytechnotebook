@@ -526,7 +526,7 @@ use strict;
 
 A hash table (or hash) is like an array except that instead of having numbers as references, we will have keys.
 
-![Perl hash table](/images/perl_hash_tab.avif)
+![Perl hash table](/static/images/perl_hash_tab.avif)
 
 In case it's not clear enough, here's the difference:
 
@@ -1815,7 +1815,7 @@ foreach my $my_files (@original_files) {
 ```
 
 Here are the possibilities:
-![Files tests perl](/images/files_tests_perl.avif)
+![Files tests perl](/static/images/files_tests_perl.avif)
 The tests -r, -w, -x and -o will only work for the user running the Perl script. Also be careful with certain system limitations, such as -w which doesn't prevent writing, only if it's on a CD because it's mounted read-only.
 
 Another thing to be careful about is symbolic links which can be deceiving. That's why, it would be better to test for the presence of a symbolic link before testing what interests you.
@@ -1896,7 +1896,7 @@ sub production_time_check
 ### Bit by Bit Operators
 
 This is useful for doing binary calculations, such as the values returned by the stat function:
-![Bit to bit operator](/images/operateur_bit_a_bit.avif)
+![Bit to bit operator](/static/images/operateur_bit_a_bit.avif)
 
 ```perl
 # $mode is the mode value returned by a stat of CONFIG
@@ -3352,7 +3352,7 @@ install PAR::Packer
 #### With ActivePerl
 
 Now, use Perl Package Manager to install the following packages as it will allow us to install all the necessary dependencies (in View, click on "All packages" to see all available packages):
-![Ppm1](/images/ppm1.avif)
+![Ppm1](/static/images/ppm1.avif)
 
 We'll also take advantage to install these packages:
 
@@ -3464,7 +3464,7 @@ print "$$\n";
 - [Les Mongueurs de Perl](https://www.mongueurs.net/)
 - [Perlport](https://perldoc.perl.org/perlport.html)
 - [O'Reilly's Introduction to Perl](https://books.google.fr/books?id=NuKGSvzneeUC&pg=PP1&ots=cxREfzjaS7&dq=introduction+perl&sig=lRxH8nw5lWxPOyFA-A5_0aaxMgo) (I highly recommend it)
-- [Another documentation on Introduction to Perl](/pdf/intro_perl.pdf)
-- [New Features of Perl 5.10 Part 1](/pdf/perl_unixgarden_1.pdf)
-- [New Features of Perl 5.10 Part 2](/pdf/perl_unixgarden_2.pdf)
-- [Documentation to Create a Perl Module](/pdf/cpan_module.pdf)
+- [Another documentation on Introduction to Perl](/static/pdf/intro_perl.pdf)
+- [New Features of Perl 5.10 Part 1](/static/pdf/perl_unixgarden_1.pdf)
+- [New Features of Perl 5.10 Part 2](/static/pdf/perl_unixgarden_2.pdf)
+- [Documentation to Create a Perl Module](/static/pdf/cpan_module.pdf)

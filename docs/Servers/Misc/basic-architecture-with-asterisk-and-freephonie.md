@@ -11,4 +11,4 @@ toc: true
 
 Here is documentation on how to set up an Asterisk telephony server with Free clients:
 
-[Basic Architecture with Asterisk and Freephonie Documentation](/pdf/voix_sur_ip_-_architecture_de_base_avec_asterisk.pdf)
+[Basic Architecture with Asterisk and Freephonie Documentation](/static/pdf/voix_sur_ip_-_architecture_de_base_avec_asterisk.pdf)

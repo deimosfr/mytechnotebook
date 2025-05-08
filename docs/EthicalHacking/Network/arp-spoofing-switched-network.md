@@ -9,4 +9,4 @@ tags: ["ARP", "Spoofing", "Network Security", "Switch", "Hacking", "MITM"]
 toc: true
 ---
 
-[ARP Spoofing in a Switched Network](/pdf/arp_spoofing_in_switched_lans_fr.pdf)
+[ARP Spoofing in a Switched Network](/static/pdf/arp_spoofing_in_switched_lans_fr.pdf)

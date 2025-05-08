@@ -10,7 +10,7 @@ tags:
 toc: true
 ---
 
-![KVM](/images/kvm-logo.avif)
+![KVM](/static/images/kvm-logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -640,7 +640,7 @@ You can easily install locally or remotly this GUI to manage your VMs:
 apt-get install virt-manager virt-viewer
 ```
 
-![Virt Manager Screenshot](/images/virt-manager-screenshot.avif)
+![Virt Manager Screenshot](/static/images/virt-manager-screenshot.avif)
 
 Just connect remotly or locally and double click to launch a VM (and use it as vnc).
 
@@ -1174,10 +1174,10 @@ rm -Rf /var/run/libvirt
 ## Ressources
 
 - https://help.ubuntu.com/community/KVM
-- [Documentation for Speeding up QEMU with KVM and KQEMU](/pdf/speed_up_qemu.pdf)
-- [Documentation on using KVM on Ubuntu](/pdf/using_kvm_on_ubuntu.pdf)
-- [Virtualization With KVM](/pdf/virtualization_with_kvm.pdf)
-- [KVM Guest Management With Virt-Manager](/pdf/kvm_guest_management_with_virt-manager.pdf)
+- [Documentation for Speeding up QEMU with KVM and KQEMU](/static/pdf/speed_up_qemu.pdf)
+- [Documentation on using KVM on Ubuntu](/static/pdf/using_kvm_on_ubuntu.pdf)
+- [Virtualization With KVM](/static/pdf/virtualization_with_kvm.pdf)
+- [KVM Guest Management With Virt-Manager](/static/pdf/kvm_guest_management_with_virt-manager.pdf)
 - http://www.linux-kvm.org/page/Using_VirtIO_NIC
 - http://blog.loftninjas.org/2008/10/22/kvm-virtio-network-performance/
 - http://www.linux-kvm.org/page/Tuning_KVM

@@ -305,4 +305,4 @@ echo "You inserted $password as password"
 
 ## References
 
-[Documentation on Unix initiation and shell scripts](/pdf/unix-initiation-shell.pdf)
+[Documentation on Unix initiation and shell scripts](/static/pdf/unix-initiation-shell.pdf)

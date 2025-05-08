@@ -11,4 +11,4 @@ toc: true
 
 Here is an interesting and quick documentation:
 
-[Resize ext3 without data loss](/pdf/resize_ext3_nodatalost.pdf)
+[Resize ext3 without data loss](/static/pdf/resize_ext3_nodatalost.pdf)

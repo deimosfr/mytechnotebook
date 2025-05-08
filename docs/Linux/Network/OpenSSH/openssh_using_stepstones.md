@@ -11,4 +11,4 @@ toc: true
 
 You might be working in an environment where you always ssh from your machine to the middle machine and then connect to the destination machine. What a waste of time, let's see how you could automate it. The middle machine is frequently referred to as stepstone host.
 
-[OpenSSH using stepstones](/pdf/openssh_using_stepstones.pdf)
+[OpenSSH using stepstones](/static/pdf/openssh_using_stepstones.pdf)

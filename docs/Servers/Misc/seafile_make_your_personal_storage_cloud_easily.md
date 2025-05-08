@@ -9,7 +9,7 @@ tags: ["Cloud Storage", "Seafile", "MariaDB", "MySQL", "Nginx", "Webdav"]
 toc: true
 ---
 
-![Seafile](/images/seafile_logo.avif)
+![Seafile](/static/images/seafile_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

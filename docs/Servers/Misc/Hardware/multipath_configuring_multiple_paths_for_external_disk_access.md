@@ -23,7 +23,7 @@ The device mapper works by processing data transferred to it by a virtual block 
 
 Multipathing allows you to have multiple paths to access the same data. This aims to increase data access capabilities if the storage equipment allows it (active/active) and to ensure redundancy in case of equipment failure, such as a controller. Here is what a multipath architecture looks like:
 
-![Multipath](/images/multipath.avif)
+![Multipath](/static/images/multipath.avif)
 
 It also works very well with a single SAN.
 
@@ -80,7 +80,7 @@ To list all device mappers as a tree:
 dmsetup ls --tree
 ```
 
-![Device Mapper Tree](/images/dm-tree.avif)
+![Device Mapper Tree](/static/images/dm-tree.avif)
 
 ## Multipathing
 

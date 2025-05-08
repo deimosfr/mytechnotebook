@@ -52,4 +52,4 @@ To launch the help, press Ctrl+A and Z. In our case, we want to configure the co
 
 ## Setting up the COM port in Grub
 
-[Documentation on setting up the serial port to connect to Debian](/pdf/linuxserialconsole.pdf)
+[Documentation on setting up the serial port to connect to Debian](/static/pdf/linuxserialconsole.pdf)

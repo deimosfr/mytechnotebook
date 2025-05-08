@@ -452,7 +452,7 @@ all packages). (default: all) [?,??,q]: q
 
 This provides a graphical interface for managing packages, similar to Solaris installation:
 
-![Prodreg](/images/prodreg.avif)
+![Prodreg](/static/images/prodreg.avif)
 
 ## Package Locations
 

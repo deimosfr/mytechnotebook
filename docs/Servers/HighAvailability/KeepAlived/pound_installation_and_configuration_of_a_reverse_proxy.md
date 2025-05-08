@@ -9,7 +9,7 @@ tags: ["Reverse Proxy", "Load Balancer", "Pound", "Web Servers", "Apache"]
 toc: true
 ---
 
-![Pound Logo](/images/pound_logo.avif)
+![Pound Logo](/static/images/pound_logo.avif)
 
 ## Introduction
 

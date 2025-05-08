@@ -1730,7 +1730,7 @@ lxc.cgroup.blkio.throttle.read_bps_device = 100
 
 You can limit network bandwidth using native kernel QOS directly on cgroups. For example, we have 2 containers : A and B. To get a good understanding, look at this schema:
 
-![](/images/cgroup_network.avif)[^12]
+![](/static/images/cgroup_network.avif)[^12]
 
 Now you've understand how it could looks like. Now if I want to limit a container to 30Mb and the other one to 40Mb, here is how I should achieve it. Assign IDs on containers that should have quality of service :
 

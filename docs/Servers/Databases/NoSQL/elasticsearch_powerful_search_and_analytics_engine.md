@@ -19,7 +19,7 @@ tags:
 toc: true
 ---
 
-![Elastic Search](/images/elasticsearch_logo.avif)
+![Elastic Search](/static/images/elasticsearch_logo.avif)
 
 ## Introduction
 
@@ -49,7 +49,7 @@ In ElasticSearch, an index is like a table in MariaDB. Data is **stored in JSON 
 ### Architecture
 
 ElasticSearch knows how to work in standalone mode or is able to work in cluster. **Cluster implies Sharding + Replication:**
-![Es-cluster.png](/images/es-cluster.avif)
+![Es-cluster.png](/static/images/es-cluster.avif)
 
 When you send a new document to the cluster, you specify a target index and send it to one node (any of available nodes). In cluster mode, ElasticSearch gateways forwards their data to the primary node. In a cluster, there is only one writing node that can switch to another node if this one falls down.
 
