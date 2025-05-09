@@ -179,7 +179,9 @@ device_version = 1.3
 product = weave
 ```
 
-{{< alert context="warning" text="It's preferable to use SSL connection. If you have autosigned certificates, open manually the URL with firefox to accept them and avoiding errors" />}}
+!!! warning
+
+    It's preferable to use SSL connection. If you have autosigned certificates, open manually the URL with firefox to accept them and avoiding errors
 
 If you're not going to use Nginx, check that your firewall port is open on 5000 port number:
 

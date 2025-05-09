@@ -49,7 +49,9 @@ ab -c <occurrences> -t <time> <website>
 The tests below are conducted between a server with a 1Gb/s bandwidth and a client with 100Mb/s through the Internet. However, it's important to understand that the source of your tests is extremely important.
 Indeed, a local network or loopback will be much more telling in terms of benchmarks than an Internet network.
 
-{{< alert context="info" text="I recommend doing your benchmarks on loopback if you have the possibility" />}}
+!!! info
+
+    I recommend doing your benchmarks on loopback if you have the possibility
 
 ### Wordpress
 

@@ -13,7 +13,9 @@ toc: true
 
 How do you synchronize a mailbox between two remote servers? A small tool called **Imapsync** exists for this purpose!
 
-{{< alert context="warning" text="Warning: This software consumes a lot of CPU resources!" />}}
+!!! warning
+
+    Warning: This software consumes a lot of CPU resources!
 
 To install it, nothing complicated:
 

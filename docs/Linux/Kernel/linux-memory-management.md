@@ -77,7 +77,9 @@ There are several ways to empty caches. To write all clean pages in the page cac
 echo 1 > /proc/sys/vm/drop_caches
 ```
 
-{{< alert context="warning" text="Be careful not to do this during production hours due to the IO it causes" />}}
+!!! warning
+
+    Be careful not to do this during production hours due to the IO it causes
 
 It is also possible to flush dentries and inodes:
 
@@ -124,9 +126,13 @@ echo n > /proc/<PID>/oom_adj
 
 - n: corresponds to the score that will be multiplied by 2
 
-{{< alert context="info" text="Note that oom_adj is deprecated on recent kernels. You should use /proc/<PID>/oom_score_adj instead" />}}
+!!! info
 
-{{< alert context="warning" text="Just because you set a process's OOM score doesn't mean its children will inherit it! Be careful about this!" />}}
+    Note that oom_adj is deprecated on recent kernels. You should use /proc/<PID>/oom_score_adj instead
+
+!!! warning
+
+    Just because you set a process's OOM score doesn't mean its children will inherit it! Be careful about this!
 
 Finally, it's possible to disable oom-kill:
 

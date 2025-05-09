@@ -145,7 +145,9 @@ To allow another machine to connect to this Postgres server, add a line like thi
 host   all     all    192.168.0.1       255.255.255.255   password
 ```
 
-{{< alert context="warning" text="WARNING: The order of insertion of the lines is very important! The first line that matches will be the one that takes the rule. So be careful about the insertion order in this file." />}}
+!!! warning
+
+    WARNING: The order of insertion of the lines is very important! The first line that matches will be the one that takes the rule. So be careful about the insertion order in this file.
 
 And modify the "/etc/postgresql/postgresql.conf" file by adding the following option so that postgres listens on all its addresses and not just "localhost":
 
@@ -252,7 +254,9 @@ psql <newbase> < FILE_NAME
 
 You can increase the log level to see all queries that pass through. These queries will be recorded in a file.
 
-{{< alert context="warning" text="This can slow down your system if you have a lot of activity" />}}
+!!! warning
+
+    This can slow down your system if you have a lot of activity
 
 To set up a higher log level, edit these lines in the PostgreSQL configuration:
 
@@ -331,7 +335,9 @@ CREATE TABLE weather (
 );
 ```
 
-{{< alert context="info" text="Two dashes -- introduce comments..." />}}
+!!! info
+
+    Two dashes -- introduce comments...
 
 ### Data Extraction
 

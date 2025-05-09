@@ -123,7 +123,9 @@ aptitude install ceph ceph-deploy openntpd
 
 Openntpd is not mandatory, but you need all your machine to be clock synchronized!
 
-{{< alert context="warning" text="You absolutely need well named servers (hostname) and dns names available. A dns server is mandatory." />}}
+!!! warning
+
+    You absolutely need well named servers (hostname) and dns names available. A dns server is mandatory.
 
 ### Other nodes
 
@@ -133,13 +135,17 @@ To install ceph from the first (admin) node for any kind of nodes, here is a sim
 ceph-deploy install <node_name>
 ```
 
-{{< alert context="warning" text="For production usage, you should choose an LTS version like emperor" />}}
+!!! warning
+
+    For production usage, you should choose an LTS version like emperor
 
 ```bash
 ceph-deploy install --release emperor <node_name>
 ```
 
-{{< alert context="info" text="You need to exchange SSH keys to remotely be able to connect to the target machines." />}}
+!!! info
+
+    You need to exchange SSH keys to remotely be able to connect to the target machines.
 
 ## Deploy
 
@@ -150,7 +156,9 @@ mkdir ceph-config
 cd ceph-config
 ```
 
-{{< alert context="warning" text="Be sure of your network configuration for Monitor nodes as it's a nightmare to change later!!!" />}}
+!!! warning
+
+    Be sure of your network configuration for Monitor nodes as it's a nightmare to change later!!!
 
 ### Cluster
 
@@ -273,7 +281,9 @@ You now need to update the new configuration on all your monitor nodes:
 ceph-deploy --overwrite-conf config push mon1 mon2 mon3
 ```
 
-{{< alert context="warning" text="For production usage, you need at least 3 nodes" />}}
+!!! warning
+
+    For production usage, you need at least 3 nodes
 
 #### Remove a monitor
 

@@ -437,7 +437,9 @@ kernel /vmlinuz-2.6.32-279.2.1.el6.....hugepages=<value>
 [...]
 ```
 
-{{< alert context="warning" text="Requesting allocation beyond what the machine can provide will result in a kernel panic" />}}
+!!! warning
+
+    Requesting allocation beyond what the machine can provide will result in a kernel panic
 
 For applications to use these spaces, they must use system calls like mmap, shmat, and shmget. In the case of mmap, large pages must be available using the hugetlbfs filesystem:
 

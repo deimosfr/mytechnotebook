@@ -77,7 +77,9 @@ It's possible to add the '--apply-log' option, which will save more information 
 innobackupex --apply-log --user=xxxxx --password=xxxx --databases=database_name directory_to_store_backup
 ```
 
-{{< alert context="info" text="With the --apply-log option, it's impossible to make incremental backups with XtraBackup" />}}
+!!! info
+
+    With the --apply-log option, it's impossible to make incremental backups with XtraBackup
 
 ### Backup (incremental)
 

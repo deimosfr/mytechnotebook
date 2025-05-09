@@ -248,7 +248,9 @@ To set all volumes as primary:
 drbdadm primary all
 ```
 
-{{< alert context="info" text="Replace <b>all</b> with the name of your volume if you only want to operate on one." />}}
+!!! info
+
+    Replace <b>all</b> with the name of your volume if you only want to operate on one.
 
 ### Become slave
 

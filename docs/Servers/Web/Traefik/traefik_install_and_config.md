@@ -321,7 +321,9 @@ experimental:
       version: "v1.8.5"
 ```
 
-{{< alert context="warning" text="Ensure you're using the same version in the docker-compose image **AND** `traefik.yml` file" />}}
+!!! warning
+
+    Ensure you're using the same version in the docker-compose image **AND** `traefik.yml` file
 
 From the Docker labels, you can add the following to your service configuration in the `docker-compose.yml` file. Here is an example for pgAdmin:
 

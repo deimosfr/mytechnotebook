@@ -140,7 +140,9 @@ aptitude install php5-cli php5-mysql
 
 ## Installation
 
-{{< alert context="info" text="If your DNS server is on the same machine as the graphical interface, you'll need to install it:" />}}
+!!! info
+
+    If your DNS server is on the same machine as the graphical interface, you'll need to install it:
 
 ```bash
 aptitude install bind9
@@ -203,7 +205,9 @@ Now, let's initialize the database:
 mysql -uroot -p < sql/version_20121208_install.sql
 ```
 
-{{< alert context="warning" text="Unlike classic imports, this one creates the database called 'namedmanager' at the same time" />}}
+!!! warning
+
+    Unlike classic imports, this one creates the database called 'namedmanager' at the same time
 
 and set the right permissions (adjust according to your needs):
 
@@ -365,7 +369,9 @@ and synchronize everything:
 php -q /usr/share/namedmanager/bind/namedmanager_bind_configwriter.php
 ```
 
-{{< alert context="info" text="Run the command 5 times in a row, I encountered some issues the first time" />}}
+!!! info
+
+    Run the command 5 times in a row, I encountered some issues the first time
 
 Everything should be working now :-), you can add records:
 

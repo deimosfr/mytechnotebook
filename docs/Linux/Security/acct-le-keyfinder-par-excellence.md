@@ -61,7 +61,9 @@ ACCT_LOGGING="30"
 lastcomm
 ```
 
-{{< alert context="warning" text="Beware, you can also see what the shell executes on startup" />}}
+!!! warning
+
+    Beware, you can also see what the shell executes on startup
 
 - List commands recently launched by a user:
 

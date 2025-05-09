@@ -33,7 +33,9 @@ It avoids having to run several tools to get an all-in-one overview of your syst
 
 The glances packages are not yet available in Debian wheezy packages. But they are in Jessie!
 
-{{< alert context="warning" text="This will upgrade the libc6!" />}}
+!!! warning
+
+    This will upgrade the libc6!
 
 That's why we can do APT pinning to use packages:
 

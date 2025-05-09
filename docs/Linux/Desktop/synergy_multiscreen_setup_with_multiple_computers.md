@@ -63,7 +63,9 @@ The configuration may seem complex, but it's not. Just remain logical. We won't 
 
 The server will determine what each machine does. For clients, there are no configuration files; everything is on the server. I'll take a typical configuration file and explain it. But first, there's something important to understand.
 
-{{< alert context="warning" text="The names to insert in the configuration file correspond to the machine names OR their DNS names" />}}
+!!! warning
+
+    The names to insert in the configuration file correspond to the machine names OR their DNS names
 
 To edit the configuration file:
 

@@ -204,7 +204,9 @@ We can use the following options:
 
 I spent quite a bit of time getting Git over http(s) and Gitweb to coexist, but it's working now.
 
-{{< alert context="info" text="Prefer the <a href='./Gitweb_:_Installation_et_configuration_d'une_interface_web_pour_git#Nginx'>Gitweb</a> method alone if you don't need git over http(s)." />}}
+!!! info
+
+    Prefer the <a href='./Gitweb_:_Installation_et_configuration_d'une_interface_web_pour_git#Nginx'>Gitweb</a> method alone if you don't need git over http(s).
 
 Here's the method I used:
 
@@ -780,7 +782,9 @@ To create a tag, it's easy:
 git tag '1.0'
 ```
 
-{{< alert context="info" text="It's possible to sign tags via GPG" />}}
+!!! info
+
+    It's possible to sign tags via GPG
 
 #### Listing tags
 
@@ -905,7 +909,9 @@ Sometimes you may need to recreate another empty repository to contain a folder 
 
 We'll work locally with my old repository which we'll call oldrepo and my new repository newrepo (how original).
 
-{{< alert context="warning" text="Create a temporary repository if you already have one because it will be deleted at the end" />}}
+!!! warning
+
+    Create a temporary repository if you already have one because it will be deleted at the end
 
 So let's clone this repo:
 

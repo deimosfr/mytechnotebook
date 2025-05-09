@@ -43,7 +43,9 @@ deb http://archive.debian.org/debian-security lenny/updates main
 
 That's all, you can update.
 
-{{< alert context="info" text="It works with all Debian versions" />}}
+!!! info
+
+    It works with all Debian versions
 
 ## References
 

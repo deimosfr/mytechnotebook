@@ -60,7 +60,9 @@ aptitude update
 
 Then you need to have puppet installed on the same machine where PuppetDB will be installed.
 
-{{< alert context="warning" text="PuppetDB cannot function without the puppet client!" />}}
+!!! warning
+
+    PuppetDB cannot function without the puppet client!
 
 It doesn't matter whether it's the same machine as the master or not. For simplicity, we'll install it on the Puppet Master.
 
@@ -176,7 +178,9 @@ trust-password = CoaRwY6IL8KQd8H6SfZ7O9hHC
 
 For the host, add the interface that will listen on ports 8080 and 8081. This notably allows the dashboard to connect to it.
 
-{{< alert context="warning" text="If possible and as a security measure, leave everything on localhost. Obviously, Puppet Master must be on this same machine if host and host_ssl are set to localhost" />}}
+!!! warning
+
+    If possible and as a security measure, leave everything on localhost. Obviously, Puppet Master must be on this same machine if host and host_ssl are set to localhost
 
 Then restart PuppetDB:
 
@@ -215,7 +219,9 @@ report = true
 server=puppet-prd.deimos.fr
 ```
 
-{{< alert context="warning" text="Remove the thin_storeconfigs and async_storeconfigs lines if you are using them, or set them to False" />}}
+!!! warning
+
+    Remove the thin_storeconfigs and async_storeconfigs lines if you are using them, or set them to False
 
 Then we'll set up a file for Puppet's configuration to tell it how to connect to PuppetDB:
 

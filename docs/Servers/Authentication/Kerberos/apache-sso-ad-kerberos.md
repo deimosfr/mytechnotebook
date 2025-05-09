@@ -53,14 +53,18 @@ For the rest of the article, I will assume that you have the following elements:
 - A Linux server with Apache configured, capable of serving pages (lx-1.local.domain)
 - An XP or 2003 client registered on the domain, capable of opening a session with a domain account (pc-1.local.domain)
 
-{{< alert context="warning" text="Kerberos being particularly sensitive to machine names, it is important that all machines appear in the DNS server and that they all have a PTR (reverse DNS) entry equal to the forward DNS (A) entry." />}}
+!!! warning
+
+    Kerberos being particularly sensitive to machine names, it is important that all machines appear in the DNS server and that they all have a PTR (reverse DNS) entry equal to the forward DNS (A) entry.
 
 In addition to being sensitive to naming, Kerberos is sensitive to any time lag between different machines. To overcome this problem, I advise you to use an NTP service.
 
 Finally, you need to choose a Kerberos realm, for example LOCAL.DOMAIN. Note that the realm is written in all uppercase.
 It is not necessarily the domain name, and there can be several realms on a network with a single domain. However, the realm is written in uppercase, for example LOCAL.DOMAIN.
 
-{{< alert context="warning" text="It is imperative that all your machines have the correct time, so connect them all to an NTP server." />}}
+!!! warning
+
+    It is imperative that all your machines have the correct time, so connect them all to an NTP server.
 
 ## Installation
 
@@ -84,7 +88,9 @@ For each service to Kerberize, the following operations are to be planned to gen
 
 - Creation of a user account for each service. I advise you to choose a name that allows you to identify the service concerned, for example intranet-1 in the Active Directory.
 
-{{< alert context="warning" text="Do not choose a username that already exists as a domain controller name or as a computer name" />}}
+!!! warning
+
+    Do not choose a username that already exists as a domain controller name or as a computer name
 
 - Generation of a KeyTab. This file is used to authenticate the Kerberized server (here the Web server) to the KDC:
 
@@ -228,7 +234,9 @@ Finally, this keytab test should not return an error:
 kinit -k -t /etc/krb5.keytab HTTP/lx-1.local.domain@LOCAL.DOMAIN
 ```
 
-{{< alert context="warning" text="Do not proceed until the three previous tests generate no errors!" />}}
+!!! warning
+
+    Do not proceed until the three previous tests generate no errors!
 
 ## Web Browser
 

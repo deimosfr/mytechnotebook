@@ -236,7 +236,9 @@ For a faster alternative:
 $ chmod A0=user:myuser:x:deny directory
 ```
 
-{{< alert context="warning" text="DO NOT FORGET TO SPECIFY ID OR IT WILL REPLACE ALL YOUR CURRENT RIGHTS WITH THIS SINGLE ONE" />}}
+!!! warning
+
+    DO NOT FORGET TO SPECIFY ID OR IT WILL REPLACE ALL YOUR CURRENT RIGHTS WITH THIS SINGLE ONE
 
 To replace all rights with only one user permission:
 

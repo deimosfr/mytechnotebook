@@ -69,7 +69,9 @@ ALLOWED_HOSTS = ['127.0.0.1']
 # ALLOWED_HOSTS = ['*']
 ```
 
-{{< alert context="warning" text="Edit the configuration and setup the MySQL database instead of the SQLite by default" />}}
+!!! warning
+
+    Edit the configuration and setup the MySQL database instead of the SQLite by default
 
 And launch it:
 
@@ -80,7 +82,9 @@ pootle --config=/var/www/pootle/pootle.conf start
 You'll now get an access to the web interface: http://127.0.0.1:8000  
 Credentials are: admin/admin
 
-{{< alert context="info" text="The first launch will take a few minutes as it populate the database" />}}
+!!! info
+
+    The first launch will take a few minutes as it populate the database
 
 ### Apache
 

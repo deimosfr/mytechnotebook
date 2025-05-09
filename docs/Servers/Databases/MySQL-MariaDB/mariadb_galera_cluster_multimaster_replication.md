@@ -92,7 +92,9 @@ Pin: release o=MariaDB
 Pin-Priority: 1000
 ```
 
-{{< alert context="info" text="At the time of writing, there is a small dependency issue with some packages. You'll need to download them in advance and install them. You don't need to follow the rest of this installation if you haven't encountered errors with the previous steps." />}}
+!!! info
+
+    At the time of writing, there is a small dependency issue with some packages. You'll need to download them in advance and install them. You don't need to follow the rest of this installation if you haven't encountered errors with the previous steps.
 
 ```bash
 wget http://ftp.fr.debian.org/debian/pool/main/o/openssl/libssl0.9.8_0.9.8o-4squeeze14_amd64.deb
@@ -106,7 +108,9 @@ aptitude update
 aptitude install mariadb-galera-server galera rsync openntpd
 ```
 
-{{< alert context="info" text="The rsync package is not mandatory, but necessary if you're going to use this transfer method later." />}}
+!!! info
+
+    The rsync package is not mandatory, but necessary if you're going to use this transfer method later.
 
 ## Configuration
 
@@ -379,7 +383,9 @@ innodb_locks_unsafe_for_binlog = 1
 - innodb_autoinc_lock_mode: changes the lock behavior
 - innodb_flush_log_at_trx_commit: performance optimization
 
-{{< alert context="info" text="Adapt the <i>wsrep_node_name</i> and <i>wsrep_cluster_address</i> lines to your respective machines." />}}
+!!! info
+
+    Adapt the <i>wsrep_node_name</i> and <i>wsrep_cluster_address</i> lines to your respective machines.
 
 The above configuration is applicable to all nodes except the master (node 1). The master should have the identical configuration with the only difference being this line:
 
@@ -387,7 +393,9 @@ The above configuration is applicable to all nodes except the master (node 1). T
 wsrep_cluster_address = 'gcomm://'
 ```
 
-{{< alert context="warning" text="It's important that <b>only one machine</b> has the 'gcomm://' configuration, as this initializes the cluster." />}}
+!!! warning
+
+    It's important that <b>only one machine</b> has the 'gcomm://' configuration, as this initializes the cluster.
 
 ### Geo cluster
 
@@ -411,7 +419,9 @@ wsrep_provider_options = "evs.keepalive_period = PT3S; evs.inactive_check_period
 
 There are several solutions for data transfers between nodes. In the example above, we used rsync. When a machine requests a donor (another machine) to receive data, **transactions are blocked for the donor during the data exchange period with the receiver!!!**
 
-{{< alert context="warning" text="If you use a load balancer, you'll need to remove the donor node during this period." />}}
+!!! warning
+
+    If you use a load balancer, you'll need to remove the donor node during this period.
 
 This block can be limited by using [the xtrabackup method](#xtrabackup).
 
@@ -449,7 +459,9 @@ MariaDB [(NONE)]> SHOW global STATUS LIKE 'wsrep%stat%';
 
 We also see that the wsrep_local_state value changes to 4 when the process is complete.
 
-{{< alert context="info" text="The problem with this method is that it doesn't handle IST (Incremental State Transfer). Everything must be transferred in case of problems, not just the incremental data. You need to look at rsync or xtrabackup methods to be able to do IST." />}}
+!!! info
+
+    The problem with this method is that it doesn't handle IST (Incremental State Transfer). Everything must be transferred in case of problems, not just the incremental data. You need to look at rsync or xtrabackup methods to be able to do IST.
 
 #### Rsync
 
@@ -511,7 +523,9 @@ Otherwise, you can specify it directly for node integration:
 mysqld --wsrep_cluster_address='gcomm://<node1>' --wsrep_sst_donor='<node1>'
 ```
 
-{{< alert context="info" text="If you start MariaDB twice in a row without running a Galera sync at least once, the second time it will do a complete sync." />}}
+!!! info
+
+    If you start MariaDB twice in a row without running a Galera sync at least once, the second time it will do a complete sync.
 
 ## Usage
 
@@ -562,7 +576,9 @@ If you can't reach the master, run this command in mysql on the master to make s
 SET global wsrep_cluster_address='gcomm://';
 ```
 
-{{< alert context="info" text="You can use IPs or DNS names." />}}
+!!! info
+
+    You can use IPs or DNS names.
 
 ### Checking the cluster status
 
@@ -706,7 +722,9 @@ MariaDB [(none)]> SHOW STATUS LIKE 'wsrep_cluster_size';
 
 For backups, there are several methods and [Xtrabackup](./xtrabackup_optimizing_your_mysql_backups.md) is again one of the favorites.
 
-{{< alert context="info" text="Just like when a new node joins the cluster and blocks the donor's transactions, it's the same for backups, but only for MyISAM!" />}}
+!!! info
+
+    Just like when a new node joins the cluster and blocks the donor's transactions, it's the same for backups, but only for MyISAM!
 
 If you only use InnoDB and use Xtrabackup, there will be no transaction locks and therefore no special node needed for backups!
 
@@ -744,7 +762,9 @@ innobackupex --galera-info --user=xxxxx --password=xxxx <directory_to_store_back
 
 The 'galera-info' option prevents problems during the uuid request (which will always return 0). If this option is not specified, incremental restorations won't be possible.
 
-{{< alert context="info" text="For databases containing only InnoDB tables, it's possible to have no blocking at all during the lock by adding the '--no-lock' option." />}}
+!!! info
+
+    For databases containing only InnoDB tables, it's possible to have no blocking at all during the lock by adding the '--no-lock' option.
 
 #### Restoration
 
@@ -821,7 +841,9 @@ SHOW global STATUS LIKE 'wsrep%';
 
 Here we can see the uuid number and the position of the last commit (wsrep_last_committed).
 
-{{< alert context="warning" text="The following command should only be used on a turned off server or you risk losing data on it!!!" />}}
+!!! warning
+
+    The following command should only be used on a turned off server or you risk losing data on it!!!
 
 With the server off, it's possible to retrieve the position of the last commit:
 
@@ -869,7 +891,9 @@ service mysql start
 
 All data will then resynchronize.
 
-{{< alert context="warning" text="This can take some time if your database is large or if the bandwidth between nodes is low." />}}
+!!! warning
+
+    This can take some time if your database is large or if the bandwidth between nodes is low.
 
 ### Split brain
 
@@ -885,7 +909,9 @@ SET global wsrep_provider_options = 'pc.ignore_quorum=0';
 
 Then restart your other servers so they synchronize.
 
-{{< alert context="warning" text="Once the cluster is restored, you <b>MUST</b> set these variables back to False to avoid future split brains that you can't recover from!!!" />}}
+!!! warning
+
+    Once the cluster is restored, you <b>MUST</b> set these variables back to False to avoid future split brains that you can't recover from!!!
 
 ## FAQ
 

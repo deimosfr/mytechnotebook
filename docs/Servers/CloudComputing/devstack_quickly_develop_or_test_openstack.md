@@ -22,7 +22,9 @@ If you want to quickly test [OpenStack](https://www.openstack.org/)[^1], whether
 
 I started with an Ubuntu Server 12.04 base as this distribution is one of the versions recommended by DevStack. The goal here is to have a VM with all OpenStack services installed and functional.
 
-{{< alert context="warning" text="<b>WARNING</b>: Do NOT use DevStack in production!!!" />}}
+!!! warning
+
+    <b>WARNING</b>: Do NOT use DevStack in production!!!
 
 ## Installation
 

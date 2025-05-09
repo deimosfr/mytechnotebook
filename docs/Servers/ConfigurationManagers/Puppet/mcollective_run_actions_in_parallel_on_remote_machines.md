@@ -245,7 +245,9 @@ rpm -ivh http://yum.puppetlabs.com/el/6/products/x86_64/puppetlabs-release-6-6.n
 
 In this section, we'll see how to install and configure Mcollective on the server.
 
-{{< alert context="info" text="The server corresponds to the 'client' in the diagram. That is, the machine that will take control of all the Mcollective nodes." />}}
+!!! info
+
+    The server corresponds to the 'client' in the diagram. That is, the machine that will take control of all the Mcollective nodes.
 
 ### Installation
 

@@ -32,7 +32,9 @@ Here, the intention is to create a branch for github pages, which is typically n
 
 Note that it is also called an orphan branch and git checkout --orphan will now do the same thing as the git symbolic-ref that was being done before.
 
-{{< alert context="warning" text="Be careful with git clean -fdx, it will wipe out the files of the folder." />}}
+!!! warning
+
+    Be careful with git clean -fdx, it will wipe out the files of the folder.
 
 ## Resources
 

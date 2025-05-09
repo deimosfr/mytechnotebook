@@ -1,6 +1,7 @@
 site_name: My Tech Notebook
 site_url: https://wiki.deimos.fr
 repo_url: https://github.com/deimosfr/mytechnotebook
+edit_uri: edit/main/docs/
 theme:
   icon:
     repo: fontawesome/brands/git-alt
@@ -16,7 +17,6 @@ theme:
     - navigation.indexes
     - navigation.top
     - search.suggest
-    - search.highlight
     - search.share
     - content.action.edit
     - content.code.copy

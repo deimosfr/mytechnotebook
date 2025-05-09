@@ -197,7 +197,9 @@ In User mode, programs don't have direct access to the contents of the buffers. 
 
 ## Sequential read accesses
 
-{{< alert context="info" text="Using read-ahead technology only makes sense for applications that read data sequentially! There's no benefit for random accesses." />}}
+!!! info
+
+    Using read-ahead technology only makes sense for applications that read data sequentially! There's no benefit for random accesses.
 
 When you make disk accesses, the kernel tries to read data sequentially from the disk. Read-ahead allows reading more blocks than requested to anticipate the demand and store this data in cache. Because when a block is read, it's more than very common to need to read the next block, which is why it can be interesting to tune read-ahead. The advantages of this method are that:
 
@@ -205,7 +207,9 @@ When you make disk accesses, the kernel tries to read data sequentially from the
 - The disk controller load is reduced
 - Response times are greatly improved
 
-{{< alert context="info" text="The algorithm is designed to stop itself if it detects too many random accesses so as not to impair performance. So don't be afraid to test this feature." />}}
+!!! info
+
+    The algorithm is designed to stop itself if it detects too many random accesses so as not to impair performance. So don't be afraid to test this feature.
 
 The read-ahead algorithm is managed by 2 values:
 
@@ -263,7 +267,9 @@ If you want to benchmark to see the best performance you can achieve with your d
 
 However, you should take this information with a pinch of salt because you would need to test it with the application you want to run on this disk to get a truly satisfactory result. So override the value in /sys to change it. Insert it in `/etc/rc.local` to make it persistent.
 
-{{< alert context="info" text="The initial read-ahead window is equal to half of the configured one. The configured one corresponds to the maximum size of the read-ahead window!" />}}
+!!! info
+
+    The initial read-ahead window is equal to half of the configured one. The configured one corresponds to the maximum size of the read-ahead window!
 
 You can get a report like this:
 
@@ -312,7 +318,9 @@ So it's the algorithm in brackets that's being used. To change the scheduler:
 
 Don't forget to put this line in /etc/rc.local if you want it to persist.
 
-{{< alert context="warning" text="Don't do the following on a production machine or you risk having severe slowdowns for a few seconds" />}}
+!!! warning
+
+    Don't do the following on a production machine or you risk having severe slowdowns for a few seconds
 
 To write all data in the cache to disk, clear the caches, and ensure the use of the newly chosen algorithm:
 

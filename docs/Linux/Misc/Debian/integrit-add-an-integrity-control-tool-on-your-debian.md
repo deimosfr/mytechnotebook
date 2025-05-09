@@ -179,7 +179,9 @@ Next and to finish, you can update manually (or let cron do) the database:
 integrit -C /etc/integrit/integrit.conf -c
 ```
 
-{{< alert context="danger" text="This is strongly recommanded that you put the known database on a read only share" />}}
+!!! danger
+
+    This is strongly recommanded that you put the known database on a read only share
 
 ## References
 

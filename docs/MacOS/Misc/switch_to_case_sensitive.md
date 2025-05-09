@@ -11,7 +11,9 @@ toc: true
 
 On Mac OS X, the default file system is case-insensitive. However, you can switch to a case-sensitive file system if needed. This is particularly useful for certain applications or development environments that require case sensitivity.
 
-{{< alert context="warning" text="Switching to a case-sensitive file system can cause issues with applications that expect a case-insensitive file system. This is why moving to a case-sensitive file system is not recommended." />}}
+!!! warning
+
+    Switching to a case-sensitive file system can cause issues with applications that expect a case-insensitive file system. This is why moving to a case-sensitive file system is not recommended.
 
 Instead, it is preferable to create a dedicated volume (not a partition) with a case-sensitive file system. This way, you can keep your main volume case-insensitive while having a separate volume for applications that require case sensitivity. The other advantage is that you won't encounter any issue with TimeMachine backups and restoring your system (you can't restore a case-sensitive volume to a case-insensitive one without a long and painful procedure).
 

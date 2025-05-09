@@ -93,7 +93,9 @@ You can verify that puppetmaster is installed correctly by running 'facter' (see
 
 Now we need to configure a web server on the same machine as the Puppet server (Puppet Master). Why? Simply because the default server is Webrick and it collapses if 10 nodes access it simultaneously.
 
-{{< alert context="warning" text="You can keep Webrick if you want to test on a few nodes, but not for production!" />}}
+!!! warning
+
+    You can keep Webrick if you want to test on a few nodes, but not for production!
 
 The choice is yours between Passenger and Nginx. Passenger is the recommended solution since Puppet 3.
 
@@ -459,7 +461,13 @@ To do this, you'll first need to install ruby with the following command:
 pkg-get -i ruby
 ```
 
-{{< alert context="warning" text="Check that rubygems is not already installed, otherwise remove it:\n\n```bash\npkg-get -r rubygems\n```" />}}
+!!! warning
+
+    Check that rubygems is not already installed, otherwise remove it:
+    
+    ```bash
+    pkg-get -r rubygems
+    ```
 
 Then install a more up-to-date version from the sources:
 
@@ -1217,7 +1225,9 @@ $ip_ldap_servers = dns2ip("${comma_ldap_servers}")
 
 Here I send a list of LDAP servers and their IP addresses will be returned to me. Now you understand that it's a call, a bit like [inline_templates](#inline-templates), but much more powerful.
 
-{{< alert context="info" text="I've noticed a rather annoying cache behavior with this type of function! Indeed, when you develop a parser and test it, you are likely to use 'Notify' functions in your manifests for debugging. However, the changes you make to your parser won't necessarily apply until you've cleared the caches. After some research and IRC queries, it turns out that the only working method is to **restart the Puppet Master and the web server (Nginx in our case)**. It works very well, but it's a bit annoying during the debug phase." />}}
+!!! info
+
+    I've noticed a rather annoying cache behavior with this type of function! Indeed, when you develop a parser and test it, you are likely to use 'Notify' functions in your manifests for debugging. However, the changes you make to your parser won't necessarily apply until you've cleared the caches. After some research and IRC queries, it turns out that the only working method is to **restart the Puppet Master and the web server (Nginx in our case)**. It works very well, but it's a bit annoying during the debug phase.
 
 ### Ruby in your manifests
 

@@ -204,15 +204,15 @@ The "Chunk size" (or stripe size or element size for some vendors) is the number
 
 A good rule to define the chunk size is to divide roughly the size of IO operations by the number of disks on the RAID (remove parity disks if RAID 5 or 6).
 
-{{% alert context="info" %}}
-Quick reminder:
+!!! info
 
-- RAID 0: No parity
-- RAID 1: No parity
-- RAID 5: 1 parity disk
-- RAID 6: 2 parity disks
-- RAID 10: No parity disks
-  {{% /alert %}}
+    Quick reminder:
+    
+    - RAID 0: No parity
+    - RAID 1: No parity
+    - RAID 5: 1 parity disk
+    - RAID 6: 2 parity disks
+    - RAID 10: No parity disks
 
 If you have no idea about your IOs, take a value between 32KB and 128KB, taking a multiple of 2KB (or 4KB if you have larger block sizes). The chunk size (stripe size) is an important factor on the performance of your RAID. If the stripe is too wide, the raid may have a "hot spot" which will be the disk that receives the most IO and will reduce the performance of your RAID. It's obvious that the best performance is when data is spread across all disks. The good formula is therefore:
 
@@ -307,7 +307,9 @@ We must then divide this value by the number of disks (let's say 2) and round it
 
 Here the chunk size to set is 8, since it's the multiple of 2 that is closest to 11.88.
 
-{{< alert context="warning" text="Remember that it's not recommended to go below 32K!" />}}
+!!! warning
+
+    Remember that it's not recommended to go below 32K!
 
 To create a raid 0 by defining the chunk size:
 
@@ -350,7 +352,9 @@ So for Round Robin tuning, you need to properly tune the chunk size and stride s
 
 One of the big performance constraints of RAID 5 and 6 is parity calculation. For data to be written, parity calculation must be performed on the raid beforehand. and only then can parity and data be written.
 
-{{< alert context="warning" text="Avoid RAID 5 and 6 if writing your data represents **more than 20% of the activity**" />}}
+!!! warning
+
+    Avoid RAID 5 and 6 if writing your data represents **more than 20% of the activity**
 
 Each data update requires 4 IO operations:
 

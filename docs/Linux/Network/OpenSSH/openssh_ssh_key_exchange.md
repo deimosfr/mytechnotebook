@@ -31,7 +31,9 @@ On the client, you need to generate a key pair, **unless you already have one (~
 ssh-keygen -t rsa
 ```
 
-{{< alert context="info" text="For better security, encrypt your private key during creation by adding -p. If your keys are stolen, it won't be as severe:" />}}
+!!! info
+
+    For better security, encrypt your private key during creation by adding -p. If your keys are stolen, it won't be as severe:
 
 ```bash
 ssh-keygen -t rsa -p

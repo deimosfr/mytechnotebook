@@ -147,7 +147,9 @@ Then regenerate grub config:
 update-grub
 ```
 
-{{< alert context="info" text="You'll need to reboot to make the cgroup memory feature active" />}}
+!!! info
+
+    You'll need to reboot to make the cgroup memory feature active
 
 Then mount it:
 
@@ -189,7 +191,9 @@ Note : Before booting a new kernel, you can check its configuration
 usage : CONFIG=/path/to/config /usr/bin/lxc-checkconfig
 ```
 
-{{< alert context="danger" text="All should be enabled to ensure it will work as expected!" />}}
+!!! danger
+
+    All should be enabled to ensure it will work as expected!
 
 ### Network
 
@@ -197,7 +201,9 @@ usage : CONFIG=/path/to/config /usr/bin/lxc-checkconfig
 
 If you don't configure your network configuration after container initialization, you'll have the exact same configuration on your guests (containers) than your host. That mean all network interfaces are available on the guests and they will have full access to the host.
 
-{{< alert context="danger" text="This is not the recommended solution for production usages" />}}
+!!! danger
+
+    This is not the recommended solution for production usages
 
 - The pro of that "no" configuration, is to have network working out of the box for the guests (perfect for quick tests)
 - Another con, is to have the access to process on host. **I mean that a SSH server running on host will have it's port available on the guest too**. So you cannot have a SSH server running on guests without changing port (or you'll have a network binding conflict).
@@ -461,7 +467,9 @@ iface eth0 inet dhcp
 
 ###### Static IP
 
-{{< alert context="info" text="This is only applicable for Libvirt" />}}
+!!! info
+
+    This is only applicable for Libvirt
 
 You can also configure manual static IP if you want by changing 'lxc.network.ipv4'. Another elegant method is to ask DHCP to fix it:
 
@@ -479,14 +487,14 @@ You can also configure manual static IP if you want by changing 'lxc.network.ipv
 </network>
 ```
 
-{{% alert context="warning" %}}
-Do not forget to fix lxc.network.hwaddr parameter. Here is a way to generate mac address:
+!!! warning
 
-```bash
-openssl rand -hex 6 | sed 's/\\(..\\\)/\\1:/g; s/.$//'
-```
-
-{{% /alert %}}
+    Do not forget to fix lxc.network.hwaddr parameter. Here is a way to generate mac address:
+    
+    ```bash
+    openssl rand -hex 6 | sed 's/\\(..\\\)/\\1:/g; s/.$//'
+    ```
+    
 
 #### Private container interface
 
@@ -825,7 +833,9 @@ or
 lxc-halt -n mycontainer
 ```
 
-{{< alert context="info" text="You can't lxc-halt/lxc-shutdown on a container based on LVM in the current Debian version(Wheezy)" />}}
+!!! info
+
+    You can't lxc-halt/lxc-shutdown on a container based on LVM in the current Debian version(Wheezy)
 
 ### Force shutdown
 
@@ -851,7 +861,9 @@ You can delete a container like this:
 lxc-destroy -n mycontainer
 ```
 
-{{< alert context="danger" text="This will remove all your data as well. Do a backup before doing destroy!" />}}
+!!! danger
+
+    This will remove all your data as well. Do a backup before doing destroy!
 
 ### Monitoring
 
@@ -1389,7 +1401,9 @@ lxc.cgroup.<cgroup-name> = <value>
 
 Cgroups can be changed on the fly.
 
-{{< alert context="danger" text="You should warn when you reduce some of them, especially the memory (be sure that you do not reduce more than used)." />}}
+!!! danger
+
+    You should warn when you reduce some of them, especially the memory (be sure that you do not reduce more than used).
 
 If you want to see available cgroups for a container :
 
@@ -1663,7 +1677,9 @@ You can limit the swap in a container like this (`/var/lib/lxc/mycontainer/confi
 lxc.cgroup.memory.memsw.limit_in_bytes = 192M
 ```
 
-{{< alert context="danger" text="This limit is not only SWAP but Memory + SWAP" />}}
+!!! danger
+
+    This limit is not only SWAP but Memory + SWAP
 
 That mean that **"lxc.cgroup.memory.memsw.limit_in_bytes" should be at least equal to "lxc.cgroup.memory.limit_in_bytes".**
 
@@ -1681,7 +1697,9 @@ By default, LXC doesn't provide any disks limitation. Anyway, there are enough s
 
 ##### Mount
 
-{{< alert context="warning" text="You should take care if you want to create a mount entry in a subdirectory of /mnt." />}}
+!!! warning
+
+    You should take care if you want to create a mount entry in a subdirectory of /mnt.
 
 It won't work so easily. The reason this happens is that by default 'mnt' is the directory used as pivotdir, where the old_root is placed during pivot_root(). After that, everything under pivotdir is unmounted.
 
@@ -1713,7 +1731,9 @@ lxc.cgroup.blkio.weight = 500
 
 Higher the value is, more the priority will be important. You can get more informations here. Maximum value is 1000 and lowest is 10.
 
-{{< alert context="info" text="You need to have CFQ scheduler to make it work properly" />}}
+!!! info
+
+    You need to have CFQ scheduler to make it work properly
 
 ##### Disk bandwidth
 

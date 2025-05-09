@@ -190,7 +190,9 @@ mkdir /etc/haproxy/ssl
 cat server.crt server.key ca.pem sub.class2.server.ca.pem > /etc/haproxy/ssl/server-unified.pem
 ```
 
-{{< alert context="info" text="If you have multiple domain names, concatenate all in the same server-unified.pem file" />}}
+!!! info
+
+    If you have multiple domain names, concatenate all in the same server-unified.pem file
 
 Then you can apply this kind of configuration:
 

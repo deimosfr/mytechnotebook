@@ -39,7 +39,9 @@ Data analysis is made by the **analyser** which is built of a tokenizer and zero
 
 Filters are processed sequentially. The character mappers are used before the tokenizer. For example you can remove HTML tags with it.
 
-{{< alert context="info" text="Remove all unnecessary fields like html tags to avoid mistaken scoring" />}}
+!!! info
+
+    Remove all unnecessary fields like html tags to avoid mistaken scoring
 
 ### Index
 
@@ -95,7 +97,9 @@ elasticsearch hard nofile 32000
 
 Regarding the JVM parameters, it's recommended to use 1G (XMX) for small deployments. Check out your logs to see indications about OutOfMemoryError exceptions 'ES_HEAP_SIZE' variable size.
 
-{{< alert context="info" text="You should avoid to allocate 50% of your total system memory to the JVM." />}}
+!!! info
+
+    You should avoid to allocate 50% of your total system memory to the JVM.
 
 ### Cluster
 

@@ -24,7 +24,9 @@ A public key infrastructure (PKI)[^1] is a set of hardware, software, people, po
 
 In cryptography, a PKI is an arrangement that binds public keys with respective user identities by means of a certificate authority (CA). The user identity must be unique within each CA domain. The third-party validation authority (VA) can provide this information on behalf of the CA. The binding is established through the registration and issuance process. Depending on the assurance level of the binding, this may be carried out by software at a CA or under human supervision. The PKI role that assures this binding is called the registration authority (RA). The RA ensures that the public key is bound to the individual to which it is assigned in a way that ensures non-repudiation.[^2][^3]
 
-{{< alert context="info" text="To know the best recommendation for key encryption, <a href='https://wiki.mozilla.org/Security/Server_Side_TLS#Recommended_configurations'>please look at mozilla wiki</a>." />}}
+!!! info
+
+    To know the best recommendation for key encryption, <a href='https://wiki.mozilla.org/Security/Server_Side_TLS#Recommended_configurations'>please look at mozilla wiki</a>.
 
 ## Installation
 

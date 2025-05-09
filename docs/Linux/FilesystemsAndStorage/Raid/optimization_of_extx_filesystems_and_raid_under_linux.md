@@ -138,7 +138,9 @@ If your filesystem is already created, you can change the size of this allocatio
 tune2fs -m <reserve_percentage>
 ```
 
-{{< alert context="info" text="If you don't use enough reserved space, you will experience performance degradation; if you use too much, you will unnecessarily waste disk space." />}}
+!!! info
+
+    If you don't use enough reserved space, you will experience performance degradation; if you use too much, you will unnecessarily waste disk space.
 
 ## Journals
 
@@ -315,7 +317,9 @@ The "Chunk size" (or stripe size or element size for some vendors) is the number
 
 A good rule for defining chunk size is to divide the IO operation size by the number of disks in the RAID (remove parity disks if RAID5 or 6).
 
-{{< alert context="info" text="Quick reminder:<ul><li>Raid 0: No parity</li><li>Raid 1: No parity</li><li>Raid 5: 1 parity disk</li><li>Raid 6: 2 parity disks</li><li>Raid 10: No parity disks</li></ul>" />}}
+!!! info
+
+    Quick reminder:<ul><li>Raid 0: No parity</li><li>Raid 1: No parity</li><li>Raid 5: 1 parity disk</li><li>Raid 6: 2 parity disks</li><li>Raid 10: No parity disks</li></ul>
 
 If you have no idea about your IOs, take a value between 32KB and 128KB, taking a multiple of 2KB (or 4KB if you have larger block sizes). The chunk size (stripe size) is an important factor in your RAID performance. If the stripe is too wide, the raid may have a "hot spot" which will be the disk receiving the most IO and will reduce your RAID performance. It's obvious that the best performance is when data is spread across all disks. So the right formula is:
 
@@ -410,7 +414,9 @@ Chunk Size(KB) = 23.775/2 = 11.88 ≈ 8
 
 Here the chunk size to set is 8, since it's the multiple of 2 closest to 11.88.
 
-{{< alert context="warning" text="Remember that it is not recommended to go below 32K!" />}}
+!!! warning
+
+    Remember that it is not recommended to go below 32K!
 
 To create a raid 0 by defining the chunk size:
 
@@ -454,7 +460,9 @@ So for Round Robin tuning, you need to correctly tune the chunk size and stride 
 
 One of the major performance constraints of RAID 5 and 6 is parity calculation. For data to be written, the parity calculation must first be performed on the raid. Only then can the parity and data be written.
 
-{{< alert context="warning" text="Avoid RAID 5 and 6 if writing your data represents <b>more than 20% of the activity</b>." />}}
+!!! warning
+
+    Avoid RAID 5 and 6 if writing your data represents <b>more than 20% of the activity</b>.
 
 Each data update requires 4 IO operations:
 

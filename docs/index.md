@@ -35,7 +35,7 @@ search:
 </td></tr></tbody></table>
 </div>
 
-!!! note
+!!! note ""
 
     This site exists because it's difficult to remember everything. I document key concepts here while storing details for reference, creating a personal knowledge repository that saves me from repeatedly researching the same topics. I'm happy to share this knowledge with everyone. Anyone is welcome to submit a PR if they find an error.
 

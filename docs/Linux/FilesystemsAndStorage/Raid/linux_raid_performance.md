@@ -123,7 +123,9 @@ Chunk Size(KB) = 23.775/2 = 11.88 ≈ 8
 
 Here the chunk size to use is 8, since it's the multiple of 2 closest to 11.88.
 
-{{< alert context="warning" text="Remember that it's not recommended to go below 32K!" />}}
+!!! warning
+
+    Remember that it's not recommended to go below 32K!
 
 To create a RAID 0 while defining the chunk size:
 
@@ -166,7 +168,9 @@ So for tuning Round Robin, you need to correctly tune the chunk size and stride 
 
 One of the major performance constraints of RAID 5 and 6 is the parity calculation. For data to be written, parity calculations must be performed on the raid first. Only then can the parity and data be written.
 
-{{< alert context="warning" text="Avoid RAID 5 and 6 if writing data represents <b>more than 20% of activity</b>" />}}
+!!! warning
+
+    Avoid RAID 5 and 6 if writing data represents <b>more than 20% of activity</b>
 
 Each data update requires 4 IO operations:
 

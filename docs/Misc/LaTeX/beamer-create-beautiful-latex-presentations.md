@@ -30,7 +30,9 @@ There are some rules you need to understand if it's the first time you're using 
 2. If you have a lot of slides to do, Beamer is for you
 3. If you absolutely need something clear, beautiful and that looks professional, use Beamer!
 
-{{< alert context="info" text="I've made a custom theme with custom functionalities. Some of them require to load custom functions to work. I've added everything in that document as well" />}}
+!!! info
+
+    I've made a custom theme with custom functionalities. Some of them require to load custom functions to work. I've added everything in that document as well
 
 You can look at [a result example here](../../static/pdf/beamer.pdf). If you want to grab the sources of that example, you can get it [from my Git](https://git.deimos.fr/?p=git_deimosfr.git;a=tree;f=others/beamer_template;hb=HEAD).
 
