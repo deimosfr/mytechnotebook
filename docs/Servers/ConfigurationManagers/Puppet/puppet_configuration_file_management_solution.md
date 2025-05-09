@@ -1077,7 +1077,7 @@ Here we're using two types of template usage. A multi-line repetition, and the o
 - ssh_default_port.each do: allows us to put a line of "Port num_port" for each specified port
 - ssh_allowed_users: allows us to give a list of users
 
-These variables are usually declared either in the [node part](#servers.pp) or in the [global configuration](#vars.pp). We've just seen how to put a variable or a loop in a template, but know that it's also possible to use if statements! In short, a complete language exists and allows you to modulate a file as you wish.
+These variables are usually declared either in the [node part](#serverspp) or in the [global configuration](#varspp). We've just seen how to put a variable or a loop in a template, but know that it's also possible to use if statements! In short, a complete language exists and allows you to modulate a file as you wish.
 
 These methods prove simple and very effective. Small subtlety:
 
@@ -1215,7 +1215,7 @@ $comma_ldap_servers = 'ldap1.deimos.fr,ldap2.deimos.fr,127.0.0.1'
 $ip_ldap_servers = dns2ip("${comma_ldap_servers}")
 ```
 
-Here I send a list of LDAP servers and their IP addresses will be returned to me. Now you understand that it's a call, a bit like [inline_templates](#Les_inline_templates), but much more powerful.
+Here I send a list of LDAP servers and their IP addresses will be returned to me. Now you understand that it's a call, a bit like [inline_templates](#inline-templates), but much more powerful.
 
 {{< alert context="info" text="I've noticed a rather annoying cache behavior with this type of function! Indeed, when you develop a parser and test it, you are likely to use 'Notify' functions in your manifests for debugging. However, the changes you make to your parser won't necessarily apply until you've cleared the caches. After some research and IRC queries, it turns out that the only working method is to **restart the Puppet Master and the web server (Nginx in our case)**. It works very well, but it's a bit annoying during the debug phase." />}}
 
@@ -1993,14 +1993,14 @@ In files, we'll have the basic configuration file that should apply to all RedHa
 
 ### resolvconf
 
-I made this module to manage the resolv.conf configuration file. The usage is quite simple, it will retrieve the information of the DNS servers filled in the array available in [vars.pp of the base module](#vars.pp). So fill in the default DNS servers:
+I made this module to manage the resolv.conf configuration file. The usage is quite simple, it will retrieve the information of the DNS servers filled in the array available in [vars.pp of the base module](#varspp). So fill in the default DNS servers:
 
 ```ruby
 # Default DNS servers
 $dns_servers = [ '192.168.0.69', '192.168.0.27' ]
 ```
 
-You can override these values directly at the level of one or more nodes if you need to have specific configurations for certain nodes (in the [servers.pp file of the base module](#servers.pp)):
+You can override these values directly at the level of one or more nodes if you need to have specific configurations for certain nodes (in the [servers.pp file of the base module](#serverspp)):
 
 ```ruby
 # One server

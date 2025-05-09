@@ -11,7 +11,7 @@ toc: true
 
 ## Introduction
 
-Gitweb is a web interface that allows you to view all commits, comments, etc. for [git](.).
+Gitweb is a web interface that allows you to view all commits, comments, etc. for [git](./index.md).
 
 ## Installation
 

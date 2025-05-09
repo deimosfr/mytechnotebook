@@ -725,7 +725,7 @@ While it's often possible to modify the values of certain parameters, modifying 
 
 The objective is simple: to know the version of the application used for a specific service. Most of the time, a simple telnet on the desired port gives us the information. Note the few services that don't deliver this information: finger (port 79), exec (port 512), login (port 513), printer (port 515).
 
-There's also an article on this wiki: [Banners: Hiding Application Banners (Service banner faking)](./banières_:_cacher_les_banières_de_ses_applications_(service_banner_faking).html)
+There's also an article on this wiki: [Banners: Hiding Application Banners (Service banner faking)](../../Servers/Security/banners-hiding-application-banners-service-banner-faking.md)
 
 - FTP (port 21):
 

@@ -57,7 +57,7 @@ To change the wallpaper:
 gsettings set org.gnome.desktop.background picture-uri "file:/home/pmavro/Images/wallpaper.png"
 ```
 
-I have also created [an article about automatic wallpaper changes](/Gnome-shell_\:_changement_automatique_de_fond_d'écran/).
+I have also created [an article about automatic wallpaper changes](gnomeshell_automatic_wallpaper_change.md).
 
 ### Change Dock Position
 
@@ -197,6 +197,6 @@ All you need to do is reload GNOME Shell (Alt+F2 - r - Enter).
 
 ## References
 
-http://gregcor.com/2011/05/07/fix-dual-monitors-in-gnome-3-aka-my-workspaces-are-broken/
+* http://gregcor.com/2011/05/07/fix-dual-monitors-in-gnome-3-aka-my-workspaces-are-broken/
 
 [^1]: https://github.com/ssokolow/profile/blob/master/home/.local/share/applications/mimeapps.list

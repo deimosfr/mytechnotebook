@@ -49,7 +49,7 @@ search:
     ---
 
     <!--# start description here -->
-    [Filesystems](/BSD/Filesystems) •
+    [Filesystems](BSD/Filesystems/index.md) •
     <!--# stop description here -->
 
 -   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__

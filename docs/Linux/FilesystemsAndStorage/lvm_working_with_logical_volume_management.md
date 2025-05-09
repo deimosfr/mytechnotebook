@@ -1,7 +1,6 @@
 ---
 weight: 999
 title: "LVM: Working with Logical Volume Management"
-icon: "description"
 description: "How to create, manage, and optimize logical volumes on Linux systems using LVM for flexible storage management"
 categories: ["Linux", "Storage", "System Administration"]
 date: "2014-09-15T11:24:00+02:00"

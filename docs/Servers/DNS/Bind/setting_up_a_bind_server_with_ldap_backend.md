@@ -21,13 +21,13 @@ In the rest of this document, everything will be based on FreeBSD.
 
 ## Prerequisites
 
-You'll need to have a functional LDAP server. For this, if you want to use OpenLDAP `slapd`, you can follow this document: [Standard SLAPD Configuration](./LDAP_:_Installation_et_configuration_d'un_Annuaire_LDAP.html)
+You'll need to have a functional LDAP server. For this, if you want to use OpenLDAP `slapd`, you can follow this document: [Standard SLAPD Configuration](../../Authentication/OpenLDAP/ldap_installation_and_configuration_of_an_ldap_directory.md)
 
 For Bind9, I installed the `bind9-sdb-ldap` port with `WITH_PORT_REPLACES_BASE_BIND9=yes` to replace the system's Bind9.
 
 ## The named.conf file
 
-The file will be quite similar to the one in this document: [Bind9 master configuration](Installation_et_configuration_d'un_serveur_Bind9_primaire_(Master).html). The `options` and `logging` sections will be the same. Only the zone declaration changes.
+The file will be quite similar to the one in this document: [Bind9 master configuration](./installing_and_configuring_a_primary_bind9_server_master.md). The `options` and `logging` sections will be the same. Only the zone declaration changes.
 
 It will be in the following form:
 
@@ -284,7 +284,7 @@ However, when creating a new zone, you do need to restart Bind.
 
 To facilitate the administration of all these entries in LDAP, you can use software like [phpLDAPadmin](https://phpldapadmin.sourceforge.net/), but personally, I don't like it much...
 
-Alternatively, there are also some Perl scripts that I quickly wrote on a virtual desktop corner... You can find them here: [LDAP Administration Scripts for DHCP/DNS daemons](./file:dhcp_dns-ldapscripts.zip.html).
+Alternatively, there are also some Perl scripts that I quickly wrote on a virtual desktop corner... You can find them here: [LDAP Administration Scripts for DHCP/DNS daemons](../../../static/others/dhcp_dns-ldapscripts.zip).
 
 ## Conclusion
 
@@ -292,7 +292,7 @@ Our DNS server is now configured with LDAP storage rather than text files.
 
 The biggest advantage is that modifications are applied immediately without needing to restart. I'm sure we can find many other advantages... Centralized administration, etc.
 
-The proper way to have a backup DNS server would be to configure another `slapd` in replication as explained in this document: [SLAPD Configuration in Replication](./LDAP_:_Installation_et_configuration_d'un_Annuaire_LDAP_(secondaire).html), then configure Bind on the machine in question to query the local LDAP server.
+The proper way to have a backup DNS server would be to configure another `slapd` in replication as explained in this document: [SLAPD Configuration in Replication](../../Authentication/OpenLDAP/ldap_installation_and_configuration_of_a_secondary_ldap_directory.md), then configure Bind on the machine in question to query the local LDAP server.
 
 On both servers, Bind is configured as `master`!
 

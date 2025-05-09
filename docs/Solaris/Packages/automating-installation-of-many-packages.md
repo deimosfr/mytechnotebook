@@ -17,7 +17,7 @@ To solve this problem, I looked at the man page and found the `-n` argument, whi
 
 _Note: there's also the pkgask command that allows you to create a response file, but it seems to have some limitations compared to this method._
 
-**IMPORTANT: This doesn't work for .pkg files! [Convert them beforehand](solaris_package_management#pkgtrans).**
+**IMPORTANT: This doesn't work for .pkg files! [Convert them beforehand](./solaris_package_management.md#pkgtrans).**
 
 ## Configuration
 

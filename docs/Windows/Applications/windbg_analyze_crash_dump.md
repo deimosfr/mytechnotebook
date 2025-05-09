@@ -31,8 +31,8 @@ Recent versions of WinDbg have been and are being distributed as part of the fre
 
 To get WinDbg working, you need 2 things:
 
-* WinDbg: [https://www.microsoft.com/en-us/download/confirmation.aspx?id=8279](https://www.microsoft.com/en-us/download/confirmation.aspx?id=8279)
-* Symbols: [https://msdn.microsoft.com/en-us/windows/hardware/gg463028](https://msdn.microsoft.com/en-us/windows/hardware/gg463028)
+* [WinDbg](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/)
+* [Symbols](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-symbols)
 
 Install them, then add an environment variable with the following:
 
@@ -145,6 +145,4 @@ fffff800`01608000 fffff800`01651000   hal        (pdb symbols)          c:\symbo
 
 ## References
 
-[^1]: [https://en.wikipedia.org/wiki/WinDbg](https://en.wikipedia.org/wiki/WinDbg)
-
-[https://www.networkworld.com/news/2005/041105-windows-crash.html](https://www.networkworld.com/news/2005/041105-windows-crash.html)
+[^1]: [WinDbg wikipedia](https://en.wikipedia.org/wiki/WinDbg)

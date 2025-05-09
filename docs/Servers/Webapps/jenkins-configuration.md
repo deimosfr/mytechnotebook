@@ -31,7 +31,7 @@ Recently, Jenkins has become a popular alternative to the reference tool CruiseC
 
 On January 11, 2011, a proposal to rename Hudson was announced to avoid problems with a possible trademark registration of the name by Oracle. After failed negotiations with Oracle, a vote in favor of renaming was ratified on January 29, 2011.
 
-Here we'll see how to set up a Jenkins server that will control a Selenium server for unit testing on a PHP application like [Limesurvey](/Limesurvey_:_Mise_en_place_d'une_solution_de_Sondages/).
+Here we'll see how to set up a Jenkins server that will control a Selenium server for unit testing on a PHP application like [Limesurvey](./limesurvey_setting_up_a_survey_solution.md).
 
 ## Installation
 

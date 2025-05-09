@@ -30,7 +30,7 @@ toc: true
 
 ## Introduction
 
-PuppetDB[^1] allows you to retrieve data collected by [Puppet](./puppet_:_solution_de_gestion_de_fichier_de_configuration.html) such as facts and to use exported resources among other things. This data can then be used by other programs, such as the [dashboard](./Puppet_Dashboard_:_Mise_en_place_d'une_interface_graphique_pour_Puppet.html), or your own tools through an API. You can install the PuppetDB server on your PuppetMaster or on a separate server.[^2]
+PuppetDB[^1] allows you to retrieve data collected by [Puppet](./puppet_configuration_file_management_solution.md) such as facts and to use exported resources among other things. This data can then be used by other programs, such as the [dashboard](./puppet_dashboard_setting_up_a_graphical_interface_for_puppet.md), or your own tools through an API. You can install the PuppetDB server on your PuppetMaster or on a separate server.[^2]
 
 Today it is possible to use 2 backends to store this data:
 

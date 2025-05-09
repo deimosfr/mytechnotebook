@@ -168,7 +168,7 @@ Memory thrashing occurs when the system spends more time moving pages in and out
 
 ## Ulimits
 
-There are limitations on a system. I've already written [an article about this](./ulimit_:_utiliser_les_limites_systèmes.html)[^3]. It's possible to limit memory usage with ulimits. For example, you can define the maximum address space limit.
+There are limitations on a system. I've already written [an article about this](../Security/ulimit_using_system_limits.md)[^3]. It's possible to limit memory usage with ulimits. For example, you can define the maximum address space limit.
 
 ## Physical Address Space
 
@@ -306,7 +306,7 @@ It's possible to have more information about NUMA management on a PID (here 1):
 7fff85d22000 default
 ```
 
-If you want to have finer control of NUMA and decide on processor assignments, [you should look at cpuset](process_latency_and_kernel_timing#cpuset)[^7]. It's widely used for applications that need low latency.
+If you want to have finer control of NUMA and decide on processor assignments, [you should look at cpuset](./process_latency_and_kernel_timing.md#cpusetcgroup)[^7]. It's widely used for applications that need low latency.
 
 ### numactl
 

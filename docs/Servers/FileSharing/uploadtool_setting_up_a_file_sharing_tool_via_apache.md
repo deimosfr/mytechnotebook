@@ -37,7 +37,7 @@ Create your root account and then the users who will have access to upload.
 
 ### Protections for public folders
 
-To protect yourself from listing uploaded files, I suggest a small [HTML redirector](../Web/Apache/apache_2_installation_and_configuration#redirecteur-html).
+To protect yourself from listing uploaded files, I suggest a small [HTML redirector](../Web/Apache/apache_2_installation_and_configuration.md#html-redirector).
 
 #### Enhancement patch
 

@@ -52,7 +52,7 @@ Alignment consists of matching the logical blocks of partitions with the physica
 
 Current SSDs work internally on blocks of 1 or 2 MiB, which is 1,048,576 or 2,097,152 bytes respectively. Considering that a sector stores 512 bytes, it will take 2,048 sectors to store 1,048,576 bytes.
 While traditionally operating systems started the first partition at the 63rd sector, the latest versions take into account the constraints of SSDs.
-Thus [Parted](./parted_:_résoudre_les_problèmes_de_partionnnement_sur_gros_filesystems.html#partitionnement) can automatically align the beginning of partitions on multiples of 2,048 sectors.
+Thus [Parted](parted_solving_partitioning_problems_on_large_filesystems.md) can automatically align the beginning of partitions on multiples of 2,048 sectors.
 
 To ensure proper alignment of partitions, enter the following command with administrative privileges and verify that the number of sectors at the beginning of each of your partitions is a multiple of 2,048. Here's the command for an MSDOS partition table:
 
@@ -103,7 +103,7 @@ plot '/home/pmavro/sdc.zcav' u 1:2 t '160 GiB Hard Drive' with lines, \
 '/home/pmavro/sdd.zcav' u 1:2 t '64 GiB USB key' with lines
 ```
 
-As a reminder, I wrote an [article on Gnuplot](./gnuplot_:_grapher_des_données_facilement.html). Here's the result:
+As a reminder, I wrote an [article on Gnuplot](../Applications/gnuplot_graph_data_easily.md). Here's the result:
 
 ![Zcav steppings.png](../../static/images/zcav_steppings.avif)
 
@@ -396,7 +396,7 @@ Here are the options:
 
 ### noop
 
-The noop option allows for not using an intelligent algorithm. It serves requests as they come in. It's notably used for [host machines in virtualization](./kvm_:_mise_en_place_de_kvm.html#disks). Or disks that incorporate [TCQ technology](https://en.wikipedia.org/wiki/Tagged_Command_Queuing) to prevent two algorithms from overlapping and causing performance loss instead of gain.
+The noop option allows for not using an intelligent algorithm. It serves requests as they come in. It's notably used for [host machines in virtualization](../../Servers/Virtualization/KVMandQemu/kvm_setting_up_kvm.md#disks). Or disks that incorporate [TCQ technology](https://en.wikipedia.org/wiki/Tagged_Command_Queuing) to prevent two algorithms from overlapping and causing performance loss instead of gain.
 
 ## Optimizations for SSDs
 
@@ -520,7 +520,7 @@ GRUB_CMDLINE_LINUX=""
 
 #### SSD Detection
 
-It's possible thanks to [UDEV](./Udev_:_Utilisation_d'un_socket_pour_parler_avec_les_devices_kernel.html) to automatically define the scheduler to use depending on the type of disk (platter or SSD):
+It's possible thanks to [UDEV](../Kernel/udev_using_a_socket_to_communicate_with_kernel_devices.md) to automatically define the scheduler to use depending on the type of disk (platter or SSD):
 
 ```bash
 # set deadline scheduler for non-rotating disks

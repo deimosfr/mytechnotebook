@@ -38,7 +38,7 @@ It's possible to tune this allocation a bit for applications that typically allo
 vm.min_free_kbytes=<value>
 ```
 
-This helps reduce pagination request times; memory is only used for what it really needs, and it can put pressure on [ZONE_NORMAL](L'adressage_mémoire_et_son_allocation#UMA)[^1].
+This helps reduce pagination request times; memory is only used for what it really needs, and it can put pressure on [ZONE_NORMAL](./memory_addressing_and_allocation.md#uma)[^1].
 
 ## Overcommit Management
 
@@ -445,5 +445,5 @@ f0000000-fed003ff : reserved
 
 ## References
 
-[^1]: [Memory Addressing and Allocation#UMA](L'adressage_mémoire_et_son_allocation#UMA)
-[^2]: [https://vincent.bernat.im/fr/blog/2011-ipv4-route-cache-linux.html](https://vincent.bernat.im/fr/blog/2011-ipv4-route-cache-linux.html)
+[^1]: [Memory Addressing and Allocation](./memory_addressing_and_allocation.md#uma)
+[^2]: [IP4 route cache](https://vincent.bernat.im/fr/blog/2011-ipv4-route-cache-linux.html)

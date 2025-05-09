@@ -19,7 +19,7 @@ This applies to both Linux distributions, tested on Debian Sarge, and FreeBSD, t
 
 ## Prerequisites
 
-You will need to configure the *slapd* daemons on both servers. For this, you can follow this document: [Standard SLAPD Configuration](/LDAP_\\:_Installation_et_configuration_d'un_Annuaire_LDAP/)
+You will need to configure the *slapd* daemons on both servers. For this, you can follow this document: [Standard SLAPD Configuration](./ldap_installation_and_configuration_of_an_ldap_directory.md)
 
 ## The Master Server
 

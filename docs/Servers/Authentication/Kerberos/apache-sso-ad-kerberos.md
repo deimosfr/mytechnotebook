@@ -66,7 +66,7 @@ It is not necessarily the domain name, and there can be several realms on a netw
 
 ### Windows Server
 
-Install the [support tools](https://www.microsoft.com/downloads/details.aspx?FamilyID=96a35011-fd83-419d-939b-9a772ea2df90&displaylang=en)[^2].
+Install the [support tools](https://www.microsoft.com/downloads/details.aspx?FamilyID=96a35011-fd83-419d-939b-9a772ea2df90&displaylang=en).
 
 ### Linux Server
 
@@ -284,5 +284,4 @@ The username is free, however, the name must not already be used as a computer n
 
 ## References
 
-[^1]: [https://www.slashorg.net/index.php?act=read&id=110&lang=](https://www.slashorg.net/index.php?act=read&id=110&lang=)
-[^2]: [https://www.microsoft.com/downloads/details.aspx?FamilyID=96a35011-fd83-419d-939b-9a772ea2df90&displaylang=en](https://www.microsoft.com/downloads/details.aspx?FamilyID=96a35011-fd83-419d-939b-9a772ea2df90&displaylang=en)
+[^1]: [SSO kerberos](https://www.slashorg.net/index.php)

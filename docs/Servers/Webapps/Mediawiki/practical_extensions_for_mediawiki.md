@@ -643,4 +643,4 @@ When editing, a blue bar will appear, and you can just drag and drop.
 
 ### SphinxSearch
 
-SphinxSearch replaces the basic search provided by MediaWiki, which is not fulltext. Explaining how to set this up here would be too long, so there is [a dedicated article about it](./sphinx_:_setup_a_full_text_indexer).
+SphinxSearch replaces the basic search provided by MediaWiki, which is not fulltext. Explaining how to set this up here would be too long, so there is [a dedicated article about it](../../Misc/sphinx_setup_a_full_text_indexer.md).

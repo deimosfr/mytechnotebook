@@ -268,7 +268,7 @@ passdb backend = tdbsam:/var/lib/samba/passdb.tdb
 
 - If you want to push folder permissions, check the documentation on [ACL: Implementation of NT-type rights](../../../Linux/FilesystemsAndStorage/acl-implementing-nt-type-permissions-on-linux.md).
 
-- [Other documentation on Samba](../..#samba)
+- [Other documentation on Samba](./index.md)
 - [CIFS Solaris Workgroup](../../../static/pdf/cifs_solaris_workgroup.pdf)
 - http://www.csua.berkeley.edu/~ranga/notes/freebsd_samba.html+samba+freebsd&cd=6&hl=fr&ct=clnk&client=ubuntu
 - http://www.tobanet.de/dokuwiki/samba:upgrade

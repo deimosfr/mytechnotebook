@@ -1543,7 +1543,7 @@ You can limit the memory in a container like this (`/var/lib/lxc/mycontainer/con
 lxc.cgroup.memory.limit_in_bytes = 128M
 ```
 
-If you've got error when trying to limit memory, [check the FAQ](#cant-limit-container-memory).
+If you've got error when trying to limit memory, [check the FAQ](#cannot-limit-container-memory-or-swap).
 
 ```
 lxc.cgroup.memory.limit_in_bytes = 128M
@@ -1667,7 +1667,7 @@ lxc.cgroup.memory.memsw.limit_in_bytes = 192M
 
 That mean that **"lxc.cgroup.memory.memsw.limit_in_bytes" should be at least equal to "lxc.cgroup.memory.limit_in_bytes".**
 
-If you've got error when trying to limit swap, check the [FAQ](#cant-limit-container-memory).
+If you've got error when trying to limit swap, check the [FAQ](#cannot-limit-container-memory-or-swap).
 
 #### Disks
 
@@ -1872,7 +1872,7 @@ Unmounting LVM
 
 this is because of a Debian bug that the maintainer doesn't want to fix :-(. [Here is a workaround](#installation).
 
-### Can't limit container memory or swap
+### Cannot limit container memory or swap
 
 If you can't limit container memory and have this kind of issue:
 

@@ -907,7 +907,7 @@ Look above, [the answer is there](#ndo2db).
 
 ### movement KO
 
-If you have these types of errors when loading your Nagios config from Centreon, it's either a permission problem or an NDOutils problem. Make sure you've followed the procedure described [above](#NDOutils).
+If you have these types of errors when loading your Nagios config from Centreon, it's either a permission problem or an NDOutils problem. Make sure you've followed the procedure described [above](#ndoutils).
 
 ### Warning: File '/var/lib/centreon/service-perfdata' could not be opened - service performance data will not be written to file!
 

@@ -514,7 +514,7 @@ Now add this to your crontab to run every 5 minutes for example.
 
 ### NFS
 
-For a NFS server, read the [NFS Server Documentation](nfs_setting_up_an_nfs_server.md).
+For a NFS server, read the [NFS Server Documentation](./nfs_setting_up_an_nfs_server.md).
 
 When installed, just configure the `/etc/export` file:
 
@@ -526,7 +526,7 @@ After that restart NFS services.
 
 ### Samba
 
-For Samba, please follow this: [Samba and OpenLDAP Documentation](<Installation_et_configuration_de_Samba_en_mode_"ADS"_(Authentification_sur_un_serveur_OpenLDAP).html>).
+For Samba, please follow this: [Samba and OpenLDAP Documentation](./Samba/installation_and_configuration_of_samba_in_ads_mode_authentication_on_an_ad_server.md).
 
 ## Guests Servers
 
@@ -534,7 +534,7 @@ Now I need to set up a Linux server. When users log into it, the Home profile sh
 
 ### Linux
 
-We will use [pam_mount](https://pam-mount.sourceforge.net/) to automate the NFS mount. Please [follow this documentation](./pam_mount_:_monter_des_partages_réseaux_au_login.html).
+We will use [pam_mount](https://pam-mount.sourceforge.net/) to automate the NFS mount. Please [follow this documentation](../Authentication/PAM/pam_pluggable_authentication_module_choosing_authentication_methods.md).
 
 Edit the `/etc/security/pam_mount.conf` file and configure what you need. Here we would like users to have NFS home share mounted from the server at logon. Add this line at the end of the file:
 

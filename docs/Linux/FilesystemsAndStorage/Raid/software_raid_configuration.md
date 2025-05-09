@@ -218,7 +218,7 @@ If you have no idea about your IOs, take a value between 32KB and 128KB, taking 
 
 > Chunk size = average request IO size (avgrq-sz) / number of disks
 
-To get the average request size, I invite you to check the Systat documentation[^3] where we talk about [Iostat](../../Misc/sysstat_essential_tools_for_analyzing_performance_issues#iostat) and [Sar](../../Misc/sysstat_essential_tools_for_analyzing_performance_issues#sar).
+To get the average request size, I invite you to check the Systat documentation[^3] where we talk about [Iostat](../../Misc/sysstat_essential_tools_for_analyzing_performance_issues.md#iostat) and [Sar](../../Misc/sysstat_essential_tools_for_analyzing_performance_issues.md#sar).
 
 - To see the chunk size on a RAID (here md0):
 

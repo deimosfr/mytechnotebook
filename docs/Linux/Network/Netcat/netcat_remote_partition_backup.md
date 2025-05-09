@@ -40,6 +40,6 @@ dd if=/dev/hda1 | gzip | netcat -w 5 remote_ip 10000
 Refer to [How to clone a Linux box using netcat](https://www.ebruni.it/en/docs/clone_linux/index.htm) for more information.
 
 ## Resources
-- [Netcat: Creating a Listening Port](/Netcat_\:_Créer_un_port_d'écoute/)
-- [Netcat: File Transfer](netcat_file_transfer.md)
+- [Netcat: Creating a Listening Port](../../Network/Netcat/netcat_creating_a_listening_port.md)
+- [Netcat: File Transfer](../../Network/Netcat/netcat_file_transfer.md)
 - [Netcat Documentation](../../../static/pdf/netcat.pdf)

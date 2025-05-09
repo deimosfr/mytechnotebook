@@ -37,7 +37,7 @@ It should be noted that the size of the boot file does not allow for directly bo
 
 ## Prerequisites
 
-The prerequisites are quite simple; you just need a [DHCP server](./DHCP3_:_Installation_et_configuration_d'un_serveur_DHCP.html) that is able to boot on PXE. We will see here the configuration of this DHCP server so that it accepts network booting.
+The prerequisites are quite simple; you just need a [DHCP server](../../Network/DHCP/dhcp_installation_and_configuration_of_a_dhcp_server.md) that is able to boot on PXE. We will see here the configuration of this DHCP server so that it accepts network booting.
 
 ## Installation
 
@@ -206,7 +206,7 @@ LABEL x86 - Debian
 - vga=791: loads 1024\*768 resolution
 - priority=low: loads Debian expert mode
 
-Note: To automate installations, [follow this link: Automate a Debian installation]({{< relref "docs/Linux/Misc/Debian/automate-debian-installation.md" >}}).
+Note: To automate installations, [follow this link: Automate a Debian installation](../../../Linux/Misc/Debian/automate-debian-installation.md).
 
 ### Memtest86+
 
@@ -338,6 +338,6 @@ LABEL ghost
 - [TFTP Documentation on Ubuntu](../../../static/pdf/pxe_ubuntu.pdf)
 - [TFTP Documentation on Debian](../../../static/pdf/booting_on_pxe.pdf)
 - [Start without a Disk with PXE, Grub and NFS](../../../static/pdf/démarrez_sans_disque_avec_pxe,_grub_et_nfs.pdf)
-- [Configuration and Installation via Serial Port of OpenBSD on Soekris](Configuration_et_installation_via_port_série_d'OpenBSD_sur_Soekris.html)
+- [Configuration and Installation via Serial Port of OpenBSD on Soekris](../../../Misc/Soekris/openbsd_configuration_and_installation_via_serial_port_on_soekris.md)
 - [Boot BSDs with PXElinux](https://www.thegibson.org/blog/archives/10)
 - [Setting up a PXE and Solving its Problems](https://en.opensuse.org/SuSE_install_with_PXE_boot)

@@ -704,7 +704,7 @@ MariaDB [(none)]> SHOW STATUS LIKE 'wsrep_cluster_size';
 
 ## Backups and restorations
 
-For backups, there are several methods and [Xtrabackup](../xtrabackup_:_optimiser_ses_backups_mysql/) is again one of the favorites.
+For backups, there are several methods and [Xtrabackup](./xtrabackup_optimizing_your_mysql_backups.md) is again one of the favorites.
 
 {{< alert context="info" text="Just like when a new node joins the cluster and blocks the donor's transactions, it's the same for backups, but only for MyISAM!" />}}
 
@@ -803,7 +803,7 @@ MariaDB [(none)]> SHOW VARIABLES LIKE 'wsrep_cluster_address';
 +-----------------------+-----------------------+
 ```
 
-I've also tested violently shutting down any node and turning it back on. Once integrated into the cluster, it properly retrieves all the differential information. I had no corruption problems. The only issues I encountered were with MariaDB startup and lock problems as explained in the [FAQ](#FAQ).
+I've also tested violently shutting down any node and turning it back on. Once integrated into the cluster, it properly retrieves all the differential information. I had no corruption problems. The only issues I encountered were with MariaDB startup and lock problems as explained in the [FAQ](#faq).
 
 ### Manual method
 

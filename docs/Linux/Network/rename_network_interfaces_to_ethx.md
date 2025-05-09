@@ -13,7 +13,7 @@ toc: true
 
 You've probably noticed that the recent trend in some Linux distributions is to name network cards not by ethX, but by their chipset. So we end up with em0, em1 or whatever...
 
-This idea probably came from Solaris, but personally, I don't see the benefit, especially since it's more of a hindrance when you want to standardize an IT infrastructure. The purpose of this article is to show how to return to the good old ethX interfaces. I recommend reading [the article on Udev](/Udev_:_Utilisation_d'un_socket_pour_parler_avec_les_devices_kernel/) before starting this one, to better understand certain aspects.
+This idea probably came from Solaris, but personally, I don't see the benefit, especially since it's more of a hindrance when you want to standardize an IT infrastructure. The purpose of this article is to show how to return to the good old ethX interfaces. I recommend reading [the article on Udev](../Kernel/udev_using_a_socket_to_communicate_with_kernel_devices.md) before starting this one, to better understand certain aspects.
 
 ## Implementation
 

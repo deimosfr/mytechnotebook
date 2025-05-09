@@ -373,7 +373,7 @@ No local changes to save
 
 ### Configuring aliases
 
-You can configure aliases for longer commands. For example, if you're used to [SVN](Installation_et_configuration_d'un_repository_SVN.html):
+You can configure aliases for longer commands. For example, if you're used to [SVN](../SVN/index.md)
 
 ```bash
 git config --global alias.co 'checkout'
@@ -596,7 +596,7 @@ Here in the git_deimosfr repository, only the "configs/puppet/" folder interests
 
 ### Using an external git repository within a git
 
-If, for example, you already have a Git in which you want to integrate another Git, but external, you'll need to use submodules. For my part, I have a [puppet](./puppet_:_solution_de_gestion_de_fichier_de_configuration.html) folder with lots of modules inside. Some of these modules weren't created by me and are maintained by other people who have a Git. I want some modules to point to external gits. Here's how to proceed:
+If, for example, you already have a Git in which you want to integrate another Git, but external, you'll need to use submodules. For my part, I have a [puppet](../../ConfigurationManagers/Puppet/puppet_configuration_file_management_solution.md) folder with lots of modules inside. Some of these modules weren't created by me and are maintained by other people who have a Git. I want some modules to point to external gits. Here's how to proceed:
 
 - I add the external source to this git:
 
@@ -1104,11 +1104,11 @@ git config --global push.default matching
 
 ## References
 
-http://www.kernel.org/pub/software/scm/git/docs/user-manual.html
-http://git.wiki.kernel.org/index.php/GitFaq
-http://alexgirard.com/git-book/index.html
-[How To Install A Public Git Repository On A Debian Server](../../../static/pdf/how_to_install_a_public_git_repository_on_a_debian_server.pdf)
-[Git it](../../../static/pdf/gitit.pdf)
-http://www.unixgarden.com/index.php/administration-systeme/git-les-mains-dans-le-cambouis
-http://stackoverflow.com/questions/1811730/how-do-you-work-with-a-git-repository-within-another-repository
-http://chrisjean.com/2009/04/20/git-submodules-adding-using-removing-and-updating/
+* http://www.kernel.org/pub/software/scm/git/docs/user-manual.html
+* http://git.wiki.kernel.org/index.php/GitFaq
+* http://alexgirard.com/git-book/index.html
+* [How To Install A Public Git Repository On A Debian Server](../../../static/pdf/how_to_install_a_public_git_repository_on_a_debian_server.pdf)
+* [Git it](../../../static/pdf/gitit.pdf)
+* http://www.unixgarden.com/index.php/administration-systeme/git-les-mains-dans-le-cambouis
+* http://stackoverflow.com/questions/1811730/how-do-you-work-with-a-git-repository-within-another-repository
+* http://chrisjean.com/2009/04/20/git-submodules-adding-using-removing-and-updating/

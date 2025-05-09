@@ -11,7 +11,7 @@ toc: true
 
 ## Introduction
 
-Before starting, you should know that the installation of [cacti](https://cacti.net/) requires a [MySQL database](../../Databases/MySQL-MariaDB), a [web server](../../Web/Apache) (apache with PHP) and the SNMP protocol.
+Before starting, you should know that the installation of [Cacti](https://cacti.net/) requires a [MySQL database](../../Databases/MySQL-MariaDB/index.md), a [web server](../../Web/index.md) (apache with PHP) and the SNMP protocol.
 
 Cacti is used for specialized network monitoring since the MRTG team abandoned this project to work on Cacti. That said, Cacti doesn't just monitor networks, you can monitor all types of services.
 

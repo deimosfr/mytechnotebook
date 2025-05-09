@@ -21,7 +21,7 @@ toc: true
 
 SQL is part of the same family as SEQUEL (of which it is a descendant), QUEL, or QBE (Zloof) languages.
 
-## Create - Data Insertion
+## Create
 
 The INSERT command adds a row to a database table:
 
@@ -41,7 +41,7 @@ The column list can be omitted if you are inserting values for all columns in a 
 INSERT INTO dishes VALUES (1, 'Braised Sea Cucumber', 6.50, 0)
 ```
 
-## UPDATE - Data Update
+## UPDATE
 
 The UPDATE command modifies data already present in a table:
 
@@ -81,7 +81,7 @@ UPDATE `mytechnotebook`.`wiki_text` SET `old_text` = REPLACE(`old_text`,"<source
 UPDATE `mytechnotebook`.`wiki_text` SET `old_text` = REPLACE(`old_text`,"</source","</syntaxhighlight");
 ```
 
-## DELETE - Delete Data
+## DELETE
 
 The DELETE command removes rows from a table:
 
@@ -106,7 +106,7 @@ DELETE FROM dishes WHERE dish_name = 'Walnut Bun'
 
 **As there is no UNDELETE command in SQL, be careful when using DELETE!**
 
-## SELECT - Retrieve Data
+## SELECT
 
 - Data retrieval:
 
@@ -167,7 +167,7 @@ SELECT dish_name, price FROM dishes WHERE price > 5.00 AND price <= 10.00 OR dis
 | () | Grouping |
 {{< /table >}}
 
-## ORDER BY and LIMIT - Data Sorting
+## ORDER BY and LIMIT
 
 - Sort rows returned by a SELECT query:
 

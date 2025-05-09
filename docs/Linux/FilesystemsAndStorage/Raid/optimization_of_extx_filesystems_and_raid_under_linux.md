@@ -305,7 +305,7 @@ For more information, consult the official documentation.
 
 ## RAID
 
-I won't discuss different RAIDs, but will direct you to Wikipedia for that. For using software RAID under Linux, [I recommend this documentation](/Configuration_d'un_Raid_logiciel/). We will focus more on performance since that's the topic here. RAID 0 is the most performant of all RAIDs, but it obviously has data security problems when a disk is lost.
+I won't discuss different RAIDs, but will direct you to Wikipedia for that. For using software RAID under Linux, [I recommend this documentation](./software_raid_configuration.md). We will focus more on performance since that's the topic here. RAID 0 is the most performant of all RAIDs, but it obviously has data security problems when a disk is lost.
 
 The MTBF (Mean Time Between Failure) is also important for RAIDs. This is an estimate of how long the RAID will function properly before a disk is detected as failing.
 
@@ -551,7 +551,7 @@ mdadm -C /dev/md0 -l1 -n2 -b /tmp/md0 --write-behind=256 /dev/sdal --write-mostl
 1. [https://www.apprenti-developpeur.net/unix-et-os/systeme-de-fichiers-sous-linux/](https://www.apprenti-developpeur.net/unix-et-os/systeme-de-fichiers-sous-linux/)
 2. [https://kernel.org/doc/Documentation/filesystems/mandatory-locking.txt](https://kernel.org/doc/Documentation/filesystems/mandatory-locking.txt)
 3. [https://fr.wikipedia.org/wiki/RAID\_%28informatique%29](https://fr.wikipedia.org/wiki/RAID_%28informatique%29)
-4. [Configuration of a Software Raid](/Configuration_d'un_Raid_logiciel/)
+4. [Configuration of a Software Raid](./software_raid_configuration.md)
 5. [Sysstat: Essential tools for analyzing performance issues](../../Misc/sysstat_essential_tools_for_analyzing_performance_issues.md)
 6. [https://kernel.org/doc/Documentation/md.txt](https://kernel.org/doc/Documentation/md.txt)
 7. [https://makarevitch.org/rant/raid/](https://makarevitch.org/rant/raid/)

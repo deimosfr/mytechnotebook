@@ -21,7 +21,7 @@ toc: true
 
 ## Introduction
 
-Newznab is a Usenet indexer. It can be used with applications like [SABnzbd](../sabnzbd_\:_une_interface_web_pour_gérer_les_newsgroups/) or [Sick-Beard](../Sick-Beard_\:_Un_PVR_s'appuyant_sur_SABnzbd/).
+Newznab is a Usenet indexer. It can be used with applications like [SABnzbd](./sabnzbd_a_web_interface_for_managing_newsgroups.md) or [Sick-Beard](./sickbeard_a_pvr_relying_on_sabnzbd.md).
 
 ## Installation
 
@@ -31,7 +31,7 @@ Here are the required packages:
 aptitude install apache2 php5 libapache2-mod-php5 php5-curl php5-mysql php5-gd php-pear
 ```
 
-Since we'll need a MySQL-type database, we'll take the opportunity to set up [MariaDB (follow this link)](../mariadb_\:_migration_depuis_mysql/).
+Since we'll need a MySQL-type database, we'll take the opportunity to set up [MariaDB (follow this link)](../../Servers/Databases/MySQL-MariaDB/mariadb_migration_from_mysql.md).
 
 Next, let's set up Newznab:
 

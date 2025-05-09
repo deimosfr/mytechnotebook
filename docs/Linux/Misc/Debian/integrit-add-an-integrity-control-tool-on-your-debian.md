@@ -183,4 +183,4 @@ integrit -C /etc/integrit/integrit.conf -c
 
 ## References
 
-[^1]: [https://sourceforge.net/projects/integrit/](https://sourceforge.net/projects/integrit/)
+[^1]: [Integrit project](https://sourceforge.net/projects/integrit)

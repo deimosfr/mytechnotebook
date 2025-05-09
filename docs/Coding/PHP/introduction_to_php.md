@@ -1659,7 +1659,7 @@ The $\_POST array is a super-global variable containing the data submitted by th
 
 Thus, by testing if there is a my_name key in the $\_POST array, we can know if a parameter named my_name has been submitted by the form. Even if this parameter has been left empty, *array_key_exists() will return *true\* and the welcome message will be displayed.
 
-**Warning: If you start making forms accessible from outside, calling my_name is dangerous if you don't protect it because JavaScript or HTML code can be inserted into it. We'll see later how to protect against this. You can also look at [other PHP documentation including those on security]({{< ref "/docs/coding/php/" >}}).**
+**Warning: If you start making forms accessible from outside, calling my_name is dangerous if you don't protect it because JavaScript or HTML code can be inserted into it. We'll see later how to protect against this. You can also look at [other PHP documentation including those on security](./index.md).**
 
 ## Useful server variables
 
@@ -2236,7 +2236,7 @@ if (DB::isError($db)) { die("connection error: " . $db->getMessage( )); }
 $q = $db->query("INSERT INTO dishes (dish_name, price, is_spicy)     VALUES ('Sesame Seed Puff', 2.50, 0)");
 ```
 
-For more explanations on the INSERT function of SQL, [refer to the SQL introduction](../SQL/introduction_to_sql.md#create---data-insertion).
+For more explanations on the INSERT function of SQL, [refer to the SQL introduction](../SQL/introduction_to_sql.md#create).
 
 Instead of calling DB:isError after each query, it's more convenient to use the _setErrorHandling()_ function to set a default behavior for error handling: just pass the PEAR*ERROR_DIE constant to \_setErrorHandling()* for your program to automatically display an error message and stop in case a query fails.
 
@@ -2266,7 +2266,7 @@ Since the program ends as soon as it encounters the error, the last line of the 
 
 ### Update
 
-For more explanations on the UPDATE function of SQL, [refer to the SQL introduction](../SQL/introduction_to_sql.md#update---data-update).
+For more explanations on the UPDATE function of SQL, [refer to the SQL introduction](../SQL/introduction_to_sql.md#update).
 
 Here's an example of modifying data with query():
 
@@ -2281,7 +2281,7 @@ print 'Changed the price of ' . $db->affectedRows( ) . 'rows.';
 
 ### Delete
 
-For more explanations on the DELETE function of SQL, [refer to the SQL introduction](../SQL/introduction_to_sql.md#delete---delete-data).
+For more explanations on the DELETE function of SQL, [refer to the SQL introduction](../SQL/introduction_to_sql.md#delete).
 
 - Deleting data with query():
 
@@ -2404,7 +2404,7 @@ Eggplant with Chili Sauce, 6.50
 
 ### Select
 
-For more explanations on the SELECT function of SQL, [refer to the SQL introduction](../SQL/introduction_to_sql.md##select---retrieve-data).
+For more explanations on the SELECT function of SQL, [refer to the SQL introduction](../SQL/introduction_to_sql.md#select).
 
 If you only expect one row as a result of a query, use getRow() instead: this function executes SELECT and returns only one row.
 
@@ -2430,7 +2430,7 @@ $cheapest_dish = $db->getOne('SELECT dish_name, price FROM dishes ORDER print "T
 
 ## Modifying the format of result rows
 
-For more explanations on the Order By and Limit functions of SQL, [refer to the SQL introduction](../SQL/introduction_to_sql.md#order-by-and-limit---data-sorting).
+For more explanations on the Order By and Limit functions of SQL, [refer to the SQL introduction](../SQL/introduction_to_sql.md#order-by-and-limit).
 
 Until now, _fetchRow(), getAll() and getOne()_ have returned rows from the database in the form of arrays indexed by integers. This makes it easy and quick to interpolate values into strings between double apostrophes, but knowing, for example, which column of the SELECT query corresponds to element 6 of the array is a tricky and error-prone operation. To avoid this, PEAR DB allows retrieving each row of the result in an array indexed by strings or as an object.
 

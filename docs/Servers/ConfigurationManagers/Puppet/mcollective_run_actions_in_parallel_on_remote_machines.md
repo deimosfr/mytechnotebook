@@ -778,7 +778,7 @@ server1                         version = postfix-2.6.6-2.2.el6_1
 
 ## FactsFacter
 
-The "[FactsFacter](https://projects.puppetlabs.com/projects/mcollective-plugins/wiki/FactsFacter)" module allows you to use the facts you have in your [Puppet](./puppet_:_solution_de_gestion_de_fichier_de_configuration.html).
+The "[FactsFacter](https://projects.puppetlabs.com/projects/mcollective-plugins/wiki/FactsFacter)" module allows you to use the facts you have in your [Puppet](./puppet_configuration_file_management_solution.md).
 
 ### Server
 

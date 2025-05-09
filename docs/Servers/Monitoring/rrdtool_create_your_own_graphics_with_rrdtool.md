@@ -259,7 +259,7 @@ In short, the notation is relatively easy as you can see. Check the man page for
 
 ## Example
 
-Here's an example I propose of something I developed to have graphs on the size occupied by users on their home directory (this is very similar to [my documentation on OpenChart](./open_flash_chart_:_créer_des_graphiques_flash.html)). This will give me something like this:
+Here's an example I propose of something I developed to have graphs on the size occupied by users on their home directory. This will give me something like this:
 
 ![Rrd day](../../static/images/rrd_day.avif)
 ![Rrd week](../../static/images/rrd_week.avif)

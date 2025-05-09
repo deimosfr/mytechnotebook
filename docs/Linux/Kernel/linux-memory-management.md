@@ -96,7 +96,7 @@ echo 3 > /proc/sys/vm/drop_caches
 OOM (Out Of Memory) can happen. There is a process called oomkiller for this. When there is no more swap, no more RAM, it will kill processes. It will trigger if:
 
 - You have no more memory space (including RAM)
-- There are no more available pages in the [ZONE_NORMAL or ZONE_HIGHMEM](memory_addressing_and_allocation.md#uma)[^1]
+- There are no more available pages in the [ZONE_NORMAL or ZONE_HIGHMEM](./memory_addressing_and_allocation.md#uma)[^1]
 - There is no more available memory in the page mapping table
 
 It is also possible to [add swap on the fly](../FilesystemsAndStorage/swap_creating_dynamic_swap.md)[^2] to avoid a crash due to an OOM.
@@ -229,9 +229,9 @@ If there is little memory left, the kernel will start by killing processes in us
 
 ## References
 
-[^1]: [Memory addressing and allocation#UMA](/L'adressage_mémoire_et_son_allocation/#UMA)
+[^1]: [Memory addressing and allocation UMA](./memory_addressing_and_allocation.md#uma)
 [^2]: [SWAP: Creating dynamic swap](../FilesystemsAndStorage/swap_creating_dynamic_swap.md)[^2]
-[^3]: [https://fr.wikipedia.org/wiki/Mémoire_virtuelle#Swapping](https://fr.wikipedia.org/wiki/Mémoire_virtuelle#Swapping)
-[^4]: [https://www.linuxvox.com/2009/10/what-is-the-linux-kernel-parameter-vm-swappiness/](https://www.linuxvox.com/2009/10/what-is-the-linux-kernel-parameter-vm-swappiness/)
+[^3]: [Address space swapping](https://en.wikipedia.org/wiki/Virtual_memory#Address_space_swapping)
+[^4]: [The kernel parameter vm swapiness](https://www.linuxvox.com/2009/10/what-is-the-linux-kernel-parameter-vm-swappiness/)
 
 [Memory management and tuning options in Red Hat Enterprise Linux](../../static/pdf/memory_management_and_tuning_options_in_red_hat_enterprise_linux.pdf)

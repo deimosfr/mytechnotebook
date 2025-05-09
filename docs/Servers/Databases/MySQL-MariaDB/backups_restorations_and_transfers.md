@@ -15,7 +15,7 @@ toc: true
 
 ### mysqldump
 
-In my opinion, this is THE best method. It's provided as standard and works very well. **However, be careful with large databases**. If you have large databases, then look at [XtraBackup](./xtrabackup_:_optimiser_ses_backups_mysql.html).
+In my opinion, this is THE best method. It's provided as standard and works very well. **However, be careful with large databases**. If you have large databases, then look at [XtraBackup](./xtrabackup_optimizing_your_mysql_backups.md).
 
 Its use with a shell is as follows (for small databases):
 

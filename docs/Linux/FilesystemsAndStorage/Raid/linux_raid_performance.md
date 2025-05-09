@@ -9,7 +9,7 @@ tags: ["RAID", "Performance", "Linux", "Storage"]
 toc: true
 ---
 
-I won't discuss the different RAID types, but rather refer you to Wikipedia for that[^1]. For using software RAID under Linux, [I recommend this documentation](Configuration_d'un_Raid_logiciel.html)[^2]. We'll focus on performance since that's our topic here. RAID 0 is the most performant of all RAID types, but it obviously has data security issues if a disk fails.
+I won't discuss the different RAID types, but rather refer you to Wikipedia for that[^1]. For using software RAID under Linux, [I recommend this documentation](./software_raid_configuration.md)[^2]. We'll focus on performance since that's our topic here. RAID 0 is the most performant of all RAID types, but it obviously has data security issues if a disk fails.
 
 The MTBF (Mean Time Between Failure) is also important for RAID systems. This is an estimate of how long the RAID will function properly before a disk is detected as failed.
 
@@ -34,7 +34,7 @@ If you have no idea about your IO, choose a value between 32KB and 128KB, taking
 
 Chunk size = average request IO size (avgrq-sz) / number of disks
 
-To get the average request size, I invite you to check the Systat documentation[^3] where we talk about [Iostat](../../Misc/sysstat_essential_tools_for_analyzing_performance_issues#iostat) and [Sar](../../Misc/sysstat_essential_tools_for_analyzing_performance_issues#sar).
+To get the average request size, I invite you to check the Systat documentation[^3] where we talk about [Iostat](../../Misc/sysstat_essential_tools_for_analyzing_performance_issues.md#iostat) and [Sar](../../Misc/sysstat_essential_tools_for_analyzing_performance_issues.md#sar).
 
 - To see the chunk size on a RAID (here md0):
 
@@ -258,7 +258,7 @@ mdadm -C /dev/md0 -l1 -n2 -b /tmp/md0 --write-behind=256 /dev/sdal --write-mostl
 ```
 
 [^1]: http://en.wikipedia.org/wiki/RAID
-[^2]: [Configuration of a Software RAID](Configuration_d'un_Raid_logiciel.html)
+[^2]: [Configuration of a Software RAID](software_raid_configuration.md)
 [^3]: [Sysstat: Essential tools for analyzing performance problems](../../Misc/sysstat_essential_tools_for_analyzing_performance_issues.md)
 [^4]: http://kernel.org/doc/Documentation/md.txt
 [^5]: http://kernel.org/doc/Documentation/md.txt

@@ -426,7 +426,7 @@ Starting a cluster service is quite simple. Here we want to start Apache2 (**apa
 crm_resource -r apache2_2 -p target_role -v started
 ```
 
-If you want to start Apache2 on the second node, you must first reallocate it before starting it ([documentation here](Installation_et_configuration_avancée_d'un_cluster_Heartbeat.html#Basculer_un_service_sur_un_autre_noeud)). Ex:
+If you want to start Apache2 on the second node, you must first reallocate it before starting it documentation here. Ex:
 
 ```bash
 crm_resource -M -r apache2_2 -H deb-node2

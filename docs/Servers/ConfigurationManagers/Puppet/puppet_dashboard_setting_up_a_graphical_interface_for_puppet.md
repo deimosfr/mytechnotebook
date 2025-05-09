@@ -22,7 +22,7 @@ toc: true
 
 ## Introduction
 
-[Puppet](./puppet_:_solution_de_gestion_de_fichier_de_configuration.html) is great, but a web interface would be amazing to see the status of machines, synchronizations, etc.
+[Puppet](./puppet_configuration_file_management_solution.md) is great, but a web interface would be amazing to see the status of machines, synchronizations, etc.
 
 So I suggest setting up [Puppet Dashboard](https://puppetlabs.com/puppet/related-projects/dashboard/).
 
@@ -100,7 +100,7 @@ You can also adjust the NUM_DELAYED_JOB_WORKERS parameter if needed.
 
 ### MySQL
 
-To start, we need to initialize the database with the mysql*secure_installation command ([for more information, see this documentation](./mysql*:\_installation_et_configuration.html)). Now we can create a MySQL database and a dedicated user:
+To start, we need to initialize the database with the mysql*secure_installation command ([for more information, see this documentation](../../Databases/MySQL-MariaDB/mysql_installation_and_configuration.md)). Now we can create a MySQL database and a dedicated user:
 
 ```
 CREATE DATABASE puppet_dashboard CHARACTER SET utf8;
@@ -335,7 +335,7 @@ Now you can run [db::migrate](#mysql) again.
 
 ### Caught TERM; calling stop
 
-If you encounter this type of error message in Puppet Dashboard when launching Puppet runs from [Mcollective](./mcollective_:_lancez_des_actions_en_parallèle_sur_des_machines_distante.html), you need to work on the puppet manifest, to comment this line:
+If you encounter this type of error message in Puppet Dashboard when launching Puppet runs from [Mcollective](./mcollective_run_actions_in_parallel_on_remote_machines.md), you need to work on the puppet manifest, to comment this line:
 
 ```ruby {linenos=table,hl_lines=[5,6]}
 [...]

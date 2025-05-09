@@ -27,7 +27,7 @@ PowerDNS is divided into several roles:
 - Master
 - Cache
 
-In this guide, we'll cover the master server configuration. If you wish to set up a PowerDNS cache server, please [follow this link](../powerdns_:_créer_un_serveur_de_cache_dns/).
+In this guide, we'll cover the master server configuration. If you wish to set up a PowerDNS cache server, please [follow this link](../PowerDNS/powerdns_creating_a_master_dns_server.md).
 
 ## Installation
 
@@ -91,7 +91,7 @@ Now restart PowerDNS:
 /etc/init.d/pdns restart
 ```
 
-You can now configure your DNS zones and records. I strongly recommend using a web interface to help you with this. For example, you can use [PowerAdmin](../PowerAdmin_:_Une_interface_d'administration_pour_PowerDNS/).
+You can now configure your DNS zones and records. I strongly recommend using a web interface to help you with this. For example, you can use [PowerAdmin](./poweradmin_an_administration_interface_for_powerdns.md).
 
 ## References
 

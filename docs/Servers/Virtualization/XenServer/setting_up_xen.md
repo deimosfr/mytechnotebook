@@ -490,7 +490,7 @@ Disable **re\***! It's then **rtk\*** that takes over, and there, no timeout, la
 - [Documentation on Heartbeat2 Xen cluster with drbd8 and OCFS2](../../../static/pdf/heartbeat2_xen_cluster_with_drbd8_and_ocfs2.pdf)
 - [XEN On An Ubuntu - High Performance](../../../static/pdf/xen_on_an_ubuntu_high_performance.pdf)
 - [NetBSD Xen Guide](../../../static/pdf/netbsd_xen_guide.pdf)
-- [XEN and disk space optimization](../../../static/pdf/XEN_et_l'optimisation_d'espace_disque.pdf)
+- [XEN and disk space optimization](../../../static/pdf/xen_et_loptimisation_despace_disque.pdf)
 - [Consolidation issues and achievement of service level objectives (SLO) with Xen](../../../static/pdf/problematique_de_consolidation_slo_sur_xen.pdf)
 - [How To Run Fully-Virtualized Guests (HVM) With Xen 3 2 On Debian Lenny](../../../static/pdf/how_to_run_fully-virtualized_guests_hvm.pdf)
 - [Xen Live Migration Of An LVM-Based Virtual Machine With iSCSI On Debian Lenny](../../../static/pdf/xen_live_migration_of_an_lvm-based_virtual_machine_with_iscsi_on_debian_lenny.pdf)

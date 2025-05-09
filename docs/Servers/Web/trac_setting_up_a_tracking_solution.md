@@ -13,7 +13,7 @@ toc: true
 
 [Trac](https://trac.edgewall.org/) is a wiki with tracking capabilities in a web environment. It works with Subversion and manages tickets. It also has many other very practical features to discover.
 
-You need to install [Subversion (SVN)](Installation_et_configuration_d'un_repository_SVN.html) first. Only then can you use Trac.
+You need to install [Subversion (SVN)](../Versionning/SVN/index.md) first. Only then can you use Trac.
 
 ## Installation
 

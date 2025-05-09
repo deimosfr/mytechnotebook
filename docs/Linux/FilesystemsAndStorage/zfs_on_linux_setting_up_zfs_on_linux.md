@@ -73,7 +73,7 @@ And that's it, it's installed! I'll let you check the references of this page fo
 
 ### My server crashed because there was no more RAM available
 
-I already talk about this [here](./zfs_:_le_filesystem_par_excellence.html), it's because of the [ZFS cache](./zfs_:_le_filesystem_par_excellence.html#le_cache_arc_zfs) that needs to be customized. Here we'll set it to 512 MB (`/etc/modprobe.d/zfs.conf`):
+I already talk about this [here](../../Solaris/Filesystems/zfs_the_filesystem_par_excellence.md), it's because of the [ZFS cache](../../Solaris/Filesystems/zfs_the_filesystem_par_excellence.md#the-zfs-arc-cache) that needs to be customized. Here we'll set it to 512 MB (`/etc/modprobe.d/zfs.conf`):
 
 ```bash
 options zfs zfs_arc_max=536870912

@@ -376,7 +376,6 @@ It's possible that you have a cache Bind server on your host machine that preven
 - [Virtualization of servers using Linux vserver](../../static/pdf/virtualisation-de-serveur-grace-a-linux-vserver.pdf)
 - [Documentation on Memory Allocation](../../static/pdf/vserver_memory_allocation.pdf)
 - [Documentation Multi Vservers](../../static/pdf/multi_vservers.pdf)
-- [Xen and vserver: monitoring VMs on a PHP page](./xen_et_vserver_:_monitoring_des_vm_sur_une_page_php)
 - [Documentation on Setting up a Web Server with Apache, LVS and Heartbeat 2](../../static/pdf/setup_web_server_cluster.pdf)
 - [Capabilities and Flags](https://linux-vserver.org/util-vserver:Capabilities_and_Flags)
 - [Going further with Linux vserver](../../static/pdf/un_peu_plus_loin_avec_linux_vserver.pdf)

@@ -27,7 +27,7 @@ PowerDNS is divided into several roles:
 - Master
 - Cache
 
-Here we will cover the cache aspect. If you want to set up a PowerDNS master server, I invite you to [follow this link](./powerdns_:_créer_serveur_dns_maitre.html).
+Here we will cover the cache aspect. If you want to set up a PowerDNS master server, I invite you to [follow this link](./powerdns_creating_a_master_dns_server.md).
 
 ## Installation
 
@@ -64,4 +64,4 @@ Now all you need to do is point your machines to this new server :-)
 
 ## References
 
-http://www.adminsehow.com/2009/05/how-to-install-a-caching-only-dns-server-using-powerdns-on-debian-lenny/
+* http://www.adminsehow.com/2009/05/how-to-install-a-caching-only-dns-server-using-powerdns-on-debian-lenny/

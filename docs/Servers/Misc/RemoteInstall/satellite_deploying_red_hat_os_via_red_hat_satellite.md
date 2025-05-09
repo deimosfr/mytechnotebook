@@ -303,7 +303,7 @@ Complete!
 
 ### DHCP
 
-We're going to install a DHCP server to be able to push OS via [PXE/TFTP](./TFTP_:_PXE_Serveur,_déploiement_d'OS_sous_Linux.html) (already done by the Satellite installer). If you already have a DHCP server, go directly to the [configuration](#Configuration_DHCP).
+We're going to install a DHCP server to be able to push OS via [PXE/TFTP](./tftp_pxe_server_os_deployment_under_linux.md) (already done by the Satellite installer). If you already have a DHCP server, go directly to the [configuration](#dhcp-configuration).
 
 #### DHCP Installation
 
@@ -728,7 +728,7 @@ account   required      /lib64/security/pam_ldap.so no_user_check
 #account   required      /lib64/security/pam_access.so
 ```
 
-I commented out the pam*access part which allows increasing account security. For more information on [this module (pam_access) read this documentation](./LDAP*:\_Installation_et_configuration_d'un_Annuaire_LDAP.html#Autoriser_un_groupe_LDAP_en_particulier).
+I commented out the pam*access part which allows increasing account security. For more information on [this module (pam_access) read this documentation](../../Authentication/OpenLDAP/ldap_installation_and_configuration_of_an_ldap_directory.md).
 
 Then restart the Satellite services to see the user creation options:
 
@@ -1180,7 +1180,7 @@ If you have this problem, it's likely because you're behind a proxy or don't yet
 
 ### Tomcat failed to start properly or the installer ran out of tries. Please check /var/log/tomcat\*/catalina.out for errors
 
-If you have this type of message, it's because the hostname is incorrectly configured. To fix this problem, check that [this section](#Hostname) is correctly filled in, then restart the installer like this:
+If you have this type of message, it's because the hostname is incorrectly configured. To fix this problem, check that [this section](#hostname) is correctly filled in, then restart the installer like this:
 
 ```bash
 spacewalk-hostname-rename x.x.x.x

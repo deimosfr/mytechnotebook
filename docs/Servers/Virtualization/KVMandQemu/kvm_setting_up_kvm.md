@@ -969,7 +969,7 @@ CPU time:       6,6s
 CPU Affinity:   --yy--yy
 ```
 
-If you want to know more [how cpusets works, follow that link](../../../Linux/Kernel/process_latency_and_kernel_timing#cpuset).
+If you want to know more [how cpusets works, follow that link](../../../Linux/Kernel/process_latency_and_kernel_timing.md#cpusetcgroup).
 
 ## Others
 

@@ -47,7 +47,7 @@ Ceph stores a client's data as objects within storage pools. Using the CRUSH alg
 
 ### Testing case
 
-If you want to test with [Vagrant](./vagrant_:_quickly_deploy_virtual_machines.html) and VirtualBox, I've made a Vagrantfile for it running on Debian Wheezy:
+If you want to test with [Vagrant](../../../Linux/Misc/vagrant_quickly_deploy_virtual_machines.md) and VirtualBox, I've made a Vagrantfile for it running on Debian Wheezy:
 
 ```ruby {linenos=table}
 # -*- mode: ruby -*-

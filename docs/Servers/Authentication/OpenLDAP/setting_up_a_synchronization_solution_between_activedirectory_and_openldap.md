@@ -23,7 +23,7 @@ toc: true
 
 ## Introduction
 
-This documentation is quite technically advanced, which is why **you need some basic knowledge** before attempting it. I recommend reading this [documentation](./LDAP_:_Installation_et_configuration_d'un_Annuaire_LDAP) first.
+This documentation is quite technically advanced, which is why **you need some basic knowledge** before attempting it. I recommend reading this [documentation](./ldap_installation_and_configuration_of_an_ldap_directory.md) first.
 
 For authentication, we want to use an OpenLDAP directory as a **cache/backup of an Active Directory (AD) server**. Authentication will be performed from different applications and Unix-type machines. The goal is also to be able to continue authenticating in case of an AD crash.
 
@@ -151,7 +151,7 @@ index           cn,sn,uid,mail  pres,eq,sub
 index           mailnickname,userprincipalname,proxyaddresses  pres,eq,sub
 ```
 
-Now configure your AD domain and the encrypted password (see [basic ldap documentation](./LDAP_:_Installation_et_configuration_d'un_Annuaire_LDAP)):
+Now configure your AD domain and the encrypted password (see [basic ldap documentation](./ldap_installation_and_configuration_of_an_ldap_directory.md)):
 
 ```bash
 # The base of your directory in database #1

@@ -102,7 +102,7 @@ $HTTP["host"] =~ "deimos\.fr" {
 
 It is possible to block access to all kinds of browsers. If like me, you're not friends with IE (which breaks your PNGs in version 6, doesn't respect standards, breaks CSS, etc.), it might be useful to block it and kindly indicate to the user to download Firefox as soon as possible.
 
-I did it under [Apache](../Apache/apache_2_installation_and_configuration#blocking-access-to-your-site-via-internet-explorer) and here I couldn't pass up the opportunity to do it for Lighttpd, so here's the solution:
+I did it under [Apache](../Apache/apache_2_installation_and_configuration.md#block-internet-explorer-access-to-your-site) and here I couldn't pass up the opportunity to do it for Lighttpd, so here's the solution:
 
 ```perl
 $HTTP["useragent"] =~ ".*(MSIE|Opera).*" {

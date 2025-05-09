@@ -29,8 +29,8 @@ For my installation, I needed:
 
 Before starting, certain things need to be set up. I won't explain how all the services below work, so I'll simply provide my configurations. However, I invite you to check out:
 
-- [DHCP3: Installation and Configuration of a DHCP Server](/DHCP3_:_Installation_et_configuration_d'un_serveur_DHCP/)
-- [TFTP: PXE Server, OS Deployment under Linux](/TFTP_:_PXE_Serveur,_déploiement_d'OS_sous_Linux/)
+- [DHCP3: Installation and Configuration of a DHCP Server](../../Servers/Network/DHCP/dhcp_installation_and_configuration_of_a_dhcp_server.md)
+- [TFTP: PXE Server, OS Deployment under Linux](../../Servers/Misc/RemoteInstall/tftp_pxe_server_os_deployment_under_linux.md)
 - <!-- Link to "Connecting via Serial Port on Debian" removed - file not found -->
 
 _My DHCP and TFTP server has the IP address 192.168.10.107 here._
@@ -211,7 +211,7 @@ Add MFS filesystems to your data that changes regularly:
 ### Watchdog
 
 I strongly recommend enabling the watchdog:  
-[Setting up a Watchdog](/Mise_en_place_d'un_Watchdog/)
+[Setting up a Watchdog](../../Servers/Misc/setting_up_a_watchdog.md)
 
 ## Updating OpenBSD
 
@@ -250,7 +250,7 @@ To solve the problem, there are 2 solutions:
 
 ## References
 
-http://ludique.u-bourgogne.fr/~leclercq/wiki/index.php/Soekris  
-[Installing OpenBSD on Soekris via QEMU](https://blog.arofarn.info/openbsd/installation-sur-soekris-net4801-50-grace-a-qemu/)  
-http://www.lininfo.org/spip.php?article11  
-http://wiki.gcu.info/doku.php?id=openbsd:install_soekris
+* http://ludique.u-bourgogne.fr/~leclercq/wiki/index.php/Soekris  
+* [Installing OpenBSD on Soekris via QEMU](https://blog.arofarn.info/openbsd/installation-sur-soekris-net4801-50-grace-a-qemu/)  
+* http://www.lininfo.org/spip.php?article11  
+* http://wiki.gcu.info/doku.php?id=openbsd:install_soekris

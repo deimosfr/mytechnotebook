@@ -45,7 +45,7 @@ yum install sysstat
 
 ### Solaris
 
-On Solaris, you'll need to use [Sun Freeware packages](/Pkg-get_:_Mise_en_place_d'un_système_de_repository_pour_Solaris/) to find this tool:
+On Solaris, you'll need to use [Sun Freeware packages](../../Solaris/Packages/pkgget_setting_up_a_repository_system_for_solaris.md) to find this tool:
 
 ```bash
 pkg-get install CSWsysstat
