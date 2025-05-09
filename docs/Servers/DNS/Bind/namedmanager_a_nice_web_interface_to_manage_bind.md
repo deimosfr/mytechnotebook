@@ -21,13 +21,13 @@ toc: true
 
 ![NamedManager](../../../static/images/namedmanager-logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 1.5.1 |
 | **Operating System** | Debian 7 |
 | **Website** | [Namedmanager Website](https://github.com/jethrocarr/namedmanager) |
-{{< /table >}}
+
 
 ## Introduction
 

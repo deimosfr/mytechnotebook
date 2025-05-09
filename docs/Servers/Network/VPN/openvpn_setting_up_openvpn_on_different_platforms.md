@@ -11,13 +11,13 @@ toc: true
 
 ![OpenVPN](../../../static/images/openvpn_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | OpenVPN 2.x |
 | **Operating System** | Debian 6<br />OpenBSD 5.9<br />FreeBSD 9 |
 | **Website** | [OpenVPN Website](https://openvpn.net/) |
-{{< /table >}}
+
 
 ## Introduction
 

@@ -11,13 +11,13 @@ toc: true
 
 ![Thruk logo](../../../static/images/thruk_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 1.30 |
 | **Operating System** | Debian 6 |
 | **Website** | [Thruk Website](https://www.thruk.org) |
-{{< /table >}}
+
 
 ## Introduction
 

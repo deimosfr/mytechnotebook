@@ -20,13 +20,13 @@ toc: true
 
 ![Puppet](../../../static/images/puppet-short.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 1.5.2 |
 | **Operating System** | Debian 7 |
 | **Website** | [Puppet Website](https://puppetlabs.com/) |
-{{< /table >}}
+
 
 ## Introduction
 

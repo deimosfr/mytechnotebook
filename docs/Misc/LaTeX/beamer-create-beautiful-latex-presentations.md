@@ -9,14 +9,14 @@ tags: ["latex", "beamer", "presentation", "slides", "documentation"]
 toc: true
 ---
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | ![Beamer](../../static/images/latex_logo.avif) ||
 | **Software version** | 3.24-1 |
 | **Operating System** | Debian 7 |
 | **Website** | [Website](https://bitbucket.org/rivanvx/beamer/wiki/HomeBeamer) |
-{{< /table >}}
+
 
 ## Introduction
 

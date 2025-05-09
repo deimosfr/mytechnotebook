@@ -70,14 +70,14 @@ You use the -f option to specify the tape device name, typically a no-rewind dev
 
 The table lists some of the mt commands that you can use to control a magnetic tape drive.
 
-{{< table "table-hover table-striped" >}}
+
 | Command | Definition |
 |---------|------------|
 | mt status | Displays status information about the tape drive |
 | mt rewind | Rewinds the tape |
 | mt offline | Rewinds the tape and, if appropriate, takes the drive unit offline and if the hardware supports it, unloads |
 | mt fsf count | Moves the tape forward count records |
-{{< /table >}}
+
 
 Assuming the tape was rewound to the start of tape, the following command positions the tape at the beginning of the third tape record.
 
@@ -134,7 +134,7 @@ The Explore shows an example of a file system backup performed in incremental le
 
 The table defines the elements of the sample incremental backup strategy shown in The image.
 
-{{< table "table-hover table-striped" >}}
+
 | Level | Example |
 |-------|---------|
 | 0 (Full) | Performed once each month. |
@@ -143,7 +143,7 @@ The table defines the elements of the sample incremental backup strategy shown i
 | 5 | Performed every Wednesday. The backup copies new or modified files since the last lower-level backup (for example, 4). |
 | 6 | Performed every Thursday. The backup copies new or modified files since the last lower-level backup (for example, 5). |
 | 2 | Performed every Friday. The backup copies new or modified files since the last lower-level backup, which is the Level 0 backup at the beginning of the month. |
-{{< /table >}}
+
 
 _Note:_ Many system administrators use the crontab utility to start a script that runs the ufsdump command.
 
@@ -183,7 +183,7 @@ You can use this command to back up a complete or a partial file system. Backups
 
 The table defines several common options for the ufsdump command.
 
-{{< table "table-hover table-striped" >}}
+
 | Option | Description |
 |--------|-------------|
 | 0-9 | Back up level. Level 0 is a full backup of the file system. Levels 1 through 9 are incremental backups of files that have changed since the last lower-level backup. When no backup level is given, the default is level 9. |
@@ -194,7 +194,7 @@ The table defines several common options for the ufsdump command.
 | u | Update. The system creates an entry in the `/etc/dumpdates` file with the device name for the file system disk slice, the backup level (0-9), and the date. If an entry already exists for a backup at the same level, the system replaces the entry. |
 | n | Notify. The system sends messages to the terminals of all logged-in users who are members of the sys group to indicate that the ufsdump command requires attention. |
 | f device | Specify. The system specifies the device name of the file system backup. When you use the default tape device, `/dev/rmt/0`, you do not need the -f option. The system assumes the default. |
-{{< /table >}}
+
 
 You use the ufsdump command to create file system backups to tape. The dump level (0-9) specified in the ufsdump command determines which files to back up.
 
@@ -300,7 +300,7 @@ ufsrestore option(s) argument(s) filesystem
 
 The table describes some options that you can use with the ufsrestore command.
 
-{{< table "table-hover table-striped" >}}
+
 | Option | Description |
 |--------|-------------|
 | t | Lists the table of contents of the backup media. |
@@ -309,7 +309,7 @@ The table describes some options that you can use with the ufsrestore command.
 | i | Invokes an interactive restore. |
 | v | Specifies verbose mode. This mode displays the path names to the terminal screen as each file is restored. |
 | f device | Specifies the tape device name. When not specified, the `/dev/rmt/0` device file is used. |
-{{< /table >}}
+
 
 When you restore an entire file system from a backup tape, the system creates a restoresymtable file. The ufsrestore command uses the restoresymtable file for check-pointing or passing information between incremental restores. You can remove the restoresymtable file when the restore is complete.
 
@@ -686,7 +686,7 @@ The format for the fssnap command is:
 
 The table shows some of the options for the fssnap command.
 
-{{< table "table-hover table-striped" >}}
+
 | Option | Description |
 |--------|-------------|
 | -d | Deletes the snapshot associated with the given file system. If the -o unlink option was used when you built the snapshot, the backing-store file is deleted together with the snapshot. Otherwise, the backing-store file (which contains file system data) occupies disk space until you delete it manually. |
@@ -694,7 +694,7 @@ The table shows some of the options for the fssnap command.
 | -i | Displays the state of an FSType snapshot. |
 | -V | Echoes the complete command line but does not execute the command. |
 | -o | Enables you to use special_options, such as the location and size of the backing-store (bs) file. |
-{{< /table >}}
+
 
 To create a UFS snapshot, specify a backing-store path and the actual file system to be captured. The following is the command format:
 

@@ -189,7 +189,7 @@ Now, you might say that's fine, but you haven't explained much about how to cons
 
 There are operators for defining udev matching rules, and these are designed to match device properties (some of these properties match the parent device in sysfs):
 
-{{< table "table-hover table-striped" >}}
+
 | Description | Operator |
 |-------------|----------|
 | Compare for equality | == |
@@ -197,11 +197,11 @@ There are operators for defining udev matching rules, and these are designed to 
 | Assign a value to a key. Keys that represent a list, are reset and only this single value is assigned | = |
 | Add the value to a key that holds a list of entries | += |
 | Assign a value to a key finally; disallow any later changes, which may be used to prevent changes by any later rules | := |
-{{< /table >}}
+
 
 And here are the elements that can be used for matching:
 
-{{< table "table-hover table-striped" >}}
+
 | Description | Operator |
 |-------------|----------|
 | Match the name of the event action | ACTION |
@@ -216,23 +216,23 @@ And here are the elements that can be used for matching:
 | Match against the value of an environment variable. Up to five ENV keys can be specified per rule. This key can also be used to export a variable to the environment. | ENV{key} |
 | Execute external program. The key is true, if the program returns without exit code zero. The whole event environment is available to the executed program. The program's output printed to stdout is available for the RESULT key | PROGRAM |
 | Match the returned string of the last PROGRAM call. This key can be used in the same or in any later rule after a PROGRAM call | RESULT |
-{{< /table >}}
+
 
 You can use matching patterns for your correspondences:
 
-{{< table "table-hover table-striped" >}}
+
 | Description | Operator |
 |-------------|----------|
 | Matches zero, or any number of characters | \* |
 | Matches any single character | ? |
 | Matches any single character specified within the brackets. For example, the pattern string 'tty[SR]' would match either 'ttyS' or 'ttyR'. Ranges are also supported within this match with the '-' character. For example, to match on the range of all digits, the pattern [0-9] would be used. If the first character following the '[' is a '!', any characters not enclosed are matched | [] |
-{{< /table >}}
+
 
 #### Rules on Key Assignment
 
 Here are the solutions for values:
 
-{{< table "table-hover table-striped" >}}
+
 | Description | Operator |
 |-------------|----------|
 | The name, a network interface should be renamed to. Or as a temporary workaround, the name a device node should be named. Usually the kernel provides the defined node name, or even creates and removes the node before udev even receives any event. Changing the node name from the kernel's default creates inconsistencies and is not supported. If the kernel and NAME specify different names, an error will be logged. Udev is only expected to handle device node permissions and to create additional symlinks, not to change kernel-provided device node names. Instead of renaming a device node, SYMLINK should be used. Symlink names must never conflict with device node names, it will result in unpredictable behavior | NAME |
@@ -247,13 +247,13 @@ Here are the solutions for values:
 | Import a set of variables as device properties, depending on type: program: Execute an external program specified as the assigned value and import its output, which must be in environment key format. Path specification, command/argument separation, and quoting work like in RUN. file: Import a text file specified as the assigned value, which must be in environment key format. db: Import a single property specified as the assigned value from the current device database. This works only if the database is already populated by an earlier event. cmdline: Import a single property from the kernel commandline. For simple flags the value of the property will be set to '1'. parent: Import the stored keys from the parent device by reading the database entry of the parent device. The value assigned to IMPORT{parent} is used as a filter of key names to import (with the same shell-style pattern matching used for comparisons). If no option is given, udev will choose between program and file based on the executable bit of the file permissions | IMPORT{type} |
 | Wait for a file to become available or until a 10 seconds timeout expires. The path is relative to the sysfs device, i.e. if no path is specified this waits for an attribute to appear | WAIT_FOR |
 | Rule and device options: link_priority=value: Specify the priority of the created symlinks. Devices with higher priorities overwrite existing symlinks of other devices. The default is 0. event_timeout=Number of seconds an event will wait for operations to finish, before it will terminate itself. string_escape=none|replace: Usually control and other possibly unsafe characters are replaced in strings used for device naming. The mode of replacement can be specified with this option. static_node=: Apply the permissions specified in this rule to a static device node with the specified name. Static device nodes might be provided by kernel modules, or copied from /lib/udev/devices. These nodes might not have a corresponding kernel device at the time udevd is started, and allow to trigger automatic kernel module on-demand loading. watch: Watch the device node with inotify, when closed after being opened for writing, a change uevent will be synthesised. nowatch: Disable the watching of a device node with inotify. | OPTIONS |
-{{< /table >}}
+
 
 #### Substitution Rules
 
 The NAME, SYMLINK, PROGRAM, OWNER, GROUP, MODE and RUN fields support substitution rules. These are built-in to help you set certain variables:
 
-{{< table "table-hover table-striped" >}}
+
 | Description | Operator |
 |-------------|----------|
 | The kernel name for this device | $kernel, %k |
@@ -274,7 +274,7 @@ The NAME, SYMLINK, PROGRAM, OWNER, GROUP, MODE and RUN fields support substituti
 | The name of a created temporary device node to provide access to the device from a external program before the real node is created | $tempnode, %N |
 | The '%' character itself | %% |
 | The '$' character itself | $$ |
-{{< /table >}}
+
 
 ## Examples
 

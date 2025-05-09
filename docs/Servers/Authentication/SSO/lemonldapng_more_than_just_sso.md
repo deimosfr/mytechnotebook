@@ -11,14 +11,14 @@ toc: true
 
 ![LemonDAP::NG](../../../static/images/lemonldap_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 1.2.3 |
 | **Operating System** | Debian 7 |
 | **Website** | [LemonLDAP::NG Website](https://lemonldap-ng.org) |
 | **Others** | Apache 2.2 |
-{{< /table >}}
+
 
 ## Introduction
 

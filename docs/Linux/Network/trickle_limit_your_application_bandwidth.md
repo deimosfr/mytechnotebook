@@ -11,13 +11,13 @@ toc: true
 
 ![Linux](../../static/images/poweredbylinux.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 1.07 |
 | **Operating System** | Debian 7 |
 | **Website** | [Trickle Website](https://monkey.org/~marius/pages/?page=trickle) |
-{{< /table >}}
+
 
 ## Introduction
 

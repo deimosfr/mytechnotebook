@@ -37,9 +37,9 @@ hugo new docs/your_page_name.md
 Should be written this way:
 
 ```
-\`\`\`go {linenos=table,hl_lines=[3]}
-\`\`\`go {linenos=table,hl_lines=[3],anchorlinenos=true}
-\`\`\`go {linenos=table,hl_lines=[3,"5-7"],linenostart=199,anchorlinenos=true}
+```go {linenos=table,hl_lines=[3]}
+```go {linenos=table,hl_lines=[3],anchorlinenos=true}
+```go {linenos=table,hl_lines=[3,"5-7"],linenostart=199,anchorlinenos=true}
 ```
 
 ## Callouts

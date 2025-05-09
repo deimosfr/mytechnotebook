@@ -11,14 +11,14 @@ toc: true
 
 ![Selfoss](../../../static/images/selfoss_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 2.7 |
 | **Operating System** | Debian 7 |
 | **Website** | [Selfoss Website](https://selfoss.aditu.de/) |
 | **Others** | Nginx |
-{{< /table >}}
+
 
 ## Introduction
 

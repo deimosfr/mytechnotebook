@@ -9,14 +9,14 @@ tags: ["Servers", "DNS", "Networking", "DHCP"]
 toc: true
 ---
 
-{{< table "table-hover table-striped" >}}
+
 | | |
 |------------|--------------------------|
 | Software version | isc-dhcp-client 4.3.0 dnsmasq 2.71 |
 | Operating System | Debian 8 |
 | Website | [Debian Website](https://www.debian.org) |
 | Last Update | 27/07/2014 |
-{{< /table >}}
+
 
 ## Introduction
 

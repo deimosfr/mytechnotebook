@@ -23,12 +23,12 @@ toc: true
 
 ![Python](../../static/images/python-logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |---|---|
 | **Software version** | 2.7 / 3.2 |
 | **Website** | [Python Website](https://www.python.org/) |
-{{< /table >}}
+
 
 ## Introduction
 
@@ -1329,7 +1329,7 @@ When you use complex patterns, it's recommended to comment them and therefore wr
 
 Here are the most common regex:
 
-{{< table "table-hover table-striped" >}}
+
 | Operator | Description | Example |
 |----------|-------------|---------|
 | ^ | **Beginning** of line | **^Deimos** for 'Deimos Fr!!!' |
@@ -1354,7 +1354,7 @@ Here are the most common regex:
 | [^] | Allows specifying **unwanted characters** | [^0-9]eimos in 'Deimos' |
 | () | Allows **recording the content of parentheses** for later use | (Deimos) in 'Deimos Fr' |
 | \| | Allows doing an **exclusive or** | (Org\|Fr\|Com) in 'Deimos **Fr**' |
-{{< /table >}}
+
 
 There's a site allowing visualizing a regex: [Regexper](https://www.regexper.com/) (sources: https://github.com/javallone/regexper)
 
@@ -1454,14 +1454,14 @@ Let's first see an example of application with the groups() and group() function
 
 It's possible in a search to indicate certain parameters, we'll see them here:
 
-{{< table "table-hover table-striped" >}}
+
 | Option | Description |
 |--------|-------------|
 | IGNORECASE | Performs a case-insensitive search |
 | MULTILINE | The search can contain several lines separated by a line break (character \n) |
 | DOTALL | The search can contain several lines separated by a dot (character .) |
 | UNICODE | Allows using Unicode encoding for the search (useful with accented characters). Your strings will need to be given in Unicode format by prefixing them with u (Useless in Python 3.2): u'Unicode string' |
-{{< /table >}}
+
 
 You can also specify several options with a pipe:
 
@@ -1476,7 +1476,7 @@ You can also specify several options with a pipe:
 
 The previous parameters can be indicated directly in the patterns (?option):
 
-{{< table "table-hover table-striped" >}}
+
 | Pattern option | Correspondence |
 |---------------|----------------|
 | i | IGNORECASE |
@@ -1484,7 +1484,7 @@ The previous parameters can be indicated directly in the patterns (?option):
 | s | DOTALL |
 | u | UNICODE |
 | x | VERBOSE |
-{{< /table >}}
+
 
 Here's an example:
 

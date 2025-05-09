@@ -11,13 +11,13 @@ toc: true
 
 ![OTRS](../../static/images/otrs_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 2.4.14 |
 | **Operating System** | Debian 6 |
 | **Website** | [OTRS Website](https://www.otrs.com) |
-{{< /table >}}
+
 
 ## Introduction
 

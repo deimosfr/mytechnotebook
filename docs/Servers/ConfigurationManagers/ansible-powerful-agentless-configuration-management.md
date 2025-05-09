@@ -11,13 +11,13 @@ toc: true
 
 ![Ansible](../../static/images/ansible_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 1.6.2 |
 | **Operating System** | Debian 8 |
 | **Website** | [Ansible Website](https://www.ansible.com) |
-{{< /table >}}
+
 
 ## Introduction
 

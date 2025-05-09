@@ -51,7 +51,7 @@ To quit the prstat command, type q.
 The table shows the column headings and their meanings in a prstat report.
 Column Headings for the prstat Report.
 
-{{< table "table-hover table-striped" >}}
+
 | Default Column Heading | Description |
 |-----------------------|-------------|
 | PID | The PID number of the process. |
@@ -64,7 +64,7 @@ Column Headings for the prstat Report.
 | TIME | The cumulative execution time for the process. |
 | CPU | The percentage of recent CPU time used by the process. |
 | PROCESS/NLWP | The name of the process/the number of lightweight processes (LWPs) in the process. |
-{{< /table >}}
+
 
 *Note:* The kernel and many applications are now multithreaded. A thread is a logical sequence of program instructions written to accomplish a particular task. Each application thread is independently scheduled to run on an LWP, which functions as a virtual CPU. LWPs in turn, are attached to kernel threads, which are scheduled to run on actual CPUs.
 
@@ -72,7 +72,7 @@ Column Headings for the prstat Report.
 
 The table shows the options for the prstat command.
 
-{{< table "table-hover table-striped" >}}
+
 | Option | Description |
 |--------|-------------|
 | -a | Displays separate reports about processes and users at the same time. |
@@ -84,7 +84,7 @@ The table shows the options for the prstat command.
 | -t | Reports total usage summary for each user. |
 | -u euidlist | Reports only processes that have an effective user ID (EUID) in the given list. |
 | -U uidlist | Reports only processes that have a real UID in the given list. |
-{{< /table >}}
+
 
 ## Kill Frozen Process
 
@@ -139,14 +139,14 @@ You use the kill command without a signal on the command line to send the defaul
 
 The table shows some signals and names.
 
-{{< table "table-hover table-striped" >}}
+
 | Signal Number | Signal Name | Event | Default Action |
 |--------------|------------|-------|---------------|
 | 1 | SIGHUP | Hangup | Exit |
 | 2 | SIGINT | Interrupt | Exit |
 | 9 | SIGKILL | Kill | Exit |
 | 15 | SIGTERM | Terminate | Exit |
-{{< /table >}}
+
 
 * 1, SIGHUP - A hangup signal to cause a telephone line or terminal connection to be dropped. For certain daemons, such as inetd and in.named, a hangup signal will cause the daemon to reread its configuration file.
 * 2, SIGINT - An interrupt signal from your keyboard--usually from a Control-C key combination.

@@ -11,13 +11,13 @@ toc: true
 
 ![Nginx Logo](../../../static/images/nginx-logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 1.2.1 |
 | **Operating System** | Debian 7 |
 | **Website** | [nginx_substitutions_filter Website](https://github.com/yaoweibin/ngx_http_substitutions_filter_module) |
-{{< /table >}}
+
 
 ## Introduction
 

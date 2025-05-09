@@ -11,13 +11,13 @@ toc: true
 
 ![Seafile](../../static/images/seafile_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | Seafile 3.0 |
 | **Operating System** | Debian 7 |
 | **Website** | [Seafile Website](https://seafile.com) |
-{{< /table >}}
+
 
 ## Introduction
 

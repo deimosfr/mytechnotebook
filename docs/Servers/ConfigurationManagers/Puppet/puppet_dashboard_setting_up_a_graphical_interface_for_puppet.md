@@ -11,14 +11,14 @@ toc: true
 
 ![Puppet Dashboard](../../../static/images/puppet-short.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 1.2.17 |
 | **Operating System** | Debian 7 |
 | **Website** | [Puppet Dashboard Website](https://puppetlabs.com/puppet/related-projects/dashboard/) |
 | **Others** | Clients OS:<br />Debian 6/7<br />RHEL 6 |
-{{< /table >}}
+
 
 ## Introduction
 

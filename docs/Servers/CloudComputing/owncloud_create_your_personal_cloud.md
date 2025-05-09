@@ -11,14 +11,14 @@ toc: true
 
 ![ownCloud](../../static/images/owncloud-logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 4.5.6 |
 | **Operating System** | Debian 7 |
 | **Website** | [ownCloud Website](https://owncloud.org/) |
 | **Others** | MariaDB 5.5 |
-{{< /table >}}
+
 
 ## Introduction
 

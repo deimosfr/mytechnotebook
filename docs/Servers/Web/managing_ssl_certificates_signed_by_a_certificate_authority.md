@@ -11,13 +11,13 @@ toc: true
 
 ![StartSSL Logo](../../static/images/startssl_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Operating System** | Debian 7 |
 | **Website** | [StartSSL Website](https://www.startssl.com) |
 | **Others** | Nginx 1.2.1<br />Lighttpd 1.4.31 |
-{{< /table >}}
+
 
 ## Introduction
 

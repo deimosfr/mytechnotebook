@@ -9,11 +9,11 @@ tags: ["APT", "Debian", "Package Management", "Linux", "Pinning"]
 toc: true
 ---
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Operating System** | Debian 6 |
-{{< /table >}}
+
 
 ## Introduction
 
@@ -85,7 +85,7 @@ apt-get install backuppc
 
 I'm offered the testing version, without being offered the rest of the system in testing :-). Here's some useful information:
 
-{{< table "table-hover table-striped" >}}
+
 | Pin Priority | Effect on the package |
 |-------------|----------------------|
 | 1001 | Install the package even if it's a downgrade |
@@ -95,7 +95,7 @@ I'm offered the testing version, without being offered the rest of the system in
 | 100 | Used for installed package |
 | 1 | Default for non-automatic archive |
 | -1 | Never install the package even if recommended |
-{{< /table >}}
+
 
 ### Installing a specific package without using the preferences file
 

@@ -11,13 +11,13 @@ toc: true
 
 ![Newznab](../../static/images/newznab_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 0.2.3 |
 | **Operating System** | Debian 6 |
 | **Website** | [Newznab Website](https://www.newznab.com/) |
-{{< /table >}}
+
 
 ## Introduction
 

@@ -11,13 +11,13 @@ toc: true
 
 ![TinyProxy](../../../static/images/tinyproxy_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 1.8.3 |
 | **Operating System** | Debian 7 |
 | **Website** | [TinyProxy Website](https://banu.com/tinyproxy/) |
-{{< /table >}}
+
 
 ## Introduction
 

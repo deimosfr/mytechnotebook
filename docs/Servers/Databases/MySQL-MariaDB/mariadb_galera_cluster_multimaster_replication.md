@@ -20,14 +20,14 @@ toc: true
 
 ![MariaDB](../../../static/images/galeracluster_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 5.5 |
 | **Operating System** | Debian 7 |
 | **Website** | [MariaDB Website](https://mariadb.org/) |
 | **Others** | Galera 23.2.4(r147) |
-{{< /table >}}
+
 
 ## Introduction
 

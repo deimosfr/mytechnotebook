@@ -28,7 +28,7 @@ Since LVM is not very simple to use, and since I don't handle it every day eithe
 
 Here are the main files and folders used by LVM:
 
-{{< table "table-hover table-striped" >}}
+
 | File/Folder | Description |
 |-------------|-------------|
 | `/etc/lvm/lvm.conf` | LVM configuration file |
@@ -36,7 +36,7 @@ Here are the main files and folders used by LVM:
 | `/etc/lvm/backup` | Folder containing automatic backups of VG metadata |
 | `/etc/lvm/archive` | Folder containing automatic archives of VG metadata |
 | `/var/lock/lvm` | Lock file to prevent simultaneous execution of multiple LVM tools, avoiding metadata corruption |
-{{< /table >}}
+
 
 ## Creating a Partition
 

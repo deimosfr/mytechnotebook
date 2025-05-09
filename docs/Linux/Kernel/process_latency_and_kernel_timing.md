@@ -9,13 +9,13 @@ tags: ["Linux", "Kernel", "CPU", "Scheduling", "Performance", "Cgroups", "IRQ", 
 toc: true
 ---
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | Kernel 2.6.32+ |
 | **Operating System** | Red Hat 6.3<br>Debian 7 |
 | **Website** | [Kernel Website](https://www.kernel.org) |
-{{< /table >}}
+
 
 ## The Clocks
 

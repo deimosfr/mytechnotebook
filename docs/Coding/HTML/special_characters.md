@@ -33,7 +33,6 @@ Actual code: &amp; Eacute;
 
 List of the most common abbreviations: 
 
-{{< table "table-hover table-striped" >}}
 | Description | HTML Abbreviation |
 |-------------|------------------|
 | grave accent | `grave` |
@@ -42,11 +41,10 @@ List of the most common abbreviations:
 | cedilla | `cedil` |
 | umlaut | `uml` |
 | tilde | `tilde` |
-{{< /table >}}
 
 ## Table of ISO and HTML Codes for Special Characters
 
-{{< table "table-hover table-striped" >}}
+
 | Character | ISO Code | HTML Abbreviation |
 |-----------|----------|------------------|
 | **Non-breaking Space** |  |  |
@@ -185,4 +183,4 @@ List of the most common abbreviations:
 | ¸ | `&#184;` | `&cedil;` |
 | Þ | `&#222;` | `&thorn;` |
 | ß | `&#223;` | `&szlig;` |
-{{< /table >}}
+

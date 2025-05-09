@@ -81,7 +81,7 @@ If you want a description of the software installed on your machine:
 pkg_info
 ```
 
-{{< table "table-hover table-striped" >}}
+
 | Symbols | Meanings |
 |---------|----------|
 | = | The installed pre-compiled software version is equivalent to that found in the local ports catalog. |
@@ -89,7 +89,7 @@ pkg_info
 | > | The installed version is newer than the one found in the local ports catalog. (The local ports catalog is probably outdated) |
 | ? | The pre-compiled software cannot be found in the ports catalog index. (This can happen when, for example, installed software is removed from the ports catalog or renamed.) |
 | \* | There are multiple versions of this pre-compiled software. |
-{{< /table >}}
+
 
 #### Deleting a Package
 

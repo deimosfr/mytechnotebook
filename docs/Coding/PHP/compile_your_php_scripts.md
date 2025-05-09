@@ -11,13 +11,13 @@ toc: true
 
 ![PHP](../../static/images/php_icon.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 5.3 |
 | **Operating System** | Debian 6 |
 | **Website** | [PHP Website](https://www.php.net) |
-{{< /table >}}
+
 
 ## Introduction
 

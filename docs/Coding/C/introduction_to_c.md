@@ -197,14 +197,14 @@ extern my_extern_var
 
 ### Data types
 
-{{< table "table-hover table-striped" >}}
+
 |C Type|Corresponding Type|
 |-|-|
 |char|character (small integer)|
 |int|integer|
 |float|floating point number (real) in single precision|
 |double|floating point number (real) in double precision|
-{{< /table >}}
+
 
 For example:
 
@@ -231,7 +231,7 @@ long can also be put before double, the resulting type is then long double (quad
 
 Before char or int, you can put the modifier **signed or unsigned** depending on whether you want to have a signed (by default) or unsigned integer. signed int is the signed value (negative or positive). unsigned int represents positive values.
 
-{{< table "table-hover table-striped" >}}
+
 |Type Name|Other Name|Range|Bytes|
 |-|-|-|-|
 |int|signed, unsigned int|-32,768 to 32,767|2|
@@ -240,7 +240,7 @@ Before char or int, you can put the modifier **signed or unsigned** depending on
 |unsigned|unsigned int|0 to 65,535|2|
 |unsigned short|unsigned short_int|0 to 65,535|2|
 |unsigned long|unsigned long_int|0 to 4,294,967,295|4|
-{{< /table >}}
+
 
 #### Integer Numbers
 
@@ -269,24 +269,24 @@ A literal constant of floating point type is composed, in this order:
 
 For example, the following literal constants represent floating numbers: 1.0, -1.1f, 1.6E-19, 6.02e23L, 0.5 3e8
 
-{{< table "table-hover table-striped" >}}
+
 |Type Name|Other Name|Range|
 |-|-|-|
 |Floats|-|-3.4E38 to +3.4E38|
 |double||-1.7E308 to +1.7E308|
 |long double||-1.7E308 to +1.7E308|
-{{< /table >}}
+
 
 #### Type char
 
 char is used to designate characters:
 
-{{< table "table-hover table-striped" >}}
+
 |Type Name|Other Name|Range|Bytes|
 |-|-|-|-|
 |char|signed char|-128 to 127|1|
 |unsigned char||0 to 255|1|
-{{< /table >}}
+
 
 * Basic data types contain only one value.
 * Derived or aggregate types can contain more than one value.
@@ -296,7 +296,7 @@ char is used to designate characters:
 
 Here is the list of format codes that we will use most often:
 
-{{< table "table-hover table-striped" >}}
+
 |Format Code|Usage|
 |-|-|
 |c|Display a character|
@@ -308,7 +308,7 @@ Here is the list of format codes that we will use most often:
 |E|Display a float or double in scientific notation with a capital E|
 |g, G|Display a float or double (uses the most appropriate format)|
 |%|Display the '%' character|
-{{< /table >}}
+
 
 Additionally:
 
@@ -484,13 +484,13 @@ The user who enters their age will have to type "x years". So be careful what ha
 
 This is what we call formatted input. Functions such as scanf are rather intended to be used to read data from a safe program (through a file for example), not those from a human, which are subject to error. The format codes used in scanf are roughly the same as in printf, except for floating points in particular.
 
-{{< table "table-hover table-striped" >}}
+
 |Format Code|Usage|
 |-|-|
 |f, e, g|float|
 |lf, le, lg|double|
 |Lf, Le, Lg|long double|
-{{< /table >}}
+
 
 Here is a program that calculates the volume of a right circular cone according to the formula: V = 1/3 * (B * h) where B is the base surface or for a circular base: B = PI*R², where R is the radius of the base.
 
@@ -562,7 +562,7 @@ The common arithmetic operators +, -, *, and / exist in the C language. However,
 
 ### Comparison operators
 
-{{< table "table-hover table-striped" >}}
+
 |Operator|Role|
 |-|-|
 |<|Less than|
@@ -571,17 +571,17 @@ The common arithmetic operators +, -, *, and / exist in the C language. However,
 |<=|Less than or equal to|
 |>=|Greater than or equal to|
 |!=|Not equal to|
-{{< /table >}}
+
 
 ### Logical operators
 
-{{< table "table-hover table-striped" >}}
+
 |Operator|Role|
 |-|-|
 |&&|AND|
 |\|\||OR|
 |!|NOT|
-{{< /table >}}
+
 
 ```c
 int prop1, prop2, prop_ou, prop_et, prop_vrai;
@@ -650,7 +650,7 @@ x = x + a;
 
 The operators are classified in order of priority. Here are the operators we have studied so far classified in this order.
 
-{{< table "table-hover table-striped" >}}
+
 |Operator|Associativity|
 |-|-|
 |Parentheses|left to right|
@@ -664,7 +664,7 @@ The operators are classified in order of priority. Here are the operators we hav
 |\|\||left to right|
 |Assignment operators (= += ...)|right to left|
 |,|left to right|
-{{< /table >}}
+
 
 Just because this order exists doesn't mean you have to memorize it. For readable code, it's even advised not to rely on it too much and to use parentheses in ambiguous situations.
 

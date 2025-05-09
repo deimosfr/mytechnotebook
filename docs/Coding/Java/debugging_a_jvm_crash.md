@@ -45,7 +45,7 @@ JAVA_OPTS="-Xms1024m -Xmx1024m $JAVA_OPTS -Djava.awt.headless=true -Xloggc:$LOGS
 export JAVA_OPTS
 ```
 
-{{< /table >}}
+
 
 These lines are typically placed in a file that will be executed when our Java application launches.
 
@@ -76,7 +76,7 @@ When we examine our logs, we can see if there are too many GCs. For example, her
 47649.168: [Full GC 104783K->104783K(1048256K), 0.5097090 secs]
 ```
 
-{{< /table >}}
+
 
 I also recommend a graphical tool for analyzing GC logs made by HP called [HPJmeter available here](https://www.hp.com/products1/unix/java/hpjmeter/). Here's what it looks like - you can very clearly see the Full GC problem:
 

@@ -11,13 +11,13 @@ toc: true
 
 ![Jenkins](../../static/images/jenkins_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 1.447 |
 | **Operating System** | Debian 7 |
 | **Website** | [Jenkins](https://jenkins-ci.org/) |
-{{< /table >}}
+
 
 ## Introduction
 

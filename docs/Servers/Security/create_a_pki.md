@@ -9,14 +9,14 @@ tags: ["Solaris", "Development", "Linux", "Security", "Encryption"]
 toc: true
 ---
 
-{{< table "table-hover table-striped" >}}
+
 | | |
 |------|------|
 | Software version | 1.0.1k |
 | Operating System | 8 |
 | Website | [Debian Website](https://www.debian.org) |
 | Last Update | 26/02/2015 |
-{{< /table >}}
+
 
 ## Introduction
 

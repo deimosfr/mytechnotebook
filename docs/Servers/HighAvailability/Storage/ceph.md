@@ -17,13 +17,13 @@ tags:
 toc: true
 ---
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 0.72.2 |
 | **Operating System** | Debian 7 |
 | **Website** | [Ceph Website](https://ceph.com/) |
-{{< /table >}}
+
 
 ![Ceph](../../../static/images/ceph_logo.avif)
 

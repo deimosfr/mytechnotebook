@@ -11,13 +11,13 @@ toc: true
 
 ![Red Hat Cluster Suite](../../../static/images/red_hat_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 5/6 |
 | **Operating System** | RHEL 5/6 |
 | **Website** | [Red Hat Website](https://www.redhat.com) |
-{{< /table >}}
+
 
 ## Introduction
 
@@ -31,7 +31,7 @@ Red Hat cluster suite works with a maximum of 16 nodes in a cluster.
 
 Here is the list of services we will cover with their descriptions:
 
-{{< table "table-hover table-striped" >}}
+
 | Service | Description |
 |---------|-------------|
 | ccsd | Cluster configuration service |
@@ -45,7 +45,7 @@ Here is the list of services we will cover with their descriptions:
 | GFS2 | Cluster filesystem |
 | ricci | Remote cluster management service |
 | lucci | Web frontend connecting to ricci for remote cluster management |
-{{< /table >}}
+
 
 On Red Hat 5 and Red Hat 6, as you can see, different frameworks are used, but this is transparent to us.
 
@@ -162,7 +162,7 @@ Generally, you will use a disk array so that data can be accessed from any machi
 
 If you use a firewall for the interconnection part of your nodes, here is the list of ports:
 
-{{< table "table-hover table-striped" >}}
+
 | Service name | Port/Protocol |
 |--------------|---------------|
 | cman | 5404/udp, 5405/udp |
@@ -171,7 +171,7 @@ If you use a firewall for the interconnection part of your nodes, here is the li
 | modclusterd | 16851/tcp |
 | dlm | 21064/tcp |
 | ccsd | 50006/tcp, 50007/udp, 50008/tcp, 50009/tcp |
-{{< /table >}}
+
 
 _Note: It is strongly **advised against having a software firewall** on this part and strongly recommended to have a **dedicated switch**!_
 

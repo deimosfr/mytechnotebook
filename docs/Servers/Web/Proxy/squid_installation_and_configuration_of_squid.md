@@ -11,13 +11,13 @@ toc: true
 
 ![Squid](../../../static/images/squid_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 2.7 |
 | **Operating System** | FreeBSD 9<br>Debian 6 |
 | **Website** | [Squid Website](https://www.squid-cache.org/) |
-{{< /table >}}
+
 
 ## Introduction
 

@@ -23,13 +23,13 @@ toc: true
 
 ![Linux](../../static/images/poweredbylinux.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | Kernel 2.6.32+ |
 | **Operating System** | Red Hat 6.3<br />Debian 7 |
 | **Website** | [Kernel Website](https://www.kernel.org) |
-{{< /table >}}
+
 
 ## Introduction
 
@@ -126,7 +126,7 @@ There are different types of buses:
 
 Here's a small approximate summary (varies with technological advances):
 
-{{< table "table-hover table-striped" >}}
+
 | Object | Latency | Throughput |
 |--------|---------|------------|
 | 10krpm disk | 3ms | 50MB/s |
@@ -143,7 +143,7 @@ Here's a small approximate summary (varies with technological advances):
 | L2 Cache | 5ns | |
 | L1 Cache | 1ns | |
 | L1 Cache | 0.3ns | 40GB/s |
-{{< /table >}}
+
 
 There are also SCSI type buses. These are a bit special, but **you need to be careful not to mix different clock speeds on the same bus**, bus sizes, passive/active terminations...
 You can use the sginfo command to retrieve all the SCSI parameters of your devices:

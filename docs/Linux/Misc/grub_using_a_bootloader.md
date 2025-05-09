@@ -11,13 +11,13 @@ toc: true
 
 ![Grub](../../static/images/grub_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 1 & 2 |
 | **Operating System** | Linux |
 | **Website** | [Grub Website](https://www.gnu.org/software/grub/) |
-{{< /table >}}
+
 
 ## Introduction
 

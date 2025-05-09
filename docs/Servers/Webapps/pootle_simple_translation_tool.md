@@ -11,13 +11,13 @@ toc: true
 
 ![Pootle](../../static/images/pootle_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 2.5.0 |
 | **Operating System** | Debian 6 |
 | **Website** | [Pootle Website](https://pootle.translatehouse.org/) |
-{{< /table >}}
+
 
 ## Introduction
 

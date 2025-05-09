@@ -275,14 +275,14 @@ format>
 
 In the menus that we can see, change or confirm partition choices, we have:
 
-{{< table "table-hover table-striped" >}}
+
 | Elements | Functions |
 |---------|----------|
 | partition | Displays the partition menu |
 | label | Writes the current partition name list to the disk |
 | verify | Reads and displays disk names |
 | quit | Exit the format utility |
-{{< /table >}}
+
 
 Then type **partition** to see the menu:
 
@@ -311,7 +311,7 @@ PARTITION MENU:
 
 Here are the options offered:
 
-{{< table "table-hover table-striped" >}}
+
 | Elements | Functions |
 |---------|----------|
 | 0-7 | Specify partition size and offset |
@@ -321,7 +321,7 @@ Here are the options offered:
 | print | Display the current partition table |
 | label | Write the current partition table |
 | !<cmd> | Execute an external command at the shell level |
-{{< /table >}}
+
 
 To display the new partition table, type **print**:
 
@@ -346,7 +346,7 @@ Part      Tag    Flag   Cylinders     Size            Blocks
 
 Here is the meaning of the columns:
 
-{{< table "table-hover table-striped" >}}
+
 | Column Name | Description |
 |---------|----------|
 | Part | Slice number of the disk |
@@ -355,7 +355,7 @@ Here is the meaning of the columns:
 | Cylinders | Start and end cylinder of the slice |
 | Size | Size of the slice in blocks (b), cylinders (c), Mbytes (MB), or Gbytes (GB) |
 | Blocks | Total number of cylinders and sectors per slice |
-{{< /table >}}
+
 
 To start configuring the disk, type **0**:
 
@@ -633,7 +633,7 @@ prtvtoc /dev/dsk/c1t3d0s0
 
 Here are some explanations:
 
-{{< table "table-hover table-striped" >}}
+
 | Field | Description |
 |---------|----------|
 | Dimensions | Describes the logical dimensions of the disk |
@@ -645,7 +645,7 @@ Here are some explanations:
 | Sector Count | Defines the total number of sectors in the slice |
 | Last Sector | Defines the last sector in the slice |
 | Mount Directory | If this field is empty, no entry will be defined in "/etc/vfstab" and the slice will not be mounted at startup |
-{{< /table >}}
+
 
 ## In Case of Problems
 
@@ -1012,7 +1012,7 @@ umount /a
 
 Where to find the peripherals:
 
-{{< table "table-hover table-striped" >}}
+
 | Media | Filesystem Access | Mounted Access |
 |---------|----------|----------|
 | diskette | /floppy/floppy0 | /vol/dev/aliases/floppy0 |
@@ -1020,7 +1020,7 @@ Where to find the peripherals:
 | Jaz | /rmdisk/jaz0 | /vol/dev/aliases/jaz0 |
 | Zip | /rmdrive/zip0 | /vol/dev/aliases/zip0 |
 | PCMCIA | /pcmem0 | /vol/dev/aliases/pcmem0 |
-{{< /table >}}
+
 
 There are 2 files that manage actions during media insertion/ejection:
 

@@ -11,13 +11,13 @@ toc: true
 
 ![Sick-Beard](../../static/images/sick-beard-logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 830b3b1 |
 | **Operating System** | Debian 7 |
 | **Website** | [Sick-Beard Website](https://sickbeard.com) |
-{{< /table >}}
+
 
 ## Introduction
 

@@ -12,13 +12,13 @@ toc: true
 
 ![File.Index](../../../static/images/apachefileindex_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 1.0 |
 | **Operating System** | Debian 6 |
 | **Website** | [Website](https://blog.is-a-geek.org/apache-file-listing-mit-eigenem-theme-verschonern) |
-{{< /table >}}
+
 
 ## Introduction
 

@@ -9,14 +9,14 @@ tags: ["OpenElec", "Raspberry Pi", "XBMC", "Multimedia"]
 toc: true
 ---
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 3.0 (2.99.2) |
 | **Operating System** | Linux |
 | **Website** | [OpenElec Website](https://openelec.tv/) |
 | **Others** | Raspberry Pi B |
-{{< /table >}}
+
 
 ## Introduction
 

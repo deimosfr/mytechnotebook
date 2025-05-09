@@ -11,12 +11,12 @@ toc: true
 
 ![Debian](../../../static/images/debian.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Operating System** | Debian X |
 | **Website** | [Debian Website](https://www.debian.org) |
-{{< /table >}}
+
 
 ## Introduction
 

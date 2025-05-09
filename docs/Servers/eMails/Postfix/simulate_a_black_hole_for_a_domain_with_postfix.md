@@ -11,13 +11,13 @@ toc: true
 
 ![Postfix](../../../static/images/postfix_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 2.10 |
 | **Operating System** | Debian 7 |
 | **Website** | [Postfix Website](https://www.postfix.org/) |
-{{< /table >}}
+
 
 ## Introduction
 

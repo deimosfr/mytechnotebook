@@ -77,4 +77,4 @@ Basic commands:
 | \<s-leftmouse\> | drag and draw with current brush (register) |
 | \\ra ... \\rz | replace text with given brush/register |
 | \\pa ... | like \\ra ... \\rz, except that blanks are considered to be transparent |
-{{< /table >}}
+

@@ -11,13 +11,13 @@ toc: true
 
 ![Gnome](../../static/images/gnome.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 3.4.2 |
 | **Operating System** | Debian 7 |
 | **Website** | [Gnome Website](https://www.gnome.org/) |
-{{< /table >}}
+
 
 ## Introduction
 

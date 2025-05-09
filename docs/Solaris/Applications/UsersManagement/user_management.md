@@ -77,7 +77,7 @@ loginID:password:lastchg:min:max:warn:inactive:expire:
 
 The table defines the requirements for each of the eight fields.
 
-{{< table "table-hover table-striped" >}}
+
 | Field | Description |
 |-------|-------------|
 | loginID | The user's login name. |
@@ -89,7 +89,7 @@ The table defines the requirements for each of the eight fields.
 | inactive | The number of inactive days allowed for the user before the user's account is locked. |
 | expire | The date (given as number of days since January 1, 1970) when the user account expires. After the date is exceeded, the user can no longer log in. |
 | flag | To track failed logins. The count is in low order four bits; the remainder is reserved for future use, set to zero. |
-{{< /table >}}
+
 
 ## group
 
@@ -129,14 +129,14 @@ groupname:group-password:GID:username-list
 
 The table defines the requirements for each of the four fields.
 
-{{< table "table-hover table-striped" >}}
+
 | Field | Description |
 |-------|-------------|
 | groupname | Contains the name assigned to the group. Group names contain up to a maximum of eight characters. |
 | group-password | Usually contains an empty field or an asterisk. This is a relic of earlier versions of UNIX.<br><br>**Caution:** A group-password is a security hole because it might allow an unauthorized user who is not a member of the group but who knows the group password, to enter the group.<br><br>**Note:** The newgrp command changes a user's primary group association within the shell environment from which it is executed. If this new, active group has a password and the user is not a listed member in that group, the user must enter the password before the newgrp command can continue. |
 | GID | Contains the group's GID number. It is unique on the local system and should be unique across the organization. Numbers 0 to 99, 60001, 60002 and 65534 are reserved for system group entries. User-defined groups range from 100 to 60000. |
 | username-list | Contains a comma-separated list of user names that represent the user's secondary group memberships. By default, each user can belong to a maximum of 15 secondary groups.<br><br>**Note:** The maximum number of groups is set by the kernel parameter called ngroups_max. You can set this parameter in the `/etc/system` file to allow for a maximum of 32 groups. Not all applications will be able to reference group memberships greater than 16. NFS is a notable example. |
-{{< /table >}}
+
 
 ## The Defaults
 
@@ -233,7 +233,7 @@ useradd [ -u uid ][ -g gid ][ -G gid [,gid,.. ]]
 
 The table shows the options for the useradd command.
 
-{{< table "table-hover table-striped" >}}
+
 | Option | Definition |
 |--------|------------|
 | -u uid | Sets the UID number for the new user |
@@ -245,7 +245,7 @@ The table shows the options for the useradd command.
 | -c comment | Specifies any comment, such as the user's full name and location |
 | loginname | Defines the user's login name for the user account |
 | -D | Displays the defaults that are applied to the useradd command |
-{{< /table >}}
+
 
 The following example uses the useradd command to create an account for a user named newuser1. It assigns 100 as the UID number, adds the user to the group other, creates a home directory in the `/export/home` directory, and sets `/bin/ksh` as the login shell for the user account.
 
@@ -318,7 +318,7 @@ smuser add [auth_args] -- [subcommand_args]
 
 The table shows some of the most common subcommand arguments for the smuser add command.
 
-{{< table "table-hover table-striped" >}}
+
 | Subcommand Argument | Definition |
 |--------------------|------------|
 | -c comment | A short description of the login, typically the user's name. This string can be up to 256 characters. |
@@ -329,7 +329,7 @@ The table shows some of the most common subcommand arguments for the smuser add 
 | -s shell | Specifies the full path name of the user's login shell. |
 | -u uid | Specifies the user ID of the user you want to add. If you do not specify this option, the system assigns the next available unique UID greater than 100. |
 | -x autohome=Y|N | Sets the home directory to automount if set to Y. |
-{{< /table >}}
+
 
 The following example uses the smuser add command to create an account for a user named newuser2. It designates the login name as newuser2, assigns the UID number 500, adds the user to the group other, creates a home directory in the `/export/home` directory, and sets `/bin/ksh` as the login shell for the user account.
 
@@ -408,7 +408,7 @@ The CDE uses more configuration files, so there are more potential problems asso
 
 The table presents an overview of common login problems that occur when the user logs in at the command line.
 
-{{< table "table-hover table-striped" >}}
+
 | Login Problem | Description |
 |--------------|-------------|
 | Login incorrect | This message occurs when there are problems with the login information. The most common cause of an incorrect login message is a mistyped password. Make sure the that correct password is being used, and then attempt to enter it again. Remember that passwords are case-sensitive, so you cannot interchange uppercase letters and lowercase letters. In the same way, the letter "o" is not interchangeable with the numeral "0" nor is the letter "l" interchangeable with the numeral "1." |
@@ -418,7 +418,7 @@ The table presents an overview of common login problems that occur when the user
 | No directory! Logging in with home=/ | This message occurs when the user cannot access the home directory for one of the following reasons: An entry in the `/etc/passwd` file is incorrect, or the home directory has been removed or is missing, or the home directory exists on a mount point that is currently unavailable. |
 | Choose a new password (followed by the New password: prompt) | This message occurs the first time a user logs in and chooses an initial password to access the account. |
 | Couldn't fork a process! | This message occurs then the server could not fork a child process during login. The most common cause of this message is that the system has reached its maximum number of processes. You can either kill some unneeded processes (if you are already logged into that system as root) or increase the number of processes your system can handle. |
-{{< /table >}}
+
 
 ### Login Problems in the CDE
 

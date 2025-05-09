@@ -108,7 +108,7 @@ Three operators are available: '=', '+=' and '-='. Most of the attributes only s
 
 The table 1 briefly describes some of these attributes. We'll see how to use them with a few examples. Reading the xinetd.conf man page provides more information.
 
-{{< table "table-hover table-striped" >}}
+
 | Attribute | Values and description |
 |-----------|------------------------|
 | flags | Only the most current values are mentioned here, check the documentation to find new ones:<br>- IDONLY: only accepts connections from clients having an identification server<br>- NORETRY: avoids a new process to be forked again in case of failure<br>- NAMEINARGS: the first argument of the server*args attribute is used as argv[0] for the server. This allows using tcpd by putting it in the server attribute, next writing the server name and its arguments such as server_args, as you would do with inetd<br>- SENSOR: when a server is flagged as a sensor, it is considered as a honeypot. When a client attempts to connect to it, it is added to the no_access list, forbidding any further access to any other servers started by xinetd |
@@ -129,7 +129,7 @@ The table 1 briefly describes some of these attributes. We'll see how to use the
 | instances | Defines the maximum number of servers of the same type able to work at the same time |
 | max_load | This gives really the maximum load for a server (for example, 2 or 2.5). Beyond this limit, requests on this server are rejected |
 | per_source | Either an integer, or UNLIMITED, to restrict the number of connections from the same origin to a server |
-{{< /table >}}
+
 
 The four last attributes shown in table1 allow controlling the resources depending on a server. This is efficient to protect from Denial of Service (DoS) attacks (freezing a machine by using all of its resources).
 
@@ -208,7 +208,7 @@ To configure a service, we need... nothing :) In fact, everything works like it 
 
 Some attributes must be present according to the type of service (INTERNAL, UNLISTED or RPC):
 
-{{< table "table-hover table-striped" >}}
+
 | Attribute | Comment |
 |-----------|---------|
 | socket-type | Every service |
@@ -219,7 +219,7 @@ Some attributes must be present according to the type of service (INTERNAL, UNLI
 | rpc_version | Every RPC service |
 | rpc_number | Every RPC service, not contained in /etc/rpc |
 | port | Every non-RPC service, not contained in /etc/services |
-{{< /table >}}
+
 
 This example shows how to define services:
 

@@ -60,13 +60,13 @@ This database, formerly managed by InterNIC and now by Network Solutions, remain
 
 Companies that register domain names generally offer an online query service (see Table 1). On Unix, there is also the whois command.
 
-{{< table "table-hover table-striped" >}}
+
 | Name | Meaning | URL | Description |
 |------|---------|-----|-------------|
 | AFNIC | Association Française pour le Nommage Internet en Coopération | http://www.nic.fr/cgi-bin/whois | all ".fr" domains |
 | RIPE | Réseau IP Européen | http://www.ripe.net/cgi-bin/whois | covers Europe, Middle East and some Asian and African countries |
 | InterNIC | Stated on their webpage: "InterNIC is a registered service mark of the U.S. Department of Commerce. This site is being hosted by ICANN on behalf of the U.S. Department of Commerce". | http://www.internic.net/whois.html | ".com", ".net", ".edu" and other ".org" domains |
-{{< /table >}}
+
 
 To show you the richness of information contained in this type of database, here's a small example using a domain name (fictitious for confidentiality reasons):
 

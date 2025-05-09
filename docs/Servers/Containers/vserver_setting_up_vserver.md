@@ -204,7 +204,7 @@ dummy0:12 Lien encap:Ethernet  HWaddr 22:22:xx:xx:CF:xx
 
 Here is a table of Applications with configuration files to modify for Binding:
 
-{{< table "table-hover table-striped" >}}
+
 | Application | Config File | Line |
 |------------|-------------|------|
 | OpenSSH | /etc/ssh/sshd_config | ListenAddress 192.168.0.12 |
@@ -216,7 +216,7 @@ Here is a table of Applications with configuration files to modify for Binding:
 | Postfix | /etc/postfix/main.cf | inet_interfaces = 192.168.0.12 |
 | Lighttpd | /etc/lighttpd/lighttpd.conf | server.bind = "192.168.0.12" |
 | Nagios NRPE | /etc/nagios/nrpe.cfg | server_address=192.168.0.12 |
-{{< /table >}}
+
 
 #### NFS Mounting
 

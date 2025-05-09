@@ -166,7 +166,7 @@ symfony generate:project phpwol
 
 A lot of things have just been created:
 
-{{< table "table-hover table-striped" >}}
+
 | Directory | Description |
 |---------|--------|
 | `apps/` | Contains all project applications |
@@ -178,7 +178,7 @@ A lot of things have just been created:
 | `plugins/` | Installed plugins |
 | `test/` | Unit and functional test files |
 | `web/` | The Web root directory (see below) |
-{{< /table >}}
+
 
 ## Resources
 - http://www.symfony-project.org/getting-started/1_4/fr/

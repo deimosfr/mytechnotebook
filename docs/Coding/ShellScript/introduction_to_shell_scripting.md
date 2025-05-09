@@ -116,7 +116,7 @@ We see that the file's content hasn't been overwritten and that it contains an a
 
 The following table summarizes the special redirection characters.
 
-{{< table "table-hover table-striped" >}}
+
 | Character | Description |
 |-----------|-------------|
 | > | Redirects standard output. |
@@ -124,13 +124,13 @@ The following table summarizes the special redirection characters.
 | < | Redirects standard input. |
 | 2> | Redirects standard error output. |
 | 2>> | Redirects standard error output without overwriting. |
-{{< /table >}}
+
 
 ## Special Characters
 
 In addition to the standard data stream redirection characters, the Shell has characters whose meaning is very... special. Here they are grouped in the following table.
 
-{{< table "table-hover table-striped" >}}
+
 | Character | Description |
 |-----------|-------------|
 | * | Metacharacter that replaces any string (even empty). Example: cp * DATA copies all files to the DATA directory. |
@@ -144,7 +144,7 @@ In addition to the standard data stream redirection characters, the Shell has ch
 | '...' | Defines a string of characters that will not be evaluated by the Shell. Example: echo '*?&' displays the special characters *?& on standard output without interpreting them. |
 | "..." | Defines a string of characters whose variables will be evaluated by the Shell. Example: echo "You are $USER." displays You are + the value of the $USER variable. |
 | \`...\` | Defines a string of characters that will be interpreted as a command and replaced by the string that would be returned on standard output when executing said command. Example: echo \`pwd\` >> liste.txt writes at the end of the file the path and name of the current directory. The special character used is obtained by the key combination: AltGr + 7 (it's the grave accent). |
-{{< /table >}}
+
 
 ## Shell Variables
 
@@ -158,13 +158,13 @@ You can display available variables with the env command.
 
 ### Other Variables
 
-{{< table "table-hover table-striped" >}}
+
 | Variable | Description |
 |----------|-------------|
 | $$ | PID of the current Shell process. |
 | $! | PID of the last process launched in the background. |
 | $? | Error code returned by the last command (0: true; otherwise false). |
-{{< /table >}}
+
 
 ## Declaration
 
@@ -250,7 +250,7 @@ It's possible to execute a script by passing arguments to it like any other comm
 
 The following table summarizes the variables accessible to a script:
 
-{{< table "table-hover table-striped" >}}
+
 | Variable | Description |
 |----------|-------------|
 | $# | Number of arguments. |
@@ -259,7 +259,7 @@ The following table summarizes the variables accessible to a script:
 | $1 | Value of the first parameter. |
 | $i | Value of the ith parameter if i is between 1 and 9. |
 | $9 | Value of the ninth parameter. |
-{{< /table >}}
+
 
 ## Creating Variables on the Fly
 

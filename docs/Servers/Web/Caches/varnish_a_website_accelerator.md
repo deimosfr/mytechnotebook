@@ -12,13 +12,13 @@ toc: true
 
 ![Varnish](../../../static/images/varnish_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |--|--|
 | **Software version** | Varnish 2 |
 | **Operating System** | Debian 6 |
 | **Website** | [Varnish Website](https://www.varnish-cache.org/) |
-{{< /table >}}
+
 
 ## Introduction
 

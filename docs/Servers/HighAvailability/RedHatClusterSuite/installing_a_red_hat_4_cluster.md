@@ -27,7 +27,7 @@ Keep the French keyboard
 
 ## Partitioning (do the same partitioning on all the cluster nodes)
 
-{{< table "table-hover table-striped" >}}
+
 | Location | Type | Size | LVM Name |
 |---------|------|------|----------|
 | /boot | ext3 | 128 MB | **NO LVM!!!** |
@@ -38,7 +38,7 @@ Keep the French keyboard
 | /tmp | ext3 | 2048 MB | tmp |
 | swap | | 4096 MB | swap |
 | /home | ext3 | Space left | home |
-{{< /table >}}
+
 
 ## List of packages installation
 

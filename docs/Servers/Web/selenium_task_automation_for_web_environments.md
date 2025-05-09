@@ -11,13 +11,13 @@ toc: true
 
 ![Selenium](../../static/images/selenium-logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-------|------|
 | **Software version** | 1.9.0 |
 | **Operating System** | Debian 7 |
 | **Website** | [Selenium Website](https://seleniumhq.org/) |
-{{< /table >}}
+
 
 ## Introduction
 

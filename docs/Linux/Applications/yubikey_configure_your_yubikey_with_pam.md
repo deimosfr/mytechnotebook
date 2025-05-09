@@ -12,12 +12,12 @@ toc: true
 
 ![Yubikey](../../static/images/yubikey.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Operating System** | Debian 7/8 |
 | **Website** | [Yubikey Website](https://www.yubico.com/) |
-{{< /table >}}
+
 
 ## Introduction
 

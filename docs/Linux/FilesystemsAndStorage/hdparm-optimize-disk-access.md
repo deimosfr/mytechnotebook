@@ -23,13 +23,13 @@ Throughout this article, we consider that your hard drive is the master on the f
 
 Your kernel must support DMA. You must have the following options when compiling your kernel:
 
-{{< table "table-hover table-striped" >}}
+
 | Section | Kernel Option | As module or built-in? |
 |---------|---------------|------------------------|
 | ATA/IDE/MFM/RLL support | IDE, ATA and ATAPI Block devices / Generic PCI IDE chipset support | Built-in |
 | ATA/IDE/MFM/RLL support | IDE, ATA and ATAPI Block devices / Generic PCI bus-master DMA support | Built-in |
 | ATA/IDE/MFM/RLL support | IDE, ATA and ATAPI Block devices / Use PCI DMA by default when available | Built-in |
-{{< /table >}}
+
 
 You must replace XXXXXXXX with the chipset reference of your motherboard. Refer to your hardware user manual to find this reference.
 

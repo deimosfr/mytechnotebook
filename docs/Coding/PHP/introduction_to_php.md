@@ -200,7 +200,7 @@ if (in_array($meals, $_POST['meal'])) {
 
 Strings can be delimited by "". They work like strings surrounded by ', but allow more special characters:
 
-{{< table "table-hover table-striped" >}}
+
 | Character | Meaning |
 |-----------|---------|
 | \n | Newline (ASCII 10) |
@@ -211,7 +211,7 @@ Strings can be delimited by "". They work like strings surrounded by ', but allo
 | \" | " |
 | \0 .. \777 | Octal (base 8) number |
 | \x0 .. \xFF | Hexadecimal (base 16) number |
-{{< /table >}}
+
 
 A small example to clarify everything. Imagine $user is Pierre:
 
@@ -457,7 +457,7 @@ $drink4you2
 
 And unacceptable:
 
-{{< table "table-hover table-striped" >}}
+
 | Variable name | Flaw |
 |--------------|------|
 | Begins with a number | $2hot4u |
@@ -465,7 +465,7 @@ And unacceptable:
 | Unacceptable characters: @ and . | $drinkmaster@example.com |
 | Unacceptable character:! | $drink!lots |
 | Unacceptable character: + | $drink+dinner |
-{{< /table >}}
+
 
 **Variable names are case sensitive!!!**
 
@@ -1665,7 +1665,7 @@ Thus, by testing if there is a my_name key in the $\_POST array, we can know if 
 
 Besides PHP_SELF, the $\_SERVER super-global array contains a number of useful elements that provide information about the web server and the request being processed, here are some:
 
-{{< table "table-hover table-striped" >}}
+
 | Element | Example | Description |
 |---------|---------|-------------|
 | QUERY_STRING | http://www.example.com/catalog/store.php?**category=kitchen&price=5** | The part of the URL after the ? and containing the URL parameters |
@@ -1676,7 +1676,7 @@ Besides PHP_SELF, the $\_SERVER super-global array contains a number of useful e
 | REMOTE_HOST | pool0560.cvx.dialup.verizon.net | If the web server is configured to do name resolution, this request is useful, however very few web servers use it (**too time-consuming processing**) |
 | HTTP_REFERER | http://directory.google.com/Top/Shopping/Clothing/ | If the current URL was reached using a link, HTTP_REFER contains the URL of the page containing this link. **Warning: this value can be falsified!** |
 | HTTP_USER_AGENT | Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) | Information about the client's browser, as well as the OS used |
-{{< /table >}}
+
 
 ## Accessing form parameters
 
@@ -2102,14 +2102,14 @@ Most of this chapter uses PEAR DB, an abstraction layer for database access that
 
 Here's what we'll be using:
 
-{{< table "table-hover table-striped" >}}
+
 | ID | Name | Price | Is Spicy? |
 |----|------|-------|-----------|
 | 1 | Fried Bean Curd | 5.50 | 0 |
 | 2 | Braised Sea Cucumber | 9.95 | 0 |
 | 3 | Walnut Bun | 1.00 | 0 |
 | 4 | Eggplant with Chilli Sauce | 6.50 | 1 |
-{{< /table >}}
+
 
 ## Connecting to a database system
 
@@ -2137,7 +2137,7 @@ db_program://user:password@hostname/database
 
 - Here are the possible values for the DBMS:
 
-{{< table "table-hover table-striped" >}}
+
 | db_program | Database program |
 |------------|------------------|
 | dbase | dBase |
@@ -2153,7 +2153,7 @@ db_program://user:password@hostname/database
 | pgsql | PostgreSQL |
 | sqlite | SQLite |
 | sybase | Sybase |
-{{< /table >}}
+
 
 A call to DB:connect() returns an object that will allow you to interact with the database. In case of a connection problem, this function will return a different type of object, containing information about the reasons for the failure. Before going further, use the DB:isError() function.
 
@@ -2193,7 +2193,7 @@ Some column types include a length or format information in parentheses:
 
 - Frequently used types for table columns:
 
-{{< table "table-hover table-striped" >}}
+
 | Column type | Description |
 |-------------|-------------|
 | VARCHAR(length) | Variable length string. length=maximum characters. |
@@ -2201,7 +2201,7 @@ Some column types include a length or format information in parentheses:
 | BLOB (PostgreSQL calls this type BYTEA) | Binary data string, up to 64 KB |
 | DECIMAL(total*digits,decimal_places) | Decimal number with \_total_digits* digits, of which _decimal_places_ are after the decimal point (The decimal point is represented by a period, not a comma). |
 | DATETIME (Oracle calls this type DATE) | Date and time: 2008-09-07 21:38:48 for example |
-{{< /table >}}
+
 
 - Sending a CREATE TABLE command to the database system:
 
@@ -2722,7 +2722,7 @@ PEAR DB rounds a lot of angles for database access from a PHP program, but there
 
 The differences are in the details: the available functions and how they work vary depending on the database and, in general, you have to retrieve the results row by row because you don't have the convenience provided by getAll(). There is also no unified error handling.
 
-{{< table "table-hover table-striped" >}}
+
 | PEAR DB function | mysqli function | Comments |
 |------------------|----------------|----------|
 | $db = DB::connect( DSN) | $db = mysqli_connect(hostname, username, password, database) | |
@@ -2731,7 +2731,7 @@ The differences are in the details: the available functions and how they work va
 | $db->affectedRows( ) | mysqli_affected_rows($db) | |
 | $q->numRows( ) | mysqli_num_rows($q) | |
 | $db->setErrorHandling(ERROR_MODE) | None | You can't set automatic error handling with mysqli, but mysqli_connect_error( ) gives you the error message if something goes wrong connecting to the database program, and mysqli_error($db)gives you the error message after a query or other function call fails. |
-{{< /table >}}
+
 
 - Function process_form() using mysqli:
 

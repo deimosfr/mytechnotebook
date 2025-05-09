@@ -11,13 +11,13 @@ toc: true
 
 ![Bugzilla](../../static/images/bugzilla_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 4.2.5 |
 | **Operating System** | Debian 6 |
 | **Website** | [Bugzilla Website](https://www.bugzilla.org/) |
-{{< /table >}}
+
 
 ## Introduction
 

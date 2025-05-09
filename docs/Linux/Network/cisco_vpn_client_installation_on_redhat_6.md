@@ -11,13 +11,13 @@ toc: true
 
 ![Cisco](../../static/images/poweredbycisco.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 4.8.02 |
 | **Operating System** | RHEL 6.2 |
 | **Website** | [Cisco Website](https://www.cisco.com/) |
-{{< /table >}}
+
 
 ## Introduction
 

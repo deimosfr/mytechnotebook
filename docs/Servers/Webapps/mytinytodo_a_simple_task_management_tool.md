@@ -11,13 +11,13 @@ toc: true
 
 ![MyTinyTodo](../../static/images/logomytodolist.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 1.4.2 |
 | **Operating System** | Debian 6 |
 | **Website** | [MyTinyTodo Website](https://www.mytinytodo.net/) |
-{{< /table >}}
+
 
 ## Introduction
 

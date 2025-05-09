@@ -12,11 +12,11 @@ toc: true
 
 ![Nagios](../../static/images/nagios_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Operating System** | Debian 7 |
-{{< /table >}}
+
 
 ## Introduction
 

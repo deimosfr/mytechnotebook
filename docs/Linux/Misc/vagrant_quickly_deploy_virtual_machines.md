@@ -11,13 +11,13 @@ toc: true
 
 ![Vagrant](../../static/images/vagrant-logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Operating System** | Debian 7 |
 | **Website** | [Vagrant Website](https://www.vagrantup.com/) |
 | **Others** | VirtualBox |
-{{< /table >}}
+
 
 ## Introduction
 

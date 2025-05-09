@@ -11,13 +11,13 @@ toc: true
 
 ![PowerDNS](../../../static/images/powerdns_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 2.9.22 |
 | **Operating System** | Debian 6 |
 | **Website** | [PowerDNS Website](https://www.powerdns.com) |
-{{< /table >}}
+
 
 ## Introduction
 

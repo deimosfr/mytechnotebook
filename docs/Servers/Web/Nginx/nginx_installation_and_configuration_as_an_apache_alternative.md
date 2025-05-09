@@ -12,13 +12,13 @@ toc: true
 
 ![Nginx Logo](../../../static/images/nginx-logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 1.2.1 |
 | **Operating System** | Debian 7 |
 | **Website** | [Nginx Website](https://nginx.org/) |
-{{< /table >}}
+
 
 ## Introduction
 

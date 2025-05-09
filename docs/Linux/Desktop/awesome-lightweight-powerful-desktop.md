@@ -11,13 +11,13 @@ toc: true
 
 ![Awesome](../../static/images/awesome_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 3.4.11 |
 | **Operating System** | Debian 7 |
 | **Website** | [Website](https://awesome.naquadah.org) |
-{{< /table >}}
+
 
 ## Introduction
 

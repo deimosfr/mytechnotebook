@@ -11,14 +11,14 @@ toc: true
 
 ![Apache](../../static/images/apache_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 2.3 |
 | **Operating System** | Ubuntu 12.10 |
 | **Website** | [Apache Website](https://www.apache.org) |
 | **Others** | Server: Debian 7 |
-{{< /table >}}
+
 
 ## Introduction
 

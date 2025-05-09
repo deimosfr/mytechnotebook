@@ -11,12 +11,12 @@ toc: true
 
 ![Sabnzbd](../../static/images/sabnzbd_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Operating System** | Debian 6/7 |
 | **Website** | [Sabnzbd Website](https://sabnzbd.org/) |
-{{< /table >}}
+
 
 ## Introduction
 

@@ -11,13 +11,13 @@ toc: true
 
 ![Glances](../../static/images/glances-logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 1.6.1/Latest |
 | **Operating System** | Debian 7 |
 | **Website** | [Glances Website](https://github.com/nicolargo/glances) |
-{{< /table >}}
+
 
 ## Introduction
 

@@ -11,12 +11,12 @@ toc: true
 
 ![NetBSD](../../static/images/netbsd-logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Operating System** | 6.0.1 |
 | **Website** | [NetBSD Website](https://www.netbsd.org/) |
-{{< /table >}}
+
 
 ## Introduction
 

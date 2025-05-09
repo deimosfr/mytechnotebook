@@ -1,4 +1,5 @@
 ---
+name: BSD
 search:
   exclude: true
 ---

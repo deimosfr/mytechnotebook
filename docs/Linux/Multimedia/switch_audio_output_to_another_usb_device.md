@@ -11,11 +11,11 @@ toc: true
 
 ![Linux](../../static/images/poweredbylinux.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Operating System** | Debian 7 |
-{{< /table >}}
+
 
 ## Introduction
 

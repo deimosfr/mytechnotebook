@@ -19,12 +19,12 @@ toc: true
 
 ![Kerberos](../../../static/images/logo_kerberos_consortium.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 5 |
 | **Operating System** | Red Hat 6 and Debian 6 |
-{{< /table >}}
+
 
 ## Introduction
 

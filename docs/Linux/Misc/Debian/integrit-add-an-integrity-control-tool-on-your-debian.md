@@ -11,13 +11,13 @@ toc: true
 
 ![Integrit](../../../static/images/poweredbylinux.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 4.1 |
 | **Operating System** | Debian 7 |
 | **Website** | [Integrit Website](https://sourceforge.net/projects/integrit/) |
-{{< /table >}}
+
 
 ## Introduction
 

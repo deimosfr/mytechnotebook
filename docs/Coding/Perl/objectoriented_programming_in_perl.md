@@ -26,12 +26,12 @@ toc: true
 
 ![Perl](../../static/images/perl_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 5.10 |
 | **Website** | [Perl Website](https://www.perl.org) |
-{{< /table >}}
+
 
 ## Introduction
 

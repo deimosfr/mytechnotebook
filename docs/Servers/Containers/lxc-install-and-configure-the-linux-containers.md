@@ -9,13 +9,13 @@ tags: ["LXC", "Linux", "Containers", "Virtualization", "Debian"]
 toc: true
 ---
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 0.8 |
 | **Operating System** | Debian 7 |
 | **Website** | [LXC Website](https://lxc.sourceforge.net/) |
-{{< /table >}}
+
 
 ## Introduction
 

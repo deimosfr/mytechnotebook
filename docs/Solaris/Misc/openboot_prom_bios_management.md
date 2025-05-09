@@ -61,7 +61,7 @@ After doing this, you'll only have access to the Stop+A key sequence.
 
 I intentionally left the descriptions in English to avoid translation errors:
 
-{{< table "table-hover table-striped" >}}
+
 | Command | Description |
 |---------|-------------|
 | banner | Displays the power-on banner |
@@ -84,7 +84,7 @@ I intentionally left the descriptions in English to avoid translation errors:
 | show-disks | Displays and allows a selection of device paths for the disks to be used for nvalias |
 | sync | Manually attempts to flush memory and synchronize file systems |
 | test | Runs self-tests on specified devices |
-{{< /table >}}
+
 
 ### Banner
 

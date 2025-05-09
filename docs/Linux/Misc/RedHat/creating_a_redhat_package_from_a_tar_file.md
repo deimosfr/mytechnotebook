@@ -15,7 +15,7 @@ toc: true
 | Operating System | Red Hat 6.3 |
 | Website | [Website](https://www.redhat.com) |
 | Last Update | 02/08/2012 |
-{{< /table >}}
+
 
 ## Introduction
 

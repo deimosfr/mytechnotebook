@@ -9,12 +9,12 @@ tags: ["Servers", "Linux", "RHEL", "Automation", "Installation"]
 toc: true
 ---
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Operating System** | RHEL 6.2 |
 | **Website** | [Debian Website](https://www.debian.org) |
-{{< /table >}}
+
 
 ## Introduction
 

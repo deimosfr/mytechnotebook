@@ -19,7 +19,7 @@ The "Chunk size" (or stripe size or element size for some vendors) is the amount
 
 A good rule for defining chunk size is to divide the size of IO operations by the number of disks in the RAID (minus parity disks if using RAID5 or 6).
 
-{{< table "table-hover table-striped" >}}
+
 | **Notes** |
 |-----------|
 | Quick reminder: |
@@ -28,7 +28,7 @@ A good rule for defining chunk size is to divide the size of IO operations by th
 | - RAID 5: 1 parity disk |
 | - RAID 6: 2 parity disks |
 | - RAID 10: No parity disks |
-{{< /table >}}
+
 
 If you have no idea about your IO, choose a value between 32KB and 128KB, taking a multiple of 2KB (or 4KB if you have larger block sizes). The chunk size (stripe size) is an important factor in your RAID's performance. If the stripe is too wide, the raid can have a "hot spot" which will be the disk receiving the most IO and will reduce your RAID's performance. It's obvious that the best performance is when data is spread across all disks. The correct formula is therefore:
 

@@ -32,7 +32,7 @@ With virtual alias domains, each hosted address is an alias of a UNIX system acc
 virtual_alias_domains = example.com ...other hosted domains...
 virtual_alias_maps = hash:/etc/postfix/virtual
 ```
-{{< /table >}}
+
 
 {{< table "table-striped table-hover" >}}
 | File: `/etc/postfix/virtual` |
@@ -45,7 +45,7 @@ sales@example.com      jane
 # @example.com         jim
 # ...virtual aliases for other domains...
 ```
-{{< /table >}}
+
 
 Notes:
 
@@ -94,7 +94,7 @@ You may want to redirect all emails from a machine or simply all emails that hit
 # we match emails we'll accept with regular expressions
 virtual_alias_maps = regexp:/etc/postfix/virtual
 ```
-{{< /table >}}
+
 
 Let's create a virtual file:
 
@@ -105,7 +105,7 @@ Let's create a virtual file:
 # redirect everything to someone who can read the emails
 /@/	moi@mycompany.com
 ```
-{{< /table >}}
+
 
 ## FAQ
 
@@ -137,7 +137,7 @@ It's probably Amavis causing issues. To fix this problem, comment out this line 
 ```
 # receive_override_options = no_address_mappings
 ```
-{{< /table >}}
+
 
 ## Resources
 - [Secure Virtual Mailserver: Postfix + OpenLDAP + Dovecot + Jamm + SASL + SquirrelMail](../../../static/pdf/secure_virtual_mailserver.pdf)

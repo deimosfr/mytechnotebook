@@ -11,12 +11,12 @@ toc: true
 
 ![Systemd](../../static/images/poweredbylinux.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 208-6 |
 | **Operating System** | Debian 8 |
-{{< /table >}}
+
 
 ## Introduction
 

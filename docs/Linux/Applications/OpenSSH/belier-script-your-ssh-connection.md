@@ -11,13 +11,13 @@ toc: true
 
 ![Belier](../../../static/images/belier_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 | | |
 |-|-|
 | **Software version** | 1.2 |
 | **Operating System** | Debian 7 |
 | **Website** | [Belier Website](https://www.ohmytux.com/belier/) |
-{{< /table >}}
+
 
 ## Introduction
 

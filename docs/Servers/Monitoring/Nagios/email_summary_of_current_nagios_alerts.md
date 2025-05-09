@@ -9,13 +9,13 @@ tags: ["Servers", "Nagios", "Monitoring", "Email", "Perl", "Alerts"]
 toc: true
 ---
 
-{{< table "table-hover table-striped" >}}
+
 | | |
 | --- | --- |
 | **Software version** | Core 3.2.1 |
 | **Operating System** | Debian 6 |
 | **Website** | [Nagios Website](https://www.nagios.org) |
-{{< /table >}}
+
 
 ## Introduction
 

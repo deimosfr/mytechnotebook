@@ -11,14 +11,14 @@ toc: true
 
 ![Fluentd](../../../static/images/fluentd_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 1.1.19-1 |
 | **Operating System** | Debian 7 |
 | **Website** | [Fluentd Website](https://fluentd.org/) |
 | **Others** | [Elasticsearch](https://www.elasticsearch.org) 1.1<br />[Kibana](https://www.elasticsearch.org/overview/kibana/) 3.0.1 |
-{{< /table >}}
+
 
 ## Introduction
 

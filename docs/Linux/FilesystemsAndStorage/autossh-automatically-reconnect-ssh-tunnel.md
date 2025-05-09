@@ -11,14 +11,14 @@ toc: true
 
 ![AutoSSH](../../static/images/openssh_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 1.4 |
 | **Operating System** | Debian 7 |
 | **Website** | [AutoSSH Website](https://www.harding.motd.ca/autossh/) |
 | **Others** | |
-{{< /table >}}
+
 
 ## Introduction
 

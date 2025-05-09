@@ -11,13 +11,13 @@ toc: true
 
 ![Synergy](../../static/images/synergy_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 1.3 |
 | **Operating System** | Debian 6<br />Mac OS 10.5+ |
 | **Website** | [Synergy Website](https://synergy-foss.org) |
-{{< /table >}}
+
 
 ## Introduction
 

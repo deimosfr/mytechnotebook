@@ -15,13 +15,13 @@ toc: true
 
 ![PostgreSQL](../../../static/images/bases_de_donnees_icon.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 8.3+ |
 | **Operating System** | Debian 6 |
 | **Website** | [PostgreSQL Website](https://www.postgresql.org/) |
-{{< /table >}}
+
 
 ## Introduction
 

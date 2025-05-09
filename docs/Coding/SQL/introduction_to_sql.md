@@ -153,7 +153,7 @@ SELECT dish_name, price FROM dishes WHERE price > 5.00 AND price <= 10.00 OR dis
 
 - SQL Operators for the WHERE clause:
 
-{{< table "table-hover table-striped" >}}
+
 | Operator | Description |
 |---------|-------------|
 | = | Equal to (like == in PHP) |
@@ -165,7 +165,7 @@ SELECT dish_name, price FROM dishes WHERE price > 5.00 AND price <= 10.00 OR dis
 | AND | Logical AND (like && in PHP) |
 | OR | Logical OR (like \|\| in PHP) |
 | () | Grouping |
-{{< /table >}}
+
 
 ## ORDER BY and LIMIT
 

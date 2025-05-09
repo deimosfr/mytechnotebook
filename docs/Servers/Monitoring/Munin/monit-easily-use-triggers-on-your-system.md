@@ -11,13 +11,13 @@ toc: true
 
 ![Monit](../../../static/images/monit_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 5.4-2 |
 | **Operating System** | Debian 7 |
 | **Website** | [Monit Website](https://mmonit.com) |
-{{< /table >}}
+
 
 ## Introduction
 

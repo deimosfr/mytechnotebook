@@ -11,13 +11,13 @@ toc: true
 
 ![Limesurvey](../../static/images/limesurvey_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 2.00+ (Build 121115) |
 | **Operating System** | Debian 6 + backports |
 | **Website** | [Limesurvey Website](https://www.limesurvey.org/) |
-{{< /table >}}
+
 
 ## Introduction
 

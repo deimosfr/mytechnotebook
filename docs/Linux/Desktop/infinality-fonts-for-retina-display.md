@@ -9,12 +9,12 @@ tags: ["Infinality", "Fonts", "Retina", "Linux", "Debian"]
 toc: true
 ---
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Operating System** | Debian 8 |
 | **Website** | [Infinality Website](https://www.infinality.net/blog/) |
-{{< /table >}}
+
 
 ## Introduction
 

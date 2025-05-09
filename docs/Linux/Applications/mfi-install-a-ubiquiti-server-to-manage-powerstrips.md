@@ -9,13 +9,13 @@ tags: ["Ubiquiti", "mFi", "powerstrip", "Debian", "LXC"]
 toc: true
 ---
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 2.0.24 |
 | **Operating System** | Debian 7 |
 | **Website** | [Ubiquiti Website](https://www.ubnt.com) |
-{{< /table >}}
+
 
 ## Introduction
 

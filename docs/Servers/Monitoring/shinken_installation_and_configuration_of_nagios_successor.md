@@ -11,13 +11,13 @@ toc: true
 
 ![Shinken](../../static/images/shinken_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 1.2.2 |
 | **Operating System** | Debian 7 |
 | **Website** | [Shinken Website](https://www.shinken-monitoring.org) |
-{{< /table >}}
+
 
 ## Introduction
 

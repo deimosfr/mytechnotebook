@@ -69,7 +69,7 @@ maintenance   10:24:15 svc:/network/rpc/spray:default
 
 Here's the list of possible states:
 
-{{< table "table-hover table-striped" >}}
+
 | State | Description |
 |-------|-------------|
 | online | The service instance is enabled and has successfully started. |
@@ -79,7 +79,7 @@ Here's the list of possible states:
 | uninitialized | This state is the initial state for all services before their configuration has been read. |
 | maintenance | The service instance has encountered an error that must be resolved by the administrator. |
 | degraded | The service instance is enabled, but is running at a limited capacity. |
-{{< /table >}}
+
 
 ## Runlevels and Milestones Management
 
@@ -139,7 +139,7 @@ If there's an error at this level, your machine won't boot. To repair this, boot
 
 Here's a list of milestones and runlevels:
 
-{{< table "table-hover table-striped" >}}
+
 | Run Level | Milestone | Description |
 |-----------|-----------|-------------|
 | 0 | | System is running the PROM monitor. |
@@ -150,7 +150,7 @@ Here's a list of milestones and runlevels:
 | 4 | | This level is currently not implemented. |
 | 5 | | A transitional run level in which the Solaris OS is shut down and the system is powered off. |
 | 6 | | A transitional run level in which the Solaris OS is shut down and the system reboots to the default run level. |
-{{< /table >}}
+
 
 To know which runlevel you're in, use this command:
 
@@ -258,14 +258,14 @@ id:rstate:action:process
 
 Here are the fields:
 
-{{< table "table-hover table-striped" >}}
+
 | Field | Description |
 |-------|-------------|
 | id | Two character identifier for the entry |
 | rstate | Run levels to which this entry applies |
 | action | Defines how the process listed should be run<br>For a description of the action keywords see man inittab |
 | process | Defines the command to execute |
-{{< /table >}}
+
 
 By default, here's what you find in the inittab file:
 

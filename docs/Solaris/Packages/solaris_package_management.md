@@ -98,7 +98,7 @@ VENDOR=Sun Microsystems, Inc.
 
 ## The Tools
 
-{{< table "table-hover table-striped" >}}
+
 | Tools | Descriptions |
 |-------|-------------|
 | pkgtrans | Transform packages from one format to another |
@@ -106,7 +106,7 @@ VENDOR=Sun Microsystems, Inc.
 | pkgrm | Remove a package from the system |
 | pkginfo | Display information about a package |
 | pkgchk | Verify the installation state of a package |
-{{< /table >}}
+
 
 ### pkgtrans
 
@@ -458,11 +458,11 @@ This provides a graphical interface for managing packages, similar to Solaris in
 
 To avoid risking damage to the main system, packages are installed in specific locations:
 
-{{< table "table-hover table-striped" >}}
+
 | Files or Folders | Description |
 |------------------|-------------|
 | `/var/sadm/install/contents` | List of all system packages |
 | `/opt/pkgname` | Path for most installed packages |
 | `/opt/pkgname/bin` or `/opt/bin` | Binaries for most installed packages |
 | `/var/opt/pkgname` or `/etc/opt/pkgname` | Logs for most installed packages |
-{{< /table >}}
+

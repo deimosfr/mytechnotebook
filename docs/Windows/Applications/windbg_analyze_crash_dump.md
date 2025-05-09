@@ -11,11 +11,11 @@ toc: true
 
 ![WinDbg](../../static/images/windbg_icon.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Operating System** | Windows 2008 R2 |
-{{< /table >}}
+
 
 ## Introduction
 

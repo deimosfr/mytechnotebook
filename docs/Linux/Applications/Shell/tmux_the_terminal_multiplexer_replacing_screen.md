@@ -30,17 +30,17 @@ tmux
 Like screen, tmux uses a key combination to access its internal functions. By default, it's "Ctrl+b" (which can be modified) that is used.
 To start, you can easily get help (don't forget to press "Ctrl+b" before pressing any key):
 
-{{< table "table-hover table-striped" >}}
+
 | Description | Keys |
 |------------|------|
 | Get help | ? |
-{{< /table >}}
+
 
 ### Window Management
 
 You can manage your windows as follows (don't forget to press "Ctrl+b" before pressing any key):
 
-{{< table "table-hover table-striped" >}}
+
 | Description | Keys |
 |------------|------|
 | Create a new window | c |
@@ -53,13 +53,13 @@ You can manage your windows as follows (don't forget to press "Ctrl+b" before pr
 | Rename the current window | , |
 | Force close a window | & |
 | Display time | t |
-{{< /table >}}
+
 
 ### Split
 
 You can split the screen in several ways:
 
-{{< table "table-hover table-striped" >}}
+
 | Description | Keys |
 |------------|------|
 | Horizontally split the screen | " |
@@ -72,13 +72,13 @@ You can split the screen in several ways:
 | Resize a pane | Alt+(← → ↑ ↓) |
 | Convert a pane from a split into a window | ! |
 | Convert a window for integration into a split<br>_ -h: horizontally<br>_ -s 0.0: window 0 and pane 0<br>\* -p 75: taking 75% of window | :joinp -h -s 0.0 -p 75 |
-{{< /table >}}
+
 
 ### History
 
 By default, Tmux keeps only 2000 lines of history. Here's how to navigate:
 
-{{< table "table-hover table-striped" >}}
+
 | Description | Keys |
 |------------|------|
 | Scroll up through history | ↑↑ (PageUP) |
@@ -86,20 +86,20 @@ By default, Tmux keeps only 2000 lines of history. Here's how to navigate:
 | Select lines from history (after PageUP) | [space] then (↑/↓) |
 | Copy selection | [enter] |
 | Paste selection | = |
-{{< /table >}}
+
 
 ### Sessions
 
 Session management is something very practical. It's always useful to be able to exit an SSH session and leave time-consuming tasks running, or to protect against network disconnections. That's why when you're in tmux, it's possible to detach from your tmux:
 
-{{< table "table-hover table-striped" >}}
+
 | Description | Keys |
 |------------|------|
 | Detach from tmux session | d |
 | List tmux sessions | s |
 | Switch to next tmux session | ) |
 | Switch to previous tmux session | ( |
-{{< /table >}}
+
 
 Then reattach later:
 

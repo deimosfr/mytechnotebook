@@ -107,7 +107,7 @@ No data available
 
 In this chapter, we'll see the different modes offered by the bonding module:
 
-{{< table "table-hover table-striped" >}}
+
 | Name | Mode | Description |
 |------|------|-------------|
 | **balance-rr**: load balancing | 0 | With load balancing, packets travel on one active network card, then on another, sequentially. The bandwidth is increased. If one of the network cards fails, the load balance skips this card and continues to rotate cyclically. |
@@ -117,7 +117,7 @@ In this chapter, we'll see the different modes offered by the bonding module:
 | **802.3ad**: 802.3ad standard | 4 | The 802.3ad standard allows link aggregation, dynamically expanding bandwidth. Groups are created dynamically based on common parameters. |
 | **balance-tlb**: TLB balance | 5 | "TLB" for Traffic Load Balancing. Outgoing traffic is distributed according to the current load (calculated relative to the speed) of each interface. Incoming traffic is received by the current interface. If the receiving interface becomes inactive, another interface takes the MAC address of the inactive interface. |
 | **balance-alb**: ALB balance | 6 | "ALB" for Adaptive load balancing. This is an extended mode of tlb balance, which includes receiving load balancing. Receive load balancing is performed at the ARP response level. The module intercepts ARP responses and changes the MAC address to that of one of the interfaces. |
-{{< /table >}}
+
 
 ## Implementation
 
@@ -297,7 +297,7 @@ BOOTPROTO=static
 
 Here is a series of the most commonly used options for the bonding module that allow fine-tuning the operation of your bonding:
 
-{{< table "table-hover table-striped" >}}
+
 | Parameter | Description |
 |-----------|-------------|
 | Primary | Only for active-backup. Prioritizes a slave interface. It will become active again as soon as it can, even if another interface is active. |
@@ -307,7 +307,7 @@ Here is a series of the most commonly used options for the bonding module that a
 | use_carrier | (1 by default) Specifies the use of interface monitoring by miitool or by the network card itself (requires integrated instructions). |
 | arp_interval (in ms) | ARP monitoring system, avoiding the use of miitool and ethtool. If no frame arrives during the arp_interval, up to 16 ARP requests are sent through this interface to 16 IP addresses. If no response is obtained, the interface is deactivated. |
 | arp_ip_target | List of IP addresses, separated by a comma, used by ARP monitoring. If none is specified, ARP monitoring is inactive. |
-{{< /table >}}
+
 
 If you want the complete list of options, you can get it this way:
 
@@ -377,7 +377,7 @@ ifenslave bond1 eth2
 
 Here are the different modes offered by the bonding module with load balancing support:
 
-{{< table "table-hover table-striped" >}}
+
 | Mode | Load-Balancing |
 |------|---------------|
 | 0 | incoming |
@@ -387,7 +387,7 @@ Here are the different modes offered by the bonding module with load balancing s
 | 4 | none |
 | 5 | incoming |
 | 6 | incoming and outgoing |
-{{< /table >}}
+
 
 ## Conclusion
 

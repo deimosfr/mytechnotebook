@@ -11,13 +11,13 @@ toc: true
 
 ![Sphinx search](../../static/images/sphinx_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 2.0.4 |
 | **Operating System** | Debian 7 |
 | **Website** | [Sphinx Search Website](https://sphinxsearch.com/) |
-{{< /table >}}
+
 
 ## Introduction
 

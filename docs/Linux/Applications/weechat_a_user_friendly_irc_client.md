@@ -16,13 +16,13 @@ toc: true
 
 ![Weechat](../../static/images/weechat_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 0.3.8 |
 | **Operating System** | Debian 7 |
 | **Website** | [Weechat Website](https://www.weechat.org/) |
-{{< /table >}}
+
 
 ## Introduction
 

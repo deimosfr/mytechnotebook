@@ -9,13 +9,13 @@ tags: ["Linux", "Memory Management", "Kernel", "Swap", "OOM"]
 toc: true
 ---
 
-{{< table "table-hover table-striped" >}}
+
 | | |
 |------|------|
 | **Software version** | Kernel 2.6.32+ |
 | **Operating System** | Red Hat 6.3<br>Debian 7 |
 | **Website** | [Kernel Website](https://www.kernel.org) |
-{{< /table >}}
+
 
 ## Pages
 
@@ -187,17 +187,17 @@ Thanks to this, the kswapd daemon will do round robin, just like a RAID 0 would 
 
 How to know what size of swap to allocate to a system? This is a rather complex question that has already generated a lot of debate. Here is a formula that works pretty well:
 
-{{< table "table-hover table-striped" >}}
+
 | RAM | SWAP |
 |-----|------|
 | Between 1 and 2 GB | 1.5 x the size of RAM |
 | Between 2 and 8 GB | equal to the size of RAM |
 | More than 8 GB | 0.75 x the size of RAM |
-{{< /table >}}
+
 
 Searching for inactive pages can take CPU. On systems with a lot of RAM, searching for and unmapping inactive pages consume more disk and CPU than writing anonymous pages to disk. It is therefore possible to configure how the kernel will swap. This ranges from 0 to 100. The higher the swappiness value, the more the system is forced to swap, which reduces I/O as shown in the table below[^4]:
 
-{{< table "table-hover table-striped" >}}
+
 | vm.swappiness value | Total I/O | Average Swap |
 |---------------------|-----------|--------------|
 | 0 | 273.57 MB/s | 0 MB |
@@ -206,7 +206,7 @@ Searching for inactive pages can take CPU. On systems with a lot of RAM, searchi
 | 60 | 229.01 MB/s | 23068 MB |
 | 80 | 195.63 MB/s | 25587 MB |
 | 100 | 184.30 MB/s | 26006 MB |
-{{< /table >}}
+
 
 Here's how to modify swappiness:
 

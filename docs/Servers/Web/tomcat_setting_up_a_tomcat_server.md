@@ -23,13 +23,13 @@ toc: true
 
 ![Tomcat](../../static/images/tomcat_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 5.5/6/7 |
 | **Operating System** | Debian 6 |
 | **Website** | [Tomcat Website](https://tomcat.apache.org/) |
-{{< /table >}}
+
 
 ## Introduction
 

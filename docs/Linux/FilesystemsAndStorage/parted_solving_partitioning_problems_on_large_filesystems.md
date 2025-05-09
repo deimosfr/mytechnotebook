@@ -11,13 +11,13 @@ toc: true
 
 ![Parted logo](../../static/images/parted_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |---|---|
 |**Software version**|2.1|
 |**Operating System**|Debian 6<br>Red Hat 6.3|
 |**Last Update**|13/02/2013|
-{{< /table >}}
+
 
 ## Introduction
 
@@ -180,7 +180,7 @@ mkfs.ext3 /dev/sdb1
 
 ## Maximum Filesystem Sizes
 
-{{< table "table-hover table-striped" >}}
+
 |Filesystem|Maximum partition size|Maximum file size|
 |----------|----------------------|-----------------|
 |ext2|8 TB|2 GB|
@@ -188,4 +188,4 @@ mkfs.ext3 /dev/sdb1
 |ext4|1024 PB||
 |Resiser4||8 TB|
 |ZFS|16 EB|16 EB|
-{{< /table >}}
+

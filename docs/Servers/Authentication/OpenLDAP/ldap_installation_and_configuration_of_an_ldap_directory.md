@@ -20,13 +20,13 @@ toc: true
 
 ![OpenLDAP](../../../static/images/openldap-logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 2.4.23+ |
 | **Operating System** | Debian 6 |
 | **Website** | [OpenLDAP Website](https://www.openldap.org/) |
-{{< /table >}}
+
 
 ## Introduction
 

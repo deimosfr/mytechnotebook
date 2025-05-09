@@ -26,8 +26,8 @@ devfs          1.0K    1.0K      0B   100%    /dev
 
 ## Commands
 
-{{< table "table-hover table-striped" >}}
+
 | Linux | BSD |
 |-------|-----|
 | mount --bind /folder1 /folder2 | mount -t nullfs /folder1 /folder2 |
-{{< /table >}}
+

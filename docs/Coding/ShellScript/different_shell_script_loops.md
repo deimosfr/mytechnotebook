@@ -171,7 +171,7 @@ test string_1 operator string_2
 
 Returns true if strings string_1 and string_2 are in the relational order defined by the operator which can be one among those in the table below.
 
-{{< table "table-hover table-striped" >}}
+
 | Operator | Meaning |
 |----------|---------|
 | -eq | = |
@@ -180,7 +180,7 @@ Returns true if strings string_1 and string_2 are in the relational order define
 | -le | <= |
 | -gt | > |
 | -ge | >= |
-{{< /table >}}
+
 
 ### 6.3 File Tests
 
@@ -190,7 +190,7 @@ test condition file
 
 Returns true if the file meets the condition which can be one among those described in the table below.
 
-{{< table "table-hover table-striped" >}}
+
 | Operator | Returns true if |
 |----------|----------------|
 | -p | it's a named pipe |
@@ -202,16 +202,16 @@ Returns true if the file meets the condition which can be one among those descri
 | -w | write access |
 | -x | execution access |
 | -s | non-empty file |
-{{< /table >}}
+
 
 ### 6.4 Other Operators
 
 It is possible to combine tests by using parentheses and the boolean operators of the following table:
 
-{{< table "table-hover table-striped" >}}
+
 | Operator | Meaning |
 |----------|---------|
 | ! | negation |
 | -a | conjunction (and) |
 | -o | disjunction (or) |
-{{< /table >}}
+

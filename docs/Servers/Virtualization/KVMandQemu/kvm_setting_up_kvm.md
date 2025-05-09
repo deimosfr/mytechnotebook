@@ -12,13 +12,13 @@ toc: true
 
 ![KVM](../../../static/images/kvm-logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 0.12.5 |
 | **Operating System** | Debian 6 |
 | **Website** | [KVM Website](https://www.linux-kvm.org/) |
-{{< /table >}}
+
 
 ## Introduction
 

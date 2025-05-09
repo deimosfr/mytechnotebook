@@ -11,13 +11,13 @@ toc: true
 
 ![PowerAdmin](../../../static/images/poweradmin_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 2.1.6 |
 | **Operating System** | Debian 6 |
 | **Website** | [PowerAdmin Website](https://www.poweradmin.org) |
-{{< /table >}}
+
 
 ## Introduction
 

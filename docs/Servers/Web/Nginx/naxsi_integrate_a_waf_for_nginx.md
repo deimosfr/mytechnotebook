@@ -11,14 +11,14 @@ toc: true
 
 ![NAXSI](../../../static/images/naxsi_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 0.50 |
 | **Operating System** | Debian 7 |
 | **Website** | [NAXSI Website](https://github.com/nbs-system/naxsi) |
 | **Others** | Dotdeb |
-{{< /table >}}
+
 
 ## Introduction
 

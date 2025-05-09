@@ -11,13 +11,13 @@ toc: true
 
 ![XtraBackup](../../../static/images/percona-xtrabackup-logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 2.1.2-611.wheezy |
 | **Operating System** | Debian 7 |
 | **Website** | [XtraBackup Website](https://www.percona.com/doc/percona-xtrabackup/) |
-{{< /table >}}
+
 
 ## Introduction
 

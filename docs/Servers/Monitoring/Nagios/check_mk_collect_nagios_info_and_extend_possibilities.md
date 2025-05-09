@@ -11,13 +11,13 @@ toc: true
 
 ![Check MK](../../../static/images/check_mk_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 1.1.12p7 |
 | **Operating System** | Debian 6 |
 | **Website** | [Check MK Website](https://mathias-kettner.de) |
-{{< /table >}}
+
 
 ## Introduction
 

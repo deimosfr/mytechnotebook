@@ -11,13 +11,13 @@ toc: true
 
 ![ZNC](../../static/images/znc.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 0.206-2 |
 | **Operating System** | Debian 7 |
 | **Website** | [ZNC Website](https://wiki.znc.in/ZNC) |
-{{< /table >}}
+
 
 ## Introduction
 

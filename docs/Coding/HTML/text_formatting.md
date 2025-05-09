@@ -137,7 +137,7 @@ This takes natural integers between 1 and 7 as values.
 
 ### Summary of Basic Tags
 
-{{< table "table-hover table-striped" >}}
+
 | **Tag** | **Description** | **Example** |
 |---------|----------------|------------|
 | `<i>` | to italicize | _test_ |
@@ -150,4 +150,4 @@ This takes natural integers between 1 and 7 as values.
 | `<tt>` | for fixed-width font | test |
 | `<s>` | to strikethrough | test |
 | `<strike>` | same as above | test |
-{{< /table >}}
+

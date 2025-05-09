@@ -11,14 +11,14 @@ toc: true
 
 ![PageSpeed](../../../static/images/pagespeed.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 1.7.30.3 |
 | **Operating System** | Debian 7 |
 | **Website** | [PageSpeed Website](https://developers.google.com/speed/pagespeed/module) |
 | **Others** | Nginx 1.4.4-1 |
-{{< /table >}}
+
 
 ## Introduction
 

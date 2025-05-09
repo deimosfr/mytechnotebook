@@ -12,13 +12,13 @@ toc: true
 
 ![HAProxy](../../../static/images/haproxy-logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 1.4.24 |
 | **Operating System** | Debian 7 |
 | **Website** | [HAProxy Website](https://haproxy.1wt.eu/) |
-{{< /table >}}
+
 
 ## Introduction
 

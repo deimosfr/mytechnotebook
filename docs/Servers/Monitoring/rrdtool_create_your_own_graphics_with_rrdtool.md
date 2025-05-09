@@ -57,14 +57,14 @@ With the create argument, RRDtool will create the database that will contain all
 - DS: specifies the different data sources. Here I have 4 temperature probes followed by the name (DS-Name) I want to assign them.
   - GAUGE: This is a DST (Data Source Type). There are several of them:
 
-{{< table "table-hover table-striped" >}}
+
 | DST Type | Description |
 |----------|-------------|
 | GAUGE | This is the most common, and generally the best choice |
 | COUNTER | This is a counter that will increment continuously |
 | DERIVE | Will record the drift of the previous and next values |
 | ABSOLUTE | Records values and resets them after each reading |
-{{< /table >}}
+
 
 - 600:55:95: These last three fields mean:
   - 600: The minimum heartbeat in seconds (after this delay, the value will become unknown if the database has not received anything during this period)
@@ -78,14 +78,14 @@ For these two values above, if you don't know what to put, use 'U' for unknown (
 - RRA: RRA stands for Round Robin Archives. These are like views in which data will be stored. In each RRD database, RRAs are stored separately with a defined number of records. With each new record in the database, a PDP (Primary Data Point) is added which will be combined with it and placed in our RRA in a CF (Consolidation Function). It will determine the current value to write.
   - MIN: This is the type of CF we use. There are others such as:
 
-{{< table "table-hover table-striped" >}}
+
 | CF Type |
 |---------|
 | AVERAGE |
 | MIN |
 | MAX |
 | LAST |
-{{< /table >}}
+
 
 - 0.5: This is an XFF (XFiles Factor) which is a percentage of PDPs that can be unknown without receiving unknown values.
 - 12: This is the number of PDPs that will make up the recorded value.

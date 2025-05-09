@@ -11,12 +11,12 @@ toc: true
 
 ![FreeBSD](../../static/images/poweredbyfreebsd.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Operating System** | FreeBSD 9 |
 | **Website** | [FreeBSD Website](https://www.freebsd.org) |
-{{< /table >}}
+
 
 ## Introduction
 

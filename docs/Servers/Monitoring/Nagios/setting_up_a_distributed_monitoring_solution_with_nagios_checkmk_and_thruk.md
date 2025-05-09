@@ -11,12 +11,12 @@ toc: true
 
 ![Nagios](../../../static/images/nagios_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | Nagios 3<br>Check Mk 1.1.12p7<br>Thruk 1.30 |
 | **Operating System** | Debian 6 |
-{{< /table >}}
+
 
 ## Introduction
 

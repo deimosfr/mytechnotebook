@@ -11,14 +11,14 @@ toc: true
 
 ![Firefox](../../static/images/firefox_icon.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 17+ |
 | **Operating System** | Windows 2003 RC2<br />Windows 7 |
 | **Website** | [Firefox Website](https://www.mozilla.org) |
 | **Others** |  |
-{{< /table >}}
+
 
 ## Introduction
 

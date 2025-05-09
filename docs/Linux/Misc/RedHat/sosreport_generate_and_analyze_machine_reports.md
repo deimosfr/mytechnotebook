@@ -20,14 +20,14 @@ toc: true
 
 ![SOS Report](../../../static/images/red_hat_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 2.2 |
 | **Operating System** | Red Hat 6.4 |
 | **Website** | [Sosreport Website](https://github.com/sosreport/sosreport) |
 | **Others** | CentOS 6.4 |
-{{< /table >}}
+
 
 ## Introduction
 

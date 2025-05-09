@@ -11,13 +11,13 @@ toc: true
 
 ![MariaDB](../../../static/images/mariadb-logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |---|---|
 | **Software version** | 10 |
 | **Operating System** | Debian 7 |
 | **Website** | [MariaDB Website](https://mariadb.org/) |
-{{< /table >}}
+
 
 ## Introduction
 

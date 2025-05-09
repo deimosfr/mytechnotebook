@@ -11,14 +11,14 @@ toc: true
 
 ![BTRFS](../../static/images/btrfs_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 0.19 |
 | **Operating System** | Debian 7 |
 | **Website** | [BTRFS Website](https://btrfs.wiki.kernel.org) |
 | **Others** | Kernel used:<br>3.2.0-2-amd64 |
-{{< /table >}}
+
 
 ## Introduction
 

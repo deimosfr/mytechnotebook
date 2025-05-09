@@ -25,7 +25,7 @@ at -l
 
 The table shows the options you can use to instruct the cron process on how to execute an at job.
 
-{{< table "table-hover table-striped" >}}
+
 | Option | Description |
 |--------|-------------|
 | -m | Sends mail to the user after the job has finished |
@@ -34,7 +34,7 @@ The table shows the options you can use to instruct the cron process on how to e
 | time | Specifies a time for the command to execute |
 | -l | Reports all jobs scheduled for the invoking user |
 | date | Specifies an optional date for the command to execute, which is either a month name followed by a day number or a day of the week |
-{{< /table >}}
+
 
 For example, to create an at job to run at 9:00 p.m. to locate and verify the file type of core files from the `/export/home` directory, perform the command:
 

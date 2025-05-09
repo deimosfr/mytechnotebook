@@ -10,13 +10,13 @@ tags:
 toc: true
 ---
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 5.4.1 |
 | **Operating System** | RHEL 6.2 |
 | **Website** | [Red Hat Website](https://www.redhat.com/products/enterprise-linux/rhn-satellite/) |
-{{< /table >}}
+
 
 ## Introduction
 

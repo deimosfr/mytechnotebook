@@ -11,12 +11,12 @@ toc: true
 
 ![Python](../../static/images/python-logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Software version** | 2.7 / 3.2 |
 | **Website** | [Python Website](https://www.python.org/) |
-{{< /table >}}
+
 
 ## Introduction
 

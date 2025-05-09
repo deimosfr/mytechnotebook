@@ -243,7 +243,7 @@ if $fromhost-ip startswith '192.0.2.' then /var/log/network2.log
 
 The possibles "compare-operation" are:
 
-{{< table "table-hover table-striped" >}}
+
 | Compare-operation | Effect |
 |------------------|--------|
 | contains | Checks if the string provided in value is contained in the property. There must be an exact match, wildcards are not supported. |
@@ -251,7 +251,7 @@ The possibles "compare-operation" are:
 | startswith | Checks if the value is found exactly at the beginning of the property value. For example, if you search for "val" with:msg, startswith, "val" it will be a match if msg contains "values are in this message" but it won't match if the msg contains "There are values in this message" (in the later case, contains would match). Please note that "startswith" is by far faster than regular expressions. So even once they are implemented, it can make very much sense (performance-wise) to use "startswith". |
 | regex | Compares the property against the provided POSIX BRE regular expression. |
 | ereregex | Compares the property against the provided POSIX ERE regular expression. |
-{{< /table >}}
+
 
 ### Client Configuration
 

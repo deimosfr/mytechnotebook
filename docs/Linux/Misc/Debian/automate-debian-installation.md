@@ -9,12 +9,12 @@ tags: ["Debian", "preseed", "Installation", "Automation", "DHCP"]
 toc: true
 ---
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Operating System** | 7.0 |
 | **Website** | [Debian Website](https://www.debian.org) |
-{{< /table >}}
+
 
 ## Introduction
 

@@ -11,13 +11,13 @@ toc: true
 
 ![Firefox Sync Server](../../static/images/firefox_sync_logo.avif)
 
-{{< table "table-hover table-striped" >}}
+
 |||
 |-|-|
 | **Operating System** | Debian 7 |
 | **Website** | [Firefox Sync Server Website](https://docs.services.mozilla.com/howtos/run-sync.html) |
 | **Others** | MariaDB 5.5 |
-{{< /table >}}
+
 
 ## Introduction
 
