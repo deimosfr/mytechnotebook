@@ -190,7 +190,7 @@ server {
 
 Regarding the init script, add it and adapt the highlighted lines (`/etc/init.d/seafile-server`):
 
-```bash {linenos=table,hl_lines=[14,17,23,25]}
+``` bash hl_lines="14 17 23 25"
 #!/bin/sh
 
 ### BEGIN INIT INFO

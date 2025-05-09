@@ -155,7 +155,7 @@ cp -Rf /mnt/rhdvd/* ~/iso
 
 Next, we'll edit the isolinux.cfg file to insert the kickstart parameters at the end:
 
-```bash {linenos=table,hl_lines=[22,26],anchorlinenos=true}
+``` bash hl_lines="22 26"
 default vesamenu.c32
 #prompt 1
 timeout 600

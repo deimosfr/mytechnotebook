@@ -72,7 +72,7 @@ Starting SickBeard
 
 You might want to have a simple URL for using this service, so let's create our configuration (`/etc/apache2/sites-enabled/000-default`):
 
-```apache {linenos=table,hl_lines=["50-57"]}
+``` apache hl_lines="50-57"
 <VirtualHost *:80>
 	ServerAdmin webmaster@localhost
 

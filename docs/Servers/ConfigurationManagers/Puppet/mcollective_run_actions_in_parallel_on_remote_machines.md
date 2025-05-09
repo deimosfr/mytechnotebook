@@ -72,7 +72,7 @@ aptitude install stompserver libstomp-ruby
 
 And its configuration is simple, modify the host with the IP address of the interface on which it should listen. Or all of them:
 
-```bash {linenos=table,hl_lines=[13]}
+``` bash hl_lines="13"
 ---
 :daemon: true
 :working_dir: /var/lib/stompserver
@@ -103,7 +103,7 @@ aptitude install activemq
 
 We'll configure ActiveMQ. I won't explain all these lines, I simply took them from the PuppetLab site:
 
-```xml {linenos=table,hl_lines=[33,34]}
+``` xml hl_lines="33 34"
 <beans
   xmlns="http://www.springframework.org/schema/beans"
   xmlns:amq="http://activemq.apache.org/schema/core"
@@ -261,7 +261,7 @@ You'll be presented with a first option. If there's Puppet on this machine, it w
 
 Let's configure the server part that will allow us to make queries to the server:
 
-```bash {linenos=table,hl_lines=["13-16"]}
+``` bash hl_lines="13-16"
 topicprefix = /topic/
 main_collective = mcollective
 collectives = mcollective
@@ -420,7 +420,7 @@ Now let's move on to the interesting part... using it :-)
 
 There is a command to see which hosts are available:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > mco ping
 mcollective.deimos.fr                    time=45.62 ms
 server1                                  time=52.32 ms
@@ -434,7 +434,7 @@ server1                                  time=52.32 ms
 
 To get help and see installed modules:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > mco help
 The Marionette Collective version 2.0.0
 
@@ -457,7 +457,7 @@ The Marionette Collective version 2.0.0
 
 It's possible to retrieve statistics on your nodes this way:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > mco controller stats
 Determining the amount of hosts matching filter for 2 seconds .... 2
 
@@ -471,7 +471,7 @@ Finished processing 2 / 2 hosts in 82.81 ms
 
 The purpose of this command is to show us everything we have available on a mcollective node:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > mco inventory server1
 Inventory for server1:
 
@@ -615,7 +615,7 @@ Restart Mcollective.
 
 For usage it's simple, just look at my request for the ssh service:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > mco service ssh status
 Do you really want to operate on services unfiltered? (y/n): y
 
@@ -661,7 +661,7 @@ Restart Mcollective.
 
 For usage it's simple, here's how to get stats on a file:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > mco rpc filemgr status file=/etc/puppet/puppet.conf
 Determining the amount of hosts matching filter for 2 seconds .... 1
 
@@ -762,7 +762,7 @@ Restart Mcollective.
 
 Here's an example of usage:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > mco package status postfix
 Do you really want to operate on packages unfiltered? (y/n): y
 
@@ -817,7 +817,7 @@ Restart Mcollective.
 
 Here's an example of usage:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > mco find -W operatingsystem=RedHat
 server1
 ```
@@ -856,7 +856,7 @@ Restart Mcollective.
 
 Here's an example of usage:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > mco pgrep postfix
 
  * [ ============================================================> ] 1 / 1
@@ -906,7 +906,7 @@ Restart Mcollective.
 
 Here's an example of usage:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > mco puppetd -W /server1/ -f --tags mcollective --noop runonce
 2012-08-08 10:38:37 +0200> Running with custom tags given: mcollective
 
@@ -960,7 +960,7 @@ Restart Mcollective.
 
 Here's an example of usage:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > mco shell '/etc/init.d/postfix restart'
 Do you really want to send this command unfiltered? (y/n): y
 Determining the amount of hosts matching filter for 2 seconds .... 1
@@ -986,7 +986,7 @@ Sometimes we may have problems when setting up ActiveMQ. To get more information
 
 If you encounter this type of error message in Puppet Dashboard when launching Puppet runs from Mcollective, you need to work on the puppet manifest, to comment this line:
 
-```ruby {linenos=table,hl_lines=[5,6]}
+``` ruby hl_lines="5 6"
 [...]
     service {
         'puppet-srv' :

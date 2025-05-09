@@ -233,7 +233,7 @@ Or in kilobyte:
 
 If you want to benchmark to see the best performance you can achieve with your disks:
 
-```bash {linenos=table,hl_lines=["20-21"]}
+``` bash hl_lines="20-21"
 > DEV="sda" ; for V in 4 8 16 32 64 128 256 512 1024 2048 4096 8192; do echo $V; echo $V > /sys/block/$DEV/queue/read_ahead_kb && hdparm -t /dev/$DEV | grep "Timing"; done
 4
  Timing buffered disk reads: 120 MB in  3.03 seconds =  39.58 MB/sec
@@ -428,7 +428,7 @@ The TRIM function is disabled by default. You'll also need a kernel at least equ
 
 In your fstab, you'll then need to add the 'discard' option to enable TRIM:
 
-```bash {linenos=table,hl_lines=[8,13]}
+``` bash hl_lines="8 13"
 # /etc/fstab: static file system information.
 #
 # Use 'blkid' to print the universally unique identifier for a
@@ -449,7 +449,7 @@ UUID=3104-A1D4  /boot/efi       vfat    defaults        0       1
 
 It's also possible to enable TRIM on LVM (`/etc/lvm/lvm.conf`):
 
-```bash {linenos=table,hl_lines=[12]}
+``` bash hl_lines="12"
 [...]
     # Issue discards to a logical volumes's underlying physical volume(s) when
     # the logical volume is no longer using the physical volumes' space (e.g.
@@ -483,7 +483,7 @@ It's also possible to use the same functionality for folders:
 
 Simply use [deadline](#deadline). CFQ is not optimal (although it has been revised for SSDs), we don't want to work unnecessarily. Add the elevator option:
 
-```bash {linenos=table,hl_lines=[9]}
+``` bash hl_lines="9"
 # If you change this file, run 'update-grub' afterwards to update
 # /boot/grub/grub.cfg.
 # For full documentation of the options in this file, see:

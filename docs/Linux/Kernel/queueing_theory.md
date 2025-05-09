@@ -153,7 +153,7 @@ It is important to use these kinds of tools during non-zero load times. Making a
 We will now calculate the queue length and compare it to the collected data.
 Here is an example of capture:
 
-```bash {linenos=table,hl_lines=[3,10,17,24,31,38]}
+``` bash hl_lines="3 10 17 24 31 38"
 > dd if=/dev/zero of=/tmp/bigfile bs=1M count=1024 oflag=direct & sar -d -p 1 5 > sar_result ; pkill dd && rm -f /tmp/bigfile ; cat sar_result
 23:45:05          DEV       tps  rd_sec/s  wr_sec/s  avgrq-sz  avgqu-sz     await     svctm     %util
 23:45:06          sda    227,00   9872,00  16288,00    115,24      6,85     28,58      4,39     99,60
@@ -205,7 +205,7 @@ Based on the columns that sar gives us, here is the formula:
 
 So if we take the information above, we can easily calculate like this (on sda here):
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > grep sda sar_result | awk '{ printf("%s%s%s%s", "("$4" + ", $5") * ", $8" / 1000) = ", (($4+$5)*$8)/1000"\n") }'
 (9872,00 + 16288,00) * 28,58 / 1000) = 732.48
 (2811,88 + 12110,89) * 89,90 / 1000) = 1327.97

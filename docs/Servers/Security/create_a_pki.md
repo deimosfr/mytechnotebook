@@ -48,7 +48,7 @@ touch db/ca.db.index
 
 Create a configuration file:
 
-```bash {linenos=table,hl_lines=[2,4],anchorlinenos=true}
+``` bash hl_lines="2 4"
 [ ca ]
 default_ca      = domain.fqdn
 
@@ -95,7 +95,7 @@ Enter a pass phrase. This will be used to generate client certificates.
 
 Self sign it and enter the required informations like in this example:
 
-```bash {linenos=table,hl_lines=["10-16"],anchorlinenos=true}
+``` bash hl_lines="10-16"
 > openssl req -utf8 -new -x509 -days 3650 -key certs/ca.key -out certs/ca.crt
 Enter pass phrase for certs/ca.key:
 You are about to be asked to enter information that will be incorporated
@@ -136,7 +136,7 @@ e is 65537 (0x10001)
 
 Then generate the csr. As described above, we want to create a wildcard certificate, so do no forget to add the '\*' character:
 
-```bash {linenos=table,hl_lines=["9-15"],anchorlinenos=true}
+``` bash hl_lines="9-15"
 > openssl req -days 3650 -new -key certs/wildcard.mydomain.fqdn.key -out certs/wildcard.mydomain.fqdn.csr
 You are about to be asked to enter information that will be incorporated
 into your certificate request.

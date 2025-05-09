@@ -132,7 +132,7 @@ FLUSH privileges;
 
 Edit the configuration to set database informations (`etc/sync.conf`):
 
-```ini {linenos=table,hl_lines=[9,22,27,31],anchorlinenos=true}
+``` ini hl_lines="9 22 27 31"
 [captcha]
 use = true
 public_key = xxxxxxxxxxxxxxxxxxxxxxxx

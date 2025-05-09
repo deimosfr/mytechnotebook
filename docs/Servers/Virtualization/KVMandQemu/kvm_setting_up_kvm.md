@@ -74,7 +74,7 @@ To get as performances as possible, we'll need to set some specific options.
 
 First, we'll set the disks algorithm to deadline in grub:
 
-```bash {linenos=table,hl_lines=[7]}
+``` bash hl_lines="7"
 # If you change this file, run 'update-grub' afterwards to update
 # /boot/grub/grub.cfg.
 
@@ -125,7 +125,7 @@ Then, we will enable KSM. Kernel Samepage Merging (KSM) is a feature of the Linu
 
 To enable it, add this line:
 
-```bash {linenos=table,hl_lines=[15]}
+``` bash hl_lines="15"
 #!/bin/sh -e
 #
 # rc.local
@@ -317,7 +317,7 @@ And enable VLAN tagging on bridged interfaces:
 ebtables -t broute -A BROUTING -i eth0 -p 802_1Q -j DROP
 ```
 
-```bash {linenos=table,hl_lines=["8-15","34-41"]}
+``` bash hl_lines="8-15 34-41"
 # This file describes the network interfaces available on your system
 # and how to activate them. For more information, see interfaces(5).
 
@@ -397,7 +397,7 @@ default              active     yes
 
 Edit the configuration to add your range of IP:
 
-```xml {linenos=table,hl_lines=[5,6]}
+``` xml hl_lines="5 6"
 <network>
   <name>default</name>
   <bridge name="virbr0" />
@@ -832,7 +832,7 @@ virsh shutdown $vmname
 
 Then edit the xml of your VM and change driver name from 'phy' to 'qemu':
 
-```xml {linenos=table,hl_lines=[3]}
+``` xml hl_lines="3"
 [...]
     <disk type='block' device='disk'>
       <driver name='phy' type='raw'/>
@@ -1078,7 +1078,7 @@ Then restart or reload libvirt-bin.
 
 If your desktop hosts several VMs, it could be interesting to auto suspend them when you restart your computer for example. There is a service for that to make it easy. Simply edit libvirt-guests file configuration:
 
-```bash {linenos=table,hl_lines=[3,10,14,24,28,35]}
+``` bash hl_lines="3 10 14 24 28 35"
 # URIs to check for running guests
 # example: URIS='default xen:/// vbox+tcp://host/system lxc:///'
 URIS=qemu:///system

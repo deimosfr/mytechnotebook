@@ -57,7 +57,7 @@ unused devices: <none>
 
 Or even:
 
-```bash {linenos=table,hl_lines=[16]}
+``` bash hl_lines="16"
 > mdadm --detail /dev/md0
 /dev/md0:
         Version : 1.0
@@ -91,7 +91,7 @@ Working Devices : 4
 
 - It's possible to define the chunk size when creating the RAID with the -c or --chunk argument. Let's also see how to calculate it optimally. First, let's use iostat to get the avgrq-sz value:
 
-```bash {linenos=table,hl_lines=[4,5,6,7,8]}
+``` bash hl_lines="4 5 6 7 8"
 > iostat -x sda 1 5
 
 avg-cpu:  %user   %nice %system %iowait  %steal   %idle
@@ -145,7 +145,7 @@ mkfs.ext4 -b 4096 -E stride=16 /dev/mapper/vg1-lv0
 
 Some disk controllers make a physical abstraction of block groups, making it impossible for the kernel to know them. Here's an example to see the stride size:
 
-```bash {linenos=table,hl_lines=[3]}
+``` bash hl_lines="3"
 > dumpe2fs /dev/mapper/vg1-lv0 | grep -i stride
 dumpe2fs 1.42 (29-Nov-2011)
 RAID stride:              16
@@ -201,7 +201,7 @@ New mdraid arrays support write intent bitmaps. This helps the system identify p
 
 To see if a RAID is persistent:
 
-```bash {linenos=table,hl_lines=[9]}
+``` bash hl_lines="9"
 > mdadm --detail /dev/md0
 /dev/md0:
         Version : 1.0

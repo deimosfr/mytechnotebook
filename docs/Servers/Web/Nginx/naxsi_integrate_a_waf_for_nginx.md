@@ -87,7 +87,7 @@ CheckRule "$XSS >= 8" BLOCK;
 
 If you don't want to touch to your current setup (Apache for example), you can add Nginx as a reverse proxy and add Naxsi with it:
 
-```bash {linenos=table,hl_lines=["9-13"]}
+``` bash hl_lines="9-13"
 server {
         listen 80 default_server;
         listen [::]:80 default_server ipv6only=on;
@@ -118,7 +118,7 @@ Now restart Nginx!
 
 If you want to install NAXSI directly on your current Nginx installation, here are the
 
-```bash {linenos=table,hl_lines=[13,"19-23"]}
+``` bash hl_lines="13 19-23"
 server {
         listen 80 default_server;
         listen [::]:80 default_server ipv6only=on;

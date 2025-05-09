@@ -61,7 +61,7 @@ modinfo modulename | grep vermagic
 
 If you want to see all modules with their associated kernel version at once:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > for i in `lsmod | awk '{ print $1 }' | egrep -v '^Module$'` ; do modinfo $i | grep vermagic | xargs echo "$i :" ; done
 fuse : vermagic: 2.6.32-220.el6.x86_64 SMP mod_unload modversions
 autofs4 : vermagic: 2.6.32-220.el6.x86_64 SMP mod_unload modversions

@@ -17,7 +17,7 @@ On certain machines (especially HP), it's very practical for licensing issues to
 
 To get the list of active cores:
 
-```bash {linenos=table,hl_lines=[2,4]}
+``` bash hl_lines="2 4"
 > psrinfo -pv
 The physical processor has 1 virtual processor (0)  x86 (chipid 0x0 GenuineIntel family 6 model 44 step 2 clock 2800 MHz)
         Intel(r) Xeon(r) CPU           X5660  @ 2.80GHz

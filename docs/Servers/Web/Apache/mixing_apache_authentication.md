@@ -35,7 +35,7 @@ If mod_auth_pam doesn't find a valid user, it falls back to mod_auth authenticat
 
 Here is another example with webdav:
 
-```apache {linenos=table}
+``` apache
     Alias /webdav /var/www/ngs
     <Location /webdav>
         DAV On
@@ -112,7 +112,7 @@ This documentation is on how to protect a directory by htaccess (login + passwor
 
 Insert these lines and adapt to your configuration (`/etc/apache2/sites-enabled/000-default`):
 
-```apache {linenos=table}
+``` apache
         <Directory /var/www/myhtaccess>
                 AllowOverride AuthConfig
                 Order allow,deny
@@ -122,7 +122,7 @@ Insert these lines and adapt to your configuration (`/etc/apache2/sites-enabled/
 
 Then create a file `.htaccess` in **/var/www/myhtaccess** and put this:
 
-```apache {linenos=table}
+``` apache
 AuthType Basic
 AuthName "Acces Prive"
 AuthGroupFile /dev/null

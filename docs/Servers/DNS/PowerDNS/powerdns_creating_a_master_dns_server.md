@@ -63,7 +63,7 @@ mysql -uroot -p pdns < /usr/share/doc/pdns-backend-mysql/mysql.sql
 
 Now let's configure PowerDNS. We'll specify that we're going to use a MySQL backend:
 
-```bash {linenos=table,hl_lines=[5]}
+``` bash hl_lines="5"
 [...]
 #################################
 # launch        Which backends to launch and order to query them in
@@ -74,7 +74,7 @@ launch=gmysql
 
 Then we'll provide the previously configured information:
 
-```bash {linenos=table,hl_lines=[4,5,6,7,8]}
+``` bash hl_lines="4 5 6 7 8"
 # Here come the local changes the user made, like configuration of 
 # the several backends that exist.
 

@@ -234,7 +234,7 @@ sudo cp proxychains proxyresolv /usr/sbin/
 
 You can use your personal configuration file in '~/proxychains/proxychains.conf' or the one for the entire machine in '/etc/proxychains':
 
-```bash {linenos=table,hl_lines=[1,3,5,11]}
+``` bash hl_lines="1 3 5 11"
 strict_chain
 # Quiet mode (no output from library)
 quiet_mode

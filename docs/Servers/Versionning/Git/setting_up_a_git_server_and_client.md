@@ -91,7 +91,7 @@ branches  config  description  HEAD  hooks  info  objects  refs
 
 If you want to make git accessible via its protocol (`git://`), you need to configure the following file like this:
 
-```bash {linenos=table}
+``` bash
 #!/bin/sh
 exec 2>&1
 echo 'git-daemon starting.'
@@ -208,7 +208,7 @@ I spent quite a bit of time getting Git over http(s) and Gitweb to coexist, but 
 
 Here's the method I used:
 
-```bash {linenos=table}
+``` bash
 server {
     listen 80;
     listen 443 ssl;
@@ -568,7 +568,7 @@ GIT_COMMITTER_DATE="Fri Nov 17 12:00:00 CET 2014" git commit --amend --date "Fri
 
 When using multiple Git accounts on the same machine, it's easy to make a mistake when cloning a repository and not setting the right username and email address. When you realize it, it's too late and you need to rewrite part of the history to correct the information:
 
-```bash {linenos=table,hl_lines=[3,4,5,6]}
+``` bash hl_lines="3 4 5 6"
 > git filter-branch --env-filter '
 oldname="old username"
 oldemail="old email address"
@@ -969,7 +969,7 @@ There are hooks in Git allowing pre or post processing. Here's a use case for pe
 5. Create a deployment script and set the proper permissions
 6. Clone the repository on all necessary servers
 
-```bash {linenos=table,hl_lines=[3,4,5,6,9,12]}
+``` bash hl_lines="3 4 5 6 9 12"
 #!/bin/bash
 
 # Create your environment with DNS/IP servers separated by spaces

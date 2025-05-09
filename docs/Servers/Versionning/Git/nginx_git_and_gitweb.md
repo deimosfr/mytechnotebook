@@ -17,7 +17,7 @@ I spent a lot of time figuring out how to make Git over HTTP(S) and Gitweb coexi
 
 Here's the method I used:
 
-```nginx {linenos=table}
+``` nginx
 server {
     listen 80;
     listen 443 ssl;

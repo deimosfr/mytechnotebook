@@ -29,7 +29,7 @@ echo "-P" > /boot.config
 
 Next, you'll need to configure the stdin part (keyboard) by enabling this line by changing it to "on":
 
-```bash {linenos=false,hl_lines=[5]}
+``` bash hl_lines="5"
 # /etc/ttys
 [...]
 # Serial terminals

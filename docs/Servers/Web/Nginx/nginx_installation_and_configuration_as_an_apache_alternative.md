@@ -56,7 +56,7 @@ aptitude install php5-fpm
 
 For the configuration, we will create a basic configuration (if possible, delete the default configuration). We will change it later, but this gives you an idea of a minimal working configuration:
 
-```bash {linenos=table}
+``` bash
 server {
     listen       80;
     server_name  www.deimos.fr;
@@ -75,7 +75,7 @@ server {
 
 We will change the listening type from TCP to sockets:
 
-```ini {linenos=table}
+``` ini
 ; The address on which to accept FastCGI requests.
 ; Valid syntaxes are:
 ;   'ip.add.re.ss:port'    - to listen on a TCP socket to a specific address on
@@ -99,7 +99,7 @@ Then restart php-fpm and nginx!
 
 If you need to monitor PHP-FPM, you'll certainly need information about your PHP-FPM. For this, edit the following file and uncomment these lines:
 
-```bash {linenos=table}
+``` bash
 [...]
 pm.status_path = /fpm-status
 [...]
@@ -107,7 +107,7 @@ pm.status_path = /fpm-status
 
 Then edit your Nginx configuration and add:
 
-```bash {linenos=table}
+``` bash
 [...]
     # PHP-FPM Status
     location /fpm-status {
@@ -162,7 +162,7 @@ aptitude install php5-cgi
 
 Then we will create an init service for this fast cgi:
 
-```bash {linenos=table}
+``` bash
 #! /bin/sh
 ### BEGIN INIT INFO
 # Provides:          php-fcgi
@@ -307,7 +307,7 @@ server {
 
 Here is the global server configuration. I added comments on important lines:
 
-```bash {linenos=table,hl_lines=["2-4","8-9","25-26","31-37","53-61"]}
+``` bash hl_lines="2-4 8-9 25-26 31-37 53-61"
 user www-data;
 # Number of working process
 worker_processes 2;
@@ -400,7 +400,7 @@ http {
 
 This file will allow us to not log non-essential information and prevent access to potentially sensitive files:
 
-```bash {linenos=table}
+``` bash
 # Do not log robots.txt if not found
 location = /robots.txt  { access_log off; log_not_found off; }
 # Do not log favicon.ico if not found
@@ -413,7 +413,7 @@ location ~ ~$           { access_log off; log_not_found off; deny all; }
 
 Then in your configuration files, just add these 2 lines:
 
-```bash {linenos=table,hl_lines=[3,4]}
+``` bash hl_lines="3 4"
 server {
 [...]
     # Drop config
@@ -511,13 +511,13 @@ All that remains is to reload the server and it works :-)
 
 To specify the default port, you can use an include in your configuration files that will call a file containing the port. This way it will be very easy to modify the default port in one go:
 
-```bash {linenos=table}
+``` bash
 listen 80;
 ```
 
 And in the configuration files:
 
-```bash {linenos=table}
+``` bash
 server {
     include listen_port.conf;
 [...]
@@ -545,7 +545,7 @@ openssl req -new -x509 -nodes -out server.crt -keyout server.key
 
 I put it in an ssl folder with the nginx config, but since you can have multiple certificates, I encourage you to create a hierarchy:
 
-```bash {linenos=table,hl_lines=[2,"5-14"]}
+``` bash hl_lines="2 5-14"
  server {
         listen   443 ssl;
         server_name  localhost;
@@ -597,7 +597,7 @@ You can test the security of your SSL server: https://www.ssllabs.com/ssltest/in
 
 It is possible to configure your virtualhost in the normal way but to absolutely want a redirect to SSL. For this, it's very simple, just add:
 
-```bash {linenos=table}
+``` bash
 server {
     listen      80;
     server_name www.deimos.fr;
@@ -609,7 +609,7 @@ server {
 
 FastCGI cache is useful to increase the speed of your website. We'll allocate a few MB for the cache and put it in a tmpfs to speed things up even more. In the main configuration, we'll create this cache:
 
-```bash {linenos=table}
+``` bash
 [...]
 http {
     [...]
@@ -625,7 +625,7 @@ Here I'm creating a cache called "mycache" with a size of 256MB.
 
 In your VirtualHost configurations, add these lines:
 
-```bash {linenos=table,hl_lines=[3,4,5]}
+``` bash hl_lines="3 4 5"
 [...]
         location ~ \.php$ {
                 fastcgi_cache mycache;
@@ -640,7 +640,7 @@ In your VirtualHost configurations, add these lines:
 
 Next we'll create a tmpfs cache folder ([read this doc for more info](https://wiki.deimos.fr/Tmpfs_:_un_filesystem_en_ram_ou_comment_%C3%A9crire_en_ram)):
 
-```bash {linenos=table}
+``` bash
 [...]
 tmpfs /usr/share/nginx/cache    tmpfs   defaults,size=256m   0   0
 [...]
@@ -658,7 +658,7 @@ mount /usr/share/nginx/cache
 
 Here's an elegant way to create a maintenance page:
 
-```bash {linenos=table}
+``` bash
 server {
 [...]
    location / {
@@ -673,7 +673,7 @@ server {
 
 All you need to do is insert a maintenance.html page at the root of your site and this page will be displayed while you make your changes. You can also use this method:
 
-```bash {linenos=table}
+``` bash
 server {
 [...]
     location / {
@@ -694,7 +694,7 @@ server {
 
 It can happen that a malicious person tries to bring your server to its knees by making many requests that typically saturate PHP processes and make your CPUs go to 100%. To avoid this, it is possible to limit the number of requests per IP by using the limit_req module[^1]. To enable this module, insert this line in your Nginx core (global) configuration:
 
-```bash {linenos=table}
+``` bash
 http {
 [...]
     # Flood/DoS protection
@@ -712,7 +712,7 @@ Here are the options used:
 
 Next, we need to inform on which virtualhost or location we want to apply this security measure:
 
-```bash {linenos=table,hl_lines=[2]}
+``` bash hl_lines="2"
     location ~ \.php$ {
         limit_req zone=limit burst=5 nodelay;
         include fastcgi_params;
@@ -733,7 +733,7 @@ All that remains is to restart nginx.
 
 By default, I use www.deimos.fr to redirect to other VirtualHosts:
 
-```bash {linenos=table}
+``` bash
 server {
     include listen_port.conf;
     listen 443 ssl;
@@ -765,7 +765,7 @@ server {
 
 By default, it's possible to get information about the server status, like this:
 
-```bash {linenos=table,hl_lines=["10-49"]}
+``` bash hl_lines="10-49"
 server {
     include listen_port.conf;
     listen 443 ssl;
@@ -849,7 +849,7 @@ Reading: 0 Writing: 1 Waiting: 10
 
 For the configuration of Wordpress under Nginx, here's an example:
 
-```bash {linenos=table}
+``` bash
 server {
     include listen_port.conf;
     listen 443 ssl;
@@ -918,7 +918,7 @@ server {
 
 For setting up Mediawiki with Nginx and short URLs, here's the configuration to adopt. I've also added SSL and forced redirects from the login page to SSL:
 
-```bash {linenos=table}
+``` bash
 server {
     include listen_port.conf;
     listen 443 ssl;
@@ -1022,7 +1022,7 @@ server {
 
 With Nginx, you need to allow certain extensions in php-fpm:
 
-```bash {linenos=table}
+``` bash
 [...]
 security.limit_extensions = .php .php3 .php4 .php5 .cgi
 [...]
@@ -1030,7 +1030,7 @@ security.limit_extensions = .php .php3 .php4 .php5 .cgi
 
 And here's a configuration example to adapt to your needs:
 
-```bash {linenos=table}
+``` bash
 server {
     listen 80;
     listen 443 ssl;
@@ -1081,7 +1081,7 @@ I spent quite a bit of time making Git over http(s) and Gitweb coexist, but I go
 
 Here's the method I used:
 
-```bash {linenos=table}
+``` bash
 server {
     listen 80;
     listen 443 ssl;
@@ -1138,7 +1138,7 @@ git clone http://www.deimos.fr/git/deimosfr.git deimosfr
 
 For Piwik, here's the configuration:
 
-```bash {linenos=table}
+``` bash
 server {
     include listen_port.conf;
     listen 443 ssl;
@@ -1183,7 +1183,7 @@ server {
 
 Here's the configuration for ownCloud 4.X with Nginx:
 
-```bash {linenos=table}
+``` bash
 server {
     include listen_port.conf;
     listen 443 default ssl;
@@ -1249,7 +1249,7 @@ server {
 
 And for version 5:
 
-```bash {linenos=table}
+``` bash
 server {
     include listen_port.conf;
     listen 443 default ssl;
@@ -1313,7 +1313,7 @@ server {
 
 For Firefox Server Sync, it's proxification. We forward requests to another service:
 
-```bash {linenos=table,hl_lines=["5-6","14-17"]}
+``` bash hl_lines="5-6 14-17"
 server {
     include listen_port.conf;
     listen 443 ssl;
@@ -1350,7 +1350,7 @@ server {
 
 ### Selfoss
 
-```bash {linenos=table}
+``` bash
 server {
     include listen_port.conf;
 
@@ -1392,7 +1392,7 @@ server {
 
 ### Seafile
 
-```bash {linenos=table}
+``` bash
 server {
     include listen_port.conf;
     server_name seafile.deimos.fr;
@@ -1465,7 +1465,7 @@ server {
 
 For Gogs, it's simple because all you need to set is a proxy pass:
 
-```bash {linenos=table}
+``` bash
 server {
     include listen_port.conf;
     server_name git.deimos.fr;
@@ -1530,13 +1530,13 @@ Replace 10M with the maximum value you want to allow.
 
 If you get this type of error message, it's due to PHP-FPM having issues with extension management. You can either add the extension in question:
 
-```php {linenos=table}
+``` php
 security.limit_extensions = .php .php3 .php4 .php5 .cgi
 ```
 
 or disable this security (not recommended):
 
-```php {linenos=table}
+``` php
 security.limit_extensions = false
 ```
 

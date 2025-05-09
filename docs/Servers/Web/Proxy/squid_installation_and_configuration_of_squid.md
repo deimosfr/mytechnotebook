@@ -58,7 +58,7 @@ Then initialize the cache:
 
 Then set Squid to start at boot:
 
-```bash {linenos=table}
+``` bash
 # Squid
 squid_enable="YES"
 ```
@@ -74,7 +74,7 @@ grep -v "^#" < /usr/local/etc/squid/squid.conf.default | sed '/^$/d' > /usr/loca
 
 ### Example 1
 
-```bash {linenos=table}
+``` bash
 #-------------------------------------------------------------------------------
 # Minimum configuration
 #-------------------------------------------------------------------------------
@@ -176,7 +176,7 @@ debug_options ALL,1         # Set log level 1 -> 9
 
 For configuration, I won't go into details, but here's an overview of a working configuration that is quite restrictive:
 
-```bash {linenos=table}
+``` bash
 http_port 3129 
 http_port 3128 
 icp_port 3131

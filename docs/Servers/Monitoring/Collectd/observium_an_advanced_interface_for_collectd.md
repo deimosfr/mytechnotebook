@@ -66,7 +66,7 @@ mysql> flush privileges;
 
 Let's change the Observium location in the configuration file, add an entry for fping, and modify the SQL fields to adapt them with the correct data (`/var/www/observium/config.php`):
 
-```php {linenos=table,hl_lines=[6,7,12,13]}
+``` php hl_lines="6 7 12 13"
 <?php
 
 ## Have a look in defaults.inc.php for examples of settings you can set here. DO NOT EDIT defaults.inc.php!
@@ -102,7 +102,7 @@ scripts/update-sql.php database-update.sql
 
 Then we'll create the Apache configuration for this new site (don't forget to make the DNS record) (`/etc/apache2/sites-available/observium`):
 
-```apache {linenos=table,hl_lines=[3]}
+``` apache hl_lines="3"
 <VirtualHost *:80>
     DocumentRoot /var/www/observium/html/
     ServerName  observium.mycompany.com
@@ -129,7 +129,7 @@ a2ensite observium
 
 For SNMP, we'll edit the configuration file to add a line containing information about the MIBs (`/etc/snmp/snmp.conf`):
 
-```bash {linenos=table,hl_lines=[5,6]}
+``` bash hl_lines="5 6"
 #
 # As the snmp packages come without MIB files due to license reasons, loading
 # of MIBs is disabled by default. If you added the MIBs you can reenable
@@ -219,7 +219,7 @@ Even though I contacted the Observium developers, you'll have issues if you want
 
 So, I ended up modifying the code, but very, very, very slightly. In fact, I simply took care of the host creation script so it creates symbolic links (I know it's not super clean) (`addhost.php`):
 
-```php {linenos=table,hl_lines=["24-26","56-64"]}
+``` php hl_lines="24-26 56-64"
 #!/usr/bin/env php
 <?php
 

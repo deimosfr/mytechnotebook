@@ -46,7 +46,7 @@ It's an SSO system with a unique identifier/password pair. SSO does not handle a
 
 Before diving into LemonLDAP, we need to understand how the HTTP protocol works. Let's try to retrieve a website:
 
-```bash {linenos=table,hl_lines=[1,5]}
+``` bash hl_lines="1 5"
 > telnet www.deimos.fr 80
 Trying 88.190.51.112...
 Connected to shenzi.deimos.fr.
@@ -70,7 +70,7 @@ Connection: close
 Connection closed by foreign host.
 ```
 
-```bash {linenos=table,hl_lines=[1,5,6]}
+``` bash hl_lines="1 5 6"
 > telnet www.deimos.fr 80
 Trying 88.190.51.112...
 Connected to shenzi.deimos.fr.
@@ -277,7 +277,7 @@ This page will allow you to see important information that will be exchanged wit
 
 In the file `/etc/lemonldap-ng/lemonldap-ng.ini` we can configure who has access to the manager!
 
-```ini {linenos=table,hl_lines=[12]}
+``` ini hl_lines="12"
 [...]
 # Manager protection: by default, the manager is protected by a demo account.
 # You can protect it :

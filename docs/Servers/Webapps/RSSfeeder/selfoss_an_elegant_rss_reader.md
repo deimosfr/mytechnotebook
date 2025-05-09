@@ -56,7 +56,7 @@ Replace login and password with your needs.
 
 We need to configure the web server:
 
-```bash {linenos=table}
+``` bash
 server {
     include listen_port.conf;
 

@@ -25,7 +25,7 @@ Currently on Debian, it's only available for the Squeeze version.
 
 The configuration is quite simple:
 
-```bash {linenos=table}
+``` bash
 # lshell.py configuration file
 #
 # $Id: lshell.conf,v 1.20 2009/06/09 19:53:46 ghantoos Exp $

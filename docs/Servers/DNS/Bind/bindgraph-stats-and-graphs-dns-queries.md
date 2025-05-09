@@ -25,7 +25,7 @@ aptitude install bindgraph
 
 Create a configuration file for bindgraph in the /etc/lighttpd/conf-available/ directory:
 
-```bash {linenos=table}
+``` bash
 # Alias for phpMyAdmin directory
 alias.url += (
     "/bindgraph" => "/usr/lib/cgi-bin/bindgraph.cgi",

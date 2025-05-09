@@ -187,7 +187,7 @@ And enable VLAN tagging on bridged interfaces:
 ebtables -t broute -A BROUTING -i eth0 -p 802_1Q -j DROP
 ```
 
-```bash {linenos=table,hl_lines=["8-15","34-41"]}
+``` bash hl_lines="8-15 34-41"
 # This file describes the network interfaces available on your system
 # and how to activate them. For more information, see interfaces(5).
 

@@ -325,7 +325,7 @@ experimental:
 
 From the Docker labels, you can add the following to your service configuration in the `docker-compose.yml` file. Here is an example for pgAdmin:
 
-```yaml {linenos=table,hl_lines=[13,14],anchorlinenos=true}
+``` yaml hl_lines="13 14"
 pgadmin:
   container_name: pgadmin
   image: dpage/pgadmin4:latest
@@ -356,7 +356,7 @@ pgadmin:
 
 Add in the `rules.yml` file, add the following middleware configuration (this configuration can be mutualized for all your services):
 
-```yaml {linenos=table,hl_lines=[7],anchorlinenos=true}
+``` yaml hl_lines="7"
 middlewares:
   pgadmin:
     plugin:

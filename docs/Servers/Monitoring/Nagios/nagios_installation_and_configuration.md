@@ -691,7 +691,7 @@ All you have to do now is reload Nagios.
 
 Thanks to Free Mobile for offering the possibility to send SMS via an API (which can be activated from the web interface of your account). How does it work? Simply create a scripts folder in the configuration folder and put the content of this script in it:
 
-```bash {linenos=table,hl_lines=[3]}
+``` bash hl_lines="3"
 #!/bin/bash
 message="$(perl -MURI::Escape -e 'print uri_escape($ARGV[0]);' "Naemon $1: $2 on $3 $4 ($5)")"
 curl --insecure "https://smsapi.free-mobile.fr/sendmsg?user=<userid>&pass=<password>&msg=$message"

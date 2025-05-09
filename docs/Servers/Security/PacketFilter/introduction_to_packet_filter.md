@@ -279,7 +279,7 @@ Requirements:
 * We want to be able to access the internet from this machine
 * We will silently block all other packets
 
-```bash {linenos=table}
+``` bash
 # Our network interface
 iface = "bge0"
 
@@ -332,7 +332,7 @@ Requirements:
 * Our main machine (tommy) would like to make clicka-compliant things like Jabber file transfer work
 * We will allow SSH from the outside
 
-```bash {linenos=table}
+``` bash
 # /etc/pf.conf
 
 # Network interface declaration
@@ -414,7 +414,7 @@ And I want the configuration to be as follows:
 * Protection against SSH bruteforce
 * VPN is accessible on the gateway from the outside
 
-```bash {linenos=table}
+``` bash
 #       $OpenBSD: pf.conf,v 1.37 2008/05/09 06:04:08 reyk Exp $
 #
 # See pf.conf(5) for syntax and examples.

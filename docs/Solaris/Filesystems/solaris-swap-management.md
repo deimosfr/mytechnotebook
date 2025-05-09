@@ -39,7 +39,7 @@ swapfile             dev  swaplo blocks   free
 
 Next, we'll run the format command then select the disk we want to work with:
 
-```bash {linenos=table,hl_lines=[5,12]}
+``` bash hl_lines="5 12"
 > Searching for disks...done
 
 
@@ -56,7 +56,7 @@ Specify disk (enter its number): 0
 
 We choose disk 0 here. Then we'll enter the partition management tool:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 format> partition
 
 PARTITION MENU:
@@ -79,7 +79,7 @@ PARTITION MENU:
 
 Next, we'll display the content to see the current partitions:
 
-```bash {linenos=table,hl_lines=[1,11]}
+``` bash hl_lines="1 11"
 partition> p
 Current partition table (original):
 Total disk cylinders available: 53499 + 2 (reserved cylinders)
@@ -99,7 +99,7 @@ Part      Tag    Flag     Cylinders         Size            Blocks
 
 We can see that the last cylinder is 7182 out of 53498. We'll continue after this cylinder. Let's take a random slice (slice 5 for example) and create a new swap partition on it:
 
-```bash {linenos=table,hl_lines=[1,"4-7"]}
+``` bash hl_lines="1 4-7"
 partition> 5
 Part      Tag    Flag     Cylinders         Size            Blocks
   5 unassigned    wm       0                0         (0/0/0)             0
@@ -112,7 +112,7 @@ Enter partition size[0b, 0c, 7183e, 0.00mb, 0.00gb]: 70gb
 Here I've created a partition starting from the last used cylinder (7182) + 1 (7183), a swap partition with the corresponding flag (wu), with a size of 70GB.
 Then I display the new partition table:
 
-```bash {linenos=table,hl_lines=[1,11]}
+``` bash hl_lines="1 11"
 partition> p
 Current partition table (unnamed):
 Total disk cylinders available: 53499 + 2 (reserved cylinders)
@@ -132,7 +132,7 @@ Part      Tag    Flag     Cylinders         Size            Blocks
 
 Now I can see my new swap partition. Let's write this new data to the disk:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 partition> label
 Ready to label disk, continue? y
 ```
@@ -154,7 +154,7 @@ swapfile             dev  swaplo blocks   free
 
 I just need to add a line in the vfstab for persistence:
 
-```bash {linenos=table,hl_lines=[9]}
+``` bash hl_lines="9"
 #device device  mount   FS  fsck    mount   mount
 #to mount   to  fsck        point       type    pass    at boot options
 #

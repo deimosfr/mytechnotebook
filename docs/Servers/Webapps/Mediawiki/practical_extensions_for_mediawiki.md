@@ -163,7 +163,7 @@ And place it above this section:
 
 Insert these lines in the file **mediawiki/skins/Vector.php**:
 
-```php {linenos=table,hl_lines=["2-3","9-10"]}
+``` php hl_lines="2-3 9-10"
 <script type="text/javascript"><!--
 google_ad_client = "*****PLACE YOUR CLIENT ID HERE******";
 google_ad_slot = "***CODE HERE***";

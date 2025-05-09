@@ -402,7 +402,7 @@ chown -Rf nagios. /var/lib/nagios3
 
 Configure xinetd:
 
-```bash {linenos=table}
+``` bash
 service livestatus
 {
     type = UNLISTED
@@ -454,7 +454,7 @@ Restart Apache if needed as you may have new modules (like mod_python) that were
 
 Verify that your Nagios configuration lines look like this (these lines should have been automatically added to the end of your configuration file):
 
-```bash {linenos=table,hl_lines=[4]}
+``` bash hl_lines="4"
 [...]
 # Load Livestatus Module
 event_broker_options=-1
@@ -466,7 +466,7 @@ Nevertheless, check that the end of the line is correct because we didn't specif
 
 Finally, restart Nagios. In your logs (syslog), you should see this:
 
-```bash {linenos=table,hl_lines=[10]}
+``` bash hl_lines="10"
 [...]
 Apr  4 11:28:36 nagios nagios3: Nagios 3.2.1 starting... (PID=17414)
 Apr  4 11:28:36 nagios nagios3: Local time is mer. avril 04 11:28:36 CEST 2012

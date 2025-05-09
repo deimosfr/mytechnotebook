@@ -50,7 +50,7 @@ chown -Rf www-data. limesurvey
 
 We'll create a PostgreSQL user and database. To begin, let's configure the authentication part:
 
-```bash {linenos=table,hl_lines=["7-9"]}
+``` bash hl_lines="7-9"
 [...]
 # Database administrative login by UNIX sockets
 local   all         postgres                          ident

@@ -41,7 +41,7 @@ chown -Rf www-data. include
 
 Now we just need to configure Apache. Again, we'll keep things simple and modify Apache's base file:
 
-```apache {linenos=table,hl_lines=["13-61"]}
+``` apache hl_lines="13-61"
 <VirtualHost *:80>
 	ServerAdmin webmaster@localhost
 

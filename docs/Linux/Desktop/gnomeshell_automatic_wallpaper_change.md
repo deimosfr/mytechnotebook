@@ -29,7 +29,7 @@ All my wallpapers are in ~/Images. We'll create a small script, which I put in /
 
 (`/usr/bin/wallpaper-changer`)
 
-```bash {linenos=table,hl_lines=[9,10]}
+``` bash hl_lines="9 10"
 #!/bin/bash
 IMAGES_FOLDER='/home/pmavro/Images'
 RANDOM_EVERY=1800

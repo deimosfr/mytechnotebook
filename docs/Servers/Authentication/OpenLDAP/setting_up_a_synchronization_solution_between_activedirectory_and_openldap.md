@@ -628,7 +628,7 @@ yum install pam-devel
 
 And add this line to the service you want (sshd for example), the restriction:
 
-```bash {linenos=table,hl_lines=[2]}
+``` bash hl_lines="2"
 auth       include      password-auth
 account    required     pam_access.so
 account    required     pam_nologin.so
@@ -675,7 +675,7 @@ authconfig --enableldap --enableldapauth --disablenis --disableshadow --enableca
 
 To retrieve the SSL certificate requested above, here is a solution:
 
-```bash {linenos=table,hl_lines=[1,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]}
+``` bash hl_lines="1 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24"
 > openssl s_client -connect openldap-server.deimos.fr:636
 CONNECTED(00000003)
 depth=0 C = FR, ST = IDF, L = Paris, O = DEIMOS, CN = openldap-server.deimos.fr, emailAddress = xxx@mycompany.com

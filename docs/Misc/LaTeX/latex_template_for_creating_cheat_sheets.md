@@ -19,7 +19,7 @@ Having cheat sheets is often very useful when learning a new language or working
 
 ## Cheat Sheet Template
 
-```latex {linenos=table}
+``` latex
 % -----------------------------------------------------------------------
 % Cheat Sheet Template
 %

@@ -68,7 +68,7 @@ openssl req -new -x509 -nodes -out server.crt -keyout server.key
 
 Regarding the Nginx configuration, here is the configuration for the Frontend (SSL) and the backend (8000) on the same Nginx instance:
 
-```apache {linenos=table,hl_lines=[4,34,"41-42","20-30"]}
+``` apache hl_lines="4 34 41-42 20-30"
 # SSL VirtualHost
 server {
     # SSL Listen port
@@ -132,7 +132,7 @@ server {
 
 First of all, change the configuration to have a cache RAM and listen on 80 port:
 
-```bash {linenos=table,hl_lines=[5,6]}
+``` bash hl_lines="5 6"
 ...
 # Should we start varnishd at boot?  Set to "yes" to enable.
 START=yes
@@ -151,7 +151,7 @@ DAEMON_OPTS="-a :80 \
 
 Then configure the forward to the Nginx backend and elements to cache:
 
-```apache {linenos=table,hl_lines=["8-12","20-33","41-45","133-145"]}
+``` apache hl_lines="8-12 20-33 41-45 133-145"
 # This is a basic VCL configuration file for varnish.  See the vcl(7)
 # man page for details on VCL syntax and semantics.
 #

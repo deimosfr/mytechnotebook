@@ -35,7 +35,7 @@ aptitude install curl
 
 Then we launch the installation:
 
-```bash {linenos=table,hl_lines=["132-141"]}
+``` bash hl_lines="132-141"
 > curl -L http://install.shinken-monitoring.org | /bin/bash
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed

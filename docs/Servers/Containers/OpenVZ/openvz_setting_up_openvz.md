@@ -127,7 +127,7 @@ iface eth0 inet static
 
 So far, everything is standard. However, after creating a VE, we'll need masquerading to provide internet access from the VEs and PREROUTING for port redirection. We'll use IPtables to provide external access from VEs and port redirections from the outside to the VEs:
 
-```bash {linenos=table}
+``` bash
 #!/bin/bash
 
 #-------------------------------------------------------------------------

@@ -45,7 +45,7 @@ ada0p4 added
 
 And if we display it now:
 
-```bash {linenos=table,hl_lines=[5]}
+``` bash hl_lines="5"
 > gpart show ada0
 =>       34  976773101  ada0  GPT  (465G)
          34        128     1  freebsd-boot  (64k)
@@ -72,7 +72,7 @@ mount /dev/gpt/backups /mnt/
 
 If we want persistence, we need to add a line in fstab:
 
-```bash {linenos=table,hl_lines=[4]}
+``` bash hl_lines="4"
 # Device        Mountpoint      FStype  Options Dump    Pass#
 /dev/ada0p3     none            swap    sw      0       0
 /dev/ada0p2     /               ufs     rw      1       1

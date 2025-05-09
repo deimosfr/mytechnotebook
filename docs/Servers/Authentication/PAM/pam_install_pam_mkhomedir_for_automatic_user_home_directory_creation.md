@@ -76,7 +76,7 @@ That's it! :-)
 
 For configuration, we'll simply edit pam.conf and add this line:
 
-```bash {linenos=table,hl_lines=[4]}
+``` bash hl_lines="4"
 ...
 # Default definition for Session management
 # Used when service name is not explicitly mentioned for session management

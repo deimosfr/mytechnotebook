@@ -39,7 +39,7 @@ yum install kexec-tools
 
 There is a configuration file that allows you to make some modifications such as loading a newer kernel if one exists. This technique is not particularly recommended as some applications may not handle it well, though this is relatively rare. This option is not enabled by default, however, you can activate it if needed:
 
-```bash {linenos=table,hl_lines=[15]}
+``` bash hl_lines="15"
 # Defaults for kexec initscript
 # sourced by /etc/init.d/kexec and /etc/init.d/kexec-load
 

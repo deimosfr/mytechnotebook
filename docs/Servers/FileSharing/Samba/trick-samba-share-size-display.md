@@ -28,7 +28,7 @@ The share tells me that it can't copy more than 30 MB, even into /share/disk1.
 
 Here is a solution that allows you to bypass the fact that Windows will analyze the remaining size of the shared folder before copying what you want. In the Samba configuration file, adjust your share like this:
 
-```bash {linenos=table,hl_lines=[8]}
+``` bash hl_lines="8"
 ...
 [Share]
    comment = Share file space

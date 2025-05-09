@@ -82,7 +82,7 @@ Today, the fastest memories are processor registers. These registers run at the 
 
 To know your processor caches:
 
-```bash {linenos=table,hl_lines=[2,5,8],anchorlinenos=true}
+``` bash hl_lines="2 5 8"
 > getconf -a | grep CACHE
 LEVEL1_ICACHE_SIZE                 32768
 LEVEL1_ICACHE_ASSOC                8

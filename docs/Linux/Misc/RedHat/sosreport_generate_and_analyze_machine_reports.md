@@ -55,7 +55,7 @@ yum install sx
 
 Using it is simple. On the machine where the problem is occurring, run:
 
-```bash {linenos=table,hl_lines=[17,18,26]}
+``` bash hl_lines="17 18 26"
 > sosreport --report
 
 sosreport (version 2.2)

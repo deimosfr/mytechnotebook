@@ -101,7 +101,7 @@ exit
 
 First, configure the database information:
 
-```ini {linenos=table,hl_lines=[5,10,15,18,21]}
+``` ini hl_lines="5 10 15 18 21"
 [database]
 # For the embedded DB: org.hsqldb.jdbcDriver
 # For PostgreSQL: org.postgresql.Driver
@@ -136,7 +136,7 @@ Here we define the database connection properties, as well as the credentials we
 
 Now let's configure the number of threads:
 
-```ini {linenos=table,hl_lines=[15]}
+``` ini hl_lines="15"
 # See README.md for more thorough explanations of each section and
 # option.
 
@@ -158,7 +158,7 @@ Adjust the number of threads to your processor count divided by 2.
 
 Then, we tackle the Jetty configuration:
 
-```ini {linenos=table,hl_lines=[3,7]}
+``` ini hl_lines="3 7"
 [jetty]
 # Hostname to list for clear-text HTTP.  Default is localhost
 host = 0.0.0.0
@@ -192,7 +192,7 @@ After a few seconds/minutes, you should be able to connect to port 8081 (ssl) or
 
 On the master, you need to modify its configuration:
 
-```ini {linenos=table,hl_lines=["15-16","21"]}
+``` ini hl_lines="15-16 21"
 [main]
 logdir=/var/log/puppet
 vardir=/var/lib/puppet
@@ -219,7 +219,7 @@ server=puppet-prd.deimos.fr
 
 Then we'll set up a file for Puppet's configuration to tell it how to connect to PuppetDB:
 
-```ini {linenos=table,hl_lines=["2"]}
+``` ini hl_lines="2"
 [main]
 server = puppet-prd.deimos.fr
 port = 8081
@@ -227,7 +227,7 @@ port = 8081
 
 And finally, a file to define the location of facts:
 
-```yaml {linenos=table,hl_lines=["4"]}
+``` yaml hl_lines="4"
 ---
 master:
   facts:
@@ -245,7 +245,7 @@ To confirm that the problem is indeed due to insufficient memory, check that the
 
 You'll need to increase the Java Heap size (Xmx value) of your PuppetDB which requires more RAM. Increase this value:
 
-```ini {linenos=table,hl_lines=[9]}
+``` ini hl_lines="9"
 ###########################################
 # Init settings for puppetdb
 ###########################################

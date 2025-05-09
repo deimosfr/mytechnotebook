@@ -75,7 +75,7 @@ swap                   2,0G     272K   2,0G     1%    /media/montmpfs
 
 Let's retrieve the memory address used for our tmpfs:
 
-```bash {linenos=table,hl_lines=[1,2]}
+``` bash hl_lines="1 2"
 > echo "::fsinfo" | mdb -k | egrep "VFSP|/media/montmpfs"
             VFSP FS              MOUNT
 ffffffffbd1e10c0 tmpfs           /media/montmpfs
@@ -85,7 +85,7 @@ Here's the allocation address: **ffffffffbd1e10c0**.
 
 Now, let's retrieve the address of the tm_anonmax variable so we can change its value later:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > echo "ffffffffbd1e10c0::print vfs_t vfs_data | ::print -ta struct tmount tm_anonmax" | mdb -k
 ffffffffbfb42068 ulong_t tm_anonmax = 0x80000
 ```
@@ -96,7 +96,7 @@ Here tm_anonmax (number of pages) is equal to 0x80000 (512kb) at memory address 
 
 We will now change its value. Let's say we want to increase it to 3GB. First, we need to retrieve the default block size allocated for swap:
 
-```bash {linenos=table,hl_lines=[2]}
+``` bash hl_lines="2"
 > pagesize 
 4096
 ```
@@ -112,28 +112,28 @@ Desired size => desired size in kb / block size in kb = size in Kb = size in hex
 
 Now let's use these values and apply them to the current memory address to expand it:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > echo "ffffffffbfb42068/Z 0xC0000" | mdb -kw
 0x3000f488d00:                  0x80000                 =       0xC0000
 ```
 
 Let's verify that our changes were applied correctly:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > echo "ffffffffbfb42068/J" | mdb -k
 0x3000f488d00:             0xC0000
 ```
 
 or
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > echo "ffffffffbfb42068::print vfs_t vfs_data | ::print struct tmount tm_anonmax" | mdb -k
 tm_anonmax = 0xC0000
 ```
 
 And check the result:
 
-```bash {linenos=table,hl_lines=[3]}
+``` bash hl_lines="3"
 > df -h /media/montmpfs
 Filesystem             size   used  avail capacity  Mounted on
 swap                   3,0G     272K   3,0G     1%    /media/montmpfs

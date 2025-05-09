@@ -128,7 +128,7 @@ strace -f -s 5000 -p <PID>
 
 If you want to get statistics, we'll use the -c option:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > strace -c uname
 Linux
 % time     seconds  usecs/call     calls    errors syscall

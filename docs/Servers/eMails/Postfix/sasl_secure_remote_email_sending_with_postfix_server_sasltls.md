@@ -202,7 +202,7 @@ content_filter = amavis:[127.0.0.1]:10024
 
 Edit the file `/etc/defaut/saslauthd` and fill in these fields:
 
-```bash {linenos=table,hl_lines=[1,3,4,7]}
+``` bash hl_lines="1 3 4 7"
 START=yes
 DESC="SASL Authentication Daemon"
 NAME="saslauthd"
@@ -262,7 +262,7 @@ To validate everything, simply restart the services in question:
 
 To verify, a simple telnet will do the trick:
 
-```bash {linenos=table,hl_lines=[1,5,11,12]}
+``` bash hl_lines="1 5 11 12"
 > telnet deimos.fr 25
 Connected to deimos.fr.
 Escape character is '^]'.

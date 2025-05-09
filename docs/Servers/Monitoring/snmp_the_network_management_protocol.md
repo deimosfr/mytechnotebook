@@ -167,7 +167,7 @@ The last number is an index corresponding to the value of the OID (indexes worki
 
 For reading, let's take the example of Linux MIBs:
 
-```bash {linenos=table,hl_lines=[5,6,13]}
+``` bash hl_lines="5 6 13"
 ...
 --
 -- the IP general group

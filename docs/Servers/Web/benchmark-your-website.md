@@ -55,7 +55,7 @@ Indeed, a local network or loopback will be much more telling in terms of benchm
 
 Here's the command I used to benchmark my blog:
 
-```bash {linenos=table,hl_lines=[17]}
+``` bash hl_lines="17"
 > ab -c 5 -t 30 http://blog.deimos.fr/index.php
 This is ApacheBench, Version 2.3 <$Revision: 655654 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
@@ -110,7 +110,7 @@ Here, the server is capable of handling 369 requests per second. That's pretty g
 
 Now, let's add [a cache server](./Caches/index.md) like [Varnish](./Caches/varnish_a_website_accelerator.md), then run the benchmarks again:
 
-```bash {linenos=table,hl_lines=[26]}
+``` bash hl_lines="26"
 > ab -c 5 -t 30 http://blog.deimos.fr/index.php
 This is ApacheBench, Version 2.3 <$Revision: 655654 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
@@ -167,7 +167,7 @@ We get a decent gain, the big difference is that **the CPU is below 20% with Var
 
 I also benchmarked the wiki. Again, the CPU was overloaded without a cache server and the information speaks for itself:
 
-```bash {linenos=table,hl_lines=[27]}
+``` bash hl_lines="27"
 > ab -c 5 -t 30 http://wiki.deimos.fr/index.php
 This is ApacheBench, Version 2.3 <$Revision: 655654 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
@@ -218,7 +218,7 @@ Percentage of the requests served within a certain time (ms)
 
 And with Varnish:
 
-```bash {linenos=table,hl_lines=[26]}
+``` bash hl_lines="26"
 > ab -c 5 -t 30 http://wiki.deimos.fr/index.php
 This is ApacheBench, Version 2.3 <$Revision: 655654 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/

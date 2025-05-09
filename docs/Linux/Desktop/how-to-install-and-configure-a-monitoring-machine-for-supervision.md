@@ -53,7 +53,7 @@ Now we're ready for the configuration.
 
 The configuration of slim is simple: we want to boot awesome without any credentials questions:
 
-```bash {linenos=table,hl_lines=[4,7,11,15]}
+``` bash hl_lines="4 7 11 15"
 # NOTE: if your system does not have bash you need
 # to adjust the command according to your preferred shell,
 # i.e. for freebsd use:
@@ -82,7 +82,7 @@ cp /etc/xdg/awesome/rc.lua .config/awesome/
 
 Then edit the configuration file and modify/add those lines:
 
-```lua {linenos=table,hl_lines=[4,"18-29"]}
+``` lua hl_lines="4 18-29"
 [...]
 layouts =
 {

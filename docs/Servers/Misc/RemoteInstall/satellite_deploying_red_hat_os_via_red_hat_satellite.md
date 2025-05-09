@@ -323,7 +323,7 @@ cp -f /usr/share/doc/dhcp-*/dhcpd.conf.sample /etc/dhcp/dhcpd.conf
 
 Edit the /etc/dhcp/dhcpd.conf file to add the desired configuration. Here I have 2 declared ranges. Each range has its own interface:
 
-```bash {linenos=table,hl_lines=["10-11","27-43"]}
+``` bash hl_lines="10-11 27-43"
 # dhcpd.conf
 #
 # Sample configuration file for ISC dhcpd
@@ -442,7 +442,7 @@ subnet 10.102.2.64 netmask 255.255.255.224 {
 
 Then I'll declare the interfaces on which the dhcpd service should listen:
 
-```bash {linenos=table,hl_lines=[3]}
+``` bash hl_lines="3"
 # Command line options here
 DHCPDARGS="eth1 eth2";
 ```
@@ -508,7 +508,7 @@ satellite-sync
 Download only certain Satellite versions:
 First, let's display the available repositories:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > satellite-sync -l
 16:28:41 Red Hat Network Satellite - live synchronization
 16:28:41    url: https://satellite.rhn.redhat.com
@@ -538,7 +538,7 @@ First, let's display the available repositories:
 
 And we'll select the ones we're interested in:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > satellite-sync -c rhel-x86_64-server-6 -c rhn-tools-rhel-x86_64-server-6 -c rhel-x86_64-server-5 -c rhn-tools-rhel-x86_64-server-5
 11:47:15 Red Hat Network Satellite - live synchronization
 11:47:15    url: https://satellite.rhn.redhat.com
@@ -639,7 +639,7 @@ authconfig --enableldap --enableldapauth --disablenis --disableshadow --enableca
 
 To retrieve the ssl certificate requested above, here's a solution:
 
-```bash {linenos=table,hl_lines=[1,"14-35"]}
+``` bash hl_lines="1 14-35"
 > openssl s_client -connect openldap-server.deimos.fr:636
 CONNECTED(00000003)
 depth=0 C = FR, ST = IDF, L = Paris, O = DEIMOS, CN = openldap-server.deimos.fr, emailAddress = deimos@deimos.fr
@@ -767,7 +767,7 @@ Create your repository in the "Custom Channels" and set the Red Hat version as p
 
 We'll need to generate a GPG key to sign our packages:
 
-```bash {linenos=table,hl_lines=[1,11]}
+``` bash hl_lines="1 11"
 > gpg --gen-key
 gpg (GnuPG) 2.0.14; Copyright (C) 2009 Free Software Foundation, Inc.
 This is free software: you are free to change and redistribute it.
@@ -785,7 +785,7 @@ So we'll choose the first option.
 
 Then generate the default key size without expiration:
 
-```bash {linenos=table,hl_lines=[2,10,12]}
+``` bash hl_lines="2 10 12"
 RSA keys may be between 1024 and 4096 bits long.
 What keysize do you want? (2048)
 Requested keysize is 2048 bits
@@ -802,7 +802,7 @@ Is this correct? (y/N) y
 
 Enter your information for package signing:
 
-```bash {linenos=table,hl_lines=[5,6,9]}
+``` bash hl_lines="5 6 9"
 You need a user ID to identify your key; the software constructs the user ID
 from the Real Name, Comment and Email Address in this form:
     "Heinrich Heine (Der Dichter) <heinrichh@duesseldorf.de>"
@@ -822,7 +822,7 @@ gpg-agent[25522]: directory `/root/.gnupg/private-keys-v1.d' created
 
 Then enter a passphrase, and the key validity:
 
-```bash {linenos=table,hl_lines=[4,14,16]}
+``` bash hl_lines="4 14 16"
 /-----------------------------------------------------\
 | Please re-enter this passphrase                     |
 |                                                     |
@@ -843,7 +843,7 @@ Is this correct? (y/N) y
 
 The key is created and you are given the key ID:
 
-```bash {linenos=table,hl_lines=["13-14"]}
+``` bash hl_lines="13-14"
 Can't connect to `/root/.gnupg/S.gpg-agent': No such file or directory
 A large number of random bytes need to be generated. You should do
 something else (type on the keyboard, move the mouse, use the disks)
@@ -880,7 +880,7 @@ This key will be used to deploy packages for all our future clients.
 
 To help us with bulk package signing, we'll create a small preferences file:
 
-```bash {linenos=table,hl_lines=[2]}
+``` bash hl_lines="2"
 %_signature gpg
 %_gpg_name DFC7E56A
 ```
@@ -1240,7 +1240,7 @@ SYNC ERROR: unhandled exception occurred:
 
 It means you're at 100% utilization of your Oracle database. First check your disk space size. If all is ok, let's verify that we're out of space:
 
-```bash {linenos=table,hl_lines=[3]}
+``` bash hl_lines="3"
 > su - oracle -c "db-control report"
 Tablespace                  Size    Used   Avail   Use%
 DATA_TBS                    3.9G    3.9G      0M   100%
@@ -1260,7 +1260,7 @@ Extending DATA_TBS... done.
 
 Then we'll check the data again to verify it's good:
 
-```bash {linenos=table,hl_lines=[3]}
+``` bash hl_lines="3"
 > su - oracle -c "db-control report"
 Tablespace                  Size    Used   Avail   Use%
 DATA_TBS                    4.3G    3.9G  502.8M    89%

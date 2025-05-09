@@ -81,7 +81,7 @@ FLUSH PRIVILEGES;
 
 For Apache to handle perl/CGI scripts, we've installed mod_perl. Now we need to configure the Apache directories:
 
-```apache {linenos=table,hl_lines=[3,4,5,6,7,8]}
+``` apache hl_lines="3 4 5 6 7 8"
 <VirtualHost *:80>
 [...]
         <Directory /var/www/bugzilla-4.2.5>

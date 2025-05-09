@@ -33,7 +33,7 @@ aptitude install liblwp-useragent-determined-perl libemail-sender-perl
 
 ## Configuration
 
-```perl {linenos=table,hl_lines=[7,8,9,10],anchorlinenos=true}
+``` perl hl_lines="7 8 9 10"
 #!/usr/bin/perl -w
 # Inspired by Rob Moss, 2005-07-26, coding@mossko.com
 # Created by Charles-Henri TURPIN

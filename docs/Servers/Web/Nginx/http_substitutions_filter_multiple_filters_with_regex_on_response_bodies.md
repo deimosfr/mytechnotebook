@@ -53,7 +53,7 @@ git clone git://github.com/yaoweibin/ngx_http_substitutions_filter_module.git
 
 Then add this line to make it compiled on the next step (`~/nginx_new/nginx-1.2.1/debian/rules`):
 
-```bash {linenos=table,hl_lines=[45]}
+``` bash hl_lines="45"
 config.status.extras: config.env.extras config.sub config.guess
     cd $(BUILDDIR_extras) && CFLAGS="$(CFLAGS)" CORE_LINK="$(LDFLAGS)" ./configure  \
         --prefix=/etc/nginx \

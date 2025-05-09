@@ -325,7 +325,7 @@ service mysql start
 
 Here's the configuration to apply for a cluster on the same site:
 
-```ini {linenos=table,hl_lines=["19-27"]}
+``` ini hl_lines="19-27"
 # MariaDB-specific config file.
 # Read by /etc/mysql/my.cnf
 
@@ -433,7 +433,7 @@ wsrep_sst_auth = 'sst_user:sst_password'
 
 So when we add a new node, we can see that a node has become a donor:
 
-```sql {linenos=table,hl_lines=[7]}
+``` sql hl_lines="7"
 MariaDB [(NONE)]> SHOW global STATUS LIKE 'wsrep%stat%';
 +---------------------------+--------------------------------------+
 | Variable_name             | VALUE                                |
@@ -568,7 +568,7 @@ SET global wsrep_cluster_address='gcomm://';
 
 To check the cluster status, here's the command to run in MariaDB:
 
-```bash {linenos=table,hl_lines=[6,14]}
+``` bash hl_lines="6 14"
 MariaDB [(none)]> SHOW STATUS LIKE 'wsrep_%';
 +--------------------------+----------------------+
 | Variable_name            | Value                |
@@ -589,7 +589,7 @@ MariaDB [(none)]> SHOW STATUS LIKE 'wsrep_%';
 
 Here I only have my main server running. No other nodes have joined the cluster yet. But when I add some:
 
-```bash {linenos=table,hl_lines=[36,44]}
+``` bash hl_lines="36 44"
 > mysql -uroot -p -e "SHOW STATUS LIKE 'wsrep_%';"
 +----------------------------+----------------------------------------------------------------------------+
 | Variable_name              | Value                                                                      |
@@ -666,7 +666,7 @@ To avoid split brains (cluster inconsistencies), it's advisable to use a tool pr
 
 You'll need to use the garbd service. It's installed by default but simply not activated. To configure it, we'll edit its configuration:
 
-```bash {linenos=table,hl_lines=[5,8]}
+``` bash hl_lines="5 8"
 # Copyright (C) 2012 Coedership Oy
 # This config file is to be sourced by garb service script.
 
@@ -809,7 +809,7 @@ I've also tested violently shutting down any node and turning it back on. Once i
 
 It's possible to update a node from a delta between an up-to-date version and one that's behind. To do this, check the version in which one of the up-to-date nodes is:
 
-```sql {linenos=table,hl_lines=[5,7]}
+``` sql hl_lines="5 7"
 SHOW global STATUS LIKE 'wsrep%';
 +----------------------------+---------------------------------------+
 | Variable_name              | VALUE                                 |
@@ -825,7 +825,7 @@ Here we can see the uuid number and the position of the last commit (wsrep_last_
 
 With the server off, it's possible to retrieve the position of the last commit:
 
-```bash {linenos=table,hl_lines=[12]}
+``` bash hl_lines="12"
 > mysqld --wsrep_recover=1
 130722 15:44:53 InnoDB: The InnoDB memory heap is disabled
 130722 15:44:53 InnoDB: Mutexes and rw_locks use GCC atomic builtins

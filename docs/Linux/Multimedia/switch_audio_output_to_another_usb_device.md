@@ -50,7 +50,7 @@ modprobe snd_usb_audio
 
 Now find the corresponding card ID (you could also have it in AlsaMixer):
 
-```bash {linenos=table,hl_lines=[3]}
+``` bash hl_lines="3"
 > aplay -l
 [...]
 card 1: Device [USB Multimedia Audio Device], périphérique 0: USB Audio [USB Audio]

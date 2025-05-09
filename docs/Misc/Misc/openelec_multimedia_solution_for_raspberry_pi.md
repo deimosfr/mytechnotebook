@@ -152,7 +152,7 @@ It's more efficient to decode MPEG-2 and VC-1 format videos using hardware rathe
 
 You will be asked for your Raspberry Pi's serial number. To retrieve it:
 
-```bash {linenos=table,hl_lines=[13]}
+``` bash hl_lines="13"
 > cat /proc/cpuinfo
 Processor	: ARMv6-compatible processor rev 7 (v6l)
 BogoMIPS	: 697.95
@@ -170,7 +170,7 @@ Serial		: 0000000000000000
 
 Then you just need to insert the codes in this file (`/flash/config.txt`):
 
-```bash {linenos=table,hl_lines=[7,8]}
+``` bash hl_lines="7 8"
 [...]
 ################################################################################
 # License keys to enable GPU hardware decoding for various codecs

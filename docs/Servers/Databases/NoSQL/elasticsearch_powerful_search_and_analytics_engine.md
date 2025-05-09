@@ -297,7 +297,7 @@ To get a document (an entry), this is simple:
 
 You only have to know the id. If a document is not found:
 
-```javascript {linenos=table,hl_lines=[6],anchorlinenos=true}
+``` javascript hl_lines="6"
 > curl -XGET http://localhost:9200/vehicule/moto/4?pretty
 {
   "_index" : "vehicule",

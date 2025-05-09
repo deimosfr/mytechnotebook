@@ -59,7 +59,7 @@ iostat allows you to measure disk I/O. If you want to test the performance of di
 
 On Linux, here's how to use it on the sda disk, for example:
 
-```bash {linenos=table,hl_lines=["4-8"]}
+``` bash hl_lines="4-8"
 > iostat -x sda 1 5
 
 avg-cpu:  %user   %nice %system %iowait  %steal   %idle
@@ -187,7 +187,7 @@ alias sar='LANG=C sar'
 
 To monitor disks, use the -d option:
 
-```bash {linenos=table,hl_lines=["15-19"]}
+``` bash hl_lines="15-19"
 > sar -d 1 2
 
 13:57:03          DEV       tps  rd_sec/s  wr_sec/s  avgrq-sz  avgqu-sz     await     svctm     %util

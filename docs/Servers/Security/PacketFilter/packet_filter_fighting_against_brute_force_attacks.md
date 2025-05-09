@@ -21,13 +21,13 @@ This is configured in the PF configuration file, `/etc/pf.conf`. I'll give an ex
 
 Previously, to authorize SSH connections from outside, you would have a line that looked like this (with $external being the name of your external network interface):
 
-```pf {linenos=table}
+``` pf
 pass in quick on $external inet proto tcp from any to any port ssh flags S/SA keep state
 ```
 
 Simply replace this line with:
 
-```pf {linenos=table}
+``` pf
 table <ssh-bruteforce> persist
 block in quick from <ssh-bruteforce>
 pass in quick on $external inet proto tcp from any to any port ssh flags S/SA keep state ( max-src-conn-rate 2/10, overload <ssh-bruteforce> flush global)
@@ -63,7 +63,7 @@ pfctl -t bruteforce -T flush
 
 For those who wish to add a whitelist, here are the lines to add:
 
-```pf {linenos=table}
+``` pf
 table <whitelist> persist file "/etc/ssh/whitelist"
 pass in on $ext_if proto tcp from <whitelist> to $ext_if port 22 flags S/SA keep state
 ```
@@ -74,7 +74,7 @@ Here, the `/etc/ssh/whitelist` file must be filled with the IPs to whitelist.
 
 If this isn't clear enough, here's a configuration example:
 
-```pf {linenos=table}
+``` pf
 #       $OpenBSD: pf.conf,v 1.34 2007/02/24 19:30:59 millert Exp $
 #
 # See pf.conf(5) and /usr/share/pf for syntax and examples.

@@ -127,7 +127,7 @@ service apache2 restart
 
 We'll configure the authentication part:
 
-```bash {linenos=table,hl_lines=["7-9"]}
+``` bash hl_lines="7-9"
 [...]
 # Database administrative login by UNIX sockets
 local   all         postgres                          ident
@@ -398,7 +398,7 @@ $VERSION = qw($Revision: 1.21 $)[1];
 
 Make sure to configure the PostgreSQL part and comment out the MySQL part, as well as fill in all the fields correctly. We'll also use Apache::DBI to boost performance. Edit this file to uncomment these lines:
 
-```bash {linenos=table,hl_lines=["2-3","6-8","11-12"]}
+``` bash hl_lines="2-3 6-8 11-12"
 [...]
 use Apache::DBI ();
 Apache::DBI->connect_on_init('DBI:mysql:otrs', 'otrs', 'password');

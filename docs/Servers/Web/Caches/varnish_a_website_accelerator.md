@@ -60,7 +60,7 @@ First, if Varnish is running on the same machine as your web server, point your 
 
 Now we'll modify the Varnish configuration to tell it which backend server to use. Adapt these lines to your configuration:
 
-```ruby {linenos=table,hl_lines=["3-4"]}
+``` ruby hl_lines="3-4"
 ...
 backend default {
     .host = "127.0.0.1";
@@ -78,7 +78,7 @@ backend default {
 
 Next, we'll modify the Varnish server configuration to give it some additional information:
 
-```text {linenos=table,hl_lines=[3,5,6,9]}
+``` text hl_lines="3 5 6 9"
 ...
 # Should we start varnishd at boot?  Set to "yes" to enable.
 START=yes
@@ -99,7 +99,7 @@ DAEMON_OPTS="-a :80 \
 
 You might want your cache to be in RAM for even better access! This is entirely possible :-). I've taken the opportunity to add a few elements to optimize everything:
 
-```text {linenos=table,hl_lines=[3,5,6,7,8,9,10,11,12]}
+``` text hl_lines="3 5 6 7 8 9 10 11 12"
 ...
 # Should we start varnishd at boot?  Set to "yes" to enable.
 START=yes
@@ -153,7 +153,7 @@ As we'll see later, object compression also affects cache performance. It's pref
 
 Correctly defining the TTL of an object to manage cache-control is an important element of Varnish. We can control the cache precisely by defining the TTL for a resource type or for a URL, for example:
 
-```ruby {linenos=table,hl_lines=[6,9]}
+``` ruby hl_lines="6 9"
 ...
     if(beresp.ttl > 0s){
       unset beresp.http.Expires;

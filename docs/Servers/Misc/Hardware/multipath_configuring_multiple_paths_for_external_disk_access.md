@@ -310,7 +310,7 @@ It's not serious, it allows it to refresh the list of device mappers.
 
 - And now it works:
 
-```bash {linenos=table,hl_lines=[6]}
+``` bash hl_lines="6"
 > ls -l /dev/mapper/
 total 0
 crw------- 1 root root  10, 62 Mar  1 13:41 control

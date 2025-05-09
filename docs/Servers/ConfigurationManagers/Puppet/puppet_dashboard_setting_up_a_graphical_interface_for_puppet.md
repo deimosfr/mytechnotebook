@@ -53,7 +53,7 @@ aptitude install puppet-dashboard mysql-server
 
 We'll enable Puppet Dashboard to run automatically at startup by uncommenting the "start" line:
 
-```bash {linenos=table,hl_lines=[6]}
+``` bash hl_lines="6"
 # IMPORTANT: Be sure you have checked the values below, appropriately
 # configured 'config/database.yml' in your DASHBOARD_HOME, and
 # created and migrated the database.
@@ -83,7 +83,7 @@ DASHBOARD_PORT=3000
 
 We'll also use Delayed Job Workers to ensure data arrives in full even when there's high demand on the Dashboard:
 
-```bash {linenos=table,hl_lines=[5]}
+``` bash hl_lines="5"
 # IMPORTANT: Be sure you have checked the values below, appropriately
 # configured 'config/database.yml' in your DASHBOARD_HOME, and
 # created and migrated the database.
@@ -111,7 +111,7 @@ flush privileges;
 
 We'll modify the MySQL configuration to increase the maximum packet size by adjusting a value. Edit your MySQL configuration in the 'mysqld' section and set max_allowed_packet to at least 32M:
 
-```bash {linenos=table,hl_lines=[3,4,5]}
+``` bash hl_lines="3 4 5"
 [...]
 [mysqld]
 # Puppet Dashboard requirements:
@@ -149,7 +149,7 @@ You can now start the puppet-dashboard service if you want, and the console is a
 
 For Puppet Master, we need to tell it to send reports not just as files (in the /var/lib/puppet/reports directory), but also to the MySQL database. To do this, edit the configuration file and add this:
 
-```bash {linenos=table,hl_lines=[5,7]}
+``` bash hl_lines="5 7"
 [...]
 [master]
 reportdir = /var/lib/puppet/reports
@@ -179,7 +179,7 @@ report = true
 
 If like me you use your Puppet Dashboard on the same machine as Puppet Master, it's cleaner to hide Puppet Dashboard's port 3000. For this, we'll use a proxy with Nginx:
 
-```bash {linenos=table,hl_lines=[1,11]}
+``` bash hl_lines="1 11"
 upstream puppet-prd-dash.deimos.fr:3000 {
   server unix:/usr/share/puppet-dashboard/tmp/sockets/dashboard.0.sock;
   server unix:/usr/share/puppet-dashboard/tmp/sockets/dashboard.1.sock;
@@ -337,7 +337,7 @@ Now you can run [db::migrate](#mysql) again.
 
 If you encounter this type of error message in Puppet Dashboard when launching Puppet runs from [Mcollective](./mcollective_run_actions_in_parallel_on_remote_machines.md), you need to work on the puppet manifest, to comment this line:
 
-```ruby {linenos=table,hl_lines=[5,6]}
+``` ruby hl_lines="5 6"
 [...]
     service {
         'puppet-srv' :

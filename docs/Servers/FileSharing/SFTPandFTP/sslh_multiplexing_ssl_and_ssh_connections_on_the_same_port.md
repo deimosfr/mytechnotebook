@@ -105,7 +105,7 @@ sslh_uid="nobody"
 
 On OpenBSD, I chose to add these lines to `/etc/rc.local` with my configuration directly in the command line:
 
-```bash {linenos=table,hl_lines=[3,5]}
+``` bash hl_lines="3 5"
 if [ -x /usr/local/sbin/sslh ] ; then
     # Versions < 1.7a
     /usr/local/sbin/sslh -p <interface:443> -s <ssh_srv:22> -l <web_https:443>
@@ -121,7 +121,7 @@ Again, adapt these lines according to your needs.
 
 On pfSense, we'll create an init-like file:
 
-```bash {linenos=table,hl_lines=["2-7"]}
+``` bash hl_lines="2-7"
 #!/bin/sh
 sslh_listen_ip=<interface_ip>
 sslh_listen_port=<port>

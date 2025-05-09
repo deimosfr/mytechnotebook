@@ -27,7 +27,7 @@ aptitude install libpam-cracklib
 
 We only have one file to edit, which greatly simplifies things. Since we're using Debian, they've made our lives easier - we just need to uncomment some lines that already come with clear explanations!
 
-```bash {linenos=table,hl_lines=[23]}
+``` bash hl_lines="23"
 #
 # /etc/pam.d/common-password - password-related modules common to all services
 #

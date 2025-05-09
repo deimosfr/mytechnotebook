@@ -99,7 +99,7 @@ emcpower emcpowera
 
 Now all is ok, but you need to recover your previous partitions from LVM. So edit the LVM config file and add these arguments:
 
-```bash {linenos=table,hl_lines=[3]}
+``` bash hl_lines="3"
 ...
 filter = [ "r/sd*/", "a/.*/"," "a|/dev/sdb[1-9]|", "a|/dev/mapper/.*$|", "r|.*|" ]
 ...

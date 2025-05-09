@@ -196,7 +196,7 @@ Then you can apply this kind of configuration:
 
 (`/etc/haproxy/haproxy.cfg`)
 
-```bash {linenos=table,hl_lines=[40,46,49,56]}
+``` bash hl_lines="40 46 49 56"
 global
 	log /dev/log	local0
 	log /dev/log	local1 notice

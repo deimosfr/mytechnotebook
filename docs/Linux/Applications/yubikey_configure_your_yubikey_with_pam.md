@@ -70,7 +70,7 @@ ykpamcfg -v -2
 
 The configuration of PAM is quick and easy, simply add this line (`/etc/pam.d/common-auth`):
 
-```bash {linenos=table,hl_lines=[17]}
+``` bash hl_lines="17"
 #
 # /etc/pam.d/common-auth - authentication settings common to all services
 #
@@ -111,7 +111,7 @@ cp /lib/udev/rules.d/69-yubikey.rules /etc/udev/rules.d/
 
 and override it to add a custom script (screensaver lock) (`/lib/udev/rules.d/69-yubikey.rules`):
 
-```bash {linenos=table,hl_lines=["9-11"]}
+``` bash hl_lines="9-11"
 ACTION!="add|change", GOTO="yubico_end"
 
 # Udev rules for letting the console user access the Yubikey USB
@@ -143,7 +143,7 @@ udevadm trigger
 
 And create the script where you've declared it (`yubi_script.sh`):
 
-```bash {linenos=table,hl_lines=[3]}
+``` bash hl_lines="3"
 #! /bin/bash
 export DISPLAY=":0"
 su <username> -c "/usr/bin/xscreensaver-command -lock"
@@ -161,7 +161,7 @@ chmod 755 yubi_script.sh
 
 It's easy to add debug mode. Simply add "debug" to the PAM line (`/etc/pam.d/common-auth`):
 
-```bash {linenos=table,hl_lines=[17]}
+``` bash hl_lines="17"
 #
 # /etc/pam.d/common-auth - authentication settings common to all services
 #

@@ -62,7 +62,7 @@ yum install oprofile oprofile-gui
 
 To ensure OProfile will work properly, let's check that it's present in the kernel:
 
-```bash {linenos=table,hl_lines=["2-5"]}
+``` bash hl_lines="2-5"
 > grep -i PROFIL /boot/config-`uname -r`
 CONFIG_EVENT_PROFILE=y
 CONFIG_PROFILING=y

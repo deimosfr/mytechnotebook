@@ -37,7 +37,7 @@ I'll skip explaining all the configuration file lines and will show you the ones
 
 (`/etc/tinyproxy.conf`)
 
-```bash {linenos=table,hl_lines=[7,13,51,61]}
+``` bash hl_lines="7 13 51 61"
 [...]
 #
 # Port: Specify the port which tinyproxy will listen on.  Please note

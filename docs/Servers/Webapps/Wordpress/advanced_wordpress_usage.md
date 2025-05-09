@@ -17,7 +17,7 @@ WordPress is great, but it also has limitations that can quickly become annoying
 
 For WordPress configuration under Nginx, here's an example:
 
-```nginx {linenos=table}
+``` nginx
 server {
     include listen_port.conf;
     listen 443 ssl;

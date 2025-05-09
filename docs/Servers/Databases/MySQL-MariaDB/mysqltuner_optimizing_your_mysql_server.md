@@ -566,7 +566,7 @@ The idea is to point temporary files to a RAM filesystem to store temporary file
 
 Next, modify your MySQL configuration file to change the tmpdir variable and point it to your new temporary space:
 
-```bash {linenos=table,hl_lines=[3]}
+``` bash hl_lines="3"
 ...
 # The MySQL server
 [mysqld]
@@ -576,7 +576,7 @@ tmpdir = /mnt/mysql_tmpfs
 
 Restart MySQL and check that the new parameter is correctly applied:
 
-```bash {linenos=table,hl_lines=[5]}
+``` bash hl_lines="5"
 mysql> show variables like 'tmpdir';
 +---------------+------------------+
 | Variable_name | Value            |

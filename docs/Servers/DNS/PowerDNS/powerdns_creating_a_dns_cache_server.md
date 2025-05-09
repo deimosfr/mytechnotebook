@@ -41,7 +41,7 @@ aptitude install pdns-recursor
 
 Once installed, the cache server is functional for the local server. All you need to do is configure the listening address to enable it for the rest of your network:
 
-```bash {linenos=table,hl_lines=[5,9]}
+``` bash hl_lines="5 9"
 [...]
 #################################
 # allow-from    If set, only allow these comma separated netmasks to recurse

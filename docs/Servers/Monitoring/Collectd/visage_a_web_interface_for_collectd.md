@@ -68,7 +68,7 @@ As of this writing, host profiles are not automatically created in Visage as the
 
 Whatever the reason, I have so many hosts and add so many that I need it automated, which is why I created a [small script](https://www.deimos.fr/gitweb/) that updates my Visage profiles:
 
-```bash {linenos=table}
+``` bash
 #!/bin/sh
 # Visage Update Profiles
 # This script will automatically update visage to profile to match with current available rrd graphs

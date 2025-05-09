@@ -348,7 +348,7 @@ We need to setup the incremental updates. Change it to a slower value if you nee
 
 What if you don't see any results or you want to be sure that Sphinx receive search requests? There is a console mode:
 
-```bash {linenos=table,hl_lines=[10]}
+``` bash hl_lines="10"
 > searchd --console --config /etc/sphinxsearch/sphinx.conf --pidfile
 Sphinx 2.0.4-release (r3135)
 Copyright (c) 2001-2012, Andrew Aksyonoff

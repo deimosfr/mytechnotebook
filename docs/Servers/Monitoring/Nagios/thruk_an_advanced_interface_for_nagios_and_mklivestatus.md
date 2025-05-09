@@ -58,7 +58,7 @@ chown nagios:www-data /etc/thruk/checkconfig
 
 You might want to use LDAP authentication with Thruk, just like your Nagios. It's quite simple:
 
-```apache {linenos=table,hl_lines=["36-63"]}
+``` apache hl_lines="36-63"
 <IfModule mod_fcgid.c>
   AddHandler fcgid-script .sh
 
@@ -320,7 +320,7 @@ print "</body></html>\n";
 
 And then in the configuration of the service in question, I insert my 'action_url':
 
-```text {linenos=table,hl_lines=["9-13"]}
+``` text hl_lines="9-13"
 define service{
          use                             generic-services-ulsysnet
          hostgroup_name                  network

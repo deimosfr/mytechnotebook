@@ -49,7 +49,7 @@ Ceph stores a client's data as objects within storage pools. Using the CRUSH alg
 
 If you want to test with [Vagrant](../../../Linux/Misc/vagrant_quickly_deploy_virtual_machines.md) and VirtualBox, I've made a Vagrantfile for it running on Debian Wheezy:
 
-```ruby {linenos=table}
+``` ruby
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 ENV['LANG'] = 'C'
@@ -243,7 +243,7 @@ To create **the first** (only the first today because ceph-deploy got problems) 
 
 To add 2 others monitors nodes (mon2 and mon3) in the cluster, you'll need to edit the configuration on a monitor and admin node. You'll have to set the mon_host, mon_initial_members and public_network configuration in:
 
-```bash {linenos=table,hl_lines=[3,4,7]}
+``` bash hl_lines="3 4 7"
 [global]
 fsid = 0a91b62e-cd43-4558-9ebd-4719f830cf8b
 mon_initial_members = mon1,mon2,mon3
@@ -345,7 +345,7 @@ ssh: Could not resolve hostname sdb: Name or service not known
 
 You can see there's an error but it works:
 
-```bash {linenos=table,hl_lines=[5]}
+``` bash hl_lines="5"
 > ceph -s
     cluster 0a91b62e-cd43-4558-9ebd-4719f830cf8b
      health HEALTH_WARN 192 pgs degraded; 192 pgs stuck unclean
@@ -376,7 +376,7 @@ To know the OSD status:
 
 To remove an OSD, it's unfortunately not yet integrated in ceph-deploy. So first, look at the current status:
 
-```bash {linenos=table,hl_lines=[5]}
+``` bash hl_lines="5"
 > ceph osd tree
 # id	weight	type name	up/down	reweight
 -1	0.03998	root default

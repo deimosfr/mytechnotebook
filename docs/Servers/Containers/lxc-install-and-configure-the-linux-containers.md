@@ -126,7 +126,7 @@ As we want to manage memory and swap on containers, as it's not available by def
 - cgroup RAM feature: "cgroup_enable=memory"
 - cgroup SWAP feature: "swapaccount=1"
 
-```bash {linenos=table,hl_lines=[10],anchorlinenos=true}
+``` bash hl_lines="10"
 # /etc/default/grub
 # If you change this file, run 'update-grub' afterwards to update
 # /boot/grub/grub.cfg.
@@ -266,7 +266,7 @@ default              active     yes
 
 Edit the configuration to add your range of IP:
 
-```xml {linenos=table,hl_lines=[5,7],anchorlinenos=true}
+``` xml hl_lines="5 7"
 <network>
   <name>default</name>
   <bridge name="virbr0" />
@@ -465,7 +465,7 @@ iface eth0 inet dhcp
 
 You can also configure manual static IP if you want by changing 'lxc.network.ipv4'. Another elegant method is to ask DHCP to fix it:
 
-```xml {linenos=table,hl_lines=[8],anchorlinenos=true}
+``` xml hl_lines="8"
 <network>
   <name>default</name>
   <bridge name="virbr0" />
@@ -620,7 +620,7 @@ And enable VLAN tagging on bridged interfaces:
 ebtables -t broute -A BROUTING -i eth0 -p 802_1Q -j DROP
 ```
 
-```bash {linenos=table,hl_lines=["10-16","35-42"],anchorlinenos=true}
+``` bash hl_lines="10-16 35-42"
 # /etc/network/interfaces
 # This file describes the network interfaces available on your system
 # and how to activate them. For more information, see interfaces(5).
@@ -1884,7 +1884,7 @@ lxc-cgroup: failed to assign '128M' value to 'memory.limit_in_bytes' for 'mycont
 
 This is because cgroup memory capability is not loaded from your kernel. You can check it like that :
 
-```bash {linenos=table,hl_lines=[6],anchorlinenos=true}
+``` bash hl_lines="6"
 > cat /proc/cgroups
 #subsys_name	hierarchy	num_cgroups	enabled
 cpuset	1	4	1
@@ -1905,7 +1905,7 @@ As we want to manage memory and swap on containers, as it's not available by def
 
 With grub (`/etc/default/grub`):
 
-```ini {linenos=table,hl_lines=[9],anchorlinenos=true}
+``` ini hl_lines="9"
 # If you change this file, run 'update-grub' afterwards to update
 # /boot/grub/grub.cfg.
 # For full documentation of the options in this file, see:
@@ -1929,7 +1929,7 @@ update-grub
 
 After reboot you can check that memory is activated:
 
-```bash {linenos=table,hl_lines=[6],anchorlinenos=true}
+``` bash hl_lines="6"
 > cat /proc/cgroups
 #subsys_name	hierarchy	num_cgroups	enabled
 cpuset	1	6	1

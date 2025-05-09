@@ -41,7 +41,7 @@ sysctl -a
 
 - Modify the sysctl parameters:
 
-```bash {linenos=table}
+``` bash
 kern.watchdog.period=30
 kern.watchdog.auto=1
 ```

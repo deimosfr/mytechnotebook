@@ -42,7 +42,7 @@ volume * fuse - "sshfs#&@fileserver:" /home/& - - -
 
 You must choose an application to mount automatically your share. For example I choose SSH. When a user logs into SSH it must mount the NFS share, so edit this file:
 
-```bash {linenos=table,hl_lines=[3,7]}
+``` bash hl_lines="3 7"
 ...
 auth       required     pam_env.so envfile=/etc/default/locale
 auth       required    pam_mount.so

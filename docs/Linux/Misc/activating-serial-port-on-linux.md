@@ -21,7 +21,7 @@ For usage information, please refer to the documentation on Minicom.
 
 Modify the following lines to ensure that the console part loads correctly during the Grub boot:
 
-```bash {linenos=table,hl_lines=[8,16,17],anchorlinenos=true}
+``` bash hl_lines="8 16 17"
 # If you change this file, run 'update-grub' afterwards to update
 # /boot/grub/grub.cfg.
 
@@ -63,7 +63,7 @@ update-grub
 
 Uncomment the following line (`/etc/inittab`):
 
-```bash {linenos=table,hl_lines=[4]}
+``` bash hl_lines="4"
 [...]
 # Example how to put a getty on a serial line (for a terminal)
 #
@@ -74,7 +74,7 @@ T0:23:respawn:/sbin/getty -L ttyS0 9600 vt100
 
 Verify that ttyS0 is also present (`/etc/securetty`):
 
-```bash {linenos=table,hl_lines=[3]}
+``` bash hl_lines="3"
 [...]
 # UART serial ports
 ttyS0

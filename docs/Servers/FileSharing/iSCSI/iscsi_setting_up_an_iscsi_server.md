@@ -49,7 +49,7 @@ Preferably use partx.
 
 Let's edit the server configuration file and uncomment the "target" section:
 
-```bash {linenos=table,hl_lines=[1,4,12,13]}
+``` bash hl_lines="1 4 12 13"
 <target iqn.2012-02.fr.deimos.www:iscsi>
         # List of files to export as LUNs
         #backing-store /usr/storage/disk_1.img
@@ -82,7 +82,7 @@ service tgtd start
 
 Check the configuration like this:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > tgt-admin -s
 Target 1: iqn.2012-02.fr.deimos.www:iscsi
     System information:
@@ -140,7 +140,7 @@ service iscsi start
 
 First, let's perform a "discovery" to see what devices are available to us:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > iscsiadm --mode discoverydb --type sendtargets --portal <server> --discover
 iqn.2012-02.fr.deimos.www:iscsi
 ```

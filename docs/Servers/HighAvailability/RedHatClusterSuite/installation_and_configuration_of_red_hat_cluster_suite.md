@@ -67,7 +67,7 @@ service acpid stop
 
 Or in grub, add the acpi parameter set to off:
 
-```bash {linenos=table,hl_lines=[3]}
+``` bash hl_lines="3"
 title Red Hat Enterprise Linux (2.6.32-220.el6.x86_64)
 	root (hd0,0)
 	kernel /vmlinuz-2.6.32-220.el6.x86_64 ro root=/dev/mapper/myvg-rootvol rd_NO_LUKS  KEYBOARDTYPE=pc KEYTABLE=fr LANG=en_US.UTF-8 rd_NO_MD quiet SYSFONT=latarcyrheb-sun16 rhgb crashkernel=auto rd_LVM_LV=myvg/rootvol rd_NO_DM acpi=off
@@ -279,7 +279,7 @@ partprobe /dev/sdb
 
 Once done, check on all your nodes:
 
-```bash {linenos=table,hl_lines=[3]}
+``` bash hl_lines="3"
 > fdisk -cul /dev/sdb
 Périphérique Amorce  Début        Fin      Blocs     Id  Système
 /dev/sdb1            2048     8386181     4192067   8e  Linux LVM
@@ -454,7 +454,7 @@ For SCSI, there is a "scsi_reserve" service that allows to generate a unique key
 
 We can see if it is possible to do it or not (here no because I use iscsi which does not support it):
 
-```bash {linenos=table,hl_lines=[8]}
+``` bash hl_lines="8"
 fence_scsi_test -c
 
 Testing devices in cluster volumes...
@@ -1196,7 +1196,7 @@ Here is a list of the most common errors:
 
 If you have this kind of message when starting cman:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > service cman start
 Starting cluster:
    Checking if cluster has been disabled at boot...        [  OK  ]
@@ -1216,7 +1216,7 @@ Check that you have [hostnames configured correctly](#hostname) and that all nod
 
 You may encounter this kind of problem if your physical volume is not detected on all nodes.
 
-```bash {linenos=table,hl_lines=[2,3]}
+``` bash hl_lines="2 3"
 > lvcreate -n shared_lv1 -L 256M shared_vg
   Error locking on node node3: Volume group for uuid not found: EfDxVCE2XWh2Se7ohirVFpXyjXSEJqZxigQMWiiUXNjRXeWd2SzLHwZv3bFropf1
   Error locking on node node1: Volume group for uuid not found: EfDxVCE2XWh2Se7ohirVFpXyjXSEJqZxigQMWiiUXNjRXeWd2SzLHwZv3bFropf1
@@ -1229,7 +1229,7 @@ To fix the problem, do a partprobe on the disks containing the new partition.
 
 You need to check that all cluster services have started correctly. We can check the status of the cluster like this:
 
-```bash {linenos=table,hl_lines=[3]}
+``` bash hl_lines="3"
 > clustat
 Cluster Status for cluster1 @ Wed Feb 29 14:16:31 2012
 Member Status: Quorate

@@ -539,7 +539,7 @@ yum install pam-devel
 
 And add this line on the service you want (sshd for example), the restriction:
 
-```bash {linenos=table,hl_lines=[2]}
+``` bash hl_lines="2"
 auth       include      password-auth
 account    required     pam_access.so
 account    required     pam_nologin.so
@@ -586,7 +586,7 @@ authconfig --enableldap --enableldapauth --disablenis --disableshadow --enableca
 
 To retrieve the ssl certificate requested above, here is a solution:
 
-```bash {linenos=table,hl_lines=[1,"14-35"]}
+``` bash hl_lines="1 14-35"
 > openssl s_client -connect openldap-server.deimos.fr:636
 CONNECTED(00000003)
 depth=0 C = FR, ST = IDF, L = Paris, O = DEIMOS, CN = openldap-server.deimos.fr, emailAddress = xxx@mycompany.com
@@ -1204,7 +1204,7 @@ If you encounter this kind of message:
 
 It means that there are non-indexed fields when an application tries to access them. To fix this, we need to add (the UID in our case) to the index. We will therefore edit this file and add the uid in our case:
 
-```bash {linenos=table,hl_lines=[20]}
+``` bash hl_lines="20"
 dn: olcDatabase={1}hdb
 objectClass: olcDatabaseConfig
 objectClass: olcHdbConfig

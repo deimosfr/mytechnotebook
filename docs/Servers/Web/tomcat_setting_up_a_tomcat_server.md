@@ -242,7 +242,7 @@ Then let's edit this configuration file to tell it about the workers.properties 
 
 Finally, let's modify the VirtualHost to tell it to use mod_jk:
 
-```apache {linenos=table,hl_lines=["6-26"]}
+``` apache hl_lines="6-26"
 <VirtualHost *:80>
 	ServerAdmin webmaster@localhost
 
@@ -396,7 +396,7 @@ To test session replication, add this small application that will allow you to t
 
 To set up clustering, edit the following file and add this line just before the end:
 
-```xml {linenos=table,hl_lines=[2]}
+``` xml hl_lines="2"
 [...]
    <distributable />
 </web-app>
@@ -404,7 +404,7 @@ To set up clustering, edit the following file and add this line just before the 
 
 Then let's edit the server section and add a cluster block in the Engine section:
 
-```xml {linenos=table,hl_lines=[5,14]}
+``` xml hl_lines="5 14"
 [...]
     <!-- You should set jvmRoute to support load-balancing via AJP ie:
     <Engine name="Catalina" defaultHost="localhost" jvmRoute="jvm1">

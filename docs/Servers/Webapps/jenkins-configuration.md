@@ -49,7 +49,7 @@ Note that we're using an Nginx server as a frontend to forward requests to Jenki
 
 For Nginx, we will use the reverse proxy function to redirect the flow:
 
-```bash {linenos=table,hl_lines=[2,8,15]}
+``` bash hl_lines="2 8 15"
 upstream app_server {
     server 127.0.0.1:8080 fail_timeout=0;
 }

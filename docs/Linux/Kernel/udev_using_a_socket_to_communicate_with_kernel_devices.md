@@ -37,7 +37,7 @@ There isn't much to do with udev for normal operation since it's generally corre
 
 You can monitor udev by using the 'udevmonitor' command. For example, if I want to monitor when I connect my iPhone:
 
-```bash {linenos=table,hl_lines=[1]}
+``` bash hl_lines="1"
 > udevmonitor --env
 udevmonitor prints the received event from the kernel [UEVENT]
 and the event which udev sends out after rule processing [UDEV]
@@ -71,7 +71,7 @@ DEVNAME=/dev/bus/usb/001/007
 
 The udev rules are defined in `/etc/udev/rules.d`, which means you can customize them or create your own rules.
 
-```bash {linenos=table,hl_lines=[4]}
+``` bash hl_lines="4"
 # The initial syslog(3) priority: "err", "info", "debug" or its
 # numerical equivalent. For runtime debugging, the daemons internal
 # state can be changed with: "udevadm control --log-priority=<value>".
@@ -115,7 +115,7 @@ To find information on which we can build our udev rules, we must first retrieve
 
 This command gave us the path in `/sys` and we'll use it now to get all available information:
 
-```bash {linenos=table,hl_lines=[20]}
+``` bash hl_lines="20"
 > udevinfo -a -p /class/usb_device/usbdev1.7
 
 Udevinfo starts with the device specified by the devpath and then

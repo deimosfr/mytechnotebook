@@ -33,7 +33,7 @@ aptitude install integrit
 
 ## Configuration
 
-```bash {linenos=table,hl_lines=[10,13]}
+``` bash hl_lines="10 13"
 # /etc/integrit/integrit.debian.conf
 # Configuration of the example daily cron job /etc/cron.daily/integrit
 
@@ -65,7 +65,7 @@ You need to adapt the vars vars listed bellow:
 
 Now we're going to edit the main configuration of Integrit:
 
-```bash {linenos=table,hl_lines=["19-21","41-44"]}
+``` bash hl_lines="19-21 41-44"
 # /etc/integrit/integrit.conf
 # /etc/integrit.conf : configuration file for integrit
 #
