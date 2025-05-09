@@ -9,7 +9,7 @@ tags: ["MySQL", "Backup", "Restore", "LVM", "mysqldump", "Shell Scripts"]
 toc: true
 ---
 
-![MySQL Logo](../../static/images/mysql_logo.avif)
+![MySQL Logo](../../../static/images/mysql_logo.avif)
 
 ## Backups
 
@@ -235,4 +235,4 @@ echo $baksql | mail -s "Mysql transfers" $ADMINMAIL
 ```
 
 ## Resources
-- [How To Back Up MySQL Databases With mylvmbackup](../../static/pdf/how_to_back_up_mysql_databases_with_mylvmbackup.pdf)
+- [How To Back Up MySQL Databases With mylvmbackup](../../../static/pdf/how_to_back_up_mysql_databases_with_mylvmbackup.pdf)

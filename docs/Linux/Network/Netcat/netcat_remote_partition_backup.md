@@ -41,5 +41,5 @@ Refer to [How to clone a Linux box using netcat](https://www.ebruni.it/en/docs/c
 
 ## Resources
 - [Netcat: Creating a Listening Port](/Netcat_\:_Créer_un_port_d'écoute/)
-- [Netcat: File Transfer]({{< ref "docs/Linux/Network/Netcat/netcat_file_transfer.md" >}})
-- [Netcat Documentation](../../static/pdf/netcat.pdf)
+- [Netcat: File Transfer](netcat_file_transfer.md)
+- [Netcat Documentation](../../../static/pdf/netcat.pdf)

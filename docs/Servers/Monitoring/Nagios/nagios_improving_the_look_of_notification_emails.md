@@ -15,7 +15,7 @@ If you've already used standard email notification in Nagios, you'll find it fun
 
 I will explain here how to use it easily. The goal is to have HTML email notifications like this instead of plain text:
 
-![Nagios HTML alert](../../static/images/nagios_html_alert.avif)
+![Nagios HTML alert](../../../static/images/nagios_html_alert.avif)
 
 You can also do other things like adding images, carbon copies, different languages... but I'll explain here only what I need.
 

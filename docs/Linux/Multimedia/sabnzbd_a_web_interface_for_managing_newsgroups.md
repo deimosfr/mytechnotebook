@@ -152,7 +152,7 @@ Configuration -> General -> Settings -> Article Cache Limit -> 250M
 
 ### System
 
-At the system level, [check out the optimization of extX filesystems and RAID under Linux]({{< ref "docs/Linux/FilesystemsAndStorage/Raid/optimization_of_extx_filesystems_and_raid_under_linux.md" >}})
+At the system level, [check out the optimization of extX filesystems and RAID under Linux](../FilesystemsAndStorage/Raid/optimization_of_extx_filesystems_and_raid_under_linux.md)
 
 ## Third-party Tools
 

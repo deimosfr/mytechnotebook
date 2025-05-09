@@ -218,7 +218,7 @@ If you have no idea about your IOs, take a value between 32KB and 128KB, taking 
 
 > Chunk size = average request IO size (avgrq-sz) / number of disks
 
-To get the average request size, I invite you to check the Systat documentation[^3] where we talk about [Iostat]({{< ref "docs/Linux/Misc/sysstat_essential_tools_for_analyzing_performance_issues.md#iostat">}}) and [Sar]({{< ref "docs/Linux/Misc/sysstat_essential_tools_for_analyzing_performance_issues.md#sar">}}).
+To get the average request size, I invite you to check the Systat documentation[^3] where we talk about [Iostat](../../Misc/sysstat_essential_tools_for_analyzing_performance_issues#iostat) and [Sar](../../Misc/sysstat_essential_tools_for_analyzing_performance_issues#sar).
 
 - To see the chunk size on a RAID (here md0):
 
@@ -455,10 +455,10 @@ mdadm --detail --scan --verbose >> /etc/mdadm/mdadm.conf
 
 [^1]: http://fr.wikipedia.org/wiki/RAID_%28informatique%29
 [^2]: **Software RAID Configuration**
-[^3]: [Sysstat: Essential tools for analyzing performance problems]({{< ref "docs/Linux/Misc/sysstat_essential_tools_for_analyzing_performance_issues.md" >}})
+[^3]: [Sysstat: Essential tools for analyzing performance problems](../../Misc/sysstat_essential_tools_for_analyzing_performance_issues.md)
 [^4]: http://kernel.org/doc/Documentation/md.txt
 [^5]: http://makarevitch.org/rant/raid/
 [^6]: https://access.redhat.com/knowledge/docs/fr-FR/Red_Hat_Enterprise_Linux/6/html/Migration_Planning_Guide/chap-Migration_Guide-File_Systems.html
 [^7]: http://www.linuxpedia.fr/doku.php/expert/mdadm
 [^8]: http://tldp.org/HOWTO/Software-RAID-HOWTO-6.html
-[^9]: [How to resize raid partition](../../static/pdf/how_to_resize_raid_partitions.pdf)
+[^9]: [How to resize raid partition](../../../static/pdf/how_to_resize_raid_partitions.pdf)

@@ -11,4 +11,4 @@ toc: true
 
 Apt-file is a utility that quickly becomes indispensable from the first time it's used. Here's a small documentation:
 
-[Apt-file Documentation](../../static/pdf/apt-file.pdf)
+[Apt-file Documentation](../../../static/pdf/apt-file.pdf)

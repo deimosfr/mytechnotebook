@@ -24,7 +24,7 @@ It's not always easy to start learning a programming language, especially when y
 
 ## Red Hat Satellite
 
-I created this script for the [Red Hat Satellite server](/Satellite_:_Deploiement_d'OS_Red_Hat_via_Red_Hat_Satellite/) to save time when signing and sending multiple packages to a Satellite server:
+I created this script for the [Red Hat Satellite server](../../Servers/Misc/RemoteInstall/satellite_deploying_red_hat_os_via_red_hat_satellite.md) to save time when signing and sending multiple packages to a Satellite server:
 
 (`satellite_add_packages.py`)
 

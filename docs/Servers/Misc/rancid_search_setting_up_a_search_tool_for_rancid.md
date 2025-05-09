@@ -11,6 +11,6 @@ toc: true
 
 ## Introduction
 
-You may already be familiar with [Rancid](https://www.shrubbery.net/rancid/) which allows you to backup your precious Cisco equipment and store them in a [VCS]({{< ref "docs/Servers/Versionning/">}}). At work, my network team complained about not being able to search through all Cisco equipment at once. Imagine multiple devices with some containing more than 25,000 lines of ACLs and other VPN configurations. To search for information, they first had to know which equipment to connect to, then search through the configuration. In short, it was not always an easy task to read through, time-consuming, and without regex search capability.
+You may already be familiar with [Rancid](https://www.shrubbery.net/rancid/) which allows you to backup your precious Cisco equipment and store them in a [VCS](../Versionning). At work, my network team complained about not being able to search through all Cisco equipment at once. Imagine multiple devices with some containing more than 25,000 lines of ACLs and other VPN configurations. To search for information, they first had to know which equipment to connect to, then search through the configuration. In short, it was not always an easy task to read through, time-consuming, and without regex search capability.
 
 I therefore decided to create a web interface to meet their needs with the help of a colleague. The interface is in Perl CGI where I use jQuery for some "flashy" or "Web 2.0" features, but it looks nice :-)

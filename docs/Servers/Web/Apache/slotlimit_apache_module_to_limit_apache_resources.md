@@ -11,4 +11,4 @@ toc: true
 
 Here's a very practical Apache module that limits your Apache resources:
 
-[How To Manage Apache Resources Limits With mod_slotlimit](../../static/pdf/how_to_manage_apache_resources_limits_with_mod_slotlimit.pdf)
+[How To Manage Apache Resources Limits With mod_slotlimit](../../../static/pdf/how_to_manage_apache_resources_limits_with_mod_slotlimit.pdf)

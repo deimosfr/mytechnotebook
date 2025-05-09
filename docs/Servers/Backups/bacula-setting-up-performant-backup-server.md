@@ -19,8 +19,8 @@ In short, its competitor BackupPC, which I used for a long time, is very good, b
 
 You'll need to set up some services before taking the plunge:
 
-- A [MySQL]({{< ref "docs/Servers/Databases/MySQL-MariaDB/mysql_installation_and_configuration.md" >}}) server
-- A [Web server like Apache]({{< ref "docs/Servers/Web/Apache/apache_2_installation_and_configuration.md" >}}) with PHP
+- A [MySQL](../Databases/MySQL-MariaDB/mysql_installation_and_configuration.md) server
+- A [Web server like Apache](../Web/Apache/apache_2_installation_and_configuration.md) with PHP
 
 ## Installation
 

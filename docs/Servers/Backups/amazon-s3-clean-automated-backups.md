@@ -112,7 +112,7 @@ Here's the line to add.
 
 ### AutoFS
 
-The best setup is with autofs! I invite you to [read this documentation first]({{< ref "docs/Servers/FileSharing/autofs-mounting-and-unmounting-shares.md" >}}) to not be too confused, then add this line in a file auto.as3 for example:
+The best setup is with autofs! I invite you to [read this documentation first](../FileSharing/autofs-mounting-and-unmounting-shares.md) to not be too confused, then add this line in a file auto.as3 for example:
 
 ```
 amazons3        -fstype=fuse,ouse_cache=/tmp,noatime,allow_other:s3fs\#monbucket_with_a_unique_name

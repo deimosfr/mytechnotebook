@@ -17,7 +17,7 @@ Memcached is a caching server that helps accelerate client requests.
 
 Here's documentation for setting up a memcached cache server:
 
-[Installing memcached And The PHP5 memcache Module](../../static/pdf/installing_memcached_and_the_php5_memcache_module.pdf)
+[Installing memcached And The PHP5 memcache Module](../../../static/pdf/installing_memcached_and_the_php5_memcache_module.pdf)
 
 ## Other
 

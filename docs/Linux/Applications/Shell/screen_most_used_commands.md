@@ -175,4 +175,4 @@ STRING ESCAPES
 
 ## References
 
-[File:Au-gnu screen-pdf.pdf](../../static/pdf/au-gnu_screen-pdf.pdf)
+[File:Au-gnu screen-pdf.pdf](../../../static/pdf/au-gnu_screen-pdf.pdf)

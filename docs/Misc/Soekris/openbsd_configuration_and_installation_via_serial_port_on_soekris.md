@@ -206,7 +206,7 @@ Let's remove access information on the compact flash with the noatime option in 
 ### Add MFS Filesystems
 
 Add MFS filesystems to your data that changes regularly:  
-[MFS: Using a Filesystem in RAM]({{< ref "docs/BSD/Filesystems/mfs_using_a_ram_filesystem.md" >}})
+[MFS: Using a Filesystem in RAM](../../BSD/Filesystems/mfs_using_a_ram_filesystem.md)
 
 ### Watchdog
 

@@ -96,10 +96,10 @@ echo 3 > /proc/sys/vm/drop_caches
 OOM (Out Of Memory) can happen. There is a process called oomkiller for this. When there is no more swap, no more RAM, it will kill processes. It will trigger if:
 
 - You have no more memory space (including RAM)
-- There are no more available pages in the [ZONE_NORMAL or ZONE_HIGHMEM]({{< ref "docs/Linux/Kernel/memory_addressing_and_allocation.md#uma" >}})[^1]
+- There are no more available pages in the [ZONE_NORMAL or ZONE_HIGHMEM](memory_addressing_and_allocation.md#uma)[^1]
 - There is no more available memory in the page mapping table
 
-It is also possible to [add swap on the fly]({{< ref "docs/Linux/FilesystemsAndStorage/swap_creating_dynamic_swap.md" >}})[^2] to avoid a crash due to an OOM.
+It is also possible to [add swap on the fly](../FilesystemsAndStorage/swap_creating_dynamic_swap.md)[^2] to avoid a crash due to an OOM.
 
 To see the OOM-Kill immunity level on a process, check the process score (here PID 1):
 
@@ -143,7 +143,7 @@ There are 2 types of memory leaks:
 - Virtual: when a process makes requests that are not in the virtual address space (vsize)
 - Real: when a process fails to free memory (RSS)
 
-- Use [sar]({{< ref "docs/Linux/Misc/sysstat_essential_tools_for_analyzing_performance_issues.md" >}}) to see system-side exchanges:
+- Use [sar](../Misc/sysstat_essential_tools_for_analyzing_performance_issues.md) to see system-side exchanges:
 
 ```bash
 sar -R 1 120
@@ -230,7 +230,7 @@ If there is little memory left, the kernel will start by killing processes in us
 ## References
 
 [^1]: [Memory addressing and allocation#UMA](/L'adressage_mémoire_et_son_allocation/#UMA)
-[^2]: [SWAP: Creating dynamic swap]({{< ref "docs/Linux/FilesystemsAndStorage/swap_creating_dynamic_swap.md" >}})[^2]
+[^2]: [SWAP: Creating dynamic swap](../FilesystemsAndStorage/swap_creating_dynamic_swap.md)[^2]
 [^3]: [https://fr.wikipedia.org/wiki/Mémoire_virtuelle#Swapping](https://fr.wikipedia.org/wiki/Mémoire_virtuelle#Swapping)
 [^4]: [https://www.linuxvox.com/2009/10/what-is-the-linux-kernel-parameter-vm-swappiness/](https://www.linuxvox.com/2009/10/what-is-the-linux-kernel-parameter-vm-swappiness/)
 

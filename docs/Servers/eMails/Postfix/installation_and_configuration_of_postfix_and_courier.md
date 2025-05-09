@@ -10,7 +10,7 @@ tags:
 toc: true
 ---
 
-![Postfix Architecture](../../static/images/postfix.avif)
+![Postfix Architecture](../../../static/images/postfix.avif)
 
 ## Introduction
 
@@ -273,13 +273,13 @@ http://spamlinks.net/filter-dnsbl-lists.htm
 - [Documentation on setting up Postfix on OpenBSD](https://www.formation.ssi.gouv.fr/stages/documentation/architecture_securisee/postfix.html)
 - [Postscreen: fight a little more against spam](https://www.postfix.org/POSTSCREEN_README.html)
 - [Quick installation of a secure mail server](https://feedproxy.google.com/~r/BlogInformatiqueByColundrum/~3/bhKbAPMbEPA/installation-rapide-serveur-mail-securise)
-- [Advanced Postfix Configuration](../../static/pdf/configuration_avancée_de_postfix.pdf)
-- [Fighting spam with Postfix](../../static/pdf/lutter_contre_le_spam_avec_postfix.pdf)
-- [SMTP Server Mail Routing with Postfix](../../static/pdf/serveur_smtp_routage_des_mails_avec_postfix.pdf)
-- [Antispam Practices](../../static/pdf/antispam_practices.pdf)
-- [SMTP reject 554: Eliminate spam at the root](../../static/pdf/273_unix_garden.pdf)
-- [Documentation on configuring bounce mail on Postfix](../../static/pdf/how_to_configure_custom_postfix_bounce_messages.pdf)
-- [Adaptive and efficient anti-spam with OpenBSD and Spamd](../../static/pdf/antispam_openbsd.pdf)
-- [Virtual Users And Domains With Postfix Courier MySQL And SquirrelMail](../../static/pdf/virtual_users_and_domains_with_postfix_courier_mysql_and_squirrelmail.pdf)
-- [How To Whitelist Hosts IP Addresses In Postfix](../../static/pdf/how_to_whitelist_hosts_ip_addresses_in_postfix.pdf)
-- [Installing a mail server brick by brick](../../static/pdf/Installation_d'un_serveur_mail_brique_par_brique.pdf)
+- [Advanced Postfix Configuration](../../../static/pdf/configuration_avancée_de_postfix.pdf)
+- [Fighting spam with Postfix](../../../static/pdf/lutter_contre_le_spam_avec_postfix.pdf)
+- [SMTP Server Mail Routing with Postfix](../../../static/pdf/serveur_smtp_routage_des_mails_avec_postfix.pdf)
+- [Antispam Practices](../../../static/pdf/antispam_practices.pdf)
+- [SMTP reject 554: Eliminate spam at the root](../../../static/pdf/273_unix_garden.pdf)
+- [Documentation on configuring bounce mail on Postfix](../../../static/pdf/how_to_configure_custom_postfix_bounce_messages.pdf)
+- [Adaptive and efficient anti-spam with OpenBSD and Spamd](../../../static/pdf/antispam_openbsd.pdf)
+- [Virtual Users And Domains With Postfix Courier MySQL And SquirrelMail](../../../static/pdf/virtual_users_and_domains_with_postfix_courier_mysql_and_squirrelmail.pdf)
+- [How To Whitelist Hosts IP Addresses In Postfix](../../../static/pdf/how_to_whitelist_hosts_ip_addresses_in_postfix.pdf)
+- [Installing a mail server brick by brick](../../../static/pdf/Installation_d'un_serveur_mail_brique_par_brique.pdf)

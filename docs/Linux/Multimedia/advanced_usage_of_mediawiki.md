@@ -26,7 +26,7 @@ We're very far from realizing how powerful MediaWiki truly is. Those who are fam
 
 That's why I'll try to document the advanced uses of MediaWiki here.
 
-If you're just starting with MediaWiki, I recommend first reading [this]({{< ref "docs/Servers/Webapps/Mediawiki/mediawiki_installation_and_configuration.md" >}}).
+If you're just starting with MediaWiki, I recommend first reading [this](../../Servers/Webapps/Mediawiki/mediawiki_installation_and_configuration.md).
 
 ## Uses
 

@@ -138,7 +138,7 @@ For security reasons, uncomment the TOMCAT5_USER line as shown above.
 
 ### Redirecting Logs
 
-To redirect Tomcat logs, please follow [this documentation](./Rsyslog_:_Installation_et_configuration_d'Rsyslog.html).
+To redirect Tomcat logs, please follow the Rsyslog documentation.
 
 ### Giving Access to Admin Interfaces
 
@@ -182,7 +182,7 @@ JAVA_HOME=/usr/lib/jvm/java-6-sun
 
 ### mod_jk
 
-It's sometimes useful to redirect Apache to Tomcat to simplify the URL for end users and allow Tomcat to not manage connections directly. You can also use [mod_proxy](./proxy_:_créer_un_proxy_avec_apache.html) (which is increasingly being used instead of mod_jk).
+It's sometimes useful to redirect Apache to Tomcat to simplify the URL for end users and allow Tomcat to not manage connections directly. You can also use mod_proxy (which is increasingly being used instead of mod_jk).
 
 Install Apache and mod_jk:
 
@@ -366,7 +366,7 @@ Now we just need to configure Apache to point to the right Worker, which is actu
 
 Restart Apache and Tomcat.
 
-[Download this file](./file:demo.tgz.html), extract it and add it to your 2 Tomcat instances. Now the demo page is accessible in load-balanced mode at http://server-apache/demo/jsp/test.jsp. You'll get something like this:
+Download the demo file, extract it and add it to your 2 Tomcat instances. Now the demo page is accessible in load-balanced mode at http://server-apache/demo/jsp/test.jsp. You'll get something like this:
 
 ```
 date of the day: Tue Nov 06 13:46:19 CET 2012
@@ -392,7 +392,7 @@ Then update the states by clicking on the 'Update balancer' button.
 
 To set up clustering[^2], you'll normally need [Load Balancing](#load-balancing). With clustering, you can share your application sessions across Tomcat servers. The advantage is that if you lose one machine, the sessions will be present on other machines and the user won't notice anything. Of course, the applications in question must be developed to handle this kind of mechanism.
 
-To test session replication, add this small application that will allow you to test sessions, [download this file](./file:clustertest.war.tgz.html).
+To test session replication, add this small application that will allow you to test sessions.
 
 To set up clustering, edit the following file and add this line just before the end:
 
@@ -586,7 +586,7 @@ update-rc.d tomcat5.5 defaults 99
 ```
 
 ## Resources
-- [How To Set Up Apache Tomcat (mod jk) SSO (CAS mod auth cas)](<./file:how_to_set_up_apache_tomcat_(mod_jk)_SSO_(CAS_mod_auth_cas).pdf.html>)
+- How To Set Up Apache Tomcat (mod jk) SSO (CAS mod auth cas)
 
 [^1]: http://www.datadisk.co.uk/html_docs/java_app/tomcat6/tomcat6_web_config.htm
 [^2]: http://www.datadisk.co.uk/html_docs/java_app/tomcat6/tomcat6_clustering.htm

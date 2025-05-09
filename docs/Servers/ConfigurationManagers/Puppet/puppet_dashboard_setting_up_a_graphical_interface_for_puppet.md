@@ -9,7 +9,7 @@ tags: ["Puppet", "Dashboard", "MySQL", "Crontab", "Monitoring"]
 toc: true
 ---
 
-![Puppet Dashboard](../../static/images/puppet-short.avif)
+![Puppet Dashboard](../../../static/images/puppet-short.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

@@ -124,13 +124,13 @@ Launch firefox and install a fullscreen extension to autohide everything. You al
 browser.sessionstore.resume_from_crash
 ```
 
-To finish, disable automatic update and configure the URL with [Nagios]({{< ref "docs/Servers/Monitoring/Nagios/nagios_installation_and_configuration.md">}}):
+To finish, disable automatic update and configure the URL with [Nagios](../../Servers/Monitoring/Nagios/nagios_installation_and_configuration.md):
 
 ```
 https://nagios.deimos.fr/cgi-bin/status.cgi?host=all&servicestatustypes=28&hoststatustypes=3&serviceprops=42&sorttype=1&sortoption=6&noheader
 ```
 
-Or if you prefer [Thruk]({{< ref "docs/Servers/Monitoring/Nagios/thruk_an_advanced_interface_for_nagios_and_mklivestatus.md">}}):
+Or if you prefer [Thruk](../../Servers/Monitoring/Nagios/thruk_an_advanced_interface_for_nagios_and_mklivestatus.md):
 
 ```
 https://nagios.deimos.fr/thruk/cgi-bin/status.cgi?serviceprops=42&servicestatustypes=28&sortoption=6&type=detail&sorttype=1&host=all&hostprops=10&minimal=1

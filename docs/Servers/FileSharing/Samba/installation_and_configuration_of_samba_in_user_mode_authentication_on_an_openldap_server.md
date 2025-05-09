@@ -35,9 +35,9 @@ However, Samba is not compatible with IPv6.
 
 **The "ADS" mode allows you to use an OpenLDAP server to authenticate users for accessing Samba shares. This solution is quite complex to implement but ensures increased security (authentication via Kerberos) for your server.**
 
-**Notes: It is imperative to have implemented [NT-type ACLs]({{< ref "docs/Linux/FilesystemsAndStorage/acl-implementing-nt-type-permissions-on-linux.md" >}}) before continuing.**
+**Notes: It is imperative to have implemented [NT-type ACLs](../../../Linux/FilesystemsAndStorage/acl-implementing-nt-type-permissions-on-linux.md) before continuing.**
 
-To help you with this documentation, you can also consult: [Installation and Configuration of Samba in ADS Mode (Authentication on an AD Server)]({{< ref "docs/Servers/FileSharing/Samba/installation_and_configuration_of_samba_in_ads_mode_authentication_on_an_ad_server.md" >}})
+To help you with this documentation, you can also consult: [Installation and Configuration of Samba in ADS Mode (Authentication on an AD Server)](installation_and_configuration_of_samba_in_ads_mode_authentication_on_an_ad_server.md)
 
 ## Information
 
@@ -226,5 +226,5 @@ Check again and if the values are still different, directly modify the SID of th
 
 ## Resources
 
-- [Samba topics]({{< ref "docs/Servers/FileSharing/Samba/" >}})
-- [Documentation on Samba and OpenLDAP installation](../../static/pdf/openldap_samba_domain_controller_ubuntu.pdf)
+- [Samba topics](.)
+- [Documentation on Samba and OpenLDAP installation](../../../static/pdf/openldap_samba_domain_controller_ubuntu.pdf)

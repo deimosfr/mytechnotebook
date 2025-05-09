@@ -9,4 +9,4 @@ tags: ["Special pages", "View source", "Network", "Printable version", "cd ~", "
 toc: true
 ---
 
-[Shatter Attack Technique](../../static/pdf/shatter_fr.pdf)
+[Shatter Attack Technique](../../../static/pdf/shatter_fr.pdf)

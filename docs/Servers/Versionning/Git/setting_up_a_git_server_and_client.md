@@ -9,7 +9,7 @@ tags: ["git", "version control", "repository", "server", "client"]
 toc: true
 ---
 
-![Git Logo](../../static/images/git-logo.avif)
+![Git Logo](../../../static/images/git-logo.avif)
 
 ## Introduction
 
@@ -1073,7 +1073,7 @@ git push --tags
 
 Gitk provides a graphical version of your git status (branches etc.).
 
-![Gittk.jpg](../../static/images/gittk.avif)
+![Gittk.jpg](../../../static/images/gittk.avif)
 
 ## FAQ
 
@@ -1107,8 +1107,8 @@ git config --global push.default matching
 http://www.kernel.org/pub/software/scm/git/docs/user-manual.html
 http://git.wiki.kernel.org/index.php/GitFaq
 http://alexgirard.com/git-book/index.html
-[How To Install A Public Git Repository On A Debian Server](../../static/pdf/how_to_install_a_public_git_repository_on_a_debian_server.pdf)
-[Git it](../../static/pdf/gitit.pdf)
+[How To Install A Public Git Repository On A Debian Server](../../../static/pdf/how_to_install_a_public_git_repository_on_a_debian_server.pdf)
+[Git it](../../../static/pdf/gitit.pdf)
 http://www.unixgarden.com/index.php/administration-systeme/git-les-mains-dans-le-cambouis
 http://stackoverflow.com/questions/1811730/how-do-you-work-with-a-git-repository-within-another-repository
 http://chrisjean.com/2009/04/20/git-submodules-adding-using-removing-and-updating/

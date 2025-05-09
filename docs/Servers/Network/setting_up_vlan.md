@@ -123,7 +123,7 @@ iface vmbr0.110 inet static
 	vlan_raw_device vmbr0
 ```
 
-This example is made with a bridged interface because I have [KVM]({{< ref "docs/Servers/Virtualization/KVMandQemu/kvm_setting_up_kvm.md" >}}) running on it, but you're not obligated to use a bridge.
+This example is made with a bridged interface because I have [KVM](../Virtualization/KVMandQemu/kvm_setting_up_kvm.md) running on it, but you're not obligated to use a bridge.
 
 Then, when creating your VE, you don't have to do anything special when creating the network interface for your VE. Launch the creation of your VE and don't forget to install the "vlan" package to create VLAN access within your VE. Here's another example of the network configuration for the VE:
 

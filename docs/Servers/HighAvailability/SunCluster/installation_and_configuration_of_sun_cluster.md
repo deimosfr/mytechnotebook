@@ -56,7 +56,7 @@ Note: Since Sun Cluster 3.2 update 2, you don't need /globaldevices anymore and 
 ### Hostname Configuration
 
 Change the hostname to match the cluster nomenclature you want:
-[Changing Solaris hostname]({{< ref "docs/Solaris/Misc/changing-hostname-on-solaris.md" >}})
+[Changing Solaris hostname](../../../Solaris/Misc/changing-hostname-on-solaris.md)
 
 **Do not forget to apply the same /etc/hosts file to all cluster nodes!!! And when you make changes, change it on every node!**
 
@@ -67,7 +67,7 @@ Change the hostname to match the cluster nomenclature you want:
 ### IPMP Configuration
 
 You need to configure at least 2 interfaces for your public network. Follow this documentation:
-[IPMP Configuration]({{< ref "docs/Solaris/Network/ipmp_configuration.md">}})
+[IPMP Configuration](../../../Solaris/Network/ipmp_configuration.md)
 
 You don't have to do it for your private network because it will be automatically done by the cluster during installation.
 
@@ -1354,7 +1354,7 @@ If you have more than 2 nodes, use the same command but without "-o":
 
 ## References
 
-[Installation of Sun Cluster (old)]({{< ref "docs/Servers/HighAvailability/SunCluster/installation_of_sun_cluster.md">}})
+[Installation of Sun Cluster (old)](installation_of_sun_cluster.md)
 [https://en.wikipedia.org/wiki/Solaris_Cluster](https://en.wikipedia.org/wiki/Solaris_Cluster)  
 [https://opensolaris.org/os/community/ha-clusters/translations/french/relnote_fr/](https://opensolaris.org/os/community/ha-clusters/translations/french/relnote_fr/)  
 [Resources Properties](https://docs.sun.com/app/docs/doc/819-2974/6n57pdk2o?a=view#indexterm-535)  
@@ -1362,4 +1362,4 @@ If you have more than 2 nodes, use the same command but without "-o":
 [https://www.vigilanttechnologycorp.com/genasys/weblogRender.jsp?LogName=Sun%20Cluster](https://www.vigilanttechnologycorp.com/genasys/weblogRender.jsp?LogName=Sun%20Cluster)  
 [https://docs.sun.com/app/docs/doc/820-2558/gdrna?l=fr&a=view](https://docs.sun.com/app/docs/doc/820-2558/gdrna?l=fr&a=view)  
 [https://wikis.sun.com/display/SunCluster/%28English%29+Sun+Cluster+3.2+1-09+Release+Notes#%28English%29SunCluster3.21-09ReleaseNotes-optgdfsinfo](https://wikis.sun.com/display/SunCluster/%28English%29+Sun+Cluster+3.2+1-09+Release+Notes#%28English%29SunCluster3.21-09ReleaseNotes-optgdfsinfo) (Gold Mine)  
-[Deploying highly available zones with Solaris Cluster 3.2](../../static/pdf/deploying_highly_available_zones_with_solaris_cluster_3.2.pdf)
+[Deploying highly available zones with Solaris Cluster 3.2](../../../static/pdf/deploying_highly_available_zones_with_solaris_cluster_3.2.pdf)

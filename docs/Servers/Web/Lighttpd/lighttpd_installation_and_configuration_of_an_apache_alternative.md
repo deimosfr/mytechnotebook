@@ -102,7 +102,7 @@ $HTTP["host"] =~ "deimos\.fr" {
 
 It is possible to block access to all kinds of browsers. If like me, you're not friends with IE (which breaks your PNGs in version 6, doesn't respect standards, breaks CSS, etc.), it might be useful to block it and kindly indicate to the user to download Firefox as soon as possible.
 
-I did it under [Apache]({{< ref "docs/Servers/Web/Apache/apache_2_installation_and_configuration.md#blocking-access-to-your-site-via-internet-explorer" >}}) and here I couldn't pass up the opportunity to do it for Lighttpd, so here's the solution:
+I did it under [Apache](../Apache/apache_2_installation_and_configuration#blocking-access-to-your-site-via-internet-explorer) and here I couldn't pass up the opportunity to do it for Lighttpd, so here's the solution:
 
 ```perl
 $HTTP["useragent"] =~ ".*(MSIE|Opera).*" {
@@ -325,9 +325,9 @@ More info on this page: [https://redmine.lighttpd.net/wiki/1/Docs:PerformanceFas
 
 ## Resources
 
-- [Documentation on installing Lighttpd With PHP5 And MySQL Support](../../static/pdf/installing_lighttpd_with_php5_and_mysql_support.pdf)
-- [Documentation on reducing Apache's load with lighttpd](../../static/pdf/reduce_apache's_load_with_lighttpd.pdf)
-- [Optimizing Lighttpd server load](../../static/pdf/lighttpd-web-server.pdf)
+- [Documentation on installing Lighttpd With PHP5 And MySQL Support](../../../static/pdf/installing_lighttpd_with_php5_and_mysql_support.pdf)
+- [Documentation on reducing Apache's load with lighttpd](../../../static/pdf/reduce_apache's_load_with_lighttpd.pdf)
+- [Optimizing Lighttpd server load](../../../static/pdf/lighttpd-web-server.pdf)
 - [https://redmine.lighttpd.net/wiki/lighttpd/Docs](https://redmine.lighttpd.net/wiki/lighttpd/Docs)
 - [https://redmine.lighttpd.net/wiki/lighttpd/Docs:ConfigurationOptions](https://redmine.lighttpd.net/wiki/lighttpd/Docs:ConfigurationOptions)
-- [Installing Lighttpd With PHP5 And MySQL Support On Debian Lenny](../../static/pdf/installing_lighttpd_with_php5_and_mysql_support_on_debian_lenny.pdf)
+- [Installing Lighttpd With PHP5 And MySQL Support On Debian Lenny](../../../static/pdf/installing_lighttpd_with_php5_and_mysql_support_on_debian_lenny.pdf)

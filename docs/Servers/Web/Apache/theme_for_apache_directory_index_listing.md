@@ -10,7 +10,7 @@ tags:
 toc: true
 ---
 
-![File.Index](../../static/images/apachefileindex_logo.avif)
+![File.Index](../../../static/images/apachefileindex_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -22,9 +22,9 @@ toc: true
 
 ## Introduction
 
-The default Apache directory index listing is... (we can say it)... very ugly. Here is a theme I found [on this site](https://blog.is-a-geek.org/apache-file-listing-mit-eigenem-theme-verschonern) and which [I have slightly modified](../../static/others/directory_index_theme.tgz). Here's a preview:
+The default Apache directory index listing is... (we can say it)... very ugly. Here is a theme I found [on this site](https://blog.is-a-geek.org/apache-file-listing-mit-eigenem-theme-verschonern) and which [I have slightly modified](../../../static/others/directory_index_theme.tgz). Here's a preview:
 
-![Apachefileindex](../../static/images/apachefileindex.avif)
+![Apachefileindex](../../../static/images/apachefileindex.avif)
 
 ## Installation
 

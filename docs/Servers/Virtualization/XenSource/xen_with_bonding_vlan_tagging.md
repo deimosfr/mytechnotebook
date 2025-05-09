@@ -17,15 +17,15 @@ Recently, I had to set up a Xen-based solution in a somewhat special network top
 
 The different points that interest us here at the system administration level are:
 
-- [Channel Bonding]({{< ref "docs/Linux/Network/network_creating_bonding.md">}})
-- [VLAN Tagging]({{< ref "docs/Servers/Network/setting_up_vlan.md" >}})
+- [Channel Bonding](../../../Linux/Network/network_creating_bonding.md)
+- [VLAN Tagging](../../Network/setting_up_vlan.md)
 - Bridging
 
 After some research on the web, you quickly realize that you will need to create your own network script for Xen. Shame on me, I didn't really feel capable of doing that (too complicated/I don't know python/it's still too obscure for me). So I decided to move the problem from Xen to the host operating system, with most of the configuration happening at the OS level (in this case a Debian Etch), with Xen simply using what already exists.
 
 The final goal is as follows:
 
-![Xenvlanbond.png](../../static/images/xenvlanbond.avif)
+![Xenvlanbond.png](../../../static/images/xenvlanbond.avif)
 
 Don't worry about bond0, we're only interested in bond1, eth1, and eth2 here.
 

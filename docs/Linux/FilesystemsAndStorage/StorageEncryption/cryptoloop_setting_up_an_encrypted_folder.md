@@ -15,5 +15,5 @@ You can then insert everything inside and everything is encrypted. You can even 
 
 Therefore, it should be used with caution. Here is some documentation:
 
-[Documentation on Cryptoloop](../../static/pdf/cryptoloop.pdf)  
-[Device mapper and loop](../../static/pdf/device_mapper_et_loop.pdf)
+[Documentation on Cryptoloop](../../../static/pdf/cryptoloop.pdf)  
+[Device mapper and loop](../../../static/pdf/device_mapper_et_loop.pdf)

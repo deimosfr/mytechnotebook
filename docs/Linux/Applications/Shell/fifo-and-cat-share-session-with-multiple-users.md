@@ -13,7 +13,7 @@ toc: true
 
 This technique can be used to show a remote colleague or client what you're working on on the server.
 
-It's just for visual sharing and not interactive like with screen ([see this documentation]({{< ref "docs/Linux/Applications/Shell/screen_most_used_commands.md" >}})).
+It's just for visual sharing and not interactive like with screen ([see this documentation](screen_most_used_commands.md)).
 
 ## Creating a fifo file
 
@@ -61,4 +61,4 @@ Stop logging to the file with CTRL-D
 
 ## Amazing: the demo
 
-![demo](../../static/images/scriptfmkfifo.avif)
+![demo](../../../static/images/scriptfmkfifo.avif)

@@ -39,7 +39,7 @@ However, Samba is not compatible with IPv6.
 
 **The "ADS" mode allows using an LDAP server on a MS Windows AD (Active Directory) to authenticate users for accessing Samba shares. This solution is quite complex to implement but ensures increased security (authentication via Kerberos) for your server.**
 
-**Note: It is imperative to have set up [ACL: Implementation of NT-type rights]({{< ref "docs/Linux/FilesystemsAndStorage/acl-implementing-nt-type-permissions-on-linux.md" >}}) before continuing.**
+**Note: It is imperative to have set up [ACL: Implementation of NT-type rights](../../../Linux/FilesystemsAndStorage/acl-implementing-nt-type-permissions-on-linux.md) before continuing.**
 
 Active Directory is at the heart of Microsoft Windows systems; it is in charge of managing user accounts, authentications, but also a large number of information about machines.
 
@@ -430,5 +430,5 @@ mount -t cifs -o username=user,password=password //192.168.0.1/saves ./saves
 ## References
 
 Samba: [https://www.samba.org](https://www.samba.org)  
-[ADS Documentation](../../static/pdf/ads.pdf)  
-[Samba ADS on CentOS Documentation](../../static/pdf/samba_ads_centos.pdf)
+[ADS Documentation](../../../static/pdf/ads.pdf)  
+[Samba ADS on CentOS Documentation](../../../static/pdf/samba_ads_centos.pdf)

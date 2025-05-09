@@ -11,7 +11,7 @@ tags: ["OpenVPN", "VPN", "Tunnel Blick", "Security", "Network"]
 toc: true
 ---
 
-![OpenVPN](../../static/images/openvpn_logo.avif)
+![OpenVPN](../../../static/images/openvpn_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -464,9 +464,9 @@ vzctl set $my_veid --devnodes net/tun:rw --save
 
 ## Resources
 
-- [OpenVPN Installation](../../static/pdf/installation_openvpn.pdf)
-- [Documentation on a complex OpenVPN setup](../../static/pdf/openvpn_2_howto_fr.pdf)
-- [Hardware Authentication for OpenVPN](../../static/pdf/authentification_materielle_pour_openvpn.pdf)
+- [OpenVPN Installation](../../../static/pdf/installation_openvpn.pdf)
+- [Documentation on a complex OpenVPN setup](../../../static/pdf/openvpn_2_howto_fr.pdf)
+- [Hardware Authentication for OpenVPN](../../../static/pdf/authentification_materielle_pour_openvpn.pdf)
 - http://blog.innerewut.de/2005/7/4/openvpn-2-0-on-openbsd
 - http://www.openbsd-france.org/documentations/OpenBSD-openvpn.html
 - http://www.procyonlabs.com/guides/openbsd/openvpn/index.php

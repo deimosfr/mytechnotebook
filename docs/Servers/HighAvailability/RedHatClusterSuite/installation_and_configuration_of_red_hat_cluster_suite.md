@@ -9,7 +9,7 @@ tags: ["RHEL", "Cluster", "High Availability", "HA", "Red Hat"]
 toc: true
 ---
 
-![Red Hat Cluster Suite](../../static/images/red_hat_logo.avif)
+![Red Hat Cluster Suite](../../../static/images/red_hat_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -25,7 +25,7 @@ Red Hat offers a cluster based on Open Source solutions. This document explains 
 
 Here is the type of infrastructure you should have in place to install and configure a cluster:
 
-![Cluster architecture RHEL](../../static/images/cluster_archi_rhel.avif)
+![Cluster architecture RHEL](../../../static/images/cluster_archi_rhel.avif)
 
 Red Hat cluster suite works with a maximum of 16 nodes in a cluster.
 
@@ -156,7 +156,7 @@ BOOTPROTO=static
 
 ### Multipathing
 
-Generally, you will use a disk array so that data can be accessed from any machine. For this, you will need to use multipathing. [Follow this documentation to set it up]({{< ref "docs/Servers/Misc/Hardware/multipath_configuring_multiple_paths_for_external_disk_access.md">}}).
+Generally, you will use a disk array so that data can be accessed from any machine. For this, you will need to use multipathing. [Follow this documentation to set it up](../../Misc/Hardware/multipath_configuring_multiple_paths_for_external_disk_access.md).
 
 ### Firewall
 
@@ -260,7 +260,7 @@ chkconfig clvmd o
 service clvmd restart
 ```
 
-Then you can create LVM volumes as usual. If you are not very familiar with LVM, [check this documentation]({{< ref "docs/Linux/FilesystemsAndStorage/lvm_working_with_logical_volume_management.md">}}).
+Then you can create LVM volumes as usual. If you are not very familiar with LVM, [check this documentation](../../../Linux/FilesystemsAndStorage/lvm_working_with_logical_volume_management.md).
 
 You can check the status this way:
 
@@ -301,7 +301,7 @@ Our volume is now available on all nodes. **Caution: this does not mean you will
 
 ### GFS2
 
-If you need to have a filesystem shared across all nodes, you will need to [install and use GFS2]({{< ref "docs/Servers/HighAvailability/Storage/gfs2-red-hat-cluster-filesystem.md">}}).
+If you need to have a filesystem shared across all nodes, you will need to [install and use GFS2](../Storage/gfs2-red-hat-cluster-filesystem.md).
 
 ## Configuration
 
@@ -1243,4 +1243,4 @@ And here it is quorate, so no worries :-)
 - https://alteeve.com/w/RHCS_v2_cluster.conf
 - http://magazine.redhat.com/2007/12/19/enhancing-cluster-quorum-with-qdisk/
 - https://access.redhat.com/knowledge/node/2881
-- [RHEL Cluster Archi Visio](../../static/others/cluster_archi_rhel.vsd)
+- [RHEL Cluster Archi Visio](../../../static/others/cluster_archi_rhel.vsd)

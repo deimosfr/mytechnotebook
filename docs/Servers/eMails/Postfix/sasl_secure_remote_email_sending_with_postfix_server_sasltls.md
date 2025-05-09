@@ -18,7 +18,7 @@ tags:
 toc: true
 ---
 
-![Postfix](../../static/images/postfix_logo.avif)
+![Postfix](../../../static/images/postfix_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -36,7 +36,7 @@ That's what we'll try to implement here with added security (TLS) :-)
 
 ## Installation
 
-To install SASL, you must already have [installed and configured Postfix]({{< ref "docs/Servers/eMails/Postfix/installation_and_configuration_of_postfix_and_courier.md">}}). Once that's done, install SASL:
+To install SASL, you must already have [installed and configured Postfix](installation_and_configuration_of_postfix_and_courier.md). Once that's done, install SASL:
 
 ```bash
 aptitude install postfix-tls sasl2-bin libsasl2-2 libsasl2-modules openssl
@@ -293,4 +293,4 @@ instead of:
 ```
 
 ## Resources
-- [Postfix SMTP Authentication - On The Secure Port Only](../../static/pdf/postfix_smtp_authentication_-_on_the_secure_port_only.pdf)
+- [Postfix SMTP Authentication - On The Secure Port Only](../../../static/pdf/postfix_smtp_authentication_-_on_the_secure_port_only.pdf)

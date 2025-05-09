@@ -90,4 +90,4 @@ Here is a typical configuration for this type of environment with an OpenLDAP ba
 ```
 
 ## Resources
-- [Documentation on installing a Samba Domain](../../static/pdf/samba_domaincontroller.pdf)
+- [Documentation on installing a Samba Domain](../../../static/pdf/samba_domaincontroller.pdf)

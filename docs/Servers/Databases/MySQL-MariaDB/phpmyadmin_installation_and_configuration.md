@@ -27,7 +27,7 @@ This practical interface allows you to easily execute many queries without exten
 
 ## Installation
 
-To install it, you must first have installed [MySQL Server]({{< ref "docs/Servers/Databases/MySQL-MariaDB/mysql_installation_and_configuration.md" >}})! Once that's done, let's install phpMyAdmin:
+To install it, you must first have installed [MySQL Server](mysql_installation_and_configuration.md)! Once that's done, let's install phpMyAdmin:
 
 ```bash
 apt-get install phpmyadmin

@@ -173,6 +173,6 @@ Failed to bring up tun1.
 To resolve this issue, add the `-N` option to the SSH command.
 
 ## Resources
-- [Documentation on SSH VPN](../../static/pdf/tunnelling_vpn_ssh.pdf)
+- [Documentation on SSH VPN](../../../static/pdf/tunnelling_vpn_ssh.pdf)
 - http://www.kernel-panic.it/openbsd/vpn/vpn5.html
 - http://www.debian-administration.org/article/Setting_up_a_Layer_3_tunneling_VPN_with_using_OpenSSH

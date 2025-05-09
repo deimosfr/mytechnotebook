@@ -15,7 +15,7 @@ MRTG Multi Router Traffic Grapher (MRTG) is software developed under the GNU/GPL
 
 ![MRTG](../../static/images/mrtg.avif)
 
-Today, the creators of MRTG have abandoned their project and moved on to [Cacti]({{< ref "docs/Servers/Monitoring/Cacti">}}), which is a much more powerful but also much more complex product.
+Today, the creators of MRTG have abandoned their project and moved on to [Cacti](Cacti), which is a much more powerful but also much more complex product.
 
 ## Installation
 

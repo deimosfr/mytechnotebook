@@ -23,9 +23,9 @@ This documentation was created on Red Hat Enterprise Linux 6.2.
 
 ## Prerequisites
 
-- You need to [know how to use LVM]({{< ref "docs/Linux/FilesystemsAndStorage/lvm_working_with_logical_volume_management.md" >}}).
-- You must use [LVM Cluster]({{< ref "docs/Servers/HighAvailability/RedHatClusterSuite/installation_and_configuration_of_red_hat_cluster_suite.md#clvmd">}}) to be able to use GFS2 (and therefore the cluster part as well).
-- If you want to use quotas, it's better to have a good understanding of how standard filesystem quotas work by following [this documentation]({{< ref "docs/Linux/FilesystemsAndStorage/setting_up_quotas_on_linux.md">}}).
+- You need to [know how to use LVM](../../../Linux/FilesystemsAndStorage/lvm_working_with_logical_volume_management.md).
+- You must use [LVM Cluster](../RedHatClusterSuite/installation_and_configuration_of_red_hat_cluster_suite#clvmd) to be able to use GFS2 (and therefore the cluster part as well).
+- If you want to use quotas, it's better to have a good understanding of how standard filesystem quotas work by following [this documentation](../../../Linux/FilesystemsAndStorage/setting_up_quotas_on_linux.md).
 
 ## Installation
 

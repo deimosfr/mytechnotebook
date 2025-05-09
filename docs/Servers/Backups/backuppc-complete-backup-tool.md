@@ -205,7 +205,7 @@ $Conf{DumpPostUserCmd} = '$sshPath -q -x -l root $host rm -Rf /tmp/backups_sql';
 
 ### PostgreSQL
 
-To backup Postgres databases, **we need to do as usual, an [SSH key exchange]({{< ref "docs/Linux/Network/OpenSSH/openssh_ssh_key_exchange.md" >}}) but for the postgres user.**
+To backup Postgres databases, **we need to do as usual, an [SSH key exchange](../../Linux/Network/OpenSSH/openssh_ssh_key_exchange.md) but for the postgres user.**
 
 #### Backup All Databases at Once
 
@@ -336,7 +336,7 @@ If you encounter this type of error message:
 support hardlinks, or these directories don't exist, or there is a permissions problem, or the file system is out of inodes or full.  Use df, df -i, and ls -ld to check each of these possibilities. Quitting...
 ```
 
-Check the rights etc... otherwise, if you're using encfs cryptology, then it comes from that and I invite you to follow [this link](Encfs:_Mise_en_place_d'Encfs_avec_FUSE/#I_can.27t_create_hard_link)[this link]({{< ref "docs/Linux/FilesystemsAndStorage/StorageEncryption/encfs_setting_up_encfs_with_fuse.md#i-cant-create-hard-link" >}})
+Check the rights etc... otherwise, if you're using encfs cryptology, then it comes from that and I invite you to follow [this link](Encfs:_Mise_en_place_d'Encfs_avec_FUSE/#I_can.27t_create_hard_link)[this link](../../Linux/FilesystemsAndStorage/StorageEncryption/encfs_setting_up_encfs_with_fuse#i-cant-create-hard-link)
 
 ### I Lost the Backup Numbers When I Want to Restore Data
 

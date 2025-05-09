@@ -11,4 +11,4 @@ toc: true
 
 Here is documentation to secure your OpenSSH server:
 
-[Securing OpenSSH Server - Part 1](../../static/pdf/securing_openssh_server_-part_1-.pdf)
+[Securing OpenSSH Server - Part 1](../../../static/pdf/securing_openssh_server_-part_1-.pdf)

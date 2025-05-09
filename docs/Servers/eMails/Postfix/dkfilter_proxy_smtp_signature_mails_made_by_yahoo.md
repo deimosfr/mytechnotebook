@@ -38,7 +38,7 @@ submission:                     |           |
 
 Install postfix for your domain to send and receive mails with this doc:
 
-[Installation and Configuration of Postfix and Courier]({{< ref "docs/Servers/eMails/Postfix/installation_and_configuration_of_postfix_and_courier.md">}})
+[Installation and Configuration of Postfix and Courier](installation_and_configuration_of_postfix_and_courier.md)
 
 ### CPAN Perl modules
 
@@ -303,4 +303,4 @@ update-rc.d dkfilter defaults
 ```
 
 ## Resources
-- [Set Up Postfix DKIM With dkim-milter](../../static/pdf/set_up_postfix_dkim_with_dkim-milter.pdf)
+- [Set Up Postfix DKIM With dkim-milter](../../../static/pdf/set_up_postfix_dkim_with_dkim-milter.pdf)

@@ -11,7 +11,7 @@ toc: true
 
 ## Introduction
 
-Gitweb is a web interface that allows you to view all commits, comments, etc. for [git]({{< ref "docs/Servers/Versionning/Git">}}).
+Gitweb is a web interface that allows you to view all commits, comments, etc. for [git](.).
 
 ## Installation
 

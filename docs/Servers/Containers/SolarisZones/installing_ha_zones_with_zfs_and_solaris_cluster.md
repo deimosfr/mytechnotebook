@@ -11,6 +11,6 @@ toc: true
 
 Here is excellent and quick-to-implement documentation:
 
-[Installing HA Containers With ZFS Using the Solaris 10 OS and Solaris Cluster 3.2 Software](../../static/pdf/installing_ha_containers_with_zfs_using_the_solaris_10_os_and_solaris_cluster_3.2_software.pdf)
+[Installing HA Containers With ZFS Using the Solaris 10 OS and Solaris Cluster 3.2 Software](../../../static/pdf/installing_ha_containers_with_zfs_using_the_solaris_10_os_and_solaris_cluster_3.2_software.pdf)
 
-[Zone Cluster - How to Deploy virtual Clusters and why](../../static/pdf/zone-cluster-virtual-cluster.pdf)
+[Zone Cluster - How to Deploy virtual Clusters and why](../../../static/pdf/zone-cluster-virtual-cluster.pdf)

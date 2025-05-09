@@ -237,5 +237,5 @@ Once everything is working as you want, it's best to couple it with inetd or xin
 
 ## Resources
 Here are some documents covering VSFTP in various forms:
-- [Virtual Hosting with vsftpd and MySQL](../../static/pdf/virtual_hosting_vsftpd_mysql.pdf)
-- [Four highly secure FTP servers with vsftpd](../../static/pdf/quatre_serveurs_ftp_hyper_sécurisés_avec_vsftpd.pdf)
+- [Virtual Hosting with vsftpd and MySQL](../../../static/pdf/virtual_hosting_vsftpd_mysql.pdf)
+- [Four highly secure FTP servers with vsftpd](../../../static/pdf/quatre_serveurs_ftp_hyper_sécurisés_avec_vsftpd.pdf)

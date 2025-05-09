@@ -9,7 +9,7 @@ tags: ["PowerDNS", "DNS", "Caching", "Debian", "Network"]
 toc: true
 ---
 
-![PowerDNS](../../static/images/powerdns_logo.avif)
+![PowerDNS](../../../static/images/powerdns_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||

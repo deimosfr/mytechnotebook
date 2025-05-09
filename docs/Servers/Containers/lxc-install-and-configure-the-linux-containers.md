@@ -111,7 +111,7 @@ If it's not enough, you'll need to install the package with specific kernel vers
 
 ### Cgroups
 
-LXC is based on cgroups. Those are used to limit CPU, RAM etc...[You can check here for more informations]({{< ref "docs/Linux/Kernel/process_latency_and_kernel_timing.md" >}}).
+LXC is based on cgroups. Those are used to limit CPU, RAM etc...[You can check here for more informations](../../Linux/Kernel/process_latency_and_kernel_timing.md).
 
 We need to enable Cgroups. Add this line in fstab:
 
@@ -597,7 +597,7 @@ iface br1 inet static
 
 #### VLAN Bridged configuration
 
-And a last one with Vlans bridged ([look at this documentation to enable it before]({{< ref "docs/Servers/Network/setting_up_vlan.md" >}})):
+And a last one with Vlans bridged ([look at this documentation to enable it before](../Network/setting_up_vlan.md)):
 
 We will need to use etables (iptables for bridged interfaces). Install this:
 
@@ -1367,7 +1367,7 @@ lxc.cgroup.devices.allow = <type> <major>:<minor> <perm>
 
 ### Container limits (cgroups)
 
-If you've never played with Cgroups, [look at my documentation]({{< ref "docs/Linux/Kernel/process_latency_and_kernel_timing.md" >}}). With LXC, here are the available ways to setup cgroups to your containers :
+If you've never played with Cgroups, [look at my documentation](../../Linux/Kernel/process_latency_and_kernel_timing.md). With LXC, here are the available ways to setup cgroups to your containers :
 
 - You can change cgroups values with lxc-cgroup command (on the fly):
 
@@ -1673,10 +1673,10 @@ If you've got error when trying to limit swap, check the [FAQ](#cant-limit-conta
 
 By default, LXC doesn't provide any disks limitation. Anyway, there are enough solution today to make that kind of limitations:
 
-- [LVM]({{< ref "docs/Linux/FilesystemsAndStorage/lvm_working_with_logical_volume_management.md" >}}): create one LV per container
-- [BTRFS]({{< ref "docs/Linux/FilesystemsAndStorage/btrfs-using-the-ext4-replacement.md">}}): using integrated BTRFS quotas
-- [ZFS]({{< ref "docs/Solaris/Filesystems/zfs_the_filesystem_par_excellence.md">}}): if you're using ZFS on Linux, you can use integrated zfs/zpool quotas
-- [Quotas]({{< ref "docs/Linux/FilesystemsAndStorage/setting_up_quotas_on_linux.md" >}}): using classical Linux quotas (not the recommended solution)
+- [LVM](../../Linux/FilesystemsAndStorage/lvm_working_with_logical_volume_management.md): create one LV per container
+- [BTRFS](../../Linux/FilesystemsAndStorage/btrfs-using-the-ext4-replacement.md): using integrated BTRFS quotas
+- [ZFS](../../Solaris/Filesystems/zfs_the_filesystem_par_excellence.md): if you're using ZFS on Linux, you can use integrated zfs/zpool quotas
+- [Quotas](../../Linux/FilesystemsAndStorage/setting_up_quotas_on_linux.md): using classical Linux quotas (not the recommended solution)
 - Disk image: you can use QCOW/QCOW2/RAW/QED images
 
 ##### Mount

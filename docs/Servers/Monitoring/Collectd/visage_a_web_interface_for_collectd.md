@@ -11,7 +11,7 @@ toc: true
 
 ## Introduction
 
-[Visage](https://auxesis.github.com/visage/) is currently the best interface for [Collectd]({{< ref "docs/Servers/Monitoring/Collectd/collectd_installation_and_configuration.md">}}). It still needs many new features, but at present it's a superb interface that allows comparative analysis between metrics.
+[Visage](https://auxesis.github.com/visage/) is currently the best interface for [Collectd](collectd_installation_and_configuration.md). It still needs many new features, but at present it's a superb interface that allows comparative analysis between metrics.
 
 ## Installation
 

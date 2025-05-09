@@ -17,5 +17,5 @@ However, Ganeti requires pre-installed virtualization software on your servers i
 
 ## Documentation
 
-[Documentation on Xen Cluster Management With Ganeti](../../static/pdf/xen_cluster_management_with_ganeti.pdf)  
-[Xen Cluster Management With Ganeti On Debian Lenny](../../static/pdf/xen_cluster_management_with_ganeti_on_debian_lenny.pdf)
+[Documentation on Xen Cluster Management With Ganeti](../../../static/pdf/xen_cluster_management_with_ganeti.pdf)  
+[Xen Cluster Management With Ganeti On Debian Lenny](../../../static/pdf/xen_cluster_management_with_ganeti_on_debian_lenny.pdf)

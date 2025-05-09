@@ -53,7 +53,7 @@ pkg-get install CSWsysstat
 
 ## iostat
 
-iostat allows you to measure disk I/O. If you want to test the performance of disks mounted on your machines, I recommend using [screen]({{< ref "docs/Linux/Applications/Shell/screen_most_used_commands.md" >}}) to see real-time results.
+iostat allows you to measure disk I/O. If you want to test the performance of disks mounted on your machines, I recommend using [screen](../Applications/Shell/screen_most_used_commands.md) to see real-time results.
 
 ### Linux
 

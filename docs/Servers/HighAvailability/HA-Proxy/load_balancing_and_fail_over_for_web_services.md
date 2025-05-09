@@ -11,6 +11,6 @@ toc: true
 
 For comprehensive documentation on load balancing with failover for web services, please refer to our detailed HAProxy guide:
 
-[HAProxy: Load Balance Your Traffic]({{< ref "docs/Servers/HighAvailability/HA-Proxy/haproxy-load-balance-your-traffic.md" >}})
+[HAProxy: Load Balance Your Traffic](haproxy-load-balance-your-traffic.md)
 
 This guide covers setup and configuration for HTTP load balancing, MySQL/MariaDB balancing, and SSL offloading.

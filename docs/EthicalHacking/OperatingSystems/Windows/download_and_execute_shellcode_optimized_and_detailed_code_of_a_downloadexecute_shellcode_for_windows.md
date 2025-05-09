@@ -9,4 +9,4 @@ tags: ["Windows", "ShellCode", "Security", "Hacking"]
 toc: true
 ---
 
-[Download and Execute ShellCode: Optimized and Detailed Code of a Download/Execute ShellCode for Windows](../../static/pdf/download_execute_shellcode.pdf)
+[Download and Execute ShellCode: Optimized and Detailed Code of a Download/Execute ShellCode for Windows](../../../static/pdf/download_execute_shellcode.pdf)

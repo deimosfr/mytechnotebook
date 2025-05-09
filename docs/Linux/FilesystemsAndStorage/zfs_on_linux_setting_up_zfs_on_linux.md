@@ -81,4 +81,4 @@ options zfs zfs_arc_max=536870912
 
 ## References
 
-- [ZFS: The Filesystem Par Excellence]({{< ref "docs/Solaris/Filesystems/zfs_the_filesystem_par_excellence.md" >}})
+- [ZFS: The Filesystem Par Excellence](../../Solaris/Filesystems/zfs_the_filesystem_par_excellence.md)

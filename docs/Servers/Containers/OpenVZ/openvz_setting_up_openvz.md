@@ -336,7 +336,7 @@ Now you just need to configure the eth0 interface as you normally would in your 
 
 ### With VLANs
 
-You may need to create VLANs in your VEs. This works very well with a bridged interface. To do this, on the host machine, you must have a configured VLAN ([use this documentation for setup]({{< ref "docs/Servers/Network/setting_up_vlan.md" >}})). For those who still want an example:
+You may need to create VLANs in your VEs. This works very well with a bridged interface. To do this, on the host machine, you must have a configured VLAN ([use this documentation for setup](../../Network/setting_up_vlan.md)). For those who still want an example:
 
 ```bash
 # This file describes the network interfaces available on your system
@@ -374,7 +374,7 @@ iface vmbr0.110 inet static
 	vlan_raw_device vmbr0
 ```
 
-This example is made with a bridged interface because I have [KVM]({{< ref "docs/Servers/Virtualization/KVMandQemu/kvm_setting_up_kvm.md" >}}) running on it, but there's nothing forcing it to be bridged.
+This example is made with a bridged interface because I have [KVM](../../Virtualization/KVMandQemu/kvm_setting_up_kvm.md) running on it, but there's nothing forcing it to be bridged.
 
 Then, when you create your VE, you don't have to do anything special when creating the network interface for your VE. Launch the creation of your VE and don't forget to install the "vlan" package to be able to create VLAN access within your VE. Here's another example to give you an idea of the VE network configuration:
 
@@ -418,7 +418,7 @@ iface eth0.110 inet static
 
 ### With Bonding
 
-You may need to create bridged bonding in your VEs. To do this, on the host machine, you must have a configured bonding ([use this documentation for setup]({{< ref "docs/Linux/Network/network_creating_bonding.md" >}})). For those who still want an example:
+You may need to create bridged bonding in your VEs. To do this, on the host machine, you must have a configured bonding ([use this documentation for setup](../../../Linux/Network/network_creating_bonding.md)). For those who still want an example:
 
 ```bash
 # This file describes the network interfaces available on your system
@@ -454,7 +454,7 @@ Here I will only cover the client side in a VE, not a server in a VE.
 
 ### Server
 
-First on the server side, [set up your NFS server by following this documentation]({{< ref "docs/Servers/FileSharing/nfs_setting_up_an_nfs_server.md" >}}).
+First on the server side, [set up your NFS server by following this documentation](../../FileSharing/nfs_setting_up_an_nfs_server.md).
 
 Then we'll install this, which will allow us to use not only the NFS v3 protocol, but also to abstract the kernel layer (useful in case of a crash):
 
@@ -1042,9 +1042,9 @@ sed -i -e "s/00:AB:BA/FE:FF:BA/g" /etc/vz/conf/*.conf
 
 ## Resources
 
-- [Some Tips On OpenVZ Deployment](../../static/pdf/some_tips_on_openvz_deployment.pdf)
-- [Splitting Resources Evenly Between OpenVZ VMs With vzsplit](../../static/pdf/splitting_resources_evenly_between_openvz_vms_with_vzsplit.pdf)
-- [Installing And Using OpenVZ On Debian Lenny AMD64](../../static/pdf/installing_and_using_openvz_on_debian_lenny_amd64.pdf)
+- [Some Tips On OpenVZ Deployment](../../../static/pdf/some_tips_on_openvz_deployment.pdf)
+- [Splitting Resources Evenly Between OpenVZ VMs With vzsplit](../../../static/pdf/splitting_resources_evenly_between_openvz_vms_with_vzsplit.pdf)
+- [Installing And Using OpenVZ On Debian Lenny AMD64](../../../static/pdf/installing_and_using_openvz_on_debian_lenny_amd64.pdf)
 - http://www.libresys.fr/2008/10/14/les-differentes-formes-de-configuration-du-reseau-avec-openvz/
 - http://www.famille-fontes.net/comments.php?y=10&m=02&entry=entry100208-094400
 - http://wiki.openvz.org/Backup_of_a_running_container_with_vzdump

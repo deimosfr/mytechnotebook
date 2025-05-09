@@ -9,7 +9,7 @@ tags: ["Nagios", "PNP4Nagios", "Monitoring", "RRD", "Performance Graphs"]
 toc: true
 ---
 
-![PNP4Nagios](../../static/images/pnp4nagios_logo.avif)
+![PNP4Nagios](../../../static/images/pnp4nagios_logo.avif)
 
 ## Introduction
 

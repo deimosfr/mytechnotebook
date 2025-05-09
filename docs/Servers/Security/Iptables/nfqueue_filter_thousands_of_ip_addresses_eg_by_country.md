@@ -11,4 +11,4 @@ toc: true
 
 Here is documentation on the NFQUEUE module for Iptables:
 
-[Iptables filtering traffic thousands IP](../../static/pdf/iptables_filtering_traffic_thousands_ip.pdf)
+[Iptables filtering traffic thousands IP](../../../static/pdf/iptables_filtering_traffic_thousands_ip.pdf)

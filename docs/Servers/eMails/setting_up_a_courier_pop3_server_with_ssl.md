@@ -13,7 +13,7 @@ toc: true
 
 If you want to install a POP3 server so that your emails can be retrieved from a mail client or another server, then Courier POP3 is a good solution. Additionally, setting up SSL is recommended as it provides security.
 
-For the POP3 server to be fully functional, you'll obviously need it to be accompanied by a mail server ([see documentation here]({{< ref "docs/Servers/eMails">}})).
+For the POP3 server to be fully functional, you'll obviously need it to be accompanied by a mail server ([see documentation here](.)).
 
 I have done this installation on OpenBSD, so this entire documentation will be for OpenBSD, but given the simplicity of the process, it's very easily portable to other systems.
 

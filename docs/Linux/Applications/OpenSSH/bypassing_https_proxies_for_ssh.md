@@ -30,7 +30,7 @@ Port 443
 
 And restart the SSH service.
 
-PS: If you don't want to run SSH on port 443, you can use [SSLH method]({{< ref "docs/Servers/FileSharing/SFTPandFTP/sslh_multiplexing_ssl_and_ssh_connections_on_the_same_port.md" >}}) to multiplex SSL and SSH on the same port.
+PS: If you don't want to run SSH on port 443, you can use [SSLH method](../../../Servers/FileSharing/SFTPandFTP/sslh_multiplexing_ssl_and_ssh_connections_on_the_same_port.md) to multiplex SSL and SSH on the same port.
 
 ### Client
 

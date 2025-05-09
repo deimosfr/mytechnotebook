@@ -248,4 +248,4 @@ Now, use your favorite software to encrypt your emails. Send your public key to 
 
 ## Resources
 - [https://gpglinux.free.fr/](https://gpglinux.free.fr/)
-- [GnuPG - for more confidentiality]({{< ref "docs/Linux/Security/gnupg_encrypt_your_emails.md" >}})
+- [GnuPG - for more confidentiality](gnupg_encrypt_your_emails.md)

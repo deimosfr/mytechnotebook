@@ -10,7 +10,7 @@ tags:
 toc: true
 ---
 
-![KVM](../../static/images/kvm-logo.avif)
+![KVM](../../../static/images/kvm-logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -295,7 +295,7 @@ iface br1 inet static
 
 #### VLAN Bridged configuration
 
-And a last one with Vlans bridged ([look at this documentation to enable it before]({{< ref "docs/Servers/Network/setting_up_vlan.md" >}})):
+And a last one with Vlans bridged ([look at this documentation to enable it before](../../Network/setting_up_vlan.md)):
 
 We will need to use etables (iptables for bridged interfaces). Install this:
 
@@ -640,7 +640,7 @@ You can easily install locally or remotly this GUI to manage your VMs:
 apt-get install virt-manager virt-viewer
 ```
 
-![Virt Manager Screenshot](../../static/images/virt-manager-screenshot.avif)
+![Virt Manager Screenshot](../../../static/images/virt-manager-screenshot.avif)
 
 Just connect remotly or locally and double click to launch a VM (and use it as vnc).
 
@@ -804,7 +804,7 @@ virsh define /etc/libvirt/qemu/my_vm.xml
 
 ### Serial Port Connection
 
-If you want to connect to serial port, [you need to have configured your guest to enable it]({{< ref "docs/Linux/Misc/activating-serial-port-on-linux.md">}}), then connect with virsh:
+If you want to connect to serial port, [you need to have configured your guest to enable it](../../../Linux/Misc/activating-serial-port-on-linux.md), then connect with virsh:
 
 ```bash
 virsh connect <hostname>
@@ -969,7 +969,7 @@ CPU time:       6,6s
 CPU Affinity:   --yy--yy
 ```
 
-If you want to know more [how cpusets works, follow that link]({{< ref "docs/Linux/Kernel/process_latency_and_kernel_timing.md#cpuset" >}}).
+If you want to know more [how cpusets works, follow that link](../../../Linux/Kernel/process_latency_and_kernel_timing#cpuset).
 
 ## Others
 
@@ -1174,10 +1174,10 @@ rm -Rf /var/run/libvirt
 ## Ressources
 
 - https://help.ubuntu.com/community/KVM
-- [Documentation for Speeding up QEMU with KVM and KQEMU](../../static/pdf/speed_up_qemu.pdf)
-- [Documentation on using KVM on Ubuntu](../../static/pdf/using_kvm_on_ubuntu.pdf)
-- [Virtualization With KVM](../../static/pdf/virtualization_with_kvm.pdf)
-- [KVM Guest Management With Virt-Manager](../../static/pdf/kvm_guest_management_with_virt-manager.pdf)
+- [Documentation for Speeding up QEMU with KVM and KQEMU](../../../static/pdf/speed_up_qemu.pdf)
+- [Documentation on using KVM on Ubuntu](../../../static/pdf/using_kvm_on_ubuntu.pdf)
+- [Virtualization With KVM](../../../static/pdf/virtualization_with_kvm.pdf)
+- [KVM Guest Management With Virt-Manager](../../../static/pdf/kvm_guest_management_with_virt-manager.pdf)
 - http://www.linux-kvm.org/page/Using_VirtIO_NIC
 - http://blog.loftninjas.org/2008/10/22/kvm-virtio-network-performance/
 - http://www.linux-kvm.org/page/Tuning_KVM

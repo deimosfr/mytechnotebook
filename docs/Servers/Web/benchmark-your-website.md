@@ -108,7 +108,7 @@ Percentage of the requests served within a certain time (ms)
 
 Here, the server is capable of handling 369 requests per second. That's pretty good, but **the CPU on the server side was close to 80%**.
 
-Now, let's add [a cache server]({{< ref "docs/Servers/Web/Caches">}}) like [Varnish]({{< ref "docs/Servers/Web/Caches/varnish_a_website_accelerator.md">}}), then run the benchmarks again:
+Now, let's add [a cache server](Caches) like [Varnish](Caches/varnish_a_website_accelerator.md), then run the benchmarks again:
 
 ```bash {linenos=table,hl_lines=[26]}
 > ab -c 5 -t 30 http://blog.deimos.fr/index.php

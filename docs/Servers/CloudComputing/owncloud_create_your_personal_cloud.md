@@ -24,13 +24,13 @@ toc: true
 
 [ownCloud](https://owncloud.org/)[^1] is an open source implementation of online storage services and various applications (cloud computing).
 
-This tutorial bases the installation of ownCloud on [Nginx]({{< ref "docs/Servers/Web/Nginx/nginx_installation_and_configuration_as_an_apache_alternative.md">}}) and [MariaDB]({{< ref "docs/Servers/Databases/MySQL-MariaDB/mysql_installation_and_configuration.md" >}}).
+This tutorial bases the installation of ownCloud on [Nginx](../Web/Nginx/nginx_installation_and_configuration_as_an_apache_alternative.md) and [MariaDB](../Databases/MySQL-MariaDB/mysql_installation_and_configuration.md).
 
 ## Server Installation
 
 ### MariaDB
 
-We need to have [MariaDB]({{< ref "docs/Servers/Databases/MySQL-MariaDB/mysql_installation_and_configuration.md" >}}) installed. Then, we must create a database and an account:
+We need to have [MariaDB](../Databases/MySQL-MariaDB/mysql_installation_and_configuration.md) installed. Then, we must create a database and an account:
 
 ```sql
 > mysql -uroot -p

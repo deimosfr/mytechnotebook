@@ -30,7 +30,7 @@ Seafile lets you create groups with file syncing, wiki, and discussion enabling 
 For this documentation, you need to have:
 
 1. A web server (here [Nginx](/Nginx_:_Installation_et_configuration_d'une_alternative_d'Apache/))
-2. A [MariaDB]({{< ref "docs/Servers/Databases/MySQL-MariaDB/mariadb_migration_from_mysql.md">}}) / [MySQL server]({{< ref "docs/Servers/Databases/MySQL-MariaDB/mysql_installation_and_configuration.md">}})
+2. A [MariaDB](../Databases/MySQL-MariaDB/mariadb_migration_from_mysql.md) / [MySQL server](../Databases/MySQL-MariaDB/mysql_installation_and_configuration.md)
 3. Python installed
 
 ## Installation

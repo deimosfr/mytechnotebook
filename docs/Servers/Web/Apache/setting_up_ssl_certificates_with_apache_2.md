@@ -222,11 +222,11 @@ There were some ugly tricks to avoid the warning in the browser, like putting a 
 
 So here's the solution that explains that even if the OpenSSL lib doesn't support the TLS extension that you need (SNI), on the GNU side it has been supported for 2 years. Here's the long-awaited documentation:
 
-- [Documentation on the implementation of multi-SSL with mod_gnutls](../../static/pdf/ssl_mod_gnutls.pdf)
-- [Documentation on enabling multiple HTTPS Sites For one IP using TLS extensions](../../static/pdf/enable_multiple_https_sites_for_one_ip_using_tls_extensions.pdf)
+- [Documentation on the implementation of multi-SSL with mod_gnutls](../../../static/pdf/ssl_mod_gnutls.pdf)
+- [Documentation on enabling multiple HTTPS Sites For one IP using TLS extensions](../../../static/pdf/enable_multiple_https_sites_for_one_ip_using_tls_extensions.pdf)
 
 ## References
 
-- [SSL and Certificates Documentation](../../static/pdf/secure_websites_using_ssl_and_certificates.pdf)
+- [SSL and Certificates Documentation](../../../static/pdf/secure_websites_using_ssl_and_certificates.pdf)
 - [https://www.traduc.org/docs/HOWTO/lecture/SSL-Certificates-HOWTO.html](https://www.traduc.org/docs/HOWTO/lecture/SSL-Certificates-HOWTO.html)
 - [Documentation for OpenBSD](https://www.openbsd.org/faq/fr/faq10.html#HTTPS)

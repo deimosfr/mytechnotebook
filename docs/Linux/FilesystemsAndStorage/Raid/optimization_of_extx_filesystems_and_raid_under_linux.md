@@ -18,7 +18,7 @@ tags:
 toc: true
 ---
 
-![Linux](../../static/images/poweredbylinux.avif)
+![Linux](../../../static/images/poweredbylinux.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -32,7 +32,7 @@ toc: true
 
 All file operations on Linux are managed by VFS. The VFS layer is a common kernel interface for applications to access files. VFS handles the communication with different drivers. The inode and dentry cache is also managed by VFS. VFS is therefore capable of managing different types of filesystems, even network ones, through a common interface.
 
-![VFS](../../static/images/vfs.avif)
+![VFS](../../../static/images/vfs.avif)
 
 To see the list of loaded filesystem drivers that can be used by VFS:
 
@@ -64,7 +64,7 @@ nodev	binfmt_misc
 
 ## ExtX
 
-![Ext2fs structure](../../static/images/ext2fs_struct.avif)
+![Ext2fs structure](../../../static/images/ext2fs_struct.avif)
 
 ExtX filesystems are divided into block groups, all of which have the same structure and help limit fragmentation. Each block group has its own inode table. The fact that each group manages its own table considerably reduces access times. When the kernel wants to allocate data blocks for a file, it will try to allocate them in the same block group.
 
@@ -552,7 +552,7 @@ mdadm -C /dev/md0 -l1 -n2 -b /tmp/md0 --write-behind=256 /dev/sdal --write-mostl
 2. [https://kernel.org/doc/Documentation/filesystems/mandatory-locking.txt](https://kernel.org/doc/Documentation/filesystems/mandatory-locking.txt)
 3. [https://fr.wikipedia.org/wiki/RAID\_%28informatique%29](https://fr.wikipedia.org/wiki/RAID_%28informatique%29)
 4. [Configuration of a Software Raid](/Configuration_d'un_Raid_logiciel/)
-5. [Sysstat: Essential tools for analyzing performance issues]({{< ref "docs/Linux/Misc/sysstat_essential_tools_for_analyzing_performance_issues.md">}})
+5. [Sysstat: Essential tools for analyzing performance issues](../../Misc/sysstat_essential_tools_for_analyzing_performance_issues.md)
 6. [https://kernel.org/doc/Documentation/md.txt](https://kernel.org/doc/Documentation/md.txt)
 7. [https://makarevitch.org/rant/raid/](https://makarevitch.org/rant/raid/)
 8. [https://access.redhat.com/knowledge/docs/fr-FR/Red_Hat_Enterprise_Linux/6/html/Migration_Planning_Guide/chap-Migration_Guide-File_Systems.html](https://access.redhat.com/knowledge/docs/fr-FR/Red_Hat_Enterprise_Linux/6/html/Migration_Planning_Guide/chap-Migration_Guide-File_Systems.html)

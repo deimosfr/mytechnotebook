@@ -125,7 +125,7 @@ apt-get install sshfs fuse
 
 ##### Key exchange
 
-You first need to do [key exchange]({{< ref "docs/Linux/Network/OpenSSH/openssh_ssh_key_exchange.md" >}}) from the root user on remote host.
+You first need to do [key exchange](../../Linux/Network/OpenSSH/openssh_ssh_key_exchange.md) from the root user on remote host.
 
 ##### Autofs configuration
 

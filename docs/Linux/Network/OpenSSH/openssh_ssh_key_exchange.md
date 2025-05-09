@@ -137,6 +137,6 @@ PermitEmptyPasswords yes
 Restart your SSH service, and there you go, your server is now completely insecure :)
 
 ## Resources
-- [How To Set Up SSH With Public-Key Authentication](../../static/pdf/how_to_set_up_ssh_with_public-key_authentication_on_debian.pdf)
+- [How To Set Up SSH With Public-Key Authentication](../../../static/pdf/how_to_set_up_ssh_with_public-key_authentication_on_debian.pdf)
 
 [^1]: http://docstore.mik.ua/orelly/networking_2ndEd/ssh/ch06_03.htm

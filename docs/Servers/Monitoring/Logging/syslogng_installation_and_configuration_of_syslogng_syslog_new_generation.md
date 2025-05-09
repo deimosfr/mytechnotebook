@@ -554,4 +554,4 @@ This is most likely due to a connection problem to the database. Check your perm
 
 ## Resources
 - http://www.supinfo-projects.com/fr/2005/syslogng_2005/1/
-- [Install a Syslog Server](../../static/pdf/installer_un_serveur_syslog.pdf)
+- [Install a Syslog Server](../../../static/pdf/installer_un_serveur_syslog.pdf)

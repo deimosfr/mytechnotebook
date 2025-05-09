@@ -11,4 +11,4 @@ toc: true
 
 Here is a fairly complete documentation on setting up PF, OpenNTPD, and more:
 
-[OpenBSD Configuration Guide](../../static/pdf/openbsd.pdf)
+[OpenBSD Configuration Guide](../../../static/pdf/openbsd.pdf)

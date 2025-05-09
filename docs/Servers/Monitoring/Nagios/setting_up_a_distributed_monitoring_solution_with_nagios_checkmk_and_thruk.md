@@ -9,7 +9,7 @@ tags: ["Nagios", "CheckMK", "Thruk", "Monitoring", "Distributed Systems"]
 toc: true
 ---
 
-![Nagios](../../static/images/nagios_logo.avif)
+![Nagios](../../../static/images/nagios_logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -22,13 +22,13 @@ toc: true
 
 Before starting with this documentation, it's recommended to be familiar with certain tools. Here's the list with associated documentation:
 
-- [Nagios]({{< ref "docs/Servers/Monitoring/Nagios/nagios_installation_and_configuration.md" >}})
-- [Check Mk]({{< ref "docs/Servers/Monitoring/Nagios/check_mk_collect_nagios_info_and_extend_possibilities.md" >}})
-- [Thruk]({{< ref "docs/Servers/Monitoring/Nagios/thruk_an_advanced_interface_for_nagios_and_mklivestatus.md" >}})
+- [Nagios](nagios_installation_and_configuration.md)
+- [Check Mk](check_mk_collect_nagios_info_and_extend_possibilities.md)
+- [Thruk](thruk_an_advanced_interface_for_nagios_and_mklivestatus.md)
 
 The purpose of this documentation is to install a Thruk server capable of displaying information from different remote Nagios servers:
 
-![Distributed Monitoring Architecture](../../static/images/nct_1.avif)
+![Distributed Monitoring Architecture](../../../static/images/nct_1.avif)
 
 This diagram will be our reference throughout the tutorial.
 
@@ -41,7 +41,7 @@ We will need 4 servers with the following services installed:
 
 In the end, we want to get decentralized screens without any dependency between them:
 
-![Decentralized Architecture](../../static/images/nct_2.avif)
+![Decentralized Architecture](../../../static/images/nct_2.avif)
 
 ## Thruk: Display Server
 
@@ -131,7 +131,7 @@ cd check_mk-version/
 ./setup.sh
 ```
 
-Use the setup with default options. If needed, [refer to the CheckMk documentation for more information]({{< ref "docs/Servers/Monitoring/Nagios/check_mk_collect_nagios_info_and_extend_possibilities.md" >}}).
+Use the setup with default options. If needed, [refer to the CheckMk documentation for more information](check_mk_collect_nagios_info_and_extend_possibilities.md).
 Then install the agent:
 
 ```bash

@@ -24,11 +24,11 @@ A [Red Hat Satellite](https://www.fr.redhat.com/red_hat_network/) server is a so
 
 If you don't have the money or simply want to create a lab, you can use its free equivalent: [Spacewalk](https://spacewalk.redhat.com/) (hence the logo).
 
-![Satellite schema.gif](../../static/images/satellite_schema.avif)
+![Satellite schema.gif](../../../static/images/satellite_schema.avif)
 
 ## Prerequisites
 
-Have a [local Red Hat DVD repository]({{< ref "docs/Linux/Packages/RedHat/redhat-dvd-repository.md">}}) or direct access to the RHN (this is ideal, as you'll need it anyway).
+Have a [local Red Hat DVD repository](../../../Linux/Packages/RedHat/redhat-dvd-repository.md) or direct access to the RHN (this is ideal, as you'll need it anyway).
 
 ### Packages
 
@@ -60,7 +60,7 @@ For the installation, the simplest approach is to temporarily disable the SELinu
 setenforce 0
 ```
 
-It is then recommended to leave it disabled ([see the documentation for persistence]({{< ref "docs/Linux/Security/secure_your_architecture_with_selinux.md">}}))
+It is then recommended to leave it disabled ([see the documentation for persistence](../../../Linux/Security/secure_your_architecture_with_selinux.md))
 
 ### Sysctl
 
@@ -79,7 +79,7 @@ Make sure that all future clients (as well as the server) have access to the DNS
 
 ### Satellite Master
 
-To install it, it's quite simple - there's an installer that does everything. However, you'll need the Red Hat DVD for dependencies (I recommend [a local repository]({{< ref "docs/Linux/Packages/RedHat/redhat-dvd-repository.md">}})), and to copy the Satellite installer locally (/home/sat in my case).
+To install it, it's quite simple - there's an installer that does everything. However, you'll need the Red Hat DVD for dependencies (I recommend [a local repository](../../../Linux/Packages/RedHat/redhat-dvd-repository.md)), and to copy the Satellite installer locally (/home/sat in my case).
 
 _Note: use the '--disconnected' option if you are behind a proxy during installation._
 
@@ -588,7 +588,7 @@ Downloading:###################
 ...
 ```
 
-The rhn-tools will be used for [kickstarts]({{< ref "docs/Linux/Misc/RedHat/creating_a_red_hat_kickstart_to_automate_installations.md">}}).
+The rhn-tools will be used for [kickstarts](../../../Linux/Misc/RedHat/creating_a_red_hat_kickstart_to_automate_installations.md).
 
 ### Deleting a repository
 
@@ -749,7 +749,7 @@ Note: The password fields above are not required when this box is checked; howev
 
 To connect to the web interface, it's very simple, go to HTTPS on your server ([https://satellite-master](https://satellite-master)):
 
-![Satellite admin create.png](../../static/images/satellite_admin_create.avif)
+![Satellite admin create.png](../../../static/images/satellite_admin_create.avif)
 
 Then fill in the information and click "Create Account".
 
@@ -757,7 +757,7 @@ Then fill in the information and click "Create Account".
 
 To configure the timezone, it's done in the graphical interface:
 
-![Satellite timezone.png](../../static/images/satellite_timezone.avif)
+![Satellite timezone.png](../../../static/images/satellite_timezone.avif)
 
 ### Adding a custom repository
 
@@ -887,13 +887,13 @@ To help us with bulk package signing, we'll create a small preferences file:
 
 Replace the value of '%\_gpg_name' with your key ID.
 
-Now we'll declare our new key in Satellite at the [kickstart]({{< ref "docs/Linux/Misc/RedHat/creating_a_red_hat_kickstart_to_automate_installations.md">}}) level so our automated installations have this key present:
+Now we'll declare our new key in Satellite at the [kickstart](../../../Linux/Misc/RedHat/creating_a_red_hat_kickstart_to_automate_installations.md) level so our automated installations have this key present:
 
-![Satellite gpg.png](../../static/images/satellite_gpg.avif)
+![Satellite gpg.png](../../../static/images/satellite_gpg.avif)
 
 And finally the custom repository must contain the GPG information:
 
-![Satellite gpg repo.png](../../static/images/satellite_gpg_repo.avif)
+![Satellite gpg repo.png](../../../static/images/satellite_gpg_repo.avif)
 
 #### Adding packages
 
@@ -923,7 +923,7 @@ Red Hat Network password:
 
 Now you need to update the package list in the web interface so clients can see them:
 
-![Satellite custom repo.png](../../static/images/satellite_custom_repo.avif)
+![Satellite custom repo.png](../../../static/images/satellite_custom_repo.avif)
 
 Now, on the client, you just need to do:
 
@@ -1118,7 +1118,7 @@ In this section, we'll see how clients can communicate with our satellite server
 
 #### Registration
 
-To register a machine in your satellite server that was not deployed via [kickstart]({{< ref "docs/Linux/Misc/RedHat/creating_a_red_hat_kickstart_to_automate_installations.md">}}), run this command to register it:
+To register a machine in your satellite server that was not deployed via [kickstart](../../../Linux/Misc/RedHat/creating_a_red_hat_kickstart_to_automate_installations.md), run this command to register it:
 
 ```bash
 rhn-register

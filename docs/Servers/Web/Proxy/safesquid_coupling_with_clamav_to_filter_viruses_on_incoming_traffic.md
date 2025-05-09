@@ -11,4 +11,4 @@ toc: true
 
 SafeSquid coupled with ClamAV allows you to analyze incoming traffic to detect potential viruses. Here's documentation on how to implement this:
 
-[Documentation on how to Set Up Gateway Level Virus Security With ClamAV And SafeSquid Proxy](../../static/pdf/set_up_gateway_level_virus_security_with_clamav_and_safesquid_proxy.pdf)
+[Documentation on how to Set Up Gateway Level Virus Security With ClamAV And SafeSquid Proxy](../../../static/pdf/set_up_gateway_level_virus_security_with_clamav_and_safesquid_proxy.pdf)

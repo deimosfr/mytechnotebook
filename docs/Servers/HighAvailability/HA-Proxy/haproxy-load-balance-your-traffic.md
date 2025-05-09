@@ -10,7 +10,7 @@ tags:
 toc: true
 ---
 
-![HAProxy](../../static/images/haproxy-logo.avif)
+![HAProxy](../../../static/images/haproxy-logo.avif)
 
 {{< table "table-hover table-striped" >}}
 |||
@@ -181,7 +181,7 @@ listen mariadb-read-slaves 0.0.0.0:3306
 
 ### Offloading SSL
 
-SSL Offloading permits to decrypt SSL and forward traffic to a web server without SSL. This can be very useful used with a caching server like Varnish ([you can also do it with Nginx]({{< ref "docs/Servers/Web/Nginx/nginx_varnish_cache_even_in_https_by_offloading_ssl.md">}})).
+SSL Offloading permits to decrypt SSL and forward traffic to a web server without SSL. This can be very useful used with a caching server like Varnish ([you can also do it with Nginx](../../Web/Nginx/nginx_varnish_cache_even_in_https_by_offloading_ssl.md)).
 
 To start, create a SSL folder and concatenate all your certificates in one:
 
@@ -261,4 +261,4 @@ Edit and replace highlighted lines with your desired information. Then restart H
 
 If you activate the web interface, you can get multiple information (http://<server_ip>/haproxy?stats):
 
-![HAProxy web interface](../../static/images/haproxy-webinterface.avif)
+![HAProxy web interface](../../../static/images/haproxy-webinterface.avif)

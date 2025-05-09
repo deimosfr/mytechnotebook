@@ -70,7 +70,7 @@ Alternatively, you can install it manually from the main site.
 
 #### PostgreSQL
 
-If after installation you don't want to use MySQL but Postgres as a database, you'll certainly encounter some issues. [Refer to this link]({{< ref "docs/Servers/Databases/PostgreSQL/postgresql_installation_and_configuration.md">}}) and look at the FAQ. If it still doesn't work, if you encounter other types of errors, then try this:
+If after installation you don't want to use MySQL but Postgres as a database, you'll certainly encounter some issues. [Refer to this link](../../Databases/PostgreSQL/postgresql_installation_and_configuration.md) and look at the FAQ. If it still doesn't work, if you encounter other types of errors, then try this:
 
 If you are using Postgres, you will need to either have a database and user created for you, or simply supply the name of a Postgres user with "superuser" privileges to the configuration form. Often, this is the database user named **postgres**.
 
@@ -985,4 +985,4 @@ php maintenance/update.php
 ```
 
 ## Resources
-- [Your Knowledge Base with Mediawiki](../../static/pdf/votre_base_de_connaissance_avec_mediawiki.pdf)
+- [Your Knowledge Base with Mediawiki](../../../static/pdf/votre_base_de_connaissance_avec_mediawiki.pdf)

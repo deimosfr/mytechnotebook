@@ -169,4 +169,4 @@ rm -f /usr/lib/courier/popd.rand
 Now that you've reached this point, you should better understand which options to modify.
 
 ## Resources
-- [Create your own Certificate Authority](../../static/pdf/unix_openssl_et_ac.pdf)
+- [Create your own Certificate Authority](../../../static/pdf/unix_openssl_et_ac.pdf)

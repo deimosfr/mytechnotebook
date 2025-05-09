@@ -306,7 +306,7 @@ It's possible to have more information about NUMA management on a PID (here 1):
 7fff85d22000 default
 ```
 
-If you want to have finer control of NUMA and decide on processor assignments, [you should look at cpuset]({{< ref "docs/Linux/Kernel/process_latency_and_kernel_timing.md#cpuset" >}})[^7]. It's widely used for applications that need low latency.
+If you want to have finer control of NUMA and decide on processor assignments, [you should look at cpuset](process_latency_and_kernel_timing#cpuset)[^7]. It's widely used for applications that need low latency.
 
 ### numactl
 

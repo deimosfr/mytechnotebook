@@ -942,7 +942,7 @@ file.close()
 
 ### Strip
 
-You may know [chomp in Perl]({{< ref "docs/Coding/Perl/introduction_to_perl.md" >}}#chomp), the strip() function allows doing the same thing, that is removing invisible characters (spaces, tabs, line breaks) from the beginning and end of a string. This function is part of the string module and has two variants:
+You may know [chomp in Perl](../Perl/introduction_to_perl.md#chomp), the strip() function allows doing the same thing, that is removing invisible characters (spaces, tabs, line breaks) from the beginning and end of a string. This function is part of the string module and has two variants:
 
 - lstrip(): only removes characters at the beginning of the string ('l' for left)
 - rstrip(): only removes characters at the end of the string ('r' for right)

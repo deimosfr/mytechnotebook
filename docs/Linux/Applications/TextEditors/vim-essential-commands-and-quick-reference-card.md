@@ -31,7 +31,7 @@ Remove unnecessary spaces and tabs at the end of lines:
 :%s/\s\+$//
 ```
 
-Here are also the [Quick Reference Card](../../static/pdf/vimqrc.pdf) and [the same in French](../../static/pdf/vimqrcfr.pdf) :-).
+Here are also the [Quick Reference Card](../../../static/pdf/vimqrc.pdf) and [the same in French](../../../static/pdf/vimqrcfr.pdf) :-).
 
 ## The Functions
 
@@ -160,6 +160,6 @@ If you want to get the latest version of my vimrc, go to my git: [https://www.de
 - [https://vimcasts.org/](https://vimcasts.org/)
 - [https://vim-adventures.com/](https://vim-adventures.com/)
 - [Vim Config Generator](https://yoursachet.com/)
-- [Quick Reference Card](../../static/pdf/vimqrc.pdf)
-- [Quick Reference Card (French)](../../static/pdf/vimqrcfr.pdf)
-- [The new and improved Vim editor](../../static/pdf/au-speakingunix_vim-pdf.pdf)
+- [Quick Reference Card](../../../static/pdf/vimqrc.pdf)
+- [Quick Reference Card (French)](../../../static/pdf/vimqrcfr.pdf)
+- [The new and improved Vim editor](../../../static/pdf/au-speakingunix_vim-pdf.pdf)

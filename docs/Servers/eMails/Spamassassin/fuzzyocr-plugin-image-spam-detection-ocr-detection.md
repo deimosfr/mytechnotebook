@@ -335,4 +335,4 @@ You should know that if the spam is very well camouflaged, detection will fail. 
 
 ## Other Documentation
 
-[Here is another documentation in English](../../static/pdf/fuzzyocr_debian.pdf)
+[Here is another documentation in English](../../../static/pdf/fuzzyocr_debian.pdf)
