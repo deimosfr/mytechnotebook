@@ -22,67 +22,62 @@ Here's why so many developers love Docker:
 
 ## Installation
 
-{{< tabs tabTotal="2">}}
-{{% tab tabName="Debian" %}}
+=== "Debian"
 
-Update your package index:
+    Update your package index:
 
-Install required packages to allow apt to use a repository over HTTPS:
+    Install required packages to allow apt to use a repository over HTTPS:
 
-```bash
-sudo apt-get update && apt-get install -y ca-certificates curl gnupg lsb-release
-```
+    ```bash
+    sudo apt-get update && apt-get install -y ca-certificates curl gnupg lsb-release
+    ```
 
-Add Docker's official GPG key:
+    Add Docker's official GPG key:
 
-```bash
-sudo mkdir -p /etc/apt/keyrings
-curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
-```
+    ```bash
+    sudo mkdir -p /etc/apt/keyrings
+    curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+    ```
 
-Set up the repository:
+    Set up the repository:
 
-```bash
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-```
+    ```bash
+    echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+    ```
 
-Update apt again and install Docker:
+    Update apt again and install Docker:
 
-```bash
-sudo apt-get update
-sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
-```
+    ```bash
+    sudo apt-get update
+    sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+    ```
 
-{{% /tab %}}
-{{% tab tabName="RedHat" %}}
+=== "RedHat"
 
-Install required packages:
+    Install required packages:
 
-```bash
-sudo yum install -y yum-utils
-```
+    ```bash
+    sudo yum install -y yum-utils
+    ```
 
-Add the Docker repository:
+    Add the Docker repository:
 
-```bash
-sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-```
+    ```bash
+    sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+    ```
 
-Install Docker:
+    Install Docker:
 
-```bash
-sudo yum install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
-```
+    ```bash
+    sudo yum install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+    ```
 
-Start and enable Docker service:
+    Start and enable Docker service:
 
-```bash
-sudo systemctl start docker
-sudo systemctl enable docker
-```
-
-{{% /tab %}}
-{{< /tabs >}}
+    ```bash
+    sudo systemctl start docker
+    sudo systemctl enable docker
+    ```
 
 Verify the installation:
 

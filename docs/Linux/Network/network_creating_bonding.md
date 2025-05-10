@@ -202,96 +202,91 @@ Link Failure Count: 0
 
 ### Automatic Configuration Files
 
-{{< tabs tabTotal="3">}}
-{{% tab tabName="Debian" %}}
+=== "Debian"
 
-Here are the files to modify to load your configuration at startup, add to /etc/modules.conf or /etc/modprobe.d/arch/i386:
+    Here are the files to modify to load your configuration at startup, add to /etc/modules.conf or /etc/modprobe.d/arch/i386:
 
-```text
-alias bond0 bonding
-options bond0 mode=0 miimon=100
-```
+    ```text
+    alias bond0 bonding
+    options bond0 mode=0 miimon=100
+    ```
 
-In `/etc/network/interfaces` for active-backup:
+    In `/etc/network/interfaces` for active-backup:
 
-```text
-auto bond0
-iface bond0 inet static
-    address 10.31.1.5
-    netmask 255.255.255.0
-    network 10.31.1.0
-    gateway 10.31.1.254
-    slaves eth0 eth1
-    bond_mode active-backup
-    bond_miimon 100
-    bond_downdelay 200
-    bond_updelay 200
-```
+    ```text
+    auto bond0
+    iface bond0 inet static
+        address 10.31.1.5
+        netmask 255.255.255.0
+        network 10.31.1.0
+        gateway 10.31.1.254
+        slaves eth0 eth1
+        bond_mode active-backup
+        bond_miimon 100
+        bond_downdelay 200
+        bond_updelay 200
+    ```
 
-Or for 802.3ad in `/etc/network/interfaces` :
+    Or for 802.3ad in `/etc/network/interfaces` :
 
-```text
-auto lo
-iface lo inet loopback
+    ```text
+    auto lo
+    iface lo inet loopback
 
-auto bond0
-iface bond0 inet static
-   address 192.168.1.1
-   netmask 255.255.255.0
-   gateway 192.168.1.254
-   network 192.168.1.0
-   bond-slaves enp1s0 enp2s0
-   bond-mode 4
-   bond-miimon 100
-   bond-downdelay 200
-   bond-updelay 200
-```
+    auto bond0
+    iface bond0 inet static
+      address 192.168.1.1
+      netmask 255.255.255.0
+      gateway 192.168.1.254
+      network 192.168.1.0
+      bond-slaves enp1s0 enp2s0
+      bond-mode 4
+      bond-miimon 100
+      bond-downdelay 200
+      bond-updelay 200
+    ```
 
-{{% /tab %}}
-{{% tab tabName="RedHat" %}}
+=== "RedHat"
 
-If you are on RHEL 6, in the file /etc/modprobe.d/bonding.conf, create the following line:
+    If you are on RHEL 6, in the file /etc/modprobe.d/bonding.conf, create the following line:
 
-```text
-alias bond0 bonding
-```
+    ```text
+    alias bond0 bonding
+    ```
 
-If you are on RHEL <6, it will be in the /etc/modprobes.conf file that you will need to insert this same content.
+    If you are on RHEL <6, it will be in the /etc/modprobes.conf file that you will need to insert this same content.
 
-In /etc/sysconfig/network-script/, create the ifcfg-bond0 file to enter the bonding configuration:
+    In /etc/sysconfig/network-script/, create the ifcfg-bond0 file to enter the bonding configuration:
 
-```text
-DEVICE=bond0
-IPADDR=192.168.0.104
-NETMASK=255.255.255.0
-GATEWAY=192.168.0.1
-ONBOOT=yes
-BOOTPROTO=static
-BONDING_OPTS="mode 1"
-```
+    ```text
+    DEVICE=bond0
+    IPADDR=192.168.0.104
+    NETMASK=255.255.255.0
+    GATEWAY=192.168.0.1
+    ONBOOT=yes
+    BOOTPROTO=static
+    BONDING_OPTS="mode 1"
+    ```
 
-Then we will move on to our network interfaces to tell them that they will be used for bonding:
+    Then we will move on to our network interfaces to tell them that they will be used for bonding:
 
-```text
-DEVICE=eth0
-MASTER=bond0
-ONBOOT=yes
-SLAVE=yes
-BOOTPROTO=static
-```
+    ```text
+    DEVICE=eth0
+    MASTER=bond0
+    ONBOOT=yes
+    SLAVE=yes
+    BOOTPROTO=static
+    ```
 
-Do the same for interface 1:
+    Do the same for interface 1:
 
-```text
-DEVICE=eth1
-MASTER=bond0
-ONBOOT=yes
-SLAVE=yes
-BOOTPROTO=static
-```
-
-{{% /tab %}}
-{{< /tabs >}}
+    ```text
+    DEVICE=eth1
+    MASTER=bond0
+    ONBOOT=yes
+    SLAVE=yes
+    BOOTPROTO=static
+    ```
 
 ### Bonding Module Options
 
