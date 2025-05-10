@@ -1,10 +1,13 @@
 ---
 name: BSD
+icon: simple/openbsd
 search:
   exclude: true
 ---
 
-<!--# Title --># :simple-openbsd: BSD
+<!--# Title --># {{ page.meta.icon }} BSD
+
+{{ page.meta.icon }}
 
 <!--# start navigation here -->
 <!--# stop navigation here -->

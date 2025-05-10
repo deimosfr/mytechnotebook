@@ -1,5 +1,6 @@
 ---
 title: Filesystems
+icon: material/emoticon-happy
 search:
   exclude: true
 ---

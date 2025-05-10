@@ -19,13 +19,13 @@ This architecture corresponds to a situation where the company's internal DNS se
 
 ```mermaid
 graph TD
-    DNS_EXT2["DNS Server\nExternal 2"]
-    DNS_EXT1["DNS Server\nExternal 1"]
-    DNS_SEC1["DNS Server\nSecondary\ntest.fr\n194.54.3.68"]
-    DNS_SEC2["DNS Server\nSecondary\ntest.fr\n192.168.66.1"]
-    DNS_PRI["DNS Server\nPrimary\ntest.fr\n10.59.1.3"]
-    DNS_INT["DNS Server\nInternal\nhere.local\n10.59.1.3"]
-    CLIENT["Workstation\nClient"]
+    DNS_EXT2["DNS Server<br />External 2"]
+    DNS_EXT1["DNS Server<br />External 1"]
+    DNS_SEC1["DNS Server<br />Secondary<br />test.fr<br />194.54.3.68"]
+    DNS_SEC2["DNS Server<br />Secondary<br />test.fr<br />192.168.66.1"]
+    DNS_PRI["DNS Server<br />Primary<br />test.fr<br />10.59.1.3"]
+    DNS_INT["DNS Server<br />Internal<br />here.local<br />10.59.1.3"]
+    CLIENT["Workstation<br />Client"]
 
     %% Connections
     DNS_SEC1 -->|"Secondary to Secondary"| DNS_SEC2
