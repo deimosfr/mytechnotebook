@@ -15,6 +15,7 @@ tags:
     "Authentication",
     "Debian",
   ]
+render_macros: false
 toc: true
 ---
 
@@ -34,12 +35,11 @@ toc: true
 
 The naming of the elements that make up the tree (root, branches, leaves) often reflects the political, geographical, or organizational model of the represented structure. The current trend is to use DNS naming for the basic elements of the directory (root and first branches). Deeper branches of the directory can represent people, organizational units, groups, etc.
 
-```
-           dc=fr
-             |
-         dc=example
-        /          \
-  ou=people     ou=groups
+```mermaid
+graph TD
+    A[dc=fr] --> B[dc=example]
+    B --> C[ou=people]
+    B --> D[ou=groups]
 ```
 
 ## Installation

@@ -7,6 +7,7 @@ date: "2014-08-29T15:33:00+02:00"
 lastmod: "2014-08-29T15:33:00+02:00"
 tags:
   ["nginx", "web server", "php-fpm", "https", "ssl", "wordpress", "mediawiki"]
+render_macros: false
 toc: true
 ---
 

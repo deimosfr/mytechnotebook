@@ -6,6 +6,7 @@ categories: ["LaTeX", "Presentation", "Development"]
 date: "2013-09-04T15:58:00+02:00"
 lastmod: "2013-09-04T15:58:00+02:00"
 tags: ["latex", "beamer", "presentation", "slides", "documentation"]
+render_macros: false
 toc: true
 ---
 

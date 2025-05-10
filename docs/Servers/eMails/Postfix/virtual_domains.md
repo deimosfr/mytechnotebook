@@ -25,7 +25,6 @@ With the approach described in this section, each hosted domain can have its own
 
 With virtual alias domains, each hosted address is an alias of a UNIX system account or an external address. The following example shows how to use this mechanism for the example.com domain.
 
-{{< table "table-striped table-hover" >}}
 | File: `/etc/postfix/main.cf` |
 | --- |
 ```
@@ -34,7 +33,6 @@ virtual_alias_maps = hash:/etc/postfix/virtual
 ```
 
 
-{{< table "table-striped table-hover" >}}
 | File: `/etc/postfix/virtual` |
 | --- |
 ```
@@ -87,7 +85,6 @@ Virtual aliases solve one problem: they allow each domain to have its own email 
 
 You may want to redirect all emails from a machine or simply all emails that hit this server to a specific email address for testing purposes. This is feasible. To do this, edit the Postfix configuration file:
 
-{{< table "table-striped table-hover" >}}
 | File: `/etc/postfix/main.cf` |
 | --- |
 ```
@@ -98,7 +95,6 @@ virtual_alias_maps = regexp:/etc/postfix/virtual
 
 Let's create a virtual file:
 
-{{< table "table-striped table-hover" >}}
 | File: `/etc/postfix/virtual` |
 | --- |
 ```
@@ -131,7 +127,6 @@ User unknown in virtual alias table
 
 It's probably Amavis causing issues. To fix this problem, comment out this line in /etc/postfix/main.cf:
 
-{{< table "table-striped table-hover" >}}
 | File: `/etc/postfix/main.cf` |
 | --- |
 ```

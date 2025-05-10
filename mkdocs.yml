@@ -41,12 +41,18 @@ theme:
         name: Switch to system preference
 extra:
   generator: false
+  analytics:
+    provider: google
+    property: G-4EGFC89L7K
 extra_css:
   - stylesheets/extra.css
 plugins:
   - tags
   - search
   - offline
+  - macros:
+      on_undefined: strict
+      on_error_fail: !ENV [MACRO_ERROR_FAIL, false]
 #  - optimize
 markdown_extensions:
   # code highlight

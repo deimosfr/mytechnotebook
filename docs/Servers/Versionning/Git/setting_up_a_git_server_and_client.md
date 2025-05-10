@@ -6,6 +6,7 @@ categories: ["Nginx", "Debian", "Linux"]
 date: "2015-02-02T20:33:00+02:00"
 lastmod: "2015-02-02T20:33:00+02:00"
 tags: ["git", "version control", "repository", "server", "client"]
+render_macros: false
 toc: true
 ---
 

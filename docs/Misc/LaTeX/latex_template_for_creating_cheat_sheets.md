@@ -6,6 +6,7 @@ categories: ["Linux"]
 date: "2012-02-14T13:08:00+02:00"
 lastmod: "2012-02-14T13:08:00+02:00"
 tags: ["LaTeX", "Development", "Resume"]
+render_macros: false
 toc: true
 ---
 

@@ -9,7 +9,6 @@ tags: ["Servers", "Software Packaging", "RPM"]
 toc: true
 ---
 
-{{< table "table-striped table-hover" >}}
 | | |
 |---|---|
 | Operating System | Red Hat 6.3 |

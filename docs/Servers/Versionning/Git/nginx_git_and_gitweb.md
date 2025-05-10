@@ -6,6 +6,7 @@ categories: ["Nginx", "Linux"]
 date: "2013-01-04T17:28:00+02:00"
 lastmod: "2013-01-04T17:28:00+02:00"
 tags: ["Nginx", "Git", "Gitweb", "Web Servers", "Development"]
+render_macros: false
 toc: true
 ---
 

@@ -28,7 +28,6 @@ I won't explain in detail how a JVM works, but here are the basics:
 
 Here's an example of how to enable loggc which will allow us to see if the JVM is doing too many GCs, or performing a Full GC:
 
-{{< table "table-striped table-hover" >}}
 | Configuration File |
 |---|
 
@@ -45,15 +44,12 @@ JAVA_OPTS="-Xms1024m -Xmx1024m $JAVA_OPTS -Djava.awt.headless=true -Xloggc:$LOGS
 export JAVA_OPTS
 ```
 
-
-
 These lines are typically placed in a file that will be executed when our Java application launches.
 
 ## Analyzing the Logs
 
 When we examine our logs, we can see if there are too many GCs. For example, here's a case where everything crashed due to a Full GC:
 
-{{< table "table-striped table-hover" >}}
 | confluencegclog\_$date$time.txt |
 |---|
 

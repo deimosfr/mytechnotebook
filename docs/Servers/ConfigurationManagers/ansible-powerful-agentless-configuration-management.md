@@ -6,6 +6,7 @@ categories: ["Linux", "Server", "Automation", "DevOps"]
 date: "2015-02-26T07:09:00+01:00"
 lastmod: "2015-02-26T07:09:00+01:00"
 tags: ["Ansible", "Automation", "Configuration Management", "DevOps", "SSH"]
+render_macros: false
 toc: true
 ---
 

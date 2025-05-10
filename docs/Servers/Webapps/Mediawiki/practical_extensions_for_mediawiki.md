@@ -11,12 +11,10 @@ tags:
     "CharInsert",
     "Cite",
     "SphinxSearch",
-    "View source",
     "search",
     "Google Adsense",
-    "What links here",
-    "Servers",
   ]
+render_macros: false
 toc: true
 ---
 

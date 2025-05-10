@@ -42,7 +42,6 @@ Basic commands:
 - Activate draw: \di
 - Deactivate: \ds
 
-{{< table "table-striped table-hover" >}}
 | Key | Description |
 |-----|-------------|
 | \<left\> | move and draw left |

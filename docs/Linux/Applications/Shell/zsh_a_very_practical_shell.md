@@ -6,6 +6,7 @@ categories: ["Linux", "Debian"]
 date: "2009-12-11T21:11:00+02:00"
 lastmod: "2009-12-11T21:11:00+02:00"
 tags: ["Servers", "Shell", "Terminal", "Configuration", "Productivity"]
+render_macros: false
 toc: true
 ---
 

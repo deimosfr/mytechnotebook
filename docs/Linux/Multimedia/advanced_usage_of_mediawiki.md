@@ -9,14 +9,8 @@ lastmod: "2007-10-13T09:29:00+02:00"
 tags:
   - Development
   - Servers
-  - Network
-  - Resume
-  - Solaris
-  - "View source"
-  - "cd ~"
-  - "What links here"
-  - "Special pages"
   - search
+render_macros: false
 toc: true
 ---
 

@@ -5,9 +5,7 @@ search:
   exclude: true
 ---
 
-<!--# Title --># {{ page.meta.icon }} BSD
-
-{{ page.meta.icon }}
+# :{{ icon|replace("/", "-", 1) }}: {{ name }}
 
 <!--# start navigation here -->
 <!--# stop navigation here -->
