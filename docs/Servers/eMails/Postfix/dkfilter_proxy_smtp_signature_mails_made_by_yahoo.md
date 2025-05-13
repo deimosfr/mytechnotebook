@@ -37,7 +37,7 @@ submission:                     |           |
 
 Install postfix for your domain to send and receive mails with this doc:
 
-[Installation and Configuration of Postfix and Courier](installation_and_configuration_of_postfix_and_courier.md)
+[Installation and Configuration of Postfix and Courier](./installation_and_configuration_of_postfix_and_courier.md)
 
 ### CPAN Perl modules
 

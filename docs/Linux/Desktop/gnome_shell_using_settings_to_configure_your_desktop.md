@@ -56,7 +56,7 @@ To change the wallpaper:
 gsettings set org.gnome.desktop.background picture-uri "file:/home/pmavro/Images/wallpaper.png"
 ```
 
-I have also created [an article about automatic wallpaper changes](gnomeshell_automatic_wallpaper_change.md).
+I have also created [an article about automatic wallpaper changes](./gnomeshell_automatic_wallpaper_change.md).
 
 ### Change Dock Position
 

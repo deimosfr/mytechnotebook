@@ -36,7 +36,7 @@ I'd like to modify the original firmware to have more functionality. That's why 
 ## Prerequisites
 
 You must have SSH installed on your Fonera. Use this documentation:
-[Enable SSH on your Fonera+](fonera-ssh.md)
+[Enable SSH on your Fonera+](./fonera-ssh.md)
 
 ## Installation of the new firmware
 

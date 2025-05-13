@@ -359,4 +359,4 @@ The zero that ends the line is a bug in heartbeat ;-).
 For additional high availability and load balancing resources, please refer to these related guides:
 
 - [HAProxy: Load Balance Your Traffic](../HA-Proxy/haproxy-load-balance-your-traffic.md)
-- [Installation and Configuration of a Heartbeat V2 Cluster](installation_and_configuration_of_a_heartbeat_v2_cluster.md)
+- [Installation and Configuration of a Heartbeat V2 Cluster](./installation_and_configuration_of_a_heartbeat_v2_cluster.md)

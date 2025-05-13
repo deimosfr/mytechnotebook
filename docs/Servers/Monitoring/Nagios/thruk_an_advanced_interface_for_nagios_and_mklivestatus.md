@@ -133,7 +133,7 @@ For Thruk configuration, there are 2 important files:
 
 According to the official documentation, it's preferable not to touch the general configuration and override certain parameters with the custom configuration.
 
-Here's a basic configuration to make it work with [MK Livestatus](check_mk_collect_nagios_info_and_extend_possibilities.md):
+Here's a basic configuration to make it work with [MK Livestatus](./check_mk_collect_nagios_info_and_extend_possibilities.md):
 
 ```text
 ############################################
@@ -176,7 +176,7 @@ Then reload Apache for the changes to take effect.
 
 ### Minimal Interface for Monitoring Screens
 
-I had already discussed in [the Nagios documentation](nagios_installation_and_configuration.md) solutions for having a fairly minimal screen. The problem is that it's still not sufficient, and fortunately with Thruk there's a way to fix this issue without having to recode 3/4 of the program. So I created a small patch that I submitted to the Thruk team (which has just been accepted [https://github.com/sni/Thruk/commit/d1eefef82cd8fbab6ebebff8a570bb1e026d1a9f](https://github.com/sni/Thruk/commit/d1eefef82cd8fbab6ebebff8a570bb1e026d1a9f) but will only be available in the next release (1.28)), so in the meantime, here's how to have the most minimal interface possible.
+I had already discussed in [the Nagios documentation](./nagios_installation_and_configuration.md) solutions for having a fairly minimal screen. The problem is that it's still not sufficient, and fortunately with Thruk there's a way to fix this issue without having to recode 3/4 of the program. So I created a small patch that I submitted to the Thruk team (which has just been accepted [https://github.com/sni/Thruk/commit/d1eefef82cd8fbab6ebebff8a570bb1e026d1a9f](https://github.com/sni/Thruk/commit/d1eefef82cd8fbab6ebebff8a570bb1e026d1a9f) but will only be available in the next release (1.28)), so in the meantime, here's how to have the most minimal interface possible.
 
 Here is a first patch to modify the Thruk Perl modules so that they take into account a new parameter in the URL called "minimal":
 

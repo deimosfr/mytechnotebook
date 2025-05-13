@@ -12,7 +12,7 @@ tags: ["Fifo", "Cat", "Script", "Terminal", "Sharing"]
 
 This technique can be used to show a remote colleague or client what you're working on on the server.
 
-It's just for visual sharing and not interactive like with screen ([see this documentation](screen_most_used_commands.md)).
+It's just for visual sharing and not interactive like with screen ([see this documentation](./screen_most_used_commands.md)).
 
 ## Creating a fifo file
 

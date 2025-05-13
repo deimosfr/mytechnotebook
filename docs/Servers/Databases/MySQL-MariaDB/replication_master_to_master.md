@@ -21,7 +21,7 @@ tags:
 
 ## Introduction
 
-After completing the installation (See: [Installation and Configuration](mysql_installation_and_configuration.md)), we are going to set up MySQL master-master replication. We need to replicate MySQL servers to achieve high-availability (HA). In my case I need two masters that are synchronized with each other so that if one of them goes down, the other could take over and no data is lost. Similarly, when the first one goes up again, it will still be used as slave for the live one.
+After completing the installation (See: [Installation and Configuration](./mysql_installation_and_configuration.md)), we are going to set up MySQL master-master replication. We need to replicate MySQL servers to achieve high-availability (HA). In my case I need two masters that are synchronized with each other so that if one of them goes down, the other could take over and no data is lost. Similarly, when the first one goes up again, it will still be used as slave for the live one.
 
 ![MySQL replication](../../../static/images/mysql_replication.avif)
 

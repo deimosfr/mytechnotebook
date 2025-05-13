@@ -36,7 +36,7 @@ However, Samba is not compatible with IPv6.
 
 **Notes: It is imperative to have implemented [NT-type ACLs](../../../Linux/Filesystems And Storage/acl-implementing-nt-type-permissions-on-linux.md) before continuing.**
 
-To help you with this documentation, you can also consult: [Installation and Configuration of Samba in ADS Mode (Authentication on an AD Server)](installation_and_configuration_of_samba_in_ads_mode_authentication_on_an_ad_server.md)
+To help you with this documentation, you can also consult: [Installation and Configuration of Samba in ADS Mode (Authentication on an AD Server)](./installation_and_configuration_of_samba_in_ads_mode_authentication_on_an_ad_server.md)
 
 ## Information
 

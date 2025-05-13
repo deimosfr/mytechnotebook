@@ -10,7 +10,7 @@ tags: ["collectd", "collection3", "monitoring", "web interface", "apache"]
 
 ## Introduction
 
-[Collectd](collectd_installation_and_configuration.md) is great, but with a functional web interface, it's even better. We're going to see how to install [Collection3](https://collectd.org/wiki/index.php/Collection3), an interface that isn't necessarily pretty, but is very functional.
+[Collectd](./collectd_installation_and_configuration.md) is great, but with a functional web interface, it's even better. We're going to see how to install [Collection3](https://collectd.org/wiki/index.php/Collection3), an interface that isn't necessarily pretty, but is very functional.
 
 ## Installation
 
@@ -20,7 +20,7 @@ You must have a web server like Apache and CGI enabled. Here's what you need to 
 aptitude install apache2 librrds-perl libconfig-general-perl libhtml-parser-perl libregexp-common-perl
 ```
 
-I haven't mentioned it, but it's obvious that you need [Collectd](collectd_installation_and_configuration.md) installed.
+I haven't mentioned it, but it's obvious that you need [Collectd](./collectd_installation_and_configuration.md) installed.
 
 ## Configuration
 

@@ -117,7 +117,7 @@ If you want to protect a specific folder, you have 2 methods:
 - Complete prohibition
 - Redirection
 
-PS: I won't discuss special cases such as htaccess here, [see this documentation](mixing_apache_authentication.md).
+PS: I won't discuss special cases such as htaccess here, [see this documentation](./mixing_apache_authentication.md).
 
 To prohibit access:
 

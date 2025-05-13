@@ -20,7 +20,7 @@ tags: ["Sick-Beard", "PVR", "SABnzbd", "Servers", "Network"]
 
 ## Introduction
 
-This tool relies on [SABnzbd](sabnzbd_a_web_interface_for_managing_newsgroups.md) and allows for easy management of TV series episodes.
+This tool relies on [SABnzbd](./sabnzbd_a_web_interface_for_managing_newsgroups.md) and allows for easy management of TV series episodes.
 
 ## Installation
 

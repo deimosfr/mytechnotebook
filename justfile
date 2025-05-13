@@ -6,6 +6,9 @@ default:
 run:
   mkdocs serve --dirty
 
+run-prod:
+  mkdocs serve --strict
+
 # Initialize the project
 init:
     python3 -m venv venv 

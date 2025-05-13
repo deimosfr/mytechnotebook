@@ -51,7 +51,7 @@ Alignment consists of matching the logical blocks of partitions with the physica
 
 Current SSDs work internally on blocks of 1 or 2 MiB, which is 1,048,576 or 2,097,152 bytes respectively. Considering that a sector stores 512 bytes, it will take 2,048 sectors to store 1,048,576 bytes.
 While traditionally operating systems started the first partition at the 63rd sector, the latest versions take into account the constraints of SSDs.
-Thus [Parted](parted_solving_partitioning_problems_on_large_filesystems.md) can automatically align the beginning of partitions on multiples of 2,048 sectors.
+Thus [Parted](./parted_solving_partitioning_problems_on_large_filesystems.md) can automatically align the beginning of partitions on multiples of 2,048 sectors.
 
 To ensure proper alignment of partitions, enter the following command with administrative privileges and verify that the number of sectors at the beginning of each of your partitions is a multiple of 2,048. Here's the command for an MSDOS partition table:
 

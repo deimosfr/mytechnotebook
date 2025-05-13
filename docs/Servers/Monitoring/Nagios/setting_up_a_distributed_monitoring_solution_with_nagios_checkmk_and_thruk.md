@@ -21,9 +21,9 @@ tags: ["Nagios", "CheckMK", "Thruk", "Monitoring", "Distributed Systems"]
 
 Before starting with this documentation, it's recommended to be familiar with certain tools. Here's the list with associated documentation:
 
-- [Nagios](nagios_installation_and_configuration.md)
-- [Check Mk](check_mk_collect_nagios_info_and_extend_possibilities.md)
-- [Thruk](thruk_an_advanced_interface_for_nagios_and_mklivestatus.md)
+- [Nagios](./nagios_installation_and_configuration.md)
+- [Check Mk](./check_mk_collect_nagios_info_and_extend_possibilities.md)
+- [Thruk](./thruk_an_advanced_interface_for_nagios_and_mklivestatus.md)
 
 The purpose of this documentation is to install a Thruk server capable of displaying information from different remote Nagios servers:
 
@@ -130,7 +130,7 @@ cd check_mk-version/
 ./setup.sh
 ```
 
-Use the setup with default options. If needed, [refer to the CheckMk documentation for more information](check_mk_collect_nagios_info_and_extend_possibilities.md).
+Use the setup with default options. If needed, [refer to the CheckMk documentation for more information](./check_mk_collect_nagios_info_and_extend_possibilities.md).
 Then install the agent:
 
 ```bash

@@ -18,7 +18,7 @@ tags:
 
 ## Introduction
 
-The purpose of this documentation is to quickly describe how to create swap space on Solaris. There are other documentation sources such as [Disk Management in Solaris](disk_management_in_solaris.md) that describe in depth how disks work on Solaris, but that's not the goal here.
+The purpose of this documentation is to quickly describe how to create swap space on Solaris. There are other documentation sources such as [Disk Management in Solaris](./disk_management_in_solaris.md) that describe in depth how disks work on Solaris, but that's not the goal here.
 
 We'll look at three methods to add swap space:
 

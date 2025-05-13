@@ -261,7 +261,7 @@ mdadm -C /dev/md0 -l1 -n2 -b /tmp/md0 --write-behind=256 /dev/sdal --write-mostl
 ```
 
 [^1]: http://en.wikipedia.org/wiki/RAID
-[^2]: [Configuration of a Software RAID](software_raid_configuration.md)
+[^2]: [Configuration of a Software RAID](./software_raid_configuration.md)
 [^3]: [Sysstat: Essential tools for analyzing performance problems](../../Misc/sysstat_essential_tools_for_analyzing_performance_issues.md)
 [^4]: http://kernel.org/doc/Documentation/md.txt
 [^5]: http://kernel.org/doc/Documentation/md.txt

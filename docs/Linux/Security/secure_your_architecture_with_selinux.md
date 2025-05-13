@@ -298,6 +298,3 @@ semanage dontaudit off
 ```
 
 Then you just need to check the logs (`/var/log/audit/audit.log` and `/var/log/messages`).
-
-## Resources
-- [SELinux, the Kernel Security Agency](secure_your_architecture_with_selinux.md)

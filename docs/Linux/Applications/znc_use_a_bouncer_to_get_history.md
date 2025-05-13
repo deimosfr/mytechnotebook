@@ -22,7 +22,7 @@ tags: ["IRC", "Networking", "Servers"]
 
 A [BNC](https://en.wikipedia.org/wiki/BNC_%28software%29)[^1] (short for bouncer) is a piece of software that is used to relay traffic and connections in computer networks, much like a proxy. Using a BNC allows a user to hide the original source of the user's connection, providing privacy as well as the ability to route traffic through a specific location. A BNC can also be used to hide the true target to which a user connects.
 
-I was fed up to launch every day a ssh to connect to an external server, on which I had a [tmux](Shell/tmux_the_terminal_multiplexer_replacing_screen.md) running a [weechat](weechat_a_user_friendly_irc_client.md) to get IRC history. 2 problems here:
+I was fed up to launch every day a ssh to connect to an external server, on which I had a [tmux](./Shell/tmux_the_terminal_multiplexer_replacing_screen.md) running a [weechat](./weechat_a_user_friendly_irc_client.md) to get IRC history. 2 problems here:
 
 1. Sometimes, I forgot to connect on it and missed some messages
 2. It was not integrated to Pidgin (what I use for any IM protocol)

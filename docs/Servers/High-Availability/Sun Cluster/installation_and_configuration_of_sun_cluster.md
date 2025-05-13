@@ -1353,7 +1353,7 @@ If you have more than 2 nodes, use the same command but without "-o":
 
 ## References
 
-[Installation of Sun Cluster (old)](installation_of_sun_cluster.md)
+[Installation of Sun Cluster (old)](./installation_of_sun_cluster.md)
 [https://en.wikipedia.org/wiki/Solaris_Cluster](https://en.wikipedia.org/wiki/Solaris_Cluster)  
 [https://opensolaris.org/os/community/ha-clusters/translations/french/relnote_fr/](https://opensolaris.org/os/community/ha-clusters/translations/french/relnote_fr/)  
 [Resources Properties](https://docs.sun.com/app/docs/doc/819-2974/6n57pdk2o?a=view#indexterm-535)  
