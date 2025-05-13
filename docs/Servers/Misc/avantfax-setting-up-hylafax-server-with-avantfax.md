@@ -1,5 +1,6 @@
 ---
 title: "AvantFax: Setting Up a HylaFax Server with AvantFax"
+slug: avantfax-setting-up-a-hylafax-server-with-avantfax/
 description: "Learn how to set up a fax server using HylaFax with the AvantFax web frontend."
 categories: ["Server", "Fax", "Communication"]
 date: "2007-12-27T17:34:00+02:00"

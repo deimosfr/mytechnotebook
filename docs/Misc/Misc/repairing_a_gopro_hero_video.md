@@ -1,5 +1,6 @@
 ---
 title: "Repairing a GoPro Hero Video"
+slug: repairing-a-gopro-hero-video/
 description: "How to repair a corrupted GoPro Hero video file and recover the video content without audio."
 categories: 
   - "Linux"

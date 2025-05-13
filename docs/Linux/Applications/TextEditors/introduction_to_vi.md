@@ -1,5 +1,6 @@
 ---
 title: "Introduction to Vi"
+slug: introduction-to-vi/
 description: "A comprehensive guide to learning and using the Vi text editor on Linux systems, from basic commands to advanced features."
 categories: ["Linux"]
 date: "2009-09-19T22:04:00+02:00"

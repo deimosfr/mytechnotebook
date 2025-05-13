@@ -1,5 +1,6 @@
 ---
 title: "Setting up OpenLDAP Client"
+slug: setting-up-openldap-client/
 description: "Step-by-step guide for configuring an OpenLDAP client on Solaris systems."
 categories: ["Database", "Linux", "Security"]
 date: "2009-09-23T09:00:00+02:00"

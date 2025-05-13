@@ -1,5 +1,6 @@
 ---
 title: "Recovering Data from a RAID1 LVM"
+slug: recovering-data-from-a-raid1-lvm/
 description: "How to recover data from a LVM in RAID1 configuration"
 categories: ["Linux"]
 date: "2007-11-02T14:31:00+02:00"

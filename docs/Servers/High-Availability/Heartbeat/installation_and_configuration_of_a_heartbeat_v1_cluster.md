@@ -1,5 +1,6 @@
 ---
 title: "Installation and Configuration of a Heartbeat V1 Cluster"
+slug: installation-and-configuration-of-a-heartbeat-v1-cluster/
 description: "This guide explains how to set up and configure a Heartbeat V1 cluster for high availability services on Linux."
 categories: ["Linux", "CentOS", "Ubuntu"]
 date: "2009-02-18T18:31:00+02:00"

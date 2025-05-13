@@ -1,5 +1,6 @@
 ---
 title: "Enabling SSH on the Fonera+"
+slug: enabling-ssh-on-the-fonera/
 description: "A guide to enable SSH access on a Fonera+ router by flashing it with a custom firmware."
 categories: ["Networking", "Linux", "Hardware"]
 date: "2009-05-06T20:40:00+02:00"

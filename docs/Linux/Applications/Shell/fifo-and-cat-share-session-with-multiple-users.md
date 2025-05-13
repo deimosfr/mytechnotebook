@@ -1,5 +1,6 @@
 ---
 title: "Fifo and Cat: Share a Session with Multiple Users"
+slug: fifo-and-cat-share-a-session-with-multiple-users/
 description: "How to use named pipes (FIFOs) and cat to visually share a terminal session with other users"
 categories: ["Linux", "System Administration", "Command Line"]
 date: "2007-03-18T09:29:00+02:00"

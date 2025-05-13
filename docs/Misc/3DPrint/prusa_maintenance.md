@@ -1,5 +1,6 @@
 ---
 title: 'Prusa maintenance'
+slug: prusa-maintenance/
 description: 'Make sure your Prusa is always in good condition'
 categories: ['Prusa', '3D Print']
 tags: ['Prusa', '3D Print']

@@ -1,5 +1,6 @@
 ---
 title: "Fail2ban: Implementing automated iptables rules to counter bruteforce attacks"
+slug: fail2ban-implementing-automated-iptables-rules-to-counter-bruteforce-attacks/
 description: "How to implement Fail2ban to automatically create iptables rules that block IP addresses attempting bruteforce attacks on your services."
 categories: ["Security", "Network", "Linux"]
 date: "2014-08-22T09:12:00+02:00"

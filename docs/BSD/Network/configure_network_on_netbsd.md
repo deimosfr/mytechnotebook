@@ -1,5 +1,6 @@
 ---
 title: "Configure Network on NetBSD"
+slug: configure-network-on-netbsd/
 description: "How to configure network interfaces, static IPs, and gateways on NetBSD"
 categories: ["BSD", "Network", "System Administration"]
 date: "2013-03-15T22:32:00+01:00"

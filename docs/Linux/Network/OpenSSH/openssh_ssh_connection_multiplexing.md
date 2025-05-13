@@ -1,5 +1,6 @@
 ---
 title: "OpenSSH: SSH Connection Multiplexing"
+slug: openssh-ssh-connection-multiplexing/
 description: "How to set up SSH connection multiplexing to accelerate login times for multiple connections to the same host."
 categories: 
   - "Linux"

@@ -1,5 +1,6 @@
 ---
 title: "OpenVPN: Setting up OpenVPN on different platforms"
+slug: openvpn-setting-up-openvpn-on-different-platforms/
 description: "A comprehensive guide on installing, configuring and using OpenVPN across different operating systems including Debian, FreeBSD, OpenBSD, Windows, macOS and Linux."
 categories: ["Debian", "Security", "Linux"]
 date: "2013-05-30T15:26:00+02:00"

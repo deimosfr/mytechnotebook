@@ -1,5 +1,6 @@
 ---
 title: "Belier: Script Your SSH Connection"
+slug: belier-script-your-ssh-connection/
 description: "How to use Belier to simplify complex SSH connections through multiple intermediate servers"
 categories: ["Linux", "SSH", "Networking"]
 date: "2013-05-06T09:22:00+02:00"

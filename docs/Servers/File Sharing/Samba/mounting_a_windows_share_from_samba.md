@@ -1,5 +1,6 @@
 ---
 title: "Mounting a Windows Share from Samba"
+slug: mounting-a-windows-share-from-samba/
 description: "How to mount Windows shares from Linux using Samba and CIFS methods, with configuration options for different Windows versions."
 categories: ["Linux", "Servers", "Network"]
 date: "2009-04-19T16:12:00+02:00"

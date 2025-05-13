@@ -1,5 +1,6 @@
 ---
 title: "Creating a Solaris Package"
+slug: creating-a-solaris-package/
 description: "Learn how to create your own Solaris packages for efficient software distribution and management."
 categories: ["Linux"]
 date: "2009-11-14T16:04:00+02:00"

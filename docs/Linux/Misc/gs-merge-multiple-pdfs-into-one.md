@@ -1,5 +1,6 @@
 ---
 title: "GS: Merge Multiple PDFs Into One"
+slug: gs-merge-multiple-pdfs-into-one/
 description: "Learn how to use GhostScript (GS) to merge multiple PDF files into a single document."
 categories: ["Linux", "Tools", "Documents"]
 date: "2009-11-28T16:10:00+02:00"

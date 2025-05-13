@@ -1,5 +1,6 @@
 ---
 title: "Network Recycle Bin"
+slug: network-recycle-bin/
 description: "How to set up a network recycle bin with Samba 3 on Red Hat Enterprise Linux"
 categories: ["Red Hat", "Linux"]
 date: "2006-10-22T20:28:00+02:00"

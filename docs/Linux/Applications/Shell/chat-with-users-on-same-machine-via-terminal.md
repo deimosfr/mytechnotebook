@@ -1,5 +1,6 @@
 ---
 title: "Chat with Users on the Same Machine via Terminal"
+slug: chat-with-users-on-the-same-machine-via-terminal/
 description: "Learn how to communicate with other users logged into the same Linux or Unix system using terminal commands like write and wall."
 categories: ["Linux", "Command Line"]
 date: "2009-08-08T09:10:00+02:00"

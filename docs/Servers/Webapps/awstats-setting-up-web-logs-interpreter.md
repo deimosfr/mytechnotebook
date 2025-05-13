@@ -1,5 +1,6 @@
 ---
 title: "Awstats: Setting up Awstats, a Web Logs Interpreter"
+slug: awstats-setting-up-awstats-a-web-logs-interpreter/
 description: "Learn how to install and configure Awstats, a powerful web log analyzer that provides graphical reports on website traffic statistics."
 categories: ["Server", "Web", "Analytics"]
 date: "2010-04-11T15:51:00+02:00"

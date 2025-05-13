@@ -1,5 +1,6 @@
 ---
 title: "Installation and Configuration of Cacti"
+slug: installation-and-configuration-of-cacti/
 description: "How to install and configure Cacti for network monitoring"
 categories: ["Monitoring", "Network"]
 date: "2007-12-12T11:01:00+02:00"

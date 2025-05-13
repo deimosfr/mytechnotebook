@@ -1,5 +1,6 @@
 ---
 title: "Firefox: Mass Management on Windows Environment"
+slug: firefox-mass-management-on-windows-environment/
 description: "Learn how to manage Firefox deployments in a Windows Active Directory environment using GPO for Firefox."
 categories: ["Windows", "Browser"]
 date: "2013-01-22T06:40:00+02:00"

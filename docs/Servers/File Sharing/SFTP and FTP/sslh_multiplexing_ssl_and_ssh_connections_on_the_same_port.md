@@ -1,5 +1,6 @@
 ---
 title: "SSLH: Multiplexing SSL and SSH connections on the same port"
+slug: sslh-multiplexing-ssl-and-ssh-connections-on-the-same-port/
 description: "How to configure SSLH to multiplex SSL and SSH connections on the same port to allow both HTTPS and SSH traffic through a single port."
 categories: ["Linux", "FreeBSD", "Network"]
 date: "2012-06-10T09:31:00+02:00"

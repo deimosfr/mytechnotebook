@@ -1,5 +1,6 @@
 ---
 title: "Udev: Using a Socket to Communicate with Kernel Devices"
+slug: udev-using-a-socket-to-communicate-with-kernel-devices/
 description: "A comprehensive guide on how to use udev for device management on Linux systems, including monitoring, creating custom rules, and handling device detection events"
 categories: ["Debian", "Storage", "Linux"]
 date: "2012-07-05T09:33:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "UploadTool: Setting up a file sharing tool via Apache"
+slug: uploadtool-setting-up-a-file-sharing-tool-via-apache/
 description: "A guide to install and configure UploadTool, a web-based file sharing tool that uses Apache for authenticated file uploads."
 categories: ["Linux", "Apache"]
 date: "2007-09-04T08:22:00+02:00"

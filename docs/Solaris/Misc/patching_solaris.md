@@ -1,5 +1,6 @@
 ---
 title: "Patching Solaris"
+slug: patching-solaris/
 description: "A guide on how to detect, retrieve and install patches for Solaris systems."
 categories: 
   - Linux

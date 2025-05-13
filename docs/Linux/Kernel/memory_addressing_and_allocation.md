@@ -1,5 +1,6 @@
 ---
 title: "Memory Addressing and Allocation"
+slug: memory-addressing-and-allocation/
 description: "A comprehensive guide to memory addressing and allocation in Linux systems, covering virtual addressing spaces, memory allocation techniques, NUMA, TLB optimization, and more."
 categories:
   - "Red Hat"

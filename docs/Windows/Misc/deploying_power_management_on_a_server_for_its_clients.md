@@ -1,5 +1,6 @@
 ---
 title: "Deploying Power Management on a Server for its Clients"
+slug: deploying-power-management-on-a-server-for-its-clients/
 description: "Guide on how to deploy power management settings to Windows clients through scripts"
 categories: ["Windows", "Servers"]
 date: "2008-05-05T09:09:00+02:00"

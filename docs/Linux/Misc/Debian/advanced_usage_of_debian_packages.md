@@ -1,5 +1,6 @@
 ---
 title: "Advanced Usage of Debian Packages"
+slug: advanced-usage-of-debian-packages/
 description: "A comprehensive guide to advanced Debian package management using dpkg, aptitude, and apt-get tools with practical examples."
 categories: ["Debian", "Linux", "Ubuntu"]
 date: "2009-12-11T21:54:00+02:00"

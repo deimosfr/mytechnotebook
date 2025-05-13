@@ -1,5 +1,6 @@
 ---
 title: "Basic Usage of MediaWiki"
+slug: basic-usage-of-mediawiki/
 description: "A concise guide to the basic features of MediaWiki, including links, lists, formatting, and code blocks"
 categories:
   - Linux

@@ -1,5 +1,6 @@
 ---
 title: "Nginx: Installation and Configuration as an Apache Alternative"
+slug: nginx-installation-and-configuration-as-an-apache-alternative/
 description: "A comprehensive guide to installing and configuring Nginx as an alternative to Apache, including various optimizations and application configurations."
 categories: ["Nginx", "Debian", "Security"]
 date: "2014-08-29T15:33:00+02:00"

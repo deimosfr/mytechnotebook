@@ -1,5 +1,6 @@
 ---
 title: "Installation and Configuration of Postfix and Courier"
+slug: installation-and-configuration-of-postfix-and-courier/
 description: "A comprehensive guide on installing and configuring Postfix mail server with Courier on various operating systems including Debian, OpenBSD, and FreeBSD."
 categories: ["Linux", "Mail", "Security"]
 date: "2013-05-07T07:43:00+02:00"

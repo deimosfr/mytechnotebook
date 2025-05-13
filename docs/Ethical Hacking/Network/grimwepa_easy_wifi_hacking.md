@@ -1,5 +1,6 @@
 ---
 title: "Grimwepa: Easy WiFi Hacking"
+slug: grimwepa-easy-wifi-hacking/
 description: "A guide to using Grimwepa for wireless network security testing in Ubuntu"
 categories: ["Linux", "Ubuntu", "Security"]
 date: "2010-03-07T21:55:00+02:00"

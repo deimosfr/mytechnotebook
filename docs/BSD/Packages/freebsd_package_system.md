@@ -1,5 +1,6 @@
 ---
 title: "FreeBSD Package System"
+slug: freebsd-package-system/
 description: "A guide to understanding and using FreeBSD's package management system including both the new and old methods, portage system, and system updates."
 categories: ["FreeBSD", "Linux"]
 date: "2014-07-18T19:39:00+02:00"

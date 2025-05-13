@@ -1,5 +1,6 @@
 ---
 title: "Jumpstart: Automating Solaris Installations Without Networks"
+slug: jumpstart-automating-solaris-installations-without-networks/
 description: "A guide on how to automate Solaris installations using Jumpstart without requiring network infrastructure."
 categories:
   - "Solaris"

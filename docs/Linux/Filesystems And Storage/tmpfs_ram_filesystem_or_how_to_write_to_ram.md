@@ -1,5 +1,6 @@
 ---
 title: "Tmpfs: RAM filesystem or how to write to RAM"
+slug: tmpfs-ram-filesystem-or-how-to-write-to-ram/
 description: "A guide on how to create and use a temporary filesystem in RAM for fast access and temporary storage"
 categories: ["Linux"]
 date: "2012-02-18T18:47:00+02:00"

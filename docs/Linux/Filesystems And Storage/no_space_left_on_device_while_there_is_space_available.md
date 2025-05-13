@@ -1,5 +1,6 @@
 ---
 title: "No space left on device while there is space available"
+slug: no-space-left-on-device-while-there-is-space-available/
 description: "How to troubleshoot 'No space left on device' errors when disk space seems available by checking inode usage."
 categories: ["Linux"]
 date: "2008-10-13T20:43:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Varnish: a website accelerator"
+slug: varnish-a-website-accelerator/
 description: "A comprehensive guide to Varnish, a powerful web cache server that can significantly improve website performance through caching, load balancing, and reverse proxy capabilities."
 categories: ["Nginx", "Debian", "AWS"]
 date: "2013-06-25T14:57:00+02:00"

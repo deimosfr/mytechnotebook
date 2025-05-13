@@ -1,5 +1,6 @@
 ---
 title: "Bacula: Setting Up a High-Performance Backup Server"
+slug: bacula-setting-up-a-high-performance-backup-server/
 description: "Learn how to set up Bacula, a powerful backup solution with web interface, MySQL plugin, and file verification capabilities."
 categories: ["Server", "Backup", "Linux"]
 date: "2008-05-14T15:31:00+02:00"

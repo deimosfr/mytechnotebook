@@ -1,5 +1,6 @@
 ---
 title: "Create a clean Git/GitHub pages branch"
+slug: create-a-clean-gitgithub-pages-branch/
 description: "Prepare a clean GitHub pages branch for your project"
 categories: ["Git", "GitHub"]
 tags: ["git", "github"]

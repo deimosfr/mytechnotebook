@@ -1,5 +1,6 @@
 ---
 title: "Asterisk: Setting up Asterisk PBX and Web-Based Provisioning GUI"
+slug: asterisk-setting-up-asterisk-pbx-and-web-based-provisioning-gui/
 description: "Learn how to implement Asterisk, an open-source software that transforms a computer into a private telephone exchange or PABX with web-based provisioning GUI."
 categories: ["Telephony", "VoIP", "Server"]
 date: "2009-02-07T06:43:00+02:00"

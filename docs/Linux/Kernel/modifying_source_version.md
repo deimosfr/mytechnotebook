@@ -1,5 +1,6 @@
 ---
 title: "Modifying Source Version"
+slug: modifying-source-version/
 description: "How to modify kernel source version to match your running kernel for compiling software"
 categories: ["Linux"]
 date: "2007-06-20T15:05:00+02:00"

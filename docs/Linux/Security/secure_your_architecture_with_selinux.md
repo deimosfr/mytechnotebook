@@ -1,5 +1,6 @@
 ---
 title: "Secure Your Architecture with SELinux"
+slug: secure-your-architecture-with-selinux/
 description: "A comprehensive guide to understanding and implementing SELinux security policies in Linux systems"
 categories: ["Linux", "Security", "System Administration"]
 date: "2011-10-06T12:51:00+02:00"

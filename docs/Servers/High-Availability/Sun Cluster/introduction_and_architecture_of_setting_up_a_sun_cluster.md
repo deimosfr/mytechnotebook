@@ -1,5 +1,6 @@
 ---
 title: "Introduction and Architecture of Setting Up a SUN Cluster"
+slug: introduction-and-architecture-of-setting-up-a-sun-cluster/
 description: "An introduction to SUN Clustering technology, including types of clusters, definitions, infrastructure components, and configuration details."
 categories: ["Virtualization", "Network", "Servers"]
 date: "2007-10-11T06:31:00+02:00"

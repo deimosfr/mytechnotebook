@@ -1,5 +1,6 @@
 ---
 title: "Creating a RAID 1 (mirroring) on Solaris"
+slug: creating-a-raid-1-mirroring-on-solaris/
 description: "Guide to setting up RAID 1 mirroring for filesystems in Solaris using DiskSuite and ZFS."
 categories: ["Backup", "Linux"]
 date: "2009-02-11T16:15:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Hidden (or Covert) Channels"
+slug: hidden-or-covert-channels/
 description: "An introduction to hidden channels in cybersecurity and their implications for information security and privacy."
 categories: ["Security", "Cryptography", "Network"]
 date: "2008-09-25T11:58:00+02:00"

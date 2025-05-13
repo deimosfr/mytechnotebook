@@ -1,5 +1,6 @@
 ---
 title: "Advanced WordPress Usage"
+slug: advanced-wordpress-usage/
 description: "Tips and techniques for advanced WordPress configuration, including Nginx setup, JavaScript integration, and file handling."
 categories: ["Nginx", "Linux"]
 date: "2013-05-07T07:28:00+02:00"

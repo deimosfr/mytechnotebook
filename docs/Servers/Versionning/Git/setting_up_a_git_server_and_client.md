@@ -1,5 +1,6 @@
 ---
 title: "Setting Up a Git Server and Client"
+slug: setting-up-a-git-server-and-client/
 description: "This guide covers installation and configuration of Git server and client, with details on managing repositories, branches, tags, and advanced features."
 categories: ["Nginx", "Debian", "Linux"]
 date: "2015-02-02T20:33:00+02:00"

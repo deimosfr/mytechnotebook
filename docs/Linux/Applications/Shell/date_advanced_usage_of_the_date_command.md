@@ -1,5 +1,6 @@
 ---
 title: "Date: Advanced Usage of the Date Command"
+slug: date-advanced-usage-of-the-date-command/
 description: "Guide to advanced date calculations and formatting using the Linux date command, including examples for calculating past dates and creating ISO 8601 timestamps."
 categories: ["Linux"]
 date: "2009-11-27T20:18:00+02:00"

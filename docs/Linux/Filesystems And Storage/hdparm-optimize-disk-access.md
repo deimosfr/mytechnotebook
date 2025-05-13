@@ -1,5 +1,6 @@
 ---
 title: "Hdparm: Optimizing Disk Access"
+slug: hdparm-optimizing-disk-access/
 description: "How to optimize disk and optical drive performance on Linux systems using hdparm utility."
 categories: ["Linux", "System Administration", "Performance"]
 date: "2006-10-18T09:14:00+02:00"

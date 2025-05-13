@@ -1,5 +1,6 @@
 ---
 title: "Vsftpd: Setting up virtual hosts with MySQL"
+slug: vsftpd-setting-up-virtual-hosts-with-mysql/
 description: "This guide explains how to configure vsftpd with virtual hosts using MySQL, including SSL configuration and security settings"
 categories: ["Security", "Linux", "MySQL"]
 date: "2010-01-21T13:51:00+02:00"

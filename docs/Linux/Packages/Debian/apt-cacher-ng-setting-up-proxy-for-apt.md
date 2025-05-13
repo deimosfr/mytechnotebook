@@ -1,5 +1,6 @@
 ---
 title: "Apt-cacher-ng: Setting Up a Proxy for APT"
+slug: apt-cacher-ng-setting-up-a-proxy-for-apt/
 description: "How to set up and configure Apt-cacher-ng, a caching proxy for Debian/Ubuntu package repositories"
 categories: ["Linux", "Debian", "Server"]
 date: "2010-08-31T07:51:00+02:00"

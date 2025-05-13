@@ -1,5 +1,6 @@
 ---
 title: "BTRFS: Using the Ext4 Replacement"
+slug: btrfs-using-the-ext4-replacement/
 description: "Learn how to use BTRFS filesystem, the replacement for ExtX, including creating partitions, subvolumes, snapshots, compression, and RAID configurations."
 categories: ["Linux", "Filesystem", "Storage"]
 date: "2012-07-05T21:08:00+02:00"
@@ -20,7 +21,7 @@ tags: ["BTRFS", "Filesystem", "Linux", "Ext4", "Storage", "ZFS"]
 
 ## Introduction
 
-[BTRFS](https://btrfs.wiki.kernel.org/) is the perfect replacement for the aging ExtX filesystem. For those familiar with [the ZFS filesystem](zfs:_le_filesystem_par_excellence/), BTRFS draws heavily from it.
+[BTRFS](https://btrfs.wiki.kernel.org/) is the perfect replacement for the aging ExtX filesystem. For those familiar with [the ZFS filesystem](../../Solaris/Filesystems/zfs_the_filesystem_par_excellence.md), BTRFS draws heavily from it.
 
 BTRFS, like Ext4, is based on the concept of extents. This is a contiguous area (which can reach several hundred MB, unlike the clusters of some older formats) reserved each time a file is saved on the hard drive. This allows, in case of writing at the end of a file (append) or a complete rewrite, to often add the new data directly to the extent rather than in another area of the hard disk, which would increase fragmentation. Large files are thus stored more efficiently through a greater disk space occupation, but at a cost that has decreased considerably. BTRFS stores the data of very small files directly in the extent of the directory file, not in a separate extent.
 

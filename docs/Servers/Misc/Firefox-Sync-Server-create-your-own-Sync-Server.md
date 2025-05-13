@@ -1,5 +1,6 @@
 ---
 title: "Firefox Sync Server: Create Your Own Sync Server"
+slug: firefox-sync-server-create-your-own-sync-server/
 description: "How to install and configure your own Firefox Sync Server for synchronizing Firefox data across multiple devices"
 categories: ["Servers", "Firefox", "Web"]
 date: "2013-09-05T14:34:00+02:00"

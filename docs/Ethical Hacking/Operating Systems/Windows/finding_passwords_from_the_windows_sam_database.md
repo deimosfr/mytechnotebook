@@ -1,5 +1,6 @@
 ---
 title: "Finding passwords from the Windows SAM database"
+slug: finding-passwords-from-the-windows-sam-database/
 description: "How to recover lost Windows passwords from the SAM database using Ophcrack."
 categories: ["Windows", "Security"]
 date: "2007-08-31T15:06:00+02:00"

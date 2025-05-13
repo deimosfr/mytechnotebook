@@ -1,5 +1,6 @@
 ---
 title: "Traefik: a modern reverse proxy, installation and configuration"
+slug: traefik-a-modern-reverse-proxy-installation-and-configuration/
 description: "Traefik is a modern reverse proxy that can be used to manage and route traffic to your applications"
 categories: ["Reverse-Proxy", "Web", "Proxy"]
 tags: ["Reverse-Proxy", "Web", "Proxy"]

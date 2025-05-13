@@ -1,5 +1,6 @@
 ---
 title: "CAS: Setting Up an SSO Server"
+slug: cas-setting-up-an-sso-server/
 description: "Learn how to set up and configure Central Authentication Service (CAS) for Single Sign-On (SSO) across multiple applications, with specific instructions for Confluence and Jira integration."
 categories: ["Servers", "Security", "Authentication"]
 date: "2009-10-08T16:59:00+02:00"

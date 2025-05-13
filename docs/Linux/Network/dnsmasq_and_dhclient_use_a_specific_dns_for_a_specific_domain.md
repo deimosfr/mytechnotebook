@@ -1,5 +1,6 @@
 ---
 title: "Dnsmasq and dhclient: use a specific DNS for a specific domain"
+slug: dnsmasq-and-dhclient-use-a-specific-dns-for-a-specific-domain/
 description: "Configure dnsmasq and dhclient to use a specific DNS server for a specific domain, allowing you to resolve local domain names from different networks."
 categories: ["Debian", "Linux"]
 date: "2014-07-27T13:41:00+02:00"

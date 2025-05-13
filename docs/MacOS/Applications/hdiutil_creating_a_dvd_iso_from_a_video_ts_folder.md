@@ -1,5 +1,6 @@
 ---
 title: "Hdiutil: Creating a DVD ISO from a VIDEO TS folder"
+slug: hdiutil-creating-a-dvd-iso-from-a-video-ts-folder/
 description: "How to create a DVD ISO from a VIDEO_TS folder using hdiutil on Mac OS X"
 categories: ["Mac OS X"]
 date: "2009-11-28T16:06:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Task Scheduling"
+slug: task-scheduling/
 description: "Guide on how to schedule tasks on Linux systems using at and cron utilities"
 categories: ["Linux"]
 date: "2009-12-11T20:54:00+02:00"

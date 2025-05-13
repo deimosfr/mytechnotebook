@@ -1,5 +1,6 @@
 ---
 title: "Installing pfSense on Soekris"
+slug: installing-pfsense-on-soekris/
 description: "A guide on how to install pfSense on a Soekris net5501 hardware platform including solutions for common issues."
 categories: ["Linux", "Networking"]
 date: "2010-12-03T23:29:00+02:00"

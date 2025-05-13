@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting mails with Postfix"
+slug: troubleshooting-mails-with-postfix/
 description: "This documentation provides various methods and solutions for troubleshooting mail server problems, especially in Postfix environments."
 categories: ["Servers", "Database", "Linux"]
 date: "2010-02-05T11:09:00+02:00"

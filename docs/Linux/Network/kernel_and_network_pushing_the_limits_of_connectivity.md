@@ -1,5 +1,6 @@
 ---
 title: "Kernel and Network: Pushing the Limits of Connectivity"
+slug: kernel-and-network-pushing-the-limits-of-connectivity/
 description: "This document explores advanced networking features in Linux kernel including bonding, TUN/TAP devices, traffic shaping, tunneling, VLANs, and QoS mechanisms."
 categories: ["Linux", "Network"]
 date: "2008-09-10T16:09:00+02:00"

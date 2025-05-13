@@ -1,5 +1,6 @@
 ---
 title: "Pound: Installation and Configuration of a Reverse Proxy"
+slug: pound-installation-and-configuration-of-a-reverse-proxy/
 description: "A guide to installing and configuring Pound as a reverse proxy and load balancer for web servers"
 categories: ["Linux", "Servers", "Network"]
 date: "2010-05-15T07:13:00+02:00"

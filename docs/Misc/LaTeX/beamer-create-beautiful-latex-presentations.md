@@ -1,5 +1,6 @@
 ---
 title: "Beamer: Create Beautiful LaTeX Presentations"
+slug: beamer-create-beautiful-latex-presentations/
 description: "A comprehensive guide to using Beamer to create professional LaTeX presentations, with instructions for setup, formatting, and custom themes."
 categories: ["LaTeX", "Presentation", "Development"]
 date: "2013-09-04T15:58:00+02:00"

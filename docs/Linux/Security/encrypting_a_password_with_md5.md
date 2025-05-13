@@ -1,5 +1,6 @@
 ---
 title: "Encrypting a Password with MD5"
+slug: encrypting-a-password-with-md5/
 description: "Learn how to encrypt passwords using MD5 hash and check file integrity on Linux and Solaris systems."
 categories: ["Linux", "Solaris"]
 date: "2008-12-17T16:51:00+02:00"

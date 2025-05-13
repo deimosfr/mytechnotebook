@@ -1,5 +1,6 @@
 ---
 title: "Wine: Running Windows Applications on Linux"
+slug: wine-running-windows-applications-on-linux/
 description: "A guide on how to use Wine to run Windows applications on Linux systems"
 categories: 
   - Linux

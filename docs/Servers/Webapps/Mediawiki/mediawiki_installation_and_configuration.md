@@ -1,5 +1,6 @@
 ---
 title: "MediaWiki: Installation and Configuration"
+slug: mediawiki-installation-and-configuration/
 description: "A comprehensive guide for installing, configuring and managing MediaWiki including manual and Debian installation methods, extensions, web server configuration and many customization options."
 categories: ["Servers", "Debian", "Security", "Nginx"]
 date: "2014-11-27T07:38:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "ZFS On Linux: Setting up ZFS on Linux"
+slug: zfs-on-linux-setting-up-zfs-on-linux/
 description: "A guide to installing and configuring ZFS filesystem on Linux distributions, including Ubuntu and Debian, with instructions for installation, configuration, and troubleshooting common issues."
 categories: ["Linux", "FreeBSD", "Ubuntu"]
 date: "2011-12-06T20:57:00+02:00"

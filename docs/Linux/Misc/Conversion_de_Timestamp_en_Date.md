@@ -1,5 +1,6 @@
 ---
 title: "Converting Unix Timestamp to Date"
+slug: converting-unix-timestamp-to-date/
 description: "How to convert Unix timestamps to human-readable dates using various command-line methods."
 categories: ["Linux"]
 date: "2009-12-11T21:38:00+02:00"

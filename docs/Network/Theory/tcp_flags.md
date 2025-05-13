@@ -1,5 +1,6 @@
 ---
 title: "TCP Flags"
+slug: tcp-flags/
 description: "A reference guide explaining the meaning of different TCP flags used in network communications."
 categories: ["Linux", "Network"]
 date: "2008-01-20T08:12:00+02:00"

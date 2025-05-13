@@ -1,5 +1,6 @@
 ---
 title: "QoS (Quality Of Service) with PF"
+slug: qos-quality-of-service-with-pf/
 description: "How to implement Quality of Service (QoS) using Packet Filter (PF) in OpenBSD to prioritize different types of network traffic."
 categories: ["Network", "OpenBSD", "Firewall"]
 date: "2007-10-07T10:14:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Analyzing Network Equipment and Network Configurations"
+slug: analyzing-network-equipment-and-network-configurations/
 description: "Documentation on analyzing configurations of network equipment and networks"
 categories: ["Network"]
 date: "2008-12-26T18:40:00+01:00"

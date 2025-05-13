@@ -1,5 +1,6 @@
 ---
 title: "Advanced Usage of MediaWiki"
+slug: advanced-usage-of-mediawiki/
 description: "Advanced usage of MediaWiki features including dynamic tables, table simplification, and sorting capabilities."
 categories:
   - Linux

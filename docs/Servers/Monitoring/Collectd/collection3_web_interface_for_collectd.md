@@ -1,5 +1,6 @@
 ---
 title: "Collection3: A Web Interface for Collectd"
+slug: collection3-a-web-interface-for-collectd/
 description: "How to install and configure Collection3, a web interface for Collectd that enables viewing gathered statistics through a browser"
 categories: ["Servers", "Monitoring", "Web"]
 date: "2010-06-09T21:58:00+02:00"

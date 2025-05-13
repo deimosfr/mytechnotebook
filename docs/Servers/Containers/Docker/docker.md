@@ -1,5 +1,6 @@
 ---
 title: "Docker: containerize your applications"
+slug: docker-containerize-your-applications/
 description: "A comprehensive guide to Docker containers"
 ---
 

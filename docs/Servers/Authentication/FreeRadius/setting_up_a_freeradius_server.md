@@ -1,5 +1,6 @@
 ---
 title: "Setting up a FreeRadius server"
+slug: setting-up-a-freeradius-server/
 description: "This guide explains how to install and configure a FreeRadius server on OpenBSD, including basic user setup and verification."
 categories: ["Linux", "Network", "Servers"]
 date: "2009-01-13T11:10:00+02:00"

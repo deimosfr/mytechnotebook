@@ -1,5 +1,6 @@
 ---
 title: "Installation and Configuration of Pacemaker"
+slug: installation-and-configuration-of-pacemaker/
 description: "A guide on how to install and configure Pacemaker with Corosync on Debian 6"
 categories: ["Linux", "Debian"]
 date: "2010-12-21T20:41:00+02:00"

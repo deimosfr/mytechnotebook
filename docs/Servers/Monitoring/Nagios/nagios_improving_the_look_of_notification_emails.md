@@ -1,5 +1,6 @@
 ---
 title: "Nagios: Improving the Look of Notification Emails"
+slug: nagios-improving-the-look-of-notification-emails/
 description: "How to improve the appearance of Nagios notification emails using HTML formatting instead of plain text"
 categories: ["Monitoring", "Linux"]
 date: "2011-04-22T15:28:00+02:00"

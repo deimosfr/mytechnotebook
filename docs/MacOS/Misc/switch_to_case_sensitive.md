@@ -1,5 +1,6 @@
 ---
 title: "Switching to Case-Sensitive File System on Mac OS X"
+slug: switching-to-case-sensitive-file-system-on-mac-os-x/
 description: "Instructions on how to clear the DNS cache on Mac OS X systems"
 categories: ["Mac OS X", "Network"]
 tags: ["Mac OS X", "Filesystem"]

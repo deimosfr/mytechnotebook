@@ -1,5 +1,6 @@
 ---
 title: "Problems with saving Office, Adobe... file types"
+slug: problems-with-saving-office-adobe-file-types/
 description: "How to solve issues with saving Office and Adobe files on Samba shares by disabling oplocks or veto files."
 categories: ["Linux"]
 date: "2010-09-21T21:47:00+02:00"

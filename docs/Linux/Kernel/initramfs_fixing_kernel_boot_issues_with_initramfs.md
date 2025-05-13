@@ -1,5 +1,6 @@
 ---
 title: "Initramfs: Fixing Kernel Boot Issues with Initramfs"
+slug: initramfs-fixing-kernel-boot-issues-with-initramfs/
 description: "This guide explains how to use initramfs to solve kernel boot issues when disk detection order changes."
 categories: ["Linux", "Debian", "System Administration"]
 date: "2007-09-18T22:19:00+02:00"

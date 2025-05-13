@@ -1,5 +1,6 @@
 ---
 title: "OpenBSD Configuration and Installation via Serial Port on Soekris"
+slug: openbsd-configuration-and-installation-via-serial-port-on-soekris/
 description: "Complete guide to install OpenBSD on a Soekris device using the serial port and optimizing for CompactFlash storage"
 categories: ["BSD", "OpenBSD", "Soekris", "Embedded"]
 date: "2009-10-25T20:14:00+02:00"

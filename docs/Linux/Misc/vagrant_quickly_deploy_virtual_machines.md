@@ -1,5 +1,6 @@
 ---
 title: "Vagrant: Quickly Deploy Virtual Machines"
+slug: vagrant-quickly-deploy-virtual-machines/
 description: "Learn how to use Vagrant to easily deploy and manage virtual machines for development and testing environments."
 categories: ["Debian", "AWS", "Storage"]
 date: "2014-03-13T16:42:00+02:00"

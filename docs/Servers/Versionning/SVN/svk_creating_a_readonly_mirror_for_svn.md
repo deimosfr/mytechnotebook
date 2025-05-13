@@ -1,5 +1,6 @@
 ---
 title: "SVK: Creating a Read-Only Mirror for SVN"
+slug: svk-creating-a-read-only-mirror-for-svn/
 description: "A short guide on how to create a read-only mirror of an SVN repository using SVK"
 categories: ["Linux", "Development"]
 date: "2007-02-26T22:32:00+02:00"

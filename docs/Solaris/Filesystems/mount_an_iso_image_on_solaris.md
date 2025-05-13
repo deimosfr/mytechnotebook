@@ -1,5 +1,6 @@
 ---
 title: "Mount an ISO image on Solaris"
+slug: mount-an-iso-image-on-solaris/
 description: "How to mount an ISO image on Solaris using lofiadm and mount commands."
 categories: ["Unix", "Solaris"]
 date: "2010-06-15T07:24:00+02:00"

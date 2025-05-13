@@ -1,5 +1,6 @@
 ---
 title: "Simulate a black hole for a domain with Postfix"
+slug: simulate-a-black-hole-for-a-domain-with-postfix/
 description: "How to set up a black hole for emails in Postfix to test outgoing mail services."
 categories: ["Debian", "Linux"]
 date: "2013-05-07T05:54:00+02:00"

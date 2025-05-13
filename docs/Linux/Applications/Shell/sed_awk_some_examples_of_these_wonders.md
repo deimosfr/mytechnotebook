@@ -1,5 +1,6 @@
 ---
 title: "Sed & Awk: Some Examples of These Wonders"
+slug: sed-awk-some-examples-of-these-wonders/
 description: "Examples and usage patterns for Sed, Awk, and Grep commands in Linux for text manipulation, filtering, and processing."
 categories: ["Linux", "Database"]
 date: "2014-01-01T15:45:00+02:00"

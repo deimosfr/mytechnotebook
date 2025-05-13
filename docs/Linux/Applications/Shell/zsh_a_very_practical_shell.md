@@ -1,5 +1,6 @@
 ---
 title: "ZSH: A Very Practical Shell"
+slug: zsh-a-very-practical-shell/
 description: "Configuration and usage guide for ZSH shell, a powerful alternative to bash with advanced features like auto-completion, customizable prompts, and better history management."
 categories: ["Linux", "Debian"]
 date: "2009-12-11T21:11:00+02:00"

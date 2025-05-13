@@ -1,5 +1,6 @@
 ---
 title: "Wacom: Setting up the Wacom Bamboo"
+slug: wacom-setting-up-the-wacom-bamboo/
 description: "Guide for installing and configuring a Wacom Bamboo tablet on Linux"
 categories: ["Linux", "Debian"]
 date: "2008-10-01T12:20:00+02:00"

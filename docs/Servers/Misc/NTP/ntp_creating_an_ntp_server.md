@@ -1,5 +1,6 @@
 ---
 title: "NTP: Creating an NTP Server"
+slug: ntp-creating-an-ntp-server/
 description: "Guide for setting up and configuring an NTP server on various operating systems including Debian and Solaris."
 categories: ["Debian", "Linux", "Solaris"]
 date: "2011-10-06T11:10:00+02:00"

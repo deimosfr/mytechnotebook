@@ -1,5 +1,6 @@
 ---
 title: "DevStack: Quickly Develop or Test OpenStack"
+slug: devstack-quickly-develop-or-test-openstack/
 description: "Learn how to use DevStack to quickly set up and test OpenStack for development and testing purposes"
 categories: ["Ubuntu", "Linux"]
 date: "2013-04-14T07:21:00+02:00"

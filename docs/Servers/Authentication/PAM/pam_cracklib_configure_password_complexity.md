@@ -1,5 +1,6 @@
 ---
 title: "PAM Cracklib: Configure Password Complexity"
+slug: pam-cracklib-configure-password-complexity/
 description: "How to configure password complexity requirements using PAM Cracklib to enforce strong password policies on Linux systems."
 categories: ["Linux", "Security"]
 date: "2011-02-06T08:49:00+02:00"

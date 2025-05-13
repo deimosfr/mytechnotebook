@@ -1,5 +1,6 @@
 ---
 title: "Installation of Sun Cluster"
+slug: installation-of-sun-cluster/
 description: "Guide for installing and configuring Sun Cluster software on Solaris systems."
 categories: ["Solaris", "Cluster"]
 date: "2010-07-26T12:01:00+02:00"

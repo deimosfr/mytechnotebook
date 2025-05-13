@@ -1,5 +1,6 @@
 ---
 title: "Preventing your website from being indexed (disabling robot scans)"
+slug: preventing-your-website-from-being-indexed-disabling-robot-scans/
 description: "How to prevent search engines from crawling and indexing your website using robots.txt file and meta tags"
 categories: ["Development", "Linux", "Servers"]
 date: "2009-09-19T21:11:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Selenium: Task Automation for Web Environments"
+slug: selenium-task-automation-for-web-environments/
 description: "Guide explaining how to use Selenium for automating web tasks, including installation and usage of Selenium IDE with Firefox."
 categories: ["Linux", "Development"]
 date: "2012-12-19T16:04:00+02:00"

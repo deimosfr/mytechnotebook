@@ -1,5 +1,6 @@
 ---
 title: "Jobs: How to Use Jobs"
+slug: jobs-how-to-use-jobs/
 description: "Learn how to use Linux jobs functionality to run multiple tasks in parallel without needing multiple shells."
 categories: ["Linux"]
 date: "2013-05-06T20:02:00+02:00"

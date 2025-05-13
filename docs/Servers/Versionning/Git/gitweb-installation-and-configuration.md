@@ -1,5 +1,6 @@
 ---
 title: "Gitweb: Installation and configuration of a web interface for git"
+slug: gitweb-installation-and-configuration-of-a-web-interface-for-git/
 description: "Learn how to install and configure Gitweb, the web interface that allows you to view all commits and comments for git repositories."
 categories: ["Server", "Git", "Web"]
 date: "2014-02-17T21:59:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "SWAP: Creating Dynamic Swap"
+slug: swap-creating-dynamic-swap/
 description: "Guide on how to create and manage dynamic swap space in Linux through partition-based and image-based methods."
 categories: ["Linux"]
 date: "2009-09-19T21:47:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Fluxbox: Rounded Corners for All Windows"
+slug: fluxbox-rounded-corners-for-all-windows/
 description: "How to add rounded corners to all windows in Fluxbox window manager"
 categories: ["Linux", "Desktop"]
 date: "2007-11-22T07:20:00+02:00"

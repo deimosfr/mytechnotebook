@@ -1,5 +1,6 @@
 ---
 title: "Cryptoloop: Setting Up an Encrypted Folder"
+slug: cryptoloop-setting-up-an-encrypted-folder/
 description: "Guide on how to set up Cryptoloop for creating encrypted file containers"
 categories: ["Linux"]
 date: "2008-03-27T13:34:00+02:00"

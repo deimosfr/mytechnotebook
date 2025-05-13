@@ -1,5 +1,6 @@
 ---
 title: "Observium: An Advanced Interface for Collectd"
+slug: observium-an-advanced-interface-for-collectd/
 description: "Learn how to set up Observium to provide an advanced graphical interface for Collectd monitoring data, including installation, configuration, and integration with SNMP."
 categories: ["RHEL", "Debian", "Database"]
 date: "2012-03-22T15:56:00+02:00"

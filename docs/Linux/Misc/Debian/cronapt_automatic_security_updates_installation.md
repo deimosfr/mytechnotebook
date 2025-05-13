@@ -1,5 +1,6 @@
 ---
 title: "Cron-apt: Automatic Security Updates Installation"
+slug: cron-apt-automatic-security-updates-installation/
 description: "How to setup automatic security updates on Debian using cron-apt"
 categories: ["Security", "Debian", "Linux"]
 date: "2014-05-18T11:34:00+02:00"

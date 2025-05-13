@@ -1,5 +1,6 @@
 ---
 title: "Apache 2 Installation and Configuration"
+slug: apache-2-installation-and-configuration/
 description: "This guide covers the installation and configuration of Apache 2 web server, including authentication, URL rewrites, virtual hosts, and performance optimizations."
 categories: ["Monitoring", "Security", "Ubuntu"]
 date: "2011-04-06T08:57:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Debian: GPG Error During apt-get update"
+slug: debian-gpg-error-during-apt-get-update/
 description: "How to solve GPG key errors when running apt-get update on Debian systems"
 categories: ["Security", "Linux", "Debian"]
 date: "2006-08-05T13:05:00+02:00"

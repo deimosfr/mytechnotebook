@@ -1,5 +1,6 @@
 ---
 title: "Convert MySQL RC Script to SMF"
+slug: convert-mysql-rc-script-to-smf/
 description: "How to convert MySQL RC startup scripts to Solaris Management Facility (SMF) configuration"
 categories: ["Database", "MySQL", "Solaris"]
 date: "2008-04-20T08:10:00+02:00"

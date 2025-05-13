@@ -1,5 +1,6 @@
 ---
 title: "Console Colorization"
+slug: console-colorization/
 description: "How to add color to your Linux console for better readability of man pages and log files"
 categories: ["Linux", "Terminal"]
 date: "2006-10-03T14:44:00+02:00"

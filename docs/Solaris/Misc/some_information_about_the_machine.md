@@ -1,5 +1,6 @@
 ---
 title: "Some information about the machine"
+slug: some-information-about-the-machine/
 description: "Simple guide to get information about a Solaris machine, including CPU details and system configuration."
 categories: ["Linux", "Solaris"]
 date: "2007-03-16T14:24:00+02:00"

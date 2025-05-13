@@ -1,5 +1,6 @@
 ---
 title: "Calibrating Your Laptop Battery"
+slug: calibrating-your-laptop-battery/
 description: "Learn how to properly calibrate a MacBook or MacBook Pro battery to maintain optimal performance and accurate battery life indicators."
 categories: ["Mac OS X", "Hardware", "Maintenance"]
 date: "2008-04-22T06:13:00+02:00"

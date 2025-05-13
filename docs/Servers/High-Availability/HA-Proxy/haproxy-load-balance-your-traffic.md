@@ -1,5 +1,6 @@
 ---
 title: "HAProxy: Load Balance Your Traffic"
+slug: haproxy-load-balance-your-traffic/
 description: "How to install and configure HAProxy to load balance HTTP traffic, MySQL/MariaDB databases, and perform SSL offloading."
 categories: ["Network", "Load Balancing", "Web Servers"]
 date: "2015-01-21T20:51:00+01:00"

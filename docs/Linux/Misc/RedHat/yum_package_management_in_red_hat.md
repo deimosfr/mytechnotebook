@@ -1,5 +1,6 @@
 ---
 title: "Yum: Package Management in Red Hat"
+slug: yum-package-management-in-red-hat/
 description: "A guide on using Yum package manager in Red Hat-based distributions, including installation, removal, updates, and other package management operations."
 categories: ["Red Hat", "Linux"]
 date: "2012-03-02T19:08:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "PowerDNS: Creating a Master DNS Server"
+slug: powerdns-creating-a-master-dns-server/
 description: "How to install and configure a PowerDNS master server using a MySQL backend on Debian"
 categories: ["MySQL", "Debian", "Linux"]
 date: "2012-05-15T14:45:00+02:00"

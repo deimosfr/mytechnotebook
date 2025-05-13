@@ -1,5 +1,6 @@
 ---
 title: "AOE: Setting Up an ATA Over Ethernet Server"
+slug: aoe-setting-up-an-ata-over-ethernet-server/
 description: "Guide for implementing an ATA Over Ethernet (AOE) server to transport ATA commands over an Ethernet network."
 categories: ["Storage", "Networking", "Server"]
 date: "2009-11-28T15:41:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Puppet Dashboard: Setting up a Graphical Interface for Puppet"
+slug: puppet-dashboard-setting-up-a-graphical-interface-for-puppet/
 description: "How to install, configure and use Puppet Dashboard to create a graphical interface to monitor Puppet nodes and reports."
 categories: ["RHEL", "Nginx", "Debian"]
 date: "2013-01-05T22:41:00+02:00"

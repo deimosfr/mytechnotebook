@@ -1,5 +1,6 @@
 ---
 title: "OProfile: Profile Your System"
+slug: oprofile-profile-your-system/
 description: "Learn how to use OProfile to profile your system, analyze application performance and monitor resource usage with this comprehensive guide."
 categories: ["Linux", "Red Hat"]
 date: "2011-12-28T19:54:00+02:00"

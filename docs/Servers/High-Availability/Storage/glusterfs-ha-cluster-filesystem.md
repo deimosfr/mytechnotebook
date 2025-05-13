@@ -1,5 +1,6 @@
 ---
 title: "GlusterFS: High Availability Cluster Filesystem"
+slug: glusterfs-high-availability-cluster-filesystem/
 description: "How to setup GlusterFS to create a high availability clustered filesystem with automatic file replication across multiple servers."
 categories: ["Linux", "File System", "Cluster", "High Availability"]
 date: "2011-04-11T08:18:00+02:00"

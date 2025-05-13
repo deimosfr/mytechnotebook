@@ -1,5 +1,6 @@
 ---
 title: "Creating a Favicon for a Website"
+slug: creating-a-favicon-for-a-website/
 description: "How to create and convert images into favicons for websites"
 categories: ["Linux"]
 date: "2009-11-30T20:31:00+02:00"

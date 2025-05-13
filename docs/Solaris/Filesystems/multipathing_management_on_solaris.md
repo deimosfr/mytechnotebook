@@ -1,5 +1,6 @@
 ---
 title: "Multipathing Management on Solaris"
+slug: multipathing-management-on-solaris/
 description: "A guide to manage multipathing on Solaris systems, including configuration, verification of fibers, and volume management."
 categories: ["Linux", "Solaris"]
 date: "2009-11-06T16:40:00+02:00"

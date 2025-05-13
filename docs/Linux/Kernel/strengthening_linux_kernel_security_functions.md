@@ -1,5 +1,6 @@
 ---
 title: "Strengthening Linux Kernel Security Functions"
+slug: strengthening-linux-kernel-security-functions/
 description: "An overview of various security mechanisms for Linux kernels to ensure system integrity protection, including Address Space Layout Randomization, GrSecurity, PaX, SELinux, and network security."
 categories:
   - Debian

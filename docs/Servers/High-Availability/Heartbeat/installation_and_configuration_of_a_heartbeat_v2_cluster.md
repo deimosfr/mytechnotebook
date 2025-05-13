@@ -1,5 +1,6 @@
 ---
 title: "Installation and Configuration of a Heartbeat V2 Cluster"
+slug: installation-and-configuration-of-a-heartbeat-v2-cluster/
 description: "Guide for installing, configuring and monitoring services with Heartbeat 2 cluster software for high availability systems."
 categories: ["Linux", "Security", "Monitoring"]
 date: "2009-02-18T18:37:00+02:00"

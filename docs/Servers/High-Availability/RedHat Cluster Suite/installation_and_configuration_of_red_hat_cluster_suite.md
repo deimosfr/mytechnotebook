@@ -1,5 +1,6 @@
 ---
 title: "Installation and Configuration of Red Hat Cluster Suite"
+slug: installation-and-configuration-of-red-hat-cluster-suite/
 description: "How to install and configure Red Hat Cluster Suite to create a high availability infrastructure with failover capabilities."
 categories: ["RHEL", "Monitoring", "Linux"]
 date: "2012-05-14T08:53:00+02:00"

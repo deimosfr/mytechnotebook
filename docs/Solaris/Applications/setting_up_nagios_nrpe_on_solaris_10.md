@@ -1,5 +1,6 @@
 ---
 title: "Setting up Nagios NRPE on Solaris 10"
+slug: setting-up-nagios-nrpe-on-solaris-10/
 description: "A guide on how to set up Nagios NRPE on Solaris 10 with detailed steps for installation and configuration."
 categories: ["Linux", "Servers", "Network"]
 date: "2008-04-05T10:22:00+02:00"

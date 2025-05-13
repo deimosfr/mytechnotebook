@@ -1,5 +1,6 @@
 ---
 title: "Debian: Reinstalling a Server Almost Identically"
+slug: debian-reinstalling-a-server-almost-identically/
 description: "How to reinstall a Debian server with the exact same packages as a reference server."
 categories: ["Debian", "Linux"]
 date: "2013-05-06T15:36:00+02:00"

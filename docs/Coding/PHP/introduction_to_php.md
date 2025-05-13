@@ -1,5 +1,6 @@
 ---
 title: "Introduction to PHP"
+slug: introduction-to-php/
 description: "A comprehensive introduction to PHP programming language covering basic syntax, variables, functions, forms, databases, and more."
 categories: ["Development", "Database"]
 date: "2010-12-27T21:26:00+02:00"

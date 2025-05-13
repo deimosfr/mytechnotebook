@@ -1,5 +1,6 @@
 ---
 title: "Creating a Red Hat Kickstart to Automate Installations"
+slug: creating-a-red-hat-kickstart-to-automate-installations/
 description: "Learn how to automate Red Hat installations using the Kickstart method to deploy multiple machines efficiently."
 categories: ["RHEL", "Linux", "Red Hat"]
 date: "2012-06-07T07:34:00+02:00"

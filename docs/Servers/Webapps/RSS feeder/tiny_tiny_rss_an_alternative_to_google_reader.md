@@ -1,5 +1,6 @@
 ---
 title: "Tiny Tiny RSS: An Alternative to Google Reader"
+slug: tiny-tiny-rss-an-alternative-to-google-reader/
 description: "How to set up and configure Tiny Tiny RSS as an alternative to Google Reader, including installation, MySQL configuration, and importing from Google Reader"
 categories: ["MySQL", "Database", "Linux"]
 date: "2013-06-29T16:26:00+02:00"

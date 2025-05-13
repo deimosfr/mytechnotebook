@@ -1,5 +1,6 @@
 ---
 title: "PAM mount: Automatically Mount Network Shares at Login"
+slug: pam-mount-automatically-mount-network-shares-at-login/
 description: "Guide on how to use PAM mount to automatically mount network shares when users log in to a system."
 categories: ["Linux", "Security"]
 date: "2008-07-16T16:23:00+02:00"

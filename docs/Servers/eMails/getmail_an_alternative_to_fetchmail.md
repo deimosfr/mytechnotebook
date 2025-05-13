@@ -1,5 +1,6 @@
 ---
 title: "Getmail - An Alternative to Fetchmail"
+slug: getmail-an-alternative-to-fetchmail/
 description: "Documentation about Getmail as an alternative to Fetchmail with a link to a PDF guide."
 categories:
   - Linux

@@ -1,5 +1,6 @@
 ---
 title: "Changing Solaris Locales"
+slug: changing-solaris-locales/
 description: "How to change locale settings on Solaris systems to fix locale-related error messages and properly configure internationalization."
 categories: ["Solaris"]
 date: "2010-02-08T16:22:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Make Unsupported Network Cards Work with Solaris"
+slug: make-unsupported-network-cards-work-with-solaris/
 description: "How to make unsupported network cards work with Solaris by installing additional drivers"
 categories: ["Solaris", "Hardware", "Networking"]
 date: "2008-12-21T16:12:00+02:00"

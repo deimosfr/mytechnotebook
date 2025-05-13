@@ -1,5 +1,6 @@
 ---
 title: "Software RAID Configuration"
+slug: software-raid-configuration/
 description: "Learn how to set up, monitor, and optimize software RAID configurations on Linux systems"
 categories: ["Linux", "Storage", "System Administration"]
 date: "2014-08-08T08:29:00+02:00"

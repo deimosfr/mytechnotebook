@@ -1,5 +1,6 @@
 ---
 title: "Ext3: Resize partitions without data loss"
+slug: ext3-resize-partitions-without-data-loss/
 description: "How to resize Ext3 partitions without data loss, including instructions and procedures to safely modify your filesystem size."
 categories: ["Linux", "Filesystem"]
 date: "2007-01-07T18:41:00+02:00"

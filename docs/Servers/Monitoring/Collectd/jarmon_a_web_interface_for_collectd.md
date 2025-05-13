@@ -1,5 +1,6 @@
 ---
 title: "Jarmon: A Web Interface for Collectd"
+slug: jarmon-a-web-interface-for-collectd/
 description: "This article explains how to install and configure Jarmon, a web interface for Collectd that allows for clear visualization and zooming of monitoring data."
 categories:
   - "Linux"

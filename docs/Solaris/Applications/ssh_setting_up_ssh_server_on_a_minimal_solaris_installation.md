@@ -1,12 +1,12 @@
 ---
 
 title: "SSH: Setting up SSH Server on a Minimal Solaris Installation"
+slug: ssh-setting-up-ssh-server-on-a-minimal-solaris-installation/
 description: "How to install SSH server packages on a minimal Solaris 10 installation"
 categories: ["Solaris", "Servers", "Network"]
 date: "2008-04-05T10:16:00+02:00"
 lastmod: "2008-04-05T10:16:00+02:00"
 tags: ["SSH", "Solaris", "Server", "Installation"]
-
 ---
 
 If you need to manage a Solaris 10 box with a minimal install, and SSH is not available, you can install it off of the 2nd CD. Rather than figure out the path to your CDROM (see this article), it was easier in our case to just tar up the needed packages and FTP them to our Solaris box:

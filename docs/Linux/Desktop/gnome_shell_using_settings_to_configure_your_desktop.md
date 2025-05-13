@@ -1,5 +1,6 @@
 ---
 title: "GNOME Shell: Using Settings to Configure Your Desktop"
+slug: gnome-shell-using-settings-to-configure-your-desktop/
 description: "A guide on how to use GNOME Shell settings to configure your desktop environment, including showing date/time, workspace settings, changing backgrounds and more."
 categories: ["Linux", "Debian"]
 date: "2012-11-06T07:19:00+02:00"

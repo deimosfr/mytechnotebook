@@ -1,5 +1,6 @@
 ---
 title: "Windows XP: Memory Overflow Problems"
+slug: windows-xp-memory-overflow-problems/
 description: "How to solve memory overflow problems in Windows XP by editing registry settings"
 categories: ["Windows"]
 date: "2007-08-21T07:15:00+02:00"

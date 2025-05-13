@@ -1,5 +1,6 @@
 ---
 title: "Disable Sound in GDM"
+slug: disable-sound-in-gdm/
 description: "How to disable the login sound in GDM on Ubuntu systems for a quieter computing experience."
 categories: ["Ubuntu", "Linux"]
 date: "2009-10-31T21:36:00+02:00"

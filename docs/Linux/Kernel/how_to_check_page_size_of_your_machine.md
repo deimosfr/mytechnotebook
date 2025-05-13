@@ -1,5 +1,6 @@
 ---
 title: "How to Check the Page Size of Your Machine"
+slug: how-to-check-the-page-size-of-your-machine/
 description: "Methods to determine memory page size in different operating systems for more efficient memory allocation"
 categories: ["System Administration", "Development"]
 date: "2007-05-09T13:11:00+02:00"

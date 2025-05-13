@@ -1,5 +1,6 @@
 ---
 title: "IPv6: Complete Removal, IPv4 Only on Debian"
+slug: ipv6-complete-removal-ipv4-only-on-debian/
 description: "How to completely disable IPv6 support and run with IPv4 only on a Debian system."
 categories: ["Linux", "Debian"]
 date: "2007-08-21T21:10:00+02:00"

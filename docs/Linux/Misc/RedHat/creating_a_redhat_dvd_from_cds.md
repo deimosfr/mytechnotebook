@@ -1,5 +1,6 @@
 ---
 title: "Creating a RedHat DVD from CDs"
+slug: creating-a-redhat-dvd-from-cds/
 description: "Guide for creating a bootable RedHat DVD from CD images"
 categories: ["Linux", "RHEL", "Red Hat"]
 date: "2007-08-17T15:30:00+02:00"

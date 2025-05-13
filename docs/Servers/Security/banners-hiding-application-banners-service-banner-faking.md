@@ -1,5 +1,6 @@
 ---
 title: "Banners: Hiding Application Banners (Service Banner Faking)"
+slug: banners-hiding-application-banners-service-banner-faking/
 description: "A guide to hiding service banners and modifying version information to improve security by making it harder for attackers to fingerprint your services."
 categories: ["Security", "Server", "Linux", "Windows"]
 date: "2009-04-17T20:56:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Seafile: Make Your Personal Storage Cloud Easily"
+slug: seafile-make-your-personal-storage-cloud-easily/
 description: "Learn how to install and configure Seafile cloud storage system on Debian 7 with Nginx and MariaDB/MySQL."
 categories: ["Nginx", "Debian", "Storage"]
 date: "2014-06-22T05:10:00+02:00"

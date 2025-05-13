@@ -1,5 +1,6 @@
 ---
 title: "Video Conversions"
+slug: video-conversions/
 description: "Guide on how to convert videos between different formats using mencoder and ffmpeg on Linux"
 categories: ["Ubuntu", "Linux"]
 date: "2010-05-02T21:43:00+02:00"

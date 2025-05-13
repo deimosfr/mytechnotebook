@@ -1,5 +1,6 @@
 ---
 title: "Recovering your OpenBSD after a bad manipulation"
+slug: recovering-your-openbsd-after-a-bad-manipulation/
 description: "Guide on how to recover an OpenBSD system after accidentally deleting the /dev directory"
 categories: ["Linux", "BSD", "System Recovery"]
 date: "2008-01-20T07:58:00+02:00"

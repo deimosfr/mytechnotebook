@@ -1,5 +1,6 @@
 ---
 title: "OpenSSH : Tunneling VPN"
+slug: openssh-tunneling-vpn/
 description: "Guide to setting up OpenSSH tunneling VPN, including server and client configuration for creating secure VPN connections."
 categories: ["Linux", "Network", "FreeBSD"]
 date: "2010-05-14T22:46:00+02:00"

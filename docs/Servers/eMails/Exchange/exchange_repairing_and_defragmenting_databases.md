@@ -1,5 +1,6 @@
 ---
 title: "Exchange: Repairing and Defragmenting Databases"
+slug: exchange-repairing-and-defragmenting-databases/
 description: "Guide on how to repair and defragment Exchange databases to improve performance and reduce storage space."
 categories: ["Windows"]
 date: "2007-01-20T11:00:00+02:00"

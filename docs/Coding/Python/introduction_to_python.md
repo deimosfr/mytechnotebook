@@ -1,5 +1,6 @@
 ---
 title: "Introduction to Python"
+slug: introduction-to-python/
 description: "A comprehensive introduction to Python programming language, covering syntax, data types, structures, functions, modules, and useful libraries."
 categories: ["Linux"]
 date: "2012-06-06T12:45:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "UFS: Disk usage in UFS"
+slug: ufs-disk-usage-in-ufs/
 description: "A guide on how to create and manage UFS slices in FreeBSD, including partition creation, formatting, and mounting."
 categories: ["FreeBSD", "Linux", "Backup"]
 date: "2012-06-14T12:30:00+02:00"

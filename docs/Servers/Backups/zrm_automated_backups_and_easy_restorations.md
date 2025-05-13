@@ -1,5 +1,6 @@
 ---
 title: "ZRM: Automated Backups and Easy Restorations"
+slug: zrm-automated-backups-and-easy-restorations/
 description: "A guide to using ZRM for MySQL for automated database backups and point-in-time recovery for all MySQL storage engines"
 categories: ["Backup", "Linux", "Database"]
 date: "2008-04-19T11:16:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: 'OctoPrint: add Prusa Connect'
+slug: octoprint-add-prusa-connect/
 description: 'Connect OctoPrint to Prusa Connect'
 categories: ['3D Print', 'OctoPrint', 'Prusa']
 tags: ['3D Print', 'OctoPrint', 'Prusa']

@@ -1,5 +1,6 @@
 ---
 title: "Iperf: Testing End-to-End Bandwidth"
+slug: iperf-testing-end-to-end-bandwidth/
 description: "How to use Iperf to measure bandwidth and network performance between endpoints"
 categories: ["Linux", "Debian", "Ubuntu", "Network"]
 date: "2008-02-04T10:44:00+02:00"

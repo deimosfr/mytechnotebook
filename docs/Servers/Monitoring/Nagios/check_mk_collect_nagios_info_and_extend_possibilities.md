@@ -1,5 +1,6 @@
 ---
 title: "Check MK: Easily collect Nagios information and extend its capabilities"
+slug: check-mk-easily-collect-nagios-information-and-extend-its-capabilities/
 description: "Set up Check MK to extend Nagios functionality with easy data collection and additional features like multisites and clustering"
 categories: ["Servers", "Monitoring", "Nagios"]
 date: "2012-05-25T07:42:00+02:00"

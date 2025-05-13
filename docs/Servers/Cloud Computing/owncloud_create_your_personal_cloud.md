@@ -1,5 +1,6 @@
 ---
 title: "OwnCloud: Create Your Personal Cloud"
+slug: owncloud-create-your-personal-cloud/
 description: "How to set up your own personal cloud server using OwnCloud with Nginx and MariaDB"
 categories: ["Nginx", "Debian", "Database"]
 date: "2013-02-26T08:03:00+02:00"

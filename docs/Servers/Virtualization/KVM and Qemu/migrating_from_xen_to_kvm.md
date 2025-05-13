@@ -1,5 +1,6 @@
 ---
 title: "Migrating from Xen to KVM"
+slug: migrating-from-xen-to-kvm/
 description: "A guide on how to migrate virtual machines from Xen to KVM virtualization platform."
 categories: ["Debian", "Linux"]
 date: "2008-04-18T22:50:00+02:00"

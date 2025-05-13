@@ -1,5 +1,6 @@
 ---
 title: "Securing Your Kernel with Grsecurity and PaX"
+slug: securing-your-kernel-with-grsecurity-and-pax/
 description: "How to secure a Linux kernel with Grsecurity and PaX patches to enhance security against buffer overflows and other vulnerabilities."
 categories: ["Linux", "Security"]
 date: "2009-02-03T07:18:00+02:00"

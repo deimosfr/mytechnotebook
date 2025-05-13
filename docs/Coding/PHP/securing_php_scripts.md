@@ -1,5 +1,6 @@
 ---
 title: "Securing PHP Scripts"
+slug: securing-php-scripts/
 description: "Guide for securing PHP scripts with documentation resources for better security practices."
 categories: ["Development", "Linux"]
 date: "2008-06-29T12:23:00+02:00"

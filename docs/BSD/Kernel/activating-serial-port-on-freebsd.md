@@ -1,5 +1,6 @@
 ---
 title: "Activating the Serial Port on FreeBSD"
+slug: activating-the-serial-port-on-freebsd/
 description: "Learn how to configure and activate the serial port on FreeBSD systems for remote access and console management."
 categories: ["BSD", "System Administration"]
 date: "2012-05-19T23:07:00+02:00"

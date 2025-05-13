@@ -1,5 +1,6 @@
 ---
 title: "Installation and Configuration of Samba in ADS Mode (Authentication on an AD Server)"
+slug: installation-and-configuration-of-samba-in-ads-mode-authentication-on-an-ad-server/
 description: "Guide on how to integrate a Linux server with Samba into an Active Directory domain for unified authentication"
 categories: ["Linux", "Samba", "Active Directory", "Authentication"]
 date: "2008-12-02T07:24:00+02:00"

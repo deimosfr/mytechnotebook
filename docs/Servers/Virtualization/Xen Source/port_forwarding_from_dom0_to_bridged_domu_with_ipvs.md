@@ -1,5 +1,6 @@
 ---
 title: "Port forwarding from dom0 to bridged domU with IPVS"
+slug: port-forwarding-from-dom0-to-bridged-domu-with-ipvs/
 description: "How to forward ports from a dom0 to a bridged domU in Xen using IPVS, overcoming Netfilter issues"
 categories: ["Debian", "Linux"]
 date: "2007-09-16T21:32:00+02:00"

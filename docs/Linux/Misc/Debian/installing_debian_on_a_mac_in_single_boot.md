@@ -1,5 +1,6 @@
 ---
 title: "Installing Debian on a Mac in Single Boot"
+slug: installing-debian-on-a-mac-in-single-boot/
 description: "This guide explains how to install Debian on a Mac in single boot mode, including tips for shortening boot time, setting up auto-restart after power loss, and enabling Wake on LAN."
 categories: ["Linux", "Debian"]
 date: "2012-05-02T20:36:00+02:00"

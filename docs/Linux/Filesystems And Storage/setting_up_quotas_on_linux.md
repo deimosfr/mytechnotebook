@@ -1,5 +1,6 @@
 ---
 title: "Setting up quotas on Linux"
+slug: setting-up-quotas-on-linux/
 description: "A guide on how to implement and manage disk quotas on Linux systems to control user disk space usage."
 categories: ["Linux", "Debian"]
 date: "2008-05-23T14:43:00+02:00"

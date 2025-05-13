@@ -1,5 +1,6 @@
 ---
 title: "Lshell: Limiting Shell Capabilities"
+slug: lshell-limiting-shell-capabilities/
 description: "Learn how to restrict shell access and commands for users with Lshell on Linux systems. This guide covers installation, configuration, and integration with MySecureShell and sudo."
 categories: ["Linux", "Security", "Servers"]
 date: "2013-03-28T10:15:00+02:00"

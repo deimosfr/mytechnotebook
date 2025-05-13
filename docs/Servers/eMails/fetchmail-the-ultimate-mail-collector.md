@@ -1,5 +1,6 @@
 ---
 title: "Fetchmail - The Ultimate Mail Collector"
+slug: fetchmail-the-ultimate-mail-collector/
 description: "How to set up Fetchmail to retrieve emails from multiple accounts and consolidate them in one place"
 categories: ["Linux", "Email", "System Administration"]
 date: "2008-01-07T14:48:00+02:00"

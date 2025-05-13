@@ -1,5 +1,6 @@
 ---
 title: "Trickle: Limit Your Application Bandwidth"
+slug: trickle-limit-your-application-bandwidth/
 description: "Guide on how to use Trickle to limit bandwidth usage for applications in Linux"
 categories: ["Linux", "Debian", "Network"]
 date: "2013-05-06T13:47:00+02:00"

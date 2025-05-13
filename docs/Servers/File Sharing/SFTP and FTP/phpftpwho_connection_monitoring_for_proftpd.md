@@ -1,5 +1,6 @@
 ---
 title: "PhpFtpWho: Connection Monitoring for Proftpd"
+slug: phpftpwho-connection-monitoring-for-proftpd/
 description: "Documentation for monitoring connections to the Proftpd FTP server."
 categories: ["Monitoring", "Linux"]
 date: "2007-04-15T21:36:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "IMAP Mailbox Synchronization"
+slug: imap-mailbox-synchronization/
 description: "How to synchronize IMAP mailboxes between two remote servers using imapsync"
 categories: ["Linux", "Network", "Servers"]
 date: "2006-10-23T11:00:00+02:00"

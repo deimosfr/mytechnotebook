@@ -1,5 +1,6 @@
 ---
 title: "Installation and Configuration of DRBD"
+slug: installation-and-configuration-of-drbd/
 description: "How to set up and configure DRBD for disk replication across nodes in a network for high availability"
 categories: ["Linux", "Debian"]
 date: "2013-09-07T09:56:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "DNS Protocol Security Audits"
+slug: dns-protocol-security-audits/
 description: "Learn about DNS protocol security audits, methods to identify vulnerabilities, and how to use the DNSA tool for testing DNS servers."
 categories: ["Security", "Network", "DNS"]
 date: "2007-12-23T23:04:00+02:00"

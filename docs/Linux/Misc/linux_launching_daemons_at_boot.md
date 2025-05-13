@@ -1,5 +1,6 @@
 ---
 title: "Linux: Launching Daemons at Boot"
+slug: linux-launching-daemons-at-boot/
 description: "Guide explaining how to configure daemons to automatically start at boot time on different Linux distributions such as Debian, Red Hat, and Gentoo."
 categories: 
   - Debian

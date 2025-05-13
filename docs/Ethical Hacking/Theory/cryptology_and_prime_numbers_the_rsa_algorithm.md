@@ -1,5 +1,6 @@
 ---
 title: "Cryptology and Prime Numbers: The RSA Algorithm"
+slug: cryptology-and-prime-numbers-the-rsa-algorithm/
 description: "Documentation explaining how the RSA algorithm works with prime numbers in cryptology."
 categories: ["Linux", "Security"]
 date: "2008-04-20T13:55:00+02:00"

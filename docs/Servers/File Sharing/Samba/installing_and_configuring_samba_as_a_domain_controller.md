@@ -1,5 +1,6 @@
 ---
 title: "Installing and configuring Samba as a Domain Controller"
+slug: installing-and-configuring-samba-as-a-domain-controller/
 description: "A guide on how to install and configure Samba to function as a domain controller with OpenLDAP backend."
 categories: ["Linux", "Security"]
 date: "2012-11-07T09:52:00+02:00"

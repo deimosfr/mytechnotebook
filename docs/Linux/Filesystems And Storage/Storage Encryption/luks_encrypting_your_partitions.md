@@ -1,5 +1,6 @@
 ---
 title: "LUKS: Encrypting Your Partitions"
+slug: luks-encrypting-your-partitions/
 description: "Learn how to use LUKS to encrypt partitions on Linux, including creating encrypted partitions, unlocking them, and managing passphrases."
 categories: ["Linux"]
 date: "2013-12-23T21:16:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Creating Blank Images for Testing Filesystems"
+slug: creating-blank-images-for-testing-filesystems/
 description: "How to create blank disk images to safely test filesystems without risking your existing partitions"
 categories: ["Linux"]
 date: "2007-06-20T08:16:00+02:00"

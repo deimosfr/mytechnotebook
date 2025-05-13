@@ -1,5 +1,6 @@
 ---
 title: "Selfoss: An Elegant RSS Reader"
+slug: selfoss-an-elegant-rss-reader/
 description: "A guide to install and configure Selfoss, an elegant self-hosted RSS reader solution, on Debian with Nginx and MariaDB."
 categories: ["Nginx", "Debian", "Database"]
 date: "2013-06-14T21:13:00+02:00"

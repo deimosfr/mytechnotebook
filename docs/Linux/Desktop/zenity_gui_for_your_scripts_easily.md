@@ -1,5 +1,6 @@
 ---
 title: "Zenity: GUI for Your Scripts Easily"
+slug: zenity-gui-for-your-scripts-easily/
 description: "Learn how to use Zenity, a tool developed by the Gnome team that allows you to easily display GTK dialog boxes from shell scripts."
 categories: 
   - Linux

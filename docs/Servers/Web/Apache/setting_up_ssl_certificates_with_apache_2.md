@@ -1,5 +1,6 @@
 ---
 title: "Setting up SSL certificates with Apache 2"
+slug: setting-up-ssl-certificates-with-apache-2/
 description: "A guide on how to create, configure and implement SSL certificates with Apache 2 on Debian and OpenBSD systems"
 categories: ["Debian", "Linux", "Apache"]
 date: "2009-09-24T12:28:00+02:00"

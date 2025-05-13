@@ -1,5 +1,6 @@
 ---
 title: "Viewing Hidden Files and Folders in Mac OS X"
+slug: viewing-hidden-files-and-folders-in-mac-os-x/
 description: "How to view hidden files and folders in Mac OS X system."
 categories:
   - "MacOS"

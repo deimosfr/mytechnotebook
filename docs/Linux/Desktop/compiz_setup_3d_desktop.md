@@ -1,5 +1,6 @@
 ---
 title: "Compiz: Setting Up a 3D Desktop"
+slug: compiz-setting-up-a-3d-desktop/
 description: "Guide to setting up Compiz for a 3D desktop environment on Linux systems"
 categories: ["Linux", "Desktop"]
 date: "2007-10-13T07:52:00+02:00"

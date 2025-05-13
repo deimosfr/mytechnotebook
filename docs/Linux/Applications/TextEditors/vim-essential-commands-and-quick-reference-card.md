@@ -1,5 +1,6 @@
 ---
 title: "Vim: Essential Commands and Quick Reference Card"
+slug: vim-essential-commands-and-quick-reference-card/
 description: "A guide to essential Vim commands, functions, and configuration options with a quick reference card for Vim users."
 categories: ["Development", "Tools"]
 date: "2013-05-07T13:17:00+02:00"

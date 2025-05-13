@@ -1,5 +1,6 @@
 ---
 title: "WebDAV with Lighttpd"
+slug: webdav-with-lighttpd/
 description: "A guide on how to set up WebDAV with Lighttpd server for uploading files to a web server."
 categories: ["Linux"]
 date: "2009-08-19T07:08:00+02:00"

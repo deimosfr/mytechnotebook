@@ -1,5 +1,6 @@
 ---
 title: "Modifying the firmware with OpenWrt"
+slug: modifying-the-firmware-with-openwrt/
 description: "A guide on how to modify the firmware of a Fonera+ router using OpenWrt, including extracting the original firmware, modifying it, and uploading the modified version."
 categories: ["Linux", "Network", "Development"]
 date: "2009-07-03T01:45:00+02:00"

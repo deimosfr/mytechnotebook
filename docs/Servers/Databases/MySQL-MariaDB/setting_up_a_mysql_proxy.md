@@ -1,5 +1,6 @@
 ---
 title: "Setting up a MySQL Proxy"
+slug: setting-up-a-mysql-proxy/
 description: "How to set up a MySQL proxy that can also serve as a load balancer."
 categories: ["MySQL", "Linux", "Database"]
 date: "2008-06-29T12:22:00+02:00"

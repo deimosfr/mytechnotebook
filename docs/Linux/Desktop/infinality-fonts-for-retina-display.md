@@ -1,5 +1,6 @@
 ---
 title: "Infinality fonts for retina display"
+slug: infinality-fonts-for-retina-display/
 description: "Installing and configuring Infinality fonts for high DPI screens and retina displays on Linux"
 categories: ["Linux", "Desktop", "Customization"]
 date: "2014-02-17T08:15:00+02:00"

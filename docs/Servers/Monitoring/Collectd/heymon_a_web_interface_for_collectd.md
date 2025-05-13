@@ -1,5 +1,6 @@
 ---
 title: "Heymon: A Web Interface for Collectd"
+slug: heymon-a-web-interface-for-collectd/
 description: "Guide on how to install and configure Heymon, a web interface for Collectd that allows comparing metrics between different machines."
 categories: ["Linux", "Debian", "Monitoring"]
 date: "2010-07-28T15:03:00+02:00"

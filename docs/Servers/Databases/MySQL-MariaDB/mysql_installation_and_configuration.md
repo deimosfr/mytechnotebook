@@ -1,5 +1,6 @@
 ---
 title: "MySQL: Installation and Configuration"
+slug: mysql-installation-and-configuration/
 description: "A comprehensive guide for MySQL installation, configuration, and common management tasks including user management, database operations, and troubleshooting."
 categories: ["Database", "MySQL", "Server"]
 date: "2014-04-09T16:39:00+02:00"

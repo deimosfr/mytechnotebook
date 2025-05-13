@@ -1,5 +1,6 @@
 ---
 title: "Monitoring CPU Temperature on FreeBSD"
+slug: monitoring-cpu-temperature-on-freebsd/
 description: "How to monitor the temperature of all CPU cores on FreeBSD"
 categories: ["FreeBSD", "Linux"]
 date: "2010-09-12T06:29:00+02:00"

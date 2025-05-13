@@ -1,5 +1,6 @@
 ---
 title: "Resize Swap"
+slug: resize-swap/
 description: "How to resize swap space in Linux by extending LVM volumes, creating new swap volumes, or using swap files"
 categories:
   - Linux

@@ -1,5 +1,6 @@
 ---
 title: "Converting WMA to MP3"
+slug: converting-wma-to-mp3/
 description: "A guide on how to convert WMA audio files to MP3 format using Linux tools like lame, mplayer and perl."
 categories: ["Linux", "Debian"]
 date: "2007-01-30T14:36:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Apt & Aptitude: Useful Commands"
+slug: apt-aptitude-useful-commands/
 description: "A comparison of Apt and Aptitude package management tools in Debian-based Linux distributions, highlighting the advantages of Aptitude"
 categories: ["Linux", "Debian", "System Administration"]
 date: "2013-05-07T11:24:00+02:00"

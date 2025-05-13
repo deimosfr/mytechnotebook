@@ -1,5 +1,6 @@
 ---
 title: "How to use old Debian repository for unmaintained Debian versions"
+slug: how-to-use-old-debian-repository-for-unmaintained-debian-versions/
 description: "A guide on how to configure Debian to use archive repositories for unmaintained Debian versions."
 categories: ["Linux", "Debian", "System Administration"]
 date: "2013-07-05T08:18:00+02:00"

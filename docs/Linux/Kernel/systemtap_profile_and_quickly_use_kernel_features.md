@@ -1,5 +1,6 @@
 ---
 title: "SystemTap: Profile and Quickly Use Kernel Features"
+slug: systemtap-profile-and-quickly-use-kernel-features/
 description: "Learn how to use SystemTap to analyze and diagnose performance issues in Linux systems without kernel recompilation or rebooting."
 categories: ["Linux", "RHEL", "Red Hat"]
 date: "2011-12-31T14:15:00+02:00"

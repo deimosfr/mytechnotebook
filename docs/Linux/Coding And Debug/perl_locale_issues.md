@@ -1,5 +1,6 @@
 ---
 title: "Perl Locale Issues"
+slug: perl-locale-issues/
 description: "How to solve locale issues when using Perl on Debian and Ubuntu systems."
 categories: ["Debian", "Linux", "Ubuntu"]
 date: "2008-11-19T07:14:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Setting up a Synchronization Solution between ActiveDirectory and OpenLDAP"
+slug: setting-up-a-synchronization-solution-between-activedirectory-and-openldap/
 description: "This guide explains how to set up a synchronization solution between Active Directory and OpenLDAP, including server configuration, client setup, and password synchronization mechanisms."
 categories: ["Red Hat", "Debian", "Security"]
 date: "2010-04-12T08:05:00+02:00"

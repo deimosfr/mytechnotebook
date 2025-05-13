@@ -1,5 +1,6 @@
 ---
 title: "Setting up Snort & BASE (Basic Analysis and Security Engine)"
+slug: setting-up-snort-base-basic-analysis-and-security-engine/
 description: "How to install and configure Snort IDS with BASE web interface for network intrusion detection on Debian systems"
 categories: ["Debian", "Security", "Database"]
 date: "2008-02-10T10:43:00+02:00"

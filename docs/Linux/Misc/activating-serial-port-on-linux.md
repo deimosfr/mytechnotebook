@@ -1,5 +1,6 @@
 ---
 title: "Activating the Serial Port on Linux"
+slug: activating-the-serial-port-on-linux/
 description: "Learn how to configure and activate the serial port on Linux systems for remote access and management."
 categories: ["Linux", "System Administration"]
 date: "2012-05-14T17:09:00+02:00"

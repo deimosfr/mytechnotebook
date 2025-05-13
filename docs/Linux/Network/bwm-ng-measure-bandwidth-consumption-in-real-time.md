@@ -1,5 +1,6 @@
 ---
 title: "Bwm-ng: Measure Bandwidth Consumption in Real Time"
+slug: bwm-ng-measure-bandwidth-consumption-in-real-time/
 description: "How to use bwm-ng to monitor network bandwidth usage in real-time on Linux systems."
 categories: ["Linux", "Network", "Monitoring"]
 date: "2009-11-28T16:14:00+02:00"

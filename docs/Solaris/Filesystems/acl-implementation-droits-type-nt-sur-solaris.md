@@ -1,5 +1,6 @@
 ---
 title: "ACL: Implementing NT-Style Permissions on Solaris"
+slug: acl-implementing-nt-style-permissions-on-solaris/
 description: "How to implement and use NT-style ACLs (Access Control Lists) on Solaris systems for more flexible file permissions management."
 categories: ["Solaris", "Security", "Administration"]
 date: "2010-02-10T13:13:00+02:00"

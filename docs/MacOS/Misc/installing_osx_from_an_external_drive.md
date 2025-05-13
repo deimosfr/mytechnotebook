@@ -1,5 +1,6 @@
 ---
 title: "Installing OSX from an External Drive"
+slug: installing-osx-from-an-external-drive/
 description: "How to install OSX when your Mac doesn't have a working DVD drive by using an external drive."
 categories: ["Mac OS X"]
 date: "2007-10-27T13:46:00+02:00"

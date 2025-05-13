@@ -1,5 +1,6 @@
 ---
 title: "Apache SSO Authentication on AD Backend via Kerberos"
+slug: apache-sso-authentication-on-ad-backend-via-kerberos/
 description: "Learn how to implement Single Sign-On (SSO) authentication for Apache web applications with Kerberos and Active Directory backend."
 categories: ["Authentication", "Server", "Windows", "Linux"]
 date: "2012-10-29T07:46:00+02:00"

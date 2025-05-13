@@ -1,5 +1,6 @@
 ---
 title: "Broadcom Drivers and Debian"
+slug: broadcom-drivers-and-debian/
 description: "Installation guide for Broadcom drivers on Debian systems, providing a simple solution for hardware compatibility issues."
 categories: ["Debian", "Linux"]
 date: "2009-02-16T18:55:00+02:00"

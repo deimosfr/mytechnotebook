@@ -1,5 +1,6 @@
 ---
 title: "Setting up a distributed monitoring solution with Nagios, CheckMK and Thruk"
+slug: setting-up-a-distributed-monitoring-solution-with-nagios-checkmk-and-thruk/
 description: "How to set up a distributed monitoring solution with Nagios, CheckMK and Thruk to create a centralized monitoring dashboard for multiple Nagios servers."
 categories: ["Monitoring", "Debian", "Linux"]
 date: "2012-06-28T07:39:00+02:00"

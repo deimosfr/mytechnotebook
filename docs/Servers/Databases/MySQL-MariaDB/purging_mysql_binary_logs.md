@@ -1,5 +1,6 @@
 ---
 title: "Purging MySQL Binary Logs"
+slug: purging-mysql-binary-logs/
 description: "This guide explains how to manage slow query logs and binary logs in MySQL, including how to flush, rotate, and purge logs to free up disk space."
 categories: ["MySQL", "Database", "Linux"]
 date: "2011-12-02T08:06:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Trick Samba Share Size Display"
+slug: trick-samba-share-size-display/
 description: "How to modify the displayed available space on a Samba share to overcome space limitations with nested mount points"
 categories: ["Linux", "Samba", "File Sharing"]
 date: "2012-02-16T10:17:00+02:00"

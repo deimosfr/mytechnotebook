@@ -1,5 +1,6 @@
 ---
 title: "PAM Mount and SshFS with Password Authentication"
+slug: pam-mount-and-sshfs-with-password-authentication/
 description: "Guide for configuring PAM Mount with SSHFS using password authentication"
 categories: ["Linux"]
 date: "2008-03-26T18:17:00+02:00"

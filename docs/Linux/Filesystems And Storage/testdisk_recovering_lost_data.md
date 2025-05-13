@@ -1,5 +1,6 @@
 ---
 title: "TestDisk: Recovering Lost Data"
+slug: testdisk-recovering-lost-data/
 description: "A guide on how to recover lost data using TestDisk tool"
 categories: ["Linux"]
 date: "2007-07-13T20:07:00+02:00"

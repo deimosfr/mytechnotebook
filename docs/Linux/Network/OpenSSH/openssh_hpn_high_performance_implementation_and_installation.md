@@ -1,5 +1,6 @@
 ---
 title: "OpenSSH HPN (High Performance): Implementation and Installation"
+slug: openssh-hpn-high-performance-implementation-and-installation/
 description: "A guide on how to implement and install OpenSSH HPN (High Performance Enabled) which removes performance bottlenecks in standard OpenSSH."
 categories: ["Linux", "Networking"]
 date: "2006-12-27T11:07:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Gnome-shell: Automatic Wallpaper Change"
+slug: gnome-shell-automatic-wallpaper-change/
 description: "How to set up automatic wallpaper change in Gnome-shell using a simple script and optional tools like Nitrogen"
 categories: ["Linux", "Debian"]
 date: "2012-10-07T19:14:00+02:00"

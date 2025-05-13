@@ -1,5 +1,6 @@
 ---
 title: "Linux RAID Performance"
+slug: linux-raid-performance/
 description: "Guide to optimizing Linux RAID performance, including chunk size calculation, stride settings, and performance considerations for different RAID levels."
 categories: ["Linux"]
 date: "2012-08-31T20:45:00+02:00"

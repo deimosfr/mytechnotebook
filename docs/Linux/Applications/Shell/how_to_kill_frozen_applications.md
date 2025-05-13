@@ -1,5 +1,6 @@
 ---
 title: "How to Kill a Crashed Application or Handle a Frozen Screen"
+slug: how-to-kill-a-crashed-application-or-handle-a-frozen-screen/
 description: "Methods to recover from frozen applications or system hangs in Linux without resorting to hard resets"
 categories: ["Linux", "Troubleshooting"]
 date: "2008-06-25T20:31:00+02:00"

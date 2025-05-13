@@ -1,5 +1,6 @@
 ---
 title: "Make Network Card LEDs Flash"
+slug: make-network-card-leds-flash/
 description: "How to make the LEDs on a network card flash to locate it physically on a server or device."
 categories: ["Network", "Linux", "Hardware"]
 date: "2012-08-27T06:43:00+02:00"

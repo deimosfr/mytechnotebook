@@ -1,5 +1,6 @@
 ---
 title: "Generate a Configure File for Pre-make"
+slug: generate-a-configure-file-for-pre-make/
 description: "How to generate a configure file before running make when retrieving sources from SVN or CVS repositories."
 categories: ["Linux"]
 date: "2007-05-10T05:15:00+02:00"

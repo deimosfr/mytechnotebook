@@ -1,5 +1,6 @@
 ---
 title: "Modify the firmware with FrancoFON"
+slug: modify-the-firmware-with-francofon/
 description: "Guide to modify your Fonera firmware using FrancoFON to add enhanced functionality including improved firewall management, port redirection, and more advanced networking options."
 categories: ["Linux", "Network"]
 date: "2008-01-01T17:31:00+02:00"

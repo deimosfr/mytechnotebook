@@ -1,5 +1,6 @@
 ---
 title: "Introduction to Packet Filter"
+slug: introduction-to-packet-filter/
 description: "A comprehensive guide to Packet Filter (PF), the firewall software for OpenBSD and other BSD systems. Learn about installation, configuration, NAT, filtering rules and advanced features."
 categories: ["FreeBSD", "Linux", "Network"]
 date: "2010-12-13T17:15:00+02:00"

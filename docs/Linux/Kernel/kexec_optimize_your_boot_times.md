@@ -1,5 +1,6 @@
 ---
 title: "Kexec: Optimize Your Boot Times"
+slug: kexec-optimize-your-boot-times/
 description: "A guide on how to use kexec to optimize boot times by skipping hardware initialization, especially useful for high availability systems."
 categories: ["Linux", "Red Hat", "Debian"]
 date: "2012-03-15T13:41:00+02:00"

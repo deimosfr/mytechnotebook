@@ -1,5 +1,6 @@
 ---
 title: "Introduction to PowerShell"
+slug: introduction-to-powershell/
 description: "An introduction to Microsoft PowerShell, explaining its object-oriented nature and advantages compared to traditional command-line interfaces."
 categories: ["Windows"]
 date: "2008-09-24T15:02:00+02:00"

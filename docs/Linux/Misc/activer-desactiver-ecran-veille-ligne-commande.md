@@ -1,5 +1,6 @@
 ---
 title: "Enabling and Disabling Screen Savers from Command Line"
+slug: enabling-and-disabling-screen-savers-from-command-line/
 description: "How to control screen power management using the command line in Linux for automatic display shutoff and power saving"
 categories: ["Linux", "Desktop"]
 date: "2008-07-31T10:21:00+02:00"

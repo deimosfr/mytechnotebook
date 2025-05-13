@@ -1,5 +1,6 @@
 ---
 title: "Restore permissions on Red Hat"
+slug: restore-permissions-on-red-hat/
 description: "How to restore file permissions on a Red Hat system after a permissions mistake"
 categories: ["Linux", "Red Hat"]
 date: "2012-02-04T17:50:00+02:00"

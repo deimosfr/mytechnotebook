@@ -1,5 +1,6 @@
 ---
 title: "Connect to Debian via Serial Port"
+slug: connect-to-debian-via-serial-port/
 description: "Guide to set up and use a serial port connection to a Linux machine, including minicom configuration and Grub setup."
 categories: ["Debian", "Linux"]
 date: "2011-05-20T13:41:00+02:00"

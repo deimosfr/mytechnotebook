@@ -1,5 +1,6 @@
 ---
 title: "LemonLDAP::NG: More than just SSO"
+slug: lemonldapng-more-than-just-sso/
 description: "A guide to LemonLDAP::NG, a comprehensive single sign-on solution with security features, authentication methods, and configuration options."
 categories: ["Apache", "Nginx", "Debian"]
 date: "2013-03-16T08:33:00+02:00"

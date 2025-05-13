@@ -1,5 +1,6 @@
 ---
 title: "Special Characters"
+slug: special-characters/
 description: "Comprehensive guide on special characters for HTML encoding, including ISO and HTML codes for accented letters and symbols."
 categories: ["Linux"]
 date: "2007-10-02T20:37:00+02:00"

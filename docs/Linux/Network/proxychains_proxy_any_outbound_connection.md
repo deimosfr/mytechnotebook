@@ -1,5 +1,6 @@
 ---
 title: "Proxychains: Proxy Any Outbound Connection"
+slug: proxychains-proxy-any-outbound-connection/
 description: "Guide to setup and use Proxychains to route any application's traffic through a proxy without modifying the application itself."
 categories: ["Linux", "Networking", "Security"]
 date: "2012-05-14T09:53:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Using the Web Console"
+slug: using-the-web-console/
 description: "Guide to using Sun's web console for managing applications through a web interface"
 categories:
   - "Solaris"

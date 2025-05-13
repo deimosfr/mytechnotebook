@@ -1,5 +1,6 @@
 ---
 title: "Rdiff-backup: Incremental Remote Backups"
+slug: rdiff-backup-incremental-remote-backups/
 description: "Guide for setting up and using rdiff-backup for incremental remote backups over SSH."
 categories:
   - "Linux"

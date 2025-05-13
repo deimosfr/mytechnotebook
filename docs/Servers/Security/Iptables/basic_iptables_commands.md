@@ -1,5 +1,6 @@
 ---
 title: "Basic IPTables Commands"
+slug: basic-iptables-commands/
 description: "Learn the basic IPTables commands for Linux firewalls - including chain manipulation, rule management, and practical examples."
 categories: ["Linux", "Network", "Security"]
 date: "2013-05-06T15:42:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "BGP Protocol and its Security"
+slug: bgp-protocol-and-its-security/
 description: "A detailed explanation of the Border Gateway Protocol (BGP), including its usage between autonomous systems and its security aspects."
 categories: ["Linux", "Network"]
 date: "2009-02-03T19:16:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "MCollective: Run Actions in Parallel on Remote Machines"
+slug: mcollective-run-actions-in-parallel-on-remote-machines/
 description: "Learn how to use MCollective to manage and run commands in parallel across multiple remote machines using a middleware system rather than SSH."
 categories: ["Configuration Management", "Red Hat", "Debian"]
 date: "2013-05-14T14:08:00+02:00"

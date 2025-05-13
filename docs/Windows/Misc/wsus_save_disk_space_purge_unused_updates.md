@@ -1,5 +1,6 @@
 ---
 title: "WSUS: Save Disk Space (Purge Unused Updates)"
+slug: wsus-save-disk-space-purge-unused-updates/
 description: "How to free up disk space on a WSUS server by purging unused Windows updates using WSUSDebug tool."
 categories: ["Windows", "Servers"]
 date: "2007-08-13T09:02:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Nagios: 2 Load Balancing"
+slug: nagios-2-load-balancing/
 description: "Documentation on how to implement load balancing with Nagios"
 categories: ["Linux", "Servers", "Network"]
 date: "2007-01-02T10:44:00+02:00"

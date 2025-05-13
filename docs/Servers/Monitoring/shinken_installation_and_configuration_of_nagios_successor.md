@@ -1,5 +1,6 @@
 ---
 title: "Shinken: Installation and Configuration of Nagios' Successor"
+slug: shinken-installation-and-configuration-of-nagios-successor/
 description: "A guide on installing and configuring Shinken, a powerful open-source monitoring solution that's compatible with Nagios but provides better performance and flexibility for distributed monitoring."
 categories: ["Monitoring", "Network", "Servers"]
 date: "2013-01-03T07:56:00+02:00"

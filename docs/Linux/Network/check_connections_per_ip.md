@@ -1,5 +1,6 @@
 ---
 title: "Check Connections Per IP"
+slug: check-connections-per-ip/
 description: "How to check the number of connections per IP address on Linux and BSD systems"
 categories: ["Linux", "BSD", "Network", "Security"]
 date: "2009-12-06T16:35:00+01:00"

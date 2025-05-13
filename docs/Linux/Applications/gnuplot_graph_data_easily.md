@@ -1,5 +1,6 @@
 ---
 title: "Gnuplot: Graph Data Easily"
+slug: gnuplot-graph-data-easily/
 description: "A guide to using Gnuplot to create graphs and visualize data in 2D and 3D formats with examples and configuration."
 categories: ["Linux", "Debian", "Red Hat"]
 date: "2011-12-26T20:33:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "iSCSI: Setting up an iSCSI Server"
+slug: iscsi-setting-up-an-iscsi-server/
 description: "This guide explains how to install and configure an iSCSI server and client on Red Hat systems."
 categories: ["Linux", "Storage", "Networking"]
 date: "2013-06-04T14:04:00+02:00"

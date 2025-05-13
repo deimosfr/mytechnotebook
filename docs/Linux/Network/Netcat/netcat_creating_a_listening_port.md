@@ -1,5 +1,6 @@
 ---
 title: "Netcat: Creating a Listening Port"
+slug: netcat-creating-a-listening-port/
 description: "How to use Netcat to create a listening port for testing firewall configurations and network connections"
 categories: ["Linux", "Network"]
 date: "2012-04-27T07:55:00+02:00"

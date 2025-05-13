@@ -1,5 +1,6 @@
 ---
 title: "Sudo: Running commands as root without being root"
+slug: sudo-running-commands-as-root-without-being-root/
 description: "Learn how to use sudo to execute commands with root privileges without logging in as root, including installation, configuration and usage examples."
 categories: ["Linux"]
 date: "2009-09-20T18:01:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Text Formatting"
+slug: text-formatting/
 description: "Guide to HTML text formatting including paragraphs, line breaks, alignment, importance tags, font styling, and more."
 categories:
   - "Linux"

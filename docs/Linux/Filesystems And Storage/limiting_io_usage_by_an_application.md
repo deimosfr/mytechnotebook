@@ -1,5 +1,6 @@
 ---
 title: "Limiting I/O usage by an application"
+slug: limiting-io-usage-by-an-application/
 description: "Learn how to identify and limit I/O usage by applications to improve system performance and responsiveness."
 categories: ["Linux"]
 date: "2009-11-19T07:07:00+02:00"

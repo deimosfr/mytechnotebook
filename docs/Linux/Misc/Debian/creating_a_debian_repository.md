@@ -1,5 +1,6 @@
 ---
 title: "Creating a Debian Repository"
+slug: creating-a-debian-repository/
 description: "This guide explains how to create your own Debian package repository for hosting custom packages."
 categories: ["Ubuntu", "Debian", "Linux"]
 date: "2007-12-11T20:46:00+02:00"

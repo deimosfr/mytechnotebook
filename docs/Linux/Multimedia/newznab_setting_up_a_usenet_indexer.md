@@ -1,5 +1,6 @@
 ---
 title: "Newznab: Setting up a Usenet Indexer"
+slug: newznab-setting-up-a-usenet-indexer/
 description: "A comprehensive guide on how to install and configure Newznab as a Usenet indexer to work with applications like SABnzbd and Sick-Beard."
 categories: ["Debian", "Database", "Linux"]
 date: "2012-12-28T16:47:00+02:00"

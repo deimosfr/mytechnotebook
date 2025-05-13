@@ -1,5 +1,6 @@
 ---
 title: "MysqlTuner: Optimizing Your MySQL Server"
+slug: mysqltuner-optimizing-your-mysql-server/
 description: "A guide on how to install and use MysqlTuner to optimize MySQL server performance, including cache management, query analysis, and table optimization techniques."
 categories: ["Database", "MySQL", "Storage", "Performance", "Debian"]
 date: "2013-06-06T09:19:00+02:00"

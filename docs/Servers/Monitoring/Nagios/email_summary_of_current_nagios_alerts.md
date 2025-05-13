@@ -1,5 +1,6 @@
 ---
 title: "Email Summary of Current Nagios Alerts"
+slug: email-summary-of-current-nagios-alerts/
 description: "A script that sends an email summary of current Nagios alerts, allowing you to check server status before arriving at work."
 categories: ["Monitoring", "Debian", "Linux"]
 date: "2013-08-02T11:44:00+02:00"

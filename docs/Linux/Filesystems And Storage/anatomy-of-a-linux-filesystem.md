@@ -1,5 +1,6 @@
 ---
 title: "Anatomy of a Linux Filesystem"
+slug: anatomy-of-a-linux-filesystem/
 description: "Documentation explaining how Linux filesystems work and their structure"
 categories: ["Linux", "Filesystem", "System"]
 date: "2007-11-07T10:42:00+01:00"

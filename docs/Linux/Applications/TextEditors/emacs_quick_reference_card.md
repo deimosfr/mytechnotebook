@@ -1,5 +1,6 @@
 ---
 title: "Emacs: Quick Reference Card"
+slug: emacs-quick-reference-card/
 description: "A quick reference guide for Emacs users with downloadable PDF resource."
 categories: ["Linux"]
 date: "2006-08-09T09:29:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Vino: The VNC Server of Excellence for GNOME"
+slug: vino-the-vnc-server-of-excellence-for-gnome/
 description: "Guide on using Vino, the user-friendly VNC server designed specifically for GNOME environments."
 categories: ["Linux"]
 date: "2008-08-31T12:38:00+02:00"

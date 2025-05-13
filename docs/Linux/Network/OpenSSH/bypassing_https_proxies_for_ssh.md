@@ -1,5 +1,6 @@
 ---
 title: "Bypassing HTTPS Proxies for SSH"
+slug: bypassing-https-proxies-for-ssh/
 description: "Guide to bypass corporate proxies and allow SSH connections through port 443 when standard ports are blocked"
 categories: ["Linux", "Network", "Debian", "Ubuntu"]
 date: "2012-07-30T11:19:00+02:00"

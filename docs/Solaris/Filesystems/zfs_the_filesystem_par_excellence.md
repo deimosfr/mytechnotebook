@@ -1,5 +1,6 @@
 ---
 title: "ZFS: The Filesystem Par Excellence"
+slug: zfs-the-filesystem-par-excellence/
 description: "Complete guide on using ZFS filesystem, including creating and managing zpools, partitions, swap space management, and advanced usage techniques"
 categories:
   - Linux

@@ -1,5 +1,6 @@
 ---
 title: "Syslog-ng: Installation and Configuration of Syslog-ng"
+slug: syslog-ng-installation-and-configuration-of-syslog-ng/
 description: "A guide to install and configure Syslog-ng, a powerful new generation system log manager with advanced features for centralizing, sorting, and securing log data across networks."
 categories: ["Security", "Debian", "Database"]
 date: "2011-12-12T20:18:00+02:00"

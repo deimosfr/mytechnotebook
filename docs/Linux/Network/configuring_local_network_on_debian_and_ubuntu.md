@@ -1,5 +1,6 @@
 ---
 title: "Configuring a Local Network on Debian and Ubuntu"
+slug: configuring-a-local-network-on-debian-and-ubuntu/
 description: "A simple guide to configuring static and dynamic network interfaces on Debian and Ubuntu systems"
 categories: ["Linux", "Network", "Debian", "Ubuntu"]
 date: "2007-04-18T14:03:00+02:00"

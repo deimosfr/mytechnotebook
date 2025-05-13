@@ -1,5 +1,6 @@
 ---
 title: "PhpPgAdmin: Installation and Configuration"
+slug: phppgadmin-installation-and-configuration/
 description: "Learn how to install and configure PhpPgAdmin to manage PostgreSQL databases through a web interface, including multi-server setup."
 categories: ["PostgreSQL", "Linux", "Apache"]
 date: "2007-08-10T09:03:00+02:00"

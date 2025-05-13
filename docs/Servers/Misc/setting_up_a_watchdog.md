@@ -1,5 +1,6 @@
 ---
 title: "Setting up a Watchdog"
+slug: setting-up-a-watchdog/
 description: "Instructions for setting up and configuring a Watchdog on a system to ensure automatic restart when the system becomes unresponsive."
 categories: ["Linux"]
 date: "2008-12-29T11:31:00+02:00"

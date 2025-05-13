@@ -1,5 +1,6 @@
 ---
 title: "Numlockx: Enabling the numeric keypad at boot"
+slug: numlockx-enabling-the-numeric-keypad-at-boot/
 description: "How to automatically enable the numeric keypad at boot time using numlockx on Linux systems."
 categories: ["Linux"]
 date: "2008-07-09T06:40:00+02:00"

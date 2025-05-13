@@ -1,5 +1,6 @@
 ---
 title: "Setting up a quorum server"
+slug: setting-up-a-quorum-server/
 description: "Instructions for setting up and configuring a quorum server for a 2-node cluster without a disk array"
 categories:
   - "Linux"

@@ -1,5 +1,6 @@
 ---
 title: "MFS: Using a RAM Filesystem"
+slug: mfs-using-a-ram-filesystem/
 description: "A guide on how to use MFS (Memory FileSystem) to improve performance by creating partitions in RAM"
 categories: ["Linux", "BSD", "Performance"]
 date: "2009-01-05T02:37:00+02:00"

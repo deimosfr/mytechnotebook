@@ -1,5 +1,6 @@
 ---
 title: "LDAP: Installation and Configuration of a Secondary LDAP Directory"
+slug: ldap-installation-and-configuration-of-a-secondary-ldap-directory/
 description: "Guide on how to configure OpenLDAP for LDAP tree replication between 2 servers using slapd and slurpd."
 categories: ["FreeBSD", "Linux", "Debian"]
 date: "2008-12-26T18:36:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Xmodmap: Map All Your Mouse Buttons"
+slug: xmodmap-map-all-your-mouse-buttons/
 description: "How to map all the buttons on your mouse using Xmodmap in Linux"
 categories: ["Linux", "Ubuntu"]
 date: "2009-05-10T09:42:00+02:00"

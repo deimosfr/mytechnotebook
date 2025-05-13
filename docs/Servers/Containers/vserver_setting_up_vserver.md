@@ -1,5 +1,6 @@
 ---
 title: "VServer: Setting Up VServer"
+slug: vserver-setting-up-vserver/
 description: "A guide on setting up and managing VServer for server virtualization on Linux systems, including creation, management, networking, and troubleshooting."
 categories: ["Debian", "Networking", "Virtualization"]
 date: "2011-05-24T16:43:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "OpenSPF: Setting up OpenSPF"
+slug: openspf-setting-up-openspf/
 description: "How to set up OpenSPF, the open source version of SPF, with documentation for implementing it with Postfix."
 categories: ["Linux", "Network", "Servers"]
 date: "2007-10-04T16:30:00+02:00"

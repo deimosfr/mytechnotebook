@@ -1,5 +1,6 @@
 ---
 title: "Squid: Installation and Configuration of Squid"
+slug: squid-installation-and-configuration-of-squid/
 description: "Guide for installing and configuring the Squid proxy server on Debian and FreeBSD systems, with example configurations and security best practices."
 categories: ["Debian", "Security", "Linux", "FreeBSD", "Network"]
 date: "2012-06-06T08:31:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Managing Updates with Update Manager and smpatch"
+slug: managing-updates-with-update-manager-and-smpatch/
 description: "How to manage Solaris updates using Update Manager GUI and smpatch CLI tools"
 categories: ["Linux", "Storage", "Solaris"]
 date: "2009-11-21T07:11:00+02:00"

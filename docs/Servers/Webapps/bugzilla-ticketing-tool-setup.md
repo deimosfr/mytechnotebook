@@ -1,5 +1,6 @@
 ---
 title: "Bugzilla: Setting Up a Ticketing Tool"
+slug: bugzilla-setting-up-a-ticketing-tool/
 description: "How to install and configure Bugzilla as a ticketing and bug tracking system"
 categories: ["Ticketing", "Web Applications", "Bug Tracking"]
 date: "2013-07-03T14:37:00+02:00"

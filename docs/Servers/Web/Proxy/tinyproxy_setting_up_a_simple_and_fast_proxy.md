@@ -1,5 +1,6 @@
 ---
 title: "TinyProxy: Setting up a Simple and Fast Proxy"
+slug: tinyproxy-setting-up-a-simple-and-fast-proxy/
 description: "Learn how to set up TinyProxy, a lightweight alternative to Squid that simplifies proxy configuration for all your applications."
 categories: ["Linux", "Debian", "Network"]
 date: "2012-07-27T11:48:00+02:00"

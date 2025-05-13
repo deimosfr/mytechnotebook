@@ -1,5 +1,6 @@
 ---
 title: "Bindgraph: Get Statistics and Graphs of DNS Queries"
+slug: bindgraph-get-statistics-and-graphs-of-dns-queries/
 description: "How to install and configure Bindgraph to visualize DNS query statistics in graphical form"
 categories: ["DNS", "Monitoring", "Statistics"]
 date: "2010-02-02T21:16:00+02:00"

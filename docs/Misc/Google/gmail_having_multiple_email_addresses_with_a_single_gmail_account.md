@@ -1,5 +1,6 @@
 ---
 title: "Gmail: Having Multiple Email Addresses with a Single Gmail Account"
+slug: gmail-having-multiple-email-addresses-with-a-single-gmail-account/
 description: "How to use a single Gmail account to manage multiple email aliases using the plus sign technique"
 categories: ["Linux"]
 date: "2007-12-09T12:14:00+02:00"

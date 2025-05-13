@@ -1,5 +1,6 @@
 ---
 title: "Manipulating Images via Command Line"
+slug: manipulating-images-via-command-line/
 description: "How to manipulate images using command line tools with ImageMagick"
 categories: 
   - Linux

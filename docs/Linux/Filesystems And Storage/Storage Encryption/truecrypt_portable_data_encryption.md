@@ -1,5 +1,6 @@
 ---
 title: "TrueCrypt: Portable Data Encryption"
+slug: truecrypt-portable-data-encryption/
 description: "Documentation about TrueCrypt for portable data encryption"
 categories: ["Linux"]
 date: "2007-07-03T07:03:00+02:00"

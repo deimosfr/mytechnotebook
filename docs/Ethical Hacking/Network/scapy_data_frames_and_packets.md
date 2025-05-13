@@ -1,5 +1,6 @@
 ---
 title: "Scapy: Data Frames and Packets"
+slug: scapy-data-frames-and-packets/
 description: "A comprehensive guide to using Scapy for network packet manipulation, inspection and analysis. Learn how to forge, receive and send data packets over a network with this powerful Python tool."
 categories: ["Security", "Network", "Linux"]
 date: "2007-10-09T06:44:00+02:00"

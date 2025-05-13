@@ -1,5 +1,6 @@
 ---
 title: "Debian: No More Dependency Errors When Configuring From Source"
+slug: debian-no-more-dependency-errors-when-configuring-from-source/
 description: "Learn how to use auto-apt in Debian to automatically resolve missing dependencies when compiling from source."
 categories: ["Linux", "Debian"]
 date: "2006-11-28T07:48:00+02:00"

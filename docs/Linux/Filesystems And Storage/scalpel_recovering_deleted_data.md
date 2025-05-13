@@ -1,5 +1,6 @@
 ---
 title: "Scalpel: Recovering Deleted Data"
+slug: scalpel-recovering-deleted-data/
 description: "How to use Scalpel tool to recover deleted files and folders from your hard drive."
 categories: 
   - "Linux"

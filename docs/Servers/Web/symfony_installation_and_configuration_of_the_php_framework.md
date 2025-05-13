@@ -1,5 +1,6 @@
 ---
 title: "Symfony: Installation and Configuration of the PHP Framework"
+slug: symfony-installation-and-configuration-of-the-php-framework/
 description: "A guide to install and configure the Symfony PHP framework, including prerequisites, installation steps, and basic project configuration."
 categories: ["Development", "PHP", "MySQL", "Linux", "Apache"]
 date: "2010-05-02T20:44:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Xen Conversion P2V"
+slug: xen-conversion-p2v/
 description: "Guide on how to convert a physical server to a Xen virtual machine through P2V conversion process."
 categories: ["Linux", "Debian"]
 date: "2008-03-04T17:32:00+02:00"

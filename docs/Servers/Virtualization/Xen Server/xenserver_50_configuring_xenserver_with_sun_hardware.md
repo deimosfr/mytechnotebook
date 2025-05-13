@@ -1,5 +1,6 @@
 ---
 title: "XenServer 5.0: Configuring XenServer with SUN Hardware"
+slug: xenserver-50-configuring-xenserver-with-sun-hardware/
 description: "Guide for configuring XenServer 5.0 with SUN hardware, including multipathing setup for StorageTek storage arrays and fiber channel connectivity."
 categories: 
   - Storage

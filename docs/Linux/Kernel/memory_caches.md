@@ -1,5 +1,6 @@
 ---
 title: "Memory Caches"
+slug: memory-caches/
 description: "A comprehensive guide to memory caches in Linux systems, including page allocation, overcommit management, Slab cache, ARP cache, and other memory management concepts."
 categories: ["Storage", "Red Hat", "Debian"]
 date: "2012-09-12T16:58:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Weechat: A User Friendly IRC Client"
+slug: weechat-a-user-friendly-irc-client/
 description: "Guide to installing and configuring Weechat IRC client on Linux systems with a focus on Freenode setup and channel autoconnect features."
 categories:
   - "Linux"

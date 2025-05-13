@@ -1,5 +1,6 @@
 ---
 title: "PuppetDB: Enhance Your Puppet Functionality"
+slug: puppetdb-enhance-your-puppet-functionality/
 description: "Learn how to install and configure PuppetDB to enhance Puppet functionality by collecting data and enabling exported resources."
 categories: ["Debian", "PostgreSQL", "Database"]
 date: "2013-10-28T10:57:00+02:00"

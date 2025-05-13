@@ -1,5 +1,6 @@
 ---
 title: "Clearing DNS Cache on Mac OS X"
+slug: clearing-dns-cache-on-mac-os-x/
 description: "Instructions on how to clear the DNS cache on Mac OS X systems"
 categories: ["Mac OS X", "Network"]
 date: "2009-12-06T16:42:00+02:00"

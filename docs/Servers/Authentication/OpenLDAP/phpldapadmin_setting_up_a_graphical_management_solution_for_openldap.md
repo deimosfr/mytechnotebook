@@ -1,5 +1,6 @@
 ---
 title: "PhpLDAPadmin: Setting Up a Graphical Management Solution for OpenLDAP"
+slug: phpldapadmin-setting-up-a-graphical-management-solution-for-openldap/
 description: "A guide to install and configure PhpLDAPadmin as a web-based graphical interface for managing OpenLDAP directories."
 categories: ["Linux", "Apache", "Servers"]
 date: "2009-05-11T11:06:00+02:00"

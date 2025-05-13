@@ -1,5 +1,6 @@
 ---
 title: "Windows: Refreshing Security Policies (GPO)"
+slug: windows-refreshing-security-policies-gpo/
 description: "How to refresh Windows security policies (GPO) without disconnecting from the session."
 categories: ["Windows"]
 date: "2006-10-23T10:59:00+02:00"

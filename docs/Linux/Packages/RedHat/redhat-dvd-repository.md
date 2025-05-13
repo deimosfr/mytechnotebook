@@ -1,5 +1,6 @@
 ---
 title: "Adding Red Hat DVD as a Repository"
+slug: adding-red-hat-dvd-as-a-repository/
 description: "How to add a Red Hat DVD as a local or remote YUM repository for installing packages without internet access or subscription."
 categories: ["Linux", "Red Hat", "System Administration"]
 date: "2012-02-21T16:21:00+02:00"

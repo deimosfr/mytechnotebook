@@ -1,5 +1,6 @@
 ---
 title: "Migration: Migrating Linux accounts to BSD"
+slug: migration-migrating-linux-accounts-to-bsd/
 description: "Guide for migrating user accounts from Linux systems to BSD systems while maintaining account details and passwords."
 categories: ["Linux", "BSD", "System Administration"]
 date: "2007-11-23T11:16:00+02:00"

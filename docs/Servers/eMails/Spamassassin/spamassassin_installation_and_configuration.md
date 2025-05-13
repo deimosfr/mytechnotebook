@@ -1,5 +1,6 @@
 ---
 title: "SpamAssassin Installation and Configuration"
+slug: spamassassin-installation-and-configuration/
 description: "A guide for installing and configuring SpamAssassin to filter spam emails, including adding Spam and Ham messages for training the system."
 categories: 
   - Linux

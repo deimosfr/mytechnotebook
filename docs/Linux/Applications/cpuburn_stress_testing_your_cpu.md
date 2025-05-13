@@ -1,5 +1,6 @@
 ---
 title: "CPUBurn: Stress Testing Your CPU"
+slug: cpuburn-stress-testing-your-cpu/
 description: "A guide on how to stress test your CPU in Linux and monitor system statistics during testing."
 categories: ["Linux", "Ubuntu", "Servers"]
 date: "2013-08-20T13:14:00+02:00"

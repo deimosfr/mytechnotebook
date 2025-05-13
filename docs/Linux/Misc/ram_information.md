@@ -1,5 +1,6 @@
 ---
 title: "RAM Information"
+slug: ram-information/
 description: "Understanding memory management in Linux systems, including disk cache usage and how to correctly evaluate free memory."
 categories: ["Linux"]
 date: "2006-10-17T09:14:00+02:00"

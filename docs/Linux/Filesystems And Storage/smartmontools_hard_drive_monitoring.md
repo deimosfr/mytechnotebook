@@ -1,5 +1,6 @@
 ---
 title: "Smartmontools: Hard Drive Monitoring"
+slug: smartmontools-hard-drive-monitoring/
 description: "How to install and configure Smartmontools to monitor hard drive health and performance on various Linux and BSD systems."
 categories: ["Linux", "Debian", "BSD", "System Administration", "Monitoring"]
 date: "2011-01-14T20:24:00+02:00"

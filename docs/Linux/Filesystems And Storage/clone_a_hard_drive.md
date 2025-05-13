@@ -1,5 +1,6 @@
 ---
 title: "Clone a Hard Drive"
+slug: clone-a-hard-drive/
 description: "Various methods to clone hard drives in Linux systems including dd, cat, partimage, and over network connections"
 categories: ["Linux", "System Administration", "Storage"]
 date: "2013-05-07T09:10:00+02:00"

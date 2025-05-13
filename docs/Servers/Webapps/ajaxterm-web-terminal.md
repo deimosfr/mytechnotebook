@@ -1,5 +1,6 @@
 ---
 title: "Ajaxterm: Using a Terminal via Web"
+slug: ajaxterm-using-a-terminal-via-web/
 description: "How to set up Ajaxterm to access a Linux terminal through a web browser with proper security settings."
 categories: ["Linux", "Server", "Web", "Security"]
 date: "2011-04-22T13:44:00+02:00"

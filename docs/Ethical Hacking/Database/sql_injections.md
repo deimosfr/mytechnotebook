@@ -1,5 +1,6 @@
 ---
 title: "SQL Injections"
+slug: sql-injections/
 description: "Understanding SQL injections, how they work, and how to protect against them in web applications."
 categories: ["Security", "Database", "Development"]
 date: "2008-05-24T16:41:00+02:00"

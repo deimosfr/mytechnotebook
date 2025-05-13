@@ -1,5 +1,6 @@
 ---
 title: "Procmail: Filtering emails at the source"
+slug: procmail-filtering-emails-at-the-source/
 description: "How to use Procmail to filter and sort emails directly at source level on Linux systems."
 categories: ["Linux", "Servers", "Email"]
 date: "2007-08-06T05:29:00+02:00"

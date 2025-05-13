@@ -1,5 +1,6 @@
 ---
 title: "Patches: Creating and Applying Patches"
+slug: patches-creating-and-applying-patches/
 description: "A guide on how to create and apply patches in Linux, including the use of diff and patch commands for file modification tracking and distribution."
 categories: ["Linux"]
 date: "2013-05-07T12:39:00+02:00"

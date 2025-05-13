@@ -1,5 +1,6 @@
 ---
 title: "Replacing an installed RedHat with Debian without formatting"
+slug: replacing-an-installed-redhat-with-debian-without-formatting/
 description: "How to replace a RedHat installation with Debian without formatting the disk or losing data"
 categories: ["Debian", "Linux"]
 date: "2008-08-31T12:33:00+02:00"

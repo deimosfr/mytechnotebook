@@ -1,5 +1,6 @@
 ---
 title: "Visage: A Web Interface for Collectd"
+slug: visage-a-web-interface-for-collectd/
 description: "A guide for installing and configuring Visage, a web interface for Collectd that allows visualization and comparison of collected metrics."
 categories: ["Linux", "Debian"]
 date: "2011-06-08T15:40:00+02:00"

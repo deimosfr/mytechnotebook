@@ -1,5 +1,6 @@
 ---
 title: "Xterm: Customizing the Display"
+slug: xterm-customizing-the-display/
 description: "How to customize Xterm configuration and display settings for better readability"
 categories:
 - Linux

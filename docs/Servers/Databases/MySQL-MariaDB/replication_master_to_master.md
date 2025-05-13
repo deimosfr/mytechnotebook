@@ -1,5 +1,6 @@
 ---
 title: "Replication Master to Master"
+slug: replication-master-to-master/
 description: "How to set up MySQL master-master replication for high-availability with step-by-step configuration guide and troubleshooting tips"
 categories:
   - Debian

@@ -1,5 +1,6 @@
 ---
 title: "Kill and lsof: Killing the process listening on a specific port"
+slug: kill-and-lsof-killing-the-process-listening-on-a-specific-port/
 description: "How to kill a process listening on a specific port using lsof and kill commands in Linux"
 categories: ["Linux"]
 date: "2007-03-08T08:58:00+02:00"

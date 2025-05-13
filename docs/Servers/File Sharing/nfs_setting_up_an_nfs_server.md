@@ -1,5 +1,6 @@
 ---
 title: "NFS: Setting up an NFS Server"
+slug: nfs-setting-up-an-nfs-server/
 description: "Guide for setting up NFS server and client on different operating systems including Debian and Solaris."
 categories: ["Debian", "Linux"]
 date: "2014-11-23T06:14:00+02:00"

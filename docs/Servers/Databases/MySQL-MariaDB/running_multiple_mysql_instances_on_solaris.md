@@ -1,5 +1,6 @@
 ---
 title: "Running Multiple MySQL Instances on Solaris"
+slug: running-multiple-mysql-instances-on-solaris/
 description: "Guide on how to install and configure multiple MySQL instances on Solaris, including configuration files, initialization, startup scripts, and SMF file creation."
 categories: ["Storage", "Database", "MySQL", "Solaris"]
 date: "2010-01-29T06:12:00+02:00"

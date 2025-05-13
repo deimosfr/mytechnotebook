@@ -1,5 +1,6 @@
 ---
 title: "Fight Spam More Effectively - Additional Rules"
+slug: fight-spam-more-effectively-additional-rules/
 description: "A guide on how to enhance spam filtering with additional rules and tools like Razor and Pyzor."
 categories: ["Linux", "Servers", "Network"]
 date: "2007-11-22T07:15:00+02:00"

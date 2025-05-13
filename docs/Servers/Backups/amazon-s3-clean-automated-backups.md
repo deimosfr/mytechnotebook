@@ -1,5 +1,6 @@
 ---
 title: "Amazon S3: Clean and Automated Backups with Amazon S3"
+slug: amazon-s3-clean-and-automated-backups-with-amazon-s3/
 description: "How to set up clean and automated backups using Amazon S3 cloud storage service with various mounting options like FUSE and AutoFS"
 categories: ["Backup", "Cloud", "Server"]
 date: "2011-02-15T08:19:00+01:00"

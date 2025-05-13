@@ -1,5 +1,6 @@
 ---
 title: "Unison: Backup like rsync but bidirectional"
+slug: unison-backup-like-rsync-but-bidirectional/
 description: "How to use Unison for bidirectional file synchronization between systems"
 categories: ["Linux", "Backup"]
 date: "2011-05-13T17:46:00+02:00"

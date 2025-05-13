@@ -4,7 +4,7 @@ default:
 
 # This is a Justfile
 run:
-  mkdocs serve
+  mkdocs serve --dirty
 
 # Initialize the project
 init:

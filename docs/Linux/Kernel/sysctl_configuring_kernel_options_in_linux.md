@@ -1,5 +1,6 @@
 ---
 title: "Sysctl: Configuring Kernel Options in Linux"
+slug: sysctl-configuring-kernel-options-in-linux/
 description: "A guide to using sysctl to configure and manage Linux kernel parameters through /proc and /sys interfaces."
 categories: 
   - "Linux"

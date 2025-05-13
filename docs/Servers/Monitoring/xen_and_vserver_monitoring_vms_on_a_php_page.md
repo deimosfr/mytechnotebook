@@ -1,5 +1,6 @@
 ---
 title: "Xen and vserver: monitoring VMs on a PHP page"
+slug: xen-and-vserver-monitoring-vms-on-a-php-page/
 description: "A guide to monitoring virtual machines using a PHP page to easily view VM activity without running multiple commands."
 categories: ["Monitoring", "Apache", "Linux"]
 date: "2007-05-14T10:09:00+02:00"

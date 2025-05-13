@@ -1,5 +1,6 @@
 ---
 title: "Pkg-get: Setting up a Repository System for Solaris"
+slug: pkg-get-setting-up-a-repository-system-for-solaris/
 description: "This guide explains how to set up a repository system using pkg-get for Solaris to easily install packages."
 categories: ["Solaris", "Linux"]
 date: "2013-01-23T10:54:00+02:00"

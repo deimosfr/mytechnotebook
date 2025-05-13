@@ -1,5 +1,6 @@
 ---
 title: "Displaying Active Machines on the Current Network"
+slug: displaying-active-machines-on-the-current-network/
 description: "How to find and display all active machines on your current network using nmap."
 categories: ["Networking", "System Administration", "Security"]
 date: "2009-12-11T19:05:00+02:00"

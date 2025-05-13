@@ -1,5 +1,6 @@
 ---
 title: "EncFS: Setting up EncFS with FUSE"
+slug: encfs-setting-up-encfs-with-fuse/
 description: "A guide on how to implement EncFS with FUSE for encrypted filesystems."
 categories: ["Linux", "Security", "Debian"]
 date: "2011-02-05T16:49:00+02:00"

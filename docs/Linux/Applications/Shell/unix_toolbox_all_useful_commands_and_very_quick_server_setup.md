@@ -1,5 +1,6 @@
 ---
 title: "Unix Toolbox: All Useful Commands"
+slug: unix-toolbox-all-useful-commands/
 description: "A collection of Unix commands and server setup guides providing comprehensive reference for system administrators."
 categories: ["Linux"]
 date: "2008-04-20T14:06:00+02:00"

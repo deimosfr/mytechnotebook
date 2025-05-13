@@ -1,5 +1,6 @@
 ---
 title: "Linux-Unix Cheat Sheets - The Ultimate Collection"
+slug: linux-unix-cheat-sheets-the-ultimate-collection/
 description: "A comprehensive collection of Linux and Unix command line reference sheets and resources for system administrators and developers."
 categories: ["Linux", "Security"]
 date: "2008-02-10T11:07:00+02:00"

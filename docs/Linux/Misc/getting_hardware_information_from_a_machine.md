@@ -1,5 +1,6 @@
 ---
 title: "Getting Hardware Information from a Machine"
+slug: getting-hardware-information-from-a-machine/
 description: "A guide on how to obtain hardware information from different operating systems including Linux, BSD, and Solaris."
 categories: ["Linux", "Storage", "BSD", "Solaris"]
 date: "2009-08-26T13:30:00+02:00"

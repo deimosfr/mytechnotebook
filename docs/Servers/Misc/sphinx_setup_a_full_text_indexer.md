@@ -1,5 +1,6 @@
 ---
 title: "Sphinx: Setup a Full Text Indexer"
+slug: sphinx-setup-a-full-text-indexer/
 description: "Guide on setting up Sphinx, an open source full text search server, with specific instructions for MediaWiki integration and configuration."
 categories: ["Debian", "Storage", "Database"]
 date: "2013-08-02T14:58:00+02:00"

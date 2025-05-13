@@ -1,5 +1,6 @@
 ---
 title: "Reboot Your Freebox Server 6 via Command Line"
+slug: reboot-your-freebox-server-6-via-command-line/
 description: "A guide on how to reboot your Freebox Server 6 from the command line, including installation instructions for pfSense and other systems."
 categories: 
   - "Linux"

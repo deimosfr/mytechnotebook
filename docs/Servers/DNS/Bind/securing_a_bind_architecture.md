@@ -1,5 +1,6 @@
 ---
 title: "Securing a Bind Architecture"
+slug: securing-a-bind-architecture/
 description: "How to secure a Bind DNS architecture with proper configurations for primary and secondary servers, including access control and zone transfers."
 categories: ["Linux", "Network", "Servers"]
 date: "2009-11-20T20:21:00+02:00"

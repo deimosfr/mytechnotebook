@@ -1,5 +1,6 @@
 ---
 title: "NagVis: Map Your Architecture with Nagios Alerts"
+slug: nagvis-map-your-architecture-with-nagios-alerts/
 description: "Learn how to install and configure NagVis to display your Nagios alerts on custom infrastructure maps."
 categories: ["Monitoring", "Linux", "MySQL"]
 date: "2008-03-11T07:33:00+02:00"

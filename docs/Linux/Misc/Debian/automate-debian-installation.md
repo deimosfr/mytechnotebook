@@ -1,5 +1,6 @@
 ---
 title: "Automate Debian Installation"
+slug: automate-debian-installation/
 description: "Learn how to automate Debian installation using preseed files to create identical server setups efficiently."
 categories: ["Linux", "Debian", "Installation", "Automation"]
 date: "2013-05-07T11:09:00+02:00"

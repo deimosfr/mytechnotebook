@@ -1,5 +1,6 @@
 ---
 title: "Restart X"
+slug: restart-x/
 description: "How to restart the X Window System using keyboard shortcuts and command line methods."
 categories: ["Linux", "Ubuntu"]
 date: "2009-04-15T21:00:00+02:00"

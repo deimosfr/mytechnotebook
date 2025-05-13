@@ -1,5 +1,6 @@
 ---
 title: "Oreon: Setting up a simplified and more elegant solution for Nagios"
+slug: oreon-setting-up-a-simplified-and-more-elegant-solution-for-nagios/
 description: "Overview of Oreon (now Centreon), a monitoring and network supervision software based on Nagios with an improved interface and additional features."
 categories: ["Linux", "Servers", "Network"]
 date: "2009-05-11T12:43:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Setting up a Bind server with LDAP backend"
+slug: setting-up-a-bind-server-with-ldap-backend/
 description: "This guide explains how to configure a Bind9 DNS server with LDAP backend storage instead of text files, providing dynamic updates and centralized configuration."
 categories: ["Linux", "Database", "Debian"]
 date: "2008-02-22T18:02:00+02:00"

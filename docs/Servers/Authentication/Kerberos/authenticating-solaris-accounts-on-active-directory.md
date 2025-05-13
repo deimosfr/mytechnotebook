@@ -1,5 +1,6 @@
 ---
 title: "Authenticating Solaris Accounts on Active Directory"
+slug: authenticating-solaris-accounts-on-active-directory/
 description: "Learn how to set up authentication of Solaris accounts using Windows Active Directory and the Kerberos protocol."
 categories: ["Solaris", "Windows", "Authentication"]
 date: "2007-09-08T11:13:00+02:00"

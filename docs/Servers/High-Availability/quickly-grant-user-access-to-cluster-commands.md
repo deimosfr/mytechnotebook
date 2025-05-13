@@ -1,5 +1,6 @@
 ---
 title: "Quickly Grant User Access to Cluster Commands"
+slug: quickly-grant-user-access-to-cluster-commands/
 description: "Learn how to quickly configure user permissions to allow non-root users to execute cluster management commands."
 categories: ["Linux", "Security", "Cluster"]
 date: "2007-05-31T10:12:00+02:00"

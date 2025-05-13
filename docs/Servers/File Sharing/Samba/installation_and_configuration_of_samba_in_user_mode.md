@@ -1,5 +1,6 @@
 ---
 title: "Installation and Configuration of Samba in 'User' Mode"
+slug: installation-and-configuration-of-samba-in-user-mode/
 description: "A guide for setting up Samba in user mode to share folders with Windows and Unix systems securely"
 categories: ["FreeBSD", "Security", "Ubuntu"]
 date: "2011-10-06T12:53:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Setting up a complete antispam server"
+slug: setting-up-a-complete-antispam-server/
 description: "Documentation about setting up a complete antispam server solution"
 categories: ["Linux", "Servers", "Network"]
 date: "2008-05-23T06:55:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Optimizing Hard Disk Performance on Linux"
+slug: optimizing-hard-disk-performance-on-linux/
 description: "This guide explains how to optimize disk performance on Linux, covering both mechanical hard drives and SSDs, with various techniques like partition alignment, scheduler optimization, and read-ahead settings."
 categories: ["Red Hat", "Debian", "Storage"]
 date: "2014-01-02T14:47:00+02:00"

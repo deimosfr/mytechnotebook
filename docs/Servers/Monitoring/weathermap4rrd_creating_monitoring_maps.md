@@ -1,5 +1,6 @@
 ---
 title: "Weathermap4RRD: Creating Monitoring Maps"
+slug: weathermap4rrd-creating-monitoring-maps/
 description: "Guide to create network monitoring maps using Weathermap4RRD and Cacti"
 categories: ["Monitoring", "Apache", "Linux"]
 date: "2009-11-27T17:32:00+02:00"

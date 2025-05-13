@@ -1,5 +1,6 @@
 ---
 title: "IP: Network Interface Management Command"
+slug: ip-network-interface-management-command/
 description: "How to use the ip command to manage network interfaces, which is gradually replacing ifconfig due to its enhanced functionality."
 categories: ["Linux", "RHEL"]
 date: "2012-05-03T14:47:00+02:00"

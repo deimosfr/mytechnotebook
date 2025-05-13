@@ -1,5 +1,6 @@
 ---
 title: "MFi: Install a Ubiquiti server to manage powerstrips"
+slug: mfi-install-a-ubiquiti-server-to-manage-powerstrips/
 description: "A guide on installing and configuring a Ubiquiti mFi server on Debian Linux to manage powerstrips"
 categories: ["Networking", "Linux", "Hardware"]
 date: "2014-07-27T13:15:00+02:00"

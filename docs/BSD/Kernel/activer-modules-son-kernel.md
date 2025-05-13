@@ -1,5 +1,6 @@
 ---
 title: "Activating Kernel Modules"
+slug: activating-kernel-modules/
 description: "How to enable, disable, and manage kernel modules in BSD and Linux systems"
 categories: ["BSD", "System Administration"]
 date: "2008-05-04T06:48:00+02:00"

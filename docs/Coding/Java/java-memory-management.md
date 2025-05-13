@@ -1,5 +1,6 @@
 ---
 title: "Java Memory Management"
+slug: java-memory-management/
 description: "Documentation about how memory management works in Java and in the JVM"
 categories: ["Development", "Java"]
 date: "2008-05-02T15:36:00+02:00"

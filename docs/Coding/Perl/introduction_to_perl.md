@@ -1,5 +1,6 @@
 ---
 title: "Introduction to Perl"
+slug: introduction-to-perl/
 description: "A comprehensive guide to Perl programming language covering basics, syntax, functions, modules, and advanced techniques"
 categories: ["Database", "Linux"]
 date: "2013-09-24T11:20:00+02:00"

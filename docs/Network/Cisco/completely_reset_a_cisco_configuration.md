@@ -1,5 +1,6 @@
 ---
 title: "Completely Reset a Cisco Configuration"
+slug: completely-reset-a-cisco-configuration/
 description: "How to completely reset a Cisco device configuration with simple commands"
 categories:
   - Network

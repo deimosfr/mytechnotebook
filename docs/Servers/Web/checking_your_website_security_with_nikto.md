@@ -1,5 +1,6 @@
 ---
 title: "Checking Your Website Security with Nikto"
+slug: checking-your-website-security-with-nikto/
 description: "Guide on how to use Nikto to test web server security and detect potential vulnerabilities."
 categories: ["Security", "Linux", "Apache"]
 date: "2011-04-05T21:05:00+02:00"

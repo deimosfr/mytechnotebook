@@ -1,5 +1,6 @@
 ---
 title: "Object-Oriented Programming in Perl"
+slug: object-oriented-programming-in-perl/
 description: "A guide to understanding and implementing Object-Oriented Programming in Perl, including basic concepts and practical examples"
 categories: 
   - "Linux"

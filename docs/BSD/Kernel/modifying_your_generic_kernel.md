@@ -1,5 +1,6 @@
 ---
 title: "Modifying Your Generic Kernel"
+slug: modifying-your-generic-kernel/
 description: "How to modify and switch between kernel types in BSD, including changing from single core to multi-core and booting with alternate kernels."
 categories: ["Linux", "BSD"]
 date: "2007-11-13T09:15:00+02:00"

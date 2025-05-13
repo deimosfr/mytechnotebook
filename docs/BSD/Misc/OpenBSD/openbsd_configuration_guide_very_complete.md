@@ -1,5 +1,6 @@
 ---
 title: "OpenBSD Configuration Guide (Very Complete)"
+slug: openbsd-configuration-guide-very-complete/
 description: "A comprehensive guide for configuring OpenBSD systems, including PF, OpenNTPD and other components."
 categories: ["BSD"]
 date: "2009-01-18T03:34:00+02:00"

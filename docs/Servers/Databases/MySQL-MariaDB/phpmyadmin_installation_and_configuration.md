@@ -1,5 +1,6 @@
 ---
 title: "PhpMyAdmin: Installation and Configuration"
+slug: phpmyadmin-installation-and-configuration/
 description: "Guide for installing and configuring PhpMyAdmin, a web interface for MySQL database management"
 categories: ["MySQL", "Database", "Linux"]
 date: "2009-05-09T08:16:00+02:00"

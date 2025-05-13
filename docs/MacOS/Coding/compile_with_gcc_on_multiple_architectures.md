@@ -1,5 +1,6 @@
 ---
 title: "Compiling with GCC on Multiple Architectures (e.g., PPC and Intel)"
+slug: compiling-with-gcc-on-multiple-architectures-eg-ppc-and-intel/
 description: "How to compile cross-architecture binaries using GCC, specifically for PPC and Intel architectures"
 categories: ["Development", "Mac OS"]
 date: "2007-07-12T07:20:00+02:00"

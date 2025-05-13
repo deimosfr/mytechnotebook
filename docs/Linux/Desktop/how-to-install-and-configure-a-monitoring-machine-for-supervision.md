@@ -1,5 +1,6 @@
 ---
 title: "How to install and configure a monitoring machine for supervision"
+slug: how-to-install-and-configure-a-monitoring-machine-for-supervision/
 description: "A guide on quickly setting up a monitoring machine with Nagios/Shinken for supervision purposes with automatic login and minimal interaction requirements."
 categories: ["Monitoring", "Linux", "Debian"]
 date: "2013-08-08T07:43:00+02:00"

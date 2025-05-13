@@ -1,5 +1,6 @@
 ---
 title: "GFS2: Red Hat Cluster Filesystem"
+slug: gfs2-red-hat-cluster-filesystem/
 description: "Learn how to install and configure GFS2, the Global File System cluster filesystem developed by Red Hat for Linux."
 categories: ["Linux", "File Systems", "Clusters"]
 date: "2012-03-06T12:54:00+02:00"

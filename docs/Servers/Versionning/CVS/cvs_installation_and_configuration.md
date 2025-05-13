@@ -1,5 +1,6 @@
 ---
 title: "CVS Installation and Configuration"
+slug: cvs-installation-and-configuration/
 description: "How to install and configure CVS on Debian and Red Hat Linux distributions."
 categories: ["Linux", "Backup", "Debian"]
 date: "2008-12-26T18:57:00+02:00"

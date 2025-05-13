@@ -1,5 +1,6 @@
 ---
 title: "OpenSSH: SSH Key Exchange"
+slug: openssh-ssh-key-exchange/
 description: "How to set up and use SSH key exchange for passwordless authentication, including basic and advanced configurations, ssh-add usage, and troubleshooting common issues."
 categories: ["Networking", "Linux", "Security"]
 date: "2013-10-25T09:02:00+02:00"

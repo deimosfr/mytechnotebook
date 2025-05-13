@@ -1,5 +1,6 @@
 ---
 title: "Swaks - Swiss Army Knife SMTP"
+slug: swaks-swiss-army-knife-smtp/
 description: "Learn about Swaks (Swiss Army Knife SMTP), a versatile tool for SMTP testing and management with examples of use cases."
 categories:
   - "Linux"

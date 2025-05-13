@@ -1,5 +1,6 @@
 ---
 title: "Load Balancing with Apache 2"
+slug: load-balancing-with-apache-2/
 description: "How to set up load balancing with Apache 2 web servers, including proxy balancer module and clustering configuration."
 categories: ["Linux", "Apache"]
 date: "2007-08-28T05:08:00+02:00"

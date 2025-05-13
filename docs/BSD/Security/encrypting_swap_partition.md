@@ -1,5 +1,6 @@
 ---
 title: "Encrypting Swap Partition"
+slug: encrypting-swap-partition/
 description: "A guide on how to encrypt your swap partition in OpenBSD systems both with and without rebooting."
 categories: ["Linux", "BSD"]
 date: "2007-08-01T22:54:00+02:00"

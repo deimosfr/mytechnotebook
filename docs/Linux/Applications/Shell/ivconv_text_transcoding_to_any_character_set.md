@@ -1,5 +1,6 @@
 ---
 title: "Ivconv: Text Transcoding to Any Character Set"
+slug: ivconv-text-transcoding-to-any-character-set/
 description: "How to use the iconv command on Debian to transcode text from one character set to another, useful for file conversion between UTF-8 and ISO standards."
 categories: ["Debian", "Linux"]
 date: "2007-03-08T08:18:00+02:00"

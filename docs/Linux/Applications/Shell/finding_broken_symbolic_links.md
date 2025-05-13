@@ -1,5 +1,6 @@
 ---
 title: "Finding Broken Symbolic Links"
+slug: finding-broken-symbolic-links/
 description: "How to find and clean up broken symbolic links on Unix systems"
 categories: ["Linux"]
 date: "2009-09-20T16:00:00+02:00"

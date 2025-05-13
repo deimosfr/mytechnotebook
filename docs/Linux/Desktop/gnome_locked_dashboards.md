@@ -1,5 +1,6 @@
 ---
 title: "Gnome: Locked Dashboards"
+slug: gnome-locked-dashboards/
 description: "How to lock Gnome dashboards to prevent panels and applet icons from moving around accidentally."
 categories: ["Linux"]
 date: "2009-08-07T16:14:00+02:00"

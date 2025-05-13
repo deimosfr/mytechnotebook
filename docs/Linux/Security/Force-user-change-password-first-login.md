@@ -1,5 +1,6 @@
 ---
 title: "Force User to Change Password at First Login"
+slug: force-user-to-change-password-at-first-login/
 description: "How to force users to change their password on first login by setting account expiration"
 categories: ["Linux", "Security"]
 date: "2010-03-14T20:48:00+02:00"

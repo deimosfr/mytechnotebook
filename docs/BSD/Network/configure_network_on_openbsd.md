@@ -1,5 +1,6 @@
 ---
 title: "Configure Network on OpenBSD"
+slug: configure-network-on-openbsd/
 description: "A guide to basic network configuration on OpenBSD systems including interface setup, static IPs, gateways, DNS, and performance tuning"
 categories: ["BSD", "Network", "System Administration"]
 date: "2008-03-17T07:22:00+01:00"

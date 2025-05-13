@@ -1,5 +1,6 @@
 ---
 title: "Using MySQL"
+slug: using-mysql/
 description: "Tips and tricks for MySQL database management including charset conversion and table prefix manipulation"
 categories: ["MySQL", "Database", "Linux"]
 date: "2013-01-25T16:43:00+02:00"

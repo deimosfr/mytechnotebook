@@ -1,5 +1,6 @@
 ---
 title: "MyTinyTodo: A Simple Task Management Tool"
+slug: mytinytodo-a-simple-task-management-tool/
 description: "How to install and configure MyTinyTodo, a simple web-based task management tool that's compatible with smartphones."
 categories: ["Linux", "Servers"]
 date: "2012-04-20T08:19:00+02:00"

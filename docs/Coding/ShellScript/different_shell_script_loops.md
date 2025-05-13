@@ -1,5 +1,6 @@
 ---
 title: "Different Shell Script Loops"
+slug: different-shell-script-loops/
 description: "A guide to different loop structures in shell scripting including if, for, while, until, case statements and testing conditions."
 categories: ["Linux", "Development"]
 date: "2008-10-21T15:22:00+02:00"

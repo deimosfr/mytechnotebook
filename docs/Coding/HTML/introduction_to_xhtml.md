@@ -1,5 +1,6 @@
 ---
 title: "Introduction to XHTML"
+slug: introduction-to-xhtml/
 description: "This guide provides an introduction to XHTML, including the basics of tags, comments, minimal structure, and advanced features such as video tags."
 categories:
   - Linux

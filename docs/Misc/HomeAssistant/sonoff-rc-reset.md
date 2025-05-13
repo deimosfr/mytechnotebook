@@ -1,5 +1,6 @@
 ---
 title: 'Sonoff: Remote-control reset'
+slug: sonoff-remote-control-reset/
 description: 'Reset the remote control of a Sonoff device'
 categories: ['Home Assistant', 'Sonoff']
 tags: ['Home Assistant', 'Sonoff']

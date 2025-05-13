@@ -1,5 +1,6 @@
 ---
 title: "LDAP: Installation and Configuration of an LDAP Directory"
+slug: ldap-installation-and-configuration-of-an-ldap-directory/
 description: "A comprehensive guide to installing, configuring and managing an OpenLDAP directory with client configurations for various systems."
 categories: ["Security", "Database", "Debian"]
 date: "2013-03-28T10:30:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Kernel: Module Compilation"
+slug: kernel-module-compilation/
 description: "Guide on compiling Linux kernel modules with focus on Iptables firewall requirements."
 categories: ["Linux"]
 date: "2006-08-27T22:24:00+02:00"

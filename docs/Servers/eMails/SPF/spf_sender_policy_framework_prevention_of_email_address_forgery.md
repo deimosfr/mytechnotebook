@@ -1,5 +1,6 @@
 ---
 title: "SPF (Sender Policy Framework): Prevention of Email Address Forgery"
+slug: spf-sender-policy-framework-prevention-of-email-address-forgery/
 description: "An overview of SPF (Sender Policy Framework), how it works, what it needs to function, and how to configure it to prevent email address forgery."
 categories: ["Linux", "Network", "Servers"]
 date: "2006-12-28T22:59:00+02:00"

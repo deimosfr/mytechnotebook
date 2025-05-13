@@ -1,5 +1,6 @@
 ---
 title: "Advanced usage of Bind"
+slug: advanced-usage-of-bind/
 description: "This guide explains advanced techniques for managing BIND DNS servers including zone updates, round-robin load balancing, and troubleshooting common issues."
 categories: 
   - Linux

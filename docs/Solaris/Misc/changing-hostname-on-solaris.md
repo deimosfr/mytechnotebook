@@ -1,5 +1,6 @@
 ---
 title: "Changing Hostname on Solaris"
+slug: changing-hostname-on-solaris/
 description: "How to change the hostname on Solaris systems both temporarily and permanently without requiring a reboot."
 categories: ["Solaris"]
 date: "2008-12-05T14:18:00+02:00"

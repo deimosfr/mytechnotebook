@@ -1,5 +1,6 @@
 ---
 title: "Linux Memory Management"
+slug: linux-memory-management/
 description: "An in-depth guide to memory management in Linux, including page types, dirty/clean page reclamation, OOM handling, memory leak detection, and swap configuration."
 categories: ["Linux", "System Administration", "Performance"]
 date: "2013-05-06T14:41:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Ulimit: Using System Limits"
+slug: ulimit-using-system-limits/
 description: "An overview of how to use ulimit to manage system-wide resource limits for users and processes on Linux and Solaris systems."
 categories: ["Linux", "Security"]
 date: "2012-07-03T10:08:00+02:00"

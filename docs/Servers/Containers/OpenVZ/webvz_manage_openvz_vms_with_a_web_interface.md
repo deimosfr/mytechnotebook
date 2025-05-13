@@ -1,5 +1,6 @@
 ---
 title: "WebVZ: Manage OpenVZ VMs with a Web Interface"
+slug: webvz-manage-openvz-vms-with-a-web-interface/
 description: "A guide to WebVZ, a web interface for managing OpenVZ virtual machines."
 categories: ["Linux", "Virtualization"]
 date: "2009-11-28T16:08:00+02:00"

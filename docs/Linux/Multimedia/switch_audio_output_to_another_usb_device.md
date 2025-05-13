@@ -1,5 +1,6 @@
 ---
 title: "Switch audio output to another USB device"
+slug: switch-audio-output-to-another-usb-device/
 description: "Instructions for setting up USB audio devices on Linux, including both manual and automatic approaches with udev rules"
 categories: ["Linux", "Debian"]
 date: "2013-05-23T15:00:00+02:00"

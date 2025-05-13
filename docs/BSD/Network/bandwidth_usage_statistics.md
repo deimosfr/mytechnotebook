@@ -1,5 +1,6 @@
 ---
 title: "Bandwidth Usage Statistics"
+slug: bandwidth-usage-statistics/
 description: "A simple shell script to calculate and monitor bandwidth usage on external network interfaces for BSD and Linux systems."
 categories:
   - Linux

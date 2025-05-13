@@ -1,5 +1,6 @@
 ---
 title: "Introduction to IDS and SNORT"
+slug: introduction-to-ids-and-snort/
 description: "A comprehensive guide to Intrusion Detection Systems (IDS) and SNORT, covering installation, configuration, and best practices for network security monitoring."
 categories: ["Security", "Monitoring", "Networking"]
 date: "2008-05-24T16:43:00+02:00"

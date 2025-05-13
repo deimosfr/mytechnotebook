@@ -1,5 +1,6 @@
 ---
 title: "OpenSSH: Creating an SSH SOCKS Proxy"
+slug: openssh-creating-an-ssh-socks-proxy/
 description: "Learn how to create a SOCKS proxy using SSH to securely route your traffic through an encrypted tunnel."
 categories: ["Linux", "Network", "Security"]
 date: "2012-02-18T12:24:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "OpenNTPd: Setting up an NTP server on OpenBSD"
+slug: openntpd-setting-up-an-ntp-server-on-openbsd/
 description: "A guide for installing and configuring OpenNTPd on OpenBSD"
 categories: ["Linux"]
 date: "2009-05-21T11:40:00+02:00"

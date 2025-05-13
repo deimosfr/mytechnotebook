@@ -1,5 +1,6 @@
 ---
 title: "SMF: Service Management Facility"
+slug: smf-service-management-facility/
 description: "A comprehensive guide to Solaris Service Management Facility (SMF), covering service management, runlevels, milestones, and configuration of services."
 categories: ["Linux", "Servers", "System Administration"]
 date: "2010-02-03T21:43:00+02:00"

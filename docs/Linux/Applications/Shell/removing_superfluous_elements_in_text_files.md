@@ -1,5 +1,6 @@
 ---
 title: "Removing Superfluous Elements in Text Files"
+slug: removing-superfluous-elements-in-text-files/
 description: "How to clean text files by removing unwanted characters like ^M line endings and empty lines using various command-line tools."
 categories: ["Linux"]
 date: "2009-09-20T15:07:00+02:00"

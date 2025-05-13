@@ -1,5 +1,6 @@
 ---
 title: "Smokeping: Monitoring Latency"
+slug: smokeping-monitoring-latency/
 description: "Learn how to use Smokeping to monitor latency of services and applications."
 categories: ["Monitoring", "Network"]
 date: "2007-09-14T16:19:00+02:00"

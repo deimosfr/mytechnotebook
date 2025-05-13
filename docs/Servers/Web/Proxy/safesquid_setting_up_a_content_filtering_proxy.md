@@ -1,5 +1,6 @@
 ---
 title: "SafeSquid: Setting Up a Content Filtering Proxy"
+slug: safesquid-setting-up-a-content-filtering-proxy/
 description: "A guide to installing and configuring SafeSquid as a content filtering proxy to protect children from inappropriate internet content."
 categories: ["Security", "Linux", "Network"]
 date: "2008-08-31T10:06:00+02:00"

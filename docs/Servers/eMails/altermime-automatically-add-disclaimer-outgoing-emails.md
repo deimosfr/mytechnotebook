@@ -1,5 +1,6 @@
 ---
 title: "AlterMIME: Automatically Add a Disclaimer to Outgoing Emails"
+slug: altermime-automatically-add-a-disclaimer-to-outgoing-emails/
 description: "Documentation on how to automatically add disclaimers to your outgoing emails using AlterMIME"
 categories: ["Email", "Server", "Linux"]
 date: "2008-02-24T07:21:00+01:00"

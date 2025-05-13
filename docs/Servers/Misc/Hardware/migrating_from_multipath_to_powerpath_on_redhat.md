@@ -1,5 +1,6 @@
 ---
 title: "Migrating from Multipath to Powerpath on RedHat"
+slug: migrating-from-multipath-to-powerpath-on-redhat/
 description: "A guide on how to migrate from Multipath to Powerpath on RedHat Linux systems, including uninstallation of multipath, installation of Powerpath, verification, and LVM configuration."
 categories: 
   - Linux

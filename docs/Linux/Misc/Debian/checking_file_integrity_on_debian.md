@@ -1,5 +1,6 @@
 ---
 title: "Checking File Integrity on Debian"
+slug: checking-file-integrity-on-debian/
 description: "How to check the integrity of files on a Debian system using a script that verifies package files against their original versions."
 categories: ["Debian", "Linux"]
 date: "2012-08-29T12:02:00+02:00"

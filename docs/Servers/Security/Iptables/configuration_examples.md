@@ -1,5 +1,6 @@
 ---
 title: "Iptables: Configuration Examples"
+slug: iptables-configuration-examples/
 description: "Various iptables configuration examples from basic to complex for firewall setup"
 categories: ["Apache", "Linux"]
 date: "2010-12-13T17:06:00+02:00"

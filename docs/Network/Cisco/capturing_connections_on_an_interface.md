@@ -1,5 +1,6 @@
 ---
 title: "Capturing connections on an interface"
+slug: capturing-connections-on-an-interface/
 description: "How to capture and monitor network connections on a Cisco interface using access lists and dumps."
 categories: ["Linux", "Network"]
 date: "2007-05-23T15:45:00+02:00"

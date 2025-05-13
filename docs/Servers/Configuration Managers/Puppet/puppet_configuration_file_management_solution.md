@@ -1,5 +1,6 @@
 ---
 title: "Puppet: Configuration File Management Solution"
+slug: puppet-configuration-file-management-solution/
 description: "A comprehensive guide to installing and configuring Puppet, a powerful configuration management tool that helps automate system administration tasks."
 categories: ["Linux"]
 date: "2013-08-02T11:43:00+02:00"

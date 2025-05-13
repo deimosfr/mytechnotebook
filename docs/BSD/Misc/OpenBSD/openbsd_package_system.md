@@ -1,5 +1,6 @@
 ---
 title: "OpenBSD Package System"
+slug: openbsd-package-system/
 description: "A guide to understanding and using the OpenBSD package and ports systems for software management."
 categories: ["Security", "Linux"]
 date: "2007-11-27T18:07:00+02:00"

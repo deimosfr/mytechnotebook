@@ -1,5 +1,6 @@
 ---
 title: "Virtual Domains"
+slug: virtual-domains/
 description: "How to set up virtual domains in Postfix for handling multiple domains with aliases and advanced mail routing."
 categories: ["Linux", "Servers"]
 date: "2009-07-31T14:14:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Upgrading SUN Cluster"
+slug: upgrading-sun-cluster/
 description: "Guide on how to upgrade a SUN Cluster with detailed step-by-step instructions"
 categories: ["Solaris", "Servers"]
 date: "2010-02-13T14:37:00+02:00"

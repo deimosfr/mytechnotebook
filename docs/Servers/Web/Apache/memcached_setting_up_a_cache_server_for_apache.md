@@ -1,5 +1,6 @@
 ---
 title: "Memcached: Setting up a Cache Server for Apache"
+slug: memcached-setting-up-a-cache-server-for-apache/
 description: "How to set up Memcached as a caching server for Apache to accelerate client requests and improve performance."
 categories: ["Linux", "Apache"]
 date: "2009-11-27T20:20:00+02:00"

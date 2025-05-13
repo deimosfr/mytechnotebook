@@ -1,5 +1,6 @@
 ---
 title: "Nginx + Varnish: Cache even in HTTPS by offloading SSL"
+slug: nginx-varnish-cache-even-in-https-by-offloading-ssl/
 description: "A guide on configuring Nginx and Varnish to enable HTTPS caching through SSL offloading, including installation, configuration and testing steps."
 categories: ["Nginx", "Debian", "Security"]
 date: "2014-01-16T17:46:00+02:00"

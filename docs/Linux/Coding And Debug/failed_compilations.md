@@ -1,5 +1,6 @@
 ---
 title: "Failed Compilations"
+slug: failed-compilations/
 description: "Solutions for common Linux compilation failures and required libraries"
 categories: ["Linux", "Development"]
 date: "2006-08-05T19:44:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "WebDAV: Securing with SSL"
+slug: webdav-securing-with-ssl/
 description: "How to secure WebDAV connections using SSL encryption for improved security."
 categories: ["Apache", "Linux", "Security"]
 date: "2009-12-20T10:41:00+02:00"

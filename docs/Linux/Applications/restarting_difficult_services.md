@@ -1,5 +1,6 @@
 ---
 title: "Restarting difficult services"
+slug: restarting-difficult-services/
 description: "How to restart difficult services like SSH when there's no simple solution to stop them."
 categories: ["Linux"]
 date: "2007-11-14T09:49:00+02:00"

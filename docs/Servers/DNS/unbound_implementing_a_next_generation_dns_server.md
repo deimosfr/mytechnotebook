@@ -1,5 +1,6 @@
 ---
 title: "Unbound: Implementing a Next Generation DNS Server"
+slug: unbound-implementing-a-next-generation-dns-server/
 description: "Guide for installing and configuring Unbound, a next-generation DNS server with secure connections and high availability."
 categories: ["Linux", "Network", "Servers"]
 date: "2013-07-18T18:38:00+02:00"

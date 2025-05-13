@@ -1,5 +1,6 @@
 ---
 title: "Monitoring Superuser Access"
+slug: monitoring-superuser-access/
 description: "How to monitor and track superuser access on Unix systems through logging mechanisms."
 categories: ["Linux", "Security", "Solaris"]
 date: "2009-02-04T18:34:00+02:00"

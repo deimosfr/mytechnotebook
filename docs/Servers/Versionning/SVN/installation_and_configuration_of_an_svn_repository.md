@@ -1,5 +1,6 @@
 ---
 title: "Installation and Configuration of an SVN Repository"
+slug: installation-and-configuration-of-an-svn-repository/
 description: "Comprehensive guide to install, configure and use a Subversion (SVN) repository with Apache on Linux systems."
 categories: ["Linux", "Apache"]
 date: "2012-07-06T14:40:00+02:00"

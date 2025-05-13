@@ -1,5 +1,6 @@
 ---
 title: "OpenVZ: Setting Up OpenVZ"
+slug: openvz-setting-up-openvz/
 description: "A comprehensive guide to installing, configuring and managing OpenVZ virtualization technology on Linux."
 categories: ["Linux", "Debian", "Backup", "Virtualization"]
 date: "2014-04-07T15:52:00+02:00"

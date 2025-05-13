@@ -1,5 +1,6 @@
 ---
 title: "PageSpeed: Optimize Your Rendered Code On The Fly"
+slug: pagespeed-optimize-your-rendered-code-on-the-fly/
 description: "Learn how to install and configure PageSpeed with Nginx to optimize web content and improve page load times."
 categories: ["Nginx", "Debian", "Linux"]
 date: "2014-02-19T17:14:00+02:00"

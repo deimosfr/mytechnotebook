@@ -1,5 +1,6 @@
 ---
 title: "XenServer 4.1: Changing the Management Interface"
+slug: xenserver-41-changing-the-management-interface/
 description: "How to change the management interface on XenServer 4.1 when you've selected the wrong one during installation."
 categories: ["Linux", "Virtualization"]
 date: "2009-02-04T18:58:00+02:00"

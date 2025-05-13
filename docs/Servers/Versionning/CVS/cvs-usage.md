@@ -1,5 +1,6 @@
 ---
 title: "CVS: Using CVS"
+slug: cvs-using-cvs/
 description: "A guide to the basics of using CVS (Concurrent Versions System) for version control, including project management, adding and removing files, and identifying changes."
 categories: ["Development", "Version Control"]
 date: "2007-05-20T20:37:00+02:00"

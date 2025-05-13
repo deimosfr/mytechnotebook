@@ -1,5 +1,6 @@
 ---
 title: "Creating a VPN with OpenSSH"
+slug: creating-a-vpn-with-openssh/
 description: "Learn how to create a VPN connection using OpenSSH to encrypt all traffic between two machines."
 categories: ["Linux"]
 date: "2008-07-26T12:20:00+02:00"

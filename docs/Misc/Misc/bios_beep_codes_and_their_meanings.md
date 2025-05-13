@@ -1,5 +1,6 @@
 ---
 title: "BIOS Beep Codes and Their Meanings"
+slug: bios-beep-codes-and-their-meanings/
 description: "A comprehensive guide to understanding the meaning of various BIOS beep codes during computer startup problems."
 categories: ["Linux"]
 date: "2008-04-09T10:03:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Tmux: The Terminal Multiplexer Replacing Screen"
+slug: tmux-the-terminal-multiplexer-replacing-screen/
 description: "Guide to installing, configuring and using Tmux, a powerful terminal multiplexer which serves as a modern replacement for screen."
 categories: ["Linux"]
 date: "2013-01-25T07:47:00+02:00"

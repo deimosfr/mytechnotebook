@@ -1,5 +1,6 @@
 ---
 title: "Mailgraph: Email Monitoring (Spam, Rejects, Viruses...)"
+slug: mailgraph-email-monitoring-spam-rejects-viruses/
 description: "A guide on installing and configuring Mailgraph to monitor email traffic, spam, viruses and rejected emails on your mail server."
 categories: ["Linux", "Debian", "Nginx"]
 date: "2010-02-03T06:33:00+02:00"

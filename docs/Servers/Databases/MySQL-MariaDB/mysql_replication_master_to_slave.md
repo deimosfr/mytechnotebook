@@ -1,5 +1,6 @@
 ---
 title: "MySQL Replication Master to Slave"
+slug: mysql-replication-master-to-slave/
 description: "How to set up MySQL replication from master to slave configuration"
 categories: ["MySQL", "Linux"]
 date: "2007-07-09T15:02:00+02:00"

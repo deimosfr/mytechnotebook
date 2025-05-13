@@ -1,5 +1,6 @@
 ---
 title: "Reverse Engineering with LD_PRELOAD"
+slug: reverse-engineering-with-ld_preload/
 description: "A comprehensive guide to reverse engineering using LD_PRELOAD"
 categories: ["Linux", "Development"]
 date: "2007-08-03T16:49:00+02:00"

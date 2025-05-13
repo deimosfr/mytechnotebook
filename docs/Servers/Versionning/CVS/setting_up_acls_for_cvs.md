@@ -1,5 +1,6 @@
 ---
 title: "Setting up ACLs for CVS"
+slug: setting-up-acls-for-cvs/
 description: "A guide on how to install and configure ACLs for CVS repositories."
 categories: ["Linux", "Development"]
 date: "2006-11-24T09:42:00+02:00"

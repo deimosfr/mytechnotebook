@@ -1,5 +1,6 @@
 ---
 title: "Batch Renaming Elements"
+slug: batch-renaming-elements/
 description: "Tips and techniques for batch renaming files and elements in a system"
 categories: ["Linux"]
 date: "2009-09-20T15:03:00+02:00"

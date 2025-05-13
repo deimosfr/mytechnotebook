@@ -1,5 +1,6 @@
 ---
 title: "Reverse Tunneling with OpenSSH"
+slug: reverse-tunneling-with-openssh/
 description: "How to set up reverse tunneling with OpenSSH to access machines behind NAT and firewalls."
 categories: ["Network", "Security", "SSH"]
 date: "2012-02-03T16:08:00+02:00"

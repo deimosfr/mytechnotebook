@@ -1,5 +1,6 @@
 ---
 title: "Upgrading the Soekris BIOS"
+slug: upgrading-the-soekris-bios/
 description: "How to upgrade the BIOS firmware on a Soekris device"
 categories: ["Linux", "Network"]
 date: "2010-12-01T21:25:00+02:00"

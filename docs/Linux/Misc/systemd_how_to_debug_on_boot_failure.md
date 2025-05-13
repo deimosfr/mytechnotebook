@@ -1,5 +1,6 @@
 ---
 title: "Systemd: How to Debug on Boot Failure"
+slug: systemd-how-to-debug-on-boot-failure/
 description: "Guide on how to debug systemd boot failures including checking failed services, getting service status information and troubleshooting techniques."
 categories: ["Linux", "Debian"]
 date: "2014-07-27T12:16:00+02:00"

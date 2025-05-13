@@ -1,5 +1,6 @@
 ---
 title: "XtraBackup: Optimizing Your MySQL Backups"
+slug: xtrabackup-optimizing-your-mysql-backups/
 description: "A guide on how to optimize MySQL backups using Percona XtraBackup, including installation, full backups, incremental backups, and restoration procedures."
 categories: ["Backup", "Linux", "Debian"]
 date: "2013-12-27T08:43:00+02:00"

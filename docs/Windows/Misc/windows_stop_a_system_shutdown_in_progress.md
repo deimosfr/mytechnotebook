@@ -1,5 +1,6 @@
 ---
 title: "Windows: Stop a system shutdown in progress"
+slug: windows-stop-a-system-shutdown-in-progress/
 description: "How to stop a Windows system shutdown that is already in progress using a simple command"
 categories:
   - Windows

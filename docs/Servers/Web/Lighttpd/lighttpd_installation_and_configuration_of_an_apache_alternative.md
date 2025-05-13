@@ -1,5 +1,6 @@
 ---
 title: "Lighttpd: Installation and configuration of an Apache alternative"
+slug: lighttpd-installation-and-configuration-of-an-apache-alternative/
 description: "A guide for installing and configuring Lighttpd as a fast and flexible alternative to Apache with various configuration examples"
 categories: ["Debian", "Linux", "Servers"]
 date: "2011-05-10T11:05:00+02:00"

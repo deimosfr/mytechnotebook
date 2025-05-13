@@ -1,5 +1,6 @@
 ---
 title: 'Blender: useful keyboard shortcuts'
+slug: blender-useful-keyboard-shortcuts/
 description: 'Blender Useful Keyboard Shortcuts'
 categories: ['']
 tags: ['']

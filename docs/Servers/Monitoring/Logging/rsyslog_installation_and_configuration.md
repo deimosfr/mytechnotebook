@@ -1,5 +1,6 @@
 ---
 title: "Rsyslog: Installation and Configuration"
+slug: rsyslog-installation-and-configuration/
 description: "Guide to installing and configuring Rsyslog for log management, including server setup, templates, and client configuration"
 categories: ["Debian", "Security", "Database"]
 date: "2011-10-06T11:18:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Disable Screen Standby on Debian"
+slug: disable-screen-standby-on-debian/
 description: "How to disable screen standby and screen locking on Debian systems."
 categories: ["Debian", "Linux"]
 date: "2010-06-27T07:48:00+02:00"

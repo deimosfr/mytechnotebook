@@ -1,5 +1,6 @@
 ---
 title: "Trac: Setting up a Tracking Solution"
+slug: trac-setting-up-a-tracking-solution/
 description: "A guide for setting up Trac, a web-based wiki and issue tracking system that integrates with Subversion for project management."
 categories: ["Linux", "Apache", "Development"]
 date: "2008-01-30T17:15:00+02:00"

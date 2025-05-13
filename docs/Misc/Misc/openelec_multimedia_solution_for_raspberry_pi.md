@@ -1,5 +1,6 @@
 ---
 title: "OpenElec: Multimedia Solution for Raspberry Pi"
+slug: openelec-multimedia-solution-for-raspberry-pi/
 description: "Guide on installing and configuring OpenElec multimedia center on Raspberry Pi with support for remote controls and hardware video decoding."
 categories: ["Linux", "Storage"]
 date: "2013-02-12T07:46:00+02:00"

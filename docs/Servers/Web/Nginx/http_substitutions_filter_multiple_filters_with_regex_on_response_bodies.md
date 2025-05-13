@@ -1,5 +1,6 @@
 ---
 title: "HTTP Substitutions Filter: Multiple Filters with Regex on Response Bodies"
+slug: http-substitutions-filter-multiple-filters-with-regex-on-response-bodies/
 description: "Learn how to implement HTTP substitutions filter for Nginx to perform multiple regex filters on response bodies. This guide covers compilation, installation, and configuration on Debian systems."
 categories: ["Linux", "Debian", "Nginx"]
 date: "2013-04-26T15:22:00+02:00"

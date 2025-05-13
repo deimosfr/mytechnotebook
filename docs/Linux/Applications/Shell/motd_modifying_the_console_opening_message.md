@@ -1,5 +1,6 @@
 ---
 title: "MOTD: Modifying the Console Opening Message"
+slug: motd-modifying-the-console-opening-message/
 description: "Learn how to customize your console opening message (MOTD) using various utilities like cowsay, boxes, linuxlogo, and figlet."
 categories: ["Linux"]
 date: "2007-08-24T21:40:00+02:00"

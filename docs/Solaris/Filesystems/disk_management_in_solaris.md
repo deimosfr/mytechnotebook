@@ -1,5 +1,6 @@
 ---
 title: "Disk Management in Solaris"
+slug: disk-management-in-solaris/
 description: "A comprehensive guide on managing disks in Solaris, covering physical disk structure, partitioning, filesystems, and troubleshooting."
 categories: ["Linux", "Unix", "System Administration"]
 date: "2012-01-30T11:07:00+02:00"

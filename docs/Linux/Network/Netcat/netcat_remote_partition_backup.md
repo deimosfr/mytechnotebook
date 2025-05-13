@@ -1,5 +1,6 @@
 ---
 title: "Netcat: Remote Partition Backup"
+slug: netcat-remote-partition-backup/
 description: "Guide on how to use Netcat for remote partition backups, including commands for sending compressed images over the network."
 categories: ["Linux", "Network"]
 date: "2007-08-02T14:34:00+02:00"

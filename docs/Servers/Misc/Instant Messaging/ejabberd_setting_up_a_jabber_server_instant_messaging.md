@@ -1,5 +1,6 @@
 ---
 title: "EJabberd: Setting up a Jabber server (instant messaging)"
+slug: ejabberd-setting-up-a-jabber-server-instant-messaging/
 description: "A guide for installing and configuring EJabberd, a Jabber/XMPP server written in Erlang for instant messaging."
 categories: ["Linux", "Debian", "Ubuntu", "Servers"]
 date: "2007-03-26T20:48:00+02:00"

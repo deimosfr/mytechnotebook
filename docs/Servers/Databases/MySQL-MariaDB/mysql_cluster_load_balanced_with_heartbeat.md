@@ -1,5 +1,6 @@
 ---
 title: "MySQL Cluster Load Balanced with Heartbeat"
+slug: mysql-cluster-load-balanced-with-heartbeat/
 description: "Documentation about setting up a load balanced MySQL cluster with Heartbeat, including links to detailed PDF resources."
 categories: ["MySQL", "Linux"]
 date: "2008-06-16T05:42:00+02:00"

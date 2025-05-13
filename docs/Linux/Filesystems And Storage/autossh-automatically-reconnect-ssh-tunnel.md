@@ -1,5 +1,6 @@
 ---
 title: "AutoSSH: Automatically Reconnect SSH Tunnels"
+slug: autossh-automatically-reconnect-ssh-tunnels/
 description: "Learn how to use AutoSSH to maintain persistent SSH tunnels that automatically reconnect if the connection drops."
 categories: ["Linux", "SSH", "Network"]
 date: "2013-03-20T10:44:00+02:00"

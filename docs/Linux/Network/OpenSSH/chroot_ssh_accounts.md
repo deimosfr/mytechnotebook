@@ -1,5 +1,6 @@
 ---
 title: "Chroot SSH Accounts"
+slug: chroot-ssh-accounts/
 description: "How to configure SSH accounts with chroot environment for enhanced security" 
 categories: ["Linux", "Security", "SSH"]
 date: "2008-04-01T10:31:00+02:00"

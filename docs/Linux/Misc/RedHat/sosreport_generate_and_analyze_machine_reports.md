@@ -1,5 +1,6 @@
 ---
 title: "SoSReport: Generate and analyze machine reports"
+slug: sosreport-generate-and-analyze-machine-reports/
 description: "Learn how to use sosreport to generate comprehensive system reports and analyze them with sxconsole."
 categories: ["Red Hat", "CentOS", "Diagnostics", "System Administration"]
 date: "2013-03-15T15:22:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Theme for Apache Directory Index Listing"
+slug: theme-for-apache-directory-index-listing/
 description: "How to create a custom theme for Apache's Directory Index Listing to improve its appearance."
 categories: ["Linux", "Servers", "Debian"]
 date: "2012-04-09T13:15:00+02:00"

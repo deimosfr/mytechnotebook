@@ -1,5 +1,6 @@
 ---
 title: "Setting up DHCP Failover"
+slug: setting-up-dhcp-failover/
 description: "A guide on how to configure DHCP failover between two servers using ISC DHCP server version 3 on OpenBSD systems."
 categories: ["Linux", "Network", "Backup"]
 date: "2007-11-06T18:42:00+02:00"

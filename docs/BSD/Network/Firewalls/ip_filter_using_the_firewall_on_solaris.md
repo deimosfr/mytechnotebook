@@ -1,5 +1,6 @@
 ---
 title: "IP Filter: Using the Firewall on Solaris"
+slug: ip-filter-using-the-firewall-on-solaris/
 description: "A guide on how to configure and use IP Filter, a firewall solution for Solaris operating systems."
 categories: ["Unix", "Solaris", "Security"]
 date: "2010-12-28T07:44:00+02:00"

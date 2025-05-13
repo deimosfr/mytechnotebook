@@ -1,5 +1,6 @@
 ---
 title: "Google Search Tips"
+slug: google-search-tips/
 description: "Useful tips and tricks to improve your Google search results and find information more efficiently."
 categories: ["Linux"]
 date: "2006-08-05T13:07:00+02:00"

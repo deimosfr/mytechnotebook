@@ -1,5 +1,6 @@
 ---
 title: "Using the Numeric Keypad as a Mouse with X"
+slug: using-the-numeric-keypad-as-a-mouse-with-x/
 description: "This article explains how to use the numeric keypad to control the mouse cursor in X Window System when your mouse isn't working."
 categories: ["Linux"]
 date: "2008-12-27T23:55:00+02:00"

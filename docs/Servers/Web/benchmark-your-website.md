@@ -1,5 +1,6 @@
 ---
 title: "Benchmark Your Website"
+slug: benchmark-your-website/
 description: "How to benchmark your website to test its performance and understand how it behaves under load"
 categories: ["Web", "Server", "Performance"]
 date: "2013-01-16T07:47:00+02:00"

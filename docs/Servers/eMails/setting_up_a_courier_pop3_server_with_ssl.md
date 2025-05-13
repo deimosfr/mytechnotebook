@@ -1,5 +1,6 @@
 ---
 title: "Setting up a Courier POP3 server with SSL"
+slug: setting-up-a-courier-pop3-server-with-ssl/
 description: "Guide to install and configure a Courier POP3 server with SSL encryption on OpenBSD"
 categories: ["Linux", "Servers", "Network"]
 date: "2008-04-10T13:58:00+02:00"

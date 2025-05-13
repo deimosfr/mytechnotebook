@@ -1,5 +1,6 @@
 ---
 title: "Strace and Ltrace: Trace System and Library Calls"
+slug: strace-and-ltrace-trace-system-and-library-calls/
 description: "How to use strace and ltrace tools to monitor system calls and library calls for debugging and troubleshooting on Linux systems"
 categories: ["Debian", "Linux"]
 date: "2012-01-20T10:32:00+02:00"

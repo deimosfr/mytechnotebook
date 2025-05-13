@@ -1,5 +1,6 @@
 ---
 title: "Real-time monitoring of your Apache server"
+slug: real-time-monitoring-of-your-apache-server/
 description: "How to monitor your Apache server in real-time using various tools like mod_status and apachetop."
 categories: ["Debian", "Linux", "Ubuntu"]
 date: "2012-01-18T13:44:00+02:00"

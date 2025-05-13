@@ -1,5 +1,6 @@
 ---
 title: "CSS: Style Sheets"
+slug: css-style-sheets/
 description: "A guide to CSS pseudo-classes and their usage in web development, including link states, text formatting, and page styling."
 categories: ["Web", "Development", "CSS"]
 date: "2008-10-13T19:48:00+02:00"

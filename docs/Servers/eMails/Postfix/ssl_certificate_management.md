@@ -1,5 +1,6 @@
 ---
 title: "SSL: Certificate Management"
+slug: ssl-certificate-management/
 description: "Guide on managing SSL certificates, including generation, renewal, and application of certificates for Courier (POP3/IMAP) servers."
 categories: ["Linux", "Servers", "Security"]
 date: "2007-07-08T21:33:00+02:00"

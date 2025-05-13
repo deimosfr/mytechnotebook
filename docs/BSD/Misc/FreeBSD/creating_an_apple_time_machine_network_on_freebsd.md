@@ -1,5 +1,6 @@
 ---
 title: "Creating an Apple Time Machine Network on FreeBSD"
+slug: creating-an-apple-time-machine-network-on-freebsd/
 description: "How to set up a FreeBSD server as a Time Machine network backup destination for Mac OS X."
 categories: ["FreeBSD", "Backup", "Mac OS X"]
 date: "2009-01-28T02:29:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Understanding Time Management in Linux"
+slug: understanding-time-management-in-linux/
 description: "Documentation explaining how priorities work in relation to time allocation in Linux systems"
 categories: ["Linux", "System Administration"]
 date: "2009-02-03T19:13:00+01:00"

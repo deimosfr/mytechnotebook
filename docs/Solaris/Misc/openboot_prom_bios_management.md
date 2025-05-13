@@ -1,5 +1,6 @@
 ---
 title: "OpenBoot PROM, BIOS Management"
+slug: openboot-prom-bios-management/
 description: "Learn how to manage and configure the OpenBoot PROM on Sun systems, including diagnostic mode, boot commands, and NVRAM configurations."
 categories: ["Linux", "Servers"]
 date: "2006-11-29T09:51:00+02:00"

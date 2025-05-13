@@ -1,5 +1,6 @@
 ---
 title: "FUSE: Unable to Mount Disks Due to /dev/fuse"
+slug: fuse-unable-to-mount-disks-due-to-devfuse/
 description: "How to solve the FUSE disk mounting issue when /dev/fuse is missing."
 categories: ["Linux"]
 date: "2006-08-05T12:58:00+02:00" 

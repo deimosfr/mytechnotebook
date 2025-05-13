@@ -1,5 +1,6 @@
 ---
 title: "BusyBox: Creation and Usage of a BusyBox"
+slug: busybox-creation-and-usage-of-a-busybox/
 description: "Learn how to create and use BusyBox, a software that implements numerous standard Unix commands in a single executable file, making it ideal for embedded Linux systems."
 categories: ["Linux", "Embedded"]
 date: "2009-01-18T03:38:00+02:00"

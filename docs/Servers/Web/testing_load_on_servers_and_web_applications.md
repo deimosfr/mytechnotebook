@@ -1,5 +1,6 @@
 ---
 title: "Testing Load on Servers and Web Applications"
+slug: testing-load-on-servers-and-web-applications/
 description: "A guide to different tools for load testing web servers and applications, comparing curl-loader, httperf, Siege, and Tsung."
 categories: ["Linux", "Apache", "Development"]
 date: "2008-09-10T15:57:00+02:00"

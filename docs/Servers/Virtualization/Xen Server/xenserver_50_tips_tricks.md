@@ -1,5 +1,6 @@
 ---
 title: "XenServer 5.0: Tips & Tricks"
+slug: xenserver-50-tips-tricks/
 description: "A collection of tips and tricks for XenServer 5.0, including solutions for common issues with XenCenter and boot options."
 categories: 
   - Linux

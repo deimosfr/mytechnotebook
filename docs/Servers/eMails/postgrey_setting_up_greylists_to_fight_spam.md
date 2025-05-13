@@ -1,5 +1,6 @@
 ---
 title: "Postgrey: Setting Up Greylists to Fight Spam"
+slug: postgrey-setting-up-greylists-to-fight-spam/
 description: "This guide explains how to set up and configure Postgrey, a greylisting implementation for Postfix to effectively combat spam emails."
 categories: ["Linux", "Security", "Debian"]
 date: "2006-11-14T15:56:00+02:00"

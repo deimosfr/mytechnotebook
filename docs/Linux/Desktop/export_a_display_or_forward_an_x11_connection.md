@@ -1,5 +1,6 @@
 ---
 title: "Export a Display or Forward an X11 Connection"
+slug: export-a-display-or-forward-an-x11-connection/
 description: "Guide on how to export displays or forward X11 connections to display GUI applications from one user or machine to another."
 categories: ["Linux"]
 date: "2008-08-31T12:00:00+02:00"

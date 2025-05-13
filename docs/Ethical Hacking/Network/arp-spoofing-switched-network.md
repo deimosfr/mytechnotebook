@@ -1,5 +1,6 @@
 ---
 title: "ARP Spoofing in a Switched Network"
+slug: arp-spoofing-in-a-switched-network/
 description: "Information about ARP spoofing techniques in a switched network environment and how to implement these techniques."
 categories: ["Networking", "Security", "Ethical Hacking"]
 date: "2007-08-03T16:48:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Vlogger: Splitting Lighttpd logs with statistics generation"
+slug: vlogger-splitting-lighttpd-logs-with-statistics-generation/
 description: "Documentation on how to segment Lighttpd logs and create statistics using Webalizer"
 categories: ["Linux"]
 date: "2008-01-29T21:11:00+02:00"

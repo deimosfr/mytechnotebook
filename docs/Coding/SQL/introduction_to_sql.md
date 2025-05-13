@@ -1,5 +1,6 @@
 ---
 title: "Introduction to SQL"
+slug: introduction-to-sql/
 description: "A comprehensive introduction to SQL, covering basic commands like CREATE, INSERT, UPDATE, DELETE and SELECT, as well as advanced topics like sorting, filtering and wildcards."
 categories: ["Development"]
 date: "2010-04-10T22:10:00+02:00"

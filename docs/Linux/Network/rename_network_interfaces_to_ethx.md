@@ -1,5 +1,6 @@
 ---
 title: "Rename Network Interfaces to ethX"
+slug: rename-network-interfaces-to-ethx/
 description: "How to rename modern Linux network interfaces back to the classic ethX naming convention"
 categories: ["Debian", "Linux", "Network"]
 date: "2012-07-16T21:02:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Execute Commands at Logout"
+slug: execute-commands-at-logout/
 description: "How to execute commands when a user logs out from a system, such as disconnecting a VPN or performing cleanup tasks."
 categories: ["Linux"]
 date: "2009-12-11T21:21:00+02:00"

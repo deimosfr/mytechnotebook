@@ -1,5 +1,6 @@
 ---
 title: "Installing HA Zones with ZFS and Solaris Cluster"
+slug: installing-ha-zones-with-zfs-and-solaris-cluster/
 description: "Documentation resources for installing high availability containers with ZFS using Solaris Cluster"
 categories: ["Solaris"]
 date: "2009-11-30T21:11:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Rinetd: Simply and Quickly Forward to Other Machines"
+slug: rinetd-simply-and-quickly-forward-to-other-machines/
 description: "A guide on how to use Rinetd to set up TCP forwarding between machines without complex firewall rules."
 categories: ["Linux", "Network", "Debian"]
 date: "2008-09-25T12:07:00+02:00"

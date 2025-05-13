@@ -1,5 +1,6 @@
 ---
 title: "PAM (Pluggable Authentication Module): Choosing Authentication Methods"
+slug: pam-pluggable-authentication-module-choosing-authentication-methods/
 description: "A comprehensive guide to PAM (Pluggable Authentication Module) configuration on Linux systems, explaining how to customize authentication methods for various services."
 categories: ["Linux", "Security"]
 date: "2008-04-06T07:42:00+02:00"

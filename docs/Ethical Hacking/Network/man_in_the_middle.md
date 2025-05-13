@@ -1,5 +1,6 @@
 ---
 title: "Man in the Middle"
+slug: man-in-the-middle/
 description: "Documentation about Man in the Middle attack techniques"
 categories: ["Linux", "Network", "Security"]
 date: "2007-08-03T16:49:00+02:00"

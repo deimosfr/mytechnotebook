@@ -1,5 +1,6 @@
 ---
 title: "Monit: Easily Use Triggers on Your System"
+slug: monit-easily-use-triggers-on-your-system/
 description: "Learn how to install, configure, and use Monit for managing and monitoring processes, programs, files, directories, and filesystems on Unix systems with automatic maintenance and error handling."
 categories: ["Linux", "Monitoring", "System Administration"]
 date: "2014-05-28T09:11:00+02:00"

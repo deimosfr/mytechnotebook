@@ -1,5 +1,6 @@
 ---
 title: "Shell: Batch Renaming with Counter"
+slug: shell-batch-renaming-with-counter/
 description: "How to rename multiple files in batch with a counter using shell scripting."
 categories: ["Linux"]
 date: "2006-08-05T13:09:00+02:00"

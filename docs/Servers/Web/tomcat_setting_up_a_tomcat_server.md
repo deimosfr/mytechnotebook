@@ -1,5 +1,6 @@
 ---
 title: "Tomcat: Setting up a Tomcat server"
+slug: tomcat-setting-up-a-tomcat-server/
 description: "Learn how to install, configure, and manage Tomcat server including advanced features like load balancing, clustering, and monitoring options."
 categories: ["Servers", "Debian"]
 date: "2013-06-17T12:29:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Understanding Load Average"
+slug: understanding-load-average/
 description: "A comprehensive guide to understanding how Load Average works in Unix systems and how to properly interpret its values"
 categories: ["Linux", "System Administration", "Performance"]
 date: "2008-11-30T20:50:00+01:00"

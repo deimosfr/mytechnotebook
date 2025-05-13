@@ -1,5 +1,6 @@
 ---
 title: "Installation and Configuration of SUN Cluster"
+slug: installation-and-configuration-of-sun-cluster/
 description: "A comprehensive guide covering the installation and configuration of SUN Cluster, including requirements, network setup, maintenance and troubleshooting procedures."
 categories: ["Security", "Database", "Operating Systems"]
 date: "2011-11-03T00:24:00+02:00"

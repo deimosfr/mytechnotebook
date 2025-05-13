@@ -1,5 +1,6 @@
 ---
 title: "The find command or the power of search"
+slug: the-find-command-or-the-power-of-search/
 description: "A comprehensive guide on using the find command in Linux for powerful file searching capabilities"
 categories: ["Linux"]
 date: "2011-02-09T14:06:00+02:00"

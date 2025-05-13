@@ -1,5 +1,6 @@
 ---
 title: "BackupPC: A Complete Backup Tool"
+slug: backuppc-a-complete-backup-tool/
 description: "How to install, configure and use BackupPC to backup all your data including Windows hosts and SQL databases."
 categories: ["Backup", "Server", "Windows", "SQL"]
 date: "2012-07-09T07:24:00+02:00"

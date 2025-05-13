@@ -1,5 +1,6 @@
 ---
 title: "OpenSSH: Using Putty and an HTTP proxy to ssh anywhere through firewalls"
+slug: openssh-using-putty-and-an-http-proxy-to-ssh-anywhere-through-firewalls/
 description: "How to use Putty with an HTTP proxy to access SSH servers through restrictive firewalls"
 categories: ["Linux", "Network"]
 date: "2007-12-06T11:49:00+02:00"

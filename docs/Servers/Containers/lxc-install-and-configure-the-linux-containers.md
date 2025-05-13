@@ -1,5 +1,6 @@
 ---
 title: "LXC: Install and configure the Linux Containers"
+slug: lxc-install-and-configure-the-linux-containers/
 description: "A comprehensive guide on installing, configuring and using Linux Containers (LXC) on Debian systems."
 categories: ["Virtualization", "Linux", "Containers"]
 date: "2015-02-22T00:00:00+02:00"

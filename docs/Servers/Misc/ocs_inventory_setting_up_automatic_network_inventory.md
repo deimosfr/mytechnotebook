@@ -1,5 +1,6 @@
 ---
 title: "OCS Inventory: Setting up Automatic Network Inventory"
+slug: ocs-inventory-setting-up-automatic-network-inventory/
 description: "How to set up OCS Inventory for automatic network inventory management with client installation on Debian and Windows platforms"
 categories: ["Linux", "Debian", "Windows"]
 date: "2008-12-30T10:08:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Get Unix Format Time on Solaris"
+slug: get-unix-format-time-on-solaris/
 description: "A script to get the epoch time format on Solaris systems."
 categories:
   - "Linux"

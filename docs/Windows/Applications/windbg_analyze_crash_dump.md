@@ -1,5 +1,6 @@
 ---
 title: "WinDbg: Analyze Crash Dump"
+slug: windbg-analyze-crash-dump/
 description: "A guide on how to use WinDbg to analyze crash dumps on Windows systems"
 categories: ["Windows"]
 date: "2014-02-16T07:25:00+02:00"

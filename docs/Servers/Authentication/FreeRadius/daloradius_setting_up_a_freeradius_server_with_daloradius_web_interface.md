@@ -1,5 +1,6 @@
 ---
 title: "DaloRADIUS: Setting up a FreeRadius server with DaloRADIUS web interface"
+slug: daloradius-setting-up-a-freeradius-server-with-daloradius-web-interface/
 description: "Documentation for implementing FreeRadius with MySQL account management and DaloRADIUS web interface for Authentication, Authorization, and Accounting."
 categories: ["MySQL", "Linux", "Networking", "Security"]
 date: "2008-09-24T12:31:00+02:00"

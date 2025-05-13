@@ -1,5 +1,6 @@
 ---
 title: "Automating Installation of Many Packages"
+slug: automating-installation-of-many-packages/
 description: "Learn how to automate the installation of numerous packages on Solaris systems using response and admin files."
 categories: ["Solaris", "System Administration", "Automation"]
 date: "2012-02-15T18:07:00+02:00"

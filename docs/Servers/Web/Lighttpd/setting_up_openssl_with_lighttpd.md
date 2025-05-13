@@ -1,5 +1,6 @@
 ---
 title: "Setting up OpenSSL with Lighttpd"
+slug: setting-up-openssl-with-lighttpd/
 description: "This guide explains how to create and insert SSL certificates in Lighttpd for better website security."
 categories: ["Linux", "Servers"]
 date: "2009-04-15T07:09:00+02:00"

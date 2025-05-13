@@ -1,5 +1,6 @@
 ---
 title: "Fanout: Run the Same Command on Multiple Machines Simultaneously"
+slug: fanout-run-the-same-command-on-multiple-machines-simultaneously/
 description: "How to use Fanout to execute commands on multiple servers at the same time"
 categories: ["Linux", "System Administration", "Tools"]
 date: "2006-10-03T15:52:00+02:00"

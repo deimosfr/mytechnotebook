@@ -1,5 +1,6 @@
 ---
 title: "Solaris Package Management"
+slug: solaris-package-management/
 description: "A guide on how to manage packages in Solaris, including installation, verification, and removal of packages using various tools."
 categories: ["Unix", "Solaris"]
 date: "2012-02-15T18:06:00+02:00"

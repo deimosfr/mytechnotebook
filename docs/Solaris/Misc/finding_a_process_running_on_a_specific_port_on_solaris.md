@@ -1,5 +1,6 @@
 ---
 title: "Finding a Process Running on a Specific Port on Solaris"
+slug: finding-a-process-running-on-a-specific-port-on-solaris/
 description: "Methods to find which process is using a specific port on Solaris operating system."
 categories: 
   - Linux

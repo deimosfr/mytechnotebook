@@ -1,5 +1,6 @@
 ---
 title: "Sysstat: Essential Tools for Analyzing Performance Issues"
+slug: sysstat-essential-tools-for-analyzing-performance-issues/
 description: "Learn how to use Sysstat tools including iostat and sar to monitor and analyze system performance issues across Linux and Solaris systems."
 categories:
   - "Linux"

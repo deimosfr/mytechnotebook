@@ -1,5 +1,6 @@
 ---
 title: "Setting up Memcached on WordPress"
+slug: setting-up-memcached-on-wordpress/
 description: "How to set up Memcached on WordPress to improve website performance"
 categories:
   - "Debian"

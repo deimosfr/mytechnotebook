@@ -1,5 +1,6 @@
 ---
 title: "Pstree: List Processes as a Tree"
+slug: pstree-list-processes-as-a-tree/
 description: "Learn how to use the pstree command to visualize running processes in a tree format, showing parent-child relationships between processes."
 categories: ["Linux"]
 date: "2008-08-31T08:55:00+02:00"

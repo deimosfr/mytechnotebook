@@ -1,5 +1,6 @@
 ---
 title: "Setting up VNC server on Solaris"
+slug: setting-up-vnc-server-on-solaris/
 description: "This guide explains how to install and configure VNC Server on Solaris systems to enable remote desktop access."
 categories: ["Unix", "Solaris", "Network"]
 date: "2008-12-03T15:53:00+02:00"

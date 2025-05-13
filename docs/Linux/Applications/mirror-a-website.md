@@ -1,5 +1,6 @@
 ---
 title: "Mirroring a Website"
+slug: mirroring-a-website/
 description: "How to mirror an entire website locally using wget command line utility"
 categories: ["Web", "Command Line"]
 date: "2009-09-20T15:51:00+02:00"

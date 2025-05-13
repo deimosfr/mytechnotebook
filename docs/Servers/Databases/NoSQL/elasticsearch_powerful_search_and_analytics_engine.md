@@ -1,5 +1,6 @@
 ---
 title: "ElasticSearch: Powerful Search and Analytics Engine"
+slug: elasticsearch-powerful-search-and-analytics-engine/
 description: "A guide to set up and use ElasticSearch, a flexible and powerful open source distributed real-time search and analytics engine."
 categories: ["Programming", "Security", "Servers"]
 date: "2014-08-12T14:07:00+02:00"

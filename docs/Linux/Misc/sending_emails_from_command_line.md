@@ -1,5 +1,6 @@
 ---
 title: "Sending Emails from Command Line"
+slug: sending-emails-from-command-line/
 description: "Guide to sending emails via command line using mail and mutt on Unix/Linux systems, with examples of attaching files and multiple recipients."
 categories: ["Linux"]
 date: "2009-09-21T13:26:00+02:00"

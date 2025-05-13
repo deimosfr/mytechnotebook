@@ -1,5 +1,6 @@
 ---
 title: "Trunking: Creating Trunking (bonding) on OpenBSD"
+slug: trunking-creating-trunking-bonding-on-openbsd/
 description: "This guide explains how to configure network interface trunking (bonding) on OpenBSD systems to combine multiple physical interfaces into a single virtual interface."
 categories: ["Network", "Servers"]
 date: "2007-11-15T15:55:00+02:00"

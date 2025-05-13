@@ -1,5 +1,6 @@
 ---
 title: "Kerberos: Setting up a Kerberos Server"
+slug: kerberos-setting-up-a-kerberos-server/
 description: "A comprehensive guide on setting up Kerberos authentication server on Linux, configuring clients and system authentication using PAM."
 categories: ["Red Hat", "Debian", "Linux"]
 date: "2012-10-06T01:23:00+02:00"

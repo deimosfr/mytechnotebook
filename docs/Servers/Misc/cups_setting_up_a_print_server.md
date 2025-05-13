@@ -1,5 +1,6 @@
 ---
 title: "CUPS: Setting Up a Print Server"
+slug: cups-setting-up-a-print-server/
 description: "Guide on how to set up a CUPS print server on Linux systems, including installation, configuration, and administration."
 categories: ["Linux"]
 date: "2010-04-01T12:58:00+02:00"

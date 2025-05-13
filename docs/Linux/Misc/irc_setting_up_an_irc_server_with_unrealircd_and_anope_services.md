@@ -1,5 +1,6 @@
 ---
 title: "IRC: Setting up an IRC server with UnrealIRCD and Anope Services"
+slug: irc-setting-up-an-irc-server-with-unrealircd-and-anope-services/
 description: "Documentation and resources for setting up an IRC server using UnrealIRCD and Anope Services"
 categories: ["Linux"]
 date: "2009-02-18T18:14:00+02:00"

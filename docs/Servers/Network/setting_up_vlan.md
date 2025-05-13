@@ -1,5 +1,6 @@
 ---
 title: "Setting up VLAN"
+slug: setting-up-vlan/
 description: "Guide on how to set up and configure VLAN networks on Linux systems, including OpenVZ and KVM virtualization environments."
 categories: ["Linux", "Network"]
 date: "2012-05-07T20:29:00+02:00"

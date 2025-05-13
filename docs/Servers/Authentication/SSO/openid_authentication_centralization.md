@@ -1,5 +1,6 @@
 ---
 title: "OpenID: Authentication Centralization"
+slug: openid-authentication-centralization/
 description: "Learn how to centralize authentication with OpenID, a decentralized single sign-on solution that allows users to access multiple websites with a single identity."
 categories:
   - Linux

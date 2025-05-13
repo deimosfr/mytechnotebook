@@ -1,5 +1,6 @@
 ---
 title: "Ganeti: Xen Cluster Management"
+slug: ganeti-xen-cluster-management/
 description: "Ganeti is a virtual server management tool built on top of Xen virtual machine monitor for easy cluster management of virtual servers."
 categories: ["Linux", "Virtualization", "Clusters"]
 date: "2009-11-27T21:15:00+02:00"

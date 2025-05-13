@@ -1,5 +1,6 @@
 ---
 title: "Monitoring Windows with Munin"
+slug: monitoring-windows-with-munin/
 description: "How to set up monitoring for Windows systems using Munin through SNMP"
 categories: ["Debian", "Linux", "Windows", "Monitoring"]
 date: "2007-06-27T07:41:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "SquirrelMail: Setting up a Simple yet Advanced Webmail"
+slug: squirrelmail-setting-up-a-simple-yet-advanced-webmail/
 description: "Guide for installing and configuring SquirrelMail webmail solution"
 categories: ["Linux"]
 date: "2008-04-06T20:00:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Freeze a Machine by CPU Overload"
+slug: freeze-a-machine-by-cpu-overload/
 description: "How to freeze a machine by causing CPU overload, useful for testing system stability and resource limits."
 categories: ["Linux", "System Administration", "Security"]
 date: "2009-09-20T15:41:00+02:00"

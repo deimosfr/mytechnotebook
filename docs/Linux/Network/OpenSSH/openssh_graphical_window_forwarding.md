@@ -1,5 +1,6 @@
 ---
 title: "OpenSSH: Graphical Window Forwarding"
+slug: openssh-graphical-window-forwarding/
 description: "How to export X windows using OpenSSH tunneling for accessing graphical applications on remote machines securely"
 categories: ["Linux", "Network"]
 date: "2009-01-12T09:37:00+02:00"

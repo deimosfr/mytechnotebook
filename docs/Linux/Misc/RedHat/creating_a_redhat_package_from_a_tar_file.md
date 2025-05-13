@@ -1,5 +1,6 @@
 ---
 title: "Creating a RedHat Package from a Tar File"
+slug: creating-a-redhat-package-from-a-tar-file/
 description: "How to easily create an RPM package from a tar file in RedHat environments in just 5 minutes."
 categories: ["Linux", "Red Hat"]
 date: "2012-08-02T11:51:00+02:00"

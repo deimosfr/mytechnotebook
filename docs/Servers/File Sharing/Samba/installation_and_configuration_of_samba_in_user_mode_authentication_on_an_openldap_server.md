@@ -1,5 +1,6 @@
 ---
 title: "Installation and Configuration of Samba in User Mode (Authentication on an OpenLDAP Server)"
+slug: installation-and-configuration-of-samba-in-user-mode-authentication-on-an-openldap-server/
 description: "This guide explains how to install and configure Samba in user mode with authentication on an OpenLDAP server for secure file sharing between Linux and Windows environments."
 categories: ["Linux", "Security"]
 date: "2008-12-02T07:31:00+02:00"

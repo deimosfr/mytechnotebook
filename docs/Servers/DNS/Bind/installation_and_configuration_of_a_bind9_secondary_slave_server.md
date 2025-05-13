@@ -1,5 +1,6 @@
 ---
 title: "Installation and Configuration of a Bind9 Secondary (Slave) Server"
+slug: installation-and-configuration-of-a-bind9-secondary-slave-server/
 description: "Guide for setting up a secondary Bind9 DNS server including installation, configuration, and troubleshooting tips."
 categories: ["Linux", "Security"]
 date: "2009-10-04T19:25:00+02:00"

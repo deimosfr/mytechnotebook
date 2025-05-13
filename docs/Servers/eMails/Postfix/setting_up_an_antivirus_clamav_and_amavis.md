@@ -1,5 +1,6 @@
 ---
 title: "Setting up an Antivirus (ClamAV and Amavis)"
+slug: setting-up-an-antivirus-clamav-and-amavis/
 description: "This guide explains how to set up ClamAV antivirus with Amavis to integrate with Postfix for email scanning."
 categories: ["Linux", "Database"]
 date: "2008-09-24T11:46:00+02:00"

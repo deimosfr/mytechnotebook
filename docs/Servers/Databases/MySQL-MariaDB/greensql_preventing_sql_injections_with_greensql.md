@@ -1,5 +1,6 @@
 ---
 title: "GreenSQL: Preventing SQL Injections with GreenSQL"
+slug: greensql-preventing-sql-injections-with-greensql/
 description: "A guide on how to use GreenSQL to prevent SQL injection attacks in your database systems."
 categories: ["Linux", "MySQL"]
 date: "2009-01-28T03:04:00+02:00"

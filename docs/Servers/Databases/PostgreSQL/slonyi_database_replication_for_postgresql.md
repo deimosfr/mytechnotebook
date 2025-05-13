@@ -1,5 +1,6 @@
 ---
 title: "Slony-I: Database Replication for PostgreSQL"
+slug: slony-i-database-replication-for-postgresql/
 description: "Guide on how to configure and manage database replication in PostgreSQL using Slony-I, including installation, configuration and high availability setup."
 categories: ["PostgreSQL", "Database", "Linux"]
 date: "2007-08-30T13:47:00+02:00"

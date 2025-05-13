@@ -1,5 +1,6 @@
 ---
 title: "Installing Mac OS X and Ubuntu in Dual Boot"
+slug: installing-mac-os-x-and-ubuntu-in-dual-boot/
 description: "A guide on how to install Mac OS X and Ubuntu in dual boot configuration on the same hard drive."
 categories: ["Linux", "Ubuntu", "Mac"]
 date: "2008-10-05T09:07:00+02:00"

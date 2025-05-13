@@ -1,5 +1,6 @@
 ---
 title: "Recompile a Software the Debian Way"
+slug: recompile-a-software-the-debian-way/
 description: "Tutorial on how to recompile Debian packages while keeping the Debian package system benefits."
 categories: ["Debian", "Linux"]
 date: "2010-03-28T20:27:00+02:00"

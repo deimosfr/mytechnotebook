@@ -1,5 +1,6 @@
 ---
 title: "Stunnel: Creating an SSL Tunnel"
+slug: stunnel-creating-an-ssl-tunnel/
 description: "A guide on how to set up and configure Stunnel to create secure SSL tunnels for services that don't natively support encryption."
 categories: ["Linux", "Debian", "Network", "Servers", "Security"]
 date: "2007-06-26T08:09:00+02:00"

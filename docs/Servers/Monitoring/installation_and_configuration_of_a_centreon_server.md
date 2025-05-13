@@ -1,5 +1,6 @@
 ---
 title: "Installation and Configuration of a Centreon Server"
+slug: installation-and-configuration-of-a-centreon-server/
 description: "Learn how to install and configure a Centreon server on Debian Linux with step-by-step instructions including LAMP, Nagios, NDOutils setup and troubleshooting."
 categories: ["Database", "MySQL", "Linux", "Monitoring"]
 date: "2009-08-23T07:37:00+02:00"

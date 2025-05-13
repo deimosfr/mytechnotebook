@@ -1,12 +1,12 @@
 ---
 
 title: "Installing FreeBSD on ZFS"
+slug: installing-freebsd-on-zfs/
 description: "A comprehensive guide on how to install FreeBSD with ZFS as the root filesystem, including disk formatting, partitioning, and system configuration."
 categories: ["FreeBSD", "Linux"]
 date: "2010-09-21T21:23:00+02:00"
 lastmod: "2010-09-21T21:23:00+02:00"
 tags: ["ZFS", "FreeBSD", "Storage", "Filesystem", "RAID"]
-
 ---
 
 ## Introduction

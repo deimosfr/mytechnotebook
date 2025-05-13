@@ -1,5 +1,6 @@
 ---
 title: "Hide an Open Application from the Dock and Switcher"
+slug: hide-an-open-application-from-the-dock-and-switcher/
 description: "Learn how to hide Mac applications from the Dock and App Switcher while keeping them running in the background."
 categories: ["Mac OS X", "Customization"]
 date: "2008-04-08T07:16:00+02:00"

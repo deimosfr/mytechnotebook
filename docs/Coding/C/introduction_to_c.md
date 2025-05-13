@@ -1,5 +1,6 @@
 ---
 title: "Introduction to C"
+slug: introduction-to-c/
 description: "A comprehensive introduction to the C programming language, covering basics, syntax, functions, data types, memory management, and more."
 categories: ["Programming", "Linux"]
 date: "2011-01-18T12:50:00+02:00"

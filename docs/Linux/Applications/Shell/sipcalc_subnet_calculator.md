@@ -1,5 +1,6 @@
 ---
 title: "Sipcalc: Subnet Calculator"
+slug: sipcalc-subnet-calculator/
 description: "A guide on using Sipcalc, a simple subnet calculator for Linux."
 categories: ["Linux", "Network"]
 date: "2006-10-03T13:29:00+02:00"

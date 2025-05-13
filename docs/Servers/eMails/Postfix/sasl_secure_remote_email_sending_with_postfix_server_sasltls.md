@@ -1,5 +1,6 @@
 ---
 title: "SASL: Secure Remote Email Sending with Postfix Server (SASL+TLS)"
+slug: sasl-secure-remote-email-sending-with-postfix-server-sasltls/
 description: "How to configure SASL and TLS with Postfix for secure remote email sending"
 categories: ["Linux", "Servers", "Network"]
 date: "2012-06-06T08:27:00+02:00"

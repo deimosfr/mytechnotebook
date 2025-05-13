@@ -1,5 +1,6 @@
 ---
 title: "Basic Configuration of a Cisco PIX"
+slug: basic-configuration-of-a-cisco-pix/
 description: "Learn the basics of Cisco PIX firewall configuration including VPN setup, user administration, and network access rules"
 categories: ["Network", "Security", "Cisco"]
 date: "2006-11-08T10:33:00+01:00"

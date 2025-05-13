@@ -1,5 +1,6 @@
 ---
 title: "GRUB: Using a Bootloader"
+slug: grub-using-a-bootloader/
 description: "A comprehensive guide on using GRUB bootloader for Linux and other operating systems, including recovery methods, configuring rescue kernels, and customizing the boot splash screen."
 categories: ["Linux", "FreeBSD"]
 date: "2012-04-25T12:08:00+02:00"

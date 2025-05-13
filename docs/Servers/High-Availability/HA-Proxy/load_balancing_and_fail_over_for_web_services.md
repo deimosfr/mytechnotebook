@@ -1,5 +1,6 @@
 ---
 title: "Load Balancing and Fail Over for Web Services"
+slug: load-balancing-and-fail-over-for-web-services/
 description: "Documentation on load balancing and failover solutions for web services, including guides and resources."
 categories: ["Debian", "Linux", "Network"]
 date: "2009-02-18T18:16:00+02:00"

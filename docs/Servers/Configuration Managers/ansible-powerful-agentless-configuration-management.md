@@ -1,5 +1,6 @@
 ---
 title: "Ansible: A Powerful Agentless Configuration Management and Orchestrator Solution"
+slug: ansible-a-powerful-agentless-configuration-management-and-orchestrator-solution/
 description: "Learn how to use Ansible, an agentless IT automation tool for configuration management, application deployment, and task orchestration"
 categories: ["Linux", "Server", "Automation", "DevOps"]
 date: "2015-02-26T07:09:00+01:00"

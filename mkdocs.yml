@@ -2,6 +2,8 @@ site_name: My Tech Notebook
 site_url: https://wiki.deimos.fr
 repo_url: https://github.com/deimosfr/mytechnotebook
 edit_uri: edit/main/docs/
+hooks:
+  - overrides/.hooks/meta_slugs.py
 theme:
   icon:
     repo: fontawesome/brands/git-alt

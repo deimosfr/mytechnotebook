@@ -1,5 +1,6 @@
 ---
 title: "Netcat: File Transfer"
+slug: netcat-file-transfer/
 description: "A guide on how to use Netcat for file transfers between systems, including HTTP sharing options."
 categories:
   - "Linux"

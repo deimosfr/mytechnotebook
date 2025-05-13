@@ -1,5 +1,6 @@
 ---
 title: "Fluentd: Quickly Search in Your Logs with Elasticsearch, Kibana and Fluentd"
+slug: fluentd-quickly-search-in-your-logs-with-elasticsearch-kibana-and-fluentd/
 description: "How to set up a log management and search solution using Fluentd, Elasticsearch, and Kibana for efficient log collection, processing, and visualization"
 categories: ["Servers", "Monitoring", "Linux"]
 date: "2014-05-10T08:20:00+02:00"

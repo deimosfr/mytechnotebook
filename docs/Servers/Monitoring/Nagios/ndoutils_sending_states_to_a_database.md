@@ -1,5 +1,6 @@
 ---
 title: "NDOUtils: Sending States to a Database"
+slug: ndoutils-sending-states-to-a-database/
 description: "Guide on configuring NDOUtils to send Nagios monitoring states to a MySQL or PostgreSQL database"
 categories: ["Database", "MySQL", "PostgreSQL", "Monitoring"]
 date: "2010-07-07T08:58:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Uncompress for Different Formats"
+slug: uncompress-for-different-formats/
 description: "A guide to uncompress different types of archive formats in Linux including RPM, DEB, ZIP, CAB, and more."
 categories: ["Linux"]
 date: "2006-10-10T16:27:00+02:00"

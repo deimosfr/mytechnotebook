@@ -1,5 +1,6 @@
 ---
 title: "Awesome: A Lightweight and Powerful Desktop"
+slug: awesome-a-lightweight-and-powerful-desktop/
 description: "Learn how to install and configure Awesome, a lightweight and powerful tiling window manager for Linux."
 categories: ["Linux", "Desktop", "Window Manager"]
 date: "2013-03-28T08:21:00+02:00"

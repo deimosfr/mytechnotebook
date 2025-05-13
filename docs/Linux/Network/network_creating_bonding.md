@@ -1,5 +1,6 @@
 ---
 title: "Network: Creating Bonding"
+slug: network-creating-bonding/
 description: "Learn how to configure network bonding in Linux for load balancing and fault tolerance with different operation modes and configuration methods."
 categories: ["RHEL", "Red Hat", "Debian", "Linux", "Network"]
 date: "2012-04-18T18:44:00+02:00"

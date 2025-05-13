@@ -1,5 +1,6 @@
 ---
 title: "How to Determine Your System Architecture"
+slug: how-to-determine-your-system-architecture/
 description: "A simple command to check your system's architecture and CPU capabilities"
 categories: ["Solaris", "System Administration"]
 date: "2007-08-08T12:30:00+02:00"

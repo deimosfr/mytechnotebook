@@ -1,5 +1,6 @@
 ---
 title: "Solutions for Encrypted LVM System"
+slug: solutions-for-encrypted-lvm-system/
 description: "Documentation and resources for managing encrypted LVM systems, including root partition encryption, migration, and resizing of encrypted LVM volumes."
 categories: ["Linux"]
 date: "2008-05-25T09:37:00+02:00"

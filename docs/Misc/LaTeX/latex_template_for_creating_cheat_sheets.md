@@ -1,5 +1,6 @@
 ---
 title: "LaTeX Template for Creating Cheat Sheets"
+slug: latex-template-for-creating-cheat-sheets/
 description: "A guide for creating cheat sheets in LaTeX with a reusable template and formatting tips."
 categories: ["Linux"]
 date: "2012-02-14T13:08:00+02:00"

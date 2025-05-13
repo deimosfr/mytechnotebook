@@ -1,5 +1,6 @@
 ---
 title: "TFTP: PXE Server, OS Deployment under Linux"
+slug: tftp-pxe-server-os-deployment-under-linux/
 description: "Guide to set up a PXE server for OS deployment using TFTP under Linux"
 categories: ["Debian", "Linux", "Ubuntu"]
 date: "2010-05-20T05:14:00+02:00"

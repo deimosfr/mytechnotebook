@@ -1,5 +1,6 @@
 ---
 title: "MySecureShell: Setting up a Secure File Transfer Solution"
+slug: mysecureshell-setting-up-a-secure-file-transfer-solution/
 description: "How to set up MySecureShell for secure file transfers using OpenSSH with ACLs similar to a classic FTP server."
 categories: ["Linux", "Security"]
 date: "2007-10-02T20:23:00+02:00"

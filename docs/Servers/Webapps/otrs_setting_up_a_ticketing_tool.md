@@ -1,5 +1,6 @@
 ---
 title: "OTRS: Setting up a ticketing tool"
+slug: otrs-setting-up-a-ticketing-tool/
 description: "Guide for installing and configuring OTRS ticketing system on Debian 6 with PostgreSQL and LDAP integration"
 categories: ["Debian", "Storage", "Database"]
 date: "2012-10-31T15:12:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Create a PKI"
+slug: create-a-pki/
 description: "Guide on setting up a Public Key Infrastructure (PKI) for creating, managing, and distributing digital certificates using OpenSSL."
 categories: ["Linux", "Database", "Debian"]
 date: "2015-02-26T06:57:00+02:00"

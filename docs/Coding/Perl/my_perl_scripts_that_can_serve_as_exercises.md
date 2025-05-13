@@ -1,5 +1,6 @@
 ---
 title: "My Perl Scripts That Can Serve as Exercises"
+slug: my-perl-scripts-that-can-serve-as-exercises/
 description: "A collection of Perl scripts for practical training, including scripts for monitoring Java applications, managing SFTP accounts, watching log files, and more."
 categories: ["Linux", "Development", "Database"]
 date: "2012-06-06T13:08:00+02:00"

@@ -1,5 +1,6 @@
 ---
 title: "Ifrename: Renaming Network Cards Without Using Udev"
+slug: ifrename-renaming-network-cards-without-using-udev/
 description: "How to use Ifrename to rename network interfaces based on MAC addresses without using udev"
 categories:
   - Linux

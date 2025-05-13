@@ -1,5 +1,6 @@
 ---
 title: "Running a Command When Receiving an Email"
+slug: running-a-command-when-receiving-an-email/
 description: "How to execute commands or scripts automatically when receiving emails on a Linux system."
 categories:
   - Linux

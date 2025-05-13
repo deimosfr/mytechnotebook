@@ -1,5 +1,6 @@
 ---
 title: "NTOP: Installation and Configuration of NTOP (Network TOP)"
+slug: ntop-installation-and-configuration-of-ntop-network-top/
 description: "A guide for installing and configuring NTOP, a tool for collecting network information with simple configurations and web interface for viewing network statistics."
 categories: ["Linux", "CentOS", "Network"]
 date: "2009-02-05T06:07:00+02:00"

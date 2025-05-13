@@ -1,5 +1,6 @@
 ---
 title: "Rancid Search: Setting Up a Search Tool for Rancid"
+slug: rancid-search-setting-up-a-search-tool-for-rancid/
 description: "How to implement a search tool for Rancid to easily search through network device configurations."
 categories: ["Linux", "Network"]
 date: "2011-03-02T06:16:00+02:00"

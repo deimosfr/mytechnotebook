@@ -1,5 +1,6 @@
 ---
 title: "Launch Firewall Rules Before Interfaces Come Up"
+slug: launch-firewall-rules-before-interfaces-come-up/
 description: "This guide explains how to configure your firewall rules to load before network interfaces come up, ensuring your system is always protected by a firewall."
 categories: ["Networking", "Linux", "Debian"]
 date: "2008-09-24T11:42:00+02:00"

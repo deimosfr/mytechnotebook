@@ -1,5 +1,6 @@
 ---
 title: "Setting up Xen"
+slug: setting-up-xen/
 description: "A comprehensive guide for setting up and configuring Xen virtualization on Linux systems, covering installation, network configuration, virtual machine creation and troubleshooting."
 categories:
   - "Linux"

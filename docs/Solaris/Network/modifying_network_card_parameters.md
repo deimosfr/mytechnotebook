@@ -1,5 +1,6 @@
 ---
 title: "Modifying Network Card Parameters"
+slug: modifying-network-card-parameters/
 description: "A guide to modifying network card parameters in Solaris using the dladm utility, including how to view and modify link properties."
 categories: ["Solaris", "Network"]
 date: "2009-11-28T16:20:00+02:00"

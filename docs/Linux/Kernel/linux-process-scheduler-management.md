@@ -1,5 +1,6 @@
 ---
 title: "Linux Process and Scheduler Management"
+slug: linux-process-and-scheduler-management/
 description: "A detailed guide to Linux process management and scheduler functionality, including process states, processor caches, compilation optimizations, and scheduling policies."
 categories: ["Linux", "System Administration", "Performance"]
 date: "2012-09-04T13:12:00+02:00"

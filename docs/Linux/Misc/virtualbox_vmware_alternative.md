@@ -1,5 +1,6 @@
 ---
 title: "VirtualBox: VMware Alternative"
+slug: virtualbox-vmware-alternative/
 description: "A guide on installing and configuring VirtualBox as an alternative to VMware on Linux systems"
 categories: ["Linux", "Debian", "Ubuntu"]
 date: "2009-01-28T03:17:00+02:00"

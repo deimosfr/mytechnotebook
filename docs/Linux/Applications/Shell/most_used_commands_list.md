@@ -1,5 +1,6 @@
 ---
 title: "Most Used Commands List"
+slug: most-used-commands-list/
 description: "A comprehensive list of the most commonly used Linux commands and useful command-line tips."
 categories: ["Linux"]
 date: "2009-09-19T21:56:00+02:00"

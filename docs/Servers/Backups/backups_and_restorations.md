@@ -1,5 +1,6 @@
 ---
 title: "Backups and Restorations with tapes"
+slug: backups-and-restorations-with-tapes/
 description: "A comprehensive guide to backup and restoration techniques, covering tape backups, incremental backups, and UFS snapshots"
 categories: ["Linux", "Backup", "Database"]
 date: "2008-04-05T17:33:00+02:00"
