@@ -9,4 +9,4 @@ hide:
 
 # :{{ icon|replace("/", "-") }}: {{ title }}
 
-{{ sub_index("Misc/HomeAssistant") }}
+{{ sub_index("Misc/Home Assistant") }}

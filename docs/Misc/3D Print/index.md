@@ -1,5 +1,5 @@
 ---
-title: 3DPrint
+title: 3D Print
 icon: material/printer-3d
 search:
   exclude: true
@@ -9,4 +9,4 @@ hide:
 
 # :{{ icon|replace("/", "-") }}: {{ title }}
 
-{{ sub_index("Misc/3DPrint") }}
+{{ sub_index("Misc/3D Print") }}
