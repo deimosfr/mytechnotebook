@@ -53,6 +53,7 @@ plugins:
       enable_creation_date: true
       exclude:
         - index.md
+        - "**/index.md"
       type: date
       # Enhanced date processing options
       include_relative_dates: true
