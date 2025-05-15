@@ -49,6 +49,16 @@ extra_css:
   - stylesheets/extra.css
 plugins:
   - tags
+  - git-revision-date-localized:
+      enable_creation_date: true
+      exclude:
+        - index.md
+      type: date
+      # Enhanced date processing options
+      include_relative_dates: true
+      date_format_in_metadata: true
+      creation_date_field_name: date
+      update_date_field_name: lastmod
   - search
   - offline
   # icons in nav menu

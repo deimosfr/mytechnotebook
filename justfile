@@ -12,5 +12,5 @@ run-prod:
 # Initialize the project
 init:
     python3 -m venv venv 
-    source venv/bin/activate.fish
+    source venv/bin/activate
     pip install -r requirements.txt

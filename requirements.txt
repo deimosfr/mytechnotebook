@@ -2,3 +2,5 @@ mkdocs-material
 mkdocs-macros-plugin
 mkdocs-section-index
 mkdocs-minify-plugin
+mkdocs-git-revision-date-localized-plugin @ git+https://github.com/deimosfr/mkdocs-git-revision-date-localized-plugin@de00d96
+python-dateutil
