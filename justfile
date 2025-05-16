@@ -4,10 +4,10 @@ default:
 
 # This is a Justfile
 run:
-  mkdocs serve --dirty
+  mkdocs serve --dirty || echo "Failed to run mkdocs serve, did you run `source venv/bin/activate`?"
 
 run-prod:
-  mkdocs serve --strict
+  mkdocs serve --strict || echo "Failed to run mkdocs serve, did you run `source venv/bin/activate`?"
 
 # Initialize the project
 init:

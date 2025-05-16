@@ -23,3 +23,12 @@
 .md-typeset .admonition {
     font-size: 0.8rem;
 }
+
+/* Invert images only in dark mode */
+.image-invert-dark {
+    filter: none;
+}
+
+[data-md-color-scheme="slate"] .image-invert-dark {
+    filter: invert(1);
+}

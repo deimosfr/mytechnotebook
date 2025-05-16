@@ -1,6 +1,6 @@
 ---
 title: Linux
-icon: material/arch
+icon: simple/debian
 search:
   exclude: true
 hide:

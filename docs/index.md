@@ -22,7 +22,7 @@ search:
 <div class="center-table">
 <table cellspacing="0" cellpadding="5" border="0" style="border-collapse: collapse;">
 <tbody><tr>
-<td style="border: none;"><img alt="debian-logo.avif" width="114" height="141" src="/static/images/debian.avif">
+<td style="border: none;"><img alt="rust-logo.svg" width="150" height="150" src="/static/images/rust_logo.svg" class="image-invert-dark">
 </td>
 <td style="border: none;">
 <div align="center">
@@ -31,7 +31,7 @@ search:
 <h2 style="font-size: 1.4em; margin: 10px 0; font-weight: bold;">Because human memory can not contain Gb</h2>
 </div>
 </td>
-<td style="border: none;"><img alt="bsd-logo.avif" width="150" height="146" src="/static/images/kubernetes_logo.avif">
+<td style="border: none;"><img alt="k8s-logo" width="150" height="150" src="/static/images/kubernetes_logo.svg">
 </td></tr></tbody></table>
 </div>
 

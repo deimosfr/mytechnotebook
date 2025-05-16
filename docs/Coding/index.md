@@ -1,6 +1,6 @@
 ---
 title: Coding
-icon: simple/rust
+icon: octicons/code-16
 search:
   exclude: true
 hide:
