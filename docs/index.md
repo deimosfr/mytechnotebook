@@ -28,7 +28,7 @@ search:
 <div align="center">
 <h2 style="font-size: 1.8em; margin: 10px 0; font-weight: bold;">My Tech Notebook</h2>
 <hr />
-<h2 style="font-size: 1.4em; margin: 10px 0; font-weight: bold;">Because human memory can not contain Gb</h2>
+<h2 style="font-size: 1.4em; margin: 10px 0; font-weight: bold;">Because human memory can't contain Gb</h2>
 </div>
 </td>
 <td style="border: none;"><img alt="k8s-logo" width="150" height="150" src="/static/images/kubernetes_logo.svg">
