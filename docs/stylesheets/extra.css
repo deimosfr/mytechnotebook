@@ -12,6 +12,10 @@
     display: none;
 }
 
+.md-nav__source {
+    display: none;
+}
+
 /* Center tables with the center class */
 .center-table {
     margin-left: auto !important;
