@@ -8,13 +8,11 @@ lastmod: "2015-02-22T00:00:00+02:00"
 tags: ["LXC", "Linux", "Containers", "Virtualization", "Debian"]
 ---
 
-
-|||
-|-|-|
-| **Software version** | 0.8 |
-| **Operating System** | Debian 7 |
-| **Website** | [LXC Website](https://lxc.sourceforge.net/) |
-
+|                      |                                             |
+| -------------------- | ------------------------------------------- |
+| **Software version** | 0.8                                         |
+| **Operating System** | Debian 7                                    |
+| **Website**          | [LXC Website](https://lxc.sourceforge.net/) |
 
 ## Introduction
 
@@ -125,7 +123,7 @@ As we want to manage memory and swap on containers, as it's not available by def
 - cgroup RAM feature: "cgroup_enable=memory"
 - cgroup SWAP feature: "swapaccount=1"
 
-``` bash hl_lines="10"
+```bash hl_lines="10"
 # /etc/default/grub
 # If you change this file, run 'update-grub' afterwards to update
 # /boot/grub/grub.cfg.
@@ -271,7 +269,7 @@ default              active     yes
 
 Edit the configuration to add your range of IP:
 
-``` xml hl_lines="5 7"
+```xml hl_lines="5 7"
 <network>
   <name>default</name>
   <bridge name="virbr0" />
@@ -472,7 +470,7 @@ iface eth0 inet dhcp
 
 You can also configure manual static IP if you want by changing 'lxc.network.ipv4'. Another elegant method is to ask DHCP to fix it:
 
-``` xml hl_lines="8"
+```xml hl_lines="8"
 <network>
   <name>default</name>
   <bridge name="virbr0" />
@@ -489,11 +487,10 @@ You can also configure manual static IP if you want by changing 'lxc.network.ipv
 !!! warning
 
     Do not forget to fix lxc.network.hwaddr parameter. Here is a way to generate mac address:
-    
+
     ```bash
     openssl rand -hex 6 | sed 's/\\(..\\\)/\\1:/g; s/.$//'
     ```
-    
 
 #### Private container interface
 
@@ -627,7 +624,7 @@ And enable VLAN tagging on bridged interfaces:
 ebtables -t broute -A BROUTING -i eth0 -p 802_1Q -j DROP
 ```
 
-``` bash hl_lines="10-16 35-42"
+```bash hl_lines="10-16 35-42"
 # /etc/network/interfaces
 # This file describes the network interfaces available on your system
 # and how to activate them. For more information, see interfaces(5).
@@ -1688,8 +1685,8 @@ If you've got error when trying to limit swap, check the [FAQ](#cannot-limit-con
 
 By default, LXC doesn't provide any disks limitation. Anyway, there are enough solution today to make that kind of limitations:
 
-- [LVM](../../Linux/Filesystems And Storage/lvm_working_with_logical_volume_management.md): create one LV per container
-- [BTRFS](../../Linux/Filesystems And Storage/btrfs-using-the-ext4-replacement.md): using integrated BTRFS quotas
+- [LVM](../../Linux/Filesystems%20And%20Storage/LVM/lvm_working_with_logical_volume_management.md): create one LV per container
+- [BTRFS](../../Linux/Filesystems%20And%20Storage/btrfs-using-the-ext4-replacement.md): using integrated BTRFS quotas
 - [ZFS](../../Solaris/Filesystems/zfs_the_filesystem_par_excellence.md): if you're using ZFS on Linux, you can use integrated zfs/zpool quotas
 - [Quotas](../../Linux/Filesystems And Storage/setting_up_quotas_on_linux.md): using classical Linux quotas (not the recommended solution)
 - Disk image: you can use QCOW/QCOW2/RAW/QED images
@@ -1903,7 +1900,7 @@ lxc-cgroup: failed to assign '128M' value to 'memory.limit_in_bytes' for 'mycont
 
 This is because cgroup memory capability is not loaded from your kernel. You can check it like that :
 
-``` bash hl_lines="6"
+```bash hl_lines="6"
 > cat /proc/cgroups
 #subsys_name	hierarchy	num_cgroups	enabled
 cpuset	1	4	1
@@ -1924,7 +1921,7 @@ As we want to manage memory and swap on containers, as it's not available by def
 
 With grub (`/etc/default/grub`):
 
-``` ini hl_lines="9"
+```ini hl_lines="9"
 # If you change this file, run 'update-grub' afterwards to update
 # /boot/grub/grub.cfg.
 # For full documentation of the options in this file, see:
@@ -1948,7 +1945,7 @@ update-grub
 
 After reboot you can check that memory is activated:
 
-``` bash hl_lines="6"
+```bash hl_lines="6"
 > cat /proc/cgroups
 #subsys_name	hierarchy	num_cgroups	enabled
 cpuset	1	6	1

@@ -93,7 +93,7 @@ You can configure a single instance of MariaDB with the following configuration:
       storage:
         size: 2Gi
         # Prefer a local path storage class for better performance
-        storageClassName: local-path
+        storageClassName: openebs-lvm
         resizeInUseVolumes: true
         waitForVolumeResize: true
       myCnf: |
@@ -117,6 +117,8 @@ You can configure a single instance of MariaDB with the following configuration:
       metrics:
         enabled: false
     ```
+
+Regarding the StorageClass, I'm using [OpenEBS LVM](../../Containers/Kubernetes/use_local_storage_with_openebs.md) for the best performance. It's not mandatory and you can use any other storage class. However, for maximum performances, you should use local storage.
 
 === "mariadb-secret.yaml"
 

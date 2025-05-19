@@ -27,15 +27,13 @@ Since LVM is not very simple to use, and since I don't handle it every day eithe
 
 Here are the main files and folders used by LVM:
 
-
-| File/Folder | Description |
-|-------------|-------------|
-| `/etc/lvm/lvm.conf` | LVM configuration file |
-| `/etc/lvm/cache.cache` | Device name cache file |
-| `/etc/lvm/backup` | Folder containing automatic backups of VG metadata |
-| `/etc/lvm/archive` | Folder containing automatic archives of VG metadata |
-| `/var/lock/lvm` | Lock file to prevent simultaneous execution of multiple LVM tools, avoiding metadata corruption |
-
+| File/Folder            | Description                                                                                     |
+| ---------------------- | ----------------------------------------------------------------------------------------------- |
+| `/etc/lvm/lvm.conf`    | LVM configuration file                                                                          |
+| `/etc/lvm/cache.cache` | Device name cache file                                                                          |
+| `/etc/lvm/backup`      | Folder containing automatic backups of VG metadata                                              |
+| `/etc/lvm/archive`     | Folder containing automatic archives of VG metadata                                             |
+| `/var/lock/lvm`        | Lock file to prevent simultaneous execution of multiple LVM tools, avoiding metadata corruption |
 
 ## Creating a Partition
 
@@ -499,6 +497,7 @@ uuidgen
 ```
 
 ## Resources
-- [Download the LVM documentation](../../static/pdf/lvm.pdf)
-- [Documentation for beginners](../../static/pdf/lvm_beginner.pdf)
-- [Documentation on LVM Snapshots](../../static/pdf/lvm_snapshots.pdf)
+
+- [Download the LVM documentation](../../../static/pdf/lvm.pdf)
+- [Documentation for beginners](../../../static/pdf/lvm_beginner.pdf)
+- [Documentation on LVM Snapshots](../../../static/pdf/lvm_snapshots.pdf)
