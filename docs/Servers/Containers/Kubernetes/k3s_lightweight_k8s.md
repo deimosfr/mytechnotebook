@@ -1,7 +1,7 @@
 ---
-title: "K3s: Lightweight Kubernetes ideal for home lab"
+title: "K3s: A lightweight Kubernetes"
 slug: k3s-lightweight-k8s/
-description: "A guide to run a lightweight Kubernetes in home lab."
+description: "A guide to run a lightweight Kubernetes ideal for home lab."
 categories: ["Kubernetes", "Server", "Home Lab"]
 tags: ["Kubernetes", "K3s", "Home Lab"]
 ---

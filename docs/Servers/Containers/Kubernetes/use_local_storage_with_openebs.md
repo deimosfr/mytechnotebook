@@ -126,10 +126,9 @@ $ kubectl get pods -n kube-system -l release=openebs
 NAME                                              READY   STATUS        RESTARTS      AGE
 openebs-localpv-provisioner-588759f89b-svhpn      1/1     Running       0             30s
 openebs-lvm-localpv-controller-84844f9c47-fr5wd   5/5     Running       0             30s
-openebs-lvm-localpv-controller-84844f9c47-wgpnp   5/5     Terminating   3 (19h ago)   19h
-openebs-lvm-localpv-node-b258g                    2/2     Running       0             32h
-openebs-lvm-localpv-node-c2882                    2/2     Running       0             2d3h
-openebs-lvm-localpv-node-hbpds                    2/2     Running       0             2d3h
+openebs-lvm-localpv-node-b258g                    2/2     Running       0             30s
+openebs-lvm-localpv-node-c2882                    2/2     Running       0             30s
+openebs-lvm-localpv-node-hbpds                    2/2     Running       0             30s
 ```
 
 ## Create an LVM StorageClass
