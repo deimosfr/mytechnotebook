@@ -47,6 +47,8 @@ extra:
     property: G-4EGFC89L7K
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - javascripts/file-icons.js
 plugins:
   - tags
   - git-revision-date-localized:
