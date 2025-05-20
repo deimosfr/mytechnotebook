@@ -102,8 +102,8 @@ You can configure a single instance of MariaDB with the following configuration:
         default_storage_engine=InnoDB
         binlog_format=row
         innodb_autoinc_lock_mode=2
-        innodb_buffer_pool_size=1024M
-        max_allowed_packet=256M
+        innodb_buffer_pool_size=256M
+        max_allowed_packet=128M
       # Optional: set the service type to LoadBalancer if you want to expose the MariaDB instance.
       service:
         type: LoadBalancer
@@ -232,6 +232,145 @@ You can grant privileges to a user with the following configuration:
       requeueInterval: 30s
       retryInterval: 5s
     ```
+
+## High availability
+
+The MariaDB Operator also supports multiple High Availability solutions like:
+
+- [Replications with auto-failover](./replication_master_to_master.md): a master-master replication solution with auto-failover capabilities, also called SemiSync replication.
+- [Galera](./mariadb_galera_cluster_multimaster_replication.md): a multi-master replication solution with auto-failover capabilities.
+- MaxScale: a proxy solution with failover and load balancing capabilities
+
+We'll take a look here at the Replications with auto-failover solution. I like this one because it's built-in and it's very easy to configure for a home lab. Prefer the Galera solution if you need a multi-master solution. And use MaxScale if you need a more complex solution with failover and load balancing capabilities.
+
+### Replications with auto-failover
+
+Here is a configuration with only 2 nodes (not perfect because of the missing Qorum) but it's a good start for a home lab.
+
+=== "mariadb-replication.yaml"
+
+    ```yaml
+    apiVersion: k8s.mariadb.com/v1alpha1
+    kind: MariaDB
+    metadata:
+      name: mariadb
+    spec:
+      timeZone: "UTC"
+      # Root password
+      rootPasswordSecretKeyRef:
+        name: mariadb
+        key: root-password
+      # MariaDB resources
+      resources:
+        requests:
+          cpu: 100m
+          memory: 768Mi
+        limits:
+          cpu: 1
+          memory: 768Mi
+      # Storage configuration
+      storage:
+        size: 2Gi
+        storageClassName: openebs-lvm
+        resizeInUseVolumes: true
+        waitForVolumeResize: true
+      # MariaDB configuration
+      myCnf: |
+        [mariadb]
+        bind-address=*
+        default_storage_engine=InnoDB
+        binlog_format=row
+        innodb_autoinc_lock_mode=2
+        innodb_buffer_pool_size=256M
+        max_allowed_packet=128M
+      # Enable replication with auto-failover
+      replication:
+        enabled: true
+        probesEnabled: true
+        primary:
+          automaticFailover: true
+      # Number of replicas with even number of replicas (here 2)
+      replicas: 2
+      replicasAllowEvenNumber: true
+      # On update,the replicas will be updated first and then the primary
+      updateStrategy:
+        type: ReplicasFirstPrimaryLast
+      # To be used for read requests. It will point to all nodes
+      service:
+        type: LoadBalancer
+        metadata:
+          annotations:
+            metallb.universe.tf/loadBalancerIPs: 192.168.0.1
+        externalTrafficPolicy: Local
+        sessionAffinity: None
+      # To be used for write requests. It will point to a single node, the primary.
+      primaryService:
+        type: LoadBalancer
+        metadata:
+          annotations:
+            metallb.universe.tf/loadBalancerIPs: 192.168.0.2
+      # To be used for read requests. It will point to all nodes, except the primary.
+      secondaryService:
+        type: LoadBalancer
+        metadata:
+          annotations:
+            metallb.universe.tf/loadBalancerIPs: 192.168.0.3
+      # Ensure no instance is scheduled on the same node
+      affinity:
+        antiAffinityEnabled: true
+      # Ensure no more than 1 instance is unavailable
+      podDisruptionBudget:
+        maxUnavailable: 1
+      # Enable metrics if you have a prometheus operator installed
+      metrics:
+        enabled: false
+    ```
+
+Once applied, you can check replication status with:
+
+```bash hl_lines="25 27 28 32 34 39 40"
+$ kubectl describe MariaDB mariadb
+Name:         mariadb
+...
+Spec:
+  Affinity:
+  Replicas:                                   2
+  Replicas Allow Even Number:                 true
+  Replication:
+    Enabled:  true
+    Primary:
+      Automatic Failover:  true
+      Pod Index:           0
+    Probes Enabled:        true
+    Replica:
+      Connection Retries:  10
+      Connection Timeout:  10s
+      Gtid:                CurrentPos
+      Sync Timeout:        10s
+      Wait Point:          AfterSync
+    Sync Binlog:           true
+...
+Status:
+  Conditions:
+    Last Transition Time:     2025-05-20T22:16:34Z
+    Message:                  Running
+    Reason:                   StatefulSetReady
+    Status:                   True
+    Type:                     Ready
+    Last Transition Time:     2025-05-20T22:15:33Z
+    Message:                  Updated
+    Reason:                   Updated
+    Status:                   True
+    Type:                     Updated
+  Current Primary:            mariadb-0
+  Current Primary Pod Index:  0
+  Default Version:            11.4
+  Replicas:                   2
+  Replication Status:
+    mariadb-0:  Master
+    mariadb-1:  Slave
+...
+```
 
 ## Troubleshooting
 
