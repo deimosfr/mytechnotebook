@@ -36,3 +36,20 @@
 [data-md-color-scheme="slate"] .image-invert-dark {
     filter: invert(1);
 }
+
+/* Highlight only leaf page links in the navigation (not folders) with a colored bar on the right */
+.md-nav__list .md-nav__item:not(.md-nav__item--nested) .md-nav__link--active {
+    position: relative;
+    padding-right: 0.6rem;
+}
+
+.md-nav__list .md-nav__item:not(.md-nav__item--nested) .md-nav__link--active::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 0.1rem;
+    background-color: var(--md-primary-fg-color);
+    border-radius: 2px;
+}
