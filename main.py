@@ -155,6 +155,8 @@ def define_env(env):
     - If there are markdown files (not index.md) at the root of the folder path, display them in a separate grid BEFORE the subfolder grid
     - For root-level files, use a wider grid (90%) with the current folder's title and icon
     - For subfolders, use a 50% width grid layout
+    - In every cards, the markdown pages should be alphabetically sorted
+    - Cards should be sorted alphabetically
     - Follow the exact format as shown in these examples:
     
     For folders with their subfolders:
@@ -220,8 +222,8 @@ def define_env(env):
         # If root files exist, create a separate card section for them
         if root_files:
             # Get folder title and icon from index.md
-            folder_title = os.path.basename(folder_path)
-            folder_icon = ""
+            folder_title = os.path.basename(folder_path.rstrip('/'))
+            folder_icon = "material-harddisk"
             folder_index_path = os.path.join(base_path, 'index.md')
             
             if os.path.exists(folder_index_path):
@@ -234,7 +236,7 @@ def define_env(env):
                                 yaml_text = yaml_match.group(1)
                                 metadata = yaml.safe_load(yaml_text)
                                 folder_title = metadata.get('title', folder_title)
-                                folder_icon = metadata.get('icon', '')
+                                folder_icon = metadata.get('icon', folder_icon)
                 except Exception as e:
                     print(f"Error reading metadata from {folder_index_path}: {e}")
             
@@ -247,7 +249,6 @@ def define_env(env):
             html += "    ---\n\n"
             
             # Add links for root files
-            root_links = []
             for file in root_files:
                 file_title = os.path.splitext(file)[0].replace('_', ' ').title()
                 file_path = os.path.join(base_path, file)
@@ -265,12 +266,9 @@ def define_env(env):
                     print(f"Error reading metadata from {file_path}: {e}")
                 
                 file_link = f"./{file}"
-                root_links.append(f"    * [{file_title}]({file_link})")
+                html += f"    * [{file_title}]({file_link})\n"
             
-            if root_links:
-                html += "\n".join(root_links) + "\n\n"
-            
-            html += "</div>\n"
+            html += "\n</div>\n\n"
         
         # Start the regular grid for subfolders
         html += '<div class="grid cards" markdown style="grid-template-columns: repeat(auto-fill, minmax(min(100%, calc(50% - 1rem)), 1fr));">\n\n'
@@ -290,7 +288,7 @@ def define_env(env):
                 
                 # Read metadata from index.md
                 title = folder
-                icon = None
+                icon = "material-harddisk"
                 
                 try:
                     with open(folder_index_path, 'r') as f:
@@ -304,13 +302,13 @@ def define_env(env):
                                 
                                 # Get title and icon
                                 title = metadata.get('title', folder)
-                                icon = metadata.get('icon', '')
+                                icon = metadata.get('icon', icon)
                 
                 except Exception as e:
                     print(f"Error reading metadata from {folder_index_path}: {e}")
                 
                 # Format icon (replace '/' with '-')
-                icon_formatted = icon.replace('/', '-') if icon else ""
+                icon_formatted = icon.replace('/', '-') if icon else "material-harddisk"
                 
                 # Create folder card header with icon and title as link with 3 hash marks
                 folder_link = f"./{folder}/index.md"
@@ -318,7 +316,7 @@ def define_env(env):
                 html += "    ---\n\n"
                 
                 # Process files in current folder (excluding index.md)
-                page_links = []
+                md_files = []
                 
                 try:
                     # Get all .md files in the folder except index.md
@@ -347,14 +345,17 @@ def define_env(env):
                         
                         # Create file link with proper formatting
                         file_link = f"./{folder}/{file}"
-                        page_links.append(f"    * [{file_title}]({file_link})")
+                        md_files.append((file_title, file_link))
                 
                 except Exception as e:
                     print(f"Error listing files in {folder_path_full}: {e}")
                 
-                # Always add file links before subfolder links
-                if page_links:
-                    html += "\n".join(page_links) + "\n\n"
+                # Add file links before subfolder links, sorted alphabetically
+                if md_files:
+                    md_files.sort()  # Sort by file title
+                    for file_title, file_link in md_files:
+                        html += f"    * [{file_title}]({file_link})\n"
+                    html += "\n"
                 
                 # Process subfolders
                 try:
@@ -397,7 +398,7 @@ def define_env(env):
                             html += f"    #### [{child_title}]({child_link})\n\n"
                         
                         # Process files in child folder (excluding index.md)
-                        child_page_links = []
+                        child_md_files = []
                         child_folder_path = os.path.join(folder_path_full, child)
                         
                         try:
@@ -425,14 +426,17 @@ def define_env(env):
                                 
                                 # Create file link with proper formatting for subfolder files
                                 file_link = f"./{folder}/{child}/{file}"
-                                child_page_links.append(f"    * [{file_title}]({file_link})")
+                                child_md_files.append((file_title, file_link))
                         
                         except Exception as e:
                             print(f"Error listing files in {child_folder_path}: {e}")
                         
-                        # Add child file links
-                        if child_page_links:
-                            html += "\n".join(child_page_links) + "\n\n"
+                        # Add child file links, sorted alphabetically
+                        if child_md_files:
+                            child_md_files.sort()  # Sort by file title
+                            for file_title, file_link in child_md_files:
+                                html += f"    * [{file_title}]({file_link})\n"
+                            html += "\n"
                 
                 except Exception as e:
                     print(f"Error processing subfolders of {folder_path_full}: {e}")
