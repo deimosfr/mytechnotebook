@@ -1,6 +1,4 @@
-
 ---
-
 url: "/Installation_et_configuration_de_PostgreSQL/"
 title: "PostgreSQL Installation and Configuration"
 description: "A comprehensive guide to installing, configuring, and managing PostgreSQL databases including user management, backups, and basic SQL operations."
@@ -8,18 +6,15 @@ categories: ["PostgreSQL", "Database"]
 date: "2012-11-16T08:55:00+02:00"
 lastmod: "2012-11-16T08:55:00+02:00"
 tags: ["PostgreSQL", "Database", "SQL", "Backup", "User Management"]
-
 ---
 
 ![PostgreSQL](../../../static/images/bases_de_donnees_icon.avif)
 
-
-|||
-|-|-|
-| **Software version** | 8.3+ |
-| **Operating System** | Debian 6 |
-| **Website** | [PostgreSQL Website](https://www.postgresql.org/) |
-
+|                      |                                                   |
+| -------------------- | ------------------------------------------------- |
+| **Software version** | 8.3+                                              |
+| **Operating System** | Debian 6                                          |
+| **Website**          | [PostgreSQL Website](https://www.postgresql.org/) |
 
 ## Introduction
 
@@ -352,10 +347,10 @@ With joins:
 
 ```sql
 SELECT * FROM weather, cities WHERE city = name;
-SELECT weather.city, weather.temp_lo, cities.location 
+SELECT weather.city, weather.temp_lo, cities.location
 FROM weather, cities WHERE cities.name = weather.city;
 SELECT * FROM weather INNER JOIN cities ON (weather.city = cities.name);
-SELECT * FROM weather LEFT OUTER JOIN cities ON 
+SELECT * FROM weather LEFT OUTER JOIN cities ON
 (weather.city = cities.name);
 SELECT * FROM weather w, cities c WHERE w.city = c.name;
 ```
@@ -376,7 +371,7 @@ SELECT city FROM weather WHERE temp_lo = MAX(temp_lo);
 You should do instead:
 
 ```sql
-SELECT city FROM weather WHERE 
+SELECT city FROM weather WHERE
 temp_lo = (SELECT MAX(temp_lo) FROM weather);
 ```
 
@@ -387,7 +382,7 @@ You can, of course, use "GROUP BY ...", "HAVING ...", etc.
 Still with an example:
 
 ```sql
-UPDATE weather SET temp_hi = temp_hi - 2, 
+UPDATE weather SET temp_hi = temp_hi - 2,
 temp_lo = temp_lo - 2 WHERE DATE > '1994-11-28';
 ```
 
@@ -458,7 +453,7 @@ Now I can list the postgres environment variable:
 
 ```bash
 $ postgres=# show lc_ctype;
-  lc_ctype   
+  lc_ctype
  -------------
  fr_FR.UTF-8
 (1 line)
@@ -473,6 +468,7 @@ initdb -E UTF-8
 Now try creating a database again.
 
 ## Resources
+
 - [PostgreSQL Official Website](https://www.postgresql.org/)
 - [https://www.postgresql.org/docs/7.3/static/multibyte.html](https://www.postgresql.org/docs/7.3/static/multibyte.html)
 - [System Views in PostgreSQL 8.3](../../../static/pdf/vues_system_postgres_unixgarden.pdf)

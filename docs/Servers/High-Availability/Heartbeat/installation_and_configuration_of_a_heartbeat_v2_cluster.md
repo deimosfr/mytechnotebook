@@ -299,42 +299,42 @@ If you don't know what to put because the ids haven't been generated yet, put th
 ### resources
 
 ```
- 26      <resources>
- 27        <group id="group_1">
- 28          <primitive class="ocf" id="IPaddr_192_168_0_90" provider="heartbeat" type="IPaddr">
- 29            <operations>
- 30              <op id="IPaddr_192_168_0_90_mon" interval="5s" name="monitor" timeout="5s"/>
- 31            </operations>
- 32            <instance_attributes id="IPaddr_192_168_0_90_inst_attr">
- 33              <attributes>
- 34                <nvpair id="IPaddr_192_168_0_90_attr_0" name="ip" value="192.168.0.90"/>
- 35              </attributes>
- 36            </instance_attributes>
- 37            <instance_attributes id="IPaddr_192_168_0_90">
- 38              <attributes>
- 39                <nvpair id="IPaddr_192_168_0_90-apache2" name="apache2" value="started"/>
- 40              </attributes>
- 41            </instance_attributes>
- 42          </primitive>
- 43          <primitive class="lsb" provider="heartbeat" type="apache2" id="apache2_2">
- 44            <operations>
- 45              <op id="apache2_2_mon" interval="120s" name="monitor" timeout="60s"/>
- 46            </operations>
- 47            <instance_attributes id="apache2_2">
- 48              <attributes>
- 49                <nvpair id="apache2_2-deb-node2" name="deb-node2" value="started"/>
- 50                <nvpair id="apache2_2-group_1" name="group_1" value="stopped"/>
- 51                <nvpair name="target_role" id="apache2_2-target_role" value="started"/>
- 52              </attributes>
- 53            </instance_attributes>
- 54          </primitive>
- 55          <instance_attributes id="group_1">
- 56            <attributes>
- 57              <nvpair id="group_1-deb-node2" name="deb-node2" value="started"/>
- 58              <nvpair id="group_1-apache2_2" name="apache2_2" value="stopped"/>
- 59            </attributes>
- 60          </instance_attributes>
- 61        </group>
+     <resources>
+       <group id="group_1">
+         <primitive class="ocf" id="IPaddr_192_168_0_90" provider="heartbeat" type="IPaddr">
+           <operations>
+             <op id="IPaddr_192_168_0_90_mon" interval="5s" name="monitor" timeout="5s"/>
+           </operations>
+           <instance_attributes id="IPaddr_192_168_0_90_inst_attr">
+             <attributes>
+               <nvpair id="IPaddr_192_168_0_90_attr_0" name="ip" value="192.168.0.90"/>
+             </attributes>
+           </instance_attributes>
+           <instance_attributes id="IPaddr_192_168_0_90">
+             <attributes>
+               <nvpair id="IPaddr_192_168_0_90-apache2" name="apache2" value="started"/>
+             </attributes>
+           </instance_attributes>
+         </primitive>
+         <primitive class="lsb" provider="heartbeat" type="apache2" id="apache2_2">
+           <operations>
+             <op id="apache2_2_mon" interval="120s" name="monitor" timeout="60s"/>
+           </operations>
+           <instance_attributes id="apache2_2">
+             <attributes>
+               <nvpair id="apache2_2-deb-node2" name="deb-node2" value="started"/>
+               <nvpair id="apache2_2-group_1" name="group_1" value="stopped"/>
+               <nvpair name="target_role" id="apache2_2-target_role" value="started"/>
+             </attributes>
+           </instance_attributes>
+         </primitive>
+         <instance_attributes id="group_1">
+           <attributes>
+             <nvpair id="group_1-deb-node2" name="deb-node2" value="started"/>
+             <nvpair id="group_1-apache2_2" name="apache2_2" value="stopped"/>
+           </attributes>
+         </instance_attributes>
+       </group>
 ```
 
 - L26: Here we have created a group. I strongly recommend this to avoid making mistakes. The group is called "group_1".
@@ -353,20 +353,20 @@ The simplest way to avoid headaches is to use the Heartbeat GUI. It will do the 
 ### constraints
 
 ```
- 98      <constraints>
- 99        <rsc_location id="rsc_location_group_1" rsc="group_1">
-100          <rule id="prefered_location_group_1" score="100">
-101            <expression attribute="#uname" id="prefered_location_group_1_expr" operation="eq" value="deb-node1"/>
-102          </rule>
-103        </rsc_location>
-104        <rsc_location id="cli-prefer-apache2_2" rsc="apache2_2">
-105          <rule id="cli-prefer-rule-apache2_2" score="INFINITY">
-106            <expression id="cli-prefer-expr-apache2_2" attribute="#uname" operation="eq" value="deb-node2" type="string"/>
-107          </rule>
-108        </rsc_location>
-109      </constraints>
-110    </configuration>
-111  </cib>
+     <constraints>
+       <rsc_location id="rsc_location_group_1" rsc="group_1">
+         <rule id="prefered_location_group_1" score="100">
+           <expression attribute="#uname" id="prefered_location_group_1_expr" operation="eq" value="deb-node1"/>
+         </rule>
+       </rsc_location>
+       <rsc_location id="cli-prefer-apache2_2" rsc="apache2_2">
+         <rule id="cli-prefer-rule-apache2_2" score="INFINITY">
+           <expression id="cli-prefer-expr-apache2_2" attribute="#uname" operation="eq" value="deb-node2" type="string"/>
+         </rule>
+       </rsc_location>
+     </constraints>
+   </configuration>
+ </cib>
 ```
 
 The constraints are used to indicate what should start before what. It's up to you to decide according to your needs.

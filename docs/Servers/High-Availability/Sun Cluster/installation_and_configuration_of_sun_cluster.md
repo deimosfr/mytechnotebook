@@ -585,14 +585,14 @@ didadm -l
 ```
 
 ```
-1        LD-TLH-SRV-UAT-1:/dev/rdsk/c0t0d0 /dev/did/rdsk/d1
-2        LD-TLH-SRV-UAT-1:/dev/rdsk/c1t0d0 /dev/did/rdsk/d2
-5        LD-TLH-SRV-UAT-1:/dev/rdsk/c2t201500A0B856312Cd31 /dev/did/rdsk/d5
-5        LD-TLH-SRV-UAT-1:/dev/rdsk/c2t201400A0B856312Cd31 /dev/did/rdsk/d5
-5        LD-TLH-SRV-UAT-1:/dev/rdsk/c3t202400A0B856312Cd31 /dev/did/rdsk/d5
-5        LD-TLH-SRV-UAT-1:/dev/rdsk/c3t202500A0B856312Cd31 /dev/did/rdsk/d5
-6        LD-TLH-SRV-UAT-1:/dev/rdsk/c5t600A0B800056312C000009CB4AAA2A14d0 /dev/did/rdsk/d6
-7        LD-TLH-SRV-UAT-1:/dev/rdsk/c5t600A0B800056381A00000E0A4AAA2A14d0 /dev/did/rdsk/d7
+LD-TLH-SRV-UAT-1:/dev/rdsk/c0t0d0 /dev/did/rdsk/d1
+LD-TLH-SRV-UAT-1:/dev/rdsk/c1t0d0 /dev/did/rdsk/d2
+LD-TLH-SRV-UAT-1:/dev/rdsk/c2t201500A0B856312Cd31 /dev/did/rdsk/d5
+LD-TLH-SRV-UAT-1:/dev/rdsk/c2t201400A0B856312Cd31 /dev/did/rdsk/d5
+LD-TLH-SRV-UAT-1:/dev/rdsk/c3t202400A0B856312Cd31 /dev/did/rdsk/d5
+LD-TLH-SRV-UAT-1:/dev/rdsk/c3t202500A0B856312Cd31 /dev/did/rdsk/d5
+LD-TLH-SRV-UAT-1:/dev/rdsk/c5t600A0B800056312C000009CB4AAA2A14d0 /dev/did/rdsk/d6
+LD-TLH-SRV-UAT-1:/dev/rdsk/c5t600A0B800056381A00000E0A4AAA2A14d0 /dev/did/rdsk/d7
 ```
 
 Choose the LUN you wish to use for your quorum:
@@ -1118,23 +1118,23 @@ Now we can verify everything is ok:
 
 ```bash
 $ scdidadm -l
-1        PA-TLH-SRV-PRD-1:/dev/rdsk/c0t0d0 /dev/did/rdsk/d1
-2        PA-TLH-SRV-PRD-1:/dev/rdsk/c1t0d0 /dev/did/rdsk/d2
-14       PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B800048A9B6000008304AC37AA3d0 /dev/did/rdsk/d14
-15       PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B80005634B40000594B4AC37A8Fd0 /dev/did/rdsk/d15
-16       PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B800048A9B60000082E4AC37A6Ad0 /dev/did/rdsk/d16
-17       PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B80005634B4000059494AC37A5Dd0 /dev/did/rdsk/d17
-18       PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B800048A9B60000082C4AC37A3Dd0 /dev/did/rdsk/d18
-19       PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B80005634B4000059474AC37A2Bd0 /dev/did/rdsk/d19
-20       PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B800048A9B60000082A4AC37A07d0 /dev/did/rdsk/d20
-21       PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B80005634B4000059454AC379F8d0 /dev/did/rdsk/d21
-22       PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B800048A9B6000008284AC379B4d0 /dev/did/rdsk/d22
-23       PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B80005634B4000059434AC3799Ad0 /dev/did/rdsk/d23
-24       PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B80005634B4000058BF4AC1DF47d0 /dev/did/rdsk/d24
-25       PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B80005634B4000058BD4AC1DF32d0 /dev/did/rdsk/d25
-26       PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B80005634B4000058BB4AC1DF20d0 /dev/did/rdsk/d26
-27       PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B80005634B4000058B94AC1DF0Dd0 /dev/did/rdsk/d27
-28       PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B80005634B4000007104A9D6B81d0 /dev/did/rdsk/d28
+PA-TLH-SRV-PRD-1:/dev/rdsk/c0t0d0 /dev/did/rdsk/d1
+PA-TLH-SRV-PRD-1:/dev/rdsk/c1t0d0 /dev/did/rdsk/d2
+PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B800048A9B6000008304AC37AA3d0 /dev/did/rdsk/d14
+PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B80005634B40000594B4AC37A8Fd0 /dev/did/rdsk/d15
+PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B800048A9B60000082E4AC37A6Ad0 /dev/did/rdsk/d16
+PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B80005634B4000059494AC37A5Dd0 /dev/did/rdsk/d17
+PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B800048A9B60000082C4AC37A3Dd0 /dev/did/rdsk/d18
+PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B80005634B4000059474AC37A2Bd0 /dev/did/rdsk/d19
+PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B800048A9B60000082A4AC37A07d0 /dev/did/rdsk/d20
+PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B80005634B4000059454AC379F8d0 /dev/did/rdsk/d21
+PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B800048A9B6000008284AC379B4d0 /dev/did/rdsk/d22
+PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B80005634B4000059434AC3799Ad0 /dev/did/rdsk/d23
+PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B80005634B4000058BF4AC1DF47d0 /dev/did/rdsk/d24
+PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B80005634B4000058BD4AC1DF32d0 /dev/did/rdsk/d25
+PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B80005634B4000058BB4AC1DF20d0 /dev/did/rdsk/d26
+PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B80005634B4000058B94AC1DF0Dd0 /dev/did/rdsk/d27
+PA-TLH-SRV-PRD-1:/dev/rdsk/c4t600A0B80005634B4000007104A9D6B81d0 /dev/did/rdsk/d28
 ```
 
 DID 3 is not present anymore. If you want to update everything:
