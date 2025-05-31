@@ -156,7 +156,7 @@ def define_env(env):
     - For root-level files, use a wider grid (90%) with the current folder's title and icon
     - For subfolders, use a 50% width grid layout
     - In every cards, the markdown pages should be alphabetically sorted
-    - Cards should be sorted alphabetically
+    - Cards should be sorted alphabetically based on the title in the frontmatter
     - Follow the exact format as shown in these examples:
     
     For folders with their subfolders:
@@ -213,7 +213,6 @@ def define_env(env):
             root_files = [f for f in os.listdir(base_path) 
                          if os.path.isfile(os.path.join(base_path, f)) 
                          and f.endswith('.md') and f != 'index.md']
-            root_files.sort()
         except Exception as e:
             print(f"Error listing root files in {base_path}: {e}")
         
@@ -243,16 +242,11 @@ def define_env(env):
             # Format icon (replace '/' with '-')
             icon_formatted = folder_icon.replace('/', '-') if folder_icon else "material-harddisk"
             
-            # Create HTML for root files
-            html += '<div class="grid cards" markdown style="grid-template-columns: repeat(auto-fill, minmax(min(100%, calc(90% - 1rem)), 1fr));">\n\n'
-            html += f"-   ### :{icon_formatted}: [{folder_title}](./index.md)\n\n"
-            html += "    ---\n\n"
-            
-            # Add links for root files
+            # Collect root file metadata for sorting
+            root_file_entries = []
             for file in root_files:
                 file_title = os.path.splitext(file)[0].replace('_', ' ').title()
                 file_path = os.path.join(base_path, file)
-                
                 try:
                     with open(file_path, 'r') as f:
                         content = f.read()
@@ -264,10 +258,16 @@ def define_env(env):
                                 file_title = metadata['title']
                 except Exception as e:
                     print(f"Error reading metadata from {file_path}: {e}")
-                
                 file_link = f"./{file}"
-                html += f"    * [{file_title}]({file_link})\n"
+                root_file_entries.append((file_title, file_link))
+            root_file_entries.sort()
             
+            # Create HTML for root files
+            html += '<div class="grid cards" markdown style="grid-template-columns: repeat(auto-fill, minmax(min(100%, calc(90% - 1rem)), 1fr));">\n\n'
+            html += f"-   ### :{icon_formatted}: [{folder_title}](./index.md)\n\n"
+            html += "    ---\n\n"
+            for file_title, file_link in root_file_entries:
+                html += f"    * [{file_title}]({file_link})\n"
             html += "\n</div>\n\n"
         
         # Start the regular grid for subfolders
@@ -276,64 +276,47 @@ def define_env(env):
         try:
             # Get immediate subfolders
             subfolders = [f for f in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, f)) and not f.startswith('.')]
-            subfolders.sort()
-            
+            folder_entries = []
             for folder in subfolders:
                 folder_index_path = os.path.join(base_path, folder, 'index.md')
                 folder_path_full = os.path.join(base_path, folder)
-                
-                # Skip if index.md doesn't exist
                 if not os.path.exists(folder_index_path):
                     continue
-                
                 # Read metadata from index.md
                 title = folder
                 icon = "material-harddisk"
-                
                 try:
                     with open(folder_index_path, 'r') as f:
                         content = f.read()
-                        # Extract YAML front matter
                         if content.startswith('---'):
                             yaml_match = re.search(r'^---\s+(.*?)\s+---', content, re.DOTALL)
                             if yaml_match:
                                 yaml_text = yaml_match.group(1)
                                 metadata = yaml.safe_load(yaml_text)
-                                
-                                # Get title and icon
                                 title = metadata.get('title', folder)
                                 icon = metadata.get('icon', icon)
-                
                 except Exception as e:
                     print(f"Error reading metadata from {folder_index_path}: {e}")
-                
-                # Format icon (replace '/' with '-')
+                folder_entries.append((title, icon, folder, folder_path_full))
+            # Sort folder cards by title
+            folder_entries.sort()
+            for title, icon, folder, folder_path_full in folder_entries:
                 icon_formatted = icon.replace('/', '-') if icon else "material-harddisk"
-                
-                # Create folder card header with icon and title as link with 3 hash marks
                 folder_link = f"./{folder}/index.md"
                 html += f"-   ### :{icon_formatted}: [{title}]({folder_link})\n\n"
                 html += "    ---\n\n"
-                
                 # Process files in current folder (excluding index.md)
                 md_files = []
-                
                 try:
-                    # Get all .md files in the folder except index.md
                     files = [f for f in os.listdir(folder_path_full) 
                            if os.path.isfile(os.path.join(folder_path_full, f)) 
                            and f.endswith('.md') and f != 'index.md']
-                    files.sort()
-                    
                     for file in files:
-                        # Extract title from file content or use filename
                         file_title = os.path.splitext(file)[0].replace('_', ' ').title()
                         file_path = os.path.join(folder_path_full, file)
-                        
                         try:
                             with open(file_path, 'r') as f:
                                 content = f.read()
-                                # Extract YAML front matter for title
                                 yaml_match = re.search(r'^---\s+(.*?)\s+---', content, re.DOTALL)
                                 if yaml_match:
                                     yaml_text = yaml_match.group(1)
@@ -342,39 +325,27 @@ def define_env(env):
                                         file_title = metadata['title']
                         except Exception as e:
                             print(f"Error reading metadata from {file_path}: {e}")
-                        
-                        # Create file link with proper formatting
                         file_link = f"./{folder}/{file}"
                         md_files.append((file_title, file_link))
-                
                 except Exception as e:
                     print(f"Error listing files in {folder_path_full}: {e}")
-                
-                # Add file links before subfolder links, sorted alphabetically
                 if md_files:
-                    md_files.sort()  # Sort by file title
+                    md_files.sort()
                     for file_title, file_link in md_files:
                         html += f"    * [{file_title}]({file_link})\n"
                     html += "\n"
-                
                 # Process subfolders
                 try:
                     child_folders = [f for f in os.listdir(folder_path_full) 
                                    if os.path.isdir(os.path.join(folder_path_full, f)) 
                                    and not f.startswith('.')]
-                    child_folders.sort()
-                    
+                    child_entries = []
                     for child in child_folders:
                         child_index_path = os.path.join(folder_path_full, child, 'index.md')
-                        
-                        # Skip if child doesn't have index.md
                         if not os.path.exists(child_index_path):
                             continue
-                        
-                        # Get child folder metadata
                         child_title = child
                         child_icon = ""
-                        
                         try:
                             with open(child_index_path, 'r') as f:
                                 content = f.read()
@@ -386,32 +357,24 @@ def define_env(env):
                                     child_icon = metadata.get('icon', '')
                         except Exception as e:
                             print(f"Error reading metadata from {child_index_path}: {e}")
-                        
-                        # Format child icon and create header for child folder with 4 hash marks
+                        child_entries.append((child_title, child_icon, child, os.path.join(folder_path_full, child)))
+                    child_entries.sort()
+                    for child_title, child_icon, child, child_folder_path in child_entries:
                         child_icon_formatted = child_icon.replace('/', '-') if child_icon else ""
                         child_link = f"./{folder}/{child}/index.md"
-                        
-                        # Add the subfolder header with the correct icon format
                         if child_icon_formatted:
                             html += f"    #### :{child_icon_formatted}: [{child_title}]({child_link})\n\n"
                         else:
                             html += f"    #### [{child_title}]({child_link})\n\n"
-                        
                         # Process files in child folder (excluding index.md)
                         child_md_files = []
-                        child_folder_path = os.path.join(folder_path_full, child)
-                        
                         try:
                             child_files = [f for f in os.listdir(child_folder_path) 
                                         if os.path.isfile(os.path.join(child_folder_path, f)) 
                                         and f.endswith('.md') and f != 'index.md']
-                            child_files.sort()
-                            
                             for file in child_files:
-                                # Extract title from file content or use filename
                                 file_title = os.path.splitext(file)[0].replace('_', ' ').title()
                                 file_path = os.path.join(child_folder_path, file)
-                                
                                 try:
                                     with open(file_path, 'r') as f:
                                         content = f.read()
@@ -423,27 +386,18 @@ def define_env(env):
                                                 file_title = metadata['title']
                                 except Exception as e:
                                     print(f"Error reading metadata from {file_path}: {e}")
-                                
-                                # Create file link with proper formatting for subfolder files
                                 file_link = f"./{folder}/{child}/{file}"
                                 child_md_files.append((file_title, file_link))
-                        
                         except Exception as e:
                             print(f"Error listing files in {child_folder_path}: {e}")
-                        
-                        # Add child file links, sorted alphabetically
                         if child_md_files:
-                            child_md_files.sort()  # Sort by file title
+                            child_md_files.sort()
                             for file_title, file_link in child_md_files:
                                 html += f"    * [{file_title}]({file_link})\n"
                             html += "\n"
-                
                 except Exception as e:
                     print(f"Error processing subfolders of {folder_path_full}: {e}")
-        
         except Exception as e:
             return f"Error processing directory {base_path}: {e}"
-        
-        # Close the HTML div
         html += "</div>"
         return html
