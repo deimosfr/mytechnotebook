@@ -239,6 +239,47 @@ $ lvs
   pvc-44e8c69d-b18f-427a-afd3-934fae47ba3e vg Vwi-aotz--   4.00g vg_thinpool        3.22
 ```
 
+## Troubleshooting
+
+### LVM volume is not found on node reboot
+
+If you reboot your node, the LVM volume may be lost. If you look at the LVM devices in `/dev/mapper` and don't see `PVC` volumes, you need to update the systemd service of Kubernetes/K3s to force the volume to be rescanned. Something like this:
+
+=== "/etc/systemd/system/k3s.service"
+
+    ```ini hl_lines="29"
+    [Unit]
+    Description=Lightweight Kubernetes
+    Documentation=https://k3s.io
+    Wants=network-online.target
+    After=network-online.target
+
+    [Install]
+    WantedBy=multi-user.target
+
+    [Service]
+    Type=notify
+    EnvironmentFile=-/etc/default/%N
+    EnvironmentFile=-/etc/sysconfig/%N
+    EnvironmentFile=-/etc/systemd/system/k3s-agent.service.env
+    KillMode=process
+    Delegate=yes
+    # Having non-zero Limit*s causes performance problems due to accounting overhead
+    # in the kernel. We recommend using cgroups to do container-local accounting.
+    LimitNOFILE=1048576
+    LimitNPROC=infinity
+    LimitCORE=infinity
+    TasksMax=infinity
+    TimeoutStartSec=0
+    Restart=always
+    RestartSec=5s
+    ExecStartPre=/bin/sh -xc '! /usr/bin/systemctl is-enabled --quiet nm-cloud-setup.service'
+    ExecStartPre=-/sbin/modprobe br_netfilter
+    ExecStartPre=-/sbin/modprobe overlay
+    ExecStartPre=-/usr/sbin/vgchange -ay
+    ExecStart=/usr/local/bin/k3s agent --data-dir <k3s_server_location> --server https://<api_endpoint>:<api_port> <extra_agent_args>
+    ```
+
 ## Resources
 
 - [Kubernetes StorageClass](https://kubernetes.io/docs/concepts/storage/storage-classes/)
