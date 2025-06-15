@@ -81,6 +81,16 @@ Variants:
     ```
 ```
 
+## Images
+
+Images should be in the `docs/static/images` directory.
+
+They will be automatically converted to AVIF format during the build process and served as AVIF. Example:
+
+```
+![Image](../../static/images/image.avif)
+```
+
 ## icons
 
 Icons used can be:
