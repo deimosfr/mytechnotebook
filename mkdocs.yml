@@ -5,6 +5,7 @@ edit_uri: edit/main/docs/
 hooks:
   - overrides/.hooks/meta_slugs.py
   - overrides/.hooks/image_converter.py
+  - overrides/.hooks/static_file_checker.py
 theme:
   icon:
     repo: fontawesome/brands/git-alt

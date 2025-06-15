@@ -14,3 +14,7 @@ run-prod:
 init:
   python3 -m venv venv 
   source venv/bin/activate && pip install -r requirements.txt
+
+# Check for unused static files
+check-unused-static:
+  ./overrides/.hooks/check_unused_static.py --verbose
