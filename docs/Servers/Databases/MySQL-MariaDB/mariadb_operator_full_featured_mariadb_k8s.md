@@ -445,6 +445,8 @@ Here is a configuration with 2 nodes (not perfect because of the missing Qorum) 
         enabled: false
     ```
 
+And now the MaxScale configuration:
+
 === "maxscale-config.yaml"
 
     ```yaml
@@ -606,17 +608,21 @@ Status:
 ...
 ```
 
-#### Access to the MaxScale admin GUI
+#### MaxScale admin GUI access
 
-You can access the MaxScale admin GUI with the Metallb address (here: `http://192.168.0.2:8989`) or you can create a port-forwarding to access it from your local machine:
+You can access the MaxScale admin GUI with the Metallb address (here: [`http://192.168.0.2:8989`](http://192.168.0.2:8989)) or you can create a port-forwarding to access it from your local machine:
 
 ```bash
 kubectl port-forward svc/maxscale-repl-gui 8989:8989
 ```
 
-Then access to `http://localhost:8989/` to access the MaxScale admin GUI.
+Then access to [`http://localhost:8989/`](http://localhost:8989/) to access the MaxScale admin GUI.
 
-You can find the credentials inside the secret `maxscale-repl-admin` and use the `mariadb-operator` username as login.
+You can find the credentials inside the secret `maxscale-repl-admin` and use the `mariadb-operator` username as login. Then you'll be able to see the MaxScale configuration and the status of the replication:
+
+![MaxScale admin GUI dashboard](../../../static/images/maxscale_gui_dashboard.avif)
+
+![MaxScale admin GUI config](../../../static/images/maxscale_gui_config.avif)
 
 
 ## Troubleshooting
