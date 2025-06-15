@@ -372,6 +372,253 @@ Status:
 ...
 ```
 
+### MaxScale
+
+MaxScale is a proxy solution with failover and load balancing capabilities. It's a great way to scale your MariaDB instance. It's also a great way to have a more complex solution with failover and load balancing capabilities.
+
+Here is a configuration with 2 nodes (not perfect because of the missing Qorum) but it's a good start for a home lab. It's pretty similar to the replication configuration but with a MaxScale proxy in front of the MariaDB instances, a few configuration changes are needed:
+
+=== "mariadb-config.yaml"
+
+    ```yaml
+    apiVersion: k8s.mariadb.com/v1alpha1
+    kind: MariaDB
+    metadata:
+      name: mariadb
+    spec:
+      timeZone: "UTC"
+      # Root password
+      rootPasswordSecretKeyRef:
+        name: mariadb
+        key: root-password
+      # MariaDB resources
+      resources:
+        requests:
+          cpu: 100m
+          memory: 768Mi
+        limits:
+          cpu: 1
+          memory: 768Mi
+      # Storage configuration
+      storage:
+        size: 2Gi
+        storageClassName: openebs-lvm
+        resizeInUseVolumes: true
+        waitForVolumeResize: true
+      # MariaDB configuration
+      myCnf: |
+        [mariadb]
+        bind-address=*
+        default_storage_engine=InnoDB
+        binlog_format=row
+        innodb_autoinc_lock_mode=2
+        innodb_buffer_pool_size=256M
+        max_allowed_packet=128M
+      # Enable replication with auto-failover
+      replication:
+        enabled: true
+        # disable automatic failover to let MaxScale handle it
+        # primary:
+        #   automaticFailover: true
+      # Number of replicas with even number of replicas (here 2)
+      replicas: 2
+      replicasAllowEvenNumber: true
+      # On update,the replicas will be updated first and then the primary
+      updateStrategy:
+        type: ReplicasFirstPrimaryLast
+      # To be used for read requests. It will point to all nodes
+      service:
+        type: LoadBalancer
+        metadata:
+          annotations:
+            metallb.universe.tf/loadBalancerIPs: 192.168.0.1
+        externalTrafficPolicy: Local
+        sessionAffinity: None
+      # Ensure no instance is scheduled on the same node
+      affinity:
+        antiAffinityEnabled: true
+      # Ensure no more than 1 instance is unavailable
+      podDisruptionBudget:
+        maxUnavailable: 1
+      # Enable metrics if you have a prometheus operator installed
+      metrics:
+        enabled: false
+    ```
+
+=== "maxscale-config.yaml"
+
+    ```yaml
+    apiVersion: k8s.mariadb.com/v1alpha1
+    kind: MaxScale
+    metadata:
+      name: maxscale-repl
+    spec:
+      # Number of MaxScale instances
+      replicas: 2
+
+      # MariaDB reference to manage
+      mariaDbRef:
+        name: mariadb
+
+      # MaxScale configuration
+      config:
+        params:
+          log_info: "true"
+        volumeClaimTemplate:
+          resources:
+            requests:
+              storage: 100Mi
+          accessModes:
+            - ReadWriteOnce
+        sync:
+          database: mysql
+          interval: 5s
+          timeout: 10s
+
+      # MaxScale resources
+      resources:
+        requests:
+          cpu: 100m
+          memory: 64Mi
+        limits:
+          cpu: 500m
+          memory: 512Mi
+
+      # MaxScale services
+      services:
+        - name: rw-router
+          router: readwritesplit
+          params:
+            transaction_replay: "true"
+            transaction_replay_attempts: "10"
+            transaction_replay_timeout: "5s"
+            max_slave_connections: "255"
+            max_replication_lag: "3s"
+            master_accept_reads: "true"
+          listener:
+            port: 3306
+            protocol: MariaDBProtocol
+            params:
+              connection_metadata: "tx_isolation=auto"
+        - name: rconn-master-router
+          router: readconnroute
+          params:
+            router_options: "master"
+            max_replication_lag: "3s"
+            master_accept_reads: "true"
+          listener:
+            port: 3307
+        - name: rconn-slave-router
+          router: readconnroute
+          params:
+            router_options: "slave"
+            max_replication_lag: "3s"
+          listener:
+            port: 3308
+
+      monitor:
+        interval: 2s
+        cooperativeMonitoring: majority_of_all
+        params:
+          auto_failover: "true"
+          auto_rejoin: "true"
+          switchover_on_low_disk_space: "true"
+
+      # MaxScale admin GUI
+      admin:
+        port: 8989
+        guiEnabled: true
+
+      config:
+        sync:
+          database: mysql
+          interval: 5s
+          timeout: 10s
+
+      # MaxScale automatic creds generation for authentication
+      auth:
+        generate: true
+
+      # MaxScale service for read/write requests
+      kubernetesService:
+        type: LoadBalancer
+        metadata:
+          annotations:
+            metallb.universe.tf/loadBalancerIPs: 192.168.0.2
+
+      guiKubernetesService:
+        type: LoadBalancer
+        metadata:
+          annotations:
+            metallb.universe.tf/loadBalancerIPs: 192.168.0.3
+
+      connection:
+        secretName: mxs-repl-conn
+        port: 3306
+
+      # Enable metrics if you have a prometheus operator installed
+      metrics:
+        enabled: false
+
+      # Pod anti-affinity to ensure no more than 1 MaxScale instance is scheduled on the same node
+      affinity:
+        antiAffinityEnabled: true
+        podAntiAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            - labelSelector:
+                matchExpressions:
+                  - key: app.kubernetes.io/name
+                    operator: In
+                    values:
+                      - maxscale
+              topologyKey: kubernetes.io/hostname
+
+      requeueInterval: 30s
+    ```
+
+Deploy the MariaDB and MaxScale configuration with:
+
+```bash
+kubectl apply -f maxscale-config.yaml -f mariadb-config.yaml
+```
+
+You can check the MaxScale configuration with the following command:
+
+```bash hl_lines="7-10 12 15-18"
+$ kubectl describe maxscale/maxscale-repl
+Name:         maxscale-repl
+...
+Status:
+  Conditions:
+    Last Transition Time:  2025-06-15T01:21:50Z
+    Message:               Running
+    Reason:                MaxScaleReady
+    Status:                True
+    Type:                  Ready
+  ...
+  Primary Server:  mariadb-0
+  Replicas:        2
+  Servers:
+    Name:        mariadb-0
+    State:       Master, Running
+    Name:        mariadb-1
+    State:       Slave, Running
+...
+```
+
+#### Access to the MaxScale admin GUI
+
+You can access the MaxScale admin GUI with the Metallb address (here: `http://192.168.0.2:8989`) or you can create a port-forwarding to access it from your local machine:
+
+```bash
+kubectl port-forward svc/maxscale-repl-gui 8989:8989
+```
+
+Then access to `http://localhost:8989/` to access the MaxScale admin GUI.
+
+You can find the credentials inside the secret `maxscale-repl-admin` and use the `mariadb-operator` username as login.
+
+
 ## Troubleshooting
 
 If you encounter issues, you can check the logs of the MariaDB instance with the following command:
