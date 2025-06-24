@@ -7,6 +7,8 @@ hooks:
   - overrides/.hooks/image_converter.py
   - overrides/.hooks/static_file_checker.py
 theme:
+  # Custom 404 page
+  custom_dir: overrides
   icon:
     repo: fontawesome/brands/git-alt
   font:
