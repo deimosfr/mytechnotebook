@@ -15,18 +15,19 @@ I've been using my Prusa MK4, MK4S and now Core One for a while now, and I have 
 
 ## Regular Maintenance
 
-### Every 600/800 hours
+### Every 200 hours
 
 - Air blow the fans and everywhere else to avoid dust accumulation.
 - Clean the heatbed with isopropyl alcohol.
 - Clean the nozzle: wait 5min at 250°C, then use a brass brush to clean it.
-- Clean every axes with antonomase.
-- Lubricate the axes with a thin layer of grease.
+- Clean every axes with antonomase (Note the X axis for Core One)
+- Lubricate the axes with a thin layer of grease (Y and Z axis only for Core One).
 - Check screws of the axes and the frame.
 - Check the belts: they should be tight, but not too much: [Prusa belt tensioning](https://belt.connect.prusa3d.com/).
 
 Useful links:
 
+- [Core One](https://help.prusa3d.com/article/regular-printer-maintenance-core-one_829710)
 - [MK4/S maintenance](https://help.prusa3d.com/article/regular-printer-maintenance-mk4-s-mk3-9-s_419000)
 - [MMU3 maintenance](https://help.prusa3d.com/fr/article/maintenance-reguliere-du-mmu3_682693)
 
