@@ -24,24 +24,25 @@ With the approach described in this section, each hosted domain can have its own
 
 With virtual alias domains, each hosted address is an alias of a UNIX system account or an external address. The following example shows how to use this mechanism for the example.com domain.
 
-| File: `/etc/postfix/main.cf` |
-| --- |
-```
-virtual_alias_domains = example.com ...other hosted domains...
-virtual_alias_maps = hash:/etc/postfix/virtual
-```
+=== "/etc/postfix/main.cf"
 
+    ``` ini
+    virtual_alias_domains = example.com ...other hosted domains...
+    virtual_alias_maps = hash:/etc/postfix/virtual
+    ```
 
-| File: `/etc/postfix/virtual` |
-| --- |
-```
-postmaster@example.com postmaster
-info@example.com       joe
-sales@example.com      jane
-# Uncomment the following entry to implement a catch-all address
-# @example.com         jim
-# ...virtual aliases for other domains...
-```
+And now the virtual aliases file:
+
+=== "/etc/postfix/virtual"
+
+    ``` ini
+    postmaster@example.com postmaster
+    info@example.com       joe
+    sales@example.com      jane
+    # Uncomment the following entry to implement a catch-all address
+    # @example.com         jim
+    # ...virtual aliases for other domains...
+    ```
 
 
 Notes:
@@ -84,22 +85,22 @@ Virtual aliases solve one problem: they allow each domain to have its own email 
 
 You may want to redirect all emails from a machine or simply all emails that hit this server to a specific email address for testing purposes. This is feasible. To do this, edit the Postfix configuration file:
 
-| File: `/etc/postfix/main.cf` |
-| --- |
-```
-# we match emails we'll accept with regular expressions
-virtual_alias_maps = regexp:/etc/postfix/virtual
-```
+=== "/etc/postfix/main.cf"
+
+    ``` ini
+    # we match emails we'll accept with regular expressions
+    virtual_alias_maps = regexp:/etc/postfix/virtual
+    ```
 
 
 Let's create a virtual file:
 
-| File: `/etc/postfix/virtual` |
-| --- |
-```
-# redirect everything to someone who can read the emails
-/@/	moi@mycompany.com
-```
+=== "/etc/postfix/virtual"
+
+    ``` ini
+    # redirect everything to someone who can read the emails
+    /@/	moi@mycompany.com
+    ```
 
 
 ## FAQ
@@ -126,11 +127,11 @@ User unknown in virtual alias table
 
 It's probably Amavis causing issues. To fix this problem, comment out this line in /etc/postfix/main.cf:
 
-| File: `/etc/postfix/main.cf` |
-| --- |
-```
-# receive_override_options = no_address_mappings
-```
+=== "/etc/postfix/main.cf"
+
+    ``` ini
+    # receive_override_options = no_address_mappings
+    ```
 
 
 ## Resources
