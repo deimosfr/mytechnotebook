@@ -4,7 +4,7 @@ slug: prusa-maintenance/
 description: 'Make sure your Prusa is always in good condition'
 categories: ['Prusa', '3D Print']
 tags: ['Prusa', '3D Print']
-date: '2025-05-04T21:36:09+02:00'
+date: '2025-09-01T21:36:09+02:00'
 ---
 
 ## Introduction
@@ -30,6 +30,7 @@ Useful links:
 - [Core One](https://help.prusa3d.com/article/regular-printer-maintenance-core-one_829710)
 - [MK4/S maintenance](https://help.prusa3d.com/article/regular-printer-maintenance-mk4-s-mk3-9-s_419000)
 - [MMU3 maintenance](https://help.prusa3d.com/fr/article/maintenance-reguliere-du-mmu3_682693)
+- [Belt tension maintenance](https://help.prusa3d.com/article/adjusting-belt-tension-core-one_845048)
 
 ## Issues
 
