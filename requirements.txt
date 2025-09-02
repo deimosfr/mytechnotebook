@@ -1,8 +1,8 @@
-mkdocs-material==9.6.14
-Pillow==11.2.1
+mkdocs-material==9.6.18
+Pillow==11.3.0
 pillow-avif-plugin==1.5.2
-mkdocs-macros-plugin==1.3.7
+mkdocs-macros-plugin==1.3.9
 mkdocs-section-index==0.3.10
 mkdocs-minify-plugin==0.8.0
 mkdocs-git-revision-date-localized-plugin @ git+https://github.com/deimosfr/mkdocs-git-revision-date-localized-plugin@4e655c1
-python-dateutil==2.9.0.post0
+python-dateutil==2.9.0
