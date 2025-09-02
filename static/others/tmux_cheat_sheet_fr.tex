@@ -1,0 +1,177 @@
+% -----------------------------------------------------------------------
+% Cheat Sheet Tmux
+%
+% Usage in Document content :
+% \section : create a new section in column
+% 
+% \columnbreak : break the column to force following content to jump to
+%                the next column
+% \cm{command}{description} : set a dotted line between the command and
+%                             the description
+% -----------------------------------------------------------------------
+
+% -----------------------------------------------------------------------
+% Document settings
+% -----------------------------------------------------------------------
+
+\documentclass[10pt,landscape]{article}
+\usepackage{multicol}
+\usepackage{calc}
+\usepackage{ifthen}
+\usepackage[landscape]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb}
+\usepackage{color,graphicx,overpic}
+\usepackage{hyperref}
+\usepackage{amsmath}
+
+% PDF informations
+\pdfinfo{
+  /Title (tmux_cheat_sheet.pdf)
+  /Creator (TeX)
+  /Producer (pdfTeX 1.40.0)
+  /Author (Pierre Mavro)
+  /Subject (Tmux)
+  /Keywords (pdflatex, latex,pdftex,tex)}
+
+% This sets page margins to .5 inch if using letter paper, and to 1cm
+% if using A4 paper. (This probably isn't strictly necessary.)
+% If using another size paper, use default 1cm margins.
+\ifthenelse{\lengthtest { \paperwidth = 11in}}
+    { \geometry{top=.5in,left=.5in,right=.5in,bottom=.5in} }
+    {\ifthenelse{ \lengthtest{ \paperwidth = 297mm}}
+        {\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+        {\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+    }
+
+% Turn off header and footer
+\pagestyle{empty}
+
+% Redefine section commands to use less space
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0mm}%
+                                {-1ex plus -.5ex minus -.2ex}%
+                                {0.5ex plus .2ex}%x
+                                {\normalfont\large\bfseries}}
+\renewcommand{\subsection}{\@startsection{subsection}{2}{0mm}%
+                                {-1explus -.5ex minus -.2ex}%
+                                {0.5ex plus .2ex}%
+                                {\normalfont\normalsize\bfseries}}
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{0mm}%
+                                {-1ex plus -.5ex minus -.2ex}%
+                                {1ex plus .2ex}%
+                                {\normalfont\small\bfseries}}
+\makeatother
+
+% Define BibTeX command
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+% Don't print section numbers
+\setcounter{secnumdepth}{0}
+
+% Set vertical view instead of horizontal (set to 0 to let it choose)
+%\setcounter{unbalance}{45}
+\setcounter{unbalance}{0}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt plus 0.5ex}
+
+%My Environments
+\newtheorem{example}[section]{Example}
+
+% Dot lines between command and description
+\def\cm#1#2{{\tt#1}\dotfill#2\par}
+
+% -----------------------------------------------------------------------
+% Document start
+% -----------------------------------------------------------------------
+
+\begin{document}
+\raggedright
+\footnotesize
+% Set number of columns
+\begin{multicols}{3}
+
+% Multicol parameters
+% These lengths are set only within the two main columns
+\setlength{\columnseprule}{0.25pt}
+\setlength{\premulticols}{1pt}
+\setlength{\postmulticols}{1pt}
+\setlength{\multicolsep}{1pt}
+\setlength{\columnsep}{2pt}
+
+% -----------------------------------------------------------------------
+% Document content
+% -----------------------------------------------------------------------
+
+\begin{center}
+     \Large{\bf{Tmux Cheat Sheet}} \\
+\end{center}
+
+Toutes les fonctions list\'ees ci dessous doivent \^etre pr\'ec\'ed\'ee de la combinaison de touches Ctrl+b
+
+\section{Commandes}
+\cm{tmux}{Lancer tmux}
+\cm{tmux a}{Se rattacher \`a une session}
+
+\section{Gestion des fen\^etres}
+\cm{c}{Cr\'eer une nouvelle fen\^etres}
+\cm{w}{Obtenir la liste des fen\^etres ouvertes}
+\cm{n}{Se d\'eplacer sur la fen\^etres suivante}
+\cm{p}{Se d\'eplacer sur la fen\^etres pr\'ec\'edente}
+\cm{l}{Se d\'eplacer sur l'avant derni\`ere fen\^etres utilis\'ee}
+\cm{[0-9]}{Se d\'eplacer sur une fen\^etres en fonction de son num\'ero}
+\cm{f \textit{nom}}{Faire une recherche dans les buffers des fen\^etres}
+\cm{'}{Renommer la fen\^etres en cours}
+\cm{\&}{Forcer la fermeture d'une fen\^etres}
+\cm{t}{Afficher l'heure}
+\columnbreak
+
+\section{Split}
+\cm{"}{D\'ecouper horizontalement l'\'ecran}
+\cm{\%}{D\'ecouper verticalement l'\'ecran}
+\cm{\{}{Se d\'eplacer sur le volet pr\'ec\'edent}
+\cm{\} \textit{ou} o}{Se d\'eplacer sur le volet suivant}
+\cm{$\leftarrow$ $\rightarrow$ $\uparrow$ $\downarrow$}{Se d\'eplacer sur le volet correspondant \`a la touche}
+\cm{q}{Obtenir les num\'eros des volets}
+\cm{$\sqcup$}{Changer l'organisation visuelle des volets}
+\cm{Alt+($\leftarrow$ $\rightarrow$ $\uparrow$ $\downarrow$)}{Agrandir une r\'eduire un volet}
+\cm{!}{Convertir un volet d'un split en fen\^etre}
+\cm{:joinp -h -s 0.0 -p 75}{Convertir une fen\^etre pour int\'egration dans un split}
+$\bullet$ -h : horizontalement \\
+$\bullet$ -s 0.0 : fen\^etre 0 et volet 0\\
+$\bullet$ -p 75 : occupation \`a 75\% de la fen\^etre
+
+
+\section{L'historique}
+\cm{$\Uparrow$ (PageUP)}{Remonter dans l'historique}
+\cm{$\Downarrow$ (PageDOWN)}{Descendre dans l'historique apr\`es \^etre remont\'e}
+\cm{$\sqcup$ \textit{puis}($\uparrow$ $\downarrow$)}{S\'electionner des lignes de l'historique (apr\`es $\Uparrow$)}
+\cm{$\hookleftarrow$}{Copier la s\'election}
+\cm{=}{Coller la s\'election}
+\columnbreak
+
+\section{Session}
+\cm{d}{D\'etachement de session tmux}
+\cm{s}{Lister les sessions tmux}
+\cm{(}{Basculer \`a la session tmux suivante}
+\cm{)}{Basculer \`a la session tmux pr\'ec\'edente}
+
+% Autor
+\rule{0.3\linewidth}{0.25pt}
+\section{Auteur}
+\href{mailto:pierre@mavro.fr}{Pierre Mavro (Deimosfr)} \\
+\url{http://www.mavro.fr} $\cdot$ \url{http://www.deimos.fr}
+
+% You can even have references
+\rule{0.3\linewidth}{0.25pt}
+\scriptsize
+\bibliographystyle{abstract}
+\bibliography{refFile}
+\url{http://tmux.sourceforge.net/}
+\url{http://myhumblecorner.wordpress.com/2011/08/30/screen-to-tmux-a-humble-quick-start-guide/}
+\url{http://blog.hawkhost.com/2010/06/28/tmux-the-terminal-multiplexer/}
+\url{http://blog.hawkhost.com/2010/07/02/tmux-\%E2\%80\%93-the-terminal-multiplexer-part-2/}
+\url{http://www.dayid.org/os/notes/tm.html}
+\end{multicols}
+\end{document}
