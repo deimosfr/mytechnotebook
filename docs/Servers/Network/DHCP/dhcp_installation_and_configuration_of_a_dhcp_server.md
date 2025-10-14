@@ -1,5 +1,4 @@
----
-title: "DHCP: Installation and Configuration of a DHCP Server"
+htmltitle: "DHCP: Installation and Configuration of a DHCP Server"
 slug: dhcp-installation-and-configuration-of-a-dhcp-server/
 description: "Guide to installing and configuring DHCP servers on various operating systems including Debian, FreeBSD, OpenBSD, NetBSD, and Red Hat."
 categories: ["Debian", "FreeBSD", "Red Hat"]
