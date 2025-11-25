@@ -286,9 +286,8 @@ Here is a configuration with only 2 nodes (not perfect because of the missing Qo
       # Enable replication with auto-failover
       replication:
         enabled: true
-        probesEnabled: true
         primary:
-          automaticFailover: true
+          autoFailover: true
       # Number of replicas with even number of replicas (here 2)
       replicas: 2
       replicasAllowEvenNumber: true
@@ -635,5 +634,5 @@ kubectl logs -n mariadb-operator -l app.kubernetes.io/name=mariadb-operator
 
 ## Resources
 
-- [MariaDB Operator: all available configuration options](https://github.com/mariadb-operator/mariadb-operator/blob/main/docs/API_REFERENCE.md)
+- [MariaDB Operator: all available configuration options](https://github.com/mariadb-operator/mariadb-operator/blob/main/docs/api_reference.md)
 - [Configurations examples](https://github.com/mariadb-operator/mariadb-operator/tree/main/examples)
