@@ -660,3 +660,9 @@ Check for failed resources:
 ```bash
 kubectl get <crd-kind> -o jsonpath='{.items[?(@.status.conditions[0].status=="False")].metadata.name}'
 ```
+
+
+To force a delete of a finalizer with buil-in or CRDs:
+```bash
+kubectl patch -n <namespace> <service_kind> <service_name> grant -p '{"metadata":{"finalizers":null}}' --type=merge
+```
