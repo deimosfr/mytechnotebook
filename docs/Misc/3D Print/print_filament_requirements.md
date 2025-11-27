@@ -4,7 +4,6 @@ slug: print-filament-material-guide/
 description: '3D Print filament material guide'
 categories: ['3D Print']
 tags: ['3D Print']
-date: '2025-07-18T21:36:09+02:00'
 ---
 
 ## Introduction
