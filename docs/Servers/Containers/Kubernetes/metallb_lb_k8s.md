@@ -27,7 +27,7 @@ helm install metallb metallb/metallb -n kube-system --wait
 
 ## Configuration
 
-We'll take a look here at the Layer 2 configuration, similar to VRRP and [Keepalived](../High-Availability/Keep%20Alived/installation_and_configuration_of_keepalivedpound_with_failover_and_session_support.md).
+We'll take a look here at the Layer 2 configuration, similar to VRRP and [Keepalived](../../High-Availability/Keep%20Alived/installation_and_configuration_of_keepalivedpound_with_failover_and_session_support.md) in the usage but different in the implementation. It's something simpler.
 
 Create a pool of IP addresses for the load balancers:
 

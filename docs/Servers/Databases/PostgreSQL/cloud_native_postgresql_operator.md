@@ -55,7 +55,7 @@ As you can see, the password and username are base64 encoded. You can use the fo
 echo -n "postgres" | base64
 ```
 
-And then set the cluster configuration with [MetalLB service](../../Network/metallb_lb_k8s.md):
+And then set the cluster configuration with [MetalLB service](../../Containers/Kubernetes/metallb_lb_k8s.md):
 
 === "cluster.yaml"
 

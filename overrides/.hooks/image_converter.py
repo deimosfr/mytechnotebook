@@ -44,7 +44,11 @@ import os
 import logging
 from pathlib import Path
 from PIL import Image
-import pillow_avif  # This registers the AVIF format with Pillow
+try:
+    import pillow_avif  # This registers the AVIF format with Pillow
+except ImportError:
+    pillow_avif = None
+
 
 log = logging.getLogger("mkdocs.hooks.image_converter")
 
@@ -78,6 +82,10 @@ def on_pre_build(config):
 
     if not source_dir.exists():
         log.warning(f"Source directory {source_dir} does not exist")
+        return
+
+    if pillow_avif is None:
+        log.warning("pillow-avif-plugin not installed. Skipping AVIF conversion.")
         return
 
     for file in source_dir.glob('**/*'):

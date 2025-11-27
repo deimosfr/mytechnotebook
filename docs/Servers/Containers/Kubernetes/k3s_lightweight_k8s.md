@@ -54,7 +54,7 @@ curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC="--kubelet-arg 'config=/etc/ranc
 - `disable-network-policy` required by Cilium.
 - `disable=traefik` you can keep it, but I prefer letting [Qovery](https://qovery.com/) handle the ingress with Nginx.
 - `disable=metrics-server` same here, I prefer using [Qovery](https://qovery.com/) for the metrics.
-- `disable servicelb` we'll use [metallb](../../Network/metallb_lb_k8s.md) for the load balancer.
+- `disable servicelb` we'll use [metallb](./metallb_lb_k8s.md) for the load balancer.
 - `bind-address=0.0.0.0` is used to bind the kubelet to all interfaces.
 
 ## Graceful shutdown
