@@ -4,19 +4,9 @@ slug: dnsmasq-and-dhclient-use-a-specific-dns-for-a-specific-domain/
 description: "Configure dnsmasq and dhclient to use a specific DNS server for a specific domain, allowing you to resolve local domain names from different networks."
 categories: ["Debian", "Linux"]
 date: "2014-07-27T13:41:00+02:00"
-lastmod: "2014-07-27T13:41:00+02:00"
 tags: ["Servers", "DNS", "Networking", "DHCP"]
 render_macros: false
 ---
-
-
-| | |
-|------------|--------------------------|
-| Software version | isc-dhcp-client 4.3.0 dnsmasq 2.71 |
-| Operating System | Debian 8 |
-| Website | [Debian Website](https://www.debian.org) |
-| Last Update | 27/07/2014 |
-
 
 ## Introduction
 
@@ -64,4 +54,5 @@ prepend domain-name-servers 127.0.0.1;
 
 This will force the first "nameserver" line in resolv.conf to be 127.0.0.1. To finish, restart the dhclient service to have this new version working.
 
-{{< alert context="info" text="On RedHat OS like, you may need to add this line \"PEERDNS=yes\" in your network configuration file" />}}
+!!! tip
+    On RedHat OS like, you may need to add this line ```"PEERDNS=yes"``` in your network configuration file

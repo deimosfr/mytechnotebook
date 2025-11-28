@@ -36,6 +36,7 @@ helm install cilium cilium/cilium --version 1.18.4 -n kube-system --wait
 ## Configuration
 
 Here is a custom configuration I'm using to support:
+
 1. Load Balancing Layer 7 with envoy
 2. Gateway API
 3. Hubble
@@ -70,8 +71,6 @@ Here is a custom configuration I'm using to support:
     gatewayAPI:
       enabled: true
       enableProxyProtocol: true
-      hostNetwork:
-        enabled: true
 
     # L7 support
     envoy:
@@ -103,7 +102,7 @@ Here is a custom configuration I'm using to support:
       relay:
         enabled: true
       ui:
-      enabled: true
+        enabled: true
     ```
 
 You can apply the configuration with:
