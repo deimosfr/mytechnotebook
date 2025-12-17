@@ -55,6 +55,8 @@ Variants:
 ???+ note # collapsable and expanded
 ```
 
+More info: [Admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)
+
 ## Tabs
 
 ```
