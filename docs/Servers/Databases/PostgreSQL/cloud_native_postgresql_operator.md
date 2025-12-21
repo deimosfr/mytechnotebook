@@ -149,3 +149,141 @@ As you can see, multiple services:
 - `pg-cluster-ro` Points to the replicas, where available (read-only).
 - `pg-cluster-rw` Points to the primary instance of the cluster (read/write).
 - `pg-cluster-rw-lb` is the load balancer service we've set earlier
+
+## CLI
+
+The CloudNativePG operator provides a CLI tool to manage your PostgreSQL clusters!!! This is a must have tool to manage your clusters. It allows you to manage its lifecycle, backup, restore, etc.
+
+To install the CLI, you can use the following command:
+
+```bash
+kubectl krew install cnpg
+```
+
+Then, you can check your cluster status for example:
+
+```bash
+$ kubectl cnpg -n databases status pg-cluster
+
+Cluster Summary
+Name                     databases/pg-cluster
+System ID:               7584493819456610323
+PostgreSQL Image:        ghcr.io/cloudnative-pg/postgresql:18.1-system-trixie
+Primary instance:        pg-cluster-1
+Primary promotion time:  2025-12-16 16:29:45 +0000 UTC (126h11m10s)
+Status:                  Cluster in healthy state 
+Instances:               2
+Ready instances:         2
+Size:                    160M
+Current Write LSN:       0/9000000 (Timeline: 1 - WAL File: 000000010000000000000009)
+
+Continuous Backup status (Barman Cloud Plugin)
+ObjectStore / Server name:      postgres-backup-s3/pg-cluster
+First Point of Recoverability:  -
+Last Successful Backup:         -
+Last Failed Backup:             -
+Working WAL archiving:          OK
+WALs waiting to be archived:    0
+Last Archived WAL:              000000010000000000000008   @   2025-12-21T21:05:07.539965Z
+Last Failed WAL:                000000010000000000000006   @   2025-12-21T21:04:59.898354Z
+
+Streaming Replication status
+Replication Slots Enabled
+Name          Sent LSN   Write LSN  Flush LSN  Replay LSN  Write Lag  Flush Lag  Replay Lag  State      Sync State  Sync Priority  Replication Slot
+----          --------   ---------  ---------  ----------  ---------  ---------  ----------  -----      ----------  -------------  ----------------
+pg-cluster-2  0/9000000  0/9000000  0/9000000  0/9000000   00:00:00   00:00:00   00:00:00    streaming  async       0              active
+
+Instances status
+Name          Current LSN  Replication role  Status  QoS        Manager Version  Node
+----          -----------  ----------------  ------  ---        ---------------  ----
+pg-cluster-1  0/9000000    Primary           OK      Burstable  1.28.0           node1.mycompany.com
+pg-cluster-2  0/9000000    Standby (async)   OK      Burstable  1.28.0           node2.mycompany.com
+
+Plugins status
+Name                            Version  Status  Reported Operator Capabilities
+----                            -------  ------  ------------------------------
+barman-cloud.cloudnative-pg.io  0.9.0    N/A     Reconciler Hooks, Lifecycle Service
+```
+
+## Backups
+
+With CloudNativePG, backups are managed by a third party tool called [Barman Cloud Plugin](https://cloudnative-pg.io/plugin-barman-cloud/docs/intro/). We'll see here how to perform backups with PITR (Point In Time Recovery) on an [Object Storage](../../File%20Sharing/Object%20Storage/index.md) and we'll take [Garage](../../File%20Sharing/Object%20Storage/garage.md) as an example.
+
+Installation is simple:
+
+```bash
+helm repo add cloudnative-pg https://cloudnative-pg.io/charts/
+helm install plugin-barman-cloud cloudnative-pg/plugin-barman-cloud
+```
+
+Then we'll start to configure it. So first, we'll add a configuration explaining how backups will be made with S3:
+
+=== "postgres-backup-s3.yaml"
+
+    ```yaml
+    apiVersion: barmancloud.cnpg.io/v1
+    kind: ObjectStore
+    metadata:
+      name: postgres-backup-s3
+    spec:
+      # the retention policy
+      retentionPolicy: "30d"
+      configuration:
+        # the folder inside the bucket where backups will be stored
+        destinationPath: s3://backups-postgres
+        # the URL endpoint
+        endpointURL: http://garage.<namespace>.svc:3900
+        s3Credentials:
+          # the secret containing the credentials
+          accessKeyId:
+            name: postgres-backup-s3-secrets
+            key: ACCESS_KEY_ID
+          secretAccessKey:
+            name: postgres-backup-s3-secrets
+            key: ACCESS_SECRET_KEY
+        wal:
+          compression: gzip
+    ```
+
+Now the secret containing the credentials:
+
+=== "postgres-backup-s3-secrets.yaml"
+
+    ```yaml
+    apiVersion: v1
+    kind: Secret
+    metadata:
+      name: postgres-backup-s3-secrets
+    stringData:
+      # set the access key ID
+      ACCESS_KEY_ID: <access-key-id>
+      # set the access secret key
+      ACCESS_SECRET_KEY: <access-secret-key>
+    ```
+
+Now the configuration is correct. We need to apply it to an existing cluster in the `spec` section of the cluster configuration:
+
+=== "cluster.yaml"
+
+    ```yaml
+    apiVersion: postgresql.cnpg.io/v1
+    kind: Cluster
+    metadata:
+      name: pg-cluster
+    spec:
+      ...
+      # other configurations...
+      plugins:
+      - name: barman-cloud.cloudnative-pg.io
+        isWALArchiver: true
+        parameters:
+          barmanObjectName: postgres-backup-s3
+    ```
+
+Now apply the configuration:
+
+```bash
+kubectl apply -f cluster.yaml -f postgres-backup-s3.yaml -f postgres-backup-s3-secrets.yaml
+```
+
+You should see the cluster WAL coming into the S3 bucket.
