@@ -623,6 +623,82 @@ You can find the credentials inside the secret `maxscale-repl-admin` and use the
 
 ![MaxScale admin GUI config](../../../static/images/maxscale_gui_config.avif)
 
+## Backups
+
+With MariaDB Operator, you can easily backup your MariaDB instance with [Logicial or Physical backups](https://github.com/mariadb-operator/mariadb-operator/tree/main/docs#backup-and-restore).
+
+!!! note "Physical backups"
+    
+    Physical backups are recommended for production environments, however they have some requirements like accessible storage from the MariaDB instance a backup job at the same time which may be incompatible with your StorageClass like [LVM](../../Containers/Kubernetes/use_local_storage_with_openebs.md).
+
+Due to this limitation, we're going to use Logical backups for this example (equivalent to [`mariadb-dump`](https://mariadb.com/docs/server/clients-and-utilities/backup-restore-and-import-clients/mariadb-dump) or `mysqldump`).
+
+Physical and Logical backups are very similar in their configuration. We'll see here how to manage it with an [Object Storage](../../File%20Sharing/Object%20Storage/index.md). In this case, we'll use [Garage](../../File%20Sharing/Object%20Storage/garage.md).
+
+Create a secret file to store your Garage credentials:
+
+=== "mariadb-backup-s3.yaml"
+
+    ```yaml
+    apiVersion: v1
+    kind: Secret
+    metadata:
+      name: mariadb-backup-s3
+      labels:
+        k8s.mariadb.com/watch: ""
+    stringData:
+      access-key-id: YOUR_ACCESS_KEY
+      secret-access-key: YOUR_SECRET_KEY
+    ```
+
+And then the configuration file to perform backups:
+
+=== "backup-config.yaml"
+
+    ```yaml
+    apiVersion: k8s.mariadb.com/v1alpha1
+    kind: Backup
+    metadata:
+      name: mariadb-backups
+    spec:
+      mariaDbRef:
+        name: mariadb
+      # define your prefered schedule time
+      schedule:
+        cron: "0 5,13,22 * * *"
+        suspend: false
+      # define your retention time (can't be change later)
+      maxRetention: 720h # 30 days
+      # define your compression method
+      compression: gzip
+      storage:
+        s3:
+          bucket: backups-mariadb
+          prefix: mariadb
+          # your S3 endpoint
+          endpoint: garage.<namespace>.svc:3900
+          # your S3 region
+          region: us-east-1
+          # your S3 access key id
+          accessKeyIdSecretKeyRef:
+            name: mariadb-backup-s3
+            key: access-key-id
+          # your S3 secret access key
+          secretAccessKeySecretKeyRef:
+            name: mariadb-backup-s3
+            key: secret-access-key
+          # tls if your S3 endpoint is not using http
+          tls:
+            enabled: false
+    ```
+
+Deploy the backup configuration with:
+
+```bash
+kubectl apply -f mariadb-backup-s3.yaml -f backup-config.yaml
+```
+
+Later on, you'll see jobs completed and your backups stored in your S3 bucket.
 
 ## Troubleshooting
 
