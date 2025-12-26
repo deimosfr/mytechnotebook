@@ -212,7 +212,7 @@ Here is what you have to update:
 
 I personnaly use Gateway API to expose the web ui, but you can use Ingress or NodePort if you prefer. Now you can look at the web ui at [http://garage.mydomain.com](http://garage.mydomain.com):
 
-![Garage Web UI dashboard](../../static/images/garage_dashboard_unavailable.avif)
+![Garage Web UI dashboard](../../../static/images/garage_dashboard_unavailable.avif)
 
 You should see "Unavailable" status, and one connected node. This is normal, as we only have one node.
 
@@ -220,7 +220,7 @@ You should see "Unavailable" status, and one connected node. This is normal, as 
 
 Now go into the "Cluster" tab, you should see the node ID in "Active" status. Now we can assign a new partition:
 
-![Garage Web UI assign node capacity](../../static/images/garage_assign_node.avif)
+![Garage Web UI assign node capacity](../../../static/images/garage_assign_node.avif)
 
 1. Click on "Assign"
 2. Set the Zone
@@ -246,19 +246,19 @@ us-east-1           Tags  Partitions        Capacity  Usable capacity
 
 If you look into the dashboard, you should see "Healthy" status:
 
-![Garage Web UI dashboard](../../static/images/garage_dashboard_ok.avif)
+![Garage Web UI dashboard](../../../static/images/garage_dashboard_ok.avif)
 
 ### Create a bucket
 
 Now go into the "Buckets" tab and click on "Create bucket", then name it:
 
-![Garage Web UI create bucket](../../static/images/garage_create_bucket.avif)
+![Garage Web UI create bucket](../../../static/images/garage_create_bucket.avif)
 
 ### Create a key
 
 Go into "Keys" tab and click on "Create key", then name it:
 
-![Garage Web UI create key](../../static/images/garage_create_key.avif)
+![Garage Web UI create key](../../../static/images/garage_create_key.avif)
 
 You can then see the Key ID and Secret key.
 
@@ -266,7 +266,7 @@ You can then see the Key ID and Secret key.
 
 If you click on "Manage" on a bucket, you'll be able to set quotas, website access and permissions. Click on the "Permissions" tab and "Allow key". Then add the permissions you wish and click on "Submit".
 
-![Garage Web UI manage bucket permissions](../../static/images/garage_bucket_permissions.avif)
+![Garage Web UI manage bucket permissions](../../../static/images/garage_bucket_permissions.avif)
 
 ## API exposure
 
