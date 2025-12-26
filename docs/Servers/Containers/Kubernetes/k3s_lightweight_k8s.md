@@ -93,24 +93,22 @@ Then create a systemd service to run it on reboot/shutdown:
     ```ini
     [Unit]
     Description=Drain K3s node before shutdown
-    DefaultDependencies=no
-    # Run before k3s stops and before shutdown sequence
-    Before=k3s.service shutdown.target reboot.target halt.target
-    # Ensure k3s is still running when we try to drain
-    After=network-online.target
+    # Start after k3s, and stops before k3s stops (systemd reverse dependency logic)
+    After=k3s.service
     Requires=k3s.service
-    # Only run on shutdown
-    Conflicts=shutdown.target reboot.target halt.target
 
     [Service]
     Type=oneshot
-    ExecStart=/usr/local/bin/k3s-node-drain.sh
-    TimeoutStartSec=300
-    # Continue even if the script fails, we don't want to block a reboot
-    SuccessExitStatus=0 1
+    RemainAfterExit=yes
+    Environment=KUBECONFIG=/etc/rancher/k3s/k3s.yaml
+    # Dummy start command as we only care about stop action
+    ExecStart=/bin/true
+    # The actual drain happens on stop
+    ExecStop=/usr/local/bin/k3s-node-drain.sh
+    TimeoutStopSec=300
 
     [Install]
-    WantedBy=shutdown.target reboot.target halt.target
+    WantedBy=multi-user.target
     ```
 
 Finally set execution permissions and enable the service:
