@@ -74,12 +74,14 @@ More info: [Admonitions](https://squidfunk.github.io/mkdocs-material/reference/a
 === "C++"
 
     ``` c++
+    {% raw %}
     #include <iostream>
 
     int main(void) {
       std::cout << "Hello world!" << std::endl;
       return 0;
     }
+    {% endraw %}
     ```
 ```
 

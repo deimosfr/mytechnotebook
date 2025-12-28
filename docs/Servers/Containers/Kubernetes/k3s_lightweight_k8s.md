@@ -124,3 +124,92 @@ You can now reboot the server and see that pods are gracefully shutdown:
 ```bash
 kubectl get po --watch
 ```
+
+## TLS SAN
+
+You can add additional SAN to the k3s certificate with the following configuration:
+
+=== "/etc/rancher/k3s/kubelet.config"
+
+    ```yaml
+    extraSan:
+    - my_new_ip
+    - my.local.domain
+    - my.external.domain
+    ```
+
+This will help you to get the certificate working with your local domain and external domain. It starts to be useful when you want to use a load balancer in front of your API cluster, so redirection to any API server will be valid.
+
+### Load balanced Kubernetes API
+
+To get the API load balancing working, you can use [metallb](./metallb_lb_k8s.md) or [Cilium L2 Advertisment](./cilium.md). We'll see here how to do it with Cilium L2 (it's just the annotation changing).
+
+By default Kubernetes provides a `kubernetes` service in the `default` namespace with `endpoints` resources generated Kubernetes itself. Unfortunately we can't use this service to get the API load balancing working. We have to create our own endpoints.
+
+Here we're going to use Helm to simplify the process and generate endpoints based on the original `kubernetes` service:
+
+=== "kubernetes-api-ha.yaml"
+
+    ```yaml
+    {% raw %}
+    apiVersion: v1
+    kind: Service
+    metadata:
+    name: kubernetes-api-ha
+    namespace: default
+    annotations:
+        # set the IP you want to use for the load balancer
+        lbipam.cilium.io/ips: "x.x.x.x"
+    spec:
+    type: LoadBalancer
+    internalTrafficPolicy: Cluster
+    ports:
+    - name: https
+        port: 443
+        protocol: TCP
+        targetPort: 6443
+    ---
+    apiVersion: v1
+    kind: Endpoints
+    metadata:
+    name: kubernetes-api-ha
+    namespace: default
+    {{- $apiEndpoints := (lookup "v1" "Endpoints" "default" "kubernetes") }}
+    {{- $ips := list }}
+    {{- if $apiEndpoints }}
+    {{- range $subset := $apiEndpoints.subsets }}
+        {{- range $address := $subset.addresses }}
+        {{- $ips = append $ips $address.ip }}
+        {{- end }}
+    {{- end }}
+    {{- else }}
+    {{- $ips = .Values.kubernetesApiHa.ips }}
+    {{- end }}
+    subsets:
+    - addresses:
+    {{- range $ips }}
+    - ip: {{ . }}
+    {{- end }}
+    ports:
+    - port: 6443
+        name: https
+        protocol: TCP
+    {% endraw %}
+    ```
+
+Update the `lbipam.cilium.io/ips` annotation with the IP you want to use for the load balancer. Then when you deploy it, Cilium will create a load balancer with the IP you specified and the endpoints will be the same as the original `kubernetes` service.
+
+Then update your kubeconfig to use the load balancer IP with the load balanced IP you've selected above:
+
+=== "~/.kube/config"
+
+    ```yaml
+    {% raw %}
+    apiVersion: v1
+    kind: Config
+    clusters:
+    - name: k3s
+        cluster:
+        server: https://x.x.x.x
+    {% endraw %}
+    ```
