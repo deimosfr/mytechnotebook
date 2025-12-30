@@ -261,7 +261,7 @@ Now the secret containing the credentials:
       ACCESS_SECRET_KEY: <access-secret-key>
     ```
 
-Now the configuration is correct. We need to apply it to an existing cluster in the `spec` section of the cluster configuration:
+Now the configuration is correct. We need to apply it to an existing cluster in the `spec` section of the cluster configuration for WAL archiving:
 
 === "cluster.yaml"
 
@@ -280,10 +280,29 @@ Now the configuration is correct. We need to apply it to an existing cluster in 
           barmanObjectName: postgres-backup-s3
     ```
 
+And finally, setup the backup scheduling:
+
+=== "backup-schedule.yaml"
+
+    ```yaml
+    apiVersion: postgresql.cnpg.io/v1
+    kind: ScheduledBackup
+    metadata:
+      name: postgres-backup-s3
+    spec:
+      cluster:
+        name: pg-cluster
+      schedule: '0 23 * * *'
+      backupOwnerReference: self
+      method: plugin
+      pluginConfiguration:
+        name: barman-cloud.cloudnative-pg.io
+    ```
+
 Now apply the configuration:
 
 ```bash
-kubectl apply -f cluster.yaml -f postgres-backup-s3.yaml -f postgres-backup-s3-secrets.yaml
+kubectl apply -f cluster.yaml -f postgres-backup-s3.yaml -f postgres-backup-s3-secrets.yaml -f backup-schedule.yaml
 ```
 
 You should see the cluster WAL coming into the S3 bucket.
