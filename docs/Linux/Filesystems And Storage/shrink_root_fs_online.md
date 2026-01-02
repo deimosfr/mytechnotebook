@@ -6,7 +6,7 @@ categories: ["Linux", "CentOS", "Debian"]
 tags: ["resize", "filesystem", "pivot_root", "tmpfs"]
 ---
 
-Shrinking a root filesystem usually requires unmounting it, which is impossible while the operating system is running from it. The standard solution is to boot from a LiveCD/USB or [using an initramfs hook](./shrink_root_fs_with_initramfs.md). However, for remote servers (VPS, Cloud Instances) or headless devices without easy physical access, this isn't always an option.
+Shrinking a root filesystem usually requires unmounting it, which is impossible while the operating system is running from it. The standard solution is to boot from a LiveCD/USB or [using an initramfs hook](./shrink_root_fs_with_initramfs_hook.md). However, for remote servers (VPS, Cloud Instances) or headless devices without easy physical access, this isn't always an option.
 
 This guide demonstrates a technique to "pivot" the root filesystem into a temporary RAM disk (`tmpfs`), allowing you to unmount the physical root device and resize it safely on a live system.
 
