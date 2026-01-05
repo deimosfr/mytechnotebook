@@ -52,6 +52,9 @@ modprobe dm_thin_pool
 echo dm_thin_pool >> /etc/modules-load.d/dm_thin_pool.conf
 ```
 
+!!! tips
+    Depending on your usage, observe and [grow your thinpool](#troubleshooting) as needed
+
 ## Deploy OpenEBS
 
 To deploy OpenEBS, you need to install the OpenEBS operator. First let's create a custom override values file:
@@ -240,6 +243,18 @@ $ lvs
 ```
 
 ## Troubleshooting
+
+### LVM Thinpool too low
+
+If you're getting thinpool issues because the thinpool runned out of space, you have to grow it. Unfortunately, this is not possible with OpenEBS or directly with Kubernetes. You have to grow the LVM thinpool manually (or automate it with tools like [Ansible](../../Configuration%20Managers/ansible-powerful-agentless-configuration-management.md) or use a workaround with a `Daemonset` in `privileged mode`).
+
+To manually grow the thinpool, you can use the following command:
+
+```bash
+lvextend -L +XXG vg/vg_thinpool
+```
+
+Where `XX` is the amount of space you want to add to the thinpool.
 
 ### LVM volume is not found on node reboot
 
