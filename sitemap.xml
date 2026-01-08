@@ -2649,14 +2649,6 @@
          <lastmod>2026-01-08</lastmod>
     </url>
     <url>
-         <loc>https://wiki.deimos.fr/Servers/Network/VPN/index.html</loc>
-         <lastmod>2026-01-08</lastmod>
-    </url>
-    <url>
-         <loc>https://wiki.deimos.fr/openvpn-setting-up-openvpn-on-different-platforms/</loc>
-         <lastmod>2026-01-08</lastmod>
-    </url>
-    <url>
          <loc>https://wiki.deimos.fr/Servers/Security/index.html</loc>
          <lastmod>2026-01-08</lastmod>
     </url>
@@ -2674,10 +2666,6 @@
     </url>
     <url>
          <loc>https://wiki.deimos.fr/rkhunter-detection-of-rootkits-and-malware/</loc>
-         <lastmod>2026-01-08</lastmod>
-    </url>
-    <url>
-         <loc>https://wiki.deimos.fr/stunnel-creating-an-ssl-tunnel/</loc>
          <lastmod>2026-01-08</lastmod>
     </url>
     <url>
@@ -2722,6 +2710,22 @@
     </url>
     <url>
          <loc>https://wiki.deimos.fr/setting-up-snort-base-basic-analysis-and-security-engine/</loc>
+         <lastmod>2026-01-08</lastmod>
+    </url>
+    <url>
+         <loc>https://wiki.deimos.fr/Servers/Security/VPN%20and%20Tunnels/index.html</loc>
+         <lastmod>2026-01-08</lastmod>
+    </url>
+    <url>
+         <loc>https://wiki.deimos.fr/cloudflared-k8s/</loc>
+         <lastmod>2026-01-08</lastmod>
+    </url>
+    <url>
+         <loc>https://wiki.deimos.fr/openvpn-setting-up-openvpn-on-different-platforms/</loc>
+         <lastmod>2026-01-08</lastmod>
+    </url>
+    <url>
+         <loc>https://wiki.deimos.fr/stunnel-creating-an-ssl-tunnel/</loc>
          <lastmod>2026-01-08</lastmod>
     </url>
     <url>
