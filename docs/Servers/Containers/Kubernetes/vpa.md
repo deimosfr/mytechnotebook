@@ -286,7 +286,7 @@ sequenceDiagram
 
     You can also use Prometheus/Grafana to [visualize the recommendations](https://grafana.com/grafana/dashboards/16294-vpa-recommendations/) and make informed decisions:
 
-    ![Grafana VPA](../../static/images/grafana_vpa.avif)
+    ![Grafana VPA](../../../static/images/grafana_vpa.avif)
 4.  **Apply**:
     *   Manually update your Deployment manifests with the `Target` values.
     *   OR change `updateMode` to `Recreate` / `InPlaceOrRecreate` to let VPA handle it.
