@@ -1,5 +1,5 @@
 ---
-title: "Cilium: CNI and network configuration for Kubernetes"
+title: "Cilium: Advanced CNI and network security for Kubernetes"
 slug: cilium/
 description: "A guide to run Cilium for Kubernetes"
 categories: ["Network", "Kubernetes", "Server", "Home Lab"]
@@ -26,7 +26,7 @@ Cilium's performance advantage comes from its use of eBPF to bypass the legacy `
 
 ## Installation
 
-Installing Cilium is pretty straightforward with Helm:
+We can install Cilium easily with Helm:
 
 ```bash
 helm repo add cilium https://helm.cilium.io/
@@ -35,13 +35,13 @@ helm install cilium cilium/cilium --version 1.18.4 -n kube-system --wait
 
 ## Configuration
 
-Here is a custom configuration I'm using to support:
+Let's create a custom configuration to support:
 
-1. Load Balancing Layer 7 with envoy
-2. Gateway API
-3. Hubble
-4. L2 announcements
-5. Hubble UI
+1.  Load Balancing Layer 7 with Envoy
+2.  Gateway API
+3.  Hubble
+4.  L2 announcements
+5.  Hubble UI
 
 === "values-overrides.yaml"
 
@@ -52,6 +52,14 @@ Here is a custom configuration I'm using to support:
     kubeProxyReplacement: "true"
     socketLB:
       enabled: true
+
+    # Optional: Enable Prometheus metrics collection
+    prometheus:
+      enabled: true
+      metricsService: true
+      serviceMonitor:
+        enabled: true
+        trustCRDsExist: true
 
     # Operator
     operator:
@@ -64,6 +72,13 @@ Here is a custom configuration I'm using to support:
       nodeGCInterval: "2m0s"
       identityGCInterval: "10m0s"
       setNodeTaints: true
+      # Optional: Enable if you have a Grafana Operator to deploy dashboards
+      dashboards:
+        enabled: true
+      # Optional: Enable if you have a Prometheus Operator to scrape metrics
+      prometheus:
+        serviceMonitor:
+          enabled: true
 
     # Gateway API
     ingressController:
@@ -75,6 +90,17 @@ Here is a custom configuration I'm using to support:
     # L7 support
     envoy:
       terminationGracePeriodSeconds: 10
+      securityContext:
+        capabilities:
+          keepCapNetBindService: true
+          envoy:
+          - NET_ADMIN
+          - SYS_ADMIN
+          - NET_BIND_SERVICE
+      # Optional: Enable if you have a Prometheus Operator to scrape metrics
+      prometheus:
+        serviceMonitor:
+          enabled: true
     l7Proxy: true
     l7:
       backend: envoy
@@ -105,7 +131,7 @@ Here is a custom configuration I'm using to support:
         enabled: true
     ```
 
-You can apply the configuration with:
+We apply the configuration with:
 
 ```bash
 helm install --upgrade -n kube-system --values values-overrides.yaml cilium cilium/cilium
@@ -113,13 +139,13 @@ helm install --upgrade -n kube-system --values values-overrides.yaml cilium cili
 
 ### Layer 2 Announcements and IPAM
 
-[L2 Announcements](https://docs.cilium.io/en/stable/network/l2-announcements/) is a feature which makes services visible and reachable on the local area network. This feature is primarily intended for on-premises deployments within networks without BGP based routing such as office or campus networks. It's a good alternative to [MetalLB](./metallb_lb_k8s.md).
+[L2 Announcements](https://docs.cilium.io/en/stable/network/l2-announcements/) makes services visible and reachable on the local area network. This is primarily for on-premises deployments without BGP, serving as a solid alternative to [MetalLB](./metallb_lb_k8s.md).
 
-When used, this feature will respond to ARP queries for ExternalIPs and/or LoadBalancer IPs. These IPs are Virtual IPs (not installed on network devices) on multiple nodes, so for each service one node at a time will respond to the ARP queries and respond with its MAC address. This node will perform load balancing with the service load balancing feature, thus acting as a north/south load balancer.
+When we use this feature, it responds to ARP queries for ExternalIPs and/or LoadBalancer IPs. These IPs are Virtual IPs (not installed on network devices) on multiple nodes. One node at a time will respond to the ARP queries with its MAC address, performing load balancing as a north/south load balancer.
 
-The advantage of this feature over NodePort services is that each service can use a unique IP so multiple services can use the same port numbers. When using NodePorts, it is up to the client to decide to which host to send traffic, and if a node goes down, the IP+Port combo becomes unusable. With L2 announcements the service VIP simply migrates to another node and will continue to work.
+The advantage over NodePort services is that each service can use a unique IP, allowing multiple services to use the same port numbers. With L2 announcements, if a node goes down, the service VIP simply migrates to another node and continues to work.
 
-You can control the IP pool with [LoadBalancer IP Address Management (IPAM)](https://docs.cilium.io/en/stable/network/lb-ipam/#loadbalancer-ip-address-management-lb-ipam):
+We can control the IP pool with [LoadBalancer IP Address Management (IPAM)](https://docs.cilium.io/en/stable/network/lb-ipam/#loadbalancer-ip-address-management-lb-ipam):
 
 === "ippool.yaml"
 
@@ -134,7 +160,7 @@ You can control the IP pool with [LoadBalancer IP Address Management (IPAM)](htt
         stop: "192.168.0.240"
     ```
 
-Then create a layer 2 configuration with the interfaces you want IPs to be announced on (from the hosts network interfaces):
+Then create a layer 2 configuration with the interfaces we want IPs to be announced on (from the hosts network interfaces):
 
 === "l2advertisement.yaml"
 
@@ -153,7 +179,7 @@ Then create a layer 2 configuration with the interfaces you want IPs to be annou
       - ^ens[0-9]+$
     ```
 
-In the Helm chart values, you need to have the following configuration(same as the `values-overrides.yaml` above):
+In the Helm chart values, we need to have the following configuration (same as the `values-overrides.yaml` above):
 
 === "values-overrides.yaml"
 
@@ -172,7 +198,7 @@ Then apply the configuration:
 kubectl apply -n kube-system -f ippool.yaml -f l2advertisement.yaml
 ```
 
-Now if you deploy a service with as a load balancer, it will use the IP pool you defined above:
+Now if we deploy a service with as a load balancer, it will use the IP pool we defined above:
 
 === "service.yaml"
 
@@ -197,7 +223,7 @@ Now if you deploy a service with as a load balancer, it will use the IP pool you
         app: my-app
     ```
 
-Once deployed, you can check the service with:
+Once deployed, we can check the service with:
 
 ```bash
 $ kubectl get svc my-service
@@ -209,8 +235,41 @@ my-service       LoadBalancer   10.43.132.174   192.168.0.210    80:31043/TCP   
 
     ICMP is not supported by Cilium L2 announcements. You have to use arpping to check if the IP is reachable or use netcat to check if the port is open.
 
+### Network Policies
+
+Cilium implements [Network Policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/) using [CiliumNetworkPolicy](https://docs.cilium.io/en/stable/security/policy/) resources. Cilium Network Policies are more permissive than Kubernetes Network Policies, as they can apply to all pods in a cluster, not just those in a namespace. It allows you to fine grain filter traffic to and from pods.
+
+Here is an example on a Gateway API, to allow only local traffic to a service:
+
+=== "gateway.yaml"
+
+    ```yaml
+    apiVersion: "cilium.io/v2"
+    kind: CiliumNetworkPolicy
+    metadata:
+      name: allow-internal-to-gateway
+      namespace: default
+    spec:
+      endpointSelector:
+        matchLabels:
+          # Match the internal gateway
+          gateway.networking.k8s.io/gateway-name: internal-gateway
+      ingress:
+      - fromCIDR:
+        # Your local network
+        - 192.168.0.0/24
+      egress:
+      - toEntities:
+        # Allow all outgoing traffic
+        - all
+    ```
+
+!!! tip
+
+    If you're not familiar with NetworkPolicies and need assistance, you can use the [Online Network Policy Editor](https://editor.networkpolicy.io/) to generate a policy based on your requirements. You can generate native Kubernetes `NetworkPolicy` or `CiliumNetworkPolicy` objects.
+
 ## Troubleshooting
 
 ### L2 Announcements
 
-First, on the official site, you'll find [useful information](https://docs.cilium.io/en/stable/network/l2-announcements/#troubleshooting).
+On the official site, you'll find [useful information](https://docs.cilium.io/en/stable/network/l2-announcements/#troubleshooting). It's a complete procedure.
