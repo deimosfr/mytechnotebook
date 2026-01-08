@@ -1,5 +1,5 @@
 ---
-title: VPN
+title: VPN & Tunnels
 icon: simple/wireguard
 search:
   exclude: true
@@ -9,4 +9,4 @@ hide:
 
 # :{{ icon|replace("/", "-") }}: {{ title }}
 
-{{ sub_index("Servers/Network/VPN") }}
+{{ sub_index("Servers/Security/Tunnels") }}
