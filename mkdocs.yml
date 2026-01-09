@@ -12,7 +12,8 @@ theme:
   icon:
     repo: fontawesome/brands/git-alt
   font:
-    text: Lato
+    text: Lora
+    code: JetBrains Mono
   features:
     - header.autohide
     - navigation.footer
@@ -32,14 +33,14 @@ theme:
   language: en
   palette:
     - media: "(prefers-color-scheme: light)"
-      scheme: default
+      scheme: slate
       primary: blue
       accent: blue
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+      scheme: default
       primary: blue
       accent: indigo
       toggle:
@@ -98,6 +99,7 @@ markdown_extensions:
   # grids
   - attr_list
   - md_in_html
+  - pymdownx.blocks.caption
   # automatic link
   - pymdownx.magiclink
   # emoji + icons

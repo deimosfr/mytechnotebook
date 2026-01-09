@@ -23,6 +23,37 @@
     display: table;
 }
 
+/* Visual Style Utility: Gradient Border
+Transparent images have a white background
+Add a gradient border to images
+Add a shadow to images
+*/
+.gradient-border,
+.md-content article img:not(.inline) {
+    border: 15px solid transparent;
+    border-radius: 1rem;
+    background: 
+        linear-gradient(#fff, #fff) padding-box,
+        linear-gradient(135deg, #43CBFF 10%, #9708CC 100%) border-box;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Layout Style: Centered (for standard Markdown images) */
+.md-content article img:not(.inline) {
+    display: block;
+    margin: 2rem auto;
+    max-width: 80%;
+}
+
+/* Utility to disable the border style */
+.md-content article img.no-border,
+img.no-border {
+    border: none;
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
 /* admonition font size */
 .md-typeset .admonition {
     font-size: 0.8rem;

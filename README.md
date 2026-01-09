@@ -95,6 +95,18 @@ They will be automatically converted to AVIF format during the build process and
 ![Image](../../static/images/image.avif)
 ```
 
+To disable border style:
+
+```
+![Name](path_to/static/images/image.avif){ .no-border }
+```
+
+To limit width:
+
+```
+![Name](path_to/static/images/image.avif){ width=500 }
+```
+
 ## icons
 
 Icons used can be:
