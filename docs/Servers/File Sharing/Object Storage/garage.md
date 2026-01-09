@@ -6,6 +6,8 @@ categories: ["Servers", "Object Storage"]
 tags: ["Servers", "Object Storage", "Garage", "S3"]
 ---
 
+![Garage](../../../static/images/garage-logo.svg)
+
 [Garage](https://garagehq.deuxfleurs.fr/) is a lightweight S3 compatible object storage. It is a self-hosted, open-source, and easy-to-deploy solution for storing and managing large amounts of data. It is written in Rust and is available as a Docker image.
 
 I used to look into an S3 storage solution for my home lab. Something really simple, I don't need replication, high availability, or any of the other features that come with it. I just needed a simple, easy-to-use, and easy-to-manage solution. Garage was a good candidate for me.

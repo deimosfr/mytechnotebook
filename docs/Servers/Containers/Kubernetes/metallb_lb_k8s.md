@@ -6,6 +6,8 @@ categories: ["Network", "Kubernetes", "Server", "Home Lab"]
 tags: ["Kubernetes", "MetalLB", "Load Balancer", "Home Lab"]
 ---
 
+![MetalLB](../../../static/images/metal_lb_logo.avif)
+
 ## Introduction
 
 [MetalLB](https://metallb.io/) hooks into your Kubernetes cluster, and provides a network load-balancer implementation. In short, it allows you to create Kubernetes services of type LoadBalancer in clusters that don’t run on a cloud provider, and thus cannot simply hook into paid products to provide load balancers.

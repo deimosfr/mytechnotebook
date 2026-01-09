@@ -6,6 +6,8 @@ categories: ["Storage", "OpenEBS", "Kubernetes", "Home Lab", "LVM", "ZFS"]
 tags: ["Storage", "OpenEBS", "Kubernetes", "Home Lab", "LVM", "ZFS"]
 ---
 
+![OpenEBS](../../../static/images/openebs_logo.avif)
+
 ## Introduction
 
 [OpenEBS](https://openebs.io/) is a storage solution for Kubernetes. It is a lightweight, open-source project that provides a storage solution for Kubernetes.

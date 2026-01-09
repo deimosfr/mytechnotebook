@@ -6,6 +6,8 @@ categories: ["Network", "Kubernetes", "Server", "Home Lab"]
 tags: ["Kubernetes", "Cilium", "CNI", "Network", "Home Lab"]
 ---
 
+![Cilium](../../../static/images/cilium_logo.avif)
+
 ## Introduction
 
 [Cilium](https://cilium.io/) is an open-source project that provides networking, security, and observability for cloud-native environments such as Kubernetes clusters and other container orchestration platforms.

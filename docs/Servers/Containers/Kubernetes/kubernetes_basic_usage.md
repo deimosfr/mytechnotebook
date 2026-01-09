@@ -6,6 +6,8 @@ categories: ["Kubernetes"]
 tags: ["Kubernetes"]
 ---
 
+![Kubernetes](../../../static/images/kubernetes_logo.svg){ width=500 }
+
 ## Introduction
 
 [Kubernetes](https://kubernetes.io/) is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. This guide covers the essential concepts and commands for working with Kubernetes using kubectl, the command-line interface for Kubernetes.

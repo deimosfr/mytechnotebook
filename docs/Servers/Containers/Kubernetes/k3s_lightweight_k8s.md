@@ -6,6 +6,8 @@ categories: ["Kubernetes", "Server", "Home Lab"]
 tags: ["Kubernetes", "K3s", "Home Lab"]
 ---
 
+![K3s](../../../static/images/k3s_logo.avif)
+
 ## Introduction
 
 [K3s](https://k3s.io/) is a lightweight Kubernetes distribution that is designed to be easy to install and use. It is a great way to run a Kubernetes cluster in a home lab.

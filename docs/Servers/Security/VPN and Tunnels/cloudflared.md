@@ -6,6 +6,8 @@ categories: ["Kubernetes", "Network", "Security"]
 tags: ["Kubernetes", "Cloudflare", "Tunnel", "Security"]
 ---
 
+![Cloudflared](../../../static/images/cloudflare_logo.avif){ .title }
+
 ## Introduction
 
 [Cloudflared](https://github.com/cloudflare/cloudflared) is the magic wand for exposing our local services to the world securely. It creates a private tunnel from our Kubernetes cluster directly to the Cloudflare network.

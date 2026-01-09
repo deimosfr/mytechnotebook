@@ -9,4 +9,4 @@ hide:
 
 # :{{ icon|replace("/", "-") }}: {{ title }}
 
-{{ sub_index("Servers/Security/Tunnels") }}
+{{ sub_index("Servers/Security/VPN and Tunnels") }}
