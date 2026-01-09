@@ -6,6 +6,8 @@ categories: ["Kubernetes", "Autoscaling"]
 tags: ["Kubernetes", "Vertical Pod Autoscaler"]
 ---
 
+![VPA](../../../static/images/k8s_vpa.avif){ .title }
+
 ## Introduction
 
 The [Vertical Pod Autoscaler (VPA)](https://kubernetes.io/docs/concepts/workloads/autoscaling/vertical-pod-autoscaler/) frees you from the need to manually set up CPU and memory requests and limits for your containers. It automatically adjusts these values based on historical usage analysis to "right-size" your pods.
