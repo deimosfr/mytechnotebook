@@ -8,15 +8,6 @@ lastmod: "2015-02-26T06:57:00+02:00"
 tags: ["Solaris", "Development", "Linux", "Security", "Encryption"]
 ---
 
-
-| | |
-|------|------|
-| Software version | 1.0.1k |
-| Operating System | 8 |
-| Website | [Debian Website](https://www.debian.org) |
-| Last Update | 26/02/2015 |
-
-
 ## Introduction
 
 A public key infrastructure (PKI)[^1] is a set of hardware, software, people, policies, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates.
