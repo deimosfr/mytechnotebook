@@ -157,22 +157,6 @@ Then deploy the configuration:
 kubectl apply -f cluster-issuer.yaml cloudflare-api-token-secret.yaml
 ```
 
-At this point, cert-manager should be ready to issue certificates for your domains. You can validate that the ClusterIssuer is ready by running:
-
-```bash
-$ kubectl get clusterissuers -o wide
-NAME                        READY   STATUS                                                 AGE
-cloudflare-letsencrypt      True    The ACME account was registered with the ACME server   1m
-```
-
-And your certificate should be present:
-
-```bash
-$ kubectl get certificates -A -o wide
-NAMESPACE     NAME             READY  SECRET             ISSUER                  STATUS                                         AGE
-cert-manager  mydomain-com-tls True   mydomain-com-tls   cloudflare-letsencrypt  Certificate is up to date and has not expired  1m
-```
-
 ## Gateway API Support
 
 Cert-manager can also integrate with the Kubernetes [Gateway API](../../Containers/Kubernetes/gateway-api.md) or Ingress to automatically manage certificates for your Gateways.
@@ -218,7 +202,25 @@ This gateway configuration uses the `cloudflare-letsencrypt` ClusterIssuer we de
             mode: Terminate
             certificateRefs:
               - name: mydomain-com-tls
+                kind: Secret
+                group: ""
     ```
+
+At this point, cert-manager should be ready to issue certificates for your domains. You can validate that the ClusterIssuer is ready by running (wait 1 min or 2, it can take some time):
+
+```bash
+$ kubectl get clusterissuers -o wide
+NAME                        READY   STATUS                                                 AGE
+cloudflare-letsencrypt      True    The ACME account was registered with the ACME server   1m
+```
+
+And your certificate should be present:
+
+```bash
+$ kubectl get certificates -A -o wide
+NAMESPACE     NAME             READY  SECRET             ISSUER                  STATUS                                         AGE
+cert-manager  mydomain-com-tls True   mydomain-com-tls   cloudflare-letsencrypt  Certificate is up to date and has not expired  1m
+```
 
 Now you should be able to access your services using HTTPS :)
 
