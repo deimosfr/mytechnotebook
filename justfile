@@ -4,11 +4,11 @@ default:
 
 # Run the quick reload server for development
 run:
-  source venv/bin/activate && mkdocs serve --dirty
+  source venv/bin/activate && mkdocs serve --dirty --livereload
 
 # Run the production server
 run-prod:
-  source venv/bin/activate && mkdocs serve --strict
+  source venv/bin/activate && mkdocs serve --strict --livereload
 
 # Initialize the project
 init:
