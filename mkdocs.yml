@@ -76,6 +76,7 @@ plugins:
   - macros:
       on_undefined: strict
       on_error_fail: !ENV [MACRO_ERROR_FAIL, false]
+  - rss
 markdown_extensions:
   # code highlight
   - pymdownx.highlight:
