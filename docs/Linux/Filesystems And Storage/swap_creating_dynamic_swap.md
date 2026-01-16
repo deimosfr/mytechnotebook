@@ -4,7 +4,6 @@ slug: swap-creating-dynamic-swap/
 description: "Guide on how to create and manage dynamic swap space in Linux through partition-based and image-based methods."
 categories: ["Linux"]
 date: "2009-09-19T21:47:00+02:00"
-lastmod: "2009-09-19T21:47:00+02:00"
 tags: ["swap", "Linux", "system management", "memory", "partition"]
 ---
 
@@ -49,7 +48,7 @@ I recommend modifying your `/etc/fstab` file so that the swap is used on the nex
 If you can't create a swap partition, you have the option to create a disk image and assign it as additional swap:
 
 ```bash
-dd if=/dev/zero of=/swapfile bs=1M count=64
+dd if=/dev/zero of=/swapfile bs=1M count=64 # 64MB of swap
 chmod 600 /swapfile
 mkswap /swapfile
 swapon /swapfile
@@ -57,5 +56,10 @@ swapon /swapfile
 
 Obviously, this size is small and serves as an example. You should adjust the dd command according to the available space on one of your partitions and adapt it to your swap needs.
 
-## Resources
-- [Documentation on Creating dynamic swap space](../../static/pdf/creating_dynamic_swap_space.pdf)
+Then to get persistence over a system reboot, you can add the following line to your `/etc/fstab` file:
+
+=== "/etc/fstab"
+
+    ```bash
+    /swapfile               swap                    swap    defaults        0 0
+    ```
