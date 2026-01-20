@@ -8,7 +8,7 @@ lastmod: "2012-11-16T08:55:00+02:00"
 tags: ["PostgreSQL", "Database", "SQL", "Backup", "User Management"]
 ---
 
-![PostgreSQL](../../../static/images/bases_de_donnees_icon.avif)
+![PostgreSQL](../../../static/images/postgresql-logo.avif)
 
 |                      |                                                   |
 | -------------------- | ------------------------------------------------- |

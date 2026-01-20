@@ -10,14 +10,6 @@ tags: ["MariaDB", "MySQL", "Database", "Migration", "Debian"]
 
 ![MariaDB](../../../static/images/mariadb-logo.avif)
 
-
-|||
-|---|---|
-| **Software version** | 10 |
-| **Operating System** | Debian 7 |
-| **Website** | [MariaDB Website](https://mariadb.org/) |
-
-
 ## Introduction
 
 MariaDB is a community-developed fork of the MySQL relational database management system, the impetus being the community maintenance of its free status under the GNU GPL. As a fork of a leading open source software system, it is notable for being led by its original developers and triggered by concerns over direction by an acquiring commercial company Oracle. Contributors are required to share their copyright with Monty Program AB.

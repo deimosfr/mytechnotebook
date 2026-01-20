@@ -6,6 +6,8 @@ categories: ["Database", "MariaDB", "Server", "Kubernetes"]
 tags: ["MariaDB", "Database", "SQL", "Kubernetes", "Helm"]
 ---
 
+![MariaDB](../../../static/images/mariadb-logo.avif)
+
 ## Introduction
 
 [MariaDB](./mariadb_migration_from_mysql.md) is a community-developed, commercially supported fork of the MySQL relational database management system. MariaDB is a drop-in replacement for MySQL and is designed to be a more robust, scalable, and secure database solution.
@@ -202,6 +204,33 @@ You can now apply this configuration with kubectl:
 kubectl apply -f mariadb-user.yaml -f mariadb-secret.yaml
 ```
 
+## Create a database
+
+You can create a database with the following configuration:
+
+=== "mariadb-database.yaml"
+
+    ```yaml
+    apiVersion: k8s.mariadb.com/v1alpha1
+    kind: Database
+    metadata:
+      name: database
+    spec:
+      mariaDbRef:
+        name: mariadb
+      characterSet: utf8
+      collate: utf8_general_ci
+      cleanupPolicy: Delete
+      requeueInterval: 10h
+      retryInterval: 30s
+    ```
+
+You can now apply this configuration with kubectl:
+
+```bash
+kubectl apply -f mariadb-database.yaml
+```
+
 ## Grant privileges
 
 You can grant privileges to a user with the following configuration:
@@ -220,7 +249,8 @@ You can grant privileges to a user with the following configuration:
         - "SELECT"
         - "INSERT"
         - "UPDATE"
-        - "ALL PRIVILEGES"
+        # If you want to grant all privileges to the user, remove all above privileges and uncomment the following line
+        #- "ALL PRIVILEGES"
       database: "*"
       table: "*"
       username: mariadb-user # name of the user in MariaDB

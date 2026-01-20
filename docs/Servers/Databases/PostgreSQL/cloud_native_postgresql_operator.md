@@ -6,6 +6,8 @@ categories: ["Database", "PostgreSQL", "Server", "Kubernetes"]
 tags: ["PostgreSQL", "Database", "SQL", "Kubernetes", "Helm"]
 ---
 
+![PostgreSQL](../../../static/images/postgresql-logo.avif)
+
 ## Introduction
 
 [CloudNativePG](https://cloudnative-pg.io/) is the Kubernetes operator that covers the full lifecycle of a highly available PostgreSQL database cluster with a primary/standby architecture, using native streaming replication.
