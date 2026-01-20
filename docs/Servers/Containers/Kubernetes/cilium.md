@@ -143,6 +143,10 @@ helm install --upgrade -n kube-system --values values-overrides.yaml cilium cili
 
 [L2 Announcements](https://docs.cilium.io/en/stable/network/l2-announcements/) makes services visible and reachable on the local area network. This is primarily for on-premises deployments without BGP, serving as a solid alternative to [MetalLB](./metallb_lb_k8s.md).
 
+!!! warning
+
+    L2 announcements are not stable yet. I encountered many various issues, IP unreachable, recover requiring a restart of cilium, etc... **DO NOT USE IN PRODUCTION YET**
+
 When we use this feature, it responds to ARP queries for ExternalIPs and/or LoadBalancer IPs. These IPs are Virtual IPs (not installed on network devices) on multiple nodes. One node at a time will respond to the ARP queries with its MAC address, performing load balancing as a north/south load balancer.
 
 The advantage over NodePort services is that each service can use a unique IP, allowing multiple services to use the same port numbers. With L2 announcements, if a node goes down, the service VIP simply migrates to another node and continues to work.
