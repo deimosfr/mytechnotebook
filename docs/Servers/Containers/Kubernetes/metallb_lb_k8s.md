@@ -39,12 +39,12 @@ Create a pool of IP addresses for the load balancers:
     apiVersion: metallb.io/v1beta1
     kind: IPAddressPool
     metadata:
-    name: metallb-pool
-    namespace: kube-system
+      name: metallb-pool
+      namespace: kube-system
     spec:
-    # 50 available IPs for the load balancers
-    addresses:
-      - 192.168.0.1-192.168.0.50
+      # 50 available IPs for the load balancers
+      addresses:
+        - 192.168.0.1-192.168.0.50
     ```
 
 Then create a layer 2 configuration:
@@ -55,11 +55,11 @@ Then create a layer 2 configuration:
     apiVersion: metallb.io/v1beta1
     kind: L2Advertisement
     metadata:
-    name: l2-advertisement
-    namespace: kube-system
+      name: l2-advertisement
+      namespace: kube-system
     spec:
-    ipAddressPools:
-      - metallb-pool
+      ipAddressPools:
+        - metallb-pool
     ```
 
 Then apply the configuration:
