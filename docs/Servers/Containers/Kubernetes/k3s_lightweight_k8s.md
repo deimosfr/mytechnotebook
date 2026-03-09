@@ -215,3 +215,80 @@ Then update your kubeconfig to use the load balancer IP with the load balanced I
         server: https://x.x.x.x
     {% endraw %}
     ```
+
+## Worker node behind Wireguard
+
+If you connect some remote node with Wireguard, you will certainly face to Prometheus error [`KubeAggregatedAPIDown`](https://runbooks.prometheus-operator.dev/runbooks/kubernetes/kubeaggregatedapidown/) and K3s/etcd Raft logs error `dropped internal Raft message since sending buffer is full`.
+
+!!! question "What is Raft?"
+
+    [Raft](https://en.wikipedia.org/wiki/Raft_(algorithm)) is a consensus algorithm used by distributed systems to maintain consistency across multiple nodes. On Kubernetes, etcd uses Raft to maintain consistency across multiple nodes.
+
+This is due to the fact that the default MTU of the Wireguard interface (`wg0`) is around 1360 bytes, which is smaller than the default MTU of the underlying network interface, like [Cilium CNI](./cilium.md). Your CNI may have an MTU autodetect mechanism, but it's not bullet proof. This causes the Raft messages to be fragmented, which in turn causes the Raft protocol to fail.
+
+If you're running in an enterprise environment, enabling [Jumbo Frames](https://en.wikipedia.org/wiki/Jumbo_frame) and raise the wireguard MTU around 8940, and network card to 9000 could solve the issue.
+
+In a case you have to deal with most of the internet network (like home labs for example), you'll have to deal with the legacy MTU, set to 1500 and we have to lower our own MTU.
+
+First you need ensure that the Wireguard MTU is lower than the network interface. In your Wireguard config, set the MTU on the Wireguard interface and enable [`TCP MSS Clamping`](https://www.cloudflare.com/th-th/learning/network-layer/what-is-mss/) to avoid fragmentation:
+
+=== "/etc/wireguard/wg0.conf"
+
+    ```ini
+    [Interface]
+    MTU = 1360
+    PostUp = iptables -t mangle -I POSTROUTING -o wg0 -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
+    PreDown = iptables -t mangle -D POSTROUTING -o wg0 -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
+    ...
+    ```
+
+Then, we'll update the MTU of the CNI. If you're using [Cilium](./cilium.md) with its helm chart, simply add this to your configuration (warning: VXLAN overhead +50 bytes):
+
+=== "values.yaml"
+
+    ```yaml
+    MTU: 1280
+    ```
+
+To make it clear, here is global picture:
+
+```mermaid
+flowchart TD
+    Pod["Pod Payload / Raft Message"]
+    
+    subgraph cni_layer ["CNI Layer"]
+        CNI["Cilium Interface<br/>MTU: 1280 bytes"]
+    end
+    
+    subgraph vpn_layer ["VPN Layer"]
+        WG["Wireguard Interface (wg0)<br/>MTU: 1360 bytes"]
+    end
+    
+    subgraph physical_layer ["Physical Layer"]
+        ETH["Physical Interface (eth0)<br/>MTU: 1500 bytes"]
+    end
+    
+    subgraph internet_layer ["Internet Layer"]
+        INT["Internet Legacy<br/>MTU: 1500 bytes"]
+    end
+
+    Pod --> cni_layer
+    cni_layer -->|"Encapsulated"| vpn_layer
+    vpn_layer -->|"Encapsulated"| physical_layer
+    physical_layer -->|"Sent over"| internet_layer
+```
+
+Finally, restart your k3s and wireguard service:
+
+```bash
+systemctl restart k3s.service
+systemctl restart wg-quick@wg0.service
+```
+
+If you observe Etcd logs through Prometheus, you should see a better result with this query:
+
+```
+histogram_quantile(0.99, sum by (le) (rate(etcd_request_duration_seconds_bucket[5m])))
+```
+
+![MTU MSS Clamping](../../../static/images/etcd_mtu_mss_clamp.avif){ .no-border width=800 }
