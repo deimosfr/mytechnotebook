@@ -202,12 +202,12 @@
 </span><span id=__span-9-3><a id=__codelineno-9-3 name=__codelineno-9-3></a><span class=na>PostUp</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=s>iptables -t mangle -I POSTROUTING -o wg0 -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu</span>
 </span><span id=__span-9-4><a id=__codelineno-9-4 name=__codelineno-9-4></a><span class=na>PreDown</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=s>iptables -t mangle -D POSTROUTING -o wg0 -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu</span>
 </span><span id=__span-9-5><a id=__codelineno-9-5 name=__codelineno-9-5></a><span class=na>...</span>
-</span></code></pre></div></td></tr></table></div> </div> </div> </div> <p>Then, we'll update the MTU of the CNI. If you're using <a href=../cilium/ >Cilium</a> with its helm chart, simply add this to your configuration:</p> <div class="tabbed-set tabbed-alternate" data-tabs=8:1><input checked=checked id=__tabbed_8_1 name=__tabbed_8 type=radio><div class=tabbed-labels><label for=__tabbed_8_1>values.yaml</label></div> <div class=tabbed-content> <div class=tabbed-block> <div class="language-yaml highlight"><table class=highlighttable><tr><td class=linenos><div class=linenodiv><pre><span></span><span class=normal><a href=#__codelineno-10-1>1</a></span></pre></div></td><td class=code><div><pre><span></span><code><span id=__span-10-1><a id=__codelineno-10-1 name=__codelineno-10-1></a><span class=nt>MTU</span><span class=p>:</span><span class=w> </span><span class="l l-Scalar l-Scalar-Plain">1340</span>
+</span></code></pre></div></td></tr></table></div> </div> </div> </div> <p>Then, we'll update the MTU of the CNI. If you're using <a href=../cilium/ >Cilium</a> with its helm chart, simply add this to your configuration (warning: VXLAN overhead +50 bytes):</p> <div class="tabbed-set tabbed-alternate" data-tabs=8:1><input checked=checked id=__tabbed_8_1 name=__tabbed_8 type=radio><div class=tabbed-labels><label for=__tabbed_8_1>values.yaml</label></div> <div class=tabbed-content> <div class=tabbed-block> <div class="language-yaml highlight"><table class=highlighttable><tr><td class=linenos><div class=linenodiv><pre><span></span><span class=normal><a href=#__codelineno-10-1>1</a></span></pre></div></td><td class=code><div><pre><span></span><code><span id=__span-10-1><a id=__codelineno-10-1 name=__codelineno-10-1></a><span class=nt>MTU</span><span class=p>:</span><span class=w> </span><span class="l l-Scalar l-Scalar-Plain">1280</span>
 </span></code></pre></div></td></tr></table></div> </div> </div> </div> <p>To make it clear, here is global picture:</p> <pre class=mermaid><code>flowchart TD
     Pod["Pod Payload / Raft Message"]
 
     subgraph cni_layer ["CNI Layer"]
-        CNI["Cilium Interface&lt;br/&gt;MTU: 1340 bytes"]
+        CNI["Cilium Interface&lt;br/&gt;MTU: 1280 bytes"]
     end
 
     subgraph vpn_layer ["VPN Layer"]
