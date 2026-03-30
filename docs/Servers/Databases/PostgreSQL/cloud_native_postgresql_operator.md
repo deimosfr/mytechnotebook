@@ -308,3 +308,67 @@ kubectl apply -f cluster.yaml -f postgres-backup-s3.yaml -f postgres-backup-s3-s
 ```
 
 You should see the cluster WAL coming into the S3 bucket.
+
+## Restore
+
+If all your nodes are in a bad shape and you need to restore the cluster. Here is the procedure:
+
+1. We'll start by deleting the existing cluster (if we want to keep the same name):
+    ```bash
+    kubectl delete cluster pg-cluster
+    ```
+
+2. Then, let's update our cluster configuration by adding the recovery section:
+
+    === "cluster.yaml (with PITR)"
+
+        ```yaml
+        # Backup recovery bootstrap
+        bootstrap:
+          recovery:
+            source: origin
+            recoveryTarget:
+              targetTime: "2026-03-30 11:14:21.000000+00"
+        # Define the source of your recovery config
+        externalClusters:
+          - name: origin
+            plugin:
+              name: barman-cloud.cloudnative-pg.io
+              parameters:
+                barmanObjectName: postgres-backup-s3
+                # add a new name to distinguich the new cluster and avoid restoration issues
+                serverName: pg-cluster-restored
+        ```
+
+    === "cluster.yaml (without PITR)"
+
+        ```yaml
+        # Backup recovery bootstrap
+        bootstrap:
+          recovery:
+            source: origin
+        # Define the source of your recovery config
+        externalClusters:
+          - name: origin
+            plugin:
+              name: barman-cloud.cloudnative-pg.io
+              parameters:
+                barmanObjectName: postgres-backup-s3
+                serverName: pg-cluster
+        plugins:
+          - name: barman-cloud.cloudnative-pg.io
+            isWALArchiver: true
+            parameters:
+              barmanObjectName: postgres-backup-s3
+              # add a new name to distinguich the new cluster and avoid restoration issues
+              serverName: pg-cluster-restored
+        ```
+
+3. Finally, we'll apply the configuration:
+    ```bash
+    kubectl apply -f cluster.yaml
+    ```
+
+!!! note
+    
+    Once the cluster is restored, you need to update the cluster configuration to **remove or comment** the `bootstrap` section and the `externalClusters` section.
