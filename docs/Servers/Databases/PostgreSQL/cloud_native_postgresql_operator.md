@@ -327,6 +327,7 @@ If all your nodes are in a bad shape and you need to restore the cluster. Here i
         bootstrap:
           recovery:
             source: origin
+            # optional: if you don't specify the recovery target, the cluster will be restored to the latest available backup
             recoveryTarget:
               targetTime: "2026-03-30 11:14:21.000000+00"
         # Define the source of your recovery config
